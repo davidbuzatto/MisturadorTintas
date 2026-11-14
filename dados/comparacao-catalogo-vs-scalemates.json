@@ -1,0 +1,709 @@
+[
+ {
+  "code": "XF-14",
+  "name": "J.A. Grey",
+  "current": "#6e6a52",
+  "scalemates": "#e8e6bd",
+  "dE00": 36.9
+ },
+ {
+  "code": "XF-54",
+  "name": "Dark Sea Grey",
+  "current": "#4e544c",
+  "scalemates": "#a6a6a6",
+  "dE00": 33.5
+ },
+ {
+  "code": "X-28",
+  "name": "Park Green",
+  "current": "#1f4a2e",
+  "scalemates": "#33a44d",
+  "dE00": 32.2
+ },
+ {
+  "code": "X-19",
+  "name": "Smoke",
+  "current": "#4c4744",
+  "scalemates": "#8f918c",
+  "dE00": 28.2
+ },
+ {
+  "code": "XF-71",
+  "name": "Cockpit Green (IJN)",
+  "current": "#384a34",
+  "scalemates": "#74925d",
+  "dE00": 26.8
+ },
+ {
+  "code": "X-23",
+  "name": "Clear Blue",
+  "current": "#2f6fae",
+  "scalemates": "#33b4d1",
+  "dE00": 26.2
+ },
+ {
+  "code": "XF-89",
+  "name": "Dark Green 2",
+  "current": "#37432c",
+  "scalemates": "#5c8462",
+  "dE00": 22.8
+ },
+ {
+  "code": "XF-76",
+  "name": "Gray Green (IJN)",
+  "current": "#767a68",
+  "scalemates": "#b8c3a7",
+  "dE00": 22.8
+ },
+ {
+  "code": "X-34",
+  "name": "Metallic Brown",
+  "current": "#5a3d2a",
+  "scalemates": "#b7561f",
+  "dE00": 22.2
+ },
+ {
+  "code": "XF-12",
+  "name": "J.N. Grey",
+  "current": "#8a8a78",
+  "scalemates": "#c6d6bb",
+  "dE00": 21.8
+ },
+ {
+  "code": "X-33",
+  "name": "Bronze",
+  "current": "#7a5a35",
+  "scalemates": "#672622",
+  "dE00": 21.3
+ },
+ {
+  "code": "XF-51",
+  "name": "Khaki Drab",
+  "current": "#6b6142",
+  "scalemates": "#29330e",
+  "dE00": 19.2
+ },
+ {
+  "code": "X-27",
+  "name": "Clear Red",
+  "current": "#a3212b",
+  "scalemates": "#fa0026",
+  "dE00": 17.6
+ },
+ {
+  "code": "XF-93",
+  "name": "Light Brown (DAK 1942)",
+  "current": "#a3805a",
+  "scalemates": "#e5b36e",
+  "dE00": 17.5
+ },
+ {
+  "code": "XF-18",
+  "name": "Medium Blue",
+  "current": "#34558a",
+  "scalemates": "#485b5f",
+  "dE00": 17.4
+ },
+ {
+  "code": "XF-20",
+  "name": "Medium Grey",
+  "current": "#7d7f78",
+  "scalemates": "#b4b5ad",
+  "dE00": 17.3
+ },
+ {
+  "code": "XF-23",
+  "name": "Light Blue",
+  "current": "#7fa8c9",
+  "scalemates": "#8fb5ad",
+  "dE00": 17.3
+ },
+ {
+  "code": "X-7",
+  "name": "Red",
+  "current": "#b31e24",
+  "scalemates": "#ff0000",
+  "dE00": 16.7
+ },
+ {
+  "code": "XF-7",
+  "name": "Flat Red",
+  "current": "#b02020",
+  "scalemates": "#fd0000",
+  "dE00": 16.2
+ },
+ {
+  "code": "X-31",
+  "name": "Titanium Gold",
+  "current": "#a9863f",
+  "scalemates": "#cbbb72",
+  "dE00": 16.0
+ },
+ {
+  "code": "X-25",
+  "name": "Clear Green",
+  "current": "#2f8a4f",
+  "scalemates": "#27b541",
+  "dE00": 15.1
+ },
+ {
+  "code": "X-16",
+  "name": "Purple",
+  "current": "#5b3568",
+  "scalemates": "#474ba0",
+  "dE00": 15.0
+ },
+ {
+  "code": "X-32",
+  "name": "Titanium Silver",
+  "current": "#9a9c99",
+  "scalemates": "#cdccb8",
+  "dE00": 14.9
+ },
+ {
+  "code": "X-4",
+  "name": "Blue",
+  "current": "#1c5fae",
+  "scalemates": "#09347b",
+  "dE00": 14.8
+ },
+ {
+  "code": "XF-83",
+  "name": "Medium Sea Gray 2 (RAF)",
+  "current": "#8d9187",
+  "scalemates": "#aabfba",
+  "dE00": 14.5
+ },
+ {
+  "code": "X-13",
+  "name": "Metallic Blue",
+  "current": "#26538a",
+  "scalemates": "#1e7497",
+  "dE00": 14.3
+ },
+ {
+  "code": "XF-4",
+  "name": "Yellow Green",
+  "current": "#8a9a3a",
+  "scalemates": "#b2c60f",
+  "dE00": 14.2
+ },
+ {
+  "code": "XF-21",
+  "name": "Sky",
+  "current": "#a9c19a",
+  "scalemates": "#e7f6b5",
+  "dE00": 14.2
+ },
+ {
+  "code": "XF-82",
+  "name": "Ocean Gray 2 (RAF)",
+  "current": "#71766f",
+  "scalemates": "#6c8c99",
+  "dE00": 14.1
+ },
+ {
+  "code": "XF-66",
+  "name": "Light Grey",
+  "current": "#9a9a90",
+  "scalemates": "#748a95",
+  "dE00": 14.0
+ },
+ {
+  "code": "XF-88",
+  "name": "Dark Yellow 2",
+  "current": "#a9863f",
+  "scalemates": "#c1af4d",
+  "dE00": 13.7
+ },
+ {
+  "code": "XF-17",
+  "name": "Sea Blue",
+  "current": "#24406b",
+  "scalemates": "#2e3b43",
+  "dE00": 13.1
+ },
+ {
+  "code": "XF-65",
+  "name": "Field Grey",
+  "current": "#6f7062",
+  "scalemates": "#67856b",
+  "dE00": 13.0
+ },
+ {
+  "code": "XF-67",
+  "name": "NATO Green",
+  "current": "#3d4a30",
+  "scalemates": "#33601a",
+  "dE00": 12.6
+ },
+ {
+  "code": "X-9",
+  "name": "Brown",
+  "current": "#6b4a34",
+  "scalemates": "#4d2207",
+  "dE00": 12.6
+ },
+ {
+  "code": "XF-19",
+  "name": "Sky Grey",
+  "current": "#a7ab9c",
+  "scalemates": "#adb7c0",
+  "dE00": 12.5
+ },
+ {
+  "code": "XF-28",
+  "name": "Dark Copper",
+  "current": "#6b4226",
+  "scalemates": "#995f3b",
+  "dE00": 12.5
+ },
+ {
+  "code": "X-5",
+  "name": "Green",
+  "current": "#1f6b3a",
+  "scalemates": "#00441b",
+  "dE00": 12.4
+ },
+ {
+  "code": "XF-68",
+  "name": "NATO Brown",
+  "current": "#5a4128",
+  "scalemates": "#733007",
+  "dE00": 12.1
+ },
+ {
+  "code": "XF-80",
+  "name": "Royal Light Gray",
+  "current": "#9ea296",
+  "scalemates": "#c1cac8",
+  "dE00": 12.0
+ },
+ {
+  "code": "XF-6",
+  "name": "Copper",
+  "current": "#9a5a34",
+  "scalemates": "#cb5c03",
+  "dE00": 11.9
+ },
+ {
+  "code": "XF-16",
+  "name": "Flat Aluminium",
+  "current": "#9fa1a0",
+  "scalemates": "#cccccc",
+  "dE00": 11.9
+ },
+ {
+  "code": "XF-90",
+  "name": "Red Brown 2",
+  "current": "#6a3226",
+  "scalemates": "#4c3933",
+  "dE00": 11.9
+ },
+ {
+  "code": "XF-58",
+  "name": "Olive Green",
+  "current": "#4a4f2e",
+  "scalemates": "#1a3b14",
+  "dE00": 11.9
+ },
+ {
+  "code": "XF-72",
+  "name": "Brown (JGSDF)",
+  "current": "#5a4632",
+  "scalemates": "#734c0c",
+  "dE00": 11.9
+ },
+ {
+  "code": "XF-70",
+  "name": "Dark Green 2",
+  "current": "#33422c",
+  "scalemates": "#00250f",
+  "dE00": 11.8
+ },
+ {
+  "code": "XF-60",
+  "name": "Dark Yellow",
+  "current": "#b3924f",
+  "scalemates": "#c7b140",
+  "dE00": 11.6
+ },
+ {
+  "code": "XF-9",
+  "name": "Hull Red",
+  "current": "#6b2f28",
+  "scalemates": "#3e0e02",
+  "dE00": 11.2
+ },
+ {
+  "code": "XF-50",
+  "name": "Field Blue",
+  "current": "#47576b",
+  "scalemates": "#364145",
+  "dE00": 10.9
+ },
+ {
+  "code": "XF-25",
+  "name": "Light Sea Grey",
+  "current": "#8d9086",
+  "scalemates": "#6b7b7a",
+  "dE00": 10.8
+ },
+ {
+  "code": "XF-22",
+  "name": "RLM Grey",
+  "current": "#6d7264",
+  "scalemates": "#7b8d7d",
+  "dE00": 10.8
+ },
+ {
+  "code": "XF-91",
+  "name": "IJN Gray (Yokosuka Arsenal)",
+  "current": "#6a6c62",
+  "scalemates": "#636c75",
+  "dE00": 10.7
+ },
+ {
+  "code": "XF-74",
+  "name": "Olive Drab (JGSDF)",
+  "current": "#55573a",
+  "scalemates": "#334012",
+  "dE00": 10.7
+ },
+ {
+  "code": "XF-64",
+  "name": "Red Brown",
+  "current": "#6d3a2c",
+  "scalemates": "#66370a",
+  "dE00": 10.5
+ },
+ {
+  "code": "X-15",
+  "name": "Light Green",
+  "current": "#74a35a",
+  "scalemates": "#66b821",
+  "dE00": 10.3
+ },
+ {
+  "code": "XF-75",
+  "name": "IJN Gray (Kure Arsenal)",
+  "current": "#7c7d74",
+  "scalemates": "#828d93",
+  "dE00": 10.2
+ },
+ {
+  "code": "XF-10",
+  "name": "Flat Brown",
+  "current": "#5a3d29",
+  "scalemates": "#392821",
+  "dE00": 10.0
+ },
+ {
+  "code": "XF-81",
+  "name": "Dark Green 2 (RAF)",
+  "current": "#38402c",
+  "scalemates": "#365535",
+  "dE00": 9.9
+ },
+ {
+  "code": "XF-79",
+  "name": "Linoleum Deck Brown",
+  "current": "#5b4536",
+  "scalemates": "#784629",
+  "dE00": 9.7
+ },
+ {
+  "code": "XF-61",
+  "name": "Dark Green",
+  "current": "#384a2c",
+  "scalemates": "#1a2d0f",
+  "dE00": 9.3
+ },
+ {
+  "code": "XF-87",
+  "name": "IJN Gray (Maizuru Arsenal)",
+  "current": "#74766d",
+  "scalemates": "#7d8085",
+  "dE00": 9.0
+ },
+ {
+  "code": "XF-27",
+  "name": "Black Green",
+  "current": "#253524",
+  "scalemates": "#00260f",
+  "dE00": 8.5
+ },
+ {
+  "code": "XF-2",
+  "name": "Flat White",
+  "current": "#e9e4d6",
+  "scalemates": "#ffffff",
+  "dE00": 8.5
+ },
+ {
+  "code": "XF-62",
+  "name": "Olive Drab",
+  "current": "#4b4d33",
+  "scalemates": "#404b13",
+  "dE00": 8.4
+ },
+ {
+  "code": "X-26",
+  "name": "Clear Orange",
+  "current": "#d97a2a",
+  "scalemates": "#fe8c14",
+  "dE00": 8.3
+ },
+ {
+  "code": "XF-57",
+  "name": "Buff",
+  "current": "#c9b07e",
+  "scalemates": "#c69a69",
+  "dE00": 8.2
+ },
+ {
+  "code": "X-14",
+  "name": "Sky Blue",
+  "current": "#6fa8c9",
+  "scalemates": "#1d99c4",
+  "dE00": 8.0
+ },
+ {
+  "code": "XF-11",
+  "name": "J.N. Green",
+  "current": "#2d3d2a",
+  "scalemates": "#26330b",
+  "dE00": 8.0
+ },
+ {
+  "code": "X-18",
+  "name": "Semi-Gloss Black",
+  "current": "#1c1a18",
+  "scalemates": "#333333",
+  "dE00": 8.0
+ },
+ {
+  "code": "XF-26",
+  "name": "Deep Green",
+  "current": "#2c4a2e",
+  "scalemates": "#295b28",
+  "dE00": 8.0
+ },
+ {
+  "code": "XF-3",
+  "name": "Flat Yellow",
+  "current": "#d9b93a",
+  "scalemates": "#ffcc00",
+  "dE00": 7.9
+ },
+ {
+  "code": "XF-15",
+  "name": "Flat Flesh",
+  "current": "#dcae87",
+  "scalemates": "#fdcda1",
+  "dE00": 7.9
+ },
+ {
+  "code": "XF-55",
+  "name": "Deck Tan",
+  "current": "#c3a878",
+  "scalemates": "#b7b187",
+  "dE00": 7.7
+ },
+ {
+  "code": "X-3",
+  "name": "Royal Blue",
+  "current": "#1f3f77",
+  "scalemates": "#1d2d53",
+  "dE00": 7.5
+ },
+ {
+  "code": "X-12",
+  "name": "Gold Leaf",
+  "current": "#b6963f",
+  "scalemates": "#cca208",
+  "dE00": 7.2
+ },
+ {
+  "code": "XF-84",
+  "name": "Dark Iron",
+  "current": "#453f3c",
+  "scalemates": "#514434",
+  "dE00": 7.2
+ },
+ {
+  "code": "XF-13",
+  "name": "J.A. Green",
+  "current": "#4a5031",
+  "scalemates": "#334a1f",
+  "dE00": 7.1
+ },
+ {
+  "code": "X-24",
+  "name": "Clear Yellow",
+  "current": "#e8c93a",
+  "scalemates": "#fde637",
+  "dE00": 7.1
+ },
+ {
+  "code": "XF-53",
+  "name": "Neutral Grey",
+  "current": "#74746c",
+  "scalemates": "#6e797b",
+  "dE00": 7.0
+ },
+ {
+  "code": "XF-73",
+  "name": "Dark Green (JGSDF)",
+  "current": "#35422a",
+  "scalemates": "#334012",
+  "dE00": 6.8
+ },
+ {
+  "code": "XF-5",
+  "name": "Flat Green",
+  "current": "#37502f",
+  "scalemates": "#224311",
+  "dE00": 6.8
+ },
+ {
+  "code": "XF-85",
+  "name": "Rubber Black",
+  "current": "#2a2724",
+  "scalemates": "#231814",
+  "dE00": 6.8
+ },
+ {
+  "code": "XF-77",
+  "name": "IJN Gray (Sasebo Arsenal)",
+  "current": "#6f716a",
+  "scalemates": "#686d71",
+  "dE00": 6.5
+ },
+ {
+  "code": "X-17",
+  "name": "Pink",
+  "current": "#d98aa0",
+  "scalemates": "#f881ac",
+  "dE00": 6.4
+ },
+ {
+  "code": "XF-78",
+  "name": "Wooden Deck Tan",
+  "current": "#c7a06a",
+  "scalemates": "#d3b685",
+  "dE00": 6.4
+ },
+ {
+  "code": "XF-24",
+  "name": "Dark Grey",
+  "current": "#4c4e4a",
+  "scalemates": "#3e4448",
+  "dE00": 6.1
+ },
+ {
+  "code": "XF-59",
+  "name": "Desert Yellow",
+  "current": "#c9a35e",
+  "scalemates": "#d89c42",
+  "dE00": 6.0
+ },
+ {
+  "code": "XF-49",
+  "name": "Khaki",
+  "current": "#8c7c50",
+  "scalemates": "#7e783f",
+  "dE00": 5.7
+ },
+ {
+  "code": "XF-1",
+  "name": "Flat Black",
+  "current": "#201d1a",
+  "scalemates": "#0a0a0a",
+  "dE00": 5.7
+ },
+ {
+  "code": "XF-56",
+  "name": "Metallic Grey",
+  "current": "#6c6d6a",
+  "scalemates": "#5c6264",
+  "dE00": 5.6
+ },
+ {
+  "code": "XF-92",
+  "name": "Yellow-Brown (DAK 1941)",
+  "current": "#af8c56",
+  "scalemates": "#b28251",
+  "dE00": 5.3
+ },
+ {
+  "code": "XF-8",
+  "name": "Flat Blue",
+  "current": "#33468f",
+  "scalemates": "#284c7c",
+  "dE00": 5.2
+ },
+ {
+  "code": "X-8",
+  "name": "Lemon Yellow",
+  "current": "#f0d21e",
+  "scalemates": "#fde601",
+  "dE00": 4.9
+ },
+ {
+  "code": "X-6",
+  "name": "Orange",
+  "current": "#e8791f",
+  "scalemates": "#ff7f00",
+  "dE00": 4.5
+ },
+ {
+  "code": "X-2",
+  "name": "White",
+  "current": "#f2f0ea",
+  "scalemates": "#ffffff",
+  "dE00": 4.3
+ },
+ {
+  "code": "XF-52",
+  "name": "Flat Earth",
+  "current": "#6d4a30",
+  "scalemates": "#734834",
+  "dE00": 4.1
+ },
+ {
+  "code": "XF-63",
+  "name": "German Grey",
+  "current": "#4a4d4d",
+  "scalemates": "#3e474a",
+  "dE00": 3.9
+ },
+ {
+  "code": "X-10",
+  "name": "Gun Metal",
+  "current": "#52514f",
+  "scalemates": "#505557",
+  "dE00": 3.9
+ },
+ {
+  "code": "X-1",
+  "name": "Black",
+  "current": "#141414",
+  "scalemates": "#000000",
+  "dE00": 3.7
+ },
+ {
+  "code": "XF-69",
+  "name": "NATO Black",
+  "current": "#201f1c",
+  "scalemates": "#222424",
+  "dE00": 3.0
+ },
+ {
+  "code": "X-11",
+  "name": "Chrome Silver",
+  "current": "#c9cbcb",
+  "scalemates": "#c2c8ca",
+  "dE00": 2.1
+ }
+]

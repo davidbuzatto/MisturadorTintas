@@ -1,0 +1,1370 @@
+[
+ {
+  "sku": "36101",
+  "name": "Clear",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#fdfdfe"
+ },
+ {
+  "sku": "36102",
+  "name": "Clear",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#ffffff"
+ },
+ {
+  "sku": "36104",
+  "name": "White",
+  "finish": "Gloss",
+  "ral": "9010",
+  "linha": "Aqua Color",
+  "hex": "#f1f2eb"
+ },
+ {
+  "sku": "36105",
+  "name": "White",
+  "finish": "Matte",
+  "ral": "9001",
+  "linha": "Aqua Color",
+  "hex": "#ffffff"
+ },
+ {
+  "sku": "36106",
+  "name": "Tar Black",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#252527"
+ },
+ {
+  "sku": "36107",
+  "name": "Black",
+  "finish": "Gloss",
+  "ral": "9005",
+  "linha": "Aqua Color",
+  "hex": "#161618"
+ },
+ {
+  "sku": "36108",
+  "name": "Black",
+  "finish": "Matte",
+  "ral": "9011",
+  "linha": "Aqua Color",
+  "hex": "#222126"
+ },
+ {
+  "sku": "36109",
+  "name": "Anthrazit",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#303038"
+ },
+ {
+  "sku": "36112",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "ral": "1018",
+  "linha": "Aqua Color",
+  "hex": "#f9d738"
+ },
+ {
+  "sku": "36115",
+  "name": "Yellow",
+  "finish": "Matte",
+  "ral": "1017",
+  "linha": "Aqua Color",
+  "hex": "#fed73a"
+ },
+ {
+  "sku": "36116",
+  "name": "Sandy Yellow",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#ba9551"
+ },
+ {
+  "sku": "36117",
+  "name": "Africa-brown",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#d69a64"
+ },
+ {
+  "sku": "36125",
+  "name": "Luminous Orange",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#fb0102"
+ },
+ {
+  "sku": "36130",
+  "name": "Orange",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#e6530e"
+ },
+ {
+  "sku": "36131",
+  "name": "Fiery Red",
+  "finish": "Gloss",
+  "ral": "3000",
+  "linha": "Aqua Color",
+  "hex": "#9e2627"
+ },
+ {
+  "sku": "36134",
+  "name": "Italian Red",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#c50125"
+ },
+ {
+  "sku": "36135",
+  "name": "Flesh",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#eda87e"
+ },
+ {
+  "sku": "36136",
+  "name": "Carmine Red",
+  "finish": "Matte",
+  "ral": "3002",
+  "linha": "Aqua Color",
+  "hex": "#9b1329"
+ },
+ {
+  "sku": "36137",
+  "name": "Reddish Brown",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#6c302f"
+ },
+ {
+  "sku": "36139",
+  "name": "Dark Green",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#1c5947"
+ },
+ {
+  "sku": "36140",
+  "name": "Black-green",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#013a33"
+ },
+ {
+  "sku": "36142",
+  "name": "Olive Yellow",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#404235"
+ },
+ {
+  "sku": "36143",
+  "name": "Grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#8a8f95"
+ },
+ {
+  "sku": "36145",
+  "name": "Light Olive",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#787a6d"
+ },
+ {
+  "sku": "36146",
+  "name": "Nato Olive",
+  "finish": "Matte",
+  "ral": "7013",
+  "linha": "Aqua Color",
+  "hex": "#5c5249"
+ },
+ {
+  "sku": "36147",
+  "name": "Mouse Grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#6f7072"
+ },
+ {
+  "sku": "36148",
+  "name": "Sea Green",
+  "finish": "Matte",
+  "ral": "6028",
+  "linha": "Aqua Color",
+  "hex": "#2f554a"
+ },
+ {
+  "sku": "36149",
+  "name": "Light Blue",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#87b8b5"
+ },
+ {
+  "sku": "36150",
+  "name": "Light Blue",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#287fba"
+ },
+ {
+  "sku": "36151",
+  "name": "Ultramarine-blue",
+  "finish": "Gloss",
+  "ral": "5002",
+  "linha": "Aqua Color",
+  "hex": "#172c7b"
+ },
+ {
+  "sku": "36152",
+  "name": "Blue",
+  "finish": "Gloss",
+  "ral": "5005",
+  "linha": "Aqua Color",
+  "hex": "#024288"
+ },
+ {
+  "sku": "36154",
+  "name": "Night Blue",
+  "finish": "Gloss",
+  "ral": "5022",
+  "linha": "Aqua Color",
+  "hex": "#272658"
+ },
+ {
+  "sku": "36155",
+  "name": "Light Green",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#77bbbc"
+ },
+ {
+  "sku": "36156",
+  "name": "Blue",
+  "finish": "Matte",
+  "ral": "5000",
+  "linha": "Aqua Color",
+  "hex": "#0170b8"
+ },
+ {
+  "sku": "36157",
+  "name": "Grey",
+  "finish": "Matte",
+  "ral": "7000",
+  "linha": "Aqua Color",
+  "hex": "#7a8692"
+ },
+ {
+  "sku": "36159",
+  "name": "Sky",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#c3d2b2"
+ },
+ {
+  "sku": "36161",
+  "name": "Emerald Green",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#026e44"
+ },
+ {
+  "sku": "36162",
+  "name": "Sea Green",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#0f4337"
+ },
+ {
+  "sku": "36165",
+  "name": "Bronze Green",
+  "finish": "Matte",
+  "ral": "6031",
+  "linha": "Aqua Color",
+  "hex": "#49553f"
+ },
+ {
+  "sku": "36166",
+  "name": "Olive Grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#58585a"
+ },
+ {
+  "sku": "36167",
+  "name": "Greenish Gray",
+  "finish": "Matte",
+  "ral": "7009",
+  "linha": "Aqua Color",
+  "hex": "#5a5c59"
+ },
+ {
+  "sku": "36168",
+  "name": "Dark Green",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#284738"
+ },
+ {
+  "sku": "36169",
+  "name": "Granite Grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#363f46"
+ },
+ {
+  "sku": "36174",
+  "name": "Gunship-grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#5f626b"
+ },
+ {
+  "sku": "36175",
+  "name": "Stone Grey",
+  "finish": "Matte",
+  "ral": "7030",
+  "linha": "Aqua Color",
+  "hex": "#909189"
+ },
+ {
+  "sku": "36176",
+  "name": "Light Grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#a1a2a6"
+ },
+ {
+  "sku": "36177",
+  "name": "Dust Grey",
+  "finish": "Matte",
+  "ral": "7012",
+  "linha": "Aqua Color",
+  "hex": "#585d63"
+ },
+ {
+  "sku": "36178",
+  "name": "Tank Gray",
+  "finish": "Matte",
+  "ral": "7024",
+  "linha": "Aqua Color",
+  "hex": "#474b54"
+ },
+ {
+  "sku": "36179",
+  "name": "Greyish Blue",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#5d6771"
+ },
+ {
+  "sku": "36180",
+  "name": "Mud Brown",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#7f5233"
+ },
+ {
+  "sku": "36182",
+  "name": "Dark-earth",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#8c673d"
+ },
+ {
+  "sku": "36183",
+  "name": "Rust",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#884c4e"
+ },
+ {
+  "sku": "36184",
+  "name": "Leather Brown",
+  "finish": "Matte",
+  "ral": "8027",
+  "linha": "Aqua Color",
+  "hex": "#593c41"
+ },
+ {
+  "sku": "36185",
+  "name": "Brown",
+  "finish": "Matte",
+  "ral": "8023",
+  "linha": "Aqua Color",
+  "hex": "#a55d35"
+ },
+ {
+  "sku": "36186",
+  "name": "Olive Brown",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#746345"
+ },
+ {
+  "sku": "36187",
+  "name": "Earth Brown",
+  "finish": "Matte",
+  "ral": "7006",
+  "linha": "Aqua Color",
+  "hex": "#776b5d"
+ },
+ {
+  "sku": "36188",
+  "name": "Ochre Brown",
+  "finish": "Matte",
+  "ral": "1011",
+  "linha": "Aqua Color",
+  "hex": "#b08654"
+ },
+ {
+  "sku": "36189",
+  "name": "Beige",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#a8927d"
+ },
+ {
+  "sku": "36190",
+  "name": "Silver",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#adb0b6"
+ },
+ {
+  "sku": "36191",
+  "name": "Steel",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#7d8187"
+ },
+ {
+  "sku": "36192",
+  "name": "Brass",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#c89803"
+ },
+ {
+  "sku": "36193",
+  "name": "Copper",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#ba7a57"
+ },
+ {
+  "sku": "36194",
+  "name": "Gold",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#d6ba8e"
+ },
+ {
+  "sku": "36195",
+  "name": "Bronze",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#a46b41"
+ },
+ {
+  "sku": "36199",
+  "name": "Aluminum",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#c3c7cc"
+ },
+ {
+  "sku": "36301",
+  "name": "White",
+  "finish": "Silk",
+  "ral": "9010",
+  "linha": "Aqua Color",
+  "hex": "#f3f4ec"
+ },
+ {
+  "sku": "36302",
+  "name": "Black",
+  "finish": "Silk",
+  "ral": "9005",
+  "linha": "Aqua Color",
+  "hex": "#161618"
+ },
+ {
+  "sku": "36310",
+  "name": "Yellow",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#fda601"
+ },
+ {
+  "sku": "36312",
+  "name": "Luminous Yellow",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#ece942"
+ },
+ {
+  "sku": "36314",
+  "name": "Beige",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#cfb489"
+ },
+ {
+  "sku": "36330",
+  "name": "Fiery Red",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#a22827"
+ },
+ {
+  "sku": "36331",
+  "name": "Purple Red",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#6c192b"
+ },
+ {
+  "sku": "36332",
+  "name": "Luminous Red",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#c0101b"
+ },
+ {
+  "sku": "36350",
+  "name": "Dark Blue",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#222e56"
+ },
+ {
+  "sku": "36360",
+  "name": "Greenish Gray",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#577141"
+ },
+ {
+  "sku": "36361",
+  "name": "Olive Green",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#4d5740"
+ },
+ {
+  "sku": "36362",
+  "name": "Greyish Green",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#78765d"
+ },
+ {
+  "sku": "36363",
+  "name": "Dark Green",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#3a4839"
+ },
+ {
+  "sku": "36364",
+  "name": "Leaf Green",
+  "finish": "Silk",
+  "ral": "6001",
+  "linha": "Aqua Color",
+  "hex": "#296d3e"
+ },
+ {
+  "sku": "36365",
+  "name": "Patina Green",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#347561"
+ },
+ {
+  "sku": "36371",
+  "name": "Light Grey",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#c5cbcb"
+ },
+ {
+  "sku": "36374",
+  "name": "Grey",
+  "finish": "Silk",
+  "ral": "7001",
+  "linha": "Aqua Color",
+  "hex": "#8d969f"
+ },
+ {
+  "sku": "36378",
+  "name": "Dark Grey",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#585d63"
+ },
+ {
+  "sku": "36381",
+  "name": "Brown",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#755d51"
+ },
+ {
+  "sku": "36382",
+  "name": "Wood Brown",
+  "finish": "Silk",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#9c6836"
+ },
+ {
+  "sku": "36730",
+  "name": "Orange Clear",
+  "finish": "Clear",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#f78239"
+ },
+ {
+  "sku": "36731",
+  "name": "Red Clear",
+  "finish": "Clear",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#f85847"
+ },
+ {
+  "sku": "36752",
+  "name": "Blue Clear",
+  "finish": "Clear",
+  "ral": null,
+  "linha": "Aqua Color",
+  "hex": "#a1d7f4"
+ },
+ {
+  "sku": "32101",
+  "name": "Clear",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#fbfafb"
+ },
+ {
+  "sku": "32102",
+  "name": "Clear",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#fefefe"
+ },
+ {
+  "sku": "32104",
+  "name": "White",
+  "finish": "Gloss",
+  "ral": "9010",
+  "linha": "Email Color",
+  "hex": "#f0efea"
+ },
+ {
+  "sku": "32105",
+  "name": "White",
+  "finish": "Matte",
+  "ral": "9001",
+  "linha": "Email Color",
+  "hex": "#fefefe"
+ },
+ {
+  "sku": "32106",
+  "name": "Tar Black",
+  "finish": "Matte",
+  "ral": "9021",
+  "linha": "Email Color",
+  "hex": "#262427"
+ },
+ {
+  "sku": "32107",
+  "name": "Black",
+  "finish": "Gloss",
+  "ral": "9005",
+  "linha": "Email Color",
+  "hex": "#161519"
+ },
+ {
+  "sku": "32108",
+  "name": "Black",
+  "finish": "Matte",
+  "ral": "9011",
+  "linha": "Email Color",
+  "hex": "#222126"
+ },
+ {
+  "sku": "32109",
+  "name": "Anthracite Grey",
+  "finish": "Matte",
+  "ral": "7021",
+  "linha": "Email Color",
+  "hex": "#30303a"
+ },
+ {
+  "sku": "32112",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "ral": "1018",
+  "linha": "Email Color",
+  "hex": "#f8d537"
+ },
+ {
+  "sku": "32115",
+  "name": "Yellow",
+  "finish": "Matte",
+  "ral": "1017",
+  "linha": "Email Color",
+  "hex": "#fed73a"
+ },
+ {
+  "sku": "32116",
+  "name": "Sandy Yellow",
+  "finish": "Matte",
+  "ral": "1024",
+  "linha": "Email Color",
+  "hex": "#b89551"
+ },
+ {
+  "sku": "32117",
+  "name": "Africa-brown",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#d69b63"
+ },
+ {
+  "sku": "32125",
+  "name": "Luminous Orange",
+  "finish": "Matte",
+  "ral": "2005",
+  "linha": "Email Color",
+  "hex": "#fa0202"
+ },
+ {
+  "sku": "32130",
+  "name": "Orange",
+  "finish": "Gloss",
+  "ral": "2004",
+  "linha": "Email Color",
+  "hex": "#e5520d"
+ },
+ {
+  "sku": "32131",
+  "name": "Fiery Red",
+  "finish": "Gloss",
+  "ral": "3000",
+  "linha": "Email Color",
+  "hex": "#9d2527"
+ },
+ {
+  "sku": "32134",
+  "name": "Italian Red",
+  "finish": "Gloss",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#c40124"
+ },
+ {
+  "sku": "32135",
+  "name": "Flesh",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#f0a77e"
+ },
+ {
+  "sku": "32136",
+  "name": "Carmine Red",
+  "finish": "Matte",
+  "ral": "3002",
+  "linha": "Email Color",
+  "hex": "#9b1329"
+ },
+ {
+  "sku": "32137",
+  "name": "Reddish Brown",
+  "finish": "Matte",
+  "ral": "3009",
+  "linha": "Email Color",
+  "hex": "#6c302f"
+ },
+ {
+  "sku": "32139",
+  "name": "Dark Green",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#1c5947"
+ },
+ {
+  "sku": "32140",
+  "name": "Black-green",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#013a34"
+ },
+ {
+  "sku": "32142",
+  "name": "Olive Yellow",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#414135"
+ },
+ {
+  "sku": "32143",
+  "name": "Middle Grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#888f97"
+ },
+ {
+  "sku": "32145",
+  "name": "Light Olive",
+  "finish": "Matte",
+  "ral": "7003",
+  "linha": "Email Color",
+  "hex": "#79796d"
+ },
+ {
+  "sku": "32146",
+  "name": "Nato Olive",
+  "finish": "Matte",
+  "ral": "7013",
+  "linha": "Email Color",
+  "hex": "#5a5349"
+ },
+ {
+  "sku": "32147",
+  "name": "Mouse Grey",
+  "finish": "Matte",
+  "ral": "7005",
+  "linha": "Email Color",
+  "hex": "#6f7072"
+ },
+ {
+  "sku": "32148",
+  "name": "Sea Green",
+  "finish": "Matte",
+  "ral": "6028",
+  "linha": "Email Color",
+  "hex": "#2f544c"
+ },
+ {
+  "sku": "32149",
+  "name": "Light Blue",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#87b8b5"
+ },
+ {
+  "sku": "32150",
+  "name": "Light Blue",
+  "finish": "Gloss",
+  "ral": "5012",
+  "linha": "Email Color",
+  "hex": "#267eb9"
+ },
+ {
+  "sku": "32151",
+  "name": "Ultramarine-blue",
+  "finish": "Gloss",
+  "ral": "5002",
+  "linha": "Email Color",
+  "hex": "#162c78"
+ },
+ {
+  "sku": "32152",
+  "name": "Blue",
+  "finish": "Gloss",
+  "ral": "5005",
+  "linha": "Email Color",
+  "hex": "#024187"
+ },
+ {
+  "sku": "32154",
+  "name": "Night Blue",
+  "finish": "Gloss",
+  "ral": "5022",
+  "linha": "Email Color",
+  "hex": "#262658"
+ },
+ {
+  "sku": "32155",
+  "name": "Light Green",
+  "finish": "Matte",
+  "ral": "6027",
+  "linha": "Email Color",
+  "hex": "#78b9bb"
+ },
+ {
+  "sku": "32156",
+  "name": "Blue",
+  "finish": "Matte",
+  "ral": "5000",
+  "linha": "Email Color",
+  "hex": "#0170b8"
+ },
+ {
+  "sku": "32157",
+  "name": "Grey",
+  "finish": "Matte",
+  "ral": "7000",
+  "linha": "Email Color",
+  "hex": "#7a8692"
+ },
+ {
+  "sku": "32159",
+  "name": "Sky",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#c3d2b3"
+ },
+ {
+  "sku": "32161",
+  "name": "Emerald Green",
+  "finish": "Gloss",
+  "ral": "6029",
+  "linha": "Email Color",
+  "hex": "#016e44"
+ },
+ {
+  "sku": "32162",
+  "name": "Moss Green",
+  "finish": "Gloss",
+  "ral": "6005",
+  "linha": "Email Color",
+  "hex": "#0f4336"
+ },
+ {
+  "sku": "32165",
+  "name": "Bronze Green",
+  "finish": "Matte",
+  "ral": "6031",
+  "linha": "Email Color",
+  "hex": "#49553f"
+ },
+ {
+  "sku": "32166",
+  "name": "Olive Grey",
+  "finish": "Matte",
+  "ral": "7010",
+  "linha": "Email Color",
+  "hex": "#58585a"
+ },
+ {
+  "sku": "32167",
+  "name": "Greenish Gray",
+  "finish": "Matte",
+  "ral": "7009",
+  "linha": "Email Color",
+  "hex": "#585d59"
+ },
+ {
+  "sku": "32168",
+  "name": "Dark Green",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#284738"
+ },
+ {
+  "sku": "32169",
+  "name": "Granite Grey",
+  "finish": "Matte",
+  "ral": "7026",
+  "linha": "Email Color",
+  "hex": "#364045"
+ },
+ {
+  "sku": "32174",
+  "name": "Gunship-grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#5f626b"
+ },
+ {
+  "sku": "32175",
+  "name": "Stone Grey",
+  "finish": "Matte",
+  "ral": "7030",
+  "linha": "Email Color",
+  "hex": "#92928a"
+ },
+ {
+  "sku": "32176",
+  "name": "Light Grey",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#a1a2a6"
+ },
+ {
+  "sku": "32177",
+  "name": "Dust Grey",
+  "finish": "Matte",
+  "ral": "7012",
+  "linha": "Email Color",
+  "hex": "#565d65"
+ },
+ {
+  "sku": "32178",
+  "name": "Tank Gray",
+  "finish": "Matte",
+  "ral": "7024",
+  "linha": "Email Color",
+  "hex": "#474b54"
+ },
+ {
+  "sku": "32179",
+  "name": "Greyish Blue",
+  "finish": "Matte",
+  "ral": "7031",
+  "linha": "Email Color",
+  "hex": "#5d6771"
+ },
+ {
+  "sku": "32180",
+  "name": "Mud Brown",
+  "finish": "Gloss",
+  "ral": "8003",
+  "linha": "Email Color",
+  "hex": "#7f5232"
+ },
+ {
+  "sku": "32182",
+  "name": "Dark-earth",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#8c673d"
+ },
+ {
+  "sku": "32183",
+  "name": "Rust",
+  "finish": "Matte",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#884c4e"
+ },
+ {
+  "sku": "32184",
+  "name": "Leather Brown",
+  "finish": "Matte",
+  "ral": "8027",
+  "linha": "Email Color",
+  "hex": "#593c41"
+ },
+ {
+  "sku": "32185",
+  "name": "Brown",
+  "finish": "Matte",
+  "ral": "8023",
+  "linha": "Email Color",
+  "hex": "#a55d34"
+ },
+ {
+  "sku": "32186",
+  "name": "Olive Brown",
+  "finish": "Matte",
+  "ral": "7008",
+  "linha": "Email Color",
+  "hex": "#746345"
+ },
+ {
+  "sku": "32187",
+  "name": "Earth Brown",
+  "finish": "Matte",
+  "ral": "7006",
+  "linha": "Email Color",
+  "hex": "#77695e"
+ },
+ {
+  "sku": "32188",
+  "name": "Ochre Brown",
+  "finish": "Matte",
+  "ral": "1011",
+  "linha": "Email Color",
+  "hex": "#b08654"
+ },
+ {
+  "sku": "32189",
+  "name": "Beige",
+  "finish": "Matte",
+  "ral": "1019",
+  "linha": "Email Color",
+  "hex": "#a5937d"
+ },
+ {
+  "sku": "32190",
+  "name": "Silver",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#abaeb4"
+ },
+ {
+  "sku": "32191",
+  "name": "Steel",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#7c7f86"
+ },
+ {
+  "sku": "32192",
+  "name": "Brass",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#c69603"
+ },
+ {
+  "sku": "32193",
+  "name": "Copper",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#b87956"
+ },
+ {
+  "sku": "32194",
+  "name": "Gold",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#d4b98c"
+ },
+ {
+  "sku": "32195",
+  "name": "Bronze",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#a26940"
+ },
+ {
+  "sku": "32199",
+  "name": "Aluminum",
+  "finish": "Metallic",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#c2c5c9"
+ },
+ {
+  "sku": "32301",
+  "name": "White",
+  "finish": "Silk",
+  "ral": "9010",
+  "linha": "Email Color",
+  "hex": "#f5f5ed"
+ },
+ {
+  "sku": "32302",
+  "name": "Black",
+  "finish": "Silk",
+  "ral": "9005",
+  "linha": "Email Color",
+  "hex": "#16151b"
+ },
+ {
+  "sku": "32310",
+  "name": "Lufthansa-yellow",
+  "finish": "Silk",
+  "ral": "1028",
+  "linha": "Email Color",
+  "hex": "#fea501"
+ },
+ {
+  "sku": "32312",
+  "name": "Luminous Yellow",
+  "finish": "Silk",
+  "ral": "1026",
+  "linha": "Email Color",
+  "hex": "#ece942"
+ },
+ {
+  "sku": "32314",
+  "name": "Beige",
+  "finish": "Silk",
+  "ral": "1001",
+  "linha": "Email Color",
+  "hex": "#cfb487"
+ },
+ {
+  "sku": "32330",
+  "name": "Fiery Red",
+  "finish": "Silk",
+  "ral": "3000",
+  "linha": "Email Color",
+  "hex": "#a22827"
+ },
+ {
+  "sku": "32362",
+  "name": "Greyish Green",
+  "finish": "Silk",
+  "ral": "6013",
+  "linha": "Email Color",
+  "hex": "#75785d"
+ },
+ {
+  "sku": "32363",
+  "name": "Dark Green",
+  "finish": "Silk",
+  "ral": "6020",
+  "linha": "Email Color",
+  "hex": "#3a4839"
+ },
+ {
+  "sku": "32364",
+  "name": "Leaf Green",
+  "finish": "Silk",
+  "ral": "6001",
+  "linha": "Email Color",
+  "hex": "#286c3c"
+ },
+ {
+  "sku": "32365",
+  "name": "Patina Green",
+  "finish": "Silk",
+  "ral": "6000",
+  "linha": "Email Color",
+  "hex": "#357564"
+ },
+ {
+  "sku": "32371",
+  "name": "Light Grey",
+  "finish": "Silk",
+  "ral": "7035",
+  "linha": "Email Color",
+  "hex": "#c5caca"
+ },
+ {
+  "sku": "32374",
+  "name": "Grey",
+  "finish": "Silk",
+  "ral": "7001",
+  "linha": "Email Color",
+  "hex": "#8d969f"
+ },
+ {
+  "sku": "32378",
+  "name": "Dark Grey",
+  "finish": "Silk",
+  "ral": "7012",
+  "linha": "Email Color",
+  "hex": "#585d63"
+ },
+ {
+  "sku": "32381",
+  "name": "Brown",
+  "finish": "Silk",
+  "ral": "8025",
+  "linha": "Email Color",
+  "hex": "#755d51"
+ },
+ {
+  "sku": "32382",
+  "name": "Wood Brown",
+  "finish": "Silk",
+  "ral": "8001",
+  "linha": "Email Color",
+  "hex": "#9c6836"
+ },
+ {
+  "sku": "32730",
+  "name": "Clear Orange",
+  "finish": "Clear",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#f38138"
+ },
+ {
+  "sku": "32731",
+  "name": "Clear Red",
+  "finish": "Clear",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#f55746"
+ },
+ {
+  "sku": "32752",
+  "name": "Clear Blue",
+  "finish": "Clear",
+  "ral": null,
+  "linha": "Email Color",
+  "hex": "#9fd5f2"
+ }
+]

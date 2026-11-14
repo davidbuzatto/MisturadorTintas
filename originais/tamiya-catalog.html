@@ -1,0 +1,584 @@
+<title>Catálogo Tamiya</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#f2f1ef;
+    --surface:#fbfaf8;
+    --surface-2:#e8e6e2;
+    --ink:#262523;
+    --ink-dim:#6f6b64;
+    --border:#dbd9d4;
+    --accent:#a8552b;
+    --accent-ink:#fff8ef;
+    --hull-bg:#efe6d8;
+    --mono-chip:#e7e4de;
+    --shadow: 0 1px 0 rgba(38,37,35,.05);
+    --stripe-a: var(--surface-2);
+    --stripe-b: var(--border);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1c1c1b;
+      --surface:#242322;
+      --surface-2:#2b2a28;
+      --ink:#e8e6e1;
+      --ink-dim:#a19c93;
+      --border:#3a3834;
+      --accent:#e08a54;
+      --accent-ink:#1b1712;
+      --hull-bg:#332e22;
+      --mono-chip:#302f2b;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1b1712;
+    --surface:#251f18;
+    --surface-2:#2f2820;
+    --ink:#ede4d2;
+    --ink-dim:#a89a80;
+    --border:#3c3325;
+    --accent:#e08a54;
+    --accent-ink:#1b1712;
+    --hull-bg:#332a1a;
+    --mono-chip:#332a1c;
+    color-scheme: dark;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    padding-inline:20px;
+    padding-block: 32px 56px;
+    max-width: 1100px;
+    margin-inline:auto;
+  }
+  h1,h2{font-family:'Barlow Condensed', system-ui, sans-serif; text-wrap:balance; margin:0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+  }
+  h1{font-size: clamp(28px,5vw,38px); font-weight:700; line-height:1.05; margin-top:6px;}
+  .sub{color:var(--ink-dim); font-size:14.5px; max-width:66ch; margin-top:10px; line-height:1.55;}
+
+  header{padding-block-end:22px; border-bottom:1px solid var(--border); margin-bottom:22px;}
+
+  .toolbar{
+    position:sticky;
+    top: env(safe-area-inset-top, 0px);
+    background:var(--bg);
+    z-index:5;
+    padding-block:12px;
+    margin-bottom:18px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    border-bottom:1px solid var(--border);
+  }
+  .search{
+    flex:1 1 220px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:14px;
+    padding:9px 12px;
+    border-radius:9px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink);
+  }
+  .search::placeholder{color:var(--ink-dim);}
+  .tabs{display:flex; gap:6px; flex-wrap:wrap;}
+  .tab{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    padding:7px 11px;
+    border-radius:100px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink-dim);
+    cursor:pointer;
+  }
+  .tab[aria-pressed="true"]{
+    background:var(--accent);
+    color:var(--accent-ink);
+    border-color:var(--accent);
+  }
+  .tab:focus-visible, .search:focus-visible, .copy-btn:focus-visible, input:focus-visible{
+    outline:2px solid var(--accent); outline-offset:2px;
+  }
+
+  .note{
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px 16px;
+    font-size:13px;
+    color:var(--ink-dim);
+    line-height:1.55;
+    margin-bottom:26px;
+  }
+  .note strong{color:var(--ink);}
+
+  section{margin-bottom:34px;}
+  .section-head{display:flex; align-items:baseline; gap:10px; margin-bottom:12px; flex-wrap:wrap;}
+  .section-head h2{font-size:20px; font-weight:600;}
+  .section-count{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-dim);}
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(178px,1fr));
+    gap:10px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:11px;
+    padding:11px;
+    box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:7px;
+  }
+  .swatch{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid rgba(0,0,0,.15);
+  }
+  .swatch-additive{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid var(--border);
+    background: repeating-linear-gradient(45deg, var(--stripe-a), var(--stripe-a) 6px, var(--stripe-b) 6px, var(--stripe-b) 12px);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:9px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+  }
+  .code-row{display:flex; align-items:center; gap:6px; flex-wrap:wrap;}
+  .code{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:13.5px;
+    background:var(--mono-chip);
+    padding:1px 6px;
+    border-radius:5px;
+  }
+  .eq{font-size:10.5px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace;}
+  .name{font-size:12.5px; font-weight:500; line-height:1.3;}
+  .copy-btn{
+    background:none; border:1px solid var(--border); color:var(--ink-dim);
+    border-radius:6px; font-size:10px; padding:1px 6px; cursor:pointer;
+    font-family:'IBM Plex Mono',monospace; margin-left:auto;
+  }
+  .copy-btn:hover{color:var(--ink); border-color:var(--ink-dim);}
+
+  .acrilex-input{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:11.5px;
+    padding:5px 7px;
+    border-radius:6px;
+    border:1px solid var(--border);
+    background:var(--bg);
+    color:var(--ink);
+    width:100%;
+  }
+  .acrilex-input::placeholder{color:var(--ink-dim); opacity:.75;}
+
+  .empty{
+    text-align:center;
+    color:var(--ink-dim);
+    font-size:13px;
+    padding:30px 0;
+    display:none;
+  }
+
+  footer{
+    margin-top:44px;
+    padding-top:18px;
+    border-top:1px solid var(--border);
+    font-size:12px;
+    color:var(--ink-dim);
+    line-height:1.6;
+  }
+</style>
+
+<header>
+  <div class="eyebrow">Referência · Acrílica (X / XF) + Lacquer (LP)</div>
+  <h1>Catálogo Tamiya</h1>
+  <p class="sub">Todo mundo do plastimodelismo acaba com uma lista mental de "essa cor eu já sei qual Acrilex usar". Essa página é pra virar isso num lugar só: 189 cores das linhas Acrílica e Lacquer, pesquisáveis, com espaço pra anotar seu equivalente assim que descobrir.</p>
+</header>
+
+<div class="toolbar">
+  <input class="search" id="search" type="text" placeholder="buscar por código ou nome (ex: XF-60, dark yellow, khaki)...">
+  <div class="tabs" id="tabs">
+    <button class="tab" data-tab="all" aria-pressed="true">Todas</button>
+    <button class="tab" data-tab="x">Acrílica X</button>
+    <button class="tab" data-tab="xf">Acrílica XF</button>
+    <button class="tab" data-tab="lp">Lacquer LP</button>
+  </div>
+</div>
+
+<div class="note">
+  <strong>Escopo:</strong> linha Acrylic Mini (X = brilhante/gloss, XF = fosco/flat, 10ml) e linha Lacquer Paint (LP). Não inclui Esmalte, sprays TS/AS, Panel Line Accent nem produtos de weathering — se quiser isso depois, é só pedir.
+  <br><br>
+  <strong>Sobre as cores:</strong> são aproximações de tela feitas a partir de referências públicas — não são os valores oficiais da Tamiya (a marca não publica hex/RGB). Cores metálicas, perolizadas e tons muito próximos entre si (as várias cinzas da IJN, por exemplo) sofrem mais com essa conversão. Onde uma cor LP é comercializada como equivalente direto de uma X/XF, isso aparece como "≈ código".
+</div>
+
+<section id="section-x">
+  <div class="section-head"><h2>Acrílica — Série X</h2><span class="section-count" id="count-x"></span></div>
+  <div class="grid" id="grid-x"></div>
+</section>
+
+<section id="section-xf">
+  <div class="section-head"><h2>Acrílica — Série XF</h2><span class="section-count" id="count-xf"></span></div>
+  <div class="grid" id="grid-xf"></div>
+</section>
+
+<section id="section-lp">
+  <div class="section-head"><h2>Lacquer — Série LP</h2><span class="section-count" id="count-lp"></span></div>
+  <div class="grid" id="grid-lp"></div>
+</section>
+
+<p class="empty" id="empty-msg">Nenhuma cor encontrada com esse filtro.</p>
+
+<footer>
+  Códigos e nomes conferidos contra o catálogo público da Tamiya (linhas Acrylic Mini e Lacquer Paint). X-20A (Acrylic Thinner) e LP-10 (Lacquer Thinner) ficaram de fora por não serem tintas. Itens marcados "aditivo" (Clear, Flat Base, Semi-Gloss Clear...) não têm cor própria — servem pra ajustar brilho/efeito de outra tinta.
+</footer>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'tamiya-catalogo-acrilex-notes';
+  var notes = {};
+  try { notes = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e) { notes = {}; }
+  function saveNotes(){ try { localStorage.setItem(STORAGE_KEY, JSON.stringify(notes)); } catch(e) {} }
+
+  function copyText(text, btn){
+    var original = btn.textContent;
+    function done(){ btn.textContent = 'ok'; setTimeout(function(){ btn.textContent = original; }, 1000); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function(){ fallbackCopy(text); done(); });
+    } else { fallbackCopy(text); done(); }
+  }
+  function fallbackCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch(e){}
+    document.body.removeChild(ta);
+  }
+
+  // [code, name, hex или null-се additive, eq-opcional]
+  var DATA = {
+    x: [
+      ['X-1','Black','#141414'],
+      ['X-2','White','#f2f0ea'],
+      ['X-3','Royal Blue','#1f3f77'],
+      ['X-4','Blue','#1c5fae'],
+      ['X-5','Green','#1f6b3a'],
+      ['X-6','Orange','#e8791f'],
+      ['X-7','Red','#b31e24'],
+      ['X-8','Lemon Yellow','#f0d21e'],
+      ['X-9','Brown','#6b4a34'],
+      ['X-10','Gun Metal','#52514f'],
+      ['X-11','Chrome Silver','#c9cbcb'],
+      ['X-12','Gold Leaf','#b6963f'],
+      ['X-13','Metallic Blue','#26538a'],
+      ['X-14','Sky Blue','#6fa8c9'],
+      ['X-15','Light Green','#74a35a'],
+      ['X-16','Purple','#5b3568'],
+      ['X-17','Pink','#d98aa0'],
+      ['X-18','Semi-Gloss Black','#1c1a18'],
+      ['X-19','Smoke','#4c4744'],
+      ['X-21','Flat Base',null],
+      ['X-22','Clear',null],
+      ['X-23','Clear Blue','#2f6fae'],
+      ['X-24','Clear Yellow','#e8c93a'],
+      ['X-25','Clear Green','#2f8a4f'],
+      ['X-26','Clear Orange','#d97a2a'],
+      ['X-27','Clear Red','#a3212b'],
+      ['X-28','Park Green','#1f4a2e'],
+      ['X-31','Titanium Gold','#a9863f'],
+      ['X-32','Titanium Silver','#9a9c99'],
+      ['X-33','Bronze','#7a5a35'],
+      ['X-34','Metallic Brown','#5a3d2a'],
+      ['X-35','Semi-Gloss Clear',null]
+    ],
+    xf: [
+      ['XF-1','Flat Black','#201d1a'],
+      ['XF-2','Flat White','#e9e4d6'],
+      ['XF-3','Flat Yellow','#d9b93a'],
+      ['XF-4','Yellow Green','#8a9a3a'],
+      ['XF-5','Flat Green','#37502f'],
+      ['XF-6','Copper','#9a5a34'],
+      ['XF-7','Flat Red','#b02020'],
+      ['XF-8','Flat Blue','#33468f'],
+      ['XF-9','Hull Red','#6b2f28'],
+      ['XF-10','Flat Brown','#5a3d29'],
+      ['XF-11','J.N. Green','#2d3d2a'],
+      ['XF-12','J.N. Grey','#8a8a78'],
+      ['XF-13','J.A. Green','#4a5031'],
+      ['XF-14','J.A. Grey','#6e6a52'],
+      ['XF-15','Flat Flesh','#dcae87'],
+      ['XF-16','Flat Aluminium','#9fa1a0'],
+      ['XF-17','Sea Blue','#24406b'],
+      ['XF-18','Medium Blue','#34558a'],
+      ['XF-19','Sky Grey','#a7ab9c'],
+      ['XF-20','Medium Grey','#7d7f78'],
+      ['XF-21','Sky','#a9c19a'],
+      ['XF-22','RLM Grey','#6d7264'],
+      ['XF-23','Light Blue','#7fa8c9'],
+      ['XF-24','Dark Grey','#4c4e4a'],
+      ['XF-25','Light Sea Grey','#8d9086'],
+      ['XF-26','Deep Green','#2c4a2e'],
+      ['XF-27','Black Green','#253524'],
+      ['XF-28','Dark Copper','#6b4226'],
+      ['XF-49','Khaki','#8c7c50'],
+      ['XF-50','Field Blue','#47576b'],
+      ['XF-51','Khaki Drab','#6b6142'],
+      ['XF-52','Flat Earth','#6d4a30'],
+      ['XF-53','Neutral Grey','#74746c'],
+      ['XF-54','Dark Sea Grey','#4e544c'],
+      ['XF-55','Deck Tan','#c3a878'],
+      ['XF-56','Metallic Grey','#6c6d6a'],
+      ['XF-57','Buff','#c9b07e'],
+      ['XF-58','Olive Green','#4a4f2e'],
+      ['XF-59','Desert Yellow','#c9a35e'],
+      ['XF-60','Dark Yellow','#b3924f'],
+      ['XF-61','Dark Green','#384a2c'],
+      ['XF-62','Olive Drab','#4b4d33'],
+      ['XF-63','German Grey','#4a4d4d'],
+      ['XF-64','Red Brown','#6d3a2c'],
+      ['XF-65','Field Grey','#6f7062'],
+      ['XF-66','Light Grey','#9a9a90'],
+      ['XF-67','NATO Green','#3d4a30'],
+      ['XF-68','NATO Brown','#5a4128'],
+      ['XF-69','NATO Black','#201f1c'],
+      ['XF-70','Dark Green 2','#33422c'],
+      ['XF-71','Cockpit Green (IJN)','#384a34'],
+      ['XF-72','Brown (JGSDF)','#5a4632'],
+      ['XF-73','Dark Green (JGSDF)','#35422a'],
+      ['XF-74','Olive Drab (JGSDF)','#55573a'],
+      ['XF-75','IJN Gray (Kure Arsenal)','#7c7d74'],
+      ['XF-76','Gray Green (IJN)','#767a68'],
+      ['XF-77','IJN Gray (Sasebo Arsenal)','#6f716a'],
+      ['XF-78','Wooden Deck Tan','#c7a06a'],
+      ['XF-79','Linoleum Deck Brown','#5b4536'],
+      ['XF-80','Royal Light Gray','#9ea296'],
+      ['XF-81','Dark Green 2 (RAF)','#38402c'],
+      ['XF-82','Ocean Gray 2 (RAF)','#71766f'],
+      ['XF-83','Medium Sea Gray 2 (RAF)','#8d9187'],
+      ['XF-84','Dark Iron','#453f3c'],
+      ['XF-85','Rubber Black','#2a2724'],
+      ['XF-86','Flat Clear',null],
+      ['XF-87','IJN Gray (Maizuru Arsenal)','#74766d'],
+      ['XF-88','Dark Yellow 2','#a9863f'],
+      ['XF-89','Dark Green 2','#37432c'],
+      ['XF-90','Red Brown 2','#6a3226'],
+      ['XF-91','IJN Gray (Yokosuka Arsenal)','#6a6c62'],
+      ['XF-92','Yellow-Brown (DAK 1941)','#af8c56'],
+      ['XF-93','Light Brown (DAK 1942)','#a3805a']
+    ],
+    lp: [
+      ['LP-1','Black','#141414','X-1'],
+      ['LP-2','White','#f2f0ea','X-2'],
+      ['LP-3','Flat Black','#201d1a','XF-1'],
+      ['LP-4','Flat White','#e9e4d6','XF-2'],
+      ['LP-5','Semi Gloss Black','#1c1a18','X-18'],
+      ['LP-6','Pure Blue','#1a56c4'],
+      ['LP-7','Pure Red','#c81f28'],
+      ['LP-8','Pure Yellow','#f2d400'],
+      ['LP-9','Clear',null],
+      ['LP-11','Silver','#b7b9b8'],
+      ['LP-12','IJN Gray (Kure Arsenal)','#7c7d74','XF-75'],
+      ['LP-13','IJN Gray (Sasebo Arsenal)','#6f716a','XF-77'],
+      ['LP-14','IJN Gray (Maizuru Arsenal)','#74766d','XF-87'],
+      ['LP-15','IJN Gray (Yokosuka Arsenal)','#6a6c62','XF-91'],
+      ['LP-16','Wooden Deck Tan','#c7a06a','XF-78'],
+      ['LP-17','Linoleum Deck Brown','#5b4536','XF-79'],
+      ['LP-18','Dull Red','#8f3630'],
+      ['LP-19','Gun Metal','#52514f','X-10'],
+      ['LP-20','Light Gun Metal','#6c6b68'],
+      ['LP-21','Italian Red','#a3211f'],
+      ['LP-22','Flat Base',null],
+      ['LP-23','Flat Clear',null],
+      ['LP-24','Semi Gloss Clear',null],
+      ['LP-25','Brown (JGSDF)','#5a4632','XF-72'],
+      ['LP-26','Dark Green (JGSDF)','#35422a','XF-73'],
+      ['LP-27','German Gray','#4a4d4d','XF-63'],
+      ['LP-28','Olive Drab','#4b4d33','XF-62'],
+      ['LP-29','Olive Drab 2','#55563a'],
+      ['LP-30','Light Sand','#cbb381'],
+      ['LP-31','Dark Green 2 (IJN)','#33422c'],
+      ['LP-32','Light Gray (IJN)','#9a9a8c'],
+      ['LP-33','Grey Green (IJN)','#767a68','XF-76'],
+      ['LP-34','Light Gray','#b7b6ac'],
+      ['LP-35','Insignia White','#e9e6da'],
+      ['LP-36','Dark Ghost Gray','#9a9c9a'],
+      ['LP-37','Light Ghost Gray','#b7b9b4'],
+      ['LP-38','Flat Aluminum','#9fa1a0','XF-16'],
+      ['LP-39','Racing White','#eeeae0'],
+      ['LP-40','Metallic Black','#1c1c1e'],
+      ['LP-41','Mica Blue','#2c4f8a'],
+      ['LP-42','Mica Red','#9c2430'],
+      ['LP-43','Pearl White','#efece2'],
+      ['LP-44','Metallic Orange','#d9701f'],
+      ['LP-45','Racing Blue','#123f8a'],
+      ['LP-46','Pure Metallic Red','#a8202a'],
+      ['LP-47','Pearl Blue','#3f6fa8'],
+      ['LP-48','Sparkling Silver','#c9cbc8'],
+      ['LP-49','Pearl Clear',null],
+      ['LP-50','Bright Red','#d21f26'],
+      ['LP-51','Pure Orange','#e8641b'],
+      ['LP-52','Clear Red','#a3212b','X-27'],
+      ['LP-53','Clear Orange','#d97a2a','X-26'],
+      ['LP-54','Dark Iron','#453f3c','XF-84'],
+      ['LP-55','Dark Yellow 2','#a9863f','XF-88'],
+      ['LP-56','Dark Green 2','#37432c','XF-89'],
+      ['LP-57','Red Brown 2','#6a3226','XF-90'],
+      ['LP-58','NATO Green','#3d4a30','XF-67'],
+      ['LP-59','NATO Brown','#5a4128','XF-68'],
+      ['LP-60','NATO Black','#201f1c','XF-69'],
+      ['LP-61','Metallic Gray','#6c6d6a','XF-56'],
+      ['LP-62','Titanium Gold','#a9863f','X-31'],
+      ['LP-63','Titanium Silver','#9a9c99','X-32'],
+      ['LP-64','Olive Drab (JGSDF)','#55573a','XF-74'],
+      ['LP-65','Rubber Black','#2a2724','XF-85'],
+      ['LP-66','Flat Flesh','#dcae87','XF-15'],
+      ['LP-67','Smoke','#4c4744','X-19'],
+      ['LP-68','Clear Blue','#2f6fae','X-23'],
+      ['LP-69','Clear Yellow','#e8c93a','X-24'],
+      ['LP-70','Gloss Aluminium','#c7c9c7'],
+      ['LP-71','Champagne Gold','#c9a96a'],
+      ['LP-72','Mica Silver','#b9bbb7'],
+      ['LP-73','Khaki','#8c7c50','XF-49'],
+      ['LP-74','Flat Earth','#6d4a30','XF-52'],
+      ['LP-75','Buff','#c9b07e','XF-57'],
+      ['LP-76','Yellow-Brown (DAK 1941)','#af8c56','XF-92'],
+      ['LP-77','Light Brown (DAK 1942)','#a3805a','XF-93'],
+      ['LP-78','Flat Blue','#33468f','XF-8'],
+      ['LP-79','Flat Red','#b02020','XF-7'],
+      ['LP-80','Flat Yellow','#d9b93a','XF-3'],
+      ['LP-81','Mixing Blue','#2a4a8a'],
+      ['LP-82','Mixing Red','#b31f28'],
+      ['LP-83','Mixing Yellow','#e8c400'],
+      ['LP-84','Camouflage Grey','#7d7a6c'],
+      ['LP-85','Medium Air Grey','#a3a89c']
+    ]
+  };
+
+  function acrilexField(code){
+    var wrap = document.createElement('div');
+    var input = document.createElement('input');
+    input.className = 'acrilex-input';
+    input.type = 'text';
+    input.placeholder = 'equivalente Acrilex...';
+    input.value = notes[code] || '';
+    input.addEventListener('input', function(){ notes[code] = input.value; saveNotes(); });
+    wrap.appendChild(input);
+    return wrap;
+  }
+
+  function buildCard(item){
+    var code = item[0], name = item[1], hex = item[2], eq = item[3];
+    var card = document.createElement('div');
+    card.className = 'card';
+    card.dataset.search = (code + ' ' + name + ' ' + (eq||'')).toLowerCase();
+
+    var sw;
+    if (hex) {
+      sw = document.createElement('div');
+      sw.className = 'swatch';
+      sw.style.background = hex;
+    } else {
+      sw = document.createElement('div');
+      sw.className = 'swatch-additive';
+      sw.textContent = 'aditivo';
+    }
+
+    var codeRow = document.createElement('div');
+    codeRow.className = 'code-row';
+    var codeEl = document.createElement('span');
+    codeEl.className = 'code';
+    codeEl.textContent = code;
+    codeRow.appendChild(codeEl);
+    if (eq) {
+      var eqEl = document.createElement('span');
+      eqEl.className = 'eq';
+      eqEl.textContent = '≈ ' + eq;
+      codeRow.appendChild(eqEl);
+    }
+    var copyBtn = document.createElement('button');
+    copyBtn.className = 'copy-btn';
+    copyBtn.type = 'button';
+    copyBtn.textContent = 'copiar';
+    copyBtn.addEventListener('click', function(){ copyText(code + ' ' + name, copyBtn); });
+    codeRow.appendChild(copyBtn);
+
+    var nameEl = document.createElement('div');
+    nameEl.className = 'name';
+    nameEl.textContent = name;
+
+    card.appendChild(sw);
+    card.appendChild(codeRow);
+    card.appendChild(nameEl);
+    card.appendChild(acrilexField(code));
+    return card;
+  }
+
+  var gridX = document.getElementById('grid-x');
+  var gridXF = document.getElementById('grid-xf');
+  var gridLP = document.getElementById('grid-lp');
+
+  DATA.x.forEach(function(item){ gridX.appendChild(buildCard(item)); });
+  DATA.xf.forEach(function(item){ gridXF.appendChild(buildCard(item)); });
+  DATA.lp.forEach(function(item){ gridLP.appendChild(buildCard(item)); });
+
+  document.getElementById('count-x').textContent = DATA.x.length + ' cores';
+  document.getElementById('count-xf').textContent = DATA.xf.length + ' cores';
+  document.getElementById('count-lp').textContent = DATA.lp.length + ' cores';
+
+  var sections = {
+    all: [document.getElementById('section-x'), document.getElementById('section-xf'), document.getElementById('section-lp')],
+    x: [document.getElementById('section-x')],
+    xf: [document.getElementById('section-xf')],
+    lp: [document.getElementById('section-lp')]
+  };
+  var allSections = [document.getElementById('section-x'), document.getElementById('section-xf'), document.getElementById('section-lp')];
+  var tabs = document.querySelectorAll('.tab');
+  var currentTab = 'all';
+
+  function applyFilter(){
+    var q = document.getElementById('search').value.trim().toLowerCase();
+    var visibleTotal = 0;
+    allSections.forEach(function(sec){
+      var inTab = sections[currentTab].indexOf(sec) !== -1;
+      var sectionVisibleCount = 0;
+      sec.querySelectorAll('.card').forEach(function(card){
+        var matches = inTab && (!q || card.dataset.search.indexOf(q) !== -1);
+        card.style.display = matches ? '' : 'none';
+        if (matches) sectionVisibleCount++;
+      });
+      sec.style.display = (inTab && sectionVisibleCount > 0) ? '' : 'none';
+      visibleTotal += sectionVisibleCount;
+    });
+    document.getElementById('empty-msg').style.display = visibleTotal === 0 ? 'block' : 'none';
+  }
+
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.setAttribute('aria-pressed', 'false'); });
+      tab.setAttribute('aria-pressed', 'true');
+      currentTab = tab.dataset.tab;
+      applyFilter();
+    });
+  });
+  document.getElementById('search').addEventListener('input', applyFilter);
+
+  applyFilter();
+})();
+</script>

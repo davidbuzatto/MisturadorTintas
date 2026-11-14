@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Misturador de tintas</title>
+<style>
+:root{--bg:#f6f4f0;--card:#fff;--ink:#1f1d1a;--dim:#6f6a62;--line:#e1ddd5;--acc:#c2410c;--acc2:#fff3e8;--ok:#15803d}
+@media (prefers-color-scheme:dark){:root{--bg:#161513;--card:#201f1c;--ink:#ece8e1;--dim:#9b958b;--line:#35322d;--acc:#fb923c;--acc2:#2b2118;--ok:#4ade80}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:22px 24px 6px;max-width:1280px;margin:0 auto}
+h1{margin:0;font-size:24px;letter-spacing:-.01em}
+.sub{color:var(--dim);margin:4px 0 0}
+main{max-width:1280px;margin:0 auto;padding:12px 24px 40px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:16px}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card h2{margin:0 0 10px;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--dim)}
+.full{grid-column:1/-1}
+button{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 11px;cursor:pointer}
+button:hover{border-color:var(--acc)}
+button.pri{background:var(--acc);border-color:var(--acc);color:#fff}
+button.sm{padding:2px 8px;font-size:12px}
+input[type=text],input[type=number],select{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:5px 8px}
+input[type=range]{accent-color:var(--acc);width:100%}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.sw{width:30px;height:30px;border-radius:7px;border:1px solid rgba(0,0,0,.18);flex:none}
+.ing{display:grid;grid-template-columns:30px minmax(90px,1.1fr) minmax(90px,1.4fr) 66px 62px 26px;gap:8px;align-items:center;padding:7px 0;border-top:1px solid var(--line)}
+.ing:first-child{border-top:0}
+.ing .nm{font-size:13px;line-height:1.2}.ing .nm small{color:var(--dim);display:block}
+.ing input[type=number]{width:62px}
+.ml{color:var(--dim);font-size:11.5px;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.big{display:grid;grid-template-columns:1fr 1fr;height:150px;border-radius:12px;overflow:hidden;border:1px solid rgba(0,0,0,.2)}
+.big div{display:flex;align-items:flex-end;padding:8px;font-size:12px;font-weight:600}
+.cap{display:grid;grid-template-columns:1fr 1fr;font-size:12px;color:var(--dim);margin-top:5px}
+.de{font-size:28px;font-weight:700;font-variant-numeric:tabular-nums}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:5px 6px;border-top:1px solid var(--line);text-align:left}
+th{color:var(--dim);font-weight:500;font-size:12px}
+tr.sel td{background:var(--acc2)}
+.chip{display:inline-block;width:16px;height:16px;border-radius:4px;vertical-align:-3px;border:1px solid rgba(0,0,0,.2)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.tabs button[aria-pressed=true]{background:var(--acc);color:#fff;border-color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(122px,1fr));gap:6px;max-height:300px;overflow:auto;padding:2px}
+.cell{display:flex;gap:6px;align-items:center;border:1px solid var(--line);border-radius:8px;padding:4px;cursor:pointer;font-size:11.5px;line-height:1.15;background:var(--card)}
+.cell:hover{border-color:var(--acc)}
+.cell .sw{width:24px;height:24px}
+.cell b{display:block;font-size:11px;color:var(--dim);font-weight:500}
+.cell.own{box-shadow:inset 0 0 0 2px var(--ok)}
+.muted{color:var(--dim);font-size:12.5px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;z-index:10;padding:16px}
+.modal.on{display:flex}
+.modal .box{background:var(--card);border-radius:14px;max-width:760px;width:100%;max-height:90vh;overflow:auto;padding:16px}
+.sug{border:1px solid var(--line);border-radius:10px;padding:8px 10px;margin-top:8px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.hist{border-top:1px solid var(--line);padding:10px 0;display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center}
+.pair{display:flex}.pair .sw{border-radius:0;border-left-width:0}.pair .sw:first-child{border-radius:7px 0 0 7px;border-left-width:1px}.pair .sw:last-child{border-radius:0 7px 7px 0}
+.warn{background:var(--acc2);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12.5px;color:var(--dim)}
+details summary{cursor:pointer;color:var(--dim);font-size:12.5px}
+@media(max-width:700px){.resgrid{grid-template-columns:1fr!important}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Misturador de tintas</h1>
+  <p class="sub">Tintas Acrilex Fosca como ingredientes; cor-alvo de qualquer catálogo (Tamiya, Revell, Acrilex). A mistura é calculada como <b>pigmentos</b> (espectral, Kubelka-Munk), não como média de RGB.</p>
+</header>
+<main>
+  <section class="card">
+    <h2>1 · Mistura</h2>
+    <div id="ings"></div>
+    <div class="row" style="margin-top:10px">
+      <button class="pri" id="btnAdd">+ adicionar tinta</button>
+      <button id="btnNorm" title="Escala as quantidades para somarem 100%">normalizar 100%</button>
+      <button id="btnClear">limpar</button>
+      <span style="flex:1"></span>
+      <label class="muted">total <input type="number" id="total" min="0.5" step="0.5" value="10" style="width:70px"> ml</label>
+    </div>
+    <div class="muted" id="sumInfo" style="margin-top:6px"></div>
+    <details style="margin-top:8px"><summary>Modelo de mistura e força de tingimento</summary>
+      <div style="margin-top:8px" class="row">
+        <label>modelo
+          <select id="model">
+            <option value="km">Pigmento (Kubelka-Munk, espalhamento estimado)</option>
+            <option value="kmeq">Pigmento (Kubelka-Munk, espalhamento igual)</option>
+            <option value="lin">RGB linear (luz)</option>
+            <option value="srgb">RGB direto (média de hex)</option>
+          </select>
+        </label>
+      </div>
+      <p class="muted">A coluna “força” de cada tinta multiplica sua participação: use &gt;1 para pigmentos fortes (preto, azul, magenta) e &lt;1 para os fracos. Ajuste até a mistura calculada bater com o que você vê na bancada.</p>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2>2 · Cor-alvo</h2>
+    <div class="tabs" id="tgtTabs"></div>
+    <div class="row" style="margin-bottom:8px"><input type="text" id="tgtSearch" placeholder="buscar código ou nome…" style="flex:1;min-width:140px"><span id="freeBox" style="display:none"><input type="color" id="freeColor" value="#808080"> <input type="text" id="freeHex" value="#808080" style="width:90px"></span></div>
+    <div class="grid" id="tgtGrid"></div>
+  </section>
+
+  <section class="card full" id="resSec">
+    <h2>3 · Resultado</h2>
+    <div class="resgrid" style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px">
+      <div>
+        <div class="big"><div id="bigT">alvo</div><div id="bigM">mistura</div></div>
+        <div class="cap"><span id="capT"></span><span id="capM"></span></div>
+        <div class="row" style="margin-top:10px"><span class="de" id="deVal">–</span><span id="deTxt" class="muted"></span></div>
+        <div class="row" style="margin-top:10px"><button id="btnSave" class="pri">salvar receita</button><button id="btnSug">sugerir mistura automática</button>
+          <label class="muted">até <select id="maxN"><option>1</option><option>2</option><option selected>3</option><option>4</option></select> tintas</label>
+          <label class="muted"><input type="checkbox" id="onlyOwn"> só as que tenho</label></div>
+        <div id="sugOut"></div>
+      </div>
+      <div>
+        <table><thead><tr><th>modelo</th><th>cor</th><th>ΔE00</th></tr></thead><tbody id="cmp"></tbody></table>
+        <p class="muted" style="margin-top:8px">ΔE00 &lt; 1: imperceptível · 1–2: só lado a lado · 2–5: parecida · &gt;5: diferente. A diferença entre “pigmento” e “RGB” é justamente o erro de misturar em RGB.</p>
+        <div class="warn">Aviso: tinta acrílica úmida costuma secar um pouco mais escura; o acabamento muda a percepção; e as cores dos catálogos são aproximadas. Trate o resultado como ponto de partida e registre a cor real obtida nas receitas salvas.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card full">
+    <h2>4 · Receitas salvas</h2>
+    <div id="hist"></div>
+    <div class="row" style="margin-top:8px"><button id="btnExp">exportar JSON</button><button id="btnImp">importar JSON</button><input type="file" id="fileImp" accept=".json" style="display:none"></div>
+  </section>
+</main>
+
+<div class="modal" id="modal"><div class="box">
+  <div class="row"><b style="flex:1">Escolha uma tinta Acrilex</b><button id="mClose">fechar</button></div>
+  <div class="row" style="margin:8px 0"><input type="text" id="pSearch" placeholder="buscar…" style="flex:1"><label class="muted"><input type="checkbox" id="pOwn"> só as que tenho</label></div>
+  <p class="muted" style="margin:0 0 6px">Clique para adicionar. Botão direito (ou toque longo) marca “tenho esta tinta” (borda verde).</p>
+  <div class="grid" id="pGrid" style="max-height:60vh"></div>
+</div></div>
+
+<script>
+/*ENGINE*/
+/*DATA*/
+</script>
+<script>
+(function(){
+var KEY='misturador-tintas-v1';
+var $=function(id){return document.getElementById(id);};
+var CATS=CATALOGS;
+var CATNAMES={tamiya:'Tamiya',revellA:'Revell Aqua',revellE:'Revell Email',acrilex:'Acrilex',free:'Livre'};
+var acr={};CATS.acrilex.forEach(function(p){acr[p.code]=p;p.fit=fitHex(p.hex);});
+var ANCHORS=['519','520','505','559','555','549','504','503'];
+var st={ing:[],target:{hex:'#4f5457',label:'Tamiya X-10 Gun Metal'},model:'km',total:10,own:{},hist:[],tab:'tamiya',free:'#808080'};
+try{var s0=JSON.parse(localStorage.getItem(KEY)||'null');if(s0)for(var k in s0)st[k]=s0[k];}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(st));}catch(e){}}
+var MODELS=[['km','Pigmento · KM (espalh. estimado)'],['kmeq','Pigmento · KM (espalh. igual)'],['lin','RGB linear'],['srgb','RGB direto']];
+
+function items(){return st.ing.filter(function(i){return acr[i.code]&&i.v>0;}).map(function(i){return {p:acr[i.code].fit,w:i.v*(i.s||1)};});}
+function mixOf(model){var it=items();if(!it.length)return null;return mixHex(it,model);}
+function deHex(a,b){return dE00(hex2lab(a),hex2lab(b));}
+function deTxt(d){return d<1?'imperceptível':d<2?'só lado a lado':d<3.5?'muito parecida':d<5?'parecida':d<10?'diferente':'bem diferente';}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');}
+
+function renderIngs(){
+  var box=$('ings');box.innerHTML='';
+  var sum=st.ing.reduce(function(a,i){return a+i.v;},0);
+  if(!st.ing.length){box.innerHTML='<p class="muted">Nenhuma tinta ainda. Clique em “adicionar tinta”.</p>';}
+  st.ing.forEach(function(ing,idx){
+    var p=acr[ing.code];if(!p)return;
+    var eff=sum>0?ing.v/sum*100:0;
+    var d=document.createElement('div');d.className='ing';
+    d.innerHTML='<div class="sw" style="background:'+p.hex+'"></div>'+
+      '<div class="nm">'+esc(p.name)+'<small>'+p.code+'</small></div>'+
+      '<input type="range" min="0" max="100" step="1" value="'+ing.v+'">'+
+      '<div><input type="number" min="0" max="100" step="1" value="'+ing.v+'" title="quantidade relativa"><div class="ml">'+eff.toFixed(1)+'% · '+(eff/100*st.total).toFixed(2)+' ml</div></div>'+
+      '<div><input type="number" min="0.1" max="5" step="0.1" value="'+(ing.s||1)+'" title="força de tingimento" style="width:58px"><div class="ml">força</div></div>'+
+      '<button class="sm" title="remover">✕</button>';
+    var rg=d.querySelector('input[type=range]'),nums=d.querySelectorAll('input[type=number]');
+    function setV(v,full){ing.v=Math.max(0,Math.min(100,+v||0));save();if(full)update();else{renderResult();var e=sum2()>0?ing.v/sum2()*100:0;nums[0].value=ing.v;}}
+    rg.addEventListener('input',function(){ing.v=+rg.value;save();renderResult();updMl();});
+    rg.addEventListener('change',function(){renderIngs();});
+    nums[0].addEventListener('change',function(){setV(nums[0].value,true);});
+    nums[1].addEventListener('change',function(){ing.s=Math.max(0.1,+nums[1].value||1);save();update();});
+    d.querySelector('button').addEventListener('click',function(){st.ing.splice(idx,1);save();update();});
+    box.appendChild(d);
+  });
+  $('sumInfo').textContent=st.ing.length?('soma das quantidades: '+sum.toFixed(0)+(Math.abs(sum-100)>0.5?' (as proporções valem sobre a soma; “normalizar 100%” ajusta os números)':'')):'';
+}
+function sum2(){return st.ing.reduce(function(a,i){return a+i.v;},0);}
+function updMl(){
+  var s=sum2();var rows=document.querySelectorAll('#ings .ing');
+  st.ing.forEach(function(ing,i){var r=rows[i];if(!r)return;var eff=s>0?ing.v/s*100:0;r.querySelector('.ml').textContent=eff.toFixed(1)+'% · '+(eff/100*st.total).toFixed(2)+' ml';r.querySelector('input[type=number]').value=ing.v;});
+  $('sumInfo').textContent='soma das quantidades: '+s.toFixed(0);
+}
+function renderResult(){
+  var th=st.target.hex,mh=mixOf(st.model);
+  $('bigT').style.background=th;$('bigM').style.background=mh||'transparent';
+  $('bigT').style.color=hex2lab(th)[0]>55?'#000':'#fff';
+  $('bigM').style.color=mh&&hex2lab(mh)[0]>55?'#000':'#fff';
+  $('bigT').textContent='alvo';$('bigM').textContent=mh?'mistura':'—';
+  $('capT').textContent=st.target.label+' · '+th;$('capM').textContent=mh||'';
+  if(mh){var d=deHex(th,mh);$('deVal').textContent='ΔE '+d.toFixed(1);$('deTxt').textContent=deTxt(d);}else{$('deVal').textContent='–';$('deTxt').textContent='';}
+  var body=$('cmp');body.innerHTML='';
+  MODELS.forEach(function(m){
+    var h=mixOf(m[0]);if(!h)return;
+    var tr=document.createElement('tr');if(m[0]===st.model)tr.className='sel';
+    tr.innerHTML='<td>'+m[1]+'</td><td><span class="chip" style="background:'+h+'"></span> '+h+'</td><td>'+deHex(th,h).toFixed(1)+'</td>';
+    body.appendChild(tr);
+  });
+}
+function update(){renderIngs();renderResult();}
+
+function renderTabs(){
+  var t=$('tgtTabs');t.innerHTML='';
+  ['tamiya','revellA','revellE','acrilex','free'].forEach(function(k){
+    var b=document.createElement('button');b.textContent=CATNAMES[k];b.setAttribute('aria-pressed',st.tab===k);
+    b.onclick=function(){st.tab=k;save();renderTabs();renderTargets();};t.appendChild(b);
+  });
+}
+function renderTargets(){
+  var g=$('tgtGrid');g.innerHTML='';$('freeBox').style.display=st.tab==='free'?'':'none';
+  if(st.tab==='free'){$('freeColor').value=st.free;$('freeHex').value=st.free;g.style.display='none';return;}
+  g.style.display='';
+  var q=$('tgtSearch').value.trim().toLowerCase();
+  CATS[st.tab].forEach(function(p){
+    if(q&&(p.code+' '+p.name).toLowerCase().indexOf(q)<0)return;
+    var c=document.createElement('div');c.className='cell';c.title=p.code+' '+p.name+' '+p.hex;
+    c.innerHTML='<span class="sw" style="background:'+p.hex+'"></span><span>'+esc(p.name)+'<b>'+p.code+'</b></span>';
+    c.onclick=function(){st.target={hex:p.hex,label:CATNAMES[st.tab]+' '+p.code+' '+p.name};save();renderResult();$('resSec').scrollIntoView({behavior:'smooth',block:'nearest'});};
+    g.appendChild(c);
+  });
+}
+function setFree(h){if(!/^#[0-9a-fA-F]{6}$/.test(h))return;st.free=h.toLowerCase();st.target={hex:st.free,label:'Cor livre'};save();$('freeColor').value=st.free;$('freeHex').value=st.free;renderResult();}
+$('freeColor').oninput=function(){setFree(this.value);};
+$('freeHex').onchange=function(){setFree(this.value.trim());};
+$('tgtSearch').oninput=renderTargets;
+
+function renderPicker(){
+  var g=$('pGrid');g.innerHTML='';var q=$('pSearch').value.trim().toLowerCase(),own=$('pOwn').checked;
+  CATS.acrilex.forEach(function(p){
+    if(q&&(p.code+' '+p.name).toLowerCase().indexOf(q)<0)return;
+    if(own&&!st.own[p.code])return;
+    var c=document.createElement('div');c.className='cell'+(st.own[p.code]?' own':'');
+    c.innerHTML='<span class="sw" style="background:'+p.hex+'"></span><span>'+esc(p.name)+'<b>'+p.code+'</b></span>';
+    c.onclick=function(){addPaint(p.code);};
+    c.oncontextmenu=function(e){e.preventDefault();st.own[p.code]=!st.own[p.code];save();renderPicker();};
+    var t;c.ontouchstart=function(){t=setTimeout(function(){st.own[p.code]=!st.own[p.code];save();renderPicker();},600);};
+    c.ontouchend=c.ontouchmove=function(){clearTimeout(t);};
+    g.appendChild(c);
+  });
+}
+function addPaint(code){
+  var ex=st.ing.filter(function(i){return i.code===code;})[0];
+  if(ex){ex.v=Math.min(100,ex.v+10);}else st.ing.push({code:code,v:st.ing.length?10:100,s:1});
+  save();update();$('modal').classList.remove('on');
+}
+$('btnAdd').onclick=function(){$('modal').classList.add('on');renderPicker();$('pSearch').focus();};
+$('mClose').onclick=function(){$('modal').classList.remove('on');};
+$('modal').onclick=function(e){if(e.target===$('modal'))$('modal').classList.remove('on');};
+$('pSearch').oninput=renderPicker;$('pOwn').onchange=renderPicker;
+$('btnNorm').onclick=function(){var s=sum2();if(s>0)st.ing.forEach(function(i){i.v=Math.round(i.v/s*1000)/10;});save();update();};
+$('btnClear').onclick=function(){st.ing=[];save();update();};
+$('total').value=st.total;$('total').onchange=function(){st.total=Math.max(0.5,+this.value||10);save();renderIngs();};
+$('model').value=st.model;$('model').onchange=function(){st.model=this.value;save();renderResult();};
+
+$('btnSug').onclick=function(){
+  var out=$('sugOut');out.innerHTML='<p class="muted">calculando…</p>';
+  setTimeout(function(){
+    var useOwn=$('onlyOwn').checked,list=CATS.acrilex.filter(function(p){return !useOwn||st.own[p.code];});
+    if(!list.length){out.innerHTML='<p class="muted">Nenhuma tinta marcada como “tenho”. Marque no seletor (botão direito) ou desligue o filtro.</p>';return;}
+    var P=list.map(function(p){return {code:p.code,fit:p.fit,anchor:ANCHORS.indexOf(p.code)>=0};});
+    var res=suggest(P,st.target.hex,+$('maxN').value);
+    out.innerHTML='';
+    res.forEach(function(r){
+      var d=document.createElement('div');d.className='sug';
+      var mh=mixHex(r.idx.map(function(i,k){return {p:P[i].fit,w:r.ws[k]};}),'km');
+      var parts=r.idx.map(function(i,k){var p=acr[P[i].code];return '<span class="chip" style="background:'+p.hex+'"></span> '+(r.ws[k]*100).toFixed(0)+'% '+esc(p.name)+' <span class="muted">'+p.code+'</span>';}).join(' + ');
+      d.innerHTML='<span class="chip" style="background:'+mh+';width:26px;height:26px"></span><div style="flex:1;min-width:200px">'+parts+'<div class="muted">'+r.idx.length+' tinta'+(r.idx.length>1?'s':'')+' · ΔE '+r.de.toFixed(2)+' ('+deTxt(r.de)+')</div></div>';
+      var b=document.createElement('button');b.textContent='usar';
+      b.onclick=function(){st.ing=r.idx.map(function(i,k){return {code:P[i].code,v:Math.round(r.ws[k]*1000)/10,s:1};});st.model='km';$('model').value='km';save();update();};
+      d.appendChild(b);out.appendChild(d);
+    });
+  },30);
+};
+
+function renderHist(){
+  var h=$('hist');h.innerHTML='';
+  if(!st.hist.length){h.innerHTML='<p class="muted">Nenhuma receita salva. Monte uma mistura e clique em “salvar receita”. Depois de misturar de verdade, registre a cor obtida para ver o erro real do modelo.</p>';return;}
+  st.hist.forEach(function(r,idx){
+    var div=document.createElement('div');div.className='hist';
+    var sum=r.ing.reduce(function(a,i){return a+i.v;},0)||1;
+    var txt=r.ing.map(function(i){var p=acr[i.code];return (i.v/sum*100).toFixed(0)+'% '+esc(p?p.name:i.code)+(i.s&&i.s!==1?' (×'+i.s+')':'');}).join(' + ');
+    var dr=r.obs?deHex(r.target.hex,r.obs):null;
+    div.innerHTML='<div class="pair"><span class="sw" style="background:'+r.target.hex+'" title="alvo"></span><span class="sw" style="background:'+r.mix+'" title="calculada"></span>'+(r.obs?'<span class="sw" style="background:'+r.obs+'" title="obtida"></span>':'')+'</div>'+
+      '<div><b>'+esc(r.name||'Receita')+'</b> <span class="muted">→ '+esc(r.target.label)+'</span><br><span class="muted">'+txt+' · ΔE calculado '+deHex(r.target.hex,r.mix).toFixed(1)+(dr!==null?' · ΔE real '+dr.toFixed(1)+' · erro do modelo '+deHex(r.mix,r.obs).toFixed(1):'')+'</span>'+
+      '<div class="row" style="margin-top:4px"><label class="muted">cor obtida <input type="color" value="'+(r.obs||r.mix)+'"></label><input type="text" placeholder="anotação" value="'+esc(r.note||'')+'" style="flex:1;min-width:120px"></div></div>'+
+      '<div class="row"><button class="sm">carregar</button><button class="sm">excluir</button></div>';
+    var cin=div.querySelector('input[type=color]'),tin=div.querySelector('input[type=text]'),bs=div.querySelectorAll('button');
+    cin.onchange=function(){r.obs=cin.value;save();renderHist();};
+    tin.onchange=function(){r.note=tin.value;save();};
+    bs[0].onclick=function(){st.ing=JSON.parse(JSON.stringify(r.ing));st.target=r.target;st.model=r.model||'km';$('model').value=st.model;save();update();window.scrollTo({top:0,behavior:'smooth'});};
+    bs[1].onclick=function(){st.hist.splice(idx,1);save();renderHist();};
+    h.appendChild(div);
+  });
+}
+$('btnSave').onclick=function(){
+  var mh=mixOf(st.model);if(!mh){alert('Adicione tintas à mistura primeiro.');return;}
+  var name=prompt('Nome da receita:',st.target.label);if(name===null)return;
+  st.hist.unshift({name:name,target:st.target,ing:JSON.parse(JSON.stringify(st.ing)),model:st.model,mix:mh,obs:'',note:'',date:new Date().toISOString()});save();renderHist();
+};
+$('btnExp').onclick=function(){var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(st.hist,null,1)],{type:'application/json'}));a.download='receitas-misturador.json';a.click();};
+$('btnImp').onclick=function(){$('fileImp').click();};
+$('fileImp').onchange=function(){var f=this.files[0];if(!f)return;var rd=new FileReader();rd.onload=function(){try{var a=JSON.parse(rd.result);if(Array.isArray(a)){st.hist=a.concat(st.hist);save();renderHist();}}catch(e){alert('Arquivo inválido.');}};rd.readAsText(f);};
+
+if(!st.ing.length){st.ing=[{code:'530',v:80,s:1},{code:'559',v:20,s:1}];}
+renderTabs();renderTargets();update();renderHist();
+})();
+</script>
+</body>
+</html>

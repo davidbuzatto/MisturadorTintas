@@ -1,0 +1,465 @@
+<title>Catálogo Acrilex Fosca</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#f2f1ef;
+    --surface:#fbfaf8;
+    --surface-2:#e8e6e2;
+    --ink:#262523;
+    --ink-dim:#6f6b64;
+    --border:#dbd9d4;
+    --accent:#a8552b;
+    --accent-ink:#fff8ef;
+    --hull-bg:#efe6d8;
+    --mono-chip:#e7e4de;
+    --shadow: 0 1px 0 rgba(38,37,35,.05);
+    --stripe-a: var(--surface-2);
+    --stripe-b: var(--border);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1c1c1b;
+      --surface:#242322;
+      --surface-2:#2b2a28;
+      --ink:#e8e6e1;
+      --ink-dim:#a19c93;
+      --border:#3a3834;
+      --accent:#e08a54;
+      --accent-ink:#1b1712;
+      --hull-bg:#332e22;
+      --mono-chip:#302f2b;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1b1712;
+    --surface:#251f18;
+    --surface-2:#2f2820;
+    --ink:#ede4d2;
+    --ink-dim:#a89a80;
+    --border:#3c3325;
+    --accent:#e08a54;
+    --accent-ink:#1b1712;
+    --hull-bg:#332a1a;
+    --mono-chip:#332a1c;
+    color-scheme: dark;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    padding-inline:20px;
+    padding-block: 32px 56px;
+    max-width: 1100px;
+    margin-inline:auto;
+  }
+  h1,h2{font-family:'Barlow Condensed', system-ui, sans-serif; text-wrap:balance; margin:0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+  }
+  h1{font-size: clamp(28px,5vw,38px); font-weight:700; line-height:1.05; margin-top:6px;}
+  .sub{color:var(--ink-dim); font-size:14.5px; max-width:66ch; margin-top:10px; line-height:1.55;}
+
+  header{padding-block-end:22px; border-bottom:1px solid var(--border); margin-bottom:22px;}
+
+  .toolbar{
+    position:sticky;
+    top: env(safe-area-inset-top, 0px);
+    background:var(--bg);
+    z-index:5;
+    padding-block:12px;
+    margin-bottom:18px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    border-bottom:1px solid var(--border);
+  }
+  .search{
+    flex:1 1 220px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:14px;
+    padding:9px 12px;
+    border-radius:9px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink);
+  }
+  .search::placeholder{color:var(--ink-dim);}
+  .tabs{display:flex; gap:6px; flex-wrap:wrap;}
+  .tab{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    padding:7px 11px;
+    border-radius:100px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink-dim);
+    cursor:pointer;
+  }
+  .tab[aria-pressed="true"]{
+    background:var(--accent);
+    color:var(--accent-ink);
+    border-color:var(--accent);
+  }
+  .tab:focus-visible, .search:focus-visible, .copy-btn:focus-visible, input:focus-visible{
+    outline:2px solid var(--accent); outline-offset:2px;
+  }
+
+  .note{
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px 16px;
+    font-size:13px;
+    color:var(--ink-dim);
+    line-height:1.55;
+    margin-bottom:26px;
+  }
+  .note strong{color:var(--ink);}
+
+  section{margin-bottom:34px;}
+  .section-head{display:flex; align-items:baseline; gap:10px; margin-bottom:12px; flex-wrap:wrap;}
+  .section-head h2{font-size:20px; font-weight:600;}
+  .section-count{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-dim);}
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(178px,1fr));
+    gap:10px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:11px;
+    padding:11px;
+    box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:7px;
+  }
+  .swatch{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid rgba(0,0,0,.15);
+  }
+  .swatch-additive{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid var(--border);
+    background: repeating-linear-gradient(45deg, var(--stripe-a), var(--stripe-a) 6px, var(--stripe-b) 6px, var(--stripe-b) 12px);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:9px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+  }
+  .code-row{display:flex; align-items:center; gap:6px; flex-wrap:wrap;}
+  .code{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:13.5px;
+    background:var(--mono-chip);
+    padding:1px 6px;
+    border-radius:5px;
+  }
+  .eq{font-size:10.5px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace;}
+  .name{font-size:12.5px; font-weight:500; line-height:1.3;}
+  .avail{font-size:10px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace; line-height:1.35;}
+  .copy-btn{
+    background:none; border:1px solid var(--border); color:var(--ink-dim);
+    border-radius:6px; font-size:10px; padding:1px 6px; cursor:pointer;
+    font-family:'IBM Plex Mono',monospace; margin-left:auto;
+  }
+  .copy-btn:hover{color:var(--ink); border-color:var(--ink-dim);}
+
+  .acrilex-input{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:11.5px;
+    padding:5px 7px;
+    border-radius:6px;
+    border:1px solid var(--border);
+    background:var(--bg);
+    color:var(--ink);
+    width:100%;
+  }
+  .acrilex-input::placeholder{color:var(--ink-dim); opacity:.75;}
+
+  .empty{
+    text-align:center;
+    color:var(--ink-dim);
+    font-size:13px;
+    padding:30px 0;
+    display:none;
+  }
+
+  footer{
+    margin-top:44px;
+    padding-top:18px;
+    border-top:1px solid var(--border);
+    font-size:12px;
+    color:var(--ink-dim);
+    line-height:1.6;
+  }
+</style>
+
+<header>
+  <div class="eyebrow">Referência · Tinta Acrílica Fosca para Artesanato</div>
+  <h1>Catálogo Acrilex Fosca</h1>
+  <p class="sub">Cores aproximadas, amostradas das imagens do site oficial.</p>
+</header>
+
+<div class="toolbar">
+  <input class="search" id="search" type="text" placeholder="buscar por código ou nome (ex: 519, branco, verde oliva)...">
+  </div>
+
+<div class="note">
+  <strong>Escopo:</strong> linha Tinta Acrílica Fosca para Artesanato Acrilex (37 ml, 60 ml e 250 ml, conforme a cor), na ordem da cartela do catálogo Manualidades 2025 (págs. 36–37).
+  <br><br>
+  <strong>Sobre as cores:</strong> amostradas da cartela impressa no catálogo oficial (PDF). São aproximações: a cor real depende da tinta, da superfície e da tela.
+</div>
+
+<section id="section-fosca">
+  <div class="section-head"><h2>Acrílica Fosca — 95 cores</h2><span class="section-count" id="count-fosca"></span></div>
+  <div class="grid" id="grid-fosca"></div>
+</section>
+
+<p class="empty" id="empty-msg">Nenhuma cor encontrada com esse filtro.</p>
+
+<footer>
+  Códigos e nomes conforme o catálogo Acrilex Manualidades 2025. Cores amostradas da cartela impressa.
+</footer>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'acrilex-catalogo-notes';
+  var notes = {};
+  try { notes = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e) { notes = {}; }
+  function saveNotes(){ try { localStorage.setItem(STORAGE_KEY, JSON.stringify(notes)); } catch(e) {} }
+
+  function copyText(text, btn){
+    var original = btn.textContent;
+    function done(){ btn.textContent = 'ok'; setTimeout(function(){ btn.textContent = original; }, 1000); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function(){ fallbackCopy(text); done(); });
+    } else { fallbackCopy(text); done(); }
+  }
+  function fallbackCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch(e){}
+    document.body.removeChild(ta);
+  }
+
+  // [code, name, hex или null-се additive, eq-opcional]
+  var DATA = {
+    fosca: [
+      ["519","Branco","#ffffff",null,""],
+      ["893","Mineral","#f0f7cf",null,""],
+      ["903","Creme","#fbfae5",null,""],
+      ["835","Saara","#efe8cf",null,""],
+      ["892","Pérola","#fef9d4",null,""],
+      ["817","Areia","#f4dcc7",null,""],
+      ["808","Amarelo Bebê","#fbf9a6",null,""],
+      ["504","Amarelo Limão","#f2f02d",null,""],
+      ["895","Melão","#f8a830",null,""],
+      ["505","Amarelo Ouro","#f9b30b",null,""],
+      ["536","Amarelo Cádmio","#f68f27",null,""],
+      ["564","Amarelo Ocre","#dd8536",null,""],
+      ["831","Amêndoa","#da5735",null,""],
+      ["538","Amarelo Pêssego","#fadecb",null,""],
+      ["812","Salmão Bebê","#fce0da",null,""],
+      ["929","Areia Rosada","#f2a68f",null,""],
+      ["518","Salmão","#f68a75",null,""],
+      ["801","Tangerina","#f26032",null,""],
+      ["576","Cenoura","#f04723",null,""],
+      ["517","Laranja","#ed2f20",null,""],
+      ["541","Vermelho Vivo","#e52729",null,""],
+      ["813","Rosa Bebê","#fbe4e6",null,""],
+      ["894","Rosa Cotton","#f9bac2",null,""],
+      ["910","Rosa Primavera","#efa3c8",null,""],
+      ["537","Rosa","#f8b1c8",null,""],
+      ["909","Tutti-Frutti","#f7a1d4",null,""],
+      ["542","Rosa Escuro","#ee85b5",null,""],
+      ["527","Pink","#f36097",null,""],
+      ["828","Rosa Antigo","#ef5879",null,""],
+      ["586","Coral","#eb434c",null,""],
+      ["804","Fuchsia","#cb196e",null,""],
+      ["805","Goiaba Queimada","#cc3850",null,""],
+      ["827","Romã","#d42337",null,""],
+      ["507","Vermelho Fogo","#e6372f",null,""],
+      ["555","Vermelho","#d42428",null,""],
+      ["508","Vermelho Escarlate","#a9272e",null,""],
+      ["550","Púrpura","#95323b",null,""],
+      ["514","Terra Queimada","#973c49",null,""],
+      ["826","Cereja","#962c39",null,""],
+      ["914","Arándano","#8e3043",null,""],
+      ["565","Vinho","#612740",null,""],
+      ["528","Lilás","#e7cce1",null,""],
+      ["915","Orquídea","#d9a6cf",null,""],
+      ["581","Rosa Ciclame","#bc597b",null,""],
+      ["913","Ameixa","#813b5d",null,""],
+      ["549","Magenta","#c12e83",null,""],
+      ["809","Lilás Babê","#eae3f3",null,""],
+      ["587","Lavanda","#c3cdeb",null,""],
+      ["916","Violeta Gris","#9585ad",null,""],
+      ["516","Violeta","#9866b8",null,""],
+      ["918","Roxo","#6f5aaa",null,""],
+      ["917","Violeta Escuro","#60286c",null,""],
+      ["540","Violeta Cobalto","#372d64",null,""],
+      ["919","Azul Água","#e2f5fd",null,""],
+      ["579","Azul Hortênsia","#b5dee7",null,""],
+      ["503","Azul Celeste","#5fbae4",null,""],
+      ["921","Azul Bali","#84a6d5",null,""],
+      ["825","Azul Country","#8f9ecd",null,""],
+      ["559","Azul","#4172bc",null,""],
+      ["578","Azul Intenso","#3a419a",null,""],
+      ["501","Azul Turquesa","#3b4d87",null,""],
+      ["824","Azul Seco","#4d5877",null,""],
+      ["544","Azul Marinho","#344071",null,""],
+      ["897","Verde Soft","#f6f9d1",null,""],
+      ["820","Verde Primavera","#e3f1b9",null,""],
+      ["898","Verde Alecrim","#d1e862",null,""],
+      ["802","Verde Maçã","#99c321",null,""],
+      ["570","Verde Pistache","#91a535",null,""],
+      ["510","Verde Folha","#50be3c",null,""],
+      ["582","Verde Grama","#2d6f3f",null,""],
+      ["545","Verde Oliva","#616a41",null,""],
+      ["513","Verde Musgo","#41652f",null,""],
+      ["571","Verde Esmeralda","#0d3e31",null,""],
+      ["821","Verde Água","#bae6d2",null,""],
+      ["577","Turquesa","#63c8ba",null,""],
+      ["822","Verde Country","#2fa588",null,""],
+      ["803","Acqua Marina","#8bd0d0",null,""],
+      ["823","Azul Piscina","#3b97ae",null,""],
+      ["904","Ocre","#e0cd8d",null,""],
+      ["525","Camurça","#fbc96a",null,""],
+      ["818","Camurça Queimado","#dbab82",null,""],
+      ["569","Caramelo","#ad7623",null,""],
+      ["539","Siena Natural/Fumê","#b15632",null,""],
+      ["932","Telha","#be3231",null,""],
+      ["506","Cerâmica","#a3413b",null,""],
+      ["585","Capuccino","#a98669",null,""],
+      ["531","Marrom","#aa5947",null,""],
+      ["526","Marrom Escuro","#784b42",null,""],
+      ["896","Rústico","#402a1a",null,""],
+      ["879","Areia Lunar","#b3bea9",null,""],
+      ["819","Concreto","#a29577",null,""],
+      ["551","Sépia","#494037",null,""],
+      ["933","Cinza","#d3dbdc",null,""],
+      ["530","Grafite","#505254",null,""],
+      ["520","Preto","#1e1e1b",null,""]
+    ]
+  };
+
+  function acrilexField(code){
+    var wrap = document.createElement('div');
+    var input = document.createElement('input');
+    input.className = 'acrilex-input';
+    input.type = 'text';
+    input.placeholder = 'equivalente Acrilex...';
+    input.value = notes[code] || '';
+    input.addEventListener('input', function(){ notes[code] = input.value; saveNotes(); });
+    wrap.appendChild(input);
+    return wrap;
+  }
+
+  function buildCard(item){
+    var code = item[0], name = item[1], hex = item[2], eq = item[3];
+    var card = document.createElement('div');
+    card.className = 'card';
+    card.dataset.search = (code + ' ' + name + ' ' + (eq||'')).toLowerCase();
+
+    var sw;
+    if (hex) {
+      sw = document.createElement('div');
+      sw.className = 'swatch';
+      sw.style.background = hex;
+    } else {
+      sw = document.createElement('div');
+      sw.className = 'swatch-additive';
+      sw.textContent = 'aditivo';
+    }
+
+    var codeRow = document.createElement('div');
+    codeRow.className = 'code-row';
+    var codeEl = document.createElement('span');
+    codeEl.className = 'code';
+    codeEl.textContent = code;
+    codeRow.appendChild(codeEl);
+    if (eq) {
+      var eqEl = document.createElement('span');
+      eqEl.className = 'eq';
+      eqEl.textContent = '≈ ' + eq;
+      codeRow.appendChild(eqEl);
+    }
+    var copyBtn = document.createElement('button');
+    copyBtn.className = 'copy-btn';
+    copyBtn.type = 'button';
+    copyBtn.textContent = 'copiar';
+    copyBtn.addEventListener('click', function(){ copyText(code + ' ' + name, copyBtn); });
+    codeRow.appendChild(copyBtn);
+
+    var nameEl = document.createElement('div');
+    nameEl.className = 'name';
+    nameEl.textContent = name;
+
+    card.appendChild(sw);
+    card.appendChild(codeRow);
+    card.appendChild(nameEl);
+    if (item[4]) { var av = document.createElement('div'); av.className = 'avail'; av.textContent = item[4]; card.appendChild(av); }
+    card.dataset.search += ' ' + (item[4]||'').toLowerCase();
+    card.appendChild(acrilexField(code));
+    return card;
+  }
+
+  var gridFosca = document.getElementById('grid-fosca');
+
+  DATA.fosca.forEach(function(item){ gridFosca.appendChild(buildCard(item)); });
+
+  document.getElementById('count-fosca').textContent = DATA.fosca.length + ' cores';
+
+  var sections = {
+    all: [document.getElementById('section-fosca')],
+
+  };
+  var allSections = [document.getElementById('section-fosca')];
+  var tabs = document.querySelectorAll('.tab');
+  var currentTab = 'all';
+
+  function applyFilter(){
+    var q = document.getElementById('search').value.trim().toLowerCase();
+    var visibleTotal = 0;
+    allSections.forEach(function(sec){
+      var inTab = sections[currentTab].indexOf(sec) !== -1;
+      var sectionVisibleCount = 0;
+      sec.querySelectorAll('.card').forEach(function(card){
+        var matches = inTab && (!q || card.dataset.search.indexOf(q) !== -1);
+        card.style.display = matches ? '' : 'none';
+        if (matches) sectionVisibleCount++;
+      });
+      sec.style.display = (inTab && sectionVisibleCount > 0) ? '' : 'none';
+      visibleTotal += sectionVisibleCount;
+    });
+    document.getElementById('empty-msg').style.display = visibleTotal === 0 ? 'block' : 'none';
+  }
+
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.setAttribute('aria-pressed', 'false'); });
+      tab.setAttribute('aria-pressed', 'true');
+      currentTab = tab.dataset.tab;
+      applyFilter();
+    });
+  });
+  document.getElementById('search').addEventListener('input', applyFilter);
+
+  applyFilter();
+})();
+</script>

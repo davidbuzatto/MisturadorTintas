@@ -1,0 +1,1676 @@
+[
+ {
+  "code": "LP-1",
+  "name": "Black",
+  "lacquer": "#040000",
+  "aditivo": false,
+  "hex": "#040000",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-2",
+  "name": "White",
+  "lacquer": "#ffffff",
+  "aditivo": false,
+  "hex": "#ffffff",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-3",
+  "name": "Flat Black",
+  "lacquer": "#040000",
+  "aditivo": false,
+  "hex": "#040000",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-4",
+  "name": "Flat White",
+  "lacquer": "#ffffff",
+  "aditivo": false,
+  "hex": "#ffffff",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-5",
+  "name": "Semi Gloss Black",
+  "lacquer": "#040000",
+  "aditivo": false,
+  "hex": "#040000",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-6",
+  "name": "Pure Blue",
+  "lacquer": "#005bac",
+  "aditivo": false,
+  "hex": "#005bac",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-7",
+  "name": "Pure Red",
+  "lacquer": "#e70012",
+  "aditivo": false,
+  "hex": "#e70012",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-8",
+  "name": "Pure Yellow",
+  "lacquer": "#fff001",
+  "aditivo": false,
+  "hex": "#fff001",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-9",
+  "name": "Clear",
+  "lacquer": "#060202",
+  "aditivo": true,
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-11",
+  "name": "Silver",
+  "lacquer": "#dfdfdf",
+  "aditivo": false,
+  "hex": "#dfdfdf",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-12",
+  "name": "IJN Gray (Kure Arsenal)",
+  "lacquer": "#717b85",
+  "aditivo": false,
+  "hex": "#717b85",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-13",
+  "name": "IJN Gray (Sasebo Arsenal)",
+  "lacquer": "#535760",
+  "aditivo": false,
+  "hex": "#535760",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-14",
+  "name": "IJN Gray (Maizuru Arsenal)",
+  "lacquer": "#7d8087",
+  "aditivo": false,
+  "hex": "#7d8087",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-15",
+  "name": "IJN Gray (Yokosuka Arsenal)",
+  "lacquer": "#646b75",
+  "aditivo": false,
+  "hex": "#646b75",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-16",
+  "name": "Wooden Deck Tan",
+  "lacquer": "#b2b280",
+  "aditivo": false,
+  "hex": "#b2b280",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-17",
+  "name": "Linoleum Deck Brown",
+  "lacquer": "#403300",
+  "aditivo": false,
+  "hex": "#403300",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-18",
+  "name": "Dull Red",
+  "lacquer": "#822100",
+  "aditivo": false,
+  "hex": "#822100",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-19",
+  "name": "Gun Metal",
+  "lacquer": "#333333",
+  "aditivo": false,
+  "hex": "#333333",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-20",
+  "name": "Light Gun Metal",
+  "lacquer": "#666666",
+  "aditivo": false,
+  "hex": "#666666",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-21",
+  "name": "Italian Red",
+  "lacquer": "#ff0000",
+  "aditivo": false,
+  "hex": "#ff0000",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-22",
+  "name": "Flat Base",
+  "lacquer": "#040605",
+  "aditivo": true,
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-23",
+  "name": "Flat Clear",
+  "lacquer": "#040605",
+  "aditivo": true,
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-24",
+  "name": "Semi Gloss Clear",
+  "lacquer": "#040605",
+  "aditivo": true,
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-25",
+  "name": "Brown (JGSDF)",
+  "lacquer": "#674d00",
+  "aditivo": false,
+  "hex": "#674d00",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-26",
+  "name": "Dark Green (JGSDF)",
+  "lacquer": "#1a6701",
+  "aditivo": false,
+  "hex": "#1a6701",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-27",
+  "name": "German Gray",
+  "lacquer": "#325c5b",
+  "aditivo": false,
+  "hex": "#325c5b",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-28",
+  "name": "Olive Drab",
+  "lacquer": "#315211",
+  "aditivo": false,
+  "hex": "#315211",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-29",
+  "name": "Olive Drab 2",
+  "lacquer": "#295a01",
+  "aditivo": false,
+  "hex": "#295a01",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-30",
+  "name": "Light Sand",
+  "lacquer": "#e3ad6d",
+  "aditivo": false,
+  "hex": "#e3ad6d",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-31",
+  "name": "Dark Green 2 (IJN)",
+  "lacquer": "#004234",
+  "aditivo": false,
+  "hex": "#004234",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-32",
+  "name": "Light Gray (IJN)",
+  "lacquer": "#c9d1c2",
+  "aditivo": false,
+  "hex": "#c9d1c2",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-33",
+  "name": "Grey Green (IJN)",
+  "lacquer": "#b9c4a6",
+  "aditivo": false,
+  "hex": "#b9c4a6",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-34",
+  "name": "Light Gray",
+  "lacquer": "#d0ccc0",
+  "aditivo": false,
+  "hex": "#d0ccc0",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-35",
+  "name": "Insignia White",
+  "lacquer": "#dddcd7",
+  "aditivo": false,
+  "hex": "#dddcd7",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-36",
+  "name": "Dark Ghost Gray",
+  "lacquer": "#80a1b0",
+  "aditivo": false,
+  "hex": "#80a1b0",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-37",
+  "name": "Light Ghost Gray",
+  "lacquer": "#98b4c0",
+  "aditivo": false,
+  "hex": "#98b4c0",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-38",
+  "name": "Flat Aluminum",
+  "lacquer": "#dcdedd",
+  "aditivo": false,
+  "hex": "#dcdedd",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-39",
+  "name": "Racing White",
+  "lacquer": "#ffffff",
+  "aditivo": false,
+  "hex": "#ffffff",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-40",
+  "name": "Metallic Black",
+  "lacquer": "#3f3b3a",
+  "aditivo": false,
+  "hex": "#3f3b3a",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-41",
+  "name": "Mica Blue",
+  "lacquer": "#01398e",
+  "aditivo": false,
+  "hex": "#01398e",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-42",
+  "name": "Mica Red",
+  "lacquer": "#c8171d",
+  "aditivo": false,
+  "hex": "#c8171d",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-43",
+  "name": "Pearl White",
+  "lacquer": "#ffffff",
+  "aditivo": false,
+  "hex": "#ffffff",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-44",
+  "name": "Metallic Orange",
+  "lacquer": "#ef7800",
+  "aditivo": false,
+  "hex": "#ef7800",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-45",
+  "name": "Racing Blue",
+  "lacquer": "#013b8f",
+  "aditivo": false,
+  "hex": "#013b8f",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-46",
+  "name": "Pure Metallic Red",
+  "lacquer": "#df0012",
+  "aditivo": false,
+  "hex": "#df0012",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-47",
+  "name": "Pearl Blue",
+  "lacquer": "#013b8f",
+  "aditivo": false,
+  "hex": "#013b8f",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-48",
+  "name": "Sparkling Silver",
+  "lacquer": "#dee0df",
+  "aditivo": false,
+  "hex": "#dee0df",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-49",
+  "name": "Pearl Clear",
+  "lacquer": "#020202",
+  "aditivo": true,
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-50",
+  "name": "Bright Red",
+  "lacquer": "#e50014",
+  "aditivo": false,
+  "hex": "#e50014",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-51",
+  "name": "Pure Orange",
+  "lacquer": "#f18d01",
+  "aditivo": false,
+  "hex": "#f18d01",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-52",
+  "name": "Clear Red",
+  "lacquer": "#e70034",
+  "aditivo": false,
+  "hex": "#e70034",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-53",
+  "name": "Clear Orange",
+  "lacquer": "#f08900",
+  "aditivo": false,
+  "hex": "#f08900",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-54",
+  "name": "Dark Iron",
+  "lacquer": "#534334",
+  "aditivo": false,
+  "hex": "#534334",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-55",
+  "name": "Dark Yellow 2",
+  "lacquer": "#c9b44b",
+  "aditivo": false,
+  "hex": "#c9b44b",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-56",
+  "name": "Dark Green 2",
+  "lacquer": "#5b8361",
+  "aditivo": false,
+  "hex": "#5b8361",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-57",
+  "name": "Red Brown 2",
+  "lacquer": "#4f3733",
+  "aditivo": false,
+  "hex": "#4f3733",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-58",
+  "name": "NATO Green",
+  "lacquer": "#295438",
+  "aditivo": false,
+  "hex": "#295438",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-59",
+  "name": "NATO Brown",
+  "lacquer": "#6a4a31",
+  "aditivo": false,
+  "hex": "#6a4a31",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-60",
+  "name": "NATO Black",
+  "lacquer": "#000000",
+  "aditivo": false,
+  "hex": "#000000",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-61",
+  "name": "Metallic Gray",
+  "lacquer": "#727071",
+  "aditivo": false,
+  "hex": "#727071",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-62",
+  "name": "Titanium Gold",
+  "lacquer": "#dac993",
+  "aditivo": false,
+  "hex": "#dac993",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-63",
+  "name": "Titanium Silver",
+  "lacquer": "#dbdcce",
+  "aditivo": false,
+  "hex": "#dbdcce",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-64",
+  "name": "Olive Drab (JGSDF)",
+  "lacquer": "#295438",
+  "aditivo": false,
+  "hex": "#295438",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-65",
+  "name": "Rubber Black",
+  "lacquer": "#000000",
+  "aditivo": false,
+  "hex": "#000000",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-66",
+  "name": "Flat Flesh",
+  "lacquer": "#facc8e",
+  "aditivo": false,
+  "hex": "#facc8e",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-67",
+  "name": "Smoke",
+  "lacquer": "#c7c9c8",
+  "aditivo": false,
+  "hex": "#c7c9c8",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-68",
+  "name": "Clear Blue",
+  "lacquer": "#00a6ea",
+  "aditivo": false,
+  "hex": "#00a6ea",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-69",
+  "name": "Clear Yellow",
+  "lacquer": "#ffe500",
+  "aditivo": false,
+  "hex": "#ffe500",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-70",
+  "name": "Gloss Aluminium",
+  "lacquer": "#dcdedd",
+  "aditivo": false,
+  "hex": "#dcdedd",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-71",
+  "name": "Champagne Gold",
+  "lacquer": "#d2c79a",
+  "aditivo": false,
+  "hex": "#d2c79a",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-72",
+  "name": "Mica Silver",
+  "lacquer": "#d4d9dc",
+  "aditivo": false,
+  "hex": "#d4d9dc",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-73",
+  "name": "Khaki",
+  "lacquer": "#9a8f33",
+  "aditivo": false,
+  "hex": "#9a8f33",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-74",
+  "name": "Flat Earth",
+  "lacquer": "#99472f",
+  "aditivo": false,
+  "hex": "#99472f",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-75",
+  "name": "Buff",
+  "lacquer": "#cca77b",
+  "aditivo": false,
+  "hex": "#cca77b",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-76",
+  "name": "Yellow-Brown (DAK 1941)",
+  "lacquer": "#b18150",
+  "aditivo": false,
+  "hex": "#b18150",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-77",
+  "name": "Light Brown (DAK 1942)",
+  "lacquer": "#e5b36e",
+  "aditivo": false,
+  "hex": "#e5b36e",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-78",
+  "name": "Flat Blue",
+  "lacquer": "#006a94",
+  "aditivo": false,
+  "hex": "#006a94",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-79",
+  "name": "Flat Red",
+  "lacquer": "#e6001c",
+  "aditivo": false,
+  "hex": "#e6001c",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-80",
+  "name": "Flat Yellow",
+  "lacquer": "#fee101",
+  "aditivo": false,
+  "hex": "#fee101",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-81",
+  "name": "Mixing Blue",
+  "lacquer": "#202a67",
+  "aditivo": false,
+  "hex": "#202a67",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-82",
+  "name": "Mixing Red",
+  "lacquer": "#c8113d",
+  "aditivo": false,
+  "hex": "#c8113d",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-83",
+  "name": "Mixing Yellow",
+  "lacquer": "#fed700",
+  "aditivo": false,
+  "hex": "#fed700",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-84",
+  "name": "Camouflage Grey",
+  "lacquer": "#6f6f6f",
+  "aditivo": false,
+  "hex": "#6f6f6f",
+  "base": "lacquer"
+ },
+ {
+  "code": "LP-85",
+  "name": "Medium Air Grey",
+  "lacquer": "#848484",
+  "aditivo": false,
+  "hex": "#848484",
+  "base": "lacquer"
+ },
+ {
+  "code": "X-1",
+  "name": "Black",
+  "esmalte": "#010101",
+  "acrilica_23ml": "#010101",
+  "acrilica_mini": "#010101",
+  "aditivo": false,
+  "hex": "#010101",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-2",
+  "name": "White",
+  "esmalte": "#ffffff",
+  "acrilica_23ml": "#ffffff",
+  "acrilica_mini": "#ffffff",
+  "aditivo": false,
+  "hex": "#ffffff",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-3",
+  "name": "Royal Blue",
+  "esmalte": "#1d2c55",
+  "acrilica_23ml": "#1d2c55",
+  "acrilica_mini": "#1d2c55",
+  "aditivo": false,
+  "hex": "#1d2c55",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-4",
+  "name": "Blue",
+  "esmalte": "#08347d",
+  "acrilica_23ml": "#08347d",
+  "acrilica_mini": "#08347d",
+  "aditivo": false,
+  "hex": "#08347d",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-5",
+  "name": "Green",
+  "esmalte": "#00441d",
+  "acrilica_23ml": "#00441d",
+  "acrilica_mini": "#00441d",
+  "aditivo": false,
+  "hex": "#00441d",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-6",
+  "name": "Orange",
+  "esmalte": "#fe8101",
+  "acrilica_23ml": "#fe8101",
+  "acrilica_mini": "#fe8101",
+  "aditivo": false,
+  "hex": "#fe8101",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-7",
+  "name": "Red",
+  "esmalte": "#fe0002",
+  "acrilica_23ml": "#fe0002",
+  "acrilica_mini": "#fe0002",
+  "aditivo": false,
+  "hex": "#fe0002",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-8",
+  "name": "Lemon Yellow",
+  "esmalte": "#fee600",
+  "acrilica_23ml": "#fee600",
+  "acrilica_mini": "#fee600",
+  "aditivo": false,
+  "hex": "#fee600",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-9",
+  "name": "Brown",
+  "esmalte": "#4c2307",
+  "acrilica_23ml": "#4c2307",
+  "acrilica_mini": "#4c2307",
+  "aditivo": false,
+  "hex": "#4c2307",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-10",
+  "name": "Gun Metal",
+  "esmalte": "#4f5457",
+  "acrilica_23ml": "#4f5457",
+  "acrilica_mini": "#4f5457",
+  "aditivo": false,
+  "hex": "#4f5457",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-11",
+  "name": "Chrome Silver",
+  "esmalte": "#c3c8cb",
+  "acrilica_23ml": "#c3c8cb",
+  "acrilica_mini": "#c3c8cb",
+  "aditivo": false,
+  "hex": "#c3c8cb",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-12",
+  "name": "Gold Leaf",
+  "esmalte": "#cda208",
+  "acrilica_23ml": "#cda208",
+  "acrilica_mini": "#cda208",
+  "aditivo": false,
+  "hex": "#cda208",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-13",
+  "name": "Metallic Blue",
+  "esmalte": "#1f7398",
+  "acrilica_23ml": "#1f7398",
+  "acrilica_mini": "#1f7398",
+  "aditivo": false,
+  "hex": "#1f7398",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-14",
+  "name": "Sky Blue",
+  "esmalte": "#1e99c3",
+  "acrilica_23ml": "#1e99c3",
+  "acrilica_mini": "#1e99c3",
+  "aditivo": false,
+  "hex": "#1e99c3",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-15",
+  "name": "Light Green",
+  "esmalte": "#66b921",
+  "acrilica_23ml": "#66b921",
+  "acrilica_mini": "#66b921",
+  "aditivo": false,
+  "hex": "#66b921",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-16",
+  "name": "Purple",
+  "esmalte": "#484aa1",
+  "acrilica_23ml": "#484aa1",
+  "acrilica_mini": "#484aa1",
+  "aditivo": false,
+  "hex": "#484aa1",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-17",
+  "name": "Pink",
+  "esmalte": "#fa81aa",
+  "acrilica_23ml": "#fa81aa",
+  "acrilica_mini": "#fa81aa",
+  "aditivo": false,
+  "hex": "#fa81aa",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-18",
+  "name": "Semi-Gloss Black",
+  "esmalte": "#323232",
+  "acrilica_23ml": "#323232",
+  "acrilica_mini": "#323232",
+  "aditivo": false,
+  "hex": "#323232",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-19",
+  "name": "Smoke",
+  "esmalte": "#8f908b",
+  "acrilica_23ml": "#8f908b",
+  "acrilica_mini": "#8f908b",
+  "aditivo": false,
+  "hex": "#8f908b",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-21",
+  "name": "Flat Base",
+  "esmalte": "#1d1614",
+  "acrilica_23ml": "#ffffff",
+  "acrilica_mini": "#1d1614",
+  "aditivo": true,
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-22",
+  "name": "Clear",
+  "esmalte": "#ffffff",
+  "acrilica_23ml": "#ffffff",
+  "acrilica_mini": "#ffffff",
+  "aditivo": true,
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-23",
+  "name": "Clear Blue",
+  "esmalte": "#33b4d1",
+  "acrilica_23ml": "#33b4d1",
+  "acrilica_mini": "#33b4d1",
+  "aditivo": false,
+  "hex": "#33b4d1",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-24",
+  "name": "Clear Yellow",
+  "esmalte": "#fee600",
+  "acrilica_23ml": "#fee600",
+  "acrilica_mini": "#fee600",
+  "aditivo": false,
+  "hex": "#fee600",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-25",
+  "name": "Clear Green",
+  "esmalte": "#1b9743",
+  "acrilica_23ml": "#1b9743",
+  "acrilica_mini": "#1b9743",
+  "aditivo": false,
+  "hex": "#1b9743",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-26",
+  "name": "Clear Orange",
+  "esmalte": "#ff8c17",
+  "acrilica_23ml": "#ff8c17",
+  "acrilica_mini": "#ff8c17",
+  "aditivo": false,
+  "hex": "#ff8c17",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-27",
+  "name": "Clear Red",
+  "esmalte": "#fb0035",
+  "acrilica_23ml": "#fa0026",
+  "acrilica_mini": "#fb0035",
+  "aditivo": false,
+  "hex": "#fb0035",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-28",
+  "name": "Park Green",
+  "esmalte": "#34a44e",
+  "acrilica_23ml": "#34a44e",
+  "acrilica_mini": "#34a44e",
+  "aditivo": false,
+  "hex": "#34a44e",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-31",
+  "name": "Titanium Gold",
+  "esmalte": "#cdbb73",
+  "acrilica_23ml": "#cdbb73",
+  "acrilica_mini": "#cdbb73",
+  "aditivo": false,
+  "hex": "#cdbb73",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-32",
+  "name": "Titanium Silver",
+  "esmalte": "#cdccb8",
+  "acrilica_23ml": "#cdccb8",
+  "acrilica_mini": "#cdccb8",
+  "aditivo": false,
+  "hex": "#cdccb8",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-33",
+  "name": "Bronze",
+  "esmalte": "#682723",
+  "acrilica_23ml": "#682723",
+  "acrilica_mini": "#682723",
+  "aditivo": false,
+  "hex": "#682723",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-34",
+  "name": "Metallic Brown",
+  "esmalte": "#993e05",
+  "acrilica_23ml": "#993e05",
+  "acrilica_mini": "#993e05",
+  "aditivo": false,
+  "hex": "#993e05",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "X-35",
+  "name": "Semi-Gloss Clear",
+  "acrilica_mini": "#493835",
+  "aditivo": true,
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-1",
+  "name": "Flat Black",
+  "esmalte": "#323232",
+  "acrilica_23ml": "#323232",
+  "acrilica_mini": "#323232",
+  "aditivo": false,
+  "hex": "#323232",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-2",
+  "name": "Flat White",
+  "esmalte": "#ffffff",
+  "acrilica_23ml": "#ffffff",
+  "acrilica_mini": "#ffffff",
+  "aditivo": false,
+  "hex": "#ffffff",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-3",
+  "name": "Flat Yellow",
+  "esmalte": "#ffcc01",
+  "acrilica_23ml": "#ffcc01",
+  "acrilica_mini": "#ffcc01",
+  "aditivo": false,
+  "hex": "#ffcc01",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-4",
+  "name": "Yellow Green",
+  "esmalte": "#b4c30e",
+  "acrilica_23ml": "#b4c30e",
+  "acrilica_mini": "#b4c30e",
+  "aditivo": false,
+  "hex": "#b4c30e",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-5",
+  "name": "Flat Green",
+  "esmalte": "#264212",
+  "acrilica_23ml": "#264212",
+  "acrilica_mini": "#264212",
+  "aditivo": false,
+  "hex": "#264212",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-6",
+  "name": "Copper",
+  "esmalte": "#cc5d04",
+  "acrilica_23ml": "#cc5d04",
+  "acrilica_mini": "#cc5d04",
+  "aditivo": false,
+  "hex": "#cc5d04",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-7",
+  "name": "Flat Red",
+  "esmalte": "#fe0002",
+  "acrilica_23ml": "#fe0002",
+  "acrilica_mini": "#fe0002",
+  "aditivo": false,
+  "hex": "#fe0002",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-8",
+  "name": "Flat Blue",
+  "esmalte": "#294b79",
+  "acrilica_23ml": "#294b79",
+  "acrilica_mini": "#294b79",
+  "aditivo": false,
+  "hex": "#294b79",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-9",
+  "name": "Hull Red",
+  "esmalte": "#3c0e00",
+  "acrilica_23ml": "#3c0e00",
+  "acrilica_mini": "#3c0e00",
+  "aditivo": false,
+  "hex": "#3c0e00",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-10",
+  "name": "Flat Brown",
+  "esmalte": "#3e290a",
+  "acrilica_23ml": "#3e290a",
+  "acrilica_mini": "#3e290a",
+  "aditivo": false,
+  "hex": "#3e290a",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-11",
+  "name": "J.N. Green",
+  "esmalte": "#27330b",
+  "acrilica_23ml": "#27330b",
+  "acrilica_mini": "#27330b",
+  "aditivo": false,
+  "hex": "#27330b",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-12",
+  "name": "J.N. Grey",
+  "esmalte": "#b1caad",
+  "acrilica_23ml": "#b1caad",
+  "acrilica_mini": "#b1caad",
+  "aditivo": false,
+  "hex": "#b1caad",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-13",
+  "name": "J.A. Green",
+  "esmalte": "#334a1e",
+  "acrilica_23ml": "#334a1e",
+  "acrilica_mini": "#334a1e",
+  "aditivo": false,
+  "hex": "#334a1e",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-14",
+  "name": "J.A. Grey",
+  "esmalte": "#b4c98e",
+  "acrilica_23ml": "#b4c98e",
+  "acrilica_mini": "#b4c98e",
+  "aditivo": false,
+  "hex": "#b4c98e",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-15",
+  "name": "Flat Flesh",
+  "esmalte": "#fdcd9f",
+  "acrilica_23ml": "#fdcd9f",
+  "acrilica_mini": "#fdcd9f",
+  "aditivo": false,
+  "hex": "#fdcd9f",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-16",
+  "name": "Flat Aluminium",
+  "esmalte": "#cdcdcd",
+  "acrilica_23ml": "#cdcdcd",
+  "acrilica_mini": "#cdcdcd",
+  "aditivo": false,
+  "hex": "#cdcdcd",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-17",
+  "name": "Sea Blue",
+  "esmalte": "#303a44",
+  "acrilica_23ml": "#303a44",
+  "acrilica_mini": "#303a44",
+  "aditivo": false,
+  "hex": "#303a44",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-18",
+  "name": "Medium Blue",
+  "esmalte": "#475a61",
+  "acrilica_23ml": "#475a61",
+  "acrilica_mini": "#475a61",
+  "aditivo": false,
+  "hex": "#475a61",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-19",
+  "name": "Sky Grey",
+  "esmalte": "#adb7c1",
+  "acrilica_23ml": "#adb7c1",
+  "acrilica_mini": "#adb7c1",
+  "aditivo": false,
+  "hex": "#adb7c1",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-20",
+  "name": "Medium Grey",
+  "esmalte": "#a3aa98",
+  "acrilica_23ml": "#a3aa98",
+  "acrilica_mini": "#a3aa98",
+  "aditivo": false,
+  "hex": "#a3aa98",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-21",
+  "name": "Sky",
+  "esmalte": "#b7bd77",
+  "acrilica_23ml": "#b7bd77",
+  "acrilica_mini": "#b7bd77",
+  "aditivo": false,
+  "hex": "#b7bd77",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-22",
+  "name": "RLM Grey",
+  "esmalte": "#7b8d7d",
+  "acrilica_23ml": "#7b8d7d",
+  "acrilica_mini": "#7b8d7d",
+  "aditivo": false,
+  "hex": "#7b8d7d",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-23",
+  "name": "Light Blue",
+  "esmalte": "#90b5ad",
+  "acrilica_23ml": "#90b5ad",
+  "acrilica_mini": "#90b5ad",
+  "aditivo": false,
+  "hex": "#90b5ad",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-24",
+  "name": "Dark Grey",
+  "esmalte": "#3d4246",
+  "acrilica_23ml": "#3d4246",
+  "acrilica_mini": "#3d4246",
+  "aditivo": false,
+  "hex": "#3d4246",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-25",
+  "name": "Light Sea Grey",
+  "esmalte": "#7a8ba9",
+  "acrilica_23ml": "#7a8ba9",
+  "acrilica_mini": "#7a8ba9",
+  "aditivo": false,
+  "hex": "#7a8ba9",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-26",
+  "name": "Deep Green",
+  "esmalte": "#004731",
+  "acrilica_23ml": "#004731",
+  "acrilica_mini": "#004731",
+  "aditivo": false,
+  "hex": "#004731",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-27",
+  "name": "Black Green",
+  "esmalte": "#032610",
+  "acrilica_23ml": "#032610",
+  "acrilica_mini": "#032610",
+  "aditivo": false,
+  "hex": "#032610",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-28",
+  "name": "Dark Copper",
+  "esmalte": "#9b5f3b",
+  "acrilica_23ml": "#9b5f3b",
+  "acrilica_mini": "#9b5f3b",
+  "aditivo": false,
+  "hex": "#9b5f3b",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-49",
+  "name": "Khaki",
+  "esmalte": "#7e7741",
+  "acrilica_23ml": "#7e7741",
+  "acrilica_mini": "#7e7741",
+  "aditivo": false,
+  "hex": "#7e7741",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-50",
+  "name": "Field Blue",
+  "esmalte": "#374047",
+  "acrilica_23ml": "#374047",
+  "acrilica_mini": "#374047",
+  "aditivo": false,
+  "hex": "#374047",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-51",
+  "name": "Khaki Drab",
+  "esmalte": "#293310",
+  "acrilica_23ml": "#293310",
+  "acrilica_mini": "#293310",
+  "aditivo": false,
+  "hex": "#293310",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-52",
+  "name": "Flat Earth",
+  "esmalte": "#734933",
+  "acrilica_23ml": "#734933",
+  "acrilica_mini": "#734933",
+  "aditivo": false,
+  "hex": "#734933",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-53",
+  "name": "Neutral Grey",
+  "esmalte": "#6e797b",
+  "acrilica_23ml": "#6e797b",
+  "acrilica_mini": "#6e797b",
+  "aditivo": false,
+  "hex": "#6e797b",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-54",
+  "name": "Dark Sea Grey",
+  "esmalte": "#5b5f62",
+  "acrilica_23ml": "#5b5f62",
+  "acrilica_mini": "#5b5f62",
+  "aditivo": false,
+  "hex": "#5b5f62",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-55",
+  "name": "Deck Tan",
+  "esmalte": "#b7b084",
+  "acrilica_23ml": "#b7b084",
+  "acrilica_mini": "#b7b084",
+  "aditivo": false,
+  "hex": "#b7b084",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-56",
+  "name": "Metallic Grey",
+  "esmalte": "#5d6265",
+  "acrilica_23ml": "#5d6265",
+  "acrilica_mini": "#5d6265",
+  "aditivo": false,
+  "hex": "#5d6265",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-57",
+  "name": "Buff",
+  "esmalte": "#b7b36a",
+  "acrilica_23ml": "#b7b36a",
+  "acrilica_mini": "#b7b36a",
+  "aditivo": false,
+  "hex": "#b7b36a",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-58",
+  "name": "Olive Green",
+  "esmalte": "#1c3c13",
+  "acrilica_23ml": "#1c3c13",
+  "acrilica_mini": "#1c3c13",
+  "aditivo": false,
+  "hex": "#1c3c13",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-59",
+  "name": "Desert Yellow",
+  "esmalte": "#d89d43",
+  "acrilica_23ml": "#d89d43",
+  "acrilica_mini": "#d89d43",
+  "aditivo": false,
+  "hex": "#d89d43",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-60",
+  "name": "Dark Yellow",
+  "esmalte": "#c7b141",
+  "acrilica_23ml": "#c7b141",
+  "acrilica_mini": "#c7b141",
+  "aditivo": false,
+  "hex": "#c7b141",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-61",
+  "name": "Dark Green",
+  "esmalte": "#1d2d12",
+  "acrilica_23ml": "#1d2d12",
+  "acrilica_mini": "#1d2d12",
+  "aditivo": false,
+  "hex": "#1d2d12",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-62",
+  "name": "Olive Drab",
+  "esmalte": "#3e4b13",
+  "acrilica_23ml": "#3e4b13",
+  "acrilica_mini": "#3e4b13",
+  "aditivo": false,
+  "hex": "#3e4b13",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-63",
+  "name": "German Grey",
+  "esmalte": "#3d4749",
+  "acrilica_23ml": "#3d4749",
+  "acrilica_mini": "#3d4749",
+  "aditivo": false,
+  "hex": "#3d4749",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-64",
+  "name": "Red Brown",
+  "esmalte": "#673709",
+  "acrilica_23ml": "#673709",
+  "acrilica_mini": "#673709",
+  "aditivo": false,
+  "hex": "#673709",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-65",
+  "name": "Field Grey",
+  "esmalte": "#67856b",
+  "acrilica_23ml": "#67856b",
+  "acrilica_mini": "#67856b",
+  "aditivo": false,
+  "hex": "#67856b",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-66",
+  "name": "Light Grey",
+  "esmalte": "#66757a",
+  "acrilica_23ml": "#66757a",
+  "acrilica_mini": "#66757a",
+  "aditivo": false,
+  "hex": "#66757a",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-67",
+  "name": "NATO Green",
+  "acrilica_23ml": "#345f18",
+  "acrilica_mini": "#345f18",
+  "aditivo": false,
+  "hex": "#345f18",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-68",
+  "name": "NATO Brown",
+  "acrilica_23ml": "#743107",
+  "acrilica_mini": "#743107",
+  "aditivo": false,
+  "hex": "#743107",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-69",
+  "name": "NATO Black",
+  "acrilica_23ml": "#202423",
+  "acrilica_mini": "#202423",
+  "aditivo": false,
+  "hex": "#202423",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-70",
+  "name": "Dark Green 2",
+  "esmalte": "#032610",
+  "acrilica_23ml": "#032610",
+  "acrilica_mini": "#032610",
+  "aditivo": false,
+  "hex": "#032610",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-71",
+  "name": "Cockpit Green (IJN)",
+  "esmalte": "#74925e",
+  "acrilica_23ml": "#74925e",
+  "acrilica_mini": "#74925e",
+  "aditivo": false,
+  "hex": "#74925e",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-72",
+  "name": "Brown (JGSDF)",
+  "acrilica_mini": "#724c0b",
+  "aditivo": false,
+  "hex": "#724c0b",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-73",
+  "name": "Dark Green (JGSDF)",
+  "acrilica_mini": "#1c4316",
+  "aditivo": false,
+  "hex": "#1c4316",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-74",
+  "name": "Olive Drab (JGSDF)",
+  "acrilica_mini": "#334012",
+  "aditivo": false,
+  "hex": "#334012",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-75",
+  "name": "IJN Gray (Kure Arsenal)",
+  "acrilica_mini": "#717b84",
+  "aditivo": false,
+  "hex": "#717b84",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-76",
+  "name": "Gray Green (IJN)",
+  "acrilica_mini": "#b9c3a8",
+  "aditivo": false,
+  "hex": "#b9c3a8",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-77",
+  "name": "IJN Gray (Sasebo Arsenal)",
+  "acrilica_mini": "#686d71",
+  "aditivo": false,
+  "hex": "#686d71",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-78",
+  "name": "Wooden Deck Tan",
+  "acrilica_mini": "#d2b686",
+  "aditivo": false,
+  "hex": "#d2b686",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-79",
+  "name": "Linoleum Deck Brown",
+  "acrilica_mini": "#784729",
+  "aditivo": false,
+  "hex": "#784729",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-80",
+  "name": "Royal Light Gray",
+  "acrilica_mini": "#c1cac9",
+  "aditivo": false,
+  "hex": "#c1cac9",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-81",
+  "name": "Dark Green 2 (RAF)",
+  "acrilica_mini": "#365535",
+  "aditivo": false,
+  "hex": "#365535",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-82",
+  "name": "Ocean Gray 2 (RAF)",
+  "acrilica_mini": "#6c8c99",
+  "aditivo": false,
+  "hex": "#6c8c99",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-83",
+  "name": "Medium Sea Gray 2 (RAF)",
+  "acrilica_mini": "#aabfba",
+  "aditivo": false,
+  "hex": "#aabfba",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-84",
+  "name": "Dark Iron",
+  "esmalte": "#514434",
+  "acrilica_mini": "#514434",
+  "aditivo": false,
+  "hex": "#514434",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-85",
+  "name": "Rubber Black",
+  "esmalte": "#231816",
+  "acrilica_mini": "#231816",
+  "aditivo": false,
+  "hex": "#231816",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-86",
+  "name": "Flat Clear",
+  "acrilica_mini": "#010101",
+  "aditivo": true,
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-87",
+  "name": "IJN Gray (Maizuru Arsenal)",
+  "acrilica_mini": "#7d8085",
+  "aditivo": false,
+  "hex": "#7d8085",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-88",
+  "name": "Dark Yellow 2",
+  "acrilica_mini": "#c1af4d",
+  "aditivo": false,
+  "hex": "#c1af4d",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-89",
+  "name": "Dark Green 2",
+  "acrilica_mini": "#5c8462",
+  "aditivo": false,
+  "hex": "#5c8462",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-90",
+  "name": "Red Brown 2",
+  "acrilica_mini": "#4f3832",
+  "aditivo": false,
+  "hex": "#4f3832",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-91",
+  "name": "IJN Gray (Yokosuka Arsenal)",
+  "acrilica_mini": "#636c75",
+  "aditivo": false,
+  "hex": "#636c75",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-92",
+  "name": "Yellow-Brown (DAK 1941)",
+  "acrilica_mini": "#b28251",
+  "aditivo": false,
+  "hex": "#b28251",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-93",
+  "name": "Light Brown (DAK 1942)",
+  "acrilica_mini": "#e5b36e",
+  "aditivo": false,
+  "hex": "#e5b36e",
+  "base": "acrilica_mini"
+ },
+ {
+  "code": "XF-94",
+  "name": "Wood Brown",
+  "acrilica_mini": "#a87444",
+  "aditivo": false,
+  "hex": "#a87444",
+  "base": "acrilica_mini"
+ }
+]

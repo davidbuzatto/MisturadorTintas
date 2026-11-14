@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Catálogo Tamiya</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#f2f1ef;
+    --surface:#fbfaf8;
+    --surface-2:#e8e6e2;
+    --ink:#262523;
+    --ink-dim:#6f6b64;
+    --border:#dbd9d4;
+    --accent:#a8552b;
+    --accent-ink:#fff8ef;
+    --hull-bg:#efe6d8;
+    --mono-chip:#e7e4de;
+    --shadow: 0 1px 0 rgba(38,37,35,.05);
+    --stripe-a: var(--surface-2);
+    --stripe-b: var(--border);
+    color-scheme: light;
+  }
+    
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    padding-inline:20px;
+    padding-block: 32px 56px;
+    max-width: 1100px;
+    margin-inline:auto;
+  }
+  h1,h2{font-family:'Barlow Condensed', system-ui, sans-serif; text-wrap:balance; margin:0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+  }
+  h1{font-size: clamp(28px,5vw,38px); font-weight:700; line-height:1.05; margin-top:6px;}
+  .sub{color:var(--ink-dim); font-size:14.5px; max-width:66ch; margin-top:10px; line-height:1.55;}
+
+  header{padding-block-end:22px; border-bottom:1px solid var(--border); margin-bottom:22px;}
+
+              
+  .note{
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px 16px;
+    font-size:13px;
+    color:var(--ink-dim);
+    line-height:1.55;
+    margin-bottom:26px;
+  }
+  .note strong{color:var(--ink);}
+
+  section{margin-bottom:34px;}
+  .section-head{display:flex; align-items:baseline; gap:10px; margin-bottom:12px; flex-wrap:wrap;}
+  .section-head h2{font-size:20px; font-weight:600;}
+  .section-count{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-dim);}
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(178px,1fr));
+    gap:10px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:11px;
+    padding:11px;
+    box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:7px;
+  }
+  .swatch{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid rgba(0,0,0,.15);
+  }
+  .swatch-additive{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid var(--border);
+    background: repeating-linear-gradient(45deg, var(--stripe-a), var(--stripe-a) 6px, var(--stripe-b) 6px, var(--stripe-b) 12px);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:9px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+  }
+  .code-row{display:flex; align-items:center; gap:6px; flex-wrap:wrap;}
+  .code{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:13.5px;
+    background:var(--mono-chip);
+    padding:1px 6px;
+    border-radius:5px;
+  }
+  .eq{font-size:10.5px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace;}
+  .name{font-size:12.5px; font-weight:500; line-height:1.3;}
+    
+    
+  
+  footer{
+    margin-top:44px;
+    padding-top:18px;
+    border-top:1px solid var(--border);
+    font-size:12px;
+    color:var(--ink-dim);
+    line-height:1.6;
+  }
+
+  /* ===== Versão para impressão / PDF ===== */
+  :root{ color-scheme: light; }
+  @page{ size: A4; margin: 11mm 10mm 12mm; }
+  *{ -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+  html,body{ background:#fff; }
+  body{ max-width:none; margin:0; padding:0; }
+  header{ padding-block-end:10px; margin-bottom:12px; }
+  h1{ font-size:34px; }
+  .note{ margin-bottom:16px; padding:10px 13px; font-size:11px; }
+  section{ margin-bottom:18px; }
+  .section-head{ break-after:avoid; }
+  .grid{ grid-template-columns: repeat(5, 1fr); gap:7px; }
+  .card{ break-inside:avoid; box-shadow:none; padding:8px; gap:5px; }
+  .swatch,.swatch-additive{ height:30px; }
+  .code{ font-size:12px; }
+  .name{ font-size:11px; }
+  footer{ margin-top:20px; break-inside:avoid; }
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">Referência · Acrílica (X / XF) + Lacquer (LP)</div>
+  <h1>Catálogo Tamiya</h1>
+  <p class="sub">189 cores das linhas Acrílica e Lacquer.</p>
+</header>
+
+<div class="note">
+  <strong>Escopo:</strong> linha Acrylic Mini (X = brilhante/gloss, XF = fosco/flat, 10ml) e linha Lacquer Paint (LP). Não inclui Esmalte, sprays TS/AS, Panel Line Accent nem produtos de weathering.
+  <br><br>
+  <strong>Sobre as cores:</strong> são aproximações de tela feitas a partir de referências públicas — não são os valores oficiais da Tamiya (a marca não publica hex/RGB). Cores metálicas, perolizadas e tons muito próximos entre si (as várias cinzas da IJN, por exemplo) sofrem mais com essa conversão, e a cor impressa depende da impressora/tela. Onde uma cor LP é comercializada como equivalente direto de uma X/XF, isso aparece como "≈ código".
+</div>
+
+<section>
+  <div class="section-head"><h2>Acrílica — Série X</h2><span class="section-count">32 cores</span></div>
+  <div class="grid">
+<div class="card">
+  <div class="swatch" style="background:#141414"></div>
+  <div class="code-row"><span class="code">X-1</span></div>
+  <div class="name">Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f2f0ea"></div>
+  <div class="code-row"><span class="code">X-2</span></div>
+  <div class="name">White</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1f3f77"></div>
+  <div class="code-row"><span class="code">X-3</span></div>
+  <div class="name">Royal Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1c5fae"></div>
+  <div class="code-row"><span class="code">X-4</span></div>
+  <div class="name">Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1f6b3a"></div>
+  <div class="code-row"><span class="code">X-5</span></div>
+  <div class="name">Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e8791f"></div>
+  <div class="code-row"><span class="code">X-6</span></div>
+  <div class="name">Orange</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b31e24"></div>
+  <div class="code-row"><span class="code">X-7</span></div>
+  <div class="name">Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f0d21e"></div>
+  <div class="code-row"><span class="code">X-8</span></div>
+  <div class="name">Lemon Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6b4a34"></div>
+  <div class="code-row"><span class="code">X-9</span></div>
+  <div class="name">Brown</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#52514f"></div>
+  <div class="code-row"><span class="code">X-10</span></div>
+  <div class="name">Gun Metal</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c9cbcb"></div>
+  <div class="code-row"><span class="code">X-11</span></div>
+  <div class="name">Chrome Silver</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b6963f"></div>
+  <div class="code-row"><span class="code">X-12</span></div>
+  <div class="name">Gold Leaf</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#26538a"></div>
+  <div class="code-row"><span class="code">X-13</span></div>
+  <div class="name">Metallic Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6fa8c9"></div>
+  <div class="code-row"><span class="code">X-14</span></div>
+  <div class="name">Sky Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#74a35a"></div>
+  <div class="code-row"><span class="code">X-15</span></div>
+  <div class="name">Light Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5b3568"></div>
+  <div class="code-row"><span class="code">X-16</span></div>
+  <div class="name">Purple</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d98aa0"></div>
+  <div class="code-row"><span class="code">X-17</span></div>
+  <div class="name">Pink</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1c1a18"></div>
+  <div class="code-row"><span class="code">X-18</span></div>
+  <div class="name">Semi-Gloss Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4c4744"></div>
+  <div class="code-row"><span class="code">X-19</span></div>
+  <div class="name">Smoke</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">X-21</span></div>
+  <div class="name">Flat Base</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">X-22</span></div>
+  <div class="name">Clear</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2f6fae"></div>
+  <div class="code-row"><span class="code">X-23</span></div>
+  <div class="name">Clear Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e8c93a"></div>
+  <div class="code-row"><span class="code">X-24</span></div>
+  <div class="name">Clear Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2f8a4f"></div>
+  <div class="code-row"><span class="code">X-25</span></div>
+  <div class="name">Clear Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d97a2a"></div>
+  <div class="code-row"><span class="code">X-26</span></div>
+  <div class="name">Clear Orange</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a3212b"></div>
+  <div class="code-row"><span class="code">X-27</span></div>
+  <div class="name">Clear Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1f4a2e"></div>
+  <div class="code-row"><span class="code">X-28</span></div>
+  <div class="name">Park Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a9863f"></div>
+  <div class="code-row"><span class="code">X-31</span></div>
+  <div class="name">Titanium Gold</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9a9c99"></div>
+  <div class="code-row"><span class="code">X-32</span></div>
+  <div class="name">Titanium Silver</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#7a5a35"></div>
+  <div class="code-row"><span class="code">X-33</span></div>
+  <div class="name">Bronze</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5a3d2a"></div>
+  <div class="code-row"><span class="code">X-34</span></div>
+  <div class="name">Metallic Brown</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">X-35</span></div>
+  <div class="name">Semi-Gloss Clear</div>
+</div>
+  </div>
+</section>
+<section>
+  <div class="section-head"><h2>Acrílica — Série XF</h2><span class="section-count">73 cores</span></div>
+  <div class="grid">
+<div class="card">
+  <div class="swatch" style="background:#201d1a"></div>
+  <div class="code-row"><span class="code">XF-1</span></div>
+  <div class="name">Flat Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e9e4d6"></div>
+  <div class="code-row"><span class="code">XF-2</span></div>
+  <div class="name">Flat White</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d9b93a"></div>
+  <div class="code-row"><span class="code">XF-3</span></div>
+  <div class="name">Flat Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8a9a3a"></div>
+  <div class="code-row"><span class="code">XF-4</span></div>
+  <div class="name">Yellow Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#37502f"></div>
+  <div class="code-row"><span class="code">XF-5</span></div>
+  <div class="name">Flat Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9a5a34"></div>
+  <div class="code-row"><span class="code">XF-6</span></div>
+  <div class="name">Copper</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b02020"></div>
+  <div class="code-row"><span class="code">XF-7</span></div>
+  <div class="name">Flat Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#33468f"></div>
+  <div class="code-row"><span class="code">XF-8</span></div>
+  <div class="name">Flat Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6b2f28"></div>
+  <div class="code-row"><span class="code">XF-9</span></div>
+  <div class="name">Hull Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5a3d29"></div>
+  <div class="code-row"><span class="code">XF-10</span></div>
+  <div class="name">Flat Brown</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2d3d2a"></div>
+  <div class="code-row"><span class="code">XF-11</span></div>
+  <div class="name">J.N. Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8a8a78"></div>
+  <div class="code-row"><span class="code">XF-12</span></div>
+  <div class="name">J.N. Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4a5031"></div>
+  <div class="code-row"><span class="code">XF-13</span></div>
+  <div class="name">J.A. Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6e6a52"></div>
+  <div class="code-row"><span class="code">XF-14</span></div>
+  <div class="name">J.A. Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#dcae87"></div>
+  <div class="code-row"><span class="code">XF-15</span></div>
+  <div class="name">Flat Flesh</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9fa1a0"></div>
+  <div class="code-row"><span class="code">XF-16</span></div>
+  <div class="name">Flat Aluminium</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#24406b"></div>
+  <div class="code-row"><span class="code">XF-17</span></div>
+  <div class="name">Sea Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#34558a"></div>
+  <div class="code-row"><span class="code">XF-18</span></div>
+  <div class="name">Medium Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a7ab9c"></div>
+  <div class="code-row"><span class="code">XF-19</span></div>
+  <div class="name">Sky Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#7d7f78"></div>
+  <div class="code-row"><span class="code">XF-20</span></div>
+  <div class="name">Medium Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a9c19a"></div>
+  <div class="code-row"><span class="code">XF-21</span></div>
+  <div class="name">Sky</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6d7264"></div>
+  <div class="code-row"><span class="code">XF-22</span></div>
+  <div class="name">RLM Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#7fa8c9"></div>
+  <div class="code-row"><span class="code">XF-23</span></div>
+  <div class="name">Light Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4c4e4a"></div>
+  <div class="code-row"><span class="code">XF-24</span></div>
+  <div class="name">Dark Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8d9086"></div>
+  <div class="code-row"><span class="code">XF-25</span></div>
+  <div class="name">Light Sea Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2c4a2e"></div>
+  <div class="code-row"><span class="code">XF-26</span></div>
+  <div class="name">Deep Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#253524"></div>
+  <div class="code-row"><span class="code">XF-27</span></div>
+  <div class="name">Black Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6b4226"></div>
+  <div class="code-row"><span class="code">XF-28</span></div>
+  <div class="name">Dark Copper</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8c7c50"></div>
+  <div class="code-row"><span class="code">XF-49</span></div>
+  <div class="name">Khaki</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#47576b"></div>
+  <div class="code-row"><span class="code">XF-50</span></div>
+  <div class="name">Field Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6b6142"></div>
+  <div class="code-row"><span class="code">XF-51</span></div>
+  <div class="name">Khaki Drab</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6d4a30"></div>
+  <div class="code-row"><span class="code">XF-52</span></div>
+  <div class="name">Flat Earth</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#74746c"></div>
+  <div class="code-row"><span class="code">XF-53</span></div>
+  <div class="name">Neutral Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4e544c"></div>
+  <div class="code-row"><span class="code">XF-54</span></div>
+  <div class="name">Dark Sea Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c3a878"></div>
+  <div class="code-row"><span class="code">XF-55</span></div>
+  <div class="name">Deck Tan</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6c6d6a"></div>
+  <div class="code-row"><span class="code">XF-56</span></div>
+  <div class="name">Metallic Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c9b07e"></div>
+  <div class="code-row"><span class="code">XF-57</span></div>
+  <div class="name">Buff</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4a4f2e"></div>
+  <div class="code-row"><span class="code">XF-58</span></div>
+  <div class="name">Olive Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c9a35e"></div>
+  <div class="code-row"><span class="code">XF-59</span></div>
+  <div class="name">Desert Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b3924f"></div>
+  <div class="code-row"><span class="code">XF-60</span></div>
+  <div class="name">Dark Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#384a2c"></div>
+  <div class="code-row"><span class="code">XF-61</span></div>
+  <div class="name">Dark Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4b4d33"></div>
+  <div class="code-row"><span class="code">XF-62</span></div>
+  <div class="name">Olive Drab</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4a4d4d"></div>
+  <div class="code-row"><span class="code">XF-63</span></div>
+  <div class="name">German Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6d3a2c"></div>
+  <div class="code-row"><span class="code">XF-64</span></div>
+  <div class="name">Red Brown</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6f7062"></div>
+  <div class="code-row"><span class="code">XF-65</span></div>
+  <div class="name">Field Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9a9a90"></div>
+  <div class="code-row"><span class="code">XF-66</span></div>
+  <div class="name">Light Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#3d4a30"></div>
+  <div class="code-row"><span class="code">XF-67</span></div>
+  <div class="name">NATO Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5a4128"></div>
+  <div class="code-row"><span class="code">XF-68</span></div>
+  <div class="name">NATO Brown</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#201f1c"></div>
+  <div class="code-row"><span class="code">XF-69</span></div>
+  <div class="name">NATO Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#33422c"></div>
+  <div class="code-row"><span class="code">XF-70</span></div>
+  <div class="name">Dark Green 2</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#384a34"></div>
+  <div class="code-row"><span class="code">XF-71</span></div>
+  <div class="name">Cockpit Green (IJN)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5a4632"></div>
+  <div class="code-row"><span class="code">XF-72</span></div>
+  <div class="name">Brown (JGSDF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#35422a"></div>
+  <div class="code-row"><span class="code">XF-73</span></div>
+  <div class="name">Dark Green (JGSDF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#55573a"></div>
+  <div class="code-row"><span class="code">XF-74</span></div>
+  <div class="name">Olive Drab (JGSDF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#7c7d74"></div>
+  <div class="code-row"><span class="code">XF-75</span></div>
+  <div class="name">IJN Gray (Kure Arsenal)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#767a68"></div>
+  <div class="code-row"><span class="code">XF-76</span></div>
+  <div class="name">Gray Green (IJN)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6f716a"></div>
+  <div class="code-row"><span class="code">XF-77</span></div>
+  <div class="name">IJN Gray (Sasebo Arsenal)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c7a06a"></div>
+  <div class="code-row"><span class="code">XF-78</span></div>
+  <div class="name">Wooden Deck Tan</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5b4536"></div>
+  <div class="code-row"><span class="code">XF-79</span></div>
+  <div class="name">Linoleum Deck Brown</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9ea296"></div>
+  <div class="code-row"><span class="code">XF-80</span></div>
+  <div class="name">Royal Light Gray</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#38402c"></div>
+  <div class="code-row"><span class="code">XF-81</span></div>
+  <div class="name">Dark Green 2 (RAF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#71766f"></div>
+  <div class="code-row"><span class="code">XF-82</span></div>
+  <div class="name">Ocean Gray 2 (RAF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8d9187"></div>
+  <div class="code-row"><span class="code">XF-83</span></div>
+  <div class="name">Medium Sea Gray 2 (RAF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#453f3c"></div>
+  <div class="code-row"><span class="code">XF-84</span></div>
+  <div class="name">Dark Iron</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2a2724"></div>
+  <div class="code-row"><span class="code">XF-85</span></div>
+  <div class="name">Rubber Black</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">XF-86</span></div>
+  <div class="name">Flat Clear</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#74766d"></div>
+  <div class="code-row"><span class="code">XF-87</span></div>
+  <div class="name">IJN Gray (Maizuru Arsenal)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a9863f"></div>
+  <div class="code-row"><span class="code">XF-88</span></div>
+  <div class="name">Dark Yellow 2</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#37432c"></div>
+  <div class="code-row"><span class="code">XF-89</span></div>
+  <div class="name">Dark Green 2</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6a3226"></div>
+  <div class="code-row"><span class="code">XF-90</span></div>
+  <div class="name">Red Brown 2</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6a6c62"></div>
+  <div class="code-row"><span class="code">XF-91</span></div>
+  <div class="name">IJN Gray (Yokosuka Arsenal)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#af8c56"></div>
+  <div class="code-row"><span class="code">XF-92</span></div>
+  <div class="name">Yellow-Brown (DAK 1941)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a3805a"></div>
+  <div class="code-row"><span class="code">XF-93</span></div>
+  <div class="name">Light Brown (DAK 1942)</div>
+</div>
+  </div>
+</section>
+<section>
+  <div class="section-head"><h2>Lacquer — Série LP</h2><span class="section-count">84 cores</span></div>
+  <div class="grid">
+<div class="card">
+  <div class="swatch" style="background:#141414"></div>
+  <div class="code-row"><span class="code">LP-1</span><span class="eq">≈ X-1</span></div>
+  <div class="name">Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f2f0ea"></div>
+  <div class="code-row"><span class="code">LP-2</span><span class="eq">≈ X-2</span></div>
+  <div class="name">White</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#201d1a"></div>
+  <div class="code-row"><span class="code">LP-3</span><span class="eq">≈ XF-1</span></div>
+  <div class="name">Flat Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e9e4d6"></div>
+  <div class="code-row"><span class="code">LP-4</span><span class="eq">≈ XF-2</span></div>
+  <div class="name">Flat White</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1c1a18"></div>
+  <div class="code-row"><span class="code">LP-5</span><span class="eq">≈ X-18</span></div>
+  <div class="name">Semi Gloss Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1a56c4"></div>
+  <div class="code-row"><span class="code">LP-6</span></div>
+  <div class="name">Pure Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c81f28"></div>
+  <div class="code-row"><span class="code">LP-7</span></div>
+  <div class="name">Pure Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f2d400"></div>
+  <div class="code-row"><span class="code">LP-8</span></div>
+  <div class="name">Pure Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">LP-9</span></div>
+  <div class="name">Clear</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b7b9b8"></div>
+  <div class="code-row"><span class="code">LP-11</span></div>
+  <div class="name">Silver</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#7c7d74"></div>
+  <div class="code-row"><span class="code">LP-12</span><span class="eq">≈ XF-75</span></div>
+  <div class="name">IJN Gray (Kure Arsenal)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6f716a"></div>
+  <div class="code-row"><span class="code">LP-13</span><span class="eq">≈ XF-77</span></div>
+  <div class="name">IJN Gray (Sasebo Arsenal)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#74766d"></div>
+  <div class="code-row"><span class="code">LP-14</span><span class="eq">≈ XF-87</span></div>
+  <div class="name">IJN Gray (Maizuru Arsenal)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6a6c62"></div>
+  <div class="code-row"><span class="code">LP-15</span><span class="eq">≈ XF-91</span></div>
+  <div class="name">IJN Gray (Yokosuka Arsenal)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c7a06a"></div>
+  <div class="code-row"><span class="code">LP-16</span><span class="eq">≈ XF-78</span></div>
+  <div class="name">Wooden Deck Tan</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5b4536"></div>
+  <div class="code-row"><span class="code">LP-17</span><span class="eq">≈ XF-79</span></div>
+  <div class="name">Linoleum Deck Brown</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8f3630"></div>
+  <div class="code-row"><span class="code">LP-18</span></div>
+  <div class="name">Dull Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#52514f"></div>
+  <div class="code-row"><span class="code">LP-19</span><span class="eq">≈ X-10</span></div>
+  <div class="name">Gun Metal</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6c6b68"></div>
+  <div class="code-row"><span class="code">LP-20</span></div>
+  <div class="name">Light Gun Metal</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a3211f"></div>
+  <div class="code-row"><span class="code">LP-21</span></div>
+  <div class="name">Italian Red</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">LP-22</span></div>
+  <div class="name">Flat Base</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">LP-23</span></div>
+  <div class="name">Flat Clear</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">LP-24</span></div>
+  <div class="name">Semi Gloss Clear</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5a4632"></div>
+  <div class="code-row"><span class="code">LP-25</span><span class="eq">≈ XF-72</span></div>
+  <div class="name">Brown (JGSDF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#35422a"></div>
+  <div class="code-row"><span class="code">LP-26</span><span class="eq">≈ XF-73</span></div>
+  <div class="name">Dark Green (JGSDF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4a4d4d"></div>
+  <div class="code-row"><span class="code">LP-27</span><span class="eq">≈ XF-63</span></div>
+  <div class="name">German Gray</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4b4d33"></div>
+  <div class="code-row"><span class="code">LP-28</span><span class="eq">≈ XF-62</span></div>
+  <div class="name">Olive Drab</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#55563a"></div>
+  <div class="code-row"><span class="code">LP-29</span></div>
+  <div class="name">Olive Drab 2</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#cbb381"></div>
+  <div class="code-row"><span class="code">LP-30</span></div>
+  <div class="name">Light Sand</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#33422c"></div>
+  <div class="code-row"><span class="code">LP-31</span></div>
+  <div class="name">Dark Green 2 (IJN)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9a9a8c"></div>
+  <div class="code-row"><span class="code">LP-32</span></div>
+  <div class="name">Light Gray (IJN)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#767a68"></div>
+  <div class="code-row"><span class="code">LP-33</span><span class="eq">≈ XF-76</span></div>
+  <div class="name">Grey Green (IJN)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b7b6ac"></div>
+  <div class="code-row"><span class="code">LP-34</span></div>
+  <div class="name">Light Gray</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e9e6da"></div>
+  <div class="code-row"><span class="code">LP-35</span></div>
+  <div class="name">Insignia White</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9a9c9a"></div>
+  <div class="code-row"><span class="code">LP-36</span></div>
+  <div class="name">Dark Ghost Gray</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b7b9b4"></div>
+  <div class="code-row"><span class="code">LP-37</span></div>
+  <div class="name">Light Ghost Gray</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9fa1a0"></div>
+  <div class="code-row"><span class="code">LP-38</span><span class="eq">≈ XF-16</span></div>
+  <div class="name">Flat Aluminum</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#eeeae0"></div>
+  <div class="code-row"><span class="code">LP-39</span></div>
+  <div class="name">Racing White</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1c1c1e"></div>
+  <div class="code-row"><span class="code">LP-40</span></div>
+  <div class="name">Metallic Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2c4f8a"></div>
+  <div class="code-row"><span class="code">LP-41</span></div>
+  <div class="name">Mica Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9c2430"></div>
+  <div class="code-row"><span class="code">LP-42</span></div>
+  <div class="name">Mica Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#efece2"></div>
+  <div class="code-row"><span class="code">LP-43</span></div>
+  <div class="name">Pearl White</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d9701f"></div>
+  <div class="code-row"><span class="code">LP-44</span></div>
+  <div class="name">Metallic Orange</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#123f8a"></div>
+  <div class="code-row"><span class="code">LP-45</span></div>
+  <div class="name">Racing Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a8202a"></div>
+  <div class="code-row"><span class="code">LP-46</span></div>
+  <div class="name">Pure Metallic Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#3f6fa8"></div>
+  <div class="code-row"><span class="code">LP-47</span></div>
+  <div class="name">Pearl Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c9cbc8"></div>
+  <div class="code-row"><span class="code">LP-48</span></div>
+  <div class="name">Sparkling Silver</div>
+</div>
+<div class="card">
+  <div class="swatch-additive">aditivo</div>
+  <div class="code-row"><span class="code">LP-49</span></div>
+  <div class="name">Pearl Clear</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d21f26"></div>
+  <div class="code-row"><span class="code">LP-50</span></div>
+  <div class="name">Bright Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e8641b"></div>
+  <div class="code-row"><span class="code">LP-51</span></div>
+  <div class="name">Pure Orange</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a3212b"></div>
+  <div class="code-row"><span class="code">LP-52</span><span class="eq">≈ X-27</span></div>
+  <div class="name">Clear Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d97a2a"></div>
+  <div class="code-row"><span class="code">LP-53</span><span class="eq">≈ X-26</span></div>
+  <div class="name">Clear Orange</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#453f3c"></div>
+  <div class="code-row"><span class="code">LP-54</span><span class="eq">≈ XF-84</span></div>
+  <div class="name">Dark Iron</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a9863f"></div>
+  <div class="code-row"><span class="code">LP-55</span><span class="eq">≈ XF-88</span></div>
+  <div class="name">Dark Yellow 2</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#37432c"></div>
+  <div class="code-row"><span class="code">LP-56</span><span class="eq">≈ XF-89</span></div>
+  <div class="name">Dark Green 2</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6a3226"></div>
+  <div class="code-row"><span class="code">LP-57</span><span class="eq">≈ XF-90</span></div>
+  <div class="name">Red Brown 2</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#3d4a30"></div>
+  <div class="code-row"><span class="code">LP-58</span><span class="eq">≈ XF-67</span></div>
+  <div class="name">NATO Green</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5a4128"></div>
+  <div class="code-row"><span class="code">LP-59</span><span class="eq">≈ XF-68</span></div>
+  <div class="name">NATO Brown</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#201f1c"></div>
+  <div class="code-row"><span class="code">LP-60</span><span class="eq">≈ XF-69</span></div>
+  <div class="name">NATO Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6c6d6a"></div>
+  <div class="code-row"><span class="code">LP-61</span><span class="eq">≈ XF-56</span></div>
+  <div class="name">Metallic Gray</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a9863f"></div>
+  <div class="code-row"><span class="code">LP-62</span><span class="eq">≈ X-31</span></div>
+  <div class="name">Titanium Gold</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9a9c99"></div>
+  <div class="code-row"><span class="code">LP-63</span><span class="eq">≈ X-32</span></div>
+  <div class="name">Titanium Silver</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#55573a"></div>
+  <div class="code-row"><span class="code">LP-64</span><span class="eq">≈ XF-74</span></div>
+  <div class="name">Olive Drab (JGSDF)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2a2724"></div>
+  <div class="code-row"><span class="code">LP-65</span><span class="eq">≈ XF-85</span></div>
+  <div class="name">Rubber Black</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#dcae87"></div>
+  <div class="code-row"><span class="code">LP-66</span><span class="eq">≈ XF-15</span></div>
+  <div class="name">Flat Flesh</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4c4744"></div>
+  <div class="code-row"><span class="code">LP-67</span><span class="eq">≈ X-19</span></div>
+  <div class="name">Smoke</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2f6fae"></div>
+  <div class="code-row"><span class="code">LP-68</span><span class="eq">≈ X-23</span></div>
+  <div class="name">Clear Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e8c93a"></div>
+  <div class="code-row"><span class="code">LP-69</span><span class="eq">≈ X-24</span></div>
+  <div class="name">Clear Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c7c9c7"></div>
+  <div class="code-row"><span class="code">LP-70</span></div>
+  <div class="name">Gloss Aluminium</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c9a96a"></div>
+  <div class="code-row"><span class="code">LP-71</span></div>
+  <div class="name">Champagne Gold</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b9bbb7"></div>
+  <div class="code-row"><span class="code">LP-72</span></div>
+  <div class="name">Mica Silver</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8c7c50"></div>
+  <div class="code-row"><span class="code">LP-73</span><span class="eq">≈ XF-49</span></div>
+  <div class="name">Khaki</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6d4a30"></div>
+  <div class="code-row"><span class="code">LP-74</span><span class="eq">≈ XF-52</span></div>
+  <div class="name">Flat Earth</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c9b07e"></div>
+  <div class="code-row"><span class="code">LP-75</span><span class="eq">≈ XF-57</span></div>
+  <div class="name">Buff</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#af8c56"></div>
+  <div class="code-row"><span class="code">LP-76</span><span class="eq">≈ XF-92</span></div>
+  <div class="name">Yellow-Brown (DAK 1941)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a3805a"></div>
+  <div class="code-row"><span class="code">LP-77</span><span class="eq">≈ XF-93</span></div>
+  <div class="name">Light Brown (DAK 1942)</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#33468f"></div>
+  <div class="code-row"><span class="code">LP-78</span><span class="eq">≈ XF-8</span></div>
+  <div class="name">Flat Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b02020"></div>
+  <div class="code-row"><span class="code">LP-79</span><span class="eq">≈ XF-7</span></div>
+  <div class="name">Flat Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d9b93a"></div>
+  <div class="code-row"><span class="code">LP-80</span><span class="eq">≈ XF-3</span></div>
+  <div class="name">Flat Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2a4a8a"></div>
+  <div class="code-row"><span class="code">LP-81</span></div>
+  <div class="name">Mixing Blue</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b31f28"></div>
+  <div class="code-row"><span class="code">LP-82</span></div>
+  <div class="name">Mixing Red</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e8c400"></div>
+  <div class="code-row"><span class="code">LP-83</span></div>
+  <div class="name">Mixing Yellow</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#7d7a6c"></div>
+  <div class="code-row"><span class="code">LP-84</span></div>
+  <div class="name">Camouflage Grey</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a3a89c"></div>
+  <div class="code-row"><span class="code">LP-85</span></div>
+  <div class="name">Medium Air Grey</div>
+</div>
+  </div>
+</section>
+
+<footer>
+  Códigos e nomes conferidos contra o catálogo público da Tamiya (linhas Acrylic Mini e Lacquer Paint). X-20A (Acrylic Thinner) e LP-10 (Lacquer Thinner) ficaram de fora por não serem tintas. Itens marcados "aditivo" (Clear, Flat Base, Semi-Gloss Clear...) não têm cor própria — servem pra ajustar brilho/efeito de outra tinta.
+</footer>
+</body>
+</html>

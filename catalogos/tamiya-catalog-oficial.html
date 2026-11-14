@@ -1,0 +1,588 @@
+<title>Catálogo Tamiya</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#f2f1ef;
+    --surface:#fbfaf8;
+    --surface-2:#e8e6e2;
+    --ink:#262523;
+    --ink-dim:#6f6b64;
+    --border:#dbd9d4;
+    --accent:#a8552b;
+    --accent-ink:#fff8ef;
+    --hull-bg:#efe6d8;
+    --mono-chip:#e7e4de;
+    --shadow: 0 1px 0 rgba(38,37,35,.05);
+    --stripe-a: var(--surface-2);
+    --stripe-b: var(--border);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1c1c1b;
+      --surface:#242322;
+      --surface-2:#2b2a28;
+      --ink:#e8e6e1;
+      --ink-dim:#a19c93;
+      --border:#3a3834;
+      --accent:#e08a54;
+      --accent-ink:#1b1712;
+      --hull-bg:#332e22;
+      --mono-chip:#302f2b;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1b1712;
+    --surface:#251f18;
+    --surface-2:#2f2820;
+    --ink:#ede4d2;
+    --ink-dim:#a89a80;
+    --border:#3c3325;
+    --accent:#e08a54;
+    --accent-ink:#1b1712;
+    --hull-bg:#332a1a;
+    --mono-chip:#332a1c;
+    color-scheme: dark;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    padding-inline:20px;
+    padding-block: 32px 56px;
+    max-width: 1100px;
+    margin-inline:auto;
+  }
+  h1,h2{font-family:'Barlow Condensed', system-ui, sans-serif; text-wrap:balance; margin:0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+  }
+  h1{font-size: clamp(28px,5vw,38px); font-weight:700; line-height:1.05; margin-top:6px;}
+  .sub{color:var(--ink-dim); font-size:14.5px; max-width:66ch; margin-top:10px; line-height:1.55;}
+
+  header{padding-block-end:22px; border-bottom:1px solid var(--border); margin-bottom:22px;}
+
+  .toolbar{
+    position:sticky;
+    top: env(safe-area-inset-top, 0px);
+    background:var(--bg);
+    z-index:5;
+    padding-block:12px;
+    margin-bottom:18px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    border-bottom:1px solid var(--border);
+  }
+  .search{
+    flex:1 1 220px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:14px;
+    padding:9px 12px;
+    border-radius:9px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink);
+  }
+  .search::placeholder{color:var(--ink-dim);}
+  .tabs{display:flex; gap:6px; flex-wrap:wrap;}
+  .tab{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    padding:7px 11px;
+    border-radius:100px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink-dim);
+    cursor:pointer;
+  }
+  .tab[aria-pressed="true"]{
+    background:var(--accent);
+    color:var(--accent-ink);
+    border-color:var(--accent);
+  }
+  .tab:focus-visible, .search:focus-visible, .copy-btn:focus-visible, input:focus-visible{
+    outline:2px solid var(--accent); outline-offset:2px;
+  }
+
+  .note{
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px 16px;
+    font-size:13px;
+    color:var(--ink-dim);
+    line-height:1.55;
+    margin-bottom:26px;
+  }
+  .note strong{color:var(--ink);}
+
+  section{margin-bottom:34px;}
+  .section-head{display:flex; align-items:baseline; gap:10px; margin-bottom:12px; flex-wrap:wrap;}
+  .section-head h2{font-size:20px; font-weight:600;}
+  .section-count{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-dim);}
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(178px,1fr));
+    gap:10px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:11px;
+    padding:11px;
+    box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:7px;
+  }
+  .swatch{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid rgba(0,0,0,.15);
+  }
+  .swatch-additive{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid var(--border);
+    background: repeating-linear-gradient(45deg, var(--stripe-a), var(--stripe-a) 6px, var(--stripe-b) 6px, var(--stripe-b) 12px);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:9px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+  }
+  .code-row{display:flex; align-items:center; gap:6px; flex-wrap:wrap;}
+  .code{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:13.5px;
+    background:var(--mono-chip);
+    padding:1px 6px;
+    border-radius:5px;
+  }
+  .eq{font-size:10.5px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace;}
+  .name{font-size:12.5px; font-weight:500; line-height:1.3;}
+  .avail{font-size:10px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace; line-height:1.35;}
+  .copy-btn{
+    background:none; border:1px solid var(--border); color:var(--ink-dim);
+    border-radius:6px; font-size:10px; padding:1px 6px; cursor:pointer;
+    font-family:'IBM Plex Mono',monospace; margin-left:auto;
+  }
+  .copy-btn:hover{color:var(--ink); border-color:var(--ink-dim);}
+
+  .acrilex-input{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:11.5px;
+    padding:5px 7px;
+    border-radius:6px;
+    border:1px solid var(--border);
+    background:var(--bg);
+    color:var(--ink);
+    width:100%;
+  }
+  .acrilex-input::placeholder{color:var(--ink-dim); opacity:.75;}
+
+  .empty{
+    text-align:center;
+    color:var(--ink-dim);
+    font-size:13px;
+    padding:30px 0;
+    display:none;
+  }
+
+  footer{
+    margin-top:44px;
+    padding-top:18px;
+    border-top:1px solid var(--border);
+    font-size:12px;
+    color:var(--ink-dim);
+    line-height:1.6;
+  }
+</style>
+
+<header>
+  <div class="eyebrow">Referência · Acrílica (X / XF) + Lacquer (LP)</div>
+  <h1>Catálogo Tamiya</h1>
+  <p class="sub">Cores aproximadas, amostradas das imagens do site oficial.</p>
+</header>
+
+<div class="toolbar">
+  <input class="search" id="search" type="text" placeholder="buscar por código ou nome (ex: XF-60, dark yellow, khaki)...">
+  <div class="tabs" id="tabs">
+    <button class="tab" data-tab="all" aria-pressed="true">Todas</button>
+    <button class="tab" data-tab="x">Acrílica X</button>
+    <button class="tab" data-tab="xf">Acrílica XF</button>
+    <button class="tab" data-tab="lp">Lacquer LP</button>
+  </div>
+</div>
+
+<div class="note">
+  <strong>Escopo:</strong> linha Acrylic Mini (X = brilhante/gloss, XF = fosco/flat) e linha Lacquer Paint (LP). Não inclui sprays TS/AS, Panel Line Accent nem produtos de weathering.
+  <br><br>
+  <strong>Sobre as cores:</strong> amostradas diretamente das imagens de cada tinta no site oficial da Tamiya (novembro/2026). A própria Tamiya informa que são aproximações para exibição na tela; o tom real da tinta pode variar. Metálicos e perolizados são os que mais se afastam. Onde uma cor LP é comercializada como equivalente de uma X/XF, aparece como "≈ código".
+</div>
+
+<section id="section-x">
+  <div class="section-head"><h2>Acrílica — Série X</h2><span class="section-count" id="count-x"></span></div>
+  <div class="grid" id="grid-x"></div>
+</section>
+
+<section id="section-xf">
+  <div class="section-head"><h2>Acrílica — Série XF</h2><span class="section-count" id="count-xf"></span></div>
+  <div class="grid" id="grid-xf"></div>
+</section>
+
+<section id="section-lp">
+  <div class="section-head"><h2>Lacquer — Série LP</h2><span class="section-count" id="count-lp"></span></div>
+  <div class="grid" id="grid-lp"></div>
+</section>
+
+<p class="empty" id="empty-msg">Nenhuma cor encontrada com esse filtro.</p>
+
+<footer>
+  Códigos e nomes conferidos contra o catálogo público da Tamiya; cores amostradas das imagens oficiais do site da Tamiya. XF-94 não aparece na listagem oficial, mas tem página de imagem. X-20A (Acrylic Thinner) e LP-10 (Lacquer Thinner) ficaram de fora por não serem tintas. Itens marcados "aditivo" (Clear, Flat Base, Semi-Gloss Clear...) não têm cor própria — servem pra ajustar brilho/efeito de outra tinta.
+</footer>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'tamiya-catalogo-acrilex-notes';
+  var notes = {};
+  try { notes = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e) { notes = {}; }
+  function saveNotes(){ try { localStorage.setItem(STORAGE_KEY, JSON.stringify(notes)); } catch(e) {} }
+
+  function copyText(text, btn){
+    var original = btn.textContent;
+    function done(){ btn.textContent = 'ok'; setTimeout(function(){ btn.textContent = original; }, 1000); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function(){ fallbackCopy(text); done(); });
+    } else { fallbackCopy(text); done(); }
+  }
+  function fallbackCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch(e){}
+    document.body.removeChild(ta);
+  }
+
+  // [code, name, hex или null-се additive, eq-opcional]
+  var DATA = {
+    x: [
+      ["X-1","Black","#010101",null,""],
+      ["X-2","White","#ffffff",null,""],
+      ["X-3","Royal Blue","#1d2c55",null,""],
+      ["X-4","Blue","#08347d",null,""],
+      ["X-5","Green","#00441d",null,""],
+      ["X-6","Orange","#fe8101",null,""],
+      ["X-7","Red","#fe0002",null,""],
+      ["X-8","Lemon Yellow","#fee600",null,""],
+      ["X-9","Brown","#4c2307",null,""],
+      ["X-10","Gun Metal","#4f5457",null,""],
+      ["X-11","Chrome Silver","#c3c8cb",null,""],
+      ["X-12","Gold Leaf","#cda208",null,""],
+      ["X-13","Metallic Blue","#1f7398",null,""],
+      ["X-14","Sky Blue","#1e99c3",null,""],
+      ["X-15","Light Green","#66b921",null,""],
+      ["X-16","Purple","#484aa1",null,""],
+      ["X-17","Pink","#fa81aa",null,""],
+      ["X-18","Semi-Gloss Black","#323232",null,""],
+      ["X-19","Smoke","#8f908b",null,""],
+      ["X-21","Flat Base",null,null,""],
+      ["X-22","Clear",null,null,""],
+      ["X-23","Clear Blue","#33b4d1",null,""],
+      ["X-24","Clear Yellow","#fee600",null,""],
+      ["X-25","Clear Green","#1b9743",null,""],
+      ["X-26","Clear Orange","#ff8c17",null,""],
+      ["X-27","Clear Red","#fb0035",null,""],
+      ["X-28","Park Green","#34a44e",null,""],
+      ["X-31","Titanium Gold","#cdbb73",null,""],
+      ["X-32","Titanium Silver","#cdccb8",null,""],
+      ["X-33","Bronze","#682723",null,""],
+      ["X-34","Metallic Brown","#993e05",null,""],
+      ["X-35","Semi-Gloss Clear",null,null,""]
+    ],
+    xf: [
+      ["XF-1","Flat Black","#323232",null,""],
+      ["XF-2","Flat White","#ffffff",null,""],
+      ["XF-3","Flat Yellow","#ffcc01",null,""],
+      ["XF-4","Yellow Green","#b4c30e",null,""],
+      ["XF-5","Flat Green","#264212",null,""],
+      ["XF-6","Copper","#cc5d04",null,""],
+      ["XF-7","Flat Red","#fe0002",null,""],
+      ["XF-8","Flat Blue","#294b79",null,""],
+      ["XF-9","Hull Red","#3c0e00",null,""],
+      ["XF-10","Flat Brown","#3e290a",null,""],
+      ["XF-11","J.N. Green","#27330b",null,""],
+      ["XF-12","J.N. Grey","#b1caad",null,""],
+      ["XF-13","J.A. Green","#334a1e",null,""],
+      ["XF-14","J.A. Grey","#b4c98e",null,""],
+      ["XF-15","Flat Flesh","#fdcd9f",null,""],
+      ["XF-16","Flat Aluminium","#cdcdcd",null,""],
+      ["XF-17","Sea Blue","#303a44",null,""],
+      ["XF-18","Medium Blue","#475a61",null,""],
+      ["XF-19","Sky Grey","#adb7c1",null,""],
+      ["XF-20","Medium Grey","#a3aa98",null,""],
+      ["XF-21","Sky","#b7bd77",null,""],
+      ["XF-22","RLM Grey","#7b8d7d",null,""],
+      ["XF-23","Light Blue","#90b5ad",null,""],
+      ["XF-24","Dark Grey","#3d4246",null,""],
+      ["XF-25","Light Sea Grey","#7a8ba9",null,""],
+      ["XF-26","Deep Green","#004731",null,""],
+      ["XF-27","Black Green","#032610",null,""],
+      ["XF-28","Dark Copper","#9b5f3b",null,""],
+      ["XF-49","Khaki","#7e7741",null,""],
+      ["XF-50","Field Blue","#374047",null,""],
+      ["XF-51","Khaki Drab","#293310",null,""],
+      ["XF-52","Flat Earth","#734933",null,""],
+      ["XF-53","Neutral Grey","#6e797b",null,""],
+      ["XF-54","Dark Sea Grey","#5b5f62",null,""],
+      ["XF-55","Deck Tan","#b7b084",null,""],
+      ["XF-56","Metallic Grey","#5d6265",null,""],
+      ["XF-57","Buff","#b7b36a",null,""],
+      ["XF-58","Olive Green","#1c3c13",null,""],
+      ["XF-59","Desert Yellow","#d89d43",null,""],
+      ["XF-60","Dark Yellow","#c7b141",null,""],
+      ["XF-61","Dark Green","#1d2d12",null,""],
+      ["XF-62","Olive Drab","#3e4b13",null,""],
+      ["XF-63","German Grey","#3d4749",null,""],
+      ["XF-64","Red Brown","#673709",null,""],
+      ["XF-65","Field Grey","#67856b",null,""],
+      ["XF-66","Light Grey","#66757a",null,""],
+      ["XF-67","NATO Green","#345f18",null,""],
+      ["XF-68","NATO Brown","#743107",null,""],
+      ["XF-69","NATO Black","#202423",null,""],
+      ["XF-70","Dark Green 2","#032610",null,""],
+      ["XF-71","Cockpit Green (IJN)","#74925e",null,""],
+      ["XF-72","Brown (JGSDF)","#724c0b",null,""],
+      ["XF-73","Dark Green (JGSDF)","#1c4316",null,""],
+      ["XF-74","Olive Drab (JGSDF)","#334012",null,""],
+      ["XF-75","IJN Gray (Kure Arsenal)","#717b84",null,""],
+      ["XF-76","Gray Green (IJN)","#b9c3a8",null,""],
+      ["XF-77","IJN Gray (Sasebo Arsenal)","#686d71",null,""],
+      ["XF-78","Wooden Deck Tan","#d2b686",null,""],
+      ["XF-79","Linoleum Deck Brown","#784729",null,""],
+      ["XF-80","Royal Light Gray","#c1cac9",null,""],
+      ["XF-81","Dark Green 2 (RAF)","#365535",null,""],
+      ["XF-82","Ocean Gray 2 (RAF)","#6c8c99",null,""],
+      ["XF-83","Medium Sea Gray 2 (RAF)","#aabfba",null,""],
+      ["XF-84","Dark Iron","#514434",null,""],
+      ["XF-85","Rubber Black","#231816",null,""],
+      ["XF-86","Flat Clear",null,null,""],
+      ["XF-87","IJN Gray (Maizuru Arsenal)","#7d8085",null,""],
+      ["XF-88","Dark Yellow 2","#c1af4d",null,""],
+      ["XF-89","Dark Green 2","#5c8462",null,""],
+      ["XF-90","Red Brown 2","#4f3832",null,""],
+      ["XF-91","IJN Gray (Yokosuka Arsenal)","#636c75",null,""],
+      ["XF-92","Yellow-Brown (DAK 1941)","#b28251",null,""],
+      ["XF-93","Light Brown (DAK 1942)","#e5b36e",null,""],
+      ["XF-94","Wood Brown","#a87444",null,""]
+    ],
+    lp: [
+      ["LP-1","Black","#040000","X-1",""],
+      ["LP-2","White","#ffffff","X-2",""],
+      ["LP-3","Flat Black","#040000","XF-1",""],
+      ["LP-4","Flat White","#ffffff","XF-2",""],
+      ["LP-5","Semi Gloss Black","#040000","X-18",""],
+      ["LP-6","Pure Blue","#005bac",null,""],
+      ["LP-7","Pure Red","#e70012",null,""],
+      ["LP-8","Pure Yellow","#fff001",null,""],
+      ["LP-9","Clear",null,null,""],
+      ["LP-11","Silver","#dfdfdf",null,""],
+      ["LP-12","IJN Gray (Kure Arsenal)","#717b85","XF-75",""],
+      ["LP-13","IJN Gray (Sasebo Arsenal)","#535760","XF-77",""],
+      ["LP-14","IJN Gray (Maizuru Arsenal)","#7d8087","XF-87",""],
+      ["LP-15","IJN Gray (Yokosuka Arsenal)","#646b75","XF-91",""],
+      ["LP-16","Wooden Deck Tan","#b2b280","XF-78",""],
+      ["LP-17","Linoleum Deck Brown","#403300","XF-79",""],
+      ["LP-18","Dull Red","#822100",null,""],
+      ["LP-19","Gun Metal","#333333","X-10",""],
+      ["LP-20","Light Gun Metal","#666666",null,""],
+      ["LP-21","Italian Red","#ff0000",null,""],
+      ["LP-22","Flat Base",null,null,""],
+      ["LP-23","Flat Clear",null,null,""],
+      ["LP-24","Semi Gloss Clear",null,null,""],
+      ["LP-25","Brown (JGSDF)","#674d00","XF-72",""],
+      ["LP-26","Dark Green (JGSDF)","#1a6701","XF-73",""],
+      ["LP-27","German Gray","#325c5b","XF-63",""],
+      ["LP-28","Olive Drab","#315211","XF-62",""],
+      ["LP-29","Olive Drab 2","#295a01",null,""],
+      ["LP-30","Light Sand","#e3ad6d",null,""],
+      ["LP-31","Dark Green 2 (IJN)","#004234",null,""],
+      ["LP-32","Light Gray (IJN)","#c9d1c2",null,""],
+      ["LP-33","Grey Green (IJN)","#b9c4a6","XF-76",""],
+      ["LP-34","Light Gray","#d0ccc0",null,""],
+      ["LP-35","Insignia White","#dddcd7",null,""],
+      ["LP-36","Dark Ghost Gray","#80a1b0",null,""],
+      ["LP-37","Light Ghost Gray","#98b4c0",null,""],
+      ["LP-38","Flat Aluminum","#dcdedd","XF-16",""],
+      ["LP-39","Racing White","#ffffff",null,""],
+      ["LP-40","Metallic Black","#3f3b3a",null,""],
+      ["LP-41","Mica Blue","#01398e",null,""],
+      ["LP-42","Mica Red","#c8171d",null,""],
+      ["LP-43","Pearl White","#ffffff",null,""],
+      ["LP-44","Metallic Orange","#ef7800",null,""],
+      ["LP-45","Racing Blue","#013b8f",null,""],
+      ["LP-46","Pure Metallic Red","#df0012",null,""],
+      ["LP-47","Pearl Blue","#013b8f",null,""],
+      ["LP-48","Sparkling Silver","#dee0df",null,""],
+      ["LP-49","Pearl Clear",null,null,""],
+      ["LP-50","Bright Red","#e50014",null,""],
+      ["LP-51","Pure Orange","#f18d01",null,""],
+      ["LP-52","Clear Red","#e70034","X-27",""],
+      ["LP-53","Clear Orange","#f08900","X-26",""],
+      ["LP-54","Dark Iron","#534334","XF-84",""],
+      ["LP-55","Dark Yellow 2","#c9b44b","XF-88",""],
+      ["LP-56","Dark Green 2","#5b8361","XF-89",""],
+      ["LP-57","Red Brown 2","#4f3733","XF-90",""],
+      ["LP-58","NATO Green","#295438","XF-67",""],
+      ["LP-59","NATO Brown","#6a4a31","XF-68",""],
+      ["LP-60","NATO Black","#000000","XF-69",""],
+      ["LP-61","Metallic Gray","#727071","XF-56",""],
+      ["LP-62","Titanium Gold","#dac993","X-31",""],
+      ["LP-63","Titanium Silver","#dbdcce","X-32",""],
+      ["LP-64","Olive Drab (JGSDF)","#295438","XF-74",""],
+      ["LP-65","Rubber Black","#000000","XF-85",""],
+      ["LP-66","Flat Flesh","#facc8e","XF-15",""],
+      ["LP-67","Smoke","#c7c9c8","X-19",""],
+      ["LP-68","Clear Blue","#00a6ea","X-23",""],
+      ["LP-69","Clear Yellow","#ffe500","X-24",""],
+      ["LP-70","Gloss Aluminium","#dcdedd",null,""],
+      ["LP-71","Champagne Gold","#d2c79a",null,""],
+      ["LP-72","Mica Silver","#d4d9dc",null,""],
+      ["LP-73","Khaki","#9a8f33","XF-49",""],
+      ["LP-74","Flat Earth","#99472f","XF-52",""],
+      ["LP-75","Buff","#cca77b","XF-57",""],
+      ["LP-76","Yellow-Brown (DAK 1941)","#b18150","XF-92",""],
+      ["LP-77","Light Brown (DAK 1942)","#e5b36e","XF-93",""],
+      ["LP-78","Flat Blue","#006a94","XF-8",""],
+      ["LP-79","Flat Red","#e6001c","XF-7",""],
+      ["LP-80","Flat Yellow","#fee101","XF-3",""],
+      ["LP-81","Mixing Blue","#202a67",null,""],
+      ["LP-82","Mixing Red","#c8113d",null,""],
+      ["LP-83","Mixing Yellow","#fed700",null,""],
+      ["LP-84","Camouflage Grey","#6f6f6f",null,""],
+      ["LP-85","Medium Air Grey","#848484",null,""]
+    ]
+  };
+
+  function acrilexField(code){
+    var wrap = document.createElement('div');
+    var input = document.createElement('input');
+    input.className = 'acrilex-input';
+    input.type = 'text';
+    input.placeholder = 'equivalente Acrilex...';
+    input.value = notes[code] || '';
+    input.addEventListener('input', function(){ notes[code] = input.value; saveNotes(); });
+    wrap.appendChild(input);
+    return wrap;
+  }
+
+  function buildCard(item){
+    var code = item[0], name = item[1], hex = item[2], eq = item[3];
+    var card = document.createElement('div');
+    card.className = 'card';
+    card.dataset.search = (code + ' ' + name + ' ' + (eq||'')).toLowerCase();
+
+    var sw;
+    if (hex) {
+      sw = document.createElement('div');
+      sw.className = 'swatch';
+      sw.style.background = hex;
+    } else {
+      sw = document.createElement('div');
+      sw.className = 'swatch-additive';
+      sw.textContent = 'aditivo';
+    }
+
+    var codeRow = document.createElement('div');
+    codeRow.className = 'code-row';
+    var codeEl = document.createElement('span');
+    codeEl.className = 'code';
+    codeEl.textContent = code;
+    codeRow.appendChild(codeEl);
+    if (eq) {
+      var eqEl = document.createElement('span');
+      eqEl.className = 'eq';
+      eqEl.textContent = '≈ ' + eq;
+      codeRow.appendChild(eqEl);
+    }
+    var copyBtn = document.createElement('button');
+    copyBtn.className = 'copy-btn';
+    copyBtn.type = 'button';
+    copyBtn.textContent = 'copiar';
+    copyBtn.addEventListener('click', function(){ copyText(code + ' ' + name, copyBtn); });
+    codeRow.appendChild(copyBtn);
+
+    var nameEl = document.createElement('div');
+    nameEl.className = 'name';
+    nameEl.textContent = name;
+
+    card.appendChild(sw);
+    card.appendChild(codeRow);
+    card.appendChild(nameEl);
+    if (item[4]) { var av = document.createElement('div'); av.className = 'avail'; av.textContent = item[4]; card.appendChild(av); }
+    card.dataset.search += ' ' + (item[4]||'').toLowerCase();
+    card.appendChild(acrilexField(code));
+    return card;
+  }
+
+  var gridX = document.getElementById('grid-x');
+  var gridXF = document.getElementById('grid-xf');
+  var gridLP = document.getElementById('grid-lp');
+
+  DATA.x.forEach(function(item){ gridX.appendChild(buildCard(item)); });
+  DATA.xf.forEach(function(item){ gridXF.appendChild(buildCard(item)); });
+  DATA.lp.forEach(function(item){ gridLP.appendChild(buildCard(item)); });
+
+  document.getElementById('count-x').textContent = DATA.x.length + ' cores';
+  document.getElementById('count-xf').textContent = DATA.xf.length + ' cores';
+  document.getElementById('count-lp').textContent = DATA.lp.length + ' cores';
+
+  var sections = {
+    all: [document.getElementById('section-x'), document.getElementById('section-xf'), document.getElementById('section-lp')],
+    x: [document.getElementById('section-x')],
+    xf: [document.getElementById('section-xf')],
+    lp: [document.getElementById('section-lp')]
+  };
+  var allSections = [document.getElementById('section-x'), document.getElementById('section-xf'), document.getElementById('section-lp')];
+  var tabs = document.querySelectorAll('.tab');
+  var currentTab = 'all';
+
+  function applyFilter(){
+    var q = document.getElementById('search').value.trim().toLowerCase();
+    var visibleTotal = 0;
+    allSections.forEach(function(sec){
+      var inTab = sections[currentTab].indexOf(sec) !== -1;
+      var sectionVisibleCount = 0;
+      sec.querySelectorAll('.card').forEach(function(card){
+        var matches = inTab && (!q || card.dataset.search.indexOf(q) !== -1);
+        card.style.display = matches ? '' : 'none';
+        if (matches) sectionVisibleCount++;
+      });
+      sec.style.display = (inTab && sectionVisibleCount > 0) ? '' : 'none';
+      visibleTotal += sectionVisibleCount;
+    });
+    document.getElementById('empty-msg').style.display = visibleTotal === 0 ? 'block' : 'none';
+  }
+
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.setAttribute('aria-pressed', 'false'); });
+      tab.setAttribute('aria-pressed', 'true');
+      currentTab = tab.dataset.tab;
+      applyFilter();
+    });
+  });
+  document.getElementById('search').addEventListener('input', applyFilter);
+
+  applyFilter();
+})();
+</script>

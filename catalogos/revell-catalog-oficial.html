@@ -1,0 +1,557 @@
+<title>Catálogo Revell</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#f2f1ef;
+    --surface:#fbfaf8;
+    --surface-2:#e8e6e2;
+    --ink:#262523;
+    --ink-dim:#6f6b64;
+    --border:#dbd9d4;
+    --accent:#a8552b;
+    --accent-ink:#fff8ef;
+    --hull-bg:#efe6d8;
+    --mono-chip:#e7e4de;
+    --shadow: 0 1px 0 rgba(38,37,35,.05);
+    --stripe-a: var(--surface-2);
+    --stripe-b: var(--border);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1c1c1b;
+      --surface:#242322;
+      --surface-2:#2b2a28;
+      --ink:#e8e6e1;
+      --ink-dim:#a19c93;
+      --border:#3a3834;
+      --accent:#e08a54;
+      --accent-ink:#1b1712;
+      --hull-bg:#332e22;
+      --mono-chip:#302f2b;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1b1712;
+    --surface:#251f18;
+    --surface-2:#2f2820;
+    --ink:#ede4d2;
+    --ink-dim:#a89a80;
+    --border:#3c3325;
+    --accent:#e08a54;
+    --accent-ink:#1b1712;
+    --hull-bg:#332a1a;
+    --mono-chip:#332a1c;
+    color-scheme: dark;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    padding-inline:20px;
+    padding-block: 32px 56px;
+    max-width: 1100px;
+    margin-inline:auto;
+  }
+  h1,h2{font-family:'Barlow Condensed', system-ui, sans-serif; text-wrap:balance; margin:0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+  }
+  h1{font-size: clamp(28px,5vw,38px); font-weight:700; line-height:1.05; margin-top:6px;}
+  .sub{color:var(--ink-dim); font-size:14.5px; max-width:66ch; margin-top:10px; line-height:1.55;}
+
+  header{padding-block-end:22px; border-bottom:1px solid var(--border); margin-bottom:22px;}
+
+  .toolbar{
+    position:sticky;
+    top: env(safe-area-inset-top, 0px);
+    background:var(--bg);
+    z-index:5;
+    padding-block:12px;
+    margin-bottom:18px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    border-bottom:1px solid var(--border);
+  }
+  .search{
+    flex:1 1 220px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:14px;
+    padding:9px 12px;
+    border-radius:9px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink);
+  }
+  .search::placeholder{color:var(--ink-dim);}
+  .tabs{display:flex; gap:6px; flex-wrap:wrap;}
+  .tab{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    padding:7px 11px;
+    border-radius:100px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--ink-dim);
+    cursor:pointer;
+  }
+  .tab[aria-pressed="true"]{
+    background:var(--accent);
+    color:var(--accent-ink);
+    border-color:var(--accent);
+  }
+  .tab:focus-visible, .search:focus-visible, .copy-btn:focus-visible, input:focus-visible{
+    outline:2px solid var(--accent); outline-offset:2px;
+  }
+
+  .note{
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px 16px;
+    font-size:13px;
+    color:var(--ink-dim);
+    line-height:1.55;
+    margin-bottom:26px;
+  }
+  .note strong{color:var(--ink);}
+
+  section{margin-bottom:34px;}
+  .section-head{display:flex; align-items:baseline; gap:10px; margin-bottom:12px; flex-wrap:wrap;}
+  .section-head h2{font-size:20px; font-weight:600;}
+  .section-count{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-dim);}
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(178px,1fr));
+    gap:10px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:11px;
+    padding:11px;
+    box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:7px;
+  }
+  .swatch{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid rgba(0,0,0,.15);
+  }
+  .swatch-additive{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid var(--border);
+    background: repeating-linear-gradient(45deg, var(--stripe-a), var(--stripe-a) 6px, var(--stripe-b) 6px, var(--stripe-b) 12px);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:9px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+  }
+  .code-row{display:flex; align-items:center; gap:6px; flex-wrap:wrap;}
+  .code{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:13.5px;
+    background:var(--mono-chip);
+    padding:1px 6px;
+    border-radius:5px;
+  }
+  .eq{font-size:10.5px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace;}
+  .name{font-size:12.5px; font-weight:500; line-height:1.3;}
+  .avail{font-size:10px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace; line-height:1.35;}
+  .copy-btn{
+    background:none; border:1px solid var(--border); color:var(--ink-dim);
+    border-radius:6px; font-size:10px; padding:1px 6px; cursor:pointer;
+    font-family:'IBM Plex Mono',monospace; margin-left:auto;
+  }
+  .copy-btn:hover{color:var(--ink); border-color:var(--ink-dim);}
+
+  .acrilex-input{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:11.5px;
+    padding:5px 7px;
+    border-radius:6px;
+    border:1px solid var(--border);
+    background:var(--bg);
+    color:var(--ink);
+    width:100%;
+  }
+  .acrilex-input::placeholder{color:var(--ink-dim); opacity:.75;}
+
+  .empty{
+    text-align:center;
+    color:var(--ink-dim);
+    font-size:13px;
+    padding:30px 0;
+    display:none;
+  }
+
+  footer{
+    margin-top:44px;
+    padding-top:18px;
+    border-top:1px solid var(--border);
+    font-size:12px;
+    color:var(--ink-dim);
+    line-height:1.6;
+  }
+</style>
+
+<header>
+  <div class="eyebrow">Referência · Aqua Color (acrílica) + Email Color (esmalte)</div>
+  <h1>Catálogo Revell</h1>
+  <p class="sub">Cores aproximadas, amostradas das imagens do site oficial.</p>
+</header>
+
+<div class="toolbar">
+  <input class="search" id="search" type="text" placeholder="buscar por código ou nome (ex: 36131, fiery red, RAL 3000)...">
+  <div class="tabs" id="tabs">
+    <button class="tab" data-tab="all" aria-pressed="true">Todas</button>
+    <button class="tab" data-tab="aqua">Aqua Color</button>
+    <button class="tab" data-tab="email">Email Color</button>
+  </div>
+</div>
+
+<div class="note">
+  <strong>Escopo:</strong> todas as tintas Revell Aqua Color (18 ml, acrílica) e Email Color (14 ml, esmalte) da listagem oficial. Os acabamentos são Gloss, Matte, Silk, Metallic e as translúcidas (Clear). Não inclui sprays, Contacta, Painta nem produtos de weathering.
+  <br><br>
+  <strong>Sobre as cores:</strong> amostradas das esferas de cor mostradas no site oficial da Revell (novembro/2026): cor do corpo da esfera, descontando o reflexo branco dos acabamentos brilhantes. São aproximações para tela; metálicos e translúcidos são os que mais se afastam. "≈ código" aponta a mesma cor na outra linha (Aqua ↔ Email).
+</div>
+
+<section id="section-aqua">
+  <div class="section-head"><h2>Aqua Color — acrílica à base d'água</h2><span class="section-count" id="count-aqua"></span></div>
+  <div class="grid" id="grid-aqua"></div>
+</section>
+
+<section id="section-email">
+  <div class="section-head"><h2>Email Color — esmalte</h2><span class="section-count" id="count-email"></span></div>
+  <div class="grid" id="grid-email"></div>
+</section>
+
+<p class="empty" id="empty-msg">Nenhuma cor encontrada com esse filtro.</p>
+
+<footer>
+  Códigos e nomes conforme o catálogo público da Revell (carrera-revell-toys.com); cores amostradas das imagens oficiais. Os RAL entre parênteses são os informados no nome do produto.
+</footer>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'revell-catalogo-acrilex-notes';
+  var notes = {};
+  try { notes = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e) { notes = {}; }
+  function saveNotes(){ try { localStorage.setItem(STORAGE_KEY, JSON.stringify(notes)); } catch(e) {} }
+
+  function copyText(text, btn){
+    var original = btn.textContent;
+    function done(){ btn.textContent = 'ok'; setTimeout(function(){ btn.textContent = original; }, 1000); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function(){ fallbackCopy(text); done(); });
+    } else { fallbackCopy(text); done(); }
+  }
+  function fallbackCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch(e){}
+    document.body.removeChild(ta);
+  }
+
+  // [code, name, hex или null-се additive, eq-opcional]
+  var DATA = {
+    aqua: [
+      ["36101","Gloss Clear","#fdfdfe","32101",""],
+      ["36102","Matte Clear","#ffffff","32102",""],
+      ["36104","Gloss White (RAL 9010)","#f1f2eb","32104",""],
+      ["36105","Matte White (RAL 9001)","#ffffff","32105",""],
+      ["36106","Matte Tar Black","#252527","32106",""],
+      ["36107","Gloss Black (RAL 9005)","#161618","32107",""],
+      ["36108","Matte Black (RAL 9011)","#222126","32108",""],
+      ["36109","Matte Anthrazit","#303038","32109",""],
+      ["36112","Gloss Yellow (RAL 1018)","#f9d738","32112",""],
+      ["36115","Matte Yellow (RAL 1017)","#fed73a","32115",""],
+      ["36116","Matte Sandy Yellow","#ba9551","32116",""],
+      ["36117","Matte Africa-brown","#d69a64","32117",""],
+      ["36125","Matte Luminous Orange","#fb0102","32125",""],
+      ["36130","Gloss Orange","#e6530e","32130",""],
+      ["36131","Gloss Fiery Red (RAL 3000)","#9e2627","32131",""],
+      ["36134","Gloss Italian Red","#c50125","32134",""],
+      ["36135","Matte Flesh","#eda87e","32135",""],
+      ["36136","Matte Carmine Red (RAL 3002)","#9b1329","32136",""],
+      ["36137","Matte Reddish Brown","#6c302f","32137",""],
+      ["36139","Matte Dark Green","#1c5947","32139",""],
+      ["36140","Matte Black-green","#013a33","32140",""],
+      ["36142","Matte Olive Yellow","#404235","32142",""],
+      ["36143","Matte Grey","#8a8f95","32143",""],
+      ["36145","Matte Light Olive","#787a6d","32145",""],
+      ["36146","Matte Nato Olive (RAL 7013)","#5c5249","32146",""],
+      ["36147","Matte Mouse Grey","#6f7072","32147",""],
+      ["36148","Matte Sea Green (RAL 6028)","#2f554a","32148",""],
+      ["36149","Matte Light Blue","#87b8b5","32149",""],
+      ["36150","Gloss Light Blue","#287fba","32150",""],
+      ["36151","Gloss Ultramarine-blue (RAL 5002)","#172c7b","32151",""],
+      ["36152","Gloss Blue (RAL 5005)","#024288","32152",""],
+      ["36154","Gloss Night Blue (RAL 5022)","#272658","32154",""],
+      ["36155","Matte Light Green","#77bbbc","32155",""],
+      ["36156","Matte Blue (RAL 5000)","#0170b8","32156",""],
+      ["36157","Matte Grey (RAL 7000)","#7a8692","32157",""],
+      ["36159","Matte Sky","#c3d2b2","32159",""],
+      ["36161","Gloss Emerald Green","#026e44","32161",""],
+      ["36162","Gloss Sea Green","#0f4337","32162",""],
+      ["36165","Matte Bronze Green (RAL 6031)","#49553f","32165",""],
+      ["36166","Matte Olive Grey","#58585a","32166",""],
+      ["36167","Matte Greenish Gray (RAL 7009)","#5a5c59","32167",""],
+      ["36168","Matte Dark Green","#284738","32168",""],
+      ["36169","Matte Granite Grey","#363f46","32169",""],
+      ["36174","Matte Gunship-grey","#5f626b","32174",""],
+      ["36175","Matte Stone Grey (RAL 7030)","#909189","32175",""],
+      ["36176","Matte Light Grey","#a1a2a6","32176",""],
+      ["36177","Matte Dust Grey (RAL 7012)","#585d63","32177",""],
+      ["36178","Matte Tank Gray (RAL 7024)","#474b54","32178",""],
+      ["36179","Matte Greyish Blue","#5d6771","32179",""],
+      ["36180","Gloss Mud Brown","#7f5233","32180",""],
+      ["36182","Matte Dark-earth","#8c673d","32182",""],
+      ["36183","Matte Rust","#884c4e","32183",""],
+      ["36184","Matte Leather Brown (RAL 8027)","#593c41","32184",""],
+      ["36185","Matte Brown (RAL 8023)","#a55d35","32185",""],
+      ["36186","Matte Olive Brown","#746345","32186",""],
+      ["36187","Matte Earth Brown (RAL 7006)","#776b5d","32187",""],
+      ["36188","Matte Ochre Brown (RAL 1011)","#b08654","32188",""],
+      ["36189","Matte Beige","#a8927d","32189",""],
+      ["36190","Metallic Silver","#adb0b6","32190",""],
+      ["36191","Metallic Steel","#7d8187","32191",""],
+      ["36192","Metallic Brass","#c89803","32192",""],
+      ["36193","Metallic Copper","#ba7a57","32193",""],
+      ["36194","Metallic Gold","#d6ba8e","32194",""],
+      ["36195","Metallic Bronze","#a46b41","32195",""],
+      ["36199","Metallic Aluminum","#c3c7cc","32199",""],
+      ["36301","Silk White (RAL 9010)","#f3f4ec","32301",""],
+      ["36302","Silk Black (RAL 9005)","#161618","32302",""],
+      ["36310","Silk Yellow","#fda601","32310",""],
+      ["36312","Silk Luminous Yellow","#ece942","32312",""],
+      ["36314","Silk Beige","#cfb489","32314",""],
+      ["36330","Silk Fiery Red","#a22827","32330",""],
+      ["36331","Silk Purple Red","#6c192b",null,""],
+      ["36332","Silk Luminous Red","#c0101b",null,""],
+      ["36350","Silk Dark Blue","#222e56",null,""],
+      ["36360","Silk Greenish Gray","#577141",null,""],
+      ["36361","Silk Olive Green","#4d5740",null,""],
+      ["36362","Silk Greyish Green","#78765d","32362",""],
+      ["36363","Silk Dark Green","#3a4839","32363",""],
+      ["36364","Silk Leaf Green (RAL 6001)","#296d3e","32364",""],
+      ["36365","Silk Patina Green","#347561","32365",""],
+      ["36371","Silk Light Grey","#c5cbcb","32371",""],
+      ["36374","Silk Grey (RAL 7001)","#8d969f","32374",""],
+      ["36378","Silk Dark Grey","#585d63","32378",""],
+      ["36381","Silk Brown","#755d51","32381",""],
+      ["36382","Silk Wood Brown","#9c6836","32382",""],
+      ["36730","Orange Clear","#f78239","32730",""],
+      ["36731","Red Clear","#f85847","32731",""],
+      ["36752","Blue Clear","#a1d7f4","32752",""]
+    ],
+    email: [
+      ["32101","Gloss Clear","#fbfafb","36101",""],
+      ["32102","Matte Clear","#fefefe","36102",""],
+      ["32104","Gloss White (RAL 9010)","#f0efea","36104",""],
+      ["32105","Matte White (RAL 9001)","#fefefe","36105",""],
+      ["32106","Matte Tar Black (RAL 9021)","#262427","36106",""],
+      ["32107","Gloss Black (RAL 9005)","#161519","36107",""],
+      ["32108","Matte Black (RAL 9011)","#222126","36108",""],
+      ["32109","Matte Anthracite Grey (RAL 7021)","#30303a","36109",""],
+      ["32112","Gloss Yellow (RAL 1018)","#f8d537","36112",""],
+      ["32115","Matte Yellow (RAL 1017)","#fed73a","36115",""],
+      ["32116","Matte Sandy Yellow (RAL 1024)","#b89551","36116",""],
+      ["32117","Matte Africa-brown","#d69b63","36117",""],
+      ["32125","Matte Luminous Orange (RAL 2005)","#fa0202","36125",""],
+      ["32130","Gloss Orange (RAL 2004)","#e5520d","36130",""],
+      ["32131","Gloss Fiery Red (RAL 3000)","#9d2527","36131",""],
+      ["32134","Gloss Italian Red","#c40124","36134",""],
+      ["32135","Matte Flesh","#f0a77e","36135",""],
+      ["32136","Matte Carmine Red (RAL 3002)","#9b1329","36136",""],
+      ["32137","Matte Reddish Brown (RAL 3009)","#6c302f","36137",""],
+      ["32139","Matte Dark Green","#1c5947","36139",""],
+      ["32140","Matte Black-green","#013a34","36140",""],
+      ["32142","Matte Olive Yellow","#414135","36142",""],
+      ["32143","Matte Middle Grey","#888f97","36143",""],
+      ["32145","Matte Light Olive (RAL 7003)","#79796d","36145",""],
+      ["32146","Matte Nato Olive (RAL 7013)","#5a5349","36146",""],
+      ["32147","Matte Mouse Grey (RAL 7005)","#6f7072","36147",""],
+      ["32148","Matte Sea Green (RAL 6028)","#2f544c","36148",""],
+      ["32149","Matte Light Blue","#87b8b5","36149",""],
+      ["32150","Gloss Light Blue (RAL 5012)","#267eb9","36150",""],
+      ["32151","Gloss Ultramarine-blue (RAL 5002)","#162c78","36151",""],
+      ["32152","Gloss Blue (RAL 5005)","#024187","36152",""],
+      ["32154","Gloss Night Blue (RAL 5022)","#262658","36154",""],
+      ["32155","Matte Light Green (RAL 6027)","#78b9bb","36155",""],
+      ["32156","Matte Blue (RAL 5000)","#0170b8","36156",""],
+      ["32157","Matte Grey (RAL 7000)","#7a8692","36157",""],
+      ["32159","Matte Sky","#c3d2b3","36159",""],
+      ["32161","Gloss Emerald Green (RAL 6029)","#016e44","36161",""],
+      ["32162","Gloss Moss Green (RAL 6005)","#0f4336","36162",""],
+      ["32165","Matte Bronze Green (RAL 6031)","#49553f","36165",""],
+      ["32166","Matte Olive Grey (RAL 7010)","#58585a","36166",""],
+      ["32167","Matte Greenish Gray (RAL 7009)","#585d59","36167",""],
+      ["32168","Matte Dark Green","#284738","36168",""],
+      ["32169","Matte Granite Grey (RAL 7026)","#364045","36169",""],
+      ["32174","Matte Gunship-grey","#5f626b","36174",""],
+      ["32175","Matte Stone Grey (RAL 7030)","#92928a","36175",""],
+      ["32176","Matte Light Grey","#a1a2a6","36176",""],
+      ["32177","Matte Dust Grey (RAL 7012)","#565d65","36177",""],
+      ["32178","Matte Tank Gray (RAL 7024)","#474b54","36178",""],
+      ["32179","Matte Greyish Blue (RAL 7031)","#5d6771","36179",""],
+      ["32180","Gloss Mud Brown (RAL 8003)","#7f5232","36180",""],
+      ["32182","Matte Dark-earth","#8c673d","36182",""],
+      ["32183","Matte Rust","#884c4e","36183",""],
+      ["32184","Matte Leather Brown (RAL 8027)","#593c41","36184",""],
+      ["32185","Matte Brown (RAL 8023)","#a55d34","36185",""],
+      ["32186","Matte Olive Brown (RAL 7008)","#746345","36186",""],
+      ["32187","Matte Earth Brown (RAL 7006)","#77695e","36187",""],
+      ["32188","Matte Ochre Brown (RAL 1011)","#b08654","36188",""],
+      ["32189","Matte Beige (RAL 1019)","#a5937d","36189",""],
+      ["32190","Metallic Silver","#abaeb4","36190",""],
+      ["32191","Metallic Steel","#7c7f86","36191",""],
+      ["32192","Metallic Brass","#c69603","36192",""],
+      ["32193","Metallic Copper","#b87956","36193",""],
+      ["32194","Metallic Gold","#d4b98c","36194",""],
+      ["32195","Metallic Bronze","#a26940","36195",""],
+      ["32199","Metallic Aluminum","#c2c5c9","36199",""],
+      ["32301","Silk White (RAL 9010)","#f5f5ed","36301",""],
+      ["32302","Silk Black (RAL 9005)","#16151b","36302",""],
+      ["32310","Silk Lufthansa-yellow (RAL 1028)","#fea501","36310",""],
+      ["32312","Silk Luminous Yellow (RAL 1026)","#ece942","36312",""],
+      ["32314","Silk Beige (RAL 1001)","#cfb487","36314",""],
+      ["32330","Silk Fiery Red (RAL 3000)","#a22827","36330",""],
+      ["32362","Silk Greyish Green (RAL 6013)","#75785d","36362",""],
+      ["32363","Silk Dark Green (RAL 6020)","#3a4839","36363",""],
+      ["32364","Silk Leaf Green (RAL 6001)","#286c3c","36364",""],
+      ["32365","Silk Patina Green (RAL 6000)","#357564","36365",""],
+      ["32371","Silk Light Grey (RAL 7035)","#c5caca","36371",""],
+      ["32374","Silk Grey (RAL 7001)","#8d969f","36374",""],
+      ["32378","Silk Dark Grey (RAL 7012)","#585d63","36378",""],
+      ["32381","Silk Brown (RAL 8025)","#755d51","36381",""],
+      ["32382","Silk Wood Brown (RAL 8001)","#9c6836","36382",""],
+      ["32730","Clear Orange","#f38138","36730",""],
+      ["32731","Clear Red","#f55746","36731",""],
+      ["32752","Clear Blue","#9fd5f2","36752",""]
+    ]
+  };
+
+  function acrilexField(code){
+    var wrap = document.createElement('div');
+    var input = document.createElement('input');
+    input.className = 'acrilex-input';
+    input.type = 'text';
+    input.placeholder = 'equivalente Acrilex...';
+    input.value = notes[code] || '';
+    input.addEventListener('input', function(){ notes[code] = input.value; saveNotes(); });
+    wrap.appendChild(input);
+    return wrap;
+  }
+
+  function buildCard(item){
+    var code = item[0], name = item[1], hex = item[2], eq = item[3];
+    var card = document.createElement('div');
+    card.className = 'card';
+    card.dataset.search = (code + ' ' + name + ' ' + (eq||'')).toLowerCase();
+
+    var sw;
+    if (hex) {
+      sw = document.createElement('div');
+      sw.className = 'swatch';
+      sw.style.background = hex;
+    } else {
+      sw = document.createElement('div');
+      sw.className = 'swatch-additive';
+      sw.textContent = 'aditivo';
+    }
+
+    var codeRow = document.createElement('div');
+    codeRow.className = 'code-row';
+    var codeEl = document.createElement('span');
+    codeEl.className = 'code';
+    codeEl.textContent = code;
+    codeRow.appendChild(codeEl);
+    if (eq) {
+      var eqEl = document.createElement('span');
+      eqEl.className = 'eq';
+      eqEl.textContent = '≈ ' + eq;
+      codeRow.appendChild(eqEl);
+    }
+    var copyBtn = document.createElement('button');
+    copyBtn.className = 'copy-btn';
+    copyBtn.type = 'button';
+    copyBtn.textContent = 'copiar';
+    copyBtn.addEventListener('click', function(){ copyText(code + ' ' + name, copyBtn); });
+    codeRow.appendChild(copyBtn);
+
+    var nameEl = document.createElement('div');
+    nameEl.className = 'name';
+    nameEl.textContent = name;
+
+    card.appendChild(sw);
+    card.appendChild(codeRow);
+    card.appendChild(nameEl);
+    if (item[4]) { var av = document.createElement('div'); av.className = 'avail'; av.textContent = item[4]; card.appendChild(av); }
+    card.dataset.search += ' ' + (item[4]||'').toLowerCase();
+    card.appendChild(acrilexField(code));
+    return card;
+  }
+
+  var gridAqua = document.getElementById('grid-aqua');
+  var gridEmail = document.getElementById('grid-email');
+
+  DATA.aqua.forEach(function(item){ gridAqua.appendChild(buildCard(item)); });
+  DATA.email.forEach(function(item){ gridEmail.appendChild(buildCard(item)); });
+
+  document.getElementById('count-aqua').textContent = DATA.aqua.length + ' cores';
+  document.getElementById('count-email').textContent = DATA.email.length + ' cores';
+
+  var sections = {
+    all: [document.getElementById('section-aqua'), document.getElementById('section-email')],
+    aqua: [document.getElementById('section-aqua')],
+    email: [document.getElementById('section-email')]
+  };
+  var allSections = [document.getElementById('section-aqua'), document.getElementById('section-email')];
+  var tabs = document.querySelectorAll('.tab');
+  var currentTab = 'all';
+
+  function applyFilter(){
+    var q = document.getElementById('search').value.trim().toLowerCase();
+    var visibleTotal = 0;
+    allSections.forEach(function(sec){
+      var inTab = sections[currentTab].indexOf(sec) !== -1;
+      var sectionVisibleCount = 0;
+      sec.querySelectorAll('.card').forEach(function(card){
+        var matches = inTab && (!q || card.dataset.search.indexOf(q) !== -1);
+        card.style.display = matches ? '' : 'none';
+        if (matches) sectionVisibleCount++;
+      });
+      sec.style.display = (inTab && sectionVisibleCount > 0) ? '' : 'none';
+      visibleTotal += sectionVisibleCount;
+    });
+    document.getElementById('empty-msg').style.display = visibleTotal === 0 ? 'block' : 'none';
+  }
+
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.setAttribute('aria-pressed', 'false'); });
+      tab.setAttribute('aria-pressed', 'true');
+      currentTab = tab.dataset.tab;
+      applyFilter();
+    });
+  });
+  document.getElementById('search').addEventListener('input', applyFilter);
+
+  applyFilter();
+})();
+</script>

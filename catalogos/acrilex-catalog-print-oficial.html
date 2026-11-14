@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Catálogo Acrilex Fosca</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#f2f1ef;
+    --surface:#fbfaf8;
+    --surface-2:#e8e6e2;
+    --ink:#262523;
+    --ink-dim:#6f6b64;
+    --border:#dbd9d4;
+    --accent:#a8552b;
+    --accent-ink:#fff8ef;
+    --hull-bg:#efe6d8;
+    --mono-chip:#e7e4de;
+    --shadow: 0 1px 0 rgba(38,37,35,.05);
+    --stripe-a: var(--surface-2);
+    --stripe-b: var(--border);
+    color-scheme: light;
+  }
+    
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    padding-inline:20px;
+    padding-block: 32px 56px;
+    max-width: 1100px;
+    margin-inline:auto;
+  }
+  h1,h2{font-family:'Barlow Condensed', system-ui, sans-serif; text-wrap:balance; margin:0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+  }
+  h1{font-size: clamp(28px,5vw,38px); font-weight:700; line-height:1.05; margin-top:6px;}
+  .sub{color:var(--ink-dim); font-size:14.5px; max-width:66ch; margin-top:10px; line-height:1.55;}
+
+  header{padding-block-end:22px; border-bottom:1px solid var(--border); margin-bottom:22px;}
+
+              
+  .note{
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px 16px;
+    font-size:13px;
+    color:var(--ink-dim);
+    line-height:1.55;
+    margin-bottom:26px;
+  }
+  .note strong{color:var(--ink);}
+
+  section{margin-bottom:34px;}
+  .section-head{display:flex; align-items:baseline; gap:10px; margin-bottom:12px; flex-wrap:wrap;}
+  .section-head h2{font-size:20px; font-weight:600;}
+  .section-count{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-dim);}
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(178px,1fr));
+    gap:10px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:11px;
+    padding:11px;
+    box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:7px;
+  }
+  .swatch{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid rgba(0,0,0,.15);
+  }
+  .swatch-additive{
+    width:100%; height:36px; border-radius:7px;
+    border:1px solid var(--border);
+    background: repeating-linear-gradient(45deg, var(--stripe-a), var(--stripe-a) 6px, var(--stripe-b) 6px, var(--stripe-b) 12px);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:9px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+  }
+  .code-row{display:flex; align-items:center; gap:6px; flex-wrap:wrap;}
+  .code{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:13.5px;
+    background:var(--mono-chip);
+    padding:1px 6px;
+    border-radius:5px;
+  }
+  .eq{font-size:10.5px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace;}
+  .name{font-size:12.5px; font-weight:500; line-height:1.3;}
+  .avail{font-size:9px; color:var(--ink-dim); font-family:'IBM Plex Mono',monospace; line-height:1.3;}
+    
+    
+  
+  footer{
+    margin-top:44px;
+    padding-top:18px;
+    border-top:1px solid var(--border);
+    font-size:12px;
+    color:var(--ink-dim);
+    line-height:1.6;
+  }
+
+  /* ===== Versão para impressão / PDF ===== */
+  :root{ color-scheme: light; }
+  @page{ size: A4; margin: 11mm 10mm 12mm; }
+  *{ -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+  html,body{ background:#fff; }
+  body{ max-width:none; margin:0; padding:0; }
+  header{ padding-block-end:10px; margin-bottom:12px; }
+  h1{ font-size:34px; }
+  .note{ margin-bottom:16px; padding:10px 13px; font-size:11px; }
+  section{ margin-bottom:18px; }
+  .section-head{ break-after:avoid; }
+  .grid{ grid-template-columns: repeat(5, 1fr); gap:7px; }
+  .card{ break-inside:avoid; box-shadow:none; padding:8px; gap:5px; }
+  .swatch,.swatch-additive{ height:30px; }
+  .code{ font-size:12px; }
+  .name{ font-size:11px; }
+  footer{ margin-top:20px; break-inside:avoid; }
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">Referência · Tinta Acrílica Fosca para Artesanato</div>
+  <h1>Catálogo Acrilex Fosca</h1>
+  <p class="sub">Cores aproximadas, amostradas das imagens do site oficial.</p>
+</header>
+
+<div class="note">
+  <strong>Escopo:</strong> Tinta Acrílica Fosca para Artesanato Acrilex.
+  <br><br>
+  <strong>Sobre as cores:</strong> amostradas da cartela do catálogo oficial Manualidades 2025; são aproximações e a cor impressa depende da impressora/tela.
+</div>
+
+<section>
+  <div class="section-head"><h2>Acrílica Fosca</h2><span class="section-count">95 cores</span></div>
+  <div class="grid">
+<div class="card">
+  <div class="swatch" style="background:#ffffff"></div>
+  <div class="code-row"><span class="code">519</span></div>
+  <div class="name">Branco</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f0f7cf"></div>
+  <div class="code-row"><span class="code">893</span></div>
+  <div class="name">Mineral</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#fbfae5"></div>
+  <div class="code-row"><span class="code">903</span></div>
+  <div class="name">Creme</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#efe8cf"></div>
+  <div class="code-row"><span class="code">835</span></div>
+  <div class="name">Saara</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#fef9d4"></div>
+  <div class="code-row"><span class="code">892</span></div>
+  <div class="name">Pérola</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f4dcc7"></div>
+  <div class="code-row"><span class="code">817</span></div>
+  <div class="name">Areia</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#fbf9a6"></div>
+  <div class="code-row"><span class="code">808</span></div>
+  <div class="name">Amarelo Bebê</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f2f02d"></div>
+  <div class="code-row"><span class="code">504</span></div>
+  <div class="name">Amarelo Limão</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f8a830"></div>
+  <div class="code-row"><span class="code">895</span></div>
+  <div class="name">Melão</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f9b30b"></div>
+  <div class="code-row"><span class="code">505</span></div>
+  <div class="name">Amarelo Ouro</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f68f27"></div>
+  <div class="code-row"><span class="code">536</span></div>
+  <div class="name">Amarelo Cádmio</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#dd8536"></div>
+  <div class="code-row"><span class="code">564</span></div>
+  <div class="name">Amarelo Ocre</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#da5735"></div>
+  <div class="code-row"><span class="code">831</span></div>
+  <div class="name">Amêndoa</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#fadecb"></div>
+  <div class="code-row"><span class="code">538</span></div>
+  <div class="name">Amarelo Pêssego</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#fce0da"></div>
+  <div class="code-row"><span class="code">812</span></div>
+  <div class="name">Salmão Bebê</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f2a68f"></div>
+  <div class="code-row"><span class="code">929</span></div>
+  <div class="name">Areia Rosada</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f68a75"></div>
+  <div class="code-row"><span class="code">518</span></div>
+  <div class="name">Salmão</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f26032"></div>
+  <div class="code-row"><span class="code">801</span></div>
+  <div class="name">Tangerina</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f04723"></div>
+  <div class="code-row"><span class="code">576</span></div>
+  <div class="name">Cenoura</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#ed2f20"></div>
+  <div class="code-row"><span class="code">517</span></div>
+  <div class="name">Laranja</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e52729"></div>
+  <div class="code-row"><span class="code">541</span></div>
+  <div class="name">Vermelho Vivo</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#fbe4e6"></div>
+  <div class="code-row"><span class="code">813</span></div>
+  <div class="name">Rosa Bebê</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f9bac2"></div>
+  <div class="code-row"><span class="code">894</span></div>
+  <div class="name">Rosa Cotton</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#efa3c8"></div>
+  <div class="code-row"><span class="code">910</span></div>
+  <div class="name">Rosa Primavera</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f8b1c8"></div>
+  <div class="code-row"><span class="code">537</span></div>
+  <div class="name">Rosa</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f7a1d4"></div>
+  <div class="code-row"><span class="code">909</span></div>
+  <div class="name">Tutti-Frutti</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#ee85b5"></div>
+  <div class="code-row"><span class="code">542</span></div>
+  <div class="name">Rosa Escuro</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f36097"></div>
+  <div class="code-row"><span class="code">527</span></div>
+  <div class="name">Pink</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#ef5879"></div>
+  <div class="code-row"><span class="code">828</span></div>
+  <div class="name">Rosa Antigo</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#eb434c"></div>
+  <div class="code-row"><span class="code">586</span></div>
+  <div class="name">Coral</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#cb196e"></div>
+  <div class="code-row"><span class="code">804</span></div>
+  <div class="name">Fuchsia</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#cc3850"></div>
+  <div class="code-row"><span class="code">805</span></div>
+  <div class="name">Goiaba Queimada</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d42337"></div>
+  <div class="code-row"><span class="code">827</span></div>
+  <div class="name">Romã</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e6372f"></div>
+  <div class="code-row"><span class="code">507</span></div>
+  <div class="name">Vermelho Fogo</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d42428"></div>
+  <div class="code-row"><span class="code">555</span></div>
+  <div class="name">Vermelho</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a9272e"></div>
+  <div class="code-row"><span class="code">508</span></div>
+  <div class="name">Vermelho Escarlate</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#95323b"></div>
+  <div class="code-row"><span class="code">550</span></div>
+  <div class="name">Púrpura</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#973c49"></div>
+  <div class="code-row"><span class="code">514</span></div>
+  <div class="name">Terra Queimada</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#962c39"></div>
+  <div class="code-row"><span class="code">826</span></div>
+  <div class="name">Cereja</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8e3043"></div>
+  <div class="code-row"><span class="code">914</span></div>
+  <div class="name">Arándano</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#612740"></div>
+  <div class="code-row"><span class="code">565</span></div>
+  <div class="name">Vinho</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e7cce1"></div>
+  <div class="code-row"><span class="code">528</span></div>
+  <div class="name">Lilás</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d9a6cf"></div>
+  <div class="code-row"><span class="code">915</span></div>
+  <div class="name">Orquídea</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#bc597b"></div>
+  <div class="code-row"><span class="code">581</span></div>
+  <div class="name">Rosa Ciclame</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#813b5d"></div>
+  <div class="code-row"><span class="code">913</span></div>
+  <div class="name">Ameixa</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c12e83"></div>
+  <div class="code-row"><span class="code">549</span></div>
+  <div class="name">Magenta</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#eae3f3"></div>
+  <div class="code-row"><span class="code">809</span></div>
+  <div class="name">Lilás Babê</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#c3cdeb"></div>
+  <div class="code-row"><span class="code">587</span></div>
+  <div class="name">Lavanda</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9585ad"></div>
+  <div class="code-row"><span class="code">916</span></div>
+  <div class="name">Violeta Gris</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#9866b8"></div>
+  <div class="code-row"><span class="code">516</span></div>
+  <div class="name">Violeta</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#6f5aaa"></div>
+  <div class="code-row"><span class="code">918</span></div>
+  <div class="name">Roxo</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#60286c"></div>
+  <div class="code-row"><span class="code">917</span></div>
+  <div class="name">Violeta Escuro</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#372d64"></div>
+  <div class="code-row"><span class="code">540</span></div>
+  <div class="name">Violeta Cobalto</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e2f5fd"></div>
+  <div class="code-row"><span class="code">919</span></div>
+  <div class="name">Azul Água</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b5dee7"></div>
+  <div class="code-row"><span class="code">579</span></div>
+  <div class="name">Azul Hortênsia</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#5fbae4"></div>
+  <div class="code-row"><span class="code">503</span></div>
+  <div class="name">Azul Celeste</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#84a6d5"></div>
+  <div class="code-row"><span class="code">921</span></div>
+  <div class="name">Azul Bali</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8f9ecd"></div>
+  <div class="code-row"><span class="code">825</span></div>
+  <div class="name">Azul Country</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4172bc"></div>
+  <div class="code-row"><span class="code">559</span></div>
+  <div class="name">Azul</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#3a419a"></div>
+  <div class="code-row"><span class="code">578</span></div>
+  <div class="name">Azul Intenso</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#3b4d87"></div>
+  <div class="code-row"><span class="code">501</span></div>
+  <div class="name">Azul Turquesa</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#4d5877"></div>
+  <div class="code-row"><span class="code">824</span></div>
+  <div class="name">Azul Seco</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#344071"></div>
+  <div class="code-row"><span class="code">544</span></div>
+  <div class="name">Azul Marinho</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#f6f9d1"></div>
+  <div class="code-row"><span class="code">897</span></div>
+  <div class="name">Verde Soft</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e3f1b9"></div>
+  <div class="code-row"><span class="code">820</span></div>
+  <div class="name">Verde Primavera</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d1e862"></div>
+  <div class="code-row"><span class="code">898</span></div>
+  <div class="name">Verde Alecrim</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#99c321"></div>
+  <div class="code-row"><span class="code">802</span></div>
+  <div class="name">Verde Maçã</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#91a535"></div>
+  <div class="code-row"><span class="code">570</span></div>
+  <div class="name">Verde Pistache</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#50be3c"></div>
+  <div class="code-row"><span class="code">510</span></div>
+  <div class="name">Verde Folha</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2d6f3f"></div>
+  <div class="code-row"><span class="code">582</span></div>
+  <div class="name">Verde Grama</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#616a41"></div>
+  <div class="code-row"><span class="code">545</span></div>
+  <div class="name">Verde Oliva</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#41652f"></div>
+  <div class="code-row"><span class="code">513</span></div>
+  <div class="name">Verde Musgo</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#0d3e31"></div>
+  <div class="code-row"><span class="code">571</span></div>
+  <div class="name">Verde Esmeralda</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#bae6d2"></div>
+  <div class="code-row"><span class="code">821</span></div>
+  <div class="name">Verde Água</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#63c8ba"></div>
+  <div class="code-row"><span class="code">577</span></div>
+  <div class="name">Turquesa</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#2fa588"></div>
+  <div class="code-row"><span class="code">822</span></div>
+  <div class="name">Verde Country</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#8bd0d0"></div>
+  <div class="code-row"><span class="code">803</span></div>
+  <div class="name">Acqua Marina</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#3b97ae"></div>
+  <div class="code-row"><span class="code">823</span></div>
+  <div class="name">Azul Piscina</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#e0cd8d"></div>
+  <div class="code-row"><span class="code">904</span></div>
+  <div class="name">Ocre</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#fbc96a"></div>
+  <div class="code-row"><span class="code">525</span></div>
+  <div class="name">Camurça</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#dbab82"></div>
+  <div class="code-row"><span class="code">818</span></div>
+  <div class="name">Camurça Queimado</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#ad7623"></div>
+  <div class="code-row"><span class="code">569</span></div>
+  <div class="name">Caramelo</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b15632"></div>
+  <div class="code-row"><span class="code">539</span></div>
+  <div class="name">Siena Natural/Fumê</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#be3231"></div>
+  <div class="code-row"><span class="code">932</span></div>
+  <div class="name">Telha</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a3413b"></div>
+  <div class="code-row"><span class="code">506</span></div>
+  <div class="name">Cerâmica</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a98669"></div>
+  <div class="code-row"><span class="code">585</span></div>
+  <div class="name">Capuccino</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#aa5947"></div>
+  <div class="code-row"><span class="code">531</span></div>
+  <div class="name">Marrom</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#784b42"></div>
+  <div class="code-row"><span class="code">526</span></div>
+  <div class="name">Marrom Escuro</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#402a1a"></div>
+  <div class="code-row"><span class="code">896</span></div>
+  <div class="name">Rústico</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#b3bea9"></div>
+  <div class="code-row"><span class="code">879</span></div>
+  <div class="name">Areia Lunar</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#a29577"></div>
+  <div class="code-row"><span class="code">819</span></div>
+  <div class="name">Concreto</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#494037"></div>
+  <div class="code-row"><span class="code">551</span></div>
+  <div class="name">Sépia</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#d3dbdc"></div>
+  <div class="code-row"><span class="code">933</span></div>
+  <div class="name">Cinza</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#505254"></div>
+  <div class="code-row"><span class="code">530</span></div>
+  <div class="name">Grafite</div>
+</div>
+<div class="card">
+  <div class="swatch" style="background:#1e1e1b"></div>
+  <div class="code-row"><span class="code">520</span></div>
+  <div class="name">Preto</div>
+</div>
+  </div>
+</section>
+
+<footer>
+  Códigos e nomes conforme o catálogo Acrilex Manualidades 2025.
+</footer>
+</body>
+</html>
