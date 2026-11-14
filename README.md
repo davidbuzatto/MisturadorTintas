@@ -30,4 +30,4 @@ autocontido (não precisa de servidor nem dos JSONs para abrir).
 - Misturador: `python3 ferramentas/misturador/build_misturador.py` (lê `dados/*.json`, escreve `misturador-tintas.html`).
 - Catálogos: `ferramentas/geradores/gen.py` (Tamiya) e `genrev.py` (Revell) — foram escritos com caminhos relativos à pasta raiz
   e usam `orig_i.html`/`orig_p.html` (modelos); copie-os para a raiz ou ajuste os caminhos antes de rodar.
-- Acrilex: ver `ferramentas/misturador/extrair_acrilex.py` (descrição do método de extração do PDF).
+- Acrilex: ver `ferramentas/misturador/extrair_acrilex.py` (descrição do método de extração do PDF). 
