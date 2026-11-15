@@ -49,6 +49,7 @@ test('buildCatalogs: catálogos antigos inalterados e Tamiya dividido sem perda'
     vl: [],
     mr: [],
     hb: [],
+    ral: [],
   });
   assert.deepEqual(cat.acrilex, golden.acrilex);
   assert.deepEqual(cat.revellA, golden.revellA);
@@ -102,6 +103,7 @@ test('buildCatalogs inclui Vallejo e catalogLines lista as linhas', async () => 
     vl: ler('vallejo-cores.json'),
     mr: ler('mrcolor-cores.json'),
     hb: ler('humbrol-cores.json'),
+    ral: ler('ral-cores.json'),
   });
   assert.equal(cat.vallejo.length, ler('vallejo-cores.json').length);
   assert.deepEqual(catalogLines(cat.vallejo).slice(0, 2), ['Model Color', 'Liquid Metal']);
@@ -148,4 +150,20 @@ test('Humbrol: registros completos, códigos únicos e cores conhecidas', () => 
   assert.equal(por['33'].hex, '#000000'); // Black Matt
   assert.equal(por['34'].hex, '#ffffff'); // White Matt
   assert.equal(por['22'].hex, '#ffffff'); // White Gloss
+});
+
+test('RAL Classic: registros completos, códigos únicos e cores conhecidas', () => {
+  const cores = ler('ral-cores.json');
+  assert.ok(cores.length >= 213, `RAL Classic tem pelo menos 213 cores, veio ${cores.length}`);
+  const codigos = cores.map((c) => c.code);
+  assert.equal(new Set(codigos).size, codigos.length, 'códigos repetidos');
+  for (const c of cores) {
+    assert.match(c.code, /^[1-9]\d{3}$/, c.code);
+    assert.match(c.hex, HEX, `hex de ${c.code}`);
+    assert.ok(c.name, `nome de ${c.code}`);
+  }
+  const por = Object.fromEntries(cores.map((c) => [c.code, c]));
+  assert.equal(por['9005'].name, 'Jet black');
+  assert.equal(por['7016'].name, 'Anthracite grey');
+  assert.equal(por['6005'].name, 'Moss green');
 });

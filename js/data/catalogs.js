@@ -26,7 +26,7 @@ import { fitHex } from '../color/spectral.js';
  * Catálogos disponíveis como cor-alvo, na ordem em que as abas aparecem.
  * `free` não é um catálogo: é a aba de cor livre (seletor de cor).
  */
-export const TARGET_TABS = ['tamiyaA', 'tamiyaL', 'revellA', 'revellE', 'fs595', 'vallejo', 'mrhobby', 'humbrol', 'acrilex', 'free'];
+export const TARGET_TABS = ['tamiyaA', 'tamiyaL', 'revellA', 'revellE', 'fs595', 'vallejo', 'mrhobby', 'humbrol', 'ral', 'acrilex', 'free'];
 
 /**
  * Abas de versões anteriores → aba equivalente atual. Usado para restaurar a
@@ -55,6 +55,7 @@ export const CATALOG_NAMES = {
   vallejo: 'Vallejo',
   mrhobby: 'Mr. Hobby',
   humbrol: 'Humbrol',
+  ral: 'RAL',
   acrilex: 'Acrilex',
   free: 'Livre',
 };
@@ -96,13 +97,13 @@ function revellLabel(d) {
 
 /**
  * Monta os catálogos normalizados a partir dos JSONs brutos (função pura, sem rede).
- * @param {{ac: object[], tm: object[], rv: object[], fs: object[], vl: object[], mr: object[], hb: object[]}} raw conteúdo de
+ * @param {{ac: object[], tm: object[], rv: object[], fs: object[], vl: object[], mr: object[], hb: object[], ral: object[]}} raw conteúdo de
  *        `acrilex-cores-oficial`, `tamiya-cores-oficial`, `revell-cores-oficial`,
- *        `fs595-cores`, `vallejo-cores`, `mrcolor-cores` e `humbrol-cores`.
+ *        `fs595-cores`, `vallejo-cores`, `mrcolor-cores`, `humbrol-cores` e `ral-cores`.
  * @returns {Object<string, CatalogPaint[]>} catálogos por chave
- *          (`acrilex`, `tamiyaA`, `tamiyaL`, `revellA`, `revellE`, `fs595`, `vallejo`, `mrhobby`, `humbrol`).
+ *          (`acrilex`, `tamiyaA`, `tamiyaL`, `revellA`, `revellE`, `fs595`, `vallejo`, `mrhobby`, `humbrol`, `ral`).
  */
-export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb }) {
+export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral }) {
   // Tamiya: aditivos (sem cor) ficam de fora; separado por base química
   const tamiya = (base) =>
     tm.filter((d) => d.hex && !d.aditivo && d.base === base).map((d) => ({ code: d.code, name: d.name, hex: d.hex }));
@@ -141,6 +142,8 @@ export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb }) {
       ...(d.finish ? { finish: d.finish } : {}),
       ...(d.degrade ? { degrade: true } : {}),
     })),
+    // RAL Classic: o código é o número RAL (ex.: "7016"); o nome é o oficial em inglês
+    ral: ral.map((d) => ({ code: d.code, name: d.name, hex: d.hex })),
   };
 }
 
@@ -149,7 +152,7 @@ export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb }) {
  * @returns {Promise<Object<string, CatalogPaint[]>>} catálogos por chave (ver {@link buildCatalogs}).
  */
 export async function loadCatalogs() {
-  const [ac, tm, rv, fs, vl, mr, hb] = await Promise.all([
+  const [ac, tm, rv, fs, vl, mr, hb, ral] = await Promise.all([
     loadJson('acrilex-cores-oficial.json'),
     loadJson('tamiya-cores-oficial.json'),
     loadJson('revell-cores-oficial.json'),
@@ -157,8 +160,9 @@ export async function loadCatalogs() {
     loadJson('vallejo-cores.json'),
     loadJson('mrcolor-cores.json'),
     loadJson('humbrol-cores.json'),
+    loadJson('ral-cores.json'),
   ]);
-  return buildCatalogs({ ac, tm, rv, fs, vl, mr, hb });
+  return buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral });
 }
 
 /**

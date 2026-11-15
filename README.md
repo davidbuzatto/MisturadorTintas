@@ -60,6 +60,10 @@ ferramentas/, originais/ material histórico da extração das cores (scripts Py
   baixa as imagens (uma por vez, com pausa) e usa a mediana de uma caixa dentro do respingo (requer `ffmpeg`).
   147 cores (os 3 vernizes ficam de fora). Fluorescentes e metálicos são só aproximações (o site usa a mesma tinta
   de tela para o 37 Bright Green e o 208 Fluorescent Signal Green).
+- **RAL Classic:** 9 páginas de <https://www.ralcolorchart.com/ral-classic/> (uma por família de tons), com a cor em
+  hex no próprio HTML: `node ferramentas/extrair-ral.mjs`. 216 cores; o script confere a contagem de cada página com a
+  que o site informa. São as cores exibidas pelo site (aproximações de tela), não os valores colorimétricos oficiais.
+  Só o RAL Classic: RAL Design e RAL Effect não aparecem em manuais de modelismo.
 - São aproximações; metálicos e translúcidos são os que mais se afastam.
 
 ## Modelo de mistura
