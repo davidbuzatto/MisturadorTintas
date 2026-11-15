@@ -1,0 +1,10 @@
+{
+  "name": "misturador-tintas",
+  "private": true,
+  "type": "module",
+  "description": "Misturador de tintas para plastimodelismo (JavaScript puro, sem build).",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "node tools/servidor.mjs"
+  }
+}

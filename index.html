@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Misturador de tintas</title>
+<link rel="stylesheet" href="css/styles.css">
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<header>
+  <h1>Misturador de tintas</h1>
+  <p class="sub">Tintas Acrilex Fosca como ingredientes; cor-alvo de qualquer catálogo (Tamiya, Revell, Acrilex). A mistura é calculada como <b>pigmentos</b> (espectral, Kubelka-Munk), não como média de RGB.</p>
+  <p class="warn" id="erro" hidden></p>
+</header>
+<main>
+  <section class="card">
+    <h2>1 · Mistura</h2>
+    <div id="ings"></div>
+    <div class="row" style="margin-top:10px">
+      <button class="pri" id="btnAdd">+ adicionar tinta</button>
+      <button id="btnNorm" title="Escala as quantidades para somarem 100%">normalizar 100%</button>
+      <button id="btnClear">limpar</button>
+      <span style="flex:1"></span>
+      <label class="muted">total <input type="number" id="total" min="0.5" step="0.5" value="10" style="width:70px"> ml</label>
+    </div>
+    <div class="muted" id="sumInfo" style="margin-top:6px"></div>
+    <details style="margin-top:8px"><summary>Modelo de mistura e força de tingimento</summary>
+      <div style="margin-top:8px" class="row">
+        <label>modelo
+          <select id="model">
+            <option value="km">Pigmento (Kubelka-Munk, espalhamento estimado)</option>
+            <option value="kmeq">Pigmento (Kubelka-Munk, espalhamento igual)</option>
+            <option value="lin">RGB linear (luz)</option>
+            <option value="srgb">RGB direto (média de hex)</option>
+          </select>
+        </label>
+      </div>
+      <p class="muted">A coluna “força” de cada tinta multiplica sua participação: use &gt;1 para pigmentos fortes (preto, azul, magenta) e &lt;1 para os fracos. Ajuste até a mistura calculada bater com o que você vê na bancada.</p>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2>2 · Cor-alvo</h2>
+    <div class="tabs" id="tgtTabs"></div>
+    <div class="row" style="margin-bottom:8px"><input type="text" id="tgtSearch" placeholder="buscar código ou nome…" style="flex:1;min-width:140px"><span id="freeBox" style="display:none"><input type="color" id="freeColor" value="#808080"> <input type="text" id="freeHex" value="#808080" style="width:90px"></span></div>
+    <div class="grid" id="tgtGrid"></div>
+  </section>
+
+  <section class="card full" id="resSec">
+    <h2>3 · Resultado</h2>
+    <div class="resgrid" style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px">
+      <div>
+        <div class="big"><div id="bigT">alvo</div><div id="bigM">mistura</div></div>
+        <div class="cap"><span id="capT"></span><span id="capM"></span></div>
+        <div class="row" style="margin-top:10px"><span class="de" id="deVal">–</span><span id="deTxt" class="muted"></span></div>
+        <div class="row" style="margin-top:10px"><button id="btnSave" class="pri">salvar receita</button><button id="btnSug">sugerir mistura automática</button>
+          <label class="muted">até <select id="maxN"><option>1</option><option>2</option><option selected>3</option><option>4</option></select> tintas</label>
+          <label class="muted"><input type="checkbox" id="onlyOwn"> só as que tenho</label></div>
+        <div id="sugOut"></div>
+      </div>
+      <div>
+        <table><thead><tr><th>modelo</th><th>cor</th><th>ΔE00</th></tr></thead><tbody id="cmp"></tbody></table>
+        <p class="muted" style="margin-top:8px">ΔE00 &lt; 1: imperceptível · 1–2: só lado a lado · 2–5: parecida · &gt;5: diferente. A diferença entre “pigmento” e “RGB” é justamente o erro de misturar em RGB.</p>
+        <div class="warn">Aviso: tinta acrílica úmida costuma secar um pouco mais escura; o acabamento muda a percepção; e as cores dos catálogos são aproximadas. Trate o resultado como ponto de partida e registre a cor real obtida nas receitas salvas.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card full">
+    <h2>4 · Receitas salvas</h2>
+    <div id="hist"></div>
+    <div class="row" style="margin-top:8px"><button id="btnExp">exportar JSON</button><button id="btnImp">importar JSON</button><input type="file" id="fileImp" accept=".json" style="display:none"></div>
+  </section>
+</main>
+
+<div class="modal" id="modal"><div class="box">
+  <div class="row"><b style="flex:1">Escolha uma tinta Acrilex</b><button id="mClose">fechar</button></div>
+  <div class="row" style="margin:8px 0"><input type="text" id="pSearch" placeholder="buscar…" style="flex:1"><label class="muted"><input type="checkbox" id="pOwn"> só as que tenho</label></div>
+  <p class="muted" style="margin:0 0 6px">Clique para adicionar. Botão direito (ou toque longo) marca “tenho esta tinta” (borda verde).</p>
+  <div class="grid" id="pGrid" style="max-height:60vh"></div>
+</div></div>
+</body>
+</html>
