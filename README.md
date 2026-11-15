@@ -27,10 +27,11 @@ js/
     spectral.js          hex → reflectância espectral (fitHex) e inverso
     mixing.js            modelos de mistura (KM, KM igual, RGB linear, RGB direto)
     suggest.js           busca automática de receitas
+    nearest.js           tintas de um catálogo mais próximas de uma cor (ΔE00)
   data/catalogs.js       carrega/normaliza os JSONs; nomes de catálogos e tintas âncora
   state/store.js         estado + persistência em localStorage
   ui/                    um módulo por seção da tela
-    ingredients.js  targets.js  result.js  picker.js  suggestions.js  recipes.js  dom.js
+    ingredients.js  targets.js  result.js  equivalents.js  picker.js  suggestions.js  recipes.js  dom.js
 tests/                   testes de equivalência (golden.json gravado do motor original)
 tools/servidor.mjs       servidor estático para desenvolvimento
 catalogos/               catálogos HTML (interativo e de impressão) de Tamiya, Revell e Acrilex
@@ -67,7 +68,9 @@ ferramentas/, originais/ material histórico da extração das cores (scripts Py
 - **AK (Real Colors):** cartela "RC RANGE" (págs. 9–11) do catálogo da AK Interactive, mesmo método da Vallejo:
   `node ferramentas/extrair-ak.mjs "Catalogo.pdf"` (requer poppler). 177 cores em 3 seções (Standard, Civil, Military);
   os vernizes RC801–803 ficam de fora. Tintas transparentes e metálicas têm `degrade: true`. As páginas 16–22 do PDF
-  trazem uma tabela de equivalências com Tamiya, Vallejo, Mr. Hobby etc., ainda não aproveitada.
+  trazem a tabela de conversão ("CONVERSION CHART"), que o mesmo script lê: referência de norma (`ref`, ex.: "RAL 9005")
+  e equivalências (`equiv`) em Mr. Hobby, Tamiya, Vallejo, Hataka, MRP, Model Master e Lifecolor (seções Standard e
+  Military) ou Tamiya, Number Five, MRP, Gravity e Zero Paints (seção Civil, que tem outro layout).
 - **AMMO by Mig:** *AMMO Catalogue 2024*: as tabelas de conversão do fim do PDF (págs. 97–105) têm uma linha por cor, com
   amostra colorida, nome, referência RAL/RLM/FS e equivalências em Hobby Color, Mr. Color, Tamiya, Model Color e Model Air.
   `node ferramentas/extrair-ammo.mjs "Catalogo.pdf"` (requer poppler) lê as duas tabelas: Acrylic Colors (A.MIG, 236 cores,
@@ -84,6 +87,23 @@ ferramentas/, originais/ material histórico da extração das cores (scripts Py
 - Sugestão automática (grade de pesos + refino local) de 1 a 4 tintas, opcionalmente só as "que tenho".
 - Receitas e "tenho" ficam no `localStorage` (por endereço da página); use "exportar JSON" para levar as receitas.
 - Para calibrar: registrar a cor real obtida nas receitas salvas e ajustar `força`.
+
+## Equivalentes em outras marcas
+Para a cor-alvo (ou para a mistura calculada, à escolha), a seção 4 mostra em cada catálogo as 3 tintas mais
+parecidas, por ΔE00 (`js/color/nearest.js`); menor é mais parecida (verde: ΔE < 2). Clicar numa cor a usa como alvo.
+Quando o fabricante declara a equivalência, a linha ganha o selo **AMMO**, **AK** ou **AMMO · AK**: as tabelas de
+conversão dos dois catálogos (`equiv` e `ref` em `dados/ammo-cores.json` e `dados/ak-cores.json`) são resolvidas para as
+tintas dos nossos catálogos, nos dois sentidos (`js/data/equivalences.js`; ~1500 ligações com Tamiya, Mr. Color/Hobby
+Color, Vallejo e entre A.MIG e ATOM). As referências de norma citadas (`RAL 9005`, `FS 36081`) também ligam a cor ao
+nosso RAL e ao FS 595. Marcas sem catálogo aqui (Hataka, MRP, Model Master, Lifecolor, Number Five, Gravity, Zero Paints)
+ficam guardadas nos JSONs, mas não aparecem na tela. O selo mostra o que o fabricante *afirma*; o ΔE ao lado mostra o
+quanto as cores de tela concordam (os catálogos usam amostras de origens diferentes, então pode haver diferença).
+
+## Organização dos catálogos na tela
+Cada marca é uma aba da seção "Cor-alvo". As que têm mais de uma linha de produto (Tamiya: Acrílica e Lacquer; Revell:
+Aqua Color e Email Color; Vallejo; Mr. Hobby; AK; AMMO) mostram abaixo das abas uma fileira de botões de linha, com
+"Todas" para buscar em todas elas. No código, é só marcar cada tinta com `line` em `buildCatalogs`
+(`js/data/catalogs.js`); catálogos de linha única (FS 595, Humbrol, RAL, Acrilex) não mostram a fileira.
 
 ## Dados
 Os JSONs em `dados/` são lidos diretamente pela aplicação. Para ampliar uma paleta, edite/adicione registros

@@ -32,6 +32,21 @@ if (!PDF) {
 }
 const SAIDA = fileURLToPath(new URL('../dados/ak-cores.json', import.meta.url));
 const PAGINAS = [9, 10, 11];
+
+/**
+ * Páginas das tabelas de conversão ("CONVERSION CHART") e colunas de cada layout, em unidades do XML
+ * (página de 892 de largura): [chave, x inicial, x final]. Standard e Military compartilham o layout A;
+ * a seção Civil (p. 17) tem outras marcas, no layout B. A coluna `anterior` (referência antiga RCxxx) é
+ * ignorada. Valores "-" significam "sem equivalente".
+ */
+const PAGINAS_CONVERSAO = [16, 17, 18, 19, 20, 21, 22];
+const LAYOUT_A = [
+  ['ref', 272, 357], ['mrHobby', 357, 429], ['tamiya', 429, 472], ['vallejo', 472, 527], ['hataka', 527, 587],
+  ['mrp', 587, 637], ['modelMaster', 637, 707], ['lifecolor', 707, 761],
+];
+const LAYOUT_B = [
+  ['ref', 272, 357], ['tamiya', 357, 405], ['numberFive', 405, 453], ['mrp', 454, 508], ['gravity', 508, 561], ['zeroPaints', 561, 618],
+];
 const DPI = 150;
 /** Títulos de seção → série. */
 const SERIES = { STANDARD: 'Standard', CIVIL: 'Civil', MILITARY: 'Military' };
@@ -50,7 +65,7 @@ const decodificar = (s) =>
     .replace(/&gt;/g, '>')
     .replace(/&amp;/g, '&');
 
-run('pdftohtml', ['-xml', '-i', '-noframes', '-f', String(PAGINAS[0]), '-l', String(PAGINAS.at(-1)), PDF, join(tmp, 'txt')]);
+run('pdftohtml', ['-xml', '-i', '-noframes', '-f', String(PAGINAS[0]), '-l', String(PAGINAS_CONVERSAO.at(-1)), PDF, join(tmp, 'txt')]);
 const xml = readFileSync(join(tmp, 'txt.xml'), 'utf8');
 const paginasXml = new Map();
 for (const trecho of xml.split('<page ').slice(1)) {
@@ -133,8 +148,60 @@ for (const p of PAGINAS) {
   }
 }
 
+// ---- Tabelas de conversão: referência de norma (RAL/FS/BS) e equivalências em outras marcas ----
+const porCodigo = new Map(cores.map((c) => [c.code, c]));
+let comEquivalencia = 0;
+for (const p of PAGINAS_CONVERSAO) {
+  const pg = paginasXml.get(p);
+  const layout = p === 17 ? LAYOUT_B : LAYOUT_A;
+  const refs = pg.tokens.filter((o) => /^RC\d{3}$/.test(o.s) && o.l <= 112).sort((a, b) => a.t - b.t);
+  refs.forEach((r, i) => {
+    const cor = porCodigo.get(r.s);
+    if (!cor) return; // verniz ou fora da cartela
+    // a linha vai do meio entre este código e o anterior até o meio entre este e o seguinte
+    const topo = i === 0 ? r.t - 14 : (refs[i - 1].t + r.t) / 2;
+    const fim = i === refs.length - 1 ? r.t + 20 : (r.t + refs[i + 1].t) / 2;
+    const celulas = pg.tokens.filter((o) => o.t >= topo && o.t < fim && o.l > 270);
+    const equiv = {};
+    for (const [chave, x0, x1] of layout) {
+      const texto = celulas
+        .filter((o) => o.l + o.w / 2 >= x0 && o.l + o.w / 2 < x1)
+        .sort((a, b) => a.t - b.t || a.l - b.l)
+        .map((o) => o.s)
+        .join(' ')
+        .replace(/\*+/g, '')
+        .trim();
+      if (texto && texto !== '-') equiv[chave] = texto;
+    }
+    // seção Civil: células vizinhas aparecem coladas ("N5-X082 MRP-C016"); classifica pelo prefixo de cada marca
+    if (p === 17) {
+      const todo = celulas.filter((o) => o.l >= 350 && o.l < 618).sort((a, b) => a.t - b.t || a.l - b.l).map((o) => o.s).join(' ');
+      for (const k of ['tamiya', 'numberFive', 'mrp', 'gravity', 'zeroPaints']) delete equiv[k];
+      const por = { tamiya: /\b(?:TS|XF?|LP)-\d+\b/g, numberFive: /\bN5-[A-Z]\d+\b/g, mrp: /\bMRP-[A-Z]?\d+\b/g, gravity: /\bGC-\d+\b/g, zeroPaints: /\bZP-[0-9A-Z-]+\b/g };
+      for (const [k, re] of Object.entries(por)) {
+        const achados = todo.match(re);
+        if (achados) equiv[k] = achados.join(' / ');
+      }
+    }
+    // em algumas linhas o PDF junta MRP e Model Master num só trecho ("MRP-005 1749 / 4768")
+    const junto = (equiv.modelMaster || '').match(/^(MRP-\d+)\s*(.*)$/);
+    if (junto) {
+      equiv.mrp = equiv.mrp ? `${equiv.mrp} ${junto[1]}` : junto[1];
+      if (junto[2]) equiv.modelMaster = junto[2];
+      else delete equiv.modelMaster;
+    }
+    if (equiv.ref) cor.ref = equiv.ref;
+    delete equiv.ref;
+    if (Object.keys(equiv).length) {
+      cor.equiv = equiv;
+      comEquivalencia++;
+    }
+  });
+}
+
 cores.sort((a, b) => a.code.localeCompare(b.code));
 writeFileSync(SAIDA, JSON.stringify(cores, null, 1) + '\n', 'utf8');
+console.log(`equivalências lidas para ${comEquivalencia} cores; com referência de norma: ${cores.filter((c) => c.ref).length}`);
 const por = {};
 cores.forEach((c) => { por[c.series] = (por[c.series] || 0) + 1; });
 console.log(`gravado ${cores.length} cores em dados/ak-cores.json`, por);

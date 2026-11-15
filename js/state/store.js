@@ -40,6 +40,7 @@ export const DEFAULT_INGREDIENTS = [
  * @property {Object<string,boolean>} own  tintas marcadas como "tenho".
  * @property {Recipe[]} hist           receitas salvas.
  * @property {string} tab              aba de alvo selecionada.
+ * @property {'target'|'mix'} eqFrom   cor de partida das equivalências: alvo ou mistura calculada.
  * @property {Object<string,string>} lines  linha escolhida por aba ("*" = todas), nos catálogos com linhas.
  * @property {string} free             última cor livre escolhida.
  */
@@ -48,13 +49,14 @@ export const DEFAULT_INGREDIENTS = [
 function defaultState() {
   return {
     ing: [],
-    target: { hex: '#4f5457', label: 'Tamiya Acrílica X-10 Gun Metal' },
+    target: { hex: '#4f5457', label: 'Tamiya Acrílica X-10 Gun Metal', ref: { tab: 'tamiya', code: 'X-10' } },
     model: 'km',
     total: 10,
     own: {},
     hist: [],
-    tab: 'tamiyaA',
+    tab: 'tamiya',
     lines: {},
+    eqFrom: 'target',
     free: '#808080',
   };
 }

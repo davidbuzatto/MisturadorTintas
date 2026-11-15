@@ -3,73 +3,153 @@
   "code": "RC804",
   "name": "Flat Black RAL 9005",
   "series": "Standard",
-  "hex": "#010202"
+  "hex": "#010202",
+  "ref": "RAL 9005",
+  "equiv": {
+   "mrHobby": "C33 / H12",
+   "tamiya": "XF-1",
+   "vallejo": "71.057",
+   "hataka": "HTK-_100",
+   "modelMaster": "1749 / 4768",
+   "lifecolor": "LC02",
+   "mrp": "MRP-005"
+  }
  },
  {
   "code": "RC805",
   "name": "Rubber Black",
   "series": "Standard",
-  "hex": "#1e1e1d"
+  "hex": "#1e1e1d",
+  "equiv": {
+   "mrHobby": "C137 / H77",
+   "tamiya": "XF-85",
+   "vallejo": "71.315",
+   "mrp": "MRP-173",
+   "modelMaster": "1583",
+   "lifecolor": "UA733"
+  }
  },
  {
   "code": "RC806",
   "name": "Flat White RAL 9003",
   "series": "Standard",
-  "hex": "#ffffff"
+  "hex": "#ffffff",
+  "ref": "RAL 9003",
+  "equiv": {
+   "mrHobby": "C62 / H11",
+   "tamiya": "XF-2",
+   "vallejo": "71.001",
+   "modelMaster": "1768 / 4769",
+   "lifecolor": "LC01",
+   "mrp": "MRP-004"
+  }
  },
  {
   "code": "RC807",
   "name": "Cream White RAL 9001",
   "series": "Standard",
-  "hex": "#efeee0"
+  "hex": "#efeee0",
+  "ref": "RAL 9001",
+  "equiv": {
+   "vallejo": "71.270",
+   "hataka": "HTK-_307"
+  }
  },
  {
   "code": "RC808",
   "name": "Off White",
   "series": "Standard",
-  "hex": "#d8d3b6"
+  "hex": "#d8d3b6",
+  "equiv": {
+   "mrHobby": "C69 / H21",
+   "modelMaster": "4874"
+  }
  },
  {
   "code": "RC809",
   "name": "White Grey RAL 9002",
   "series": "Standard",
-  "hex": "#e6e6e6"
+  "hex": "#e6e6e6",
+  "ref": "RAL 9002",
+  "equiv": {
+   "vallejo": "71.119"
+  }
  },
  {
   "code": "RC810",
   "name": "Red RAL 3000",
   "series": "Standard",
-  "hex": "#aa2d21"
+  "hex": "#aa2d21",
+  "ref": "RAL 3000",
+  "equiv": {
+   "mrHobby": "H13",
+   "tamiya": "XF-7",
+   "vallejo": "71.269",
+   "hataka": "HTK-_132",
+   "modelMaster": "2733",
+   "lifecolor": "LC06"
+  }
  },
  {
   "code": "RC811",
   "name": "Signal Red RAL 3020",
   "series": "Standard",
-  "hex": "#b61e18"
+  "hex": "#b61e18",
+  "ref": "RAL 3020",
+  "equiv": {
+   "mrHobby": "C79 / H23",
+   "vallejo": "71.003",
+   "hataka": "HTK-_103"
+  }
  },
  {
   "code": "RC812",
   "name": "Orange RAL 2004",
   "series": "Standard",
-  "hex": "#de5412"
+  "hex": "#de5412",
+  "ref": "RAL 2004",
+  "equiv": {
+   "mrHobby": "C59 / H14",
+   "tamiya": "X-6",
+   "vallejo": "71.083",
+   "hataka": "HTK-_704",
+   "lifecolor": "LC05"
+  }
  },
  {
   "code": "RC813",
   "name": "Maize Yellow RAL 1006",
   "series": "Standard",
-  "hex": "#db9106"
+  "hex": "#db9106",
+  "ref": "RAL 1006",
+  "equiv": {
+   "mrHobby": "H34",
+   "vallejo": "71.033"
+  }
  },
  {
   "code": "RC814",
   "name": "Yellow RAL 1003",
   "series": "Standard",
-  "hex": "#f3aa05"
+  "hex": "#f3aa05",
+  "ref": "RAL 1003",
+  "equiv": {
+   "mrHobby": "C329 / H329",
+   "tamiya": "X-8",
+   "vallejo": "71.135",
+   "hataka": "HTK-_107"
+  }
  },
  {
   "code": "RC815",
   "name": "Buff",
   "series": "Standard",
-  "hex": "#ab937b"
+  "hex": "#ab937b",
+  "equiv": {
+   "mrHobby": "C336 / H336",
+   "tamiya": "XF-57",
+   "hataka": "HTK-_262"
+  }
  },
  {
   "code": "RC816",
@@ -81,67 +161,123 @@
   "code": "RC817",
   "name": "Blue RAL 5001",
   "series": "Standard",
-  "hex": "#1d4d65"
+  "hex": "#1d4d65",
+  "ref": "RAL 5001"
  },
  {
   "code": "RC818",
   "name": "Pure Blue RAL 5005",
   "series": "Standard",
-  "hex": "#005289"
+  "hex": "#005289",
+  "ref": "RAL 5005",
+  "equiv": {
+   "vallejo": "70.930",
+   "hataka": "HTK-_102"
+  }
  },
  {
   "code": "RC819",
   "name": "Gun Metal",
   "series": "Standard",
-  "hex": "#464443"
+  "hex": "#464443",
+  "equiv": {
+   "mrHobby": "C78 / H28",
+   "tamiya": "X-10",
+   "vallejo": "71.073",
+   "hataka": "HTK-_106",
+   "modelMaster": "1795 / 4681",
+   "lifecolor": "LC26",
+   "mrp": "MRP-149"
+  }
  },
  {
   "code": "RC820",
   "name": "Aluminium",
   "series": "Standard",
-  "hex": "#afaca8"
+  "hex": "#afaca8",
+  "equiv": {
+   "tamiya": "XF-16",
+   "vallejo": "71.062",
+   "hataka": "HTK-_078",
+   "modelMaster": "1781 / 4677",
+   "lifecolor": "LC24"
+  }
  },
  {
   "code": "RC821",
   "name": "Clear Red",
   "series": "Standard",
   "hex": "#ed7865",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "mrHobby": "C47 / H90",
+   "tamiya": "X-27",
+   "mrp": "MRP-266",
+   "modelMaster": "4630"
+  }
  },
  {
   "code": "RC822",
   "name": "Clear Blue",
   "series": "Standard",
   "hex": "#5b84c2",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "mrHobby": "C50 / H93",
+   "tamiya": "X-23",
+   "mrp": "MRP-267",
+   "modelMaster": "4658"
+  }
  },
  {
   "code": "RC823",
   "name": "Clear Green",
   "series": "Standard",
   "hex": "#679159",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "mrHobby": "C138 / H94",
+   "tamiya": "X-25",
+   "mrp": "MRP-268",
+   "modelMaster": "4668"
+  }
  },
  {
   "code": "RC824",
   "name": "Clear Orange",
   "series": "Standard",
   "hex": "#df9f65",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "mrHobby": "C49 / H92",
+   "tamiya": "X-26",
+   "mrp": "MRP-265",
+   "modelMaster": "4625"
+  }
  },
  {
   "code": "RC825",
   "name": "Clear Yellow",
   "series": "Standard",
   "hex": "#f4e077",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "mrHobby": "C48 / H91",
+   "tamiya": "X-24",
+   "mrp": "MRP-264"
+  }
  },
  {
   "code": "RC826",
   "name": "Clear Smoke",
   "series": "Standard",
   "hex": "#a4a09d",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "mrHobby": "C101 / H95",
+   "tamiya": "X-19",
+   "mrp": "MRP-271"
+  }
  },
  {
   "code": "RC827",
@@ -154,135 +290,228 @@
   "name": "British F1 Black 1972-1986",
   "series": "Civil",
   "hex": "#2a2a28",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "numberFive": "N5-C174",
+   "zeroPaints": "ZP-1121"
+  }
  },
  {
   "code": "RC829",
   "name": "Carbon Fibre Grey",
   "series": "Civil",
-  "hex": "#292926"
+  "hex": "#292926",
+  "equiv": {
+   "zeroPaints": "ZP-1323"
+  }
  },
  {
   "code": "RC830",
   "name": "Wheel Rim Gold",
   "series": "Civil",
   "hex": "#cdc74e",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "numberFive": "N5-X082",
+   "mrp": "MRP-C016",
+   "zeroPaints": "ZP-1575"
+  }
  },
  {
   "code": "RC831",
   "name": "Fork Gold",
   "series": "Civil",
   "hex": "#fbc861",
-  "degrade": true
+  "degrade": true,
+  "equiv": {
+   "zeroPaints": "ZP-1432"
+  }
  },
  {
   "code": "RC832",
   "name": "Alfa BT Red",
   "series": "Civil",
-  "hex": "#d0171a"
+  "hex": "#d0171a",
+  "equiv": {
+   "numberFive": "N5-C021",
+   "zeroPaints": "ZP-1091"
+  }
  },
  {
   "code": "RC833",
   "name": "Maranello F1 Red 1970s-1980s",
   "series": "Civil",
-  "hex": "#e52a23"
+  "hex": "#e52a23",
+  "equiv": {
+   "zeroPaints": "ZP-1007"
+  }
  },
  {
   "code": "RC834",
   "name": "Maranello Red 300",
   "series": "Civil",
-  "hex": "#a21c18"
+  "hex": "#a21c18",
+  "equiv": {
+   "mrp": "MRP-C026",
+   "zeroPaints": "ZP-8007"
+  }
  },
  {
   "code": "RC835",
   "name": "Italian Red",
   "series": "Civil",
-  "hex": "#cd2529"
+  "hex": "#cd2529",
+  "equiv": {
+   "tamiya": "TS-8",
+   "zeroPaints": "ZP-1114"
+  }
  },
  {
   "code": "RC836",
   "name": "Panigale Red",
   "series": "Civil",
-  "hex": "#be181b"
+  "hex": "#be181b",
+  "equiv": {
+   "numberFive": "N5-C033",
+   "gravity": "GC-1160",
+   "zeroPaints": "ZP-1273"
+  }
  },
  {
   "code": "RC837",
   "name": "Fluorescent Red RAL 3026",
   "series": "Civil",
-  "hex": "#e7342c"
+  "hex": "#e7342c",
+  "ref": "RAL 3026",
+  "equiv": {
+   "tamiya": "TS-36",
+   "numberFive": "N5-X017",
+   "gravity": "GC-168",
+   "zeroPaints": "ZP-1033"
+  }
  },
  {
   "code": "RC838",
   "name": "Fluorescent Orange",
   "series": "Civil",
-  "hex": "#ef7d1e"
+  "hex": "#ef7d1e",
+  "equiv": {
+   "tamiya": "TS-96",
+   "zeroPaints": "ZP-1009"
+  }
  },
  {
   "code": "RC839",
   "name": "Gulf Orange",
   "series": "Civil",
-  "hex": "#ec6223"
+  "hex": "#ec6223",
+  "equiv": {
+   "numberFive": "N5-X008",
+   "gravity": "GC-109",
+   "zeroPaints": "ZP-1259"
+  }
  },
  {
   "code": "RC840",
   "name": "Jäger Orange",
   "series": "Civil",
-  "hex": "#ed6e27"
+  "hex": "#ed6e27",
+  "equiv": {
+   "numberFive": "N5-X022",
+   "mrp": "MRP-C023",
+   "gravity": "GC-117",
+   "zeroPaints": "ZP-1057"
+  }
  },
  {
   "code": "RC841",
   "name": "French F1 Yellow 1970s-1980s",
   "series": "Civil",
-  "hex": "#f3e600"
+  "hex": "#f3e600",
+  "equiv": {
+   "numberFive": "N5-C026",
+   "zeroPaints": "ZP-1085"
+  }
  },
  {
   "code": "RC842",
   "name": "Light Blue",
   "series": "Civil",
-  "hex": "#24a1ce"
+  "hex": "#24a1ce",
+  "equiv": {
+   "tamiya": "TS-23",
+   "zeroPaints": "ZP-1093"
+  }
  },
  {
   "code": "RC843",
   "name": "Tyrrell Blue",
   "series": "Civil",
-  "hex": "#20335a"
+  "hex": "#20335a",
+  "equiv": {
+   "numberFive": "N5-X027",
+   "zeroPaints": "ZP-8067"
+  }
  },
  {
   "code": "RC844",
   "name": "Gulf Blue",
   "series": "Civil",
-  "hex": "#afd3e2"
+  "hex": "#afd3e2",
+  "equiv": {
+   "numberFive": "N5-X009",
+   "zeroPaints": "ZP-1103"
+  }
  },
  {
   "code": "RC845",
   "name": "Rally Blue 74F 1997-2002",
   "series": "Civil",
-  "hex": "#203c87"
+  "hex": "#203c87",
+  "equiv": {
+   "numberFive": "N5-C075",
+   "zeroPaints": "ZP-1041-74F"
+  }
  },
  {
   "code": "RC846",
   "name": "Rally Blue 02C 2001-2006",
   "series": "Civil",
-  "hex": "#26377a"
+  "hex": "#26377a",
+  "equiv": {
+   "numberFive": "N5-C074",
+   "zeroPaints": "ZP-1041-02C"
+  }
  },
  {
   "code": "RC847",
   "name": "British Racing Green",
   "series": "Civil",
-  "hex": "#024226"
+  "hex": "#024226",
+  "equiv": {
+   "zeroPaints": "ZP-1087"
+  }
  },
  {
   "code": "RC848",
   "name": "Vaillant Green",
   "series": "Civil",
-  "hex": "#055c41"
+  "hex": "#055c41",
+  "equiv": {
+   "numberFive": "N5-C015",
+   "gravity": "GC-118",
+   "zeroPaints": "ZP-1276"
+  }
  },
  {
   "code": "RC849",
   "name": "Ninja Green",
   "series": "Civil",
-  "hex": "#3b8a35"
+  "hex": "#3b8a35",
+  "equiv": {
+   "numberFive": "N5-C115",
+   "zeroPaints": "ZP-1018"
+  }
  },
  {
   "code": "RC850",
@@ -295,157 +524,324 @@
   "code": "RC851",
   "name": "Elfenbein-Ivory RAL 1001 (Interior Color)",
   "series": "Military",
-  "hex": "#ddc98d"
+  "hex": "#ddc98d",
+  "ref": "RAL 1001",
+  "equiv": {
+   "vallejo": "71.075",
+   "hataka": "HTK-_184",
+   "modelMaster": "2104 / 4805",
+   "mrp": "MRP-210"
+  }
  },
  {
   "code": "RC852",
   "name": "Olivgrün-Olive Green RAL 6003",
   "series": "Military",
-  "hex": "#5c604e"
+  "hex": "#5c604e",
+  "ref": "RAL 6003",
+  "equiv": {
+   "mrHobby": "H405",
+   "vallejo": "71.092",
+   "hataka": "HTK-_169",
+   "modelMaster": "2149 / 4862",
+   "lifecolor": "UA206",
+   "mrp": "MRP-035"
+  }
  },
  {
   "code": "RC853",
   "name": "Graugrün-Grey Green RAL 7008",
   "series": "Military",
-  "hex": "#7c735a"
+  "hex": "#7c735a",
+  "ref": "RAL 7008",
+  "equiv": {
+   "vallejo": "71.116",
+   "hataka": "HTK-_304",
+   "mrp": "MRP-211",
+   "modelMaster": "2098",
+   "lifecolor": "UA212"
+  }
  },
  {
   "code": "RC854",
   "name": "Hellgrau-Light Grey RAL 7009 (Interior Color)",
   "series": "Military",
-  "hex": "#696e62"
+  "hex": "#696e62",
+  "ref": "RAL 7009",
+  "equiv": {
+   "lifecolor": "UA233"
+  }
  },
  {
   "code": "RC855",
   "name": "Dunkelbraun-Dark Brown RAL 7017",
   "series": "Military",
-  "hex": "#4f4c48"
+  "hex": "#4f4c48",
+  "ref": "RAL 7017",
+  "equiv": {
+   "lifecolor": "UA210"
+  }
  },
  {
   "code": "RC856",
   "name": "Dunkelgrau-Dark Grey RAL 7021",
   "series": "Military",
-  "hex": "#4c4e4d"
+  "hex": "#4c4e4d",
+  "ref": "RAL 7021",
+  "equiv": {
+   "mrHobby": "H401",
+   "tamiya": "XF-63",
+   "vallejo": "71.056",
+   "hataka": "HTK-_164",
+   "modelMaster": "2094 / 4795",
+   "lifecolor": "UA207",
+   "mrp": "MRP-034"
+  }
  },
  {
   "code": "RC857",
   "name": "Grau-Grey RAL 7027",
   "series": "Military",
-  "hex": "#9b9584"
+  "hex": "#9b9584",
+  "ref": "RAL 7027",
+  "equiv": {
+   "mrHobby": "H404",
+   "vallejo": "71.118",
+   "hataka": "HTK-_306",
+   "mrp": "MRP-212",
+   "modelMaster": "2103",
+   "lifecolor": "UA202"
+  }
  },
  {
   "code": "RC858",
   "name": "Dunkelgelb nach Muster-Dark Yellow acc. to Sample",
   "series": "Military",
-  "hex": "#a58759"
+  "hex": "#a58759",
+  "equiv": {
+   "hataka": "HTK-_310"
+  }
  },
  {
   "code": "RC859",
   "name": "Dunkelgelb-Dark Yellow RAL 7028",
   "series": "Military",
-  "hex": "#9c8768"
+  "hex": "#9c8768",
+  "ref": "RAL 7028",
+  "equiv": {
+   "mrHobby": "H403",
+   "tamiya": "XF-60",
+   "vallejo": "71.025",
+   "hataka": "HTK-_244",
+   "modelMaster": "2095 / 4796",
+   "lifecolor": "UA204",
+   "mrp": "MRP-037"
+  }
  },
  {
   "code": "RC860",
   "name": "Dunkelgelb Ausgabe 44-Dark Yellow 1944 RAL 7028",
   "series": "Military",
-  "hex": "#88745d"
+  "hex": "#88745d",
+  "ref": "RAL 7028",
+  "equiv": {
+   "hataka": "HTK-_250",
+   "mrp": "MRP-216"
+  }
  },
  {
   "code": "RC861",
   "name": "Gelbbraun-Yellow Brown RAL 8000",
   "series": "Military",
-  "hex": "#8c6d47"
+  "hex": "#8c6d47",
+  "ref": "RAL 8000",
+  "equiv": {
+   "vallejo": "71.272",
+   "hataka": "HTK-_303",
+   "mrp": "MRP-213",
+   "modelMaster": "2099",
+   "lifecolor": "UA203"
+  }
  },
  {
   "code": "RC862",
   "name": "Rot (Rotbraun)-Red (Red Brown) RAL 8012",
   "series": "Military",
-  "hex": "#6b4742"
+  "hex": "#6b4742",
+  "ref": "RAL 8012",
+  "equiv": {
+   "mrHobby": "C43 / H47",
+   "vallejo": "71.271",
+   "hataka": "HTK-_175",
+   "modelMaster": "2152 / 4861",
+   "lifecolor": "UA211",
+   "mrp": "MRP-033"
+  }
  },
  {
   "code": "RC863",
   "name": "Rot (Rotbraun)-Red (Red Brown) RAL 8013",
   "series": "Military",
-  "hex": "#6f493f"
+  "hex": "#6f493f",
+  "ref": "RAL 8013",
+  "equiv": {
+   "modelMaster": "2165"
+  }
  },
  {
   "code": "RC864",
   "name": "Rotbraun-Red Brown RAL 8017",
   "series": "Military",
-  "hex": "#564742"
+  "hex": "#564742",
+  "ref": "RAL 8017",
+  "equiv": {
+   "mrHobby": "H406",
+   "tamiya": "XF-9",
+   "vallejo": "71.041",
+   "hataka": "HTK-_147",
+   "modelMaster": "2096 / 4797",
+   "lifecolor": "UA205",
+   "mrp": "MRP-036"
+  }
  },
  {
   "code": "RC865",
   "name": "Braun-Brown RAL 8020",
   "series": "Military",
-  "hex": "#b38e6d"
+  "hex": "#b38e6d",
+  "ref": "RAL 8020",
+  "equiv": {
+   "mrHobby": "H402",
+   "vallejo": "71.117",
+   "hataka": "HTK-_305",
+   "mrp": "MRP-214",
+   "modelMaster": "2102",
+   "lifecolor": "UA201"
+  }
  },
  {
   "code": "RC866",
   "name": "Silver Grey No.28 (BS381)",
   "series": "Military",
-  "hex": "#b7c095"
+  "hex": "#b7c095",
+  "equiv": {
+   "vallejo": "71.401",
+   "mrp": "MRP-334",
+   "lifecolor": "UA264"
+  }
  },
  {
   "code": "RC867",
   "name": "Slate No.34 (BS381)",
   "series": "Military",
-  "hex": "#565b3f"
+  "hex": "#565b3f",
+  "equiv": {
+   "vallejo": "71.012",
+   "mrp": "MRP-335",
+   "lifecolor": "UA265"
+  }
  },
  {
   "code": "RC868",
   "name": "Light Stone No.61 (BS381)",
   "series": "Military",
-  "hex": "#c7a76b"
+  "hex": "#c7a76b",
+  "equiv": {
+   "vallejo": "71.143",
+   "mrp": "MRP-337",
+   "lifecolor": "UA266"
+  }
  },
  {
   "code": "RC869",
   "name": "Portland Stone No.64 (BS381)",
   "series": "Military",
-  "hex": "#cdbc8f"
+  "hex": "#cdbc8f",
+  "equiv": {
+   "vallejo": "71.288",
+   "mrp": "MRP-338",
+   "lifecolor": "UA267"
+  }
  },
  {
   "code": "RC870",
   "name": "British Dark Olive Green PFI",
   "series": "Military",
-  "hex": "#414433"
+  "hex": "#414433",
+  "equiv": {
+   "mrp": "MRP-340",
+   "lifecolor": "UA269"
+  }
  },
  {
   "code": "RC871",
   "name": "British Desert Pink ZI",
   "series": "Military",
-  "hex": "#a58d7c"
+  "hex": "#a58d7c",
+  "equiv": {
+   "vallejo": "71.400",
+   "mrp": "MRP-339",
+   "lifecolor": "UA268"
+  }
  },
  {
   "code": "RC872",
   "name": "British Light Mud",
   "series": "Military",
-  "hex": "#a9a687"
+  "hex": "#a9a687",
+  "equiv": {
+   "vallejo": "71.284",
+   "mrp": "MRP-350",
+   "lifecolor": "UA272"
+  }
  },
  {
   "code": "RC873",
   "name": "S.C.C. No.1A Very Dark Brown",
   "series": "Military",
-  "hex": "#4b3e38"
+  "hex": "#4b3e38",
+  "equiv": {
+   "vallejo": "71.039",
+   "hataka": "HTK-_077",
+   "mrp": "MRP-345",
+   "lifecolor": "UA274"
+  }
  },
  {
   "code": "RC874",
   "name": "S.C.C. No.2 Brown",
   "series": "Military",
-  "hex": "#674f3f"
+  "hex": "#674f3f",
+  "equiv": {
+   "vallejo": "71.038",
+   "hataka": "HTK-_076",
+   "mrp": "MRP-346",
+   "lifecolor": "UA273"
+  }
  },
  {
   "code": "RC875",
   "name": "S.C.C. No.15 Olive Drab",
   "series": "Military",
-  "hex": "#545240"
+  "hex": "#545240",
+  "equiv": {
+   "vallejo": "71.016",
+   "hataka": "HTK-_110",
+   "mrp": "MRP-349",
+   "lifecolor": "UA270"
+  }
  },
  {
   "code": "RC876",
   "name": "Russian Green Protective 4BO",
   "series": "Military",
-  "hex": "#4e5231"
+  "hex": "#4e5231",
+  "equiv": {
+   "mrHobby": "C512",
+   "vallejo": "71.017",
+   "hataka": "HTK-_251",
+   "mrp": "MRP-026"
+  }
  },
  {
   "code": "RC877",
@@ -469,295 +865,683 @@
   "code": "RC880",
   "name": "IDF Early Sand Yellow",
   "series": "Military",
-  "hex": "#a08c6d"
+  "hex": "#a08c6d",
+  "equiv": {
+   "mrHobby": "C528",
+   "vallejo": "71.141",
+   "lifecolor": "UA020"
+  }
  },
  {
   "code": "RC881",
   "name": "IDF Sand Grey 1970s-1980s",
   "series": "Military",
-  "hex": "#998465"
+  "hex": "#998465",
+  "equiv": {
+   "mrHobby": "C529",
+   "vallejo": "71.142",
+   "lifecolor": "UA902"
+  }
  },
  {
   "code": "RC882",
   "name": "IDF Modern Grey",
   "series": "Military",
-  "hex": "#9a9282"
+  "hex": "#9a9282",
+  "equiv": {
+   "mrHobby": "C530",
+   "modelMaster": "2138"
+  }
  },
  {
   "code": "RC883",
   "name": "No.9/No.22 Olive Drab (WWII)",
   "series": "Military",
-  "hex": "#605642"
+  "hex": "#605642",
+  "equiv": {
+   "mrHobby": "C12/H52",
+   "hataka": "HTK-_018",
+   "modelMaster": "2050 / 4842"
+  }
  },
  {
   "code": "RC884",
   "name": "Olive Drab Faded",
   "series": "Military",
-  "hex": "#695f49"
+  "hex": "#695f49",
+  "equiv": {
+   "lifecolor": "UA003"
+  }
  },
  {
   "code": "RC885",
   "name": "CARC Tan 686A FS 33446",
   "series": "Military",
-  "hex": "#b59e81"
+  "hex": "#b59e81",
+  "ref": "FS 33446",
+  "equiv": {
+   "vallejo": "71.122",
+   "hataka": "HTK-_238",
+   "modelMaster": "2136 / 4812"
+  }
  },
  {
   "code": "RC886",
   "name": "NATO Green",
   "series": "Military",
-  "hex": "#4f5444"
+  "hex": "#4f5444",
+  "ref": "FS 34094",
+  "equiv": {
+   "mrHobby": "C519",
+   "tamiya": "XF-67",
+   "vallejo": "71.250",
+   "hataka": "HTK-_152",
+   "mrp": "MRP-078",
+   "modelMaster": "2173",
+   "lifecolor": "UA303"
+  }
  },
  {
   "code": "RC887",
   "name": "NATO Brown",
   "series": "Military",
-  "hex": "#5b453c"
+  "hex": "#5b453c",
+  "equiv": {
+   "mrHobby": "C520",
+   "tamiya": "XF-68",
+   "vallejo": "71.249",
+   "hataka": "HTK-_188",
+   "mrp": "MRP-079",
+   "modelMaster": "2174",
+   "lifecolor": "UA302"
+  }
  },
  {
   "code": "RC888",
   "name": "NATO Black",
   "series": "Military",
-  "hex": "#393b3a"
+  "hex": "#393b3a",
+  "ref": "FS 37030",
+  "equiv": {
+   "mrHobby": "C521",
+   "tamiya": "XF-69",
+   "vallejo": "71.251",
+   "hataka": "HTK-_125",
+   "mrp": "MRP-077",
+   "lifecolor": "UA301"
+  }
  },
  {
   "code": "RC889",
   "name": "Light Gull Grey FS 16440",
   "series": "Military",
-  "hex": "#b8b7ae"
+  "hex": "#b8b7ae",
+  "ref": "FS 16440",
+  "equiv": {
+   "mrHobby": "C315 / H315",
+   "vallejo": "71.121",
+   "hataka": "HTK-_048",
+   "mrp": "MRP-098",
+   "modelMaster": "4692",
+   "lifecolor": "UA025"
+  }
  },
  {
   "code": "RC890",
   "name": "ADC Grey FS 16473",
   "series": "Military",
-  "hex": "#9faaa6"
+  "hex": "#9faaa6",
+  "ref": "FS 16473",
+  "equiv": {
+   "vallejo": "71.335",
+   "hataka": "HTK-_045",
+   "modelMaster": "1731 / 4693",
+   "lifecolor": "UA041"
+  }
  },
  {
   "code": "RC891",
   "name": "Insignia White FS 17875",
   "series": "Military",
-  "hex": "#e7e9db"
+  "hex": "#e7e9db",
+  "ref": "FS 17875",
+  "equiv": {
+   "mrHobby": "C316 / H316",
+   "tamiya": "X-1",
+   "vallejo": "71.279",
+   "hataka": "HTK-_049",
+   "modelMaster": "1745 / 4696",
+   "lifecolor": "LC52",
+   "mrp": "MRP-099"
+  }
  },
  {
   "code": "RC892",
   "name": "Earth Brown FS 30099",
   "series": "Military",
-  "hex": "#665749"
+  "hex": "#665749",
+  "ref": "FS 30099",
+  "equiv": {
+   "vallejo": "71.290",
+   "hataka": "HTK-_256",
+   "lifecolor": "UA087"
+  }
  },
  {
   "code": "RC893",
   "name": "Earth Red FS 30117",
   "series": "Military",
-  "hex": "#7e5f50"
+  "hex": "#7e5f50",
+  "ref": "FS 30117",
+  "equiv": {
+   "mrHobby": "C43 / H37",
+   "vallejo": "71.293",
+   "hataka": "HTK-_213",
+   "modelMaster": "1701 / 4707",
+   "lifecolor": "UA306",
+   "mrp": "MRP-387"
+  }
  },
  {
   "code": "RC894",
   "name": "Field Drab FS 30118",
   "series": "Military",
-  "hex": "#705d44"
+  "hex": "#705d44",
+  "ref": "FS 30118",
+  "equiv": {
+   "vallejo": "71.139",
+   "hataka": "HTK-_209",
+   "modelMaster": "1702 / 4708",
+   "lifecolor": "UA016"
+  }
  },
  {
   "code": "RC895",
   "name": "Dark Tan FS 30219",
   "series": "Military",
-  "hex": "#8f7463"
+  "hex": "#8f7463",
+  "ref": "FS 30219",
+  "equiv": {
+   "mrHobby": "C310 / H310",
+   "vallejo": "71.125",
+   "hataka": "HTK-_012",
+   "modelMaster": "1742 / 4709",
+   "lifecolor": "UA015",
+   "mrp": "MRP-103"
+  }
  },
  {
   "code": "RC896",
   "name": "Sand FS 30277",
   "series": "Military",
-  "hex": "#9a8b72"
+  "hex": "#9a8b72",
+  "ref": "FS 30277",
+  "equiv": {
+   "vallejo": "71.138",
+   "hataka": "HTK-_210",
+   "mrp": "MRP-395",
+   "modelMaster": "4711",
+   "lifecolor": "UA019"
+  }
  },
  {
   "code": "RC897",
   "name": "Desert Sand FS 30279",
   "series": "Military",
-  "hex": "#ac9381"
+  "hex": "#ac9381",
+  "ref": "FS 30279",
+  "equiv": {
+   "mrHobby": "H346",
+   "vallejo": "71.140",
+   "hataka": "HTK-_068",
+   "mrp": "MRP-243",
+   "modelMaster": "2053",
+   "lifecolor": "UA089"
+  }
  },
  {
   "code": "RC898",
   "name": "Sand FS 33531",
   "series": "Military",
-  "hex": "#cab5a3"
+  "hex": "#cab5a3",
+  "ref": "FS 33531",
+  "equiv": {
+   "mrHobby": "C313 / H313",
+   "tamiya": "XF-59",
+   "vallejo": "71.327",
+   "hataka": "HTK-_090",
+   "modelMaster": "1706 / 4720",
+   "mrp": "MRP-226"
+  }
  },
  {
   "code": "RC899",
   "name": "US Army Helo Drab FS 34031",
   "series": "Military",
-  "hex": "#474743"
+  "hex": "#474743",
+  "ref": "FS 34031",
+  "equiv": {
+   "hataka": "HTK-_067",
+   "modelMaster": "2024 / 4723",
+   "mrp": "MRP-174"
+  }
  },
  {
   "code": "RC900",
   "name": "Forest Green FS 34079",
   "series": "Military",
-  "hex": "#55584b"
+  "hex": "#55584b",
+  "ref": "FS 34079",
+  "equiv": {
+   "mrHobby": "C309 / H309",
+   "tamiya": "XF-65",
+   "vallejo": "71.294",
+   "hataka": "HTK-_016",
+   "modelMaster": "1710 / 4726",
+   "lifecolor": "UA001",
+   "mrp": "MRP-101"
+  }
  },
  {
   "code": "RC901",
   "name": "Olive Drab FS 34087",
   "series": "Military",
-  "hex": "#545244"
+  "hex": "#545244",
+  "ref": "FS 34087",
+  "equiv": {
+   "mrHobby": "C304 / H304",
+   "vallejo": "71.043",
+   "hataka": "HTK-_065",
+   "modelMaster": "1711 / 4728",
+   "lifecolor": "UA523",
+   "mrp": "MRP-234"
+  }
  },
  {
   "code": "RC902",
   "name": "Dull Dark Green FS 34092",
   "series": "Military",
-  "hex": "#4b5952"
+  "hex": "#4b5952",
+  "ref": "FS 34092",
+  "equiv": {
+   "mrHobby": "C302 / H302",
+   "tamiya": "XF-26",
+   "vallejo": "71.124",
+   "hataka": "HTK-_056",
+   "modelMaster": "1764 / 4729",
+   "lifecolor": "UA008",
+   "mrp": "MRP-235"
+  }
  },
  {
   "code": "RC903",
   "name": "USMC Green FS 34095",
   "series": "Military",
-  "hex": "#47492f"
+  "hex": "#47492f",
+  "ref": "FS 34095",
+  "equiv": {
+   "hataka": "HTK-_059",
+   "mrp": "MRP-369",
+   "modelMaster": "1786"
+  }
  },
  {
   "code": "RC904",
   "name": "Field Green FS 34097",
   "series": "Military",
-  "hex": "#5b6249"
+  "hex": "#5b6249",
+  "ref": "FS 34097",
+  "equiv": {
+   "mrHobby": "C340 / H340",
+   "mrp": "MRP-236",
+   "modelMaster": "1712"
+  }
  },
  {
   "code": "RC905",
   "name": "Green FS 34102",
   "series": "Military",
-  "hex": "#595b4a"
+  "hex": "#595b4a",
+  "ref": "FS 34102",
+  "equiv": {
+   "mrHobby": "C303 / H303",
+   "vallejo": "71.289",
+   "hataka": "HTK-_021",
+   "modelMaster": "1713 / 4734",
+   "lifecolor": "UA002",
+   "mrp": "MRP-102"
+  }
  },
  {
   "code": "RC906",
   "name": "Interior Green FS 34151",
   "series": "Military",
-  "hex": "#66633c"
+  "hex": "#66633c",
+  "ref": "FS 34151",
+  "equiv": {
+   "mrHobby": "C351 / H58",
+   "vallejo": "71.137",
+   "hataka": "HTK-_211",
+   "modelMaster": "1715 / 4736",
+   "lifecolor": "UA004",
+   "mrp": "MRP-131"
+  }
  },
  {
   "code": "RC907",
   "name": "Pale Green FS 34227",
   "series": "Military",
-  "hex": "#7b8b6e"
+  "hex": "#7b8b6e",
+  "ref": "FS 34227",
+  "equiv": {
+   "mrHobby": "C312 / H312",
+   "vallejo": "71.126",
+   "hataka": "HTK-_091",
+   "modelMaster": "1716 / 4739",
+   "lifecolor": "UA060",
+   "mrp": "MRP-227"
+  }
  },
  {
   "code": "RC908",
   "name": "Intermediate Blue FS 35164",
   "series": "Military",
-  "hex": "#657581"
+  "hex": "#657581",
+  "ref": "FS 35164",
+  "equiv": {
+   "mrHobby": "C366 / H56",
+   "vallejo": "71.299",
+   "hataka": "HTK-_027",
+   "modelMaster": "1720 / 4744",
+   "lifecolor": "UA045",
+   "mrp": "MRP-136"
+  }
  },
  {
   "code": "RC909",
   "name": "Medium Blue Grey FS 35237",
   "series": "Military",
-  "hex": "#7a878d"
+  "hex": "#7a878d",
+  "ref": "FS 35237",
+  "equiv": {
+   "mrHobby": "C337 / H337",
+   "vallejo": "71.114",
+   "hataka": "HTK-_046",
+   "modelMaster": "1721 / 4746",
+   "lifecolor": "UA145",
+   "mrp": "MRP-105"
+  }
  },
  {
   "code": "RC910",
   "name": "Air Superiority Blue FS 35450",
   "series": "Military",
-  "hex": "#8bb2c5"
+  "hex": "#8bb2c5",
+  "ref": "FS 35450",
+  "equiv": {
+   "vallejo": "71.332",
+   "hataka": "HTK-_155",
+   "mrp": "MRP-240",
+   "lifecolor": "UA037"
+  }
  },
  {
   "code": "RC911",
   "name": "Duck Egg Blue FS 35622",
   "series": "Military",
-  "hex": "#c4d0c7"
+  "hex": "#c4d0c7",
+  "ref": "FS 35622",
+  "equiv": {
+   "mrHobby": "C314 / H314",
+   "vallejo": "71.328",
+   "hataka": "HTK-_092",
+   "modelMaster": "1722 / 4748",
+   "lifecolor": "UA139",
+   "mrp": "MRP-225"
+  }
  },
  {
   "code": "RC912",
   "name": "Grey FS 36081",
   "series": "Military",
-  "hex": "#5a5c5e"
+  "hex": "#5a5c5e",
+  "ref": "FS 36081",
+  "equiv": {
+   "mrHobby": "C301 / H301",
+   "vallejo": "71.314",
+   "hataka": "HTK-_030",
+   "modelMaster": "1788 / 4750",
+   "lifecolor": "UA030",
+   "mrp": "MRP-241"
+  }
  },
  {
   "code": "RC913",
   "name": "Medium Gunship Grey FS 36118",
   "series": "Military",
-  "hex": "#5f636d"
+  "hex": "#5f636d",
+  "ref": "FS 36118",
+  "equiv": {
+   "mrHobby": "C305 / H305",
+   "vallejo": "71.097",
+   "hataka": "HTK-_031",
+   "modelMaster": "1723 / 4752",
+   "lifecolor": "UA022",
+   "mrp": "MRP-040"
+  }
  },
  {
   "code": "RC914",
   "name": "Have Glass Grey FS 36170",
   "series": "Military",
-  "hex": "#706e6b"
+  "hex": "#706e6b",
+  "ref": "FS 36170",
+  "equiv": {
+   "hataka": "HTK-_058",
+   "mrp": "MRP-280",
+   "lifecolor": "UA591"
+  }
  },
  {
   "code": "RC915",
   "name": "F-15 Dark Grey (Mod Eagle) FS 36176",
   "series": "Military",
-  "hex": "#6e7982"
+  "hex": "#6e7982",
+  "ref": "FS 36176",
+  "equiv": {
+   "vallejo": "71.273",
+   "hataka": "HTK-_158",
+   "modelMaster": "2036 / 4754",
+   "lifecolor": "UA029",
+   "mrp": "MRP-093"
+  }
  },
  {
   "code": "RC916",
   "name": "Dark Gull Grey FS 36231",
   "series": "Military",
-  "hex": "#808486"
+  "hex": "#808486",
+  "ref": "FS 36231",
+  "equiv": {
+   "mrHobby": "C317 / H317",
+   "vallejo": "71.277",
+   "hataka": "HTK-_044",
+   "modelMaster": "1740 / 4755",
+   "lifecolor": "UA033",
+   "mrp": "MRP-100"
+  }
  },
  {
   "code": "RC917",
   "name": "Aggressor Grey FS 36251",
   "series": "Military",
-  "hex": "#747476"
+  "hex": "#747476",
+  "ref": "FS 36251",
+  "equiv": {
+   "vallejo": "71.274",
+   "hataka": "HTK-_157",
+   "mrp": "MRP-094",
+   "lifecolor": "UA034"
+  }
  },
  {
   "code": "RC918",
   "name": "Medium Grey FS 36270",
   "series": "Military",
-  "hex": "#848a8b"
+  "hex": "#848a8b",
+  "ref": "FS 36270",
+  "equiv": {
+   "mrHobby": "C306 / H306",
+   "vallejo": "71.275",
+   "hataka": "HTK-_054",
+   "modelMaster": "1725 / 4757",
+   "lifecolor": "UA028",
+   "mrp": "MRP-039"
+  }
  },
  {
   "code": "RC919",
   "name": "Dark Ghost Grey FS 36320",
   "series": "Military",
-  "hex": "#8a959b"
+  "hex": "#8a959b",
+  "ref": "FS 36320",
+  "equiv": {
+   "mrHobby": "C307 / H307",
+   "vallejo": "71.120",
+   "hataka": "HTK-_035",
+   "modelMaster": "1741 / 4761",
+   "lifecolor": "UA027",
+   "mrp": "MRP-097"
+  }
  },
  {
   "code": "RC920",
   "name": "Light Ghost Grey FS 36375",
   "series": "Military",
-  "hex": "#9ca6ac"
+  "hex": "#9ca6ac",
+  "ref": "FS 36375",
+  "equiv": {
+   "mrHobby": "C308 / H308",
+   "vallejo": "70.615",
+   "hataka": "HTK-_037",
+   "modelMaster": "1728 / 4762",
+   "lifecolor": "UA026",
+   "mrp": "MRP-038"
+  }
  },
  {
   "code": "RC921",
   "name": "Light Grey FS 36495",
   "series": "Military",
-  "hex": "#c4c8c7"
+  "hex": "#c4c8c7",
+  "ref": "FS 36495",
+  "equiv": {
+   "mrHobby": "C338 / H338",
+   "vallejo": "71.276",
+   "hataka": "HTK-_050",
+   "modelMaster": "1732 / 4765",
+   "lifecolor": "UA023",
+   "mrp": "MRP-364"
+  }
  },
  {
   "code": "RC922",
   "name": "Camouflage Grey FS 36622",
   "series": "Military",
-  "hex": "#c2c0b3"
+  "hex": "#c2c0b3",
+  "ref": "FS 36622",
+  "equiv": {
+   "mrHobby": "C311 / H311",
+   "vallejo": "71.296",
+   "hataka": "HTK-_039",
+   "mrp": "MRP-104",
+   "modelMaster": "4766",
+   "lifecolor": "UA021"
+  }
  },
  {
   "code": "RC923",
   "name": "M-485 Blue Grey",
   "series": "Military",
-  "hex": "#70858c"
+  "hex": "#70858c",
+  "ref": "FS 35189",
+  "equiv": {
+   "mrHobby": "C367",
+   "vallejo": "71.109",
+   "hataka": "HTK-_218",
+   "modelMaster": "2055 / 4847",
+   "lifecolor": "UA038",
+   "mrp": "MRP-133"
+  }
  },
  {
   "code": "RC924",
   "name": "Sea Blue",
   "series": "Military",
-  "hex": "#3e4649"
+  "hex": "#3e4649",
+  "ref": "FS 35042",
+  "equiv": {
+   "mrHobby": "C71 / H55",
+   "tamiya": "XF-17",
+   "vallejo": "71.295",
+   "hataka": "HTK-_006",
+   "mrp": "MRP-237",
+   "modelMaster": "1718",
+   "lifecolor": "UA044"
+  }
  },
  {
   "code": "RC925",
   "name": "Dark Sea Blue",
   "series": "Military",
-  "hex": "#37454d"
+  "hex": "#37454d",
+  "ref": "FS 35045",
+  "equiv": {
+   "mrHobby": "C365",
+   "vallejo": "71.300",
+   "hataka": "HTK-_001",
+   "modelMaster": "1717 / 4686",
+   "lifecolor": "UA047",
+   "mrp": "MRP-014"
+  }
  },
  {
   "code": "RC926",
   "name": "Dark Olive Drab 41",
   "series": "Military",
-  "hex": "#555142"
+  "hex": "#555142",
+  "ref": "FS 33070",
+  "equiv": {
+   "mrHobby": "C38 / H78",
+   "tamiya": "XF-62",
+   "vallejo": "71.316",
+   "hataka": "HTK-_004",
+   "mrp": "MRP-139",
+   "lifecolor": "UA005"
+  }
  },
  {
   "code": "RC927",
   "name": "Medium Green 42",
   "series": "Military",
-  "hex": "#495543"
+  "hex": "#495543",
+  "equiv": {
+   "hataka": "HTK-_019",
+   "mrp": "MRP-140"
+  }
  },
  {
   "code": "RC928",
   "name": "Neutral Grey 43",
   "series": "Military",
-  "hex": "#6f7171"
+  "hex": "#6f7171",
+  "equiv": {
+   "mrHobby": "C13 / H53",
+   "vallejo": "71.051",
+   "hataka": "HTK-_033",
+   "mrp": "MRP-141",
+   "lifecolor": "UA046"
+  }
  },
  {
   "code": "RC929",
@@ -769,19 +1553,37 @@
   "code": "RC930",
   "name": "Zinc Chromate Yellow",
   "series": "Military",
-  "hex": "#eac447"
+  "hex": "#eac447",
+  "equiv": {
+   "mrHobby": "C352",
+   "vallejo": "71.107",
+   "mrp": "MRP-129",
+   "modelMaster": "4851"
+  }
  },
  {
   "code": "RC931",
   "name": "Bronze Green",
   "series": "Military",
-  "hex": "#3d4b48"
+  "hex": "#3d4b48",
+  "equiv": {
+   "mrp": "MRP-132"
+  }
  },
  {
   "code": "RC932",
   "name": "RLM 02 RLM-Grau (1938)",
   "series": "Military",
-  "hex": "#979685"
+  "hex": "#979685",
+  "equiv": {
+   "mrHobby": "C60 / H70",
+   "tamiya": "XF-20",
+   "vallejo": "71.044",
+   "hataka": "HTK-_023",
+   "modelMaster": "2071 / 4770",
+   "lifecolor": "UA504",
+   "mrp": "MRP-050"
+  }
  },
  {
   "code": "RC933",
@@ -793,25 +1595,53 @@
   "code": "RC934",
   "name": "RLM 04",
   "series": "Military",
-  "hex": "#f4a811"
+  "hex": "#f4a811",
+  "equiv": {
+   "mrHobby": "C113 / H413",
+   "vallejo": "71.078",
+   "hataka": "HTK-_066",
+   "modelMaster": "2072 / 4771",
+   "lifecolor": "UA140",
+   "mrp": "MRP-051"
+  }
  },
  {
   "code": "RC935",
   "name": "RLM 65 (1938)",
   "series": "Military",
-  "hex": "#88a3a8"
+  "hex": "#88a3a8",
+  "equiv": {
+   "mrp": "MRP-058"
+  }
  },
  {
   "code": "RC936",
   "name": "RLM 65 (1941)",
   "series": "Military",
-  "hex": "#93a19a"
+  "hex": "#93a19a",
+  "equiv": {
+   "mrHobby": "C115 / H67",
+   "tamiya": "XF-23",
+   "vallejo": "71.255",
+   "hataka": "HTK-_029",
+   "modelMaster": "2078 / 4778",
+   "lifecolor": "UA503"
+  }
  },
  {
   "code": "RC937",
   "name": "RLM 66 (1938)",
   "series": "Military",
-  "hex": "#4e5055"
+  "hex": "#4e5055",
+  "equiv": {
+   "mrHobby": "C116 / H416",
+   "tamiya": "XF-24",
+   "vallejo": "71.055",
+   "hataka": "HTK-_040",
+   "modelMaster": "2079 / 4779",
+   "lifecolor": "UA133",
+   "mrp": "MRP-059"
+  }
  },
  {
   "code": "RC938",
@@ -823,252 +1653,528 @@
   "code": "RC939",
   "name": "RLM 70",
   "series": "Military",
-  "hex": "#474a41"
+  "hex": "#474a41",
+  "equiv": {
+   "mrHobby": "C18 / H65",
+   "tamiya": "XF-27",
+   "vallejo": "71.021",
+   "hataka": "HTK-_015",
+   "modelMaster": "2080 / 4780",
+   "lifecolor": "UA501",
+   "mrp": "MRP-060"
+  }
  },
  {
   "code": "RC940",
   "name": "RLM 71",
   "series": "Military",
-  "hex": "#535144"
+  "hex": "#535144",
+  "equiv": {
+   "mrHobby": "C17 / H64",
+   "vallejo": "71.015",
+   "hataka": "HTK-_017",
+   "modelMaster": "2081 / 4781",
+   "lifecolor": "UA502",
+   "mrp": "MRP-061"
+  }
  },
  {
   "code": "RC941",
   "name": "RLM 74",
   "series": "Military",
-  "hex": "#5b5b52"
+  "hex": "#5b5b52",
+  "equiv": {
+   "mrHobby": "C36 / H68",
+   "vallejo": "71.258",
+   "hataka": "HTK-_313",
+   "modelMaster": "2084 / 4784",
+   "lifecolor": "UA507",
+   "mrp": "MRP-064"
+  }
  },
  {
   "code": "RC942",
   "name": "RLM 75",
   "series": "Military",
-  "hex": "#716e6d"
+  "hex": "#716e6d",
+  "equiv": {
+   "mrHobby": "C37 / H69",
+   "vallejo": "71.259",
+   "hataka": "HTK-_007",
+   "modelMaster": "2085 / 4785",
+   "lifecolor": "UA508",
+   "mrp": "MRP-065"
+  }
  },
  {
   "code": "RC943",
   "name": "RLM 76 Version 1",
   "series": "Military",
-  "hex": "#a9b6a5"
+  "hex": "#a9b6a5",
+  "equiv": {
+   "mrp": "MRP-066"
+  }
  },
  {
   "code": "RC944",
   "name": "RLM 76 Version 2",
   "series": "Military",
-  "hex": "#acbebc"
+  "hex": "#acbebc",
+  "equiv": {
+   "mrHobby": "C117 / H417",
+   "vallejo": "71.257",
+   "hataka": "HTK-_038",
+   "modelMaster": "2086 / 4786",
+   "lifecolor": "UA509"
+  }
  },
  {
   "code": "RC945",
   "name": "RLM 76 Late War Variation",
   "series": "Military",
-  "hex": "#bfbf9b"
+  "hex": "#bfbf9b",
+  "equiv": {
+   "vallejo": "71.103",
+   "mrp": "MRP-182"
+  }
  },
  {
   "code": "RC946",
   "name": "RLM 78",
   "series": "Military",
-  "hex": "#819aa0"
+  "hex": "#819aa0",
+  "equiv": {
+   "mrp": "MRP-067"
+  }
  },
  {
   "code": "RC947",
   "name": "RLM 79",
   "series": "Military",
-  "hex": "#e9a35a"
+  "hex": "#e9a35a",
+  "equiv": {
+   "mrp": "MRP-068"
+  }
  },
  {
   "code": "RC948",
   "name": "RLM 80",
   "series": "Military",
-  "hex": "#585847"
+  "hex": "#585847",
+  "equiv": {
+   "mrHobby": "C120 / H420",
+   "vallejo": "71.265",
+   "hataka": "HTK-_053",
+   "mrp": "MRP-069",
+   "modelMaster": "2089",
+   "lifecolor": "UA138"
+  }
  },
  {
   "code": "RC949",
   "name": "RLM 81 Ver.2 (incorrectly called RLM 83)",
   "series": "Military",
-  "hex": "#484d3f"
+  "hex": "#484d3f",
+  "equiv": {
+   "mrHobby": "C123 / H423",
+   "tamiya": "XF-74",
+   "vallejo": "71.011",
+   "hataka": "HTK-_022",
+   "mrp": "MRP-072",
+   "modelMaster": "2091",
+   "lifecolor": "UA132"
+  }
  },
  {
   "code": "RC950",
   "name": "RLM 81 Version 3",
   "series": "Military",
-  "hex": "#5c5347"
+  "hex": "#5c5347",
+  "equiv": {
+   "mrHobby": "C121 / H421",
+   "tamiya": "XF-51",
+   "vallejo": "71.264",
+   "hataka": "HTK-_008",
+   "mrp": "MRP-070",
+   "modelMaster": "2090",
+   "lifecolor": "UA510"
+  }
  },
  {
   "code": "RC951",
   "name": "RLM 82",
   "series": "Military",
-  "hex": "#515d4c"
+  "hex": "#515d4c",
+  "equiv": {
+   "mrHobby": "C122 / H422",
+   "vallejo": "71.022",
+   "hataka": "HTK-_020",
+   "mrp": "MRP-071",
+   "modelMaster": "2092",
+   "lifecolor": "UA511"
+  }
  },
  {
   "code": "RC952",
   "name": "IJN J3 Hai-Iro (Grey)",
   "series": "Military",
-  "hex": "#909188"
+  "hex": "#909188",
+  "ref": "FS 36307",
+  "equiv": {
+   "mrHobby": "C324 / H324",
+   "hataka": "HTK-_266",
+   "modelMaster": "1726 / 4759",
+   "lifecolor": "UA113",
+   "mrp": "MRP-427"
+  }
  },
  {
   "code": "RC953",
   "name": "IJN J3 SP (Amber Grey)",
   "series": "Military",
-  "hex": "#b3ba96"
+  "hex": "#b3ba96",
+  "equiv": {
+   "vallejo": "71.311"
+  }
  },
  {
   "code": "RC954",
   "name": "IJN D1 Deep Green Black",
   "series": "Military",
-  "hex": "#404845"
+  "hex": "#404845",
+  "equiv": {
+   "mrHobby": "C15 / H59",
+   "tamiya": "XF-11",
+   "vallejo": "71.325",
+   "mrp": "MRP-424"
+  }
  },
  {
   "code": "RC955",
   "name": "IJN D2 Green Black",
   "series": "Military",
-  "hex": "#414f47"
+  "hex": "#414f47",
+  "equiv": {
+   "vallejo": "71.322",
+   "mrp": "MRP-425"
+  }
  },
  {
   "code": "RC956",
   "name": "IJN M3(M) Mitsubishi Interior Green",
   "series": "Military",
-  "hex": "#707c3f"
+  "hex": "#707c3f",
+  "equiv": {
+   "mrHobby": "C126"
+  }
  },
  {
   "code": "RC957",
   "name": "IJN M3(N) Nakajima Interior Green",
   "series": "Military",
-  "hex": "#575c44"
+  "hex": "#575c44",
+  "equiv": {
+   "mrHobby": "C127"
+  }
  },
  {
   "code": "RC958",
   "name": "IJN / IJA Aotake",
   "series": "Military",
-  "hex": "#0a5e72"
+  "hex": "#0a5e72",
+  "equiv": {
+   "mrp": "MRP-410"
+  }
  },
  {
   "code": "RC959",
   "name": "RAF Sky Grey",
   "series": "Military",
-  "hex": "#a3a7a6"
+  "hex": "#a3a7a6",
+  "ref": "FS 26373",
+  "equiv": {
+   "vallejo": "71.339",
+   "hataka": "HTK-_302",
+   "lifecolor": "UA036"
+  }
  },
  {
   "code": "RC960",
   "name": "RAF Dark Green",
   "series": "Military",
-  "hex": "#515444"
+  "hex": "#515444",
+  "ref": "BS381C/241",
+  "equiv": {
+   "mrHobby": "C330 / H330",
+   "tamiya": "XF-81",
+   "vallejo": "71.324",
+   "hataka": "HTK-_143",
+   "modelMaster": "2060 / 4849",
+   "lifecolor": "UA546",
+   "mrp": "MRP-110"
+  }
  },
  {
   "code": "RC961",
   "name": "RAF Dark Earth",
   "series": "Military",
-  "hex": "#5f4c2b"
+  "hex": "#5f4c2b",
+  "equiv": {
+   "mrHobby": "C369 / H72",
+   "vallejo": "71.323",
+   "hataka": "HTK-_009",
+   "modelMaster": "2054 / 4846",
+   "lifecolor": "UA547",
+   "mrp": "MRP-108"
+  }
  },
  {
   "code": "RC962",
   "name": "RAF Ocean Grey",
   "series": "Military",
-  "hex": "#656f70"
+  "hex": "#656f70",
+  "equiv": {
+   "mrHobby": "C362",
+   "tamiya": "XF-82",
+   "vallejo": "71.273",
+   "hataka": "HTK-_032",
+   "mrp": "MRP-115",
+   "modelMaster": "2057",
+   "lifecolor": "UA093"
+  }
  },
  {
   "code": "RC963",
   "name": "RAF Medium Sea Grey BS381C/637",
   "series": "Military",
-  "hex": "#7f8c92"
+  "hex": "#7f8c92",
+  "ref": "BS381C/637",
+  "equiv": {
+   "mrHobby": "C335 / H335",
+   "tamiya": "XF-83",
+   "vallejo": "71.307",
+   "hataka": "HTK-_034 HTK-_141",
+   "mrp": "MRP-112",
+   "modelMaster": "2058",
+   "lifecolor": "UA094"
+  }
  },
  {
   "code": "RC964",
   "name": "RAF Sky / FS 34424",
   "series": "Military",
-  "hex": "#b2bb8e"
+  "hex": "#b2bb8e",
+  "ref": "FS 34424",
+  "equiv": {
+   "mrHobby": "C368",
+   "vallejo": "71.321",
+   "hataka": "HTK-_234",
+   "modelMaster": "2049 / 4840",
+   "lifecolor": "UA550",
+   "mrp": "MRP-118"
+  }
  },
  {
   "code": "RC965",
   "name": "RAF Azure Blue",
   "series": "Military",
-  "hex": "#7b9ec6"
+  "hex": "#7b9ec6",
+  "equiv": {
+   "mrHobby": "C370",
+   "vallejo": "71.108",
+   "hataka": "HTK-_028",
+   "mrp": "MRP-119",
+   "modelMaster": "2048",
+   "lifecolor": "UA098"
+  }
  },
  {
   "code": "RC966",
   "name": "RAF Middle Stone",
   "series": "Military",
-  "hex": "#a47d38"
+  "hex": "#a47d38",
+  "equiv": {
+   "mrHobby": "C21 / H71",
+   "vallejo": "71.031",
+   "hataka": "HTK-_013",
+   "mrp": "MRP-121",
+   "modelMaster": "2052",
+   "lifecolor": "UA097"
+  }
  },
  {
   "code": "RC967",
   "name": "RAF Cockpit Grey-Green",
   "series": "Military",
-  "hex": "#899787"
+  "hex": "#899787",
+  "equiv": {
+   "mrHobby": "C364",
+   "tamiya": "XF-71",
+   "vallejo": "71.305",
+   "hataka": "HTK-_025",
+   "modelMaster": "2062 / 4850",
+   "lifecolor": "UA551",
+   "mrp": "MRP-111"
+  }
  },
  {
   "code": "RC968",
   "name": "RAF Dark Slate Grey",
   "series": "Military",
-  "hex": "#606255"
+  "hex": "#606255",
+  "equiv": {
+   "vallejo": "71.309",
+   "hataka": "HTK-_202",
+   "mrp": "MRP-117",
+   "modelMaster": "2056"
+  }
  },
  {
   "code": "RC969",
   "name": "RAF Extra Dark Sea Grey BS381C/640",
   "series": "Military",
-  "hex": "#4d5961"
+  "hex": "#4d5961",
+  "ref": "BS381C/640",
+  "equiv": {
+   "mrHobby": "C333 / H333",
+   "tamiya": "XF-54",
+   "vallejo": "71.110",
+   "hataka": "HTK-_140",
+   "mrp": "MRP-114",
+   "lifecolor": "UA109"
+  }
  },
  {
   "code": "RC970",
   "name": "RAF Dark Sea Grey BS381C/638",
   "series": "Military",
-  "hex": "#676e76"
+  "hex": "#676e76",
+  "ref": "BS381C/638",
+  "equiv": {
+   "mrHobby": "C331 / H331",
+   "tamiya": "XF-77",
+   "vallejo": "71.405",
+   "hataka": "HTK-_144",
+   "mrp": "MRP-113",
+   "modelMaster": "2059"
+  }
  },
  {
   "code": "RC971",
   "name": "RAF PRU Blue BS381C/636",
   "series": "Military",
-  "hex": "#536b77"
+  "hex": "#536b77",
+  "ref": "BS381C/636",
+  "equiv": {
+   "mrHobby": "C72 / H56",
+   "tamiya": "XF-18",
+   "vallejo": "71.109",
+   "hataka": "HTK-_207",
+   "mrp": "MRP-120",
+   "modelMaster": "2061"
+  }
  },
  {
   "code": "RC972",
   "name": "RAF Light Aircraft Grey BS381C/627",
   "series": "Military",
-  "hex": "#c4c4b9"
+  "hex": "#c4c4b9",
+  "ref": "BS381C/627",
+  "equiv": {
+   "mrHobby": "C332 / H332",
+   "hataka": "HTK-_217",
+   "mrp": "MRP-374"
+  }
  },
  {
   "code": "RC973",
   "name": "RAF Barley Grey BS381C/626",
   "series": "Military",
-  "hex": "#949e9d"
+  "hex": "#949e9d",
+  "ref": "BS381C/626",
+  "equiv": {
+   "mrHobby": "C334 / H334",
+   "tamiya": "XF-80",
+   "hataka": "HTK-_142",
+   "mrp": "MRP-373",
+   "lifecolor": "UA079"
+  }
  },
  {
   "code": "RC974",
   "name": "AMT-1 Light Brown",
   "series": "Military",
-  "hex": "#78756a"
+  "hex": "#78756a",
+  "equiv": {
+   "vallejo": "71.320",
+   "mrp": "MRP-015"
+  }
  },
  {
   "code": "RC975",
   "name": "AMT-4 / A-24m Green",
   "series": "Military",
-  "hex": "#5f5e45"
+  "hex": "#5f5e45",
+  "equiv": {
+   "vallejo": "71.301",
+   "hataka": "HTK-_073",
+   "mrp": "MRP-016"
+  }
  },
  {
   "code": "RC976",
   "name": "AMT-7 Light Blue",
   "series": "Military",
-  "hex": "#658da4"
+  "hex": "#658da4",
+  "equiv": {
+   "vallejo": "71.318",
+   "hataka": "HTK-_072",
+   "mrp": "MRP-018"
+  }
  },
  {
   "code": "RC977",
   "name": "AMT-11 Blue Grey",
   "series": "Military",
-  "hex": "#516268"
+  "hex": "#516268",
+  "equiv": {
+   "vallejo": "71.304",
+   "hataka": "HTK-_071",
+   "mrp": "MRP-019"
+  }
  },
  {
   "code": "RC978",
   "name": "AMT-12 Dark Grey",
   "series": "Military",
-  "hex": "#293737"
+  "hex": "#293737",
+  "equiv": {
+   "vallejo": "71.308",
+   "hataka": "HTK-_070",
+   "mrp": "MRP-020"
+  }
  },
  {
   "code": "RC979",
   "name": "A-14 Interior Steel Grey",
   "series": "Military",
-  "hex": "#757673"
+  "hex": "#757673",
+  "equiv": {
+   "vallejo": "71.336",
+   "mrp": "MRP-021"
+  }
  },
  {
   "code": "RC980",
   "name": "Russian Cockpit Turquoise",
   "series": "Military",
-  "hex": "#00a69d"
+  "hex": "#00a69d",
+  "equiv": {
+   "mrHobby": "C391",
+   "vallejo": "71.331",
+   "hataka": "HTK-_047",
+   "mrp": "MRP-001",
+   "modelMaster": "2135"
+  }
  }
 ]

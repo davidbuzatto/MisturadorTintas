@@ -10,6 +10,7 @@
 import { INGREDIENT_CATALOG, indexIngredients, loadCatalogs, normalizeTab } from './data/catalogs.js';
 import { createStore } from './state/store.js';
 import { $ } from './ui/dom.js';
+import { createEquivalents } from './ui/equivalents.js';
 import { createIngredients } from './ui/ingredients.js';
 import { createPicker } from './ui/picker.js';
 import { createRecipes } from './ui/recipes.js';
@@ -33,7 +34,9 @@ async function init() {
   const catalogs = await loadCatalogs();
   const paintByCode = indexIngredients(catalogs[INGREDIENT_CATALOG]);
   const { state, save } = createStore();
-  state.tab = normalizeTab(state.tab); // restaura abas salvas por versões anteriores
+  // restaura abas salvas por versões anteriores (inclusive na origem do alvo)
+  state.tab = normalizeTab(state.tab);
+  if (state.target.ref) state.target.ref.tab = normalizeTab(state.target.ref.tab);
 
   /** @type {AppContext} */
   const ctx = { state, save, catalogs, paintByCode, ui: {}, update: () => {} };
@@ -43,6 +46,7 @@ async function init() {
   ctx.ui.picker = createPicker(ctx);
   ctx.ui.suggestions = createSuggestions(ctx);
   ctx.ui.recipes = createRecipes(ctx);
+  ctx.ui.equivalents = createEquivalents(ctx);
   ctx.update = () => {
     ctx.ui.ingredients.render();
     ctx.ui.result.render();

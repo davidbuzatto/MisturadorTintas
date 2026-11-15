@@ -57,6 +57,8 @@ export function createResult(ctx) {
         `<td>${deHex(th, h).toFixed(1)}</td>`;
       body.appendChild(tr);
     });
+    // as equivalências dependem da cor-alvo e da mistura, que acabam de mudar
+    if (ctx.ui.equivalents) ctx.ui.equivalents.schedule();
   }
 
   return { render, currentMix };

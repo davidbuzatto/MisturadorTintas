@@ -16,6 +16,7 @@ import { fitHex } from '../color/spectral.js';
  * @property {string} hex   cor aproximada "#rrggbb".
  * @property {string} [line]    linha de produtos (ex.: "Model Color"); só em catálogos com várias linhas.
  * @property {string} [series]  série dentro da linha (ex.: "Wash"); vazio na série principal.
+ * @property {string} [ref]  referência de norma citada pelo catálogo (ex.: "RAL 9005", "FS 36081").
  * @property {Object<string,string>} [equiv]  equivalências em outras marcas informadas pelo catálogo
  *           (ex.: `{tamiya: "XF-1", modelColor: "70.950"}`), quando existem.
  * @property {string} [finish]  acabamento (ex.: "Gloss", "Matte"), quando o catálogo informa.
@@ -28,13 +29,13 @@ import { fitHex } from '../color/spectral.js';
  * Catálogos disponíveis como cor-alvo, na ordem em que as abas aparecem.
  * `free` não é um catálogo: é a aba de cor livre (seletor de cor).
  */
-export const TARGET_TABS = ['tamiyaA', 'tamiyaL', 'revellA', 'revellE', 'fs595', 'vallejo', 'mrhobby', 'humbrol', 'ral', 'ak', 'ammo', 'acrilex', 'free'];
+export const TARGET_TABS = ['tamiya', 'revell', 'fs595', 'vallejo', 'mrhobby', 'humbrol', 'ral', 'ak', 'ammo', 'acrilex', 'free'];
 
 /**
- * Abas de versões anteriores → aba equivalente atual. Usado para restaurar a
- * aba salva no `localStorage` por quem já usava o app antes da divisão do Tamiya.
+ * Abas de versões anteriores → aba equivalente atual (Tamiya e Revell já tiveram uma aba por
+ * linha). Usado para restaurar a aba e a origem do alvo salvos no `localStorage`.
  */
-const LEGACY_TABS = { tamiya: 'tamiyaA' };
+const LEGACY_TABS = { tamiyaA: 'tamiya', tamiyaL: 'tamiya', revellA: 'revell', revellE: 'revell' };
 
 /**
  * Garante que a aba salva exista: converte nomes antigos e, se desconhecida,
@@ -49,10 +50,8 @@ export function normalizeTab(tab) {
 
 /** Nome de exibição de cada catálogo (e da aba de cor livre). */
 export const CATALOG_NAMES = {
-  tamiyaA: 'Tamiya Acrílica',
-  tamiyaL: 'Tamiya Lacquer',
-  revellA: 'Revell Aqua',
-  revellE: 'Revell Email',
+  tamiya: 'Tamiya',
+  revell: 'Revell',
   fs595: 'FS 595',
   vallejo: 'Vallejo',
   mrhobby: 'Mr. Hobby',
@@ -105,18 +104,20 @@ function revellLabel(d) {
  *        `acrilex-cores-oficial`, `tamiya-cores-oficial`, `revell-cores-oficial`,
  *        `fs595-cores`, `vallejo-cores`, `mrcolor-cores`, `humbrol-cores`, `ral-cores`, `ak-cores` e `ammo-cores`.
  * @returns {Object<string, CatalogPaint[]>} catálogos por chave
- *          (`acrilex`, `tamiyaA`, `tamiyaL`, `revellA`, `revellE`, `fs595`, `vallejo`, `mrhobby`, `humbrol`, `ral`, `ak`, `ammo`).
+ *          (`acrilex`, `tamiya`, `revell`, `fs595`, `vallejo`, `mrhobby`, `humbrol`, `ral`, `ak`, `ammo`).
+ *          Os catálogos com várias linhas (`tamiya`, `revell`, `vallejo`, `mrhobby`, `ak`, `ammo`)
+ *          marcam cada tinta com `line`.
  */
 export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak, am }) {
-  // Tamiya: aditivos (sem cor) ficam de fora; separado por base química
-  const tamiya = (base) =>
-    tm.filter((d) => d.hex && !d.aditivo && d.base === base).map((d) => ({ code: d.code, name: d.name, hex: d.hex }));
+  // Tamiya: aditivos (sem cor) ficam de fora; linhas por base química (acrílica primeiro)
+  const tamiya = (base, line) =>
+    tm.filter((d) => d.hex && !d.aditivo && d.base === base).map((d) => ({ code: d.code, name: d.name, hex: d.hex, line }));
+  const revell = (linha) =>
+    rv.filter((d) => d.linha === linha).map((d) => ({ code: d.sku, name: revellLabel(d), hex: d.hex, line: linha }));
   return {
     acrilex: ac.map((d) => ({ code: d.code, name: d.name, hex: d.hex })),
-    tamiyaA: tamiya('acrilica_mini'), // X- (brilhante) e XF- (fosco)
-    tamiyaL: tamiya('lacquer'), // LP-
-    revellA: rv.filter((d) => d.linha === 'Aqua Color').map((d) => ({ code: d.sku, name: revellLabel(d), hex: d.hex })),
-    revellE: rv.filter((d) => d.linha === 'Email Color').map((d) => ({ code: d.sku, name: revellLabel(d), hex: d.hex })),
+    tamiya: [...tamiya('acrilica_mini', 'Acrílica') /* X- (brilhante) e XF- (fosco) */, ...tamiya('lacquer', 'Lacquer') /* LP- */],
+    revell: [...revell('Aqua Color'), ...revell('Email Color')],
     // FS 595: o 1º dígito do código já indica o acabamento (1 gloss, 2 semi-gloss, 3 flat)
     fs595: fs.map((d) => ({ code: d.code, name: d.name || 'Sem nome', hex: d.hex })),
     // Vallejo: várias linhas num só catálogo (a interface oferece um seletor de linha)
@@ -149,13 +150,22 @@ export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak, am }) {
     // RAL Classic: o código é o número RAL (ex.: "7016"); o nome é o oficial em inglês
     ral: ral.map((d) => ({ code: d.code, name: d.name, hex: d.hex })),
     // AK Real Colors (lacquer): as seções Standard, Civil e Military viram "linhas" na interface
-    ak: ak.map((d) => ({ code: d.code, name: d.name, hex: d.hex, line: d.series, ...(d.degrade ? { degrade: true } : {}) })),
+    ak: ak.map((d) => ({
+      code: d.code,
+      name: d.name,
+      hex: d.hex,
+      line: d.series,
+      ...(d.ref ? { ref: d.ref } : {}),
+      ...(d.equiv ? { equiv: d.equiv } : {}),
+      ...(d.degrade ? { degrade: true } : {}),
+    })),
     // AMMO by Mig: linhas Acrylic Colors (A.MIG) e ATOM. A referência RAL/FS vai junto do nome, se ainda não estiver nele.
     ammo: am.map((d) => ({
       code: d.code,
       name: d.ref && !d.name.replace(/\s/g, '').toLowerCase().includes(d.ref.replace(/\s/g, '').toLowerCase()) ? `${d.name} (${d.ref})` : d.name,
       hex: d.hex,
       line: d.line,
+      ...(d.ref ? { ref: d.ref } : {}),
       ...(d.equiv ? { equiv: d.equiv } : {}),
       ...(d.degrade ? { degrade: true } : {}),
     })),
@@ -180,6 +190,18 @@ export async function loadCatalogs() {
     loadJson('ammo-cores.json'),
   ]);
   return buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak, am });
+}
+
+/**
+ * Cor-alvo correspondente a uma tinta de catálogo. Guarda a origem (`ref`) para que as
+ * equivalências declaradas pelo fabricante possam ser consultadas.
+ * @param {string} tab aba/catálogo da tinta (ex.: "tamiya").
+ * @param {CatalogPaint} paint tinta.
+ * @returns {{hex: string, label: string, ref: {tab: string, code: string}}}
+ */
+export function targetOf(tab, paint) {
+  const origem = CATALOG_NAMES[tab] + (paint.line ? ' ' + paint.line : '');
+  return { hex: paint.hex, label: `${origem} ${paint.code} ${paint.name}`, ref: { tab, code: paint.code } };
 }
 
 /**

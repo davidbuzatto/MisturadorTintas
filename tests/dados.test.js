@@ -39,7 +39,7 @@ test('catálogos existentes: hex válido', () => {
 });
 
 test('buildCatalogs: catálogos antigos inalterados e Tamiya dividido sem perda', async () => {
-  const { buildCatalogs, normalizeTab } = await import('../js/data/catalogs.js');
+  const { buildCatalogs, catalogLines, normalizeTab } = await import('../js/data/catalogs.js');
   const golden = JSON.parse(readFileSync(fileURLToPath(new URL('./golden.json', import.meta.url)), 'utf8')).CATALOGS;
   const cat = buildCatalogs({
     ac: ler('acrilex-cores-oficial.json'),
@@ -53,22 +53,30 @@ test('buildCatalogs: catálogos antigos inalterados e Tamiya dividido sem perda'
     ak: [],
     am: [],
   });
+  const semLinha = (lista) => lista.map(({ line, ...resto }) => resto);
   assert.deepEqual(cat.acrilex, golden.acrilex);
-  assert.deepEqual(cat.revellA, golden.revellA);
-  assert.deepEqual(cat.revellE, golden.revellE);
-  // Tamiya: união das duas partes == catálogo único original (mesma ordem relativa)
-  assert.equal(cat.tamiyaL.length, 79);
-  assert.equal(cat.tamiyaA.length, 102);
-  assert.ok(cat.tamiyaL.every((p) => p.code.startsWith('LP-')));
-  assert.ok(cat.tamiyaA.every((p) => /^XF?-/.test(p.code)));
-  const chave = (p) => p.code;
-  assert.deepEqual([...cat.tamiyaL, ...cat.tamiyaA].map(chave).sort(), golden.tamiya.map(chave).sort());
-  assert.deepEqual([...cat.tamiyaL, ...cat.tamiyaA].sort((a, b) => a.code.localeCompare(b.code)),
-    [...golden.tamiya].sort((a, b) => a.code.localeCompare(b.code)));
-  // migração da aba salva
-  assert.equal(normalizeTab('tamiya'), 'tamiyaA');
-  assert.equal(normalizeTab('revellE'), 'revellE');
-  assert.equal(normalizeTab('inexistente'), 'tamiyaA');
+  // Revell: um catálogo com duas linhas == os dois catálogos originais (Aqua primeiro)
+  assert.deepEqual(semLinha(cat.revell), [...golden.revellA, ...golden.revellE]);
+  assert.deepEqual(catalogLines(cat.revell), ['Aqua Color', 'Email Color']);
+  assert.equal(cat.revell.filter((p) => p.line === 'Aqua Color').length, golden.revellA.length);
+  assert.equal(cat.revell.filter((p) => p.line === 'Email Color').length, golden.revellE.length);
+  // Tamiya: duas linhas, sem perda em relação ao catálogo único original
+  assert.deepEqual(catalogLines(cat.tamiya), ['Acrílica', 'Lacquer']);
+  const acrilica = cat.tamiya.filter((p) => p.line === 'Acrílica');
+  const lacquer = cat.tamiya.filter((p) => p.line === 'Lacquer');
+  assert.equal(lacquer.length, 79);
+  assert.equal(acrilica.length, 102);
+  assert.ok(lacquer.every((p) => p.code.startsWith('LP-')));
+  assert.ok(acrilica.every((p) => /^XF?-/.test(p.code)));
+  const porCodigo = (a, b) => a.code.localeCompare(b.code);
+  assert.deepEqual(semLinha(cat.tamiya).sort(porCodigo), [...golden.tamiya].sort(porCodigo));
+  // migração das abas salvas por versões anteriores (uma aba por linha → uma aba por marca)
+  assert.equal(normalizeTab('tamiya'), 'tamiya');
+  assert.equal(normalizeTab('tamiyaA'), 'tamiya');
+  assert.equal(normalizeTab('tamiyaL'), 'tamiya');
+  assert.equal(normalizeTab('revellE'), 'revell');
+  assert.equal(normalizeTab('revell'), 'revell');
+  assert.equal(normalizeTab('inexistente'), 'tamiya');
 });
 
 test('Vallejo: registros completos, códigos únicos e linhas esperadas', () => {

@@ -4,7 +4,7 @@
  * se dividem em linhas, como a Vallejo), busca, grade de cores e cor livre.
  */
 
-import { CATALOG_NAMES, TARGET_TABS, catalogLines } from '../data/catalogs.js';
+import { CATALOG_NAMES, TARGET_TABS, catalogLines, targetOf } from '../data/catalogs.js';
 import { $, esc } from './dom.js';
 
 /** Valor de `state.lines[aba]` que significa "todas as linhas". */
@@ -98,8 +98,7 @@ export function createTargets(ctx) {
       c.innerHTML =
         `<span class="sw" style="background:${p.hex}"></span><span>${esc(p.name)}<b>${esc(sub)}</b></span>`;
       c.onclick = () => {
-        const origem = CATALOG_NAMES[state.tab] + (p.line ? ' ' + p.line : '');
-        state.target = { hex: p.hex, label: `${origem} ${p.code} ${p.name}` };
+        state.target = targetOf(state.tab, p);
         save();
         ctx.ui.result.render();
         $('resSec').scrollIntoView({ behavior: 'smooth', block: 'nearest' });

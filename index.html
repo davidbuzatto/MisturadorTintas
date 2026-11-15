@@ -70,8 +70,20 @@
     </div>
   </section>
 
+  <section class="card full" id="eqSec">
+    <h2>4 · Equivalentes em outras marcas</h2>
+    <div class="row" style="margin-bottom:8px">
+      <label class="muted">a partir da
+        <select id="eqFrom"><option value="target">cor-alvo</option><option value="mix">mistura calculada</option></select>
+      </label>
+      <span class="muted" id="eqInfo"></span>
+      <span class="muted" style="flex:1;text-align:right">menor ΔE00 = mais parecida · clique numa cor para usá-la como alvo</span>
+    </div>
+    <div class="eqgrid" id="eqGrid"></div>
+  </section>
+
   <section class="card full">
-    <h2>4 · Receitas salvas</h2>
+    <h2>5 · Receitas salvas</h2>
     <div id="hist"></div>
     <div class="row" style="margin-top:8px"><button id="btnExp">exportar JSON</button><button id="btnImp">importar JSON</button><input type="file" id="fileImp" accept=".json" style="display:none"></div>
   </section>
