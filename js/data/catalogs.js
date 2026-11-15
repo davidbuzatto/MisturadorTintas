@@ -7,6 +7,8 @@
  *   { code: string, name: string, hex: "#rrggbb" }
  */
 
+import { lineName, t } from '../i18n/index.js';
+
 /**
  * @typedef {Object} CatalogPaint
  * @property {string} code  código/SKU da tinta.
@@ -58,7 +60,6 @@ export const CATALOG_NAMES = {
   ak: 'AK',
   ammo: 'AMMO',
   acrilex: 'Acrilex',
-  free: 'Livre',
 };
 
 
@@ -106,10 +107,10 @@ export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak, am }) {
     rv.filter((d) => d.linha === linha).map((d) => ({ code: d.sku, name: revellLabel(d), hex: d.hex, line: linha }));
   return {
     acrilex: ac.map((d) => ({ code: d.code, name: d.name, hex: d.hex })),
-    tamiya: [...tamiya('acrilica_mini', 'Acrílica') /* X- (brilhante) e XF- (fosco) */, ...tamiya('lacquer', 'Lacquer') /* LP- */],
+    tamiya: [...tamiya('acrilica_mini', 'Acrylic') /* X- (brilhante) e XF- (fosco) */, ...tamiya('lacquer', 'Lacquer') /* LP- */],
     revell: [...revell('Aqua Color'), ...revell('Email Color')],
     // FS 595: o 1º dígito do código já indica o acabamento (1 gloss, 2 semi-gloss, 3 flat)
-    fs595: fs.map((d) => ({ code: d.code, name: d.name || 'Sem nome', hex: d.hex })),
+    fs595: fs.map((d) => ({ code: d.code, name: d.name || '', hex: d.hex })),
     // Vallejo: várias linhas num só catálogo (a interface oferece um seletor de linha)
     vallejo: vl.map((d) => ({
       code: d.code,
@@ -183,6 +184,24 @@ export async function loadCatalogs() {
 }
 
 /**
+ * Nome de exibição de um catálogo (marca) ou da aba de cor livre.
+ * @param {string} tab chave da aba.
+ * @returns {string}
+ */
+export function catalogName(tab) {
+  return tab === 'free' ? t('tab.free') : CATALOG_NAMES[tab];
+}
+
+/**
+ * Nome de uma tinta para exibição ("Sem nome" no idioma atual quando o catálogo não traz nome).
+ * @param {CatalogPaint} paint tinta.
+ * @returns {string}
+ */
+export function displayName(paint) {
+  return paint.name || t('common.noName');
+}
+
+/**
  * Cor-alvo correspondente a uma tinta de catálogo. Guarda a origem (`ref`) para que as
  * equivalências declaradas pelo fabricante possam ser consultadas.
  * @param {string} tab aba/catálogo da tinta (ex.: "tamiya").
@@ -190,8 +209,8 @@ export async function loadCatalogs() {
  * @returns {{hex: string, label: string, ref: {tab: string, code: string}}}
  */
 export function targetOf(tab, paint) {
-  const origem = CATALOG_NAMES[tab] + (paint.line ? ' ' + paint.line : '');
-  return { hex: paint.hex, label: `${origem} ${paint.code} ${paint.name}`, ref: { tab, code: paint.code } };
+  const origem = catalogName(tab) + (paint.line ? ' ' + lineName(paint.line) : '');
+  return { hex: paint.hex, label: `${origem} ${paint.code} ${displayName(paint)}`, ref: { tab, code: paint.code } };
 }
 
 /**

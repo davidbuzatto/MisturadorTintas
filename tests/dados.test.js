@@ -61,8 +61,8 @@ test('buildCatalogs: catálogos antigos inalterados e Tamiya dividido sem perda'
   assert.equal(cat.revell.filter((p) => p.line === 'Aqua Color').length, golden.revellA.length);
   assert.equal(cat.revell.filter((p) => p.line === 'Email Color').length, golden.revellE.length);
   // Tamiya: duas linhas, sem perda em relação ao catálogo único original
-  assert.deepEqual(catalogLines(cat.tamiya), ['Acrílica', 'Lacquer']);
-  const acrilica = cat.tamiya.filter((p) => p.line === 'Acrílica');
+  assert.deepEqual(catalogLines(cat.tamiya), ['Acrylic', 'Lacquer']);
+  const acrilica = cat.tamiya.filter((p) => p.line === 'Acrylic');
   const lacquer = cat.tamiya.filter((p) => p.line === 'Lacquer');
   assert.equal(lacquer.length, 79);
   assert.equal(acrilica.length, 102);

@@ -10,93 +10,124 @@
 <script type="module" src="js/main.js"></script>
 </head>
 <body>
+<a class="skip" href="#main" data-i18n="a11y.skip">Ir para o conteúdo</a>
 <header>
-  <h1>Misturador de Tintas</h1>
-  <p class="sub">Escolha a linha de tintas que você tem como ingredientes (Acrilex, Tamiya, Vallejo, Mr. Hobby…) e a cor-alvo de qualquer catálogo (inclusive FS 595 e RAL). A mistura é calculada como <b>pigmentos</b> (espectral, Kubelka-Munk), não como média de RGB.</p>
-  <p class="warn" id="erro" hidden></p>
+  <div class="hrow">
+    <h1 data-i18n="app.title">Misturador de Tintas</h1>
+    <label class="muted lang"><span data-i18n="lang.label">Idioma</span> <select id="lang"></select></label>
+  </div>
+  <p class="sub" data-i18n-html="app.subtitle"></p>
+  <details class="how">
+    <summary data-i18n="help.title">Como funciona</summary>
+    <ol>
+      <li data-i18n-html="help.step1"></li>
+      <li data-i18n-html="help.step2"></li>
+      <li data-i18n-html="help.step3"></li>
+      <li data-i18n-html="help.step4"></li>
+      <li data-i18n-html="help.step5"></li>
+    </ol>
+    <p class="muted" data-i18n="help.local"></p>
+    <p class="muted" data-i18n="help.limits"></p>
+  </details>
+  <p class="warn" id="erro" role="alert" hidden></p>
 </header>
-<main>
-  <section class="card">
-    <h2>1 · Mistura</h2>
+<main id="main">
+  <section class="card" aria-labelledby="h-mix">
+    <h2 id="h-mix" data-i18n="card.mix">1 · Mistura</h2>
+    <p class="muted help" data-i18n="mix.help"></p>
     <div class="row" style="margin-bottom:6px">
-      <label class="muted">tintas <select id="ingSet" title="Linha de tintas usada como ingrediente nesta receita"></select></label>
+      <label class="muted"><span data-i18n="mix.set.label">tintas</span> <select id="ingSet" data-i18n-title="mix.set.title"></select></label>
       <span class="muted" id="ingSetInfo"></span>
     </div>
     <div id="ings"></div>
     <div class="row" style="margin-top:10px">
-      <button class="pri" id="btnAdd">+ adicionar tinta</button>
-      <button id="btnNorm" title="Escala as quantidades para somarem 100%">normalizar 100%</button>
-      <button id="btnClear">limpar</button>
+      <button class="pri" id="btnAdd" data-i18n="mix.add">+ adicionar tinta</button>
+      <button id="btnNorm" data-i18n="mix.norm" data-i18n-title="mix.norm.title">normalizar 100%</button>
+      <button id="btnClear" data-i18n="mix.clear">limpar</button>
       <span style="flex:1"></span>
-      <label class="muted">total <input type="number" id="total" min="0.5" step="0.5" value="10" style="width:70px"> ml</label>
+      <label class="muted"><span data-i18n="mix.total">total</span> <input type="number" id="total" min="0.5" step="0.5" value="10" style="width:70px" data-i18n-title="mix.total.title"> ml</label>
     </div>
-    <div class="muted" id="sumInfo" style="margin-top:6px"></div>
-    <details style="margin-top:8px"><summary>Modelo de mistura e força de tingimento</summary>
+    <div class="muted" id="sumInfo" style="margin-top:6px" aria-live="polite"></div>
+    <details style="margin-top:8px"><summary data-i18n="mix.model.summary">Modelo de mistura e força de tingimento</summary>
       <div style="margin-top:8px" class="row">
-        <label>modelo
+        <label><span data-i18n="mix.model.label">modelo</span>
           <select id="model">
-            <option value="km">Pigmento (Kubelka-Munk, espalhamento estimado)</option>
-            <option value="kmeq">Pigmento (Kubelka-Munk, espalhamento igual)</option>
-            <option value="lin">RGB linear (luz)</option>
-            <option value="srgb">RGB direto (média de hex)</option>
+            <option value="km" data-i18n="model.km"></option>
+            <option value="kmeq" data-i18n="model.kmeq"></option>
+            <option value="lin" data-i18n="model.lin"></option>
+            <option value="srgb" data-i18n="model.srgb"></option>
           </select>
         </label>
       </div>
-      <p class="muted">A coluna “força” de cada tinta multiplica sua participação: use &gt;1 para pigmentos fortes (preto, azul, magenta) e &lt;1 para os fracos. Ajuste até a mistura calculada bater com o que você vê na bancada.</p>
+      <p class="muted" data-i18n-html="mix.model.help"></p>
     </details>
   </section>
 
-  <section class="card">
-    <h2>2 · Cor-alvo</h2>
+  <section class="card" aria-labelledby="h-target">
+    <h2 id="h-target" data-i18n="card.target">2 · Cor-alvo</h2>
+    <p class="muted help" data-i18n="target.help"></p>
     <div class="tabs" id="tgtTabs"></div>
     <div class="tabs sub" id="tgtLines" style="display:none"></div>
-    <div class="row" style="margin-bottom:8px"><input type="text" id="tgtSearch" placeholder="buscar código ou nome…" style="flex:1;min-width:140px"><span id="freeBox" style="display:none"><input type="color" id="freeColor" value="#808080"> <input type="text" id="freeHex" value="#808080" style="width:90px"></span></div>
+    <div class="row" style="margin-bottom:8px"><input type="text" id="tgtSearch" data-i18n-placeholder="target.search" data-i18n-aria-label="target.search" style="flex:1;min-width:140px"><span id="freeBox" style="display:none"><input type="color" id="freeColor" value="#808080" data-i18n-aria-label="target.free.color"> <input type="text" id="freeHex" value="#808080" style="width:90px" data-i18n-aria-label="target.free.hex"></span></div>
     <div class="grid" id="tgtGrid"></div>
   </section>
 
-  <section class="card full" id="resSec">
-    <h2>3 · Resultado</h2>
+  <section class="card full" id="resSec" aria-labelledby="h-result">
+    <h2 id="h-result" data-i18n="card.result">3 · Resultado</h2>
     <div class="resgrid" style="display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px">
       <div>
-        <div class="big"><div id="bigT">alvo</div><div id="bigM">mistura</div></div>
+        <div class="big"><div id="bigT"></div><div id="bigM"></div></div>
         <div class="cap"><span id="capT"></span><span id="capM"></span></div>
         <div class="row" style="margin-top:10px"><span class="de" id="deVal">–</span><span id="deTxt" class="muted"></span></div>
-        <div class="row" style="margin-top:10px"><button id="btnSave" class="pri">salvar receita</button><button id="btnSug">sugerir mistura automática</button>
-          <label class="muted">até <select id="maxN"><option>1</option><option>2</option><option selected>3</option><option>4</option></select> tintas</label>
-          <label class="muted"><input type="checkbox" id="onlyOwn"> só as que tenho</label></div>
-        <div id="sugOut"></div>
+        <div class="row" style="margin-top:10px"><button id="btnSave" class="pri" data-i18n="result.save">salvar receita</button><button id="btnSug" data-i18n="result.suggest">sugerir mistura automática</button>
+          <label class="muted"><span data-i18n="result.upto">até</span> <select id="maxN"><option>1</option><option>2</option><option selected>3</option><option>4</option></select> <span data-i18n="result.paints">tintas</span></label>
+          <label class="muted"><input type="checkbox" id="onlyOwn"> <span data-i18n="result.onlyOwn">só as que tenho</span></label></div>
+        <div id="sugOut" aria-live="polite"></div>
       </div>
       <div>
-        <table><thead><tr><th>modelo</th><th>cor</th><th>ΔE00</th></tr></thead><tbody id="cmp"></tbody></table>
-        <p class="muted" style="margin-top:8px">ΔE00 &lt; 1: imperceptível · 1–2: só lado a lado · 2–5: parecida · &gt;5: diferente. A diferença entre “pigmento” e “RGB” é justamente o erro de misturar em RGB.</p>
-        <div class="warn">Aviso: tinta acrílica úmida costuma secar um pouco mais escura; o acabamento muda a percepção; e as cores dos catálogos são aproximadas. Trate o resultado como ponto de partida e registre a cor real obtida nas receitas salvas.</div>
+        <table><thead><tr><th data-i18n="result.col.model">modelo</th><th data-i18n="result.col.color">cor</th><th data-i18n="result.col.de">ΔE00</th></tr></thead><tbody id="cmp"></tbody></table>
+        <p class="muted" style="margin-top:8px" data-i18n-html="result.scale"></p>
+        <div class="warn" data-i18n="result.warn"></div>
       </div>
     </div>
   </section>
 
-  <section class="card full" id="eqSec">
-    <h2>4 · Equivalentes em outras marcas</h2>
+  <section class="card full" id="eqSec" aria-labelledby="h-eq">
+    <h2 id="h-eq" data-i18n="card.equiv">4 · Equivalentes em outras marcas</h2>
     <div class="row" style="margin-bottom:8px">
-      <label class="muted">a partir da
-        <select id="eqFrom"><option value="target">cor-alvo</option><option value="mix">mistura calculada</option></select>
+      <label class="muted"><span data-i18n="eq.from">a partir da</span>
+        <select id="eqFrom"><option value="target" data-i18n="eq.from.target"></option><option value="mix" data-i18n="eq.from.mix"></option></select>
       </label>
       <span class="muted" id="eqInfo"></span>
-      <span class="muted" style="flex:1;text-align:right">menor ΔE00 = mais parecida · clique numa cor para usá-la como alvo</span>
+      <span class="muted" style="flex:1;text-align:right" data-i18n="eq.hint"></span>
     </div>
+    <p class="muted help" data-i18n="eq.help"></p>
     <div class="eqgrid" id="eqGrid"></div>
   </section>
 
-  <section class="card full">
-    <h2>5 · Receitas salvas</h2>
+  <section class="card full" aria-labelledby="h-rec">
+    <h2 id="h-rec" data-i18n="card.recipes">5 · Receitas salvas</h2>
+    <p class="muted help" data-i18n="rec.help"></p>
     <div id="hist"></div>
-    <div class="row" style="margin-top:8px"><button id="btnExp">exportar JSON</button><button id="btnImp">importar JSON</button><input type="file" id="fileImp" accept=".json" style="display:none"></div>
+    <div class="row" style="margin-top:8px"><button id="btnExp" data-i18n="rec.export">exportar JSON</button><button id="btnImp" data-i18n="rec.import">importar JSON</button><input type="file" id="fileImp" accept=".json" style="display:none"></div>
+  </section>
+
+  <section class="card full about" id="about" aria-labelledby="h-about">
+    <h2 id="h-about" data-i18n="about.title">Sobre</h2>
+    <p data-i18n-html="about.credits"></p>
+    <p class="muted" data-i18n-html="about.license"></p>
+    <p class="muted" data-i18n="about.data"></p>
+    <details><summary data-i18n="about.refs.title">Para saber mais</summary>
+      <p class="muted" data-i18n="about.refs.intro"></p>
+      <ul id="refList"></ul>
+    </details>
   </section>
 </main>
 
-<div class="modal" id="modal"><div class="box">
-  <div class="row"><b style="flex:1" id="mTitle">Escolha uma tinta</b><button id="mClose">fechar</button></div>
-  <div class="row" style="margin:8px 0"><input type="text" id="pSearch" placeholder="buscar…" style="flex:1"><label class="muted"><input type="checkbox" id="pOwn"> só as que tenho</label></div>
-  <p class="muted" style="margin:0 0 6px">Clique para adicionar. Botão direito (ou toque longo) marca “tenho esta tinta” (borda verde).</p>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle"><div class="box">
+  <div class="row"><b style="flex:1" id="mTitle"></b><button id="mClose" data-i18n="common.close">fechar</button></div>
+  <div class="row" style="margin:8px 0"><input type="text" id="pSearch" data-i18n-placeholder="picker.search" data-i18n-aria-label="picker.search" style="flex:1"><label class="muted"><input type="checkbox" id="pOwn"> <span data-i18n="result.onlyOwn">só as que tenho</span></label></div>
+  <p class="muted" style="margin:0 0 6px" data-i18n="picker.help"></p>
   <div class="grid" id="pGrid" style="max-height:60vh"></div>
 </div></div>
 </body>

@@ -47,6 +47,7 @@ export const DEFAULT_INGREDIENTS = [
  * @property {'target'|'mix'} eqFrom   cor de partida das equivalências: alvo ou mistura calculada.
  * @property {Object<string,string>} lines  linha escolhida por aba ("*" = todas), nos catálogos com linhas.
  * @property {string} free             última cor livre escolhida.
+ * @property {string} lang             idioma da interface ("pt-BR" ou "en"; vazio = o do navegador).
  */
 
 /** @returns {AppState} estado padrão. */
@@ -54,7 +55,7 @@ function defaultState() {
   return {
     ingSet: DEFAULT_SET,
     ing: [],
-    target: { hex: '#4f5457', label: 'Tamiya Acrílica X-10 Gun Metal', ref: { tab: 'tamiya', code: 'X-10' } },
+    target: { hex: '#4f5457', label: 'Tamiya Acrylic X-10 Gun Metal', ref: { tab: 'tamiya', code: 'X-10' } },
     model: 'km',
     total: 10,
     own: {},
@@ -63,6 +64,7 @@ function defaultState() {
     lines: {},
     eqFrom: 'target',
     free: '#808080',
+    lang: '',
   };
 }
 

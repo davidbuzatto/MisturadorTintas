@@ -23,8 +23,8 @@ export const DEFAULT_SET = 'acrilex';
  * `anchors` fixa as âncoras (códigos); sem ela, são escolhidas automaticamente.
  */
 export const INGREDIENT_SETS = [
-  { id: 'acrilex', marca: 'Acrilex', rotulo: 'Fosca', quimica: 'acrilica', tab: 'acrilex', anchors: ['519', '520', '505', '559', '555', '549', '504', '503'] },
-  { id: 'tamiya-acrilica', marca: 'Tamiya', rotulo: 'Acrílica', quimica: 'acrilica', tab: 'tamiya', line: 'Acrílica' },
+  { id: 'acrilex', marca: 'Acrilex', rotulo: 'Matte', quimica: 'acrilica', tab: 'acrilex', anchors: ['519', '520', '505', '559', '555', '549', '504', '503'] },
+  { id: 'tamiya-acrilica', marca: 'Tamiya', rotulo: 'Acrylic', quimica: 'acrilica', tab: 'tamiya', line: 'Acrylic' },
   { id: 'tamiya-lacquer', marca: 'Tamiya', rotulo: 'Lacquer', quimica: 'lacquer', tab: 'tamiya', line: 'Lacquer' },
   { id: 'revell-aqua', marca: 'Revell', rotulo: 'Aqua Color', quimica: 'acrilica', tab: 'revell', line: 'Aqua Color' },
   { id: 'revell-email', marca: 'Revell', rotulo: 'Email Color', quimica: 'esmalte', tab: 'revell', line: 'Email Color' },
@@ -36,7 +36,7 @@ export const INGREDIENT_SETS = [
   { id: 'mrhobby-mr-color', marca: 'Mr. Hobby', rotulo: 'Mr. Color', quimica: 'lacquer', tab: 'mrhobby', line: 'Mr. Color' },
   { id: 'mrhobby-aqueous', marca: 'Mr. Hobby', rotulo: 'Aqueous Hobby Color', quimica: 'acrilica', tab: 'mrhobby', line: 'Aqueous Hobby Color' },
   { id: 'mrhobby-acrysion', marca: 'Mr. Hobby', rotulo: 'Acrysion', quimica: 'acrilica', tab: 'mrhobby', line: 'Acrysion' },
-  { id: 'humbrol', marca: 'Humbrol', rotulo: 'Acrílica', quimica: 'acrilica', tab: 'humbrol' },
+  { id: 'humbrol', marca: 'Humbrol', rotulo: 'Acrylic', quimica: 'acrilica', tab: 'humbrol' },
   { id: 'ak', marca: 'AK', rotulo: 'Real Colors', quimica: 'lacquer', tab: 'ak' },
   { id: 'ammo-acrylic', marca: 'AMMO', rotulo: 'Acrylic Colors', quimica: 'acrilica', tab: 'ammo', line: 'Acrylic Colors' },
   { id: 'ammo-atom', marca: 'AMMO', rotulo: 'ATOM', quimica: 'acrilica', tab: 'ammo', line: 'ATOM' },

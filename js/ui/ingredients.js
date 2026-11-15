@@ -5,10 +5,8 @@
  * linha de tintas (marca e linha) usada como ingrediente.
  */
 
-import { $, esc } from './dom.js';
-
-/** Texto de cada química de tinta (chaves de `data/sets.js`). */
-const QUIMICA = { acrilica: 'acrílica', lacquer: 'lacquer', esmalte: 'esmalte' };
+import { t } from '../i18n/index.js';
+import { $, esc, setRotulo } from './dom.js';
 
 /**
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
@@ -25,7 +23,7 @@ export function createIngredients(ctx) {
     box.innerHTML = '';
     const total = sum();
     if (!state.ing.length) {
-      box.innerHTML = '<p class="muted">Nenhuma tinta ainda. Clique em “adicionar tinta”.</p>';
+      box.innerHTML = `<p class="muted">${esc(t('mix.empty'))}</p>`;
     }
     state.ing.forEach((ing, idx) => {
       const p = ctx.ingPaint(ing.code);
@@ -36,11 +34,11 @@ export function createIngredients(ctx) {
       d.innerHTML =
         `<div class="sw" style="background:${p.hex}"></div>` +
         `<div class="nm">${esc(p.name)}<small>${p.code}</small></div>` +
-        `<input type="range" min="0" max="100" step="1" value="${ing.v}">` +
-        `<div><input type="number" min="0" max="100" step="1" value="${ing.v}" title="quantidade relativa">` +
+        `<input type="range" min="0" max="100" step="1" value="${ing.v}" aria-label="${esc(t('ing.qty.aria', { nome: p.name }))}">` +
+        `<div><input type="number" min="0" max="100" step="1" value="${ing.v}" title="${esc(t('ing.qty.title'))}" aria-label="${esc(t('ing.qty.aria', { nome: p.name }))}">` +
         `<div class="ml">${eff.toFixed(1)}% · ${((eff / 100) * state.total).toFixed(2)} ml</div></div>` +
-        `<div><input type="number" min="0.1" max="5" step="0.1" value="${ing.s || 1}" title="força de tingimento" style="width:58px"><div class="ml">força</div></div>` +
-        '<button class="sm" title="remover">✕</button>';
+        `<div><input type="number" min="0.1" max="5" step="0.1" value="${ing.s || 1}" title="${esc(t('ing.strength.title'))}" aria-label="${esc(t('ing.strength.aria', { nome: p.name }))}" style="width:58px"><div class="ml">${esc(t('ing.strength'))}</div></div>` +
+        `<button class="sm" title="${esc(t('ing.remove'))}" aria-label="${esc(t('ing.remove'))} ${esc(p.name)}">✕</button>`;
       const range = d.querySelector('input[type=range]');
       const nums = d.querySelectorAll('input[type=number]');
       // arrastar o controle: atualiza só resultado e rótulos (sem recriar a lista)
@@ -71,10 +69,7 @@ export function createIngredients(ctx) {
       box.appendChild(d);
     });
     $('sumInfo').textContent = state.ing.length
-      ? 'soma das quantidades: ' + total.toFixed(0) +
-        (Math.abs(total - 100) > 0.5
-          ? ' (as proporções valem sobre a soma; “normalizar 100%” ajusta os números)'
-          : '')
+      ? t('mix.sum', { n: total.toFixed(0) }) + (Math.abs(total - 100) > 0.5 ? t('mix.sum.hint') : '')
       : '';
   }
 
@@ -89,7 +84,7 @@ export function createIngredients(ctx) {
       r.querySelector('.ml').textContent = `${eff.toFixed(1)}% · ${((eff / 100) * state.total).toFixed(2)} ml`;
       r.querySelector('input[type=number]').value = ing.v;
     });
-    $('sumInfo').textContent = 'soma das quantidades: ' + total.toFixed(0);
+    $('sumInfo').textContent = t('mix.sum', { n: total.toFixed(0) });
   }
 
   /**
@@ -119,7 +114,7 @@ export function createIngredients(ctx) {
       }
       const o = document.createElement('option');
       o.value = s.id;
-      o.textContent = s.rotulo;
+      o.textContent = setRotulo(s);
       grupo.appendChild(o);
     });
   }
@@ -134,8 +129,8 @@ export function createIngredients(ctx) {
     state.ingSet = s.id;
     $('ingSet').value = s.id;
     $('ingSetInfo').textContent =
-      `${s.paints.length} tintas · ${QUIMICA[s.quimica]}` +
-      (s.excluidas ? ` · ${s.excluidas} metálicas/translúcidas ocultas` : '');
+      t('mix.set.info', { n: s.paints.length, quimica: t(`chem.${s.quimica}`) }) +
+      (s.excluidas ? t('mix.set.hidden', { n: s.excluidas }) : '');
   }
 
   /**
@@ -154,7 +149,7 @@ export function createIngredients(ctx) {
     $('ingSet').onchange = function () {
       const novo = this.value;
       // as tintas de uma linha não existem na outra: trocar limpa a mistura
-      if (state.ing.length && !confirm('Trocar a linha de tintas limpa a mistura atual. Continuar?')) {
+      if (state.ing.length && !confirm(t('mix.set.confirm'))) {
         this.value = state.ingSet;
         return;
       }
@@ -189,5 +184,12 @@ export function createIngredients(ctx) {
     };
   }
 
-  return { render, addPaint, setModel, setSet, bind };
+  /** Redesenha tudo com os textos do idioma atual. */
+  function refresh() {
+    fillSets();
+    setSet(state.ingSet);
+    render();
+  }
+
+  return { render, addPaint, setModel, setSet, bind, refresh };
 }

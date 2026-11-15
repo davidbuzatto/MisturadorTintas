@@ -1,8 +1,16 @@
 {
   "name": "misturador-tintas",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Misturador de tintas para plastimodelismo (JavaScript puro, sem build).",
+  "description": "Misturador de tintas para plastimodelismo / Paint mixer for scale modeling (JavaScript puro, sem build).",
+  "author": "David Buzatto (https://davidbuzatto.com.br/)",
+  "license": "MIT",
+  "homepage": "https://github.com/davidbuzatto/misturador-tintas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbuzatto/misturador-tintas.git"
+  },
   "scripts": {
     "test": "node --test tests/*.test.js",
     "start": "node tools/servidor.mjs"

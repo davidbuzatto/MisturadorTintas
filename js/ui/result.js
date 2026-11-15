@@ -5,7 +5,8 @@
 
 import { hex2lab } from '../color/convert.js';
 import { MODELS, mixHex } from '../color/mixing.js';
-import { $, contrastInk, deHex, deText } from './dom.js';
+import { t } from '../i18n/index.js';
+import { $, contrastInk, deHex, deText, esc } from './dom.js';
 
 /**
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
@@ -33,13 +34,13 @@ export function createResult(ctx) {
     $('bigM').style.background = mh || 'transparent';
     $('bigT').style.color = contrastInk(th);
     $('bigM').style.color = mh && hex2lab(mh)[0] > 55 ? '#000' : '#fff';
-    $('bigT').textContent = 'alvo';
-    $('bigM').textContent = mh ? 'mistura' : '—';
+    $('bigT').textContent = t('result.target');
+    $('bigM').textContent = mh ? t('result.mix') : '—';
     $('capT').textContent = state.target.label + ' · ' + th;
     $('capM').textContent = mh || '';
     if (mh) {
       const d = deHex(th, mh);
-      $('deVal').textContent = 'ΔE ' + d.toFixed(1);
+      $('deVal').textContent = t('result.de', { x: d.toFixed(1) });
       $('deTxt').textContent = deText(d);
     } else {
       $('deVal').textContent = '–';
@@ -47,13 +48,13 @@ export function createResult(ctx) {
     }
     const body = $('cmp');
     body.innerHTML = '';
-    MODELS.forEach(([id, label]) => {
+    MODELS.forEach(([id]) => {
       const h = currentMix(id);
       if (!h) return;
       const tr = document.createElement('tr');
       if (id === state.model) tr.className = 'sel';
       tr.innerHTML =
-        `<td>${label}</td><td><span class="chip" style="background:${h}"></span> ${h}</td>` +
+        `<td>${esc(t(`model.${id}.short`))}</td><td><span class="chip" style="background:${h}"></span> ${h}</td>` +
         `<td>${deHex(th, h).toFixed(1)}</td>`;
       body.appendChild(tr);
     });

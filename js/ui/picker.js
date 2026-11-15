@@ -4,7 +4,8 @@
  * Clique adiciona à mistura; botão direito (ou toque longo) marca "tenho" (por linha).
  */
 
-import { $, esc } from './dom.js';
+import { t } from '../i18n/index.js';
+import { $, ativavel, esc, setNome } from './dom.js';
 
 /** Duração do toque longo para marcar "tenho", em ms. */
 const LONG_PRESS_MS = 600;
@@ -15,6 +16,7 @@ const LONG_PRESS_MS = 600;
 export function createPicker(ctx) {
   const { save } = ctx;
   const modal = $('modal');
+  let anterior = null;
 
   /** Alterna a marca "tenho" de uma tinta e redesenha a grade. */
   function toggleOwn(code) {
@@ -38,10 +40,14 @@ export function createPicker(ctx) {
       c.className = 'cell' + (tenho[p.code] ? ' own' : '');
       c.innerHTML =
         `<span class="sw" style="background:${p.hex}"></span><span>${esc(p.name)}<b>${p.code}</b></span>`;
-      c.onclick = () => {
-        ctx.ui.ingredients.addPaint(p.code);
-        close();
-      };
+      ativavel(
+        c,
+        () => {
+          ctx.ui.ingredients.addPaint(p.code);
+          close();
+        },
+        () => toggleOwn(p.code)
+      );
       c.oncontextmenu = (e) => {
         e.preventDefault();
         toggleOwn(p.code);
@@ -56,7 +62,8 @@ export function createPicker(ctx) {
   /** Abre a janela. */
   function open() {
     const s = ctx.ingSet();
-    $('mTitle').textContent = `Escolha uma tinta ${s.marca} ${s.rotulo}`;
+    $('mTitle').textContent = t('picker.title', { linha: setNome(s) });
+    anterior = document.activeElement;
     modal.classList.add('on');
     render();
     $('pSearch').focus();
@@ -65,6 +72,7 @@ export function createPicker(ctx) {
   /** Fecha a janela. */
   function close() {
     modal.classList.remove('on');
+    if (anterior && anterior.focus) anterior.focus(); // devolve o foco a quem abriu a janela
   }
 
   /** Liga os eventos da janela. */
@@ -73,7 +81,19 @@ export function createPicker(ctx) {
     modal.onclick = (e) => { if (e.target === modal) close(); };
     $('pSearch').oninput = render;
     $('pOwn').onchange = render;
+    // Esc fecha a janela
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('on')) close();
+    });
   }
 
-  return { open, close, bind };
+  /** Redesenha com os textos do idioma atual (a janela aberta continua aberta). */
+  function refresh() {
+    if (!modal.classList.contains('on')) return;
+    const s = ctx.ingSet();
+    $('mTitle').textContent = t('picker.title', { linha: setNome(s) });
+    render();
+  }
+
+  return { open, close, bind, refresh };
 }

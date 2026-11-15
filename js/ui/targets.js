@@ -4,8 +4,9 @@
  * se dividem em linhas, como a Vallejo), busca, grade de cores e cor livre.
  */
 
-import { CATALOG_NAMES, TARGET_TABS, catalogLines, targetOf } from '../data/catalogs.js';
-import { $, esc } from './dom.js';
+import { TARGET_TABS, catalogLines, catalogName, displayName, targetOf } from '../data/catalogs.js';
+import { lineName, t } from '../i18n/index.js';
+import { $, ativavel, esc } from './dom.js';
 
 /** Valor de `state.lines[aba]` que significa "todas as linhas". */
 const ALL_LINES = '*';
@@ -35,7 +36,7 @@ export function createTargets(ctx) {
     t.innerHTML = '';
     TARGET_TABS.forEach((k) => {
       const b = document.createElement('button');
-      b.textContent = CATALOG_NAMES[k];
+      b.textContent = catalogName(k);
       b.setAttribute('aria-pressed', state.tab === k);
       b.onclick = () => {
         state.tab = k;
@@ -55,7 +56,7 @@ export function createTargets(ctx) {
     const sel = currentLine();
     box.style.display = sel === null ? 'none' : '';
     if (sel === null) return;
-    [[ALL_LINES, 'Todas'], ...catalogLines(catalogs[state.tab]).map((l) => [l, l])].forEach(([valor, rotulo]) => {
+    [[ALL_LINES, t('common.all')], ...catalogLines(catalogs[state.tab]).map((l) => [l, lineName(l)])].forEach(([valor, rotulo]) => {
       const b = document.createElement('button');
       b.textContent = rotulo;
       b.setAttribute('aria-pressed', sel === valor);
@@ -85,24 +86,24 @@ export function createTargets(ctx) {
     const line = currentLine();
     catalogs[state.tab].forEach((p) => {
       if (line !== null && line !== ALL_LINES && p.line !== line) return;
-      if (q && (p.code + ' ' + p.name).toLowerCase().indexOf(q) < 0) return;
+      if (q && (p.code + ' ' + displayName(p)).toLowerCase().indexOf(q) < 0) return;
       const c = document.createElement('div');
       c.className = 'cell' + (p.degrade ? ' deg' : '');
       c.title =
-        `${p.code} ${p.name} ${p.hex}` +
-        (p.line ? ` · ${p.line}${p.series ? ' / ' + p.series : ''}` : '') +
+        `${p.code} ${displayName(p)} ${p.hex}` +
+        (p.line ? ` · ${lineName(p.line)}${p.series ? ' / ' + p.series : ''}` : '') +
         (p.finish ? ` · ${p.finish}` : '') +
-        (p.degrade ? ' · amostra em degradê/metálica: cor aproximada' : '');
+        (p.degrade ? ` · ${t('common.approx')}` : '');
       // "Todas as linhas": mostra a linha junto do código para distinguir
-      const sub = p.code + (line === ALL_LINES && p.line ? ` · ${p.line}` : '') + (p.series ? ` · ${p.series}` : '');
+      const sub = p.code + (line === ALL_LINES && p.line ? ` · ${lineName(p.line)}` : '') + (p.series ? ` · ${p.series}` : '');
       c.innerHTML =
-        `<span class="sw" style="background:${p.hex}"></span><span>${esc(p.name)}<b>${esc(sub)}</b></span>`;
-      c.onclick = () => {
+        `<span class="sw" style="background:${p.hex}"></span><span>${esc(displayName(p))}<b>${esc(sub)}</b></span>`;
+      ativavel(c, () => {
         state.target = targetOf(state.tab, p);
         save();
         ctx.ui.result.render();
         $('resSec').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      };
+      });
       g.appendChild(c);
     });
   }
@@ -114,7 +115,7 @@ export function createTargets(ctx) {
   function setFree(h) {
     if (!/^#[0-9a-fA-F]{6}$/.test(h)) return;
     state.free = h.toLowerCase();
-    state.target = { hex: state.free, label: 'Cor livre' };
+    state.target = { hex: state.free, label: t('target.free.label') };
     save();
     $('freeColor').value = state.free;
     $('freeHex').value = state.free;
@@ -131,5 +132,12 @@ export function createTargets(ctx) {
     renderGrid();
   }
 
-  return { bind };
+  /** Redesenha tudo (usado ao trocar de idioma). */
+  function refresh() {
+    renderTabs();
+    renderLines();
+    renderGrid();
+  }
+
+  return { bind, refresh };
 }

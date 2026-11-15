@@ -5,7 +5,8 @@
  */
 
 import { DEFAULT_SET } from '../data/sets.js';
-import { $, deHex, esc } from './dom.js';
+import { t } from '../i18n/index.js';
+import { $, deHex, esc, setNome } from './dom.js';
 
 /**
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
@@ -21,8 +22,7 @@ export function createRecipes(ctx) {
     const h = $('hist');
     h.innerHTML = '';
     if (!state.hist.length) {
-      h.innerHTML =
-        '<p class="muted">Nenhuma receita salva. Monte uma mistura e clique em “salvar receita”. Depois de misturar de verdade, registre a cor obtida para ver o erro real do modelo.</p>';
+      h.innerHTML = `<p class="muted">${esc(t('rec.empty'))}</p>`;
       return;
     }
     state.hist.forEach((r, idx) => {
@@ -37,15 +37,15 @@ export function createRecipes(ctx) {
         .join(' + ');
       const dr = r.obs ? deHex(r.target.hex, r.obs) : null;
       div.innerHTML =
-        `<div class="pair"><span class="sw" style="background:${r.target.hex}" title="alvo"></span>` +
-        `<span class="sw" style="background:${r.mix}" title="calculada"></span>` +
-        (r.obs ? `<span class="sw" style="background:${r.obs}" title="obtida"></span>` : '') + '</div>' +
-        `<div><b>${esc(r.name || 'Receita')}</b> <span class="muted">→ ${esc(r.target.label)}</span><br>` +
-        `<span class="muted">${txt} · ΔE calculado ${deHex(r.target.hex, r.mix).toFixed(1)}` +
-        (dr !== null ? ` · ΔE real ${dr.toFixed(1)} · erro do modelo ${deHex(r.mix, r.obs).toFixed(1)}` : '') + '</span>' +
-        `<div class="row" style="margin-top:4px"><label class="muted">cor obtida <input type="color" value="${r.obs || r.mix}"></label>` +
-        `<input type="text" placeholder="anotação" value="${esc(r.note || '')}" style="flex:1;min-width:120px"></div></div>` +
-        '<div class="row"><button class="sm">carregar</button><button class="sm">excluir</button></div>';
+        `<div class="pair"><span class="sw" style="background:${r.target.hex}" title="${esc(t('rec.target'))}"></span>` +
+        `<span class="sw" style="background:${r.mix}" title="${esc(t('rec.calc'))}"></span>` +
+        (r.obs ? `<span class="sw" style="background:${r.obs}" title="${esc(t('rec.obtained'))}"></span>` : '') + '</div>' +
+        `<div><b>${esc(r.name || t('rec.default'))}</b> <span class="muted">→ ${esc(r.target.label)} · ${esc(setNome(ctx.sets.get(r.set || DEFAULT_SET)))}</span><br>` +
+        `<span class="muted">${txt} · ${esc(t('rec.de.calc', { x: deHex(r.target.hex, r.mix).toFixed(1) }))}` +
+        (dr !== null ? ` · ${esc(t('rec.de.real', { x: dr.toFixed(1) }))} · ${esc(t('rec.err', { x: deHex(r.mix, r.obs).toFixed(1) }))}` : '') + '</span>' +
+        `<div class="row" style="margin-top:4px"><label class="muted">${esc(t('rec.got'))} <input type="color" value="${r.obs || r.mix}"></label>` +
+        `<input type="text" placeholder="${esc(t('rec.note'))}" aria-label="${esc(t('rec.note'))}" value="${esc(r.note || '')}" style="flex:1;min-width:120px"></div></div>` +
+        `<div class="row"><button class="sm">${esc(t('rec.load'))}</button><button class="sm">${esc(t('rec.delete'))}</button></div>`;
       const colorIn = div.querySelector('input[type=color]');
       const textIn = div.querySelector('input[type=text]');
       const [btnLoad, btnDel] = div.querySelectorAll('button');
@@ -68,8 +68,8 @@ export function createRecipes(ctx) {
   /** Salva a mistura atual como receita (pede um nome). */
   function saveCurrent() {
     const mh = ctx.ui.result.currentMix(state.model);
-    if (!mh) { alert('Adicione tintas à mistura primeiro.'); return; }
-    const name = prompt('Nome da receita:', state.target.label);
+    if (!mh) { alert(t('rec.needMix')); return; }
+    const name = prompt(t('rec.prompt'), state.target.label);
     if (name === null) return;
     state.hist.unshift({
       name,
@@ -107,7 +107,7 @@ export function createRecipes(ctx) {
           render();
         }
       } catch (e) {
-        alert('Arquivo inválido.');
+        alert(t('rec.badFile'));
       }
     };
     reader.readAsText(file);
@@ -121,5 +121,5 @@ export function createRecipes(ctx) {
     $('fileImp').onchange = function () { importJson(this.files[0]); };
   }
 
-  return { render, bind };
+  return { render, bind, refresh: render };
 }

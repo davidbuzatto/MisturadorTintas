@@ -9,7 +9,9 @@
 
 import { loadCatalogs, normalizeTab } from './data/catalogs.js';
 import { buildSets } from './data/sets.js';
+import { IDIOMAS, applyStatic, idiomaDoNavegador, setLang, t } from './i18n/index.js';
 import { createStore } from './state/store.js';
+import { createAbout } from './ui/about.js';
 import { $ } from './ui/dom.js';
 import { createEquivalents } from './ui/equivalents.js';
 import { createIngredients } from './ui/ingredients.js';
@@ -30,14 +32,18 @@ import { createTargets } from './ui/targets.js';
  * @property {(code: string) => import('./data/catalogs.js').CatalogPaint|undefined} ingPaint  tinta (com `fit`) da linha atual.
  * @property {() => Object<string, boolean>} owned  tintas "tenho" da linha atual.
  * @property {() => void} update  redesenha lista de ingredientes e resultado.
+ * @property {() => void} refreshLanguage  aplica o idioma atual a todos os textos (estáticos e dinâmicos).
  * @property {Object} ui  API dos módulos de interface, preenchida na inicialização.
  */
 
 /** Inicializa a aplicação. */
 async function init() {
+  // idioma primeiro: os textos fixos da página aparecem enquanto os catálogos carregam
+  const { state, save } = createStore();
+  state.lang = setLang(state.lang || idiomaDoNavegador());
+  applyStatic();
   const catalogs = await loadCatalogs();
   const sets = buildSets(catalogs);
-  const { state, save } = createStore();
   // restaura abas salvas por versões anteriores (inclusive na origem do alvo)
   state.tab = normalizeTab(state.tab);
   if (state.target.ref) state.target.ref.tab = normalizeTab(state.target.ref.tab);
@@ -57,6 +63,7 @@ async function init() {
     owned: () => (state.own[state.ingSet] ||= {}),
     ui: {},
     update: () => {},
+    refreshLanguage: () => {},
   };
   ctx.ui.ingredients = createIngredients(ctx);
   ctx.ui.result = createResult(ctx);
@@ -65,9 +72,26 @@ async function init() {
   ctx.ui.suggestions = createSuggestions(ctx);
   ctx.ui.recipes = createRecipes(ctx);
   ctx.ui.equivalents = createEquivalents(ctx);
+  ctx.ui.about = createAbout(ctx);
   ctx.update = () => {
     ctx.ui.ingredients.render();
     ctx.ui.result.render();
+  };
+  ctx.refreshLanguage = () => {
+    setLang(state.lang);
+    applyStatic();
+    Object.values(ctx.ui).forEach((m) => m.refresh && m.refresh());
+    ctx.update();
+  };
+
+  // seletor de idioma
+  const sel = $('lang');
+  IDIOMAS.forEach(([codigo, nome]) => sel.appendChild(new Option(nome, codigo)));
+  sel.value = state.lang;
+  sel.onchange = () => {
+    state.lang = sel.value;
+    save();
+    ctx.refreshLanguage();
   };
 
   Object.values(ctx.ui).forEach((m) => m.bind && m.bind());
@@ -79,7 +103,5 @@ init().catch((err) => {
   console.error(err);
   const box = $('erro');
   box.hidden = false;
-  box.textContent =
-    'Não foi possível iniciar o aplicativo: ' + err.message +
-    '. Se você abriu o arquivo direto do disco (file://), sirva a pasta por HTTP (veja o README).';
+  box.textContent = t('app.error', { erro: err.message });
 });

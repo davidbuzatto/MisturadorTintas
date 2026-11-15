@@ -5,6 +5,7 @@
 
 import { mixHex } from '../color/mixing.js';
 import { suggest } from '../color/suggest.js';
+import { t, tn } from '../i18n/index.js';
 import { $, deText, esc } from './dom.js';
 
 /**
@@ -16,7 +17,7 @@ export function createSuggestions(ctx) {
   /** Calcula e exibe as sugestões para a cor-alvo atual. */
   function run() {
     const out = $('sugOut');
-    out.innerHTML = '<p class="muted">calculando…</p>';
+    out.innerHTML = `<p class="muted">${esc(t('sug.calc'))}</p>`;
     // adia um instante para o "calculando…" aparecer antes do cálculo pesado
     setTimeout(() => {
       const onlyOwn = $('onlyOwn').checked;
@@ -24,8 +25,7 @@ export function createSuggestions(ctx) {
       const tenho = ctx.owned();
       const list = set.paints.filter((p) => !onlyOwn || tenho[p.code]);
       if (!list.length) {
-        out.innerHTML =
-          '<p class="muted">Nenhuma tinta marcada como “tenho”. Marque no seletor (botão direito) ou desligue o filtro.</p>';
+        out.innerHTML = `<p class="muted">${esc(t('sug.none'))}</p>`;
         return;
       }
       const P = list.map((p) => ({ code: p.code, fit: p.fit, anchor: set.anchors.has(p.code) }));
@@ -43,9 +43,9 @@ export function createSuggestions(ctx) {
           .join(' + ');
         d.innerHTML =
           `<span class="chip" style="background:${mh};width:26px;height:26px"></span>` +
-          `<div style="flex:1;min-width:200px">${parts}<div class="muted">${r.idx.length} tinta${r.idx.length > 1 ? 's' : ''} · ΔE ${r.de.toFixed(2)} (${deText(r.de)})</div></div>`;
+          `<div style="flex:1;min-width:200px">${parts}<div class="muted">${esc(t('sug.line', { contagem: tn('sug.count', r.idx.length), x: r.de.toFixed(2), texto: deText(r.de) }))}</div></div>`;
         const b = document.createElement('button');
-        b.textContent = 'usar';
+        b.textContent = t('sug.use');
         b.onclick = () => {
           state.ing = r.idx.map((i, k) => ({ code: P[i].code, v: Math.round(r.ws[k] * 1000) / 10, s: 1 }));
           ctx.ui.ingredients.setModel('km');
@@ -63,5 +63,10 @@ export function createSuggestions(ctx) {
     $('btnSug').onclick = run;
   }
 
-  return { bind };
+  /** Limpa as sugestões (elas ficam no idioma em que foram calculadas). */
+  function refresh() {
+    $('sugOut').innerHTML = '';
+  }
+
+  return { bind, refresh };
 }

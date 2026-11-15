@@ -5,10 +5,11 @@
  * uma equivalência (hoje, as tabelas de conversão da AMMO), marca a linha com um selo.
  */
 
-import { TARGET_TABS, CATALOG_NAMES, targetOf } from '../data/catalogs.js';
+import { TARGET_TABS, catalogName, displayName, targetOf } from '../data/catalogs.js';
+import { lineName, t } from '../i18n/index.js';
 import { buildLinks } from '../data/equivalences.js';
 import { deToPaint, nearest } from '../color/nearest.js';
-import { $, deText, esc } from './dom.js';
+import { $, ativavel, deText, esc } from './dom.js';
 
 /** Quantas tintas parecidas mostrar por catálogo. */
 const POR_CATALOGO = 3;
@@ -55,21 +56,21 @@ export function createEquivalents(ctx) {
     const selo = fontes.join(' · ');
     const el = document.createElement('div');
     el.className = 'eqrow';
-    const sub = paint.code + (paint.line ? ` · ${paint.line}` : '') + (paint.series ? ` · ${paint.series}` : '');
-    el.title = `${paint.code} ${paint.name} ${paint.hex} · ΔE00 ${de.toFixed(1)} (${deText(de)})` +
-      (paint.degrade ? ' · amostra em degradê/metálica: cor aproximada' : '') +
-      (oficial ? ` · equivalência indicada no catálogo ${fontes.join(' e ')}` : '') +
-      ' — clique para usar como cor-alvo';
+    const sub = paint.code + (paint.line ? ` · ${lineName(paint.line)}` : '') + (paint.series ? ` · ${paint.series}` : '');
+    el.title = t('eq.tip', { code: paint.code, nome: displayName(paint), hex: paint.hex, de: de.toFixed(1), texto: deText(de) }) +
+      (paint.degrade ? ` · ${t('common.approx')}` : '') +
+      (oficial ? ` · ${t('eq.tip.official', { fontes: fontes.join(t('eq.and')) })}` : '') +
+      ` — ${t('eq.tip.click')}`;
     el.innerHTML =
       `<span class="sw${paint.degrade ? ' deg' : ''}" style="background:${paint.hex}"></span>` +
-      `<span class="eqtxt">${esc(paint.name)}<b>${esc(sub)}</b></span>` +
+      `<span class="eqtxt">${esc(displayName(paint))}<b>${esc(sub)}</b></span>` +
       (oficial ? `<span class="badge">${esc(selo)}</span>` : '') +
       `<span class="eqde ${classeDe(de)}">${de.toFixed(1)}</span>`;
-    el.onclick = () => {
+    ativavel(el, () => {
       state.target = targetOf(aba, paint);
       save();
       ctx.ui.result.render();
-    };
+    });
     return el;
   }
 
@@ -82,7 +83,7 @@ export function createEquivalents(ctx) {
     const info = $('eqInfo');
     if (!o) {
       info.textContent = '';
-      grade.innerHTML = '<p class="muted">Adicione tintas à mistura para ver os equivalentes da mistura calculada.</p>';
+      grade.innerHTML = `<p class="muted">${esc(t('eq.empty'))}</p>`;
       return;
     }
     info.innerHTML = `<span class="chip" style="background:${o.hex}"></span> ${o.hex}`;
@@ -102,7 +103,7 @@ export function createEquivalents(ctx) {
       card.className = 'eq';
       const titulo = document.createElement('div');
       titulo.className = 'eqh';
-      titulo.textContent = CATALOG_NAMES[aba];
+      titulo.textContent = catalogName(aba);
       card.appendChild(titulo);
       itens.forEach((i) => card.appendChild(linha(aba, i.paint, i.de, i.fontes)));
       grade.appendChild(card);
@@ -127,5 +128,5 @@ export function createEquivalents(ctx) {
     };
   }
 
-  return { render, schedule, bind };
+  return { render, schedule, bind, refresh: render };
 }

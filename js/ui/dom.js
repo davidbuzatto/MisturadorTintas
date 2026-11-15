@@ -5,6 +5,7 @@
 
 import { hex2lab } from '../color/convert.js';
 import { dE00 } from '../color/deltaE.js';
+import { has, t } from '../i18n/index.js';
 
 /**
  * Atalho para `document.getElementById`.
@@ -33,17 +34,13 @@ export function deHex(a, b) {
 }
 
 /**
- * Descrição em palavras de um ΔE00.
+ * Descrição em palavras de um ΔE00, no idioma atual.
  * @param {number} d valor de ΔE00.
  * @returns {string}
  */
 export function deText(d) {
-  return d < 1 ? 'imperceptível'
-    : d < 2 ? 'só lado a lado'
-    : d < 3.5 ? 'muito parecida'
-    : d < 5 ? 'parecida'
-    : d < 10 ? 'diferente'
-    : 'bem diferente';
+  const faixa = d < 1 ? 0 : d < 2 ? 1 : d < 3.5 ? 2 : d < 5 ? 3 : d < 10 ? 4 : 5;
+  return t(`de.${faixa}`);
 }
 
 /**
@@ -53,4 +50,40 @@ export function deText(d) {
  */
 export function contrastInk(hex) {
   return hex2lab(hex)[0] > 55 ? '#000' : '#fff';
+}
+
+/**
+ * Rótulo de uma linha de tintas (sem a marca): tradução (`set.<id>`) quando existe; senão o nome comercial.
+ * @param {{id: string, rotulo: string}} s linha de ingredientes (ver `data/sets.js`).
+ * @returns {string}
+ */
+export const setRotulo = (s) => (has(`set.${s.id}`) ? t(`set.${s.id}`) : s.rotulo);
+
+/**
+ * Nome completo de uma linha de tintas ("Vallejo Model Air").
+ * @param {{id: string, marca: string, rotulo: string}} s linha de ingredientes.
+ * @returns {string}
+ */
+export const setNome = (s) => `${s.marca} ${setRotulo(s)}`;
+
+/**
+ * Torna um elemento (div/span) um botão: clique do mouse, ou teclado (foco por Tab; Enter e Espaço ativam).
+ * `onAlt` (opcional) é a ação alternativa, ligada à tecla T (usada para marcar "tenho").
+ * @param {HTMLElement} el elemento.
+ * @param {() => void} onClick ação principal.
+ * @param {() => void} [onAlt] ação alternativa (tecla T).
+ */
+export function ativavel(el, onClick, onAlt) {
+  el.tabIndex = 0;
+  el.setAttribute('role', 'button');
+  el.addEventListener('click', onClick);
+  el.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      onClick();
+    } else if (onAlt && (e.key === 't' || e.key === 'T')) {
+      e.preventDefault();
+      onAlt();
+    }
+  });
 }
