@@ -21,6 +21,8 @@ faz a previsão chegar perto do que acontece na bancada. JavaScript puro, módul
 
 ## Como usar
 
+No topo da página há o guia **"Como usar, passo a passo"**, com um exemplo completo (reproduzir a Tamiya XF-18) e o botão **"Fazer o exemplo para mim"**, que executa os primeiros passos na tela. Em resumo:
+
 1. Em **1 · Mistura**, escolha a marca e a linha das tintas que você tem (cada receita usa uma linha só) e adicione
    tintas com "adicionar tinta".
 2. Em **2 · Cor-alvo**, escolha a cor que quer reproduzir (abas por marca; "Livre" aceita qualquer cor).
@@ -116,7 +118,7 @@ js/
     sets.js           linhas de tintas que podem ser ingredientes (filtros e âncoras)
     equivalences.js   equivalências declaradas pelos fabricantes
   state/store.js      estado e persistência (localStorage)
-  ui/                 um módulo por seção da tela
+  ui/                 um módulo por seção da tela (help.js: guia passo a passo e exemplo)
 tests/                testes (node --test)
 tools/servidor.mjs    servidor estático para desenvolvimento
 ferramentas/          extratores de dados (Node)

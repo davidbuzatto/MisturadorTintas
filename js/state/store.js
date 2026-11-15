@@ -47,6 +47,7 @@ export const DEFAULT_INGREDIENTS = [
  * @property {'target'|'mix'} eqFrom   cor de partida das equivalências: alvo ou mistura calculada.
  * @property {Object<string,string>} lines  linha escolhida por aba ("*" = todas), nos catálogos com linhas.
  * @property {string} free             última cor livre escolhida.
+ * @property {boolean} helpOpen        se o bloco "Como usar" está aberto.
  * @property {string} lang             idioma da interface ("pt-BR" ou "en"; vazio = o do navegador).
  */
 
@@ -65,6 +66,7 @@ function defaultState() {
     eqFrom: 'target',
     free: '#808080',
     lang: '',
+    helpOpen: true,
   };
 }
 

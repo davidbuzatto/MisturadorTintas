@@ -14,6 +14,7 @@ import { createStore } from './state/store.js';
 import { createAbout } from './ui/about.js';
 import { $ } from './ui/dom.js';
 import { createEquivalents } from './ui/equivalents.js';
+import { createHelp } from './ui/help.js';
 import { createIngredients } from './ui/ingredients.js';
 import { createPicker } from './ui/picker.js';
 import { createRecipes } from './ui/recipes.js';
@@ -73,6 +74,7 @@ async function init() {
   ctx.ui.recipes = createRecipes(ctx);
   ctx.ui.equivalents = createEquivalents(ctx);
   ctx.ui.about = createAbout(ctx);
+  ctx.ui.help = createHelp(ctx);
   ctx.update = () => {
     ctx.ui.ingredients.render();
     ctx.ui.result.render();

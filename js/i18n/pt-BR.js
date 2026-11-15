@@ -20,14 +20,19 @@ export default {
   'common.approx': 'amostra em degradê/metálica: cor aproximada',
 
   // ---- "Como funciona" ----
-  'help.title': 'Como funciona',
-  'help.step1': '<b>Escolha as tintas que você tem</b> (card 1) e monte uma mistura com os controles de quantidade.',
-  'help.step2': '<b>Escolha a cor-alvo</b> (card 2): qualquer cor de qualquer catálogo, ou uma cor livre.',
-  'help.step3':
-    'O <b>resultado</b> (card 3) mostra a cor calculada e o quanto ela difere do alvo (ΔE00). A <b>sugestão automática</b> procura a receita por você.',
-  'help.step4': 'Em <b>equivalentes</b> (card 4), veja as tintas mais parecidas em outras marcas.',
-  'help.step5':
-    'Salve suas <b>receitas</b> (card 5) e, depois de misturar de verdade, registre a cor obtida para medir o erro do modelo.',
+  'help.title': 'Como usar, passo a passo',
+  'help.intro': 'Vamos reproduzir, como exemplo, a cor <b>Tamiya XF-18 (Medium Blue)</b> misturando tintas. Siga os passos ou use o botão no fim da lista para ver tudo acontecer.',
+  'help.step1': '<b>Escolha a linha de tintas que você tem</b> no card 1 (por exemplo, <b>Acrilex Fosca</b>, que já vem selecionada). Cada receita usa uma linha só.',
+  'help.step2': 'No card 2, abra a aba <b>Tamiya</b>, deixe a linha <b>Acrílica</b> e digite <b>XF-18</b> na busca. Clique na cor <i>Medium Blue</i>: ela vira a cor-alvo e aparece como “alvo” no card 3.',
+  'help.step3': 'No card 3, clique em <b>sugerir mistura automática</b>. O app lista receitas de 1 a 3 tintas; quanto menor o ΔE, mais perto do alvo (abaixo de 2 só dá para notar a diferença com as cores lado a lado).',
+  'help.step4': 'Clique em <b>usar</b> na receita que preferir: as tintas e as proporções entram no card 1, e a amostra “mistura” mostra a cor calculada ao lado do alvo.',
+  'help.step5': 'Se quiser, ajuste: arraste os controles de quantidade, mude a <b>força</b> de uma tinta ou defina o <b>total</b> em ml para saber quanto usar de cada tinta.',
+  'help.step6': 'Não tem as tintas certas? No card 4, veja as <b>tintas prontas mais parecidas</b> em outras marcas (o selo AMMO ou AK indica equivalência declarada pelo fabricante).',
+  'help.step7': 'Misture de verdade, clique em <b>salvar receita</b> e, no card 5, registre a <b>cor obtida</b>: o app mostra o erro real do modelo e ajuda a calibrar.',
+  'help.tip': 'Dica: na janela de tintas, marque as que você tem (botão direito, toque longo ou tecla T) e ative “só as que tenho” para a sugestão usar apenas elas.',
+  'help.try': 'Fazer o exemplo para mim',
+  'help.try.confirm': 'O exemplo substitui a cor-alvo e a mistura atuais (as receitas salvas não são afetadas). Continuar?',
+  'help.try.done': 'Pronto: a cor-alvo agora é a Tamiya XF-18. Veja as receitas sugeridas no card 3 e clique em “usar” numa delas (passo 4).',
   'help.local':
     'Tudo roda no seu navegador e nada é enviado a servidor algum. Receitas e preferências ficam no armazenamento local do navegador: use “exportar JSON” para levá-las para outro lugar.',
   'help.limits':

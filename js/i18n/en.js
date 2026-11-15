@@ -19,14 +19,19 @@ export default {
   'common.approx': 'gradient/metallic swatch: approximate color',
 
   // ---- "How it works" ----
-  'help.title': 'How it works',
-  'help.step1': '<b>Pick the paints you own</b> (card 1) and build a mix with the amount controls.',
-  'help.step2': '<b>Pick the target color</b> (card 2): any color from any catalog, or a free color.',
-  'help.step3':
-    'The <b>result</b> (card 3) shows the computed color and how far it is from the target (ΔE00). The <b>automatic suggestion</b> looks for a recipe for you.',
-  'help.step4': 'Under <b>equivalents</b> (card 4), see the closest paints in other brands.',
-  'help.step5':
-    'Save your <b>recipes</b> (card 5) and, after really mixing, record the color you got to measure the model error.',
+  'help.title': 'How to use it, step by step',
+  'help.intro': 'As an example, let’s reproduce the color <b>Tamiya XF-18 (Medium Blue)</b> by mixing paints. Follow the steps, or use the button at the end of the list to watch it all happen.',
+  'help.step1': '<b>Pick the paint line you own</b> in card 1 (for example, <b>Acrilex Matte</b>, which is already selected). Each recipe uses a single line.',
+  'help.step2': 'In card 2, open the <b>Tamiya</b> tab, keep the <b>Acrylic</b> line and type <b>XF-18</b> in the search box. Click the <i>Medium Blue</i> color: it becomes the target and shows up as “target” in card 3.',
+  'help.step3': 'In card 3, click <b>suggest an automatic mix</b>. The app lists recipes of 1 to 3 paints; the lower the ΔE, the closer to the target (below 2 you can only notice the difference with the colors side by side).',
+  'help.step4': 'Click <b>use</b> on the recipe you prefer: the paints and proportions go into card 1, and the “mix” swatch shows the computed color next to the target.',
+  'help.step5': 'If you like, adjust it: drag the amount controls, change a paint’s <b>strength</b> or set the <b>total</b> in ml to know how much of each paint to use.',
+  'help.step6': 'Don’t own the right paints? In card 4, see the <b>ready-made paints closest</b> to it in other brands (an AMMO or AK badge means the manufacturer declares the equivalence).',
+  'help.step7': 'Mix it for real, click <b>save recipe</b> and, in card 5, record the <b>color obtained</b>: the app shows the real model error and helps you calibrate.',
+  'help.tip': 'Tip: in the paint dialog, mark the ones you own (right-click, long press or the T key) and turn on “only the ones I own” so the suggestion uses only those.',
+  'help.try': 'Do the example for me',
+  'help.try.confirm': 'The example replaces the current target color and mix (saved recipes are not affected). Continue?',
+  'help.try.done': 'Done: the target color is now Tamiya XF-18. See the suggested recipes in card 3 and click “use” on one of them (step 4).',
   'help.local':
     'Everything runs in your browser and nothing is sent to any server. Recipes and preferences stay in the browser’s local storage: use “export JSON” to take them elsewhere.',
   'help.limits':

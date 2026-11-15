@@ -23,6 +23,8 @@ The interface is available in Brazilian Portuguese and English (switch it at the
 
 ## How to use
 
+At the top of the page there is a **"How to use it, step by step"** guide, with a complete example (reproducing Tamiya XF-18) and a **"Do the example for me"** button that performs the first steps on screen. In short:
+
 1. In **1 · Mix**, choose the brand and line of the paints you own (each recipe uses a single line) and add paints with
    "add paint".
 2. In **2 · Target color**, choose the color to reproduce (one tab per brand; "Free" accepts any color).
@@ -118,7 +120,7 @@ js/
     sets.js           paint lines that can be ingredients (filters and anchors)
     equivalences.js   equivalences declared by manufacturers
   state/store.js      state and persistence (localStorage)
-  ui/                 one module per screen section
+  ui/                 one module per screen section (help.js: step-by-step guide and example)
 tests/                tests (node --test)
 tools/servidor.mjs    static server for development
 ferramentas/          data extractors (Node)

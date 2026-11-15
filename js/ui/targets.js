@@ -88,7 +88,9 @@ export function createTargets(ctx) {
       if (line !== null && line !== ALL_LINES && p.line !== line) return;
       if (q && (p.code + ' ' + displayName(p)).toLowerCase().indexOf(q) < 0) return;
       const c = document.createElement('div');
-      c.className = 'cell' + (p.degrade ? ' deg' : '');
+      const escolhida = !!state.target.ref && state.target.ref.tab === state.tab && state.target.ref.code === p.code;
+      c.className = 'cell' + (p.degrade ? ' deg' : '') + (escolhida ? ' sel' : '');
+      c.setAttribute('aria-pressed', escolhida);
       c.title =
         `${p.code} ${displayName(p)} ${p.hex}` +
         (p.line ? ` · ${lineName(p.line)}${p.series ? ' / ' + p.series : ''}` : '') +
@@ -102,6 +104,7 @@ export function createTargets(ctx) {
         state.target = targetOf(state.tab, p);
         save();
         ctx.ui.result.render();
+        renderGrid(); // atualiza o destaque da cor escolhida
         $('resSec').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       });
       g.appendChild(c);

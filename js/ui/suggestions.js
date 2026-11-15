@@ -68,5 +68,5 @@ export function createSuggestions(ctx) {
     $('sugOut').innerHTML = '';
   }
 
-  return { bind, refresh };
+  return { bind, refresh, run };
 }

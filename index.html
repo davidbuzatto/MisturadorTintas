@@ -17,15 +17,23 @@
     <label class="muted lang"><span data-i18n="lang.label">Idioma</span> <select id="lang"></select></label>
   </div>
   <p class="sub" data-i18n-html="app.subtitle"></p>
-  <details class="how">
-    <summary data-i18n="help.title">Como funciona</summary>
+  <details class="how" id="how">
+    <summary data-i18n="help.title">Como usar, passo a passo</summary>
+    <p data-i18n-html="help.intro"></p>
     <ol>
       <li data-i18n-html="help.step1"></li>
       <li data-i18n-html="help.step2"></li>
       <li data-i18n-html="help.step3"></li>
       <li data-i18n-html="help.step4"></li>
       <li data-i18n-html="help.step5"></li>
+      <li data-i18n-html="help.step6"></li>
+      <li data-i18n-html="help.step7"></li>
     </ol>
+    <p class="muted" data-i18n="help.tip"></p>
+    <div class="row">
+      <button class="pri" id="btnExample" data-i18n="help.try">Fazer o exemplo para mim</button>
+      <span class="muted" id="exMsg" aria-live="polite"></span>
+    </div>
     <p class="muted" data-i18n="help.local"></p>
     <p class="muted" data-i18n="help.limits"></p>
   </details>

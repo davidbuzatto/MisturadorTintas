@@ -77,3 +77,27 @@ test('esc escapa HTML e deText descreve o ΔE nos dois idiomas', () => {
   assert.equal(deText(20), 'very different');
   setLang('pt-BR');
 });
+
+test('guia passo a passo: o exemplo (Tamiya XF-18) existe nos dados e rende uma boa receita com a Acrilex', async () => {
+  const { readFileSync } = await import('node:fs');
+  const { fileURLToPath } = await import('node:url');
+  const { buildCatalogs } = await import('../js/data/catalogs.js');
+  const { buildSets } = await import('../js/data/sets.js');
+  const { suggest } = await import('../js/color/suggest.js');
+  const { EXEMPLO } = await import('../js/ui/help.js');
+  const ler = (f) => JSON.parse(readFileSync(fileURLToPath(new URL(`../dados/${f}`, import.meta.url)), 'utf8'));
+  const cat = buildCatalogs({
+    ac: ler('acrilex-cores-oficial.json'), tm: ler('tamiya-cores-oficial.json'), rv: ler('revell-cores-oficial.json'),
+    fs: ler('fs595-cores.json'), vl: ler('vallejo-cores.json'), mr: ler('mrcolor-cores.json'), hb: ler('humbrol-cores.json'),
+    ral: ler('ral-cores.json'), ak: ler('ak-cores.json'), am: ler('ammo-cores.json'),
+  });
+  const alvo = cat[EXEMPLO.tab].find((p) => p.code === EXEMPLO.code);
+  assert.ok(alvo, 'a cor do exemplo sumiu dos dados');
+  assert.equal(alvo.name, 'Medium Blue');
+  assert.equal(alvo.line, 'Acrylic'); // o texto do passo 2 manda deixar a linha "Acrílica"
+  const set = buildSets(cat).prepare('acrilex'); // linha padrão do exemplo
+  const P = set.paints.map((p) => ({ code: p.code, fit: p.fit, anchor: set.anchors.has(p.code) }));
+  const receitas = suggest(P, alvo.hex, 3);
+  assert.ok(receitas.length >= 2, 'o passo 3 promete receitas de várias tintas');
+  assert.ok(receitas.some((r) => r.idx.length >= 2 && r.de < 2), 'esperava uma receita de 2+ tintas com ΔE < 2');
+});
