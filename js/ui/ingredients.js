@@ -1,16 +1,20 @@
 /**
  * @module ui/ingredients
  * Seção "1 · Mistura": lista de ingredientes (quantidade, força), botões de
- * adicionar/normalizar/limpar, volume total e seleção do modelo de mistura.
+ * adicionar/normalizar/limpar, volume total e seleção do modelo de mistura, além da escolha da
+ * linha de tintas (marca e linha) usada como ingrediente.
  */
 
 import { $, esc } from './dom.js';
+
+/** Texto de cada química de tinta (chaves de `data/sets.js`). */
+const QUIMICA = { acrilica: 'acrílica', lacquer: 'lacquer', esmalte: 'esmalte' };
 
 /**
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
  */
 export function createIngredients(ctx) {
-  const { state, save, paintByCode } = ctx;
+  const { state, save } = ctx;
 
   /** Soma das quantidades relativas dos ingredientes. */
   const sum = () => state.ing.reduce((a, i) => a + i.v, 0);
@@ -24,7 +28,7 @@ export function createIngredients(ctx) {
       box.innerHTML = '<p class="muted">Nenhuma tinta ainda. Clique em “adicionar tinta”.</p>';
     }
     state.ing.forEach((ing, idx) => {
-      const p = paintByCode[ing.code];
+      const p = ctx.ingPaint(ing.code);
       if (!p) return;
       const eff = total > 0 ? (ing.v / total) * 100 : 0;
       const d = document.createElement('div');
@@ -100,6 +104,40 @@ export function createIngredients(ctx) {
     ctx.update();
   }
 
+  /** Preenche o seletor de linha de tintas, agrupado por marca. */
+  function fillSets() {
+    const sel = $('ingSet');
+    sel.innerHTML = '';
+    let grupo = null;
+    let marca = '';
+    ctx.sets.list.forEach((s) => {
+      if (s.marca !== marca) {
+        marca = s.marca;
+        grupo = document.createElement('optgroup');
+        grupo.label = marca;
+        sel.appendChild(grupo);
+      }
+      const o = document.createElement('option');
+      o.value = s.id;
+      o.textContent = s.rotulo;
+      grupo.appendChild(o);
+    });
+  }
+
+  /**
+   * Escolhe a linha de tintas dos ingredientes (sem tocar na mistura): prepara os espectros e
+   * atualiza o seletor e o texto de apoio.
+   * @param {string} id id da linha (ver `data/sets.js`).
+   */
+  function setSet(id) {
+    const s = ctx.sets.prepare(id);
+    state.ingSet = s.id;
+    $('ingSet').value = s.id;
+    $('ingSetInfo').textContent =
+      `${s.paints.length} tintas · ${QUIMICA[s.quimica]}` +
+      (s.excluidas ? ` · ${s.excluidas} metálicas/translúcidas ocultas` : '');
+  }
+
   /**
    * Define o modelo de mistura e sincroniza o seletor.
    * @param {string} model identificador do modelo.
@@ -111,6 +149,20 @@ export function createIngredients(ctx) {
 
   /** Liga os eventos dos controles estáticos da seção. */
   function bind() {
+    fillSets();
+    setSet(state.ingSet);
+    $('ingSet').onchange = function () {
+      const novo = this.value;
+      // as tintas de uma linha não existem na outra: trocar limpa a mistura
+      if (state.ing.length && !confirm('Trocar a linha de tintas limpa a mistura atual. Continuar?')) {
+        this.value = state.ingSet;
+        return;
+      }
+      setSet(novo);
+      state.ing = [];
+      save();
+      ctx.update();
+    };
     $('btnAdd').onclick = () => ctx.ui.picker.open();
     $('btnNorm').onclick = () => {
       const s = sum();
@@ -137,5 +189,5 @@ export function createIngredients(ctx) {
     };
   }
 
-  return { render, addPaint, setModel, bind };
+  return { render, addPaint, setModel, setSet, bind };
 }

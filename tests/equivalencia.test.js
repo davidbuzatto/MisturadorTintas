@@ -17,7 +17,10 @@ import { mixHex, mixLin } from '../js/color/mixing.js';
 import { dE00 } from '../js/color/deltaE.js';
 import { hex2lab } from '../js/color/convert.js';
 import { suggest } from '../js/color/suggest.js';
-import { ANCHOR_CODES } from '../js/data/catalogs.js';
+import { INGREDIENT_SETS } from '../js/data/sets.js';
+
+// âncoras da Acrilex: fixas, para que a sugestão automática dela continue idêntica à original
+const ANCHOR_CODES = INGREDIENT_SETS.find((s) => s.id === 'acrilex').anchors;
 
 const here = dirname(fileURLToPath(import.meta.url));
 const golden = JSON.parse(readFileSync(join(here, 'golden.json'), 'utf8'));

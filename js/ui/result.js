@@ -11,7 +11,7 @@ import { $, contrastInk, deHex, deText } from './dom.js';
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
  */
 export function createResult(ctx) {
-  const { state, paintByCode } = ctx;
+  const { state } = ctx;
 
   /**
    * Hex da mistura atual no modelo indicado, ou `null` se não houver ingredientes válidos.
@@ -20,8 +20,8 @@ export function createResult(ctx) {
    */
   function currentMix(model) {
     const items = state.ing
-      .filter((i) => paintByCode[i.code] && i.v > 0)
-      .map((i) => ({ p: paintByCode[i.code].fit, w: i.v * (i.s || 1) }));
+      .filter((i) => ctx.ingPaint(i.code) && i.v > 0)
+      .map((i) => ({ p: ctx.ingPaint(i.code).fit, w: i.v * (i.s || 1) }));
     return items.length ? mixHex(items, model) : null;
   }
 

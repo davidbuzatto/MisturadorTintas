@@ -3,10 +3,12 @@
  * Estado da aplicação com persistência no `localStorage`.
  */
 
+import { DEFAULT_SET } from '../data/sets.js';
+
 /** Chave do `localStorage` (mantida para preservar receitas já salvas). */
 export const STORAGE_KEY = 'misturador-tintas-v1';
 
-/** Mistura inicial usada quando não há ingredientes salvos. */
+/** Mistura inicial da linha padrão (Acrilex), usada quando não há ingredientes salvos. */
 export const DEFAULT_INGREDIENTS = [
   { code: '530', v: 80, s: 1 },
   { code: '559', v: 20, s: 1 },
@@ -14,7 +16,7 @@ export const DEFAULT_INGREDIENTS = [
 
 /**
  * @typedef {Object} Ingredient
- * @property {string} code  código da tinta (Acrilex).
+ * @property {string} code  código da tinta (na linha de ingredientes da receita).
  * @property {number} v     quantidade relativa (0..100).
  * @property {number} [s]   força de tingimento (padrão 1).
  */
@@ -22,6 +24,7 @@ export const DEFAULT_INGREDIENTS = [
 /**
  * @typedef {Object} Recipe
  * @property {string} name
+ * @property {string} [set]  linha de tintas dos ingredientes (ausente nas receitas antigas = Acrilex).
  * @property {{hex:string,label:string}} target
  * @property {Ingredient[]} ing
  * @property {string} model   modelo de mistura usado.
@@ -33,11 +36,12 @@ export const DEFAULT_INGREDIENTS = [
 
 /**
  * @typedef {Object} AppState
+ * @property {string} ingSet           linha de tintas dos ingredientes (id em `data/sets.js`).
  * @property {Ingredient[]} ing        ingredientes da mistura atual.
  * @property {{hex:string,label:string}} target  cor-alvo atual.
  * @property {string} model            modelo de mistura selecionado.
  * @property {number} total            volume total, em ml.
- * @property {Object<string,boolean>} own  tintas marcadas como "tenho".
+ * @property {Object<string,Object<string,boolean>>} own  tintas marcadas como "tenho", por linha de ingredientes.
  * @property {Recipe[]} hist           receitas salvas.
  * @property {string} tab              aba de alvo selecionada.
  * @property {'target'|'mix'} eqFrom   cor de partida das equivalências: alvo ou mistura calculada.
@@ -48,6 +52,7 @@ export const DEFAULT_INGREDIENTS = [
 /** @returns {AppState} estado padrão. */
 function defaultState() {
   return {
+    ingSet: DEFAULT_SET,
     ing: [],
     target: { hex: '#4f5457', label: 'Tamiya Acrílica X-10 Gun Metal', ref: { tab: 'tamiya', code: 'X-10' } },
     model: 'km',
@@ -74,7 +79,10 @@ export function createStore() {
   } catch (e) {
     /* sem armazenamento: segue com o padrão */
   }
-  if (!state.ing.length) state.ing = DEFAULT_INGREDIENTS.map((i) => ({ ...i }));
+  // "tenho" antes era um mapa código → booleano (só da Acrilex); agora é por linha de ingredientes
+  if (Object.values(state.own).some((v) => typeof v === 'boolean')) state.own = { [DEFAULT_SET]: state.own };
+  // a mistura inicial só existe para a linha padrão (os códigos são dela)
+  if (!state.ing.length && state.ingSet === DEFAULT_SET) state.ing = DEFAULT_INGREDIENTS.map((i) => ({ ...i }));
 
   /** Grava o estado atual. */
   function save() {

@@ -5,14 +5,13 @@
 
 import { mixHex } from '../color/mixing.js';
 import { suggest } from '../color/suggest.js';
-import { ANCHOR_CODES } from '../data/catalogs.js';
 import { $, deText, esc } from './dom.js';
 
 /**
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
  */
 export function createSuggestions(ctx) {
-  const { state, save, catalogs, paintByCode } = ctx;
+  const { state, save } = ctx;
 
   /** Calcula e exibe as sugestões para a cor-alvo atual. */
   function run() {
@@ -21,13 +20,15 @@ export function createSuggestions(ctx) {
     // adia um instante para o "calculando…" aparecer antes do cálculo pesado
     setTimeout(() => {
       const onlyOwn = $('onlyOwn').checked;
-      const list = catalogs.acrilex.filter((p) => !onlyOwn || state.own[p.code]);
+      const set = ctx.ingSet();
+      const tenho = ctx.owned();
+      const list = set.paints.filter((p) => !onlyOwn || tenho[p.code]);
       if (!list.length) {
         out.innerHTML =
           '<p class="muted">Nenhuma tinta marcada como “tenho”. Marque no seletor (botão direito) ou desligue o filtro.</p>';
         return;
       }
-      const P = list.map((p) => ({ code: p.code, fit: p.fit, anchor: ANCHOR_CODES.includes(p.code) }));
+      const P = list.map((p) => ({ code: p.code, fit: p.fit, anchor: set.anchors.has(p.code) }));
       const results = suggest(P, state.target.hex, +$('maxN').value);
       out.innerHTML = '';
       results.forEach((r) => {
@@ -36,7 +37,7 @@ export function createSuggestions(ctx) {
         const mh = mixHex(r.idx.map((i, k) => ({ p: P[i].fit, w: r.ws[k] })), 'km');
         const parts = r.idx
           .map((i, k) => {
-            const p = paintByCode[P[i].code];
+            const p = ctx.ingPaint(P[i].code);
             return `<span class="chip" style="background:${p.hex}"></span> ${(r.ws[k] * 100).toFixed(0)}% ${esc(p.name)} <span class="muted">${p.code}</span>`;
           })
           .join(' + ');

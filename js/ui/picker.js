@@ -1,7 +1,7 @@
 /**
  * @module ui/picker
- * Janela modal para escolher uma tinta Acrilex como ingrediente.
- * Clique adiciona à mistura; botão direito (ou toque longo) marca "tenho".
+ * Janela modal para escolher uma tinta da linha de ingredientes (marca e linha escolhidas na seção 1).
+ * Clique adiciona à mistura; botão direito (ou toque longo) marca "tenho" (por linha).
  */
 
 import { $, esc } from './dom.js';
@@ -13,12 +13,13 @@ const LONG_PRESS_MS = 600;
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
  */
 export function createPicker(ctx) {
-  const { state, save, catalogs } = ctx;
+  const { save } = ctx;
   const modal = $('modal');
 
   /** Alterna a marca "tenho" de uma tinta e redesenha a grade. */
   function toggleOwn(code) {
-    state.own[code] = !state.own[code];
+    const tenho = ctx.owned();
+    tenho[code] = !tenho[code];
     save();
     render();
   }
@@ -29,11 +30,12 @@ export function createPicker(ctx) {
     g.innerHTML = '';
     const q = $('pSearch').value.trim().toLowerCase();
     const onlyOwn = $('pOwn').checked;
-    catalogs.acrilex.forEach((p) => {
+    const tenho = ctx.owned();
+    ctx.ingSet().paints.forEach((p) => {
       if (q && (p.code + ' ' + p.name).toLowerCase().indexOf(q) < 0) return;
-      if (onlyOwn && !state.own[p.code]) return;
+      if (onlyOwn && !tenho[p.code]) return;
       const c = document.createElement('div');
-      c.className = 'cell' + (state.own[p.code] ? ' own' : '');
+      c.className = 'cell' + (tenho[p.code] ? ' own' : '');
       c.innerHTML =
         `<span class="sw" style="background:${p.hex}"></span><span>${esc(p.name)}<b>${p.code}</b></span>`;
       c.onclick = () => {
@@ -53,6 +55,8 @@ export function createPicker(ctx) {
 
   /** Abre a janela. */
   function open() {
+    const s = ctx.ingSet();
+    $('mTitle').textContent = `Escolha uma tinta ${s.marca} ${s.rotulo}`;
     modal.classList.add('on');
     render();
     $('pSearch').focus();

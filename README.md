@@ -28,7 +28,8 @@ js/
     mixing.js            modelos de mistura (KM, KM igual, RGB linear, RGB direto)
     suggest.js           busca automática de receitas
     nearest.js           tintas de um catálogo mais próximas de uma cor (ΔE00)
-  data/catalogs.js       carrega/normaliza os JSONs; nomes de catálogos e tintas âncora
+  data/catalogs.js       carrega/normaliza os JSONs; nomes de catálogos e abas
+  data/sets.js           linhas de tintas que podem ser ingredientes (filtros e tintas âncora)
   state/store.js         estado + persistência em localStorage
   ui/                    um módulo por seção da tela
     ingredients.js  targets.js  result.js  equivalents.js  picker.js  suggestions.js  recipes.js  dom.js
@@ -87,6 +88,19 @@ ferramentas/, originais/ material histórico da extração das cores (scripts Py
 - Sugestão automática (grade de pesos + refino local) de 1 a 4 tintas, opcionalmente só as "que tenho".
 - Receitas e "tenho" ficam no `localStorage` (por endereço da página); use "exportar JSON" para levar as receitas.
 - Para calibrar: registrar a cor real obtida nas receitas salvas e ajustar `força`.
+
+## Linha de tintas dos ingredientes
+No card "1 · Mistura" você escolhe a **marca e a linha** das tintas que tem (Acrilex, Tamiya Acrílica ou Lacquer, Vallejo
+Model Color/Model Air…, Mr. Hobby, Humbrol, AK, AMMO). Cada receita usa **uma linha só**: tintas de químicas diferentes
+(acrílica, lacquer, esmalte) não se misturam na bancada. Detalhes:
+- Metálicas, perolizadas, translúcidas e fluorescentes ficam ocultas, porque o modelo de mistura (Kubelka-Munk, para
+  pigmentos opacos e foscos) não as representa. O texto ao lado do seletor diz quantas foram ocultadas.
+- "Tenho" é guardado por linha, e a receita salva guarda a linha dos ingredientes (receitas antigas valem como Acrilex).
+- Trocar de linha limpa a mistura atual (com confirmação); carregar uma receita de outra linha troca a linha sozinho.
+- A sugestão automática usa tintas âncora (branco, preto e primárias), escolhidas por proximidade de cor em cada linha;
+  na Acrilex são fixas, como sempre foram. Em linhas com mais de 120 tintas, a busca de pares usa as 60 mais próximas do
+  alvo (mais as âncoras), para responder em cerca de 1 s.
+- Para acrescentar uma linha: uma entrada em `INGREDIENT_SETS` (`js/data/sets.js`).
 
 ## Equivalentes em outras marcas
 Para a cor-alvo (ou para a mistura calculada, à escolha), a seção 4 mostra em cada catálogo as 3 tintas mais

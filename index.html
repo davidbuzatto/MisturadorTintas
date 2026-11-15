@@ -12,12 +12,16 @@
 <body>
 <header>
   <h1>Misturador de Tintas</h1>
-  <p class="sub">Tintas Acrilex Fosca como ingredientes; cor-alvo de qualquer catálogo (Tamiya, Revell, FS 595, Vallejo, Mr. Hobby, Humbrol, RAL, AK, AMMO, Acrilex). A mistura é calculada como <b>pigmentos</b> (espectral, Kubelka-Munk), não como média de RGB.</p>
+  <p class="sub">Escolha a linha de tintas que você tem como ingredientes (Acrilex, Tamiya, Vallejo, Mr. Hobby…) e a cor-alvo de qualquer catálogo (inclusive FS 595 e RAL). A mistura é calculada como <b>pigmentos</b> (espectral, Kubelka-Munk), não como média de RGB.</p>
   <p class="warn" id="erro" hidden></p>
 </header>
 <main>
   <section class="card">
     <h2>1 · Mistura</h2>
+    <div class="row" style="margin-bottom:6px">
+      <label class="muted">tintas <select id="ingSet" title="Linha de tintas usada como ingrediente nesta receita"></select></label>
+      <span class="muted" id="ingSetInfo"></span>
+    </div>
     <div id="ings"></div>
     <div class="row" style="margin-top:10px">
       <button class="pri" id="btnAdd">+ adicionar tinta</button>
@@ -90,7 +94,7 @@
 </main>
 
 <div class="modal" id="modal"><div class="box">
-  <div class="row"><b style="flex:1">Escolha uma tinta Acrilex</b><button id="mClose">fechar</button></div>
+  <div class="row"><b style="flex:1" id="mTitle">Escolha uma tinta</b><button id="mClose">fechar</button></div>
   <div class="row" style="margin:8px 0"><input type="text" id="pSearch" placeholder="buscar…" style="flex:1"><label class="muted"><input type="checkbox" id="pOwn"> só as que tenho</label></div>
   <p class="muted" style="margin:0 0 6px">Clique para adicionar. Botão direito (ou toque longo) marca “tenho esta tinta” (borda verde).</p>
   <div class="grid" id="pGrid" style="max-height:60vh"></div>

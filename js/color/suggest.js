@@ -8,6 +8,11 @@ import { hex2lab, lin2lab, labOfLin } from './convert.js';
 import { dE00 } from './deltaE.js';
 import { mixLin } from './mixing.js';
 
+/** Até este número de tintas, a busca de pares (2 tintas) testa todas as combinações. */
+const LIMITE_BUSCA_COMPLETA = 120;
+/** Acima do limite, a busca de pares usa as tintas mais próximas do alvo (mais as âncoras): este tanto. */
+const TAMANHO_POOL_PARES = 60;
+
 /**
  * @typedef {Object} SuggestPaint
  * @property {string} code  código da tinta.
@@ -84,11 +89,6 @@ export function suggest(paints, targetHex, maxN) {
     return best;
   }
 
-  const allIdx = P.map((_, i) => i);
-  if (maxN >= 2 && P.length >= 2) {
-    const b = gridSearch(allIdx, 2, 0.05);
-    if (b.idx) results.push(b);
-  }
   const anchors = [];
   P.forEach((p, i) => {
     if (p.anchor) anchors.push(i);
@@ -99,6 +99,13 @@ export function suggest(paints, targetHex, maxN) {
     anchors.forEach((a) => s.add(a));
     return [...s];
   };
+  if (maxN >= 2 && P.length >= 2) {
+    // linhas grandes (centenas de tintas) tornariam a busca completa de pares lenta: restringe às
+    // mais próximas do alvo + âncoras. Linhas até LIMITE_BUSCA_COMPLETA tintas são testadas por inteiro.
+    const pool = P.length > LIMITE_BUSCA_COMPLETA ? poolN(TAMANHO_POOL_PARES) : P.map((_, i) => i);
+    const b = gridSearch(pool, 2, 0.05);
+    if (b.idx) results.push(b);
+  }
   if (maxN >= 3 && P.length >= 3) {
     const b = gridSearch(poolN(20), 3, 0.05);
     if (b.idx) results.push(b);

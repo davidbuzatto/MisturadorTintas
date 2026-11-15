@@ -7,8 +7,6 @@
  *   { code: string, name: string, hex: "#rrggbb" }
  */
 
-import { fitHex } from '../color/spectral.js';
-
 /**
  * @typedef {Object} CatalogPaint
  * @property {string} code  código/SKU da tinta.
@@ -63,14 +61,6 @@ export const CATALOG_NAMES = {
   free: 'Livre',
 };
 
-/** Catálogo cujas tintas podem ser usadas como ingredientes da mistura. */
-export const INGREDIENT_CATALOG = 'acrilex';
-
-/**
- * Códigos das tintas "âncora" (branco, preto e primárias fortes): entram
- * sempre nos conjuntos candidatos da sugestão automática.
- */
-export const ANCHOR_CODES = ['519', '520', '505', '559', '555', '549', '504', '503'];
 
 /** Pasta dos JSONs, relativa a este módulo (funciona em qualquer hospedagem). */
 const DATA_DIR = new URL('../../dados/', import.meta.url);
@@ -212,19 +202,4 @@ export function targetOf(tab, paint) {
  */
 export function catalogLines(paints) {
   return [...new Set(paints.map((p) => p.line).filter(Boolean))];
-}
-
-/**
- * Ajusta o espectro de cada tinta do catálogo de ingredientes (`p.fit`) e
- * devolve um índice por código.
- * @param {CatalogPaint[]} paints tintas do catálogo de ingredientes.
- * @returns {Object<string, CatalogPaint>} índice código → tinta.
- */
-export function indexIngredients(paints) {
-  const byCode = {};
-  paints.forEach((p) => {
-    byCode[p.code] = p;
-    p.fit = fitHex(p.hex);
-  });
-  return byCode;
 }

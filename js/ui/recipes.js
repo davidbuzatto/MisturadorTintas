@@ -4,13 +4,14 @@
  * realmente obtida na bancada e exportar/importar JSON.
  */
 
+import { DEFAULT_SET } from '../data/sets.js';
 import { $, deHex, esc } from './dom.js';
 
 /**
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
  */
 export function createRecipes(ctx) {
-  const { state, save, paintByCode } = ctx;
+  const { state, save } = ctx;
 
   /** Cópia profunda de dados simples (JSON). */
   const clone = (o) => JSON.parse(JSON.stringify(o));
@@ -30,7 +31,7 @@ export function createRecipes(ctx) {
       const sum = r.ing.reduce((a, i) => a + i.v, 0) || 1;
       const txt = r.ing
         .map((i) => {
-          const p = paintByCode[i.code];
+          const p = ctx.sets.paint(r.set || DEFAULT_SET, i.code);
           return `${((i.v / sum) * 100).toFixed(0)}% ${esc(p ? p.name : i.code)}${i.s && i.s !== 1 ? ` (×${i.s})` : ''}`;
         })
         .join(' + ');
@@ -51,6 +52,7 @@ export function createRecipes(ctx) {
       colorIn.onchange = () => { r.obs = colorIn.value; save(); render(); };
       textIn.onchange = () => { r.note = textIn.value; save(); };
       btnLoad.onclick = () => {
+        ctx.ui.ingredients.setSet(r.set || DEFAULT_SET);
         state.ing = clone(r.ing);
         state.target = r.target;
         ctx.ui.ingredients.setModel(r.model || 'km');
@@ -71,6 +73,7 @@ export function createRecipes(ctx) {
     if (name === null) return;
     state.hist.unshift({
       name,
+      set: state.ingSet,
       target: state.target,
       ing: clone(state.ing),
       model: state.model,
