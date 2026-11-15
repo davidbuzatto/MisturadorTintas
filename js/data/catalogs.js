@@ -16,6 +16,8 @@ import { fitHex } from '../color/spectral.js';
  * @property {string} hex   cor aproximada "#rrggbb".
  * @property {string} [line]    linha de produtos (ex.: "Model Color"); só em catálogos com várias linhas.
  * @property {string} [series]  série dentro da linha (ex.: "Wash"); vazio na série principal.
+ * @property {Object<string,string>} [equiv]  equivalências em outras marcas informadas pelo catálogo
+ *           (ex.: `{tamiya: "XF-1", modelColor: "70.950"}`), quando existem.
  * @property {string} [finish]  acabamento (ex.: "Gloss", "Matte"), quando o catálogo informa.
  * @property {boolean} [degrade]  amostra em degradê/metálica: a cor é só uma aproximação.
  * @property {import('../color/spectral.js').PaintFit} [fit]  ajuste espectral
@@ -26,7 +28,7 @@ import { fitHex } from '../color/spectral.js';
  * Catálogos disponíveis como cor-alvo, na ordem em que as abas aparecem.
  * `free` não é um catálogo: é a aba de cor livre (seletor de cor).
  */
-export const TARGET_TABS = ['tamiyaA', 'tamiyaL', 'revellA', 'revellE', 'fs595', 'vallejo', 'mrhobby', 'humbrol', 'ral', 'ak', 'acrilex', 'free'];
+export const TARGET_TABS = ['tamiyaA', 'tamiyaL', 'revellA', 'revellE', 'fs595', 'vallejo', 'mrhobby', 'humbrol', 'ral', 'ak', 'ammo', 'acrilex', 'free'];
 
 /**
  * Abas de versões anteriores → aba equivalente atual. Usado para restaurar a
@@ -57,6 +59,7 @@ export const CATALOG_NAMES = {
   humbrol: 'Humbrol',
   ral: 'RAL',
   ak: 'AK',
+  ammo: 'AMMO',
   acrilex: 'Acrilex',
   free: 'Livre',
 };
@@ -98,13 +101,13 @@ function revellLabel(d) {
 
 /**
  * Monta os catálogos normalizados a partir dos JSONs brutos (função pura, sem rede).
- * @param {{ac: object[], tm: object[], rv: object[], fs: object[], vl: object[], mr: object[], hb: object[], ral: object[], ak: object[]}} raw conteúdo de
+ * @param {{ac: object[], tm: object[], rv: object[], fs: object[], vl: object[], mr: object[], hb: object[], ral: object[], ak: object[], am: object[]}} raw conteúdo de
  *        `acrilex-cores-oficial`, `tamiya-cores-oficial`, `revell-cores-oficial`,
- *        `fs595-cores`, `vallejo-cores`, `mrcolor-cores`, `humbrol-cores`, `ral-cores` e `ak-cores`.
+ *        `fs595-cores`, `vallejo-cores`, `mrcolor-cores`, `humbrol-cores`, `ral-cores`, `ak-cores` e `ammo-cores`.
  * @returns {Object<string, CatalogPaint[]>} catálogos por chave
- *          (`acrilex`, `tamiyaA`, `tamiyaL`, `revellA`, `revellE`, `fs595`, `vallejo`, `mrhobby`, `humbrol`, `ral`, `ak`).
+ *          (`acrilex`, `tamiyaA`, `tamiyaL`, `revellA`, `revellE`, `fs595`, `vallejo`, `mrhobby`, `humbrol`, `ral`, `ak`, `ammo`).
  */
-export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak }) {
+export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak, am }) {
   // Tamiya: aditivos (sem cor) ficam de fora; separado por base química
   const tamiya = (base) =>
     tm.filter((d) => d.hex && !d.aditivo && d.base === base).map((d) => ({ code: d.code, name: d.name, hex: d.hex }));
@@ -147,6 +150,15 @@ export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak }) {
     ral: ral.map((d) => ({ code: d.code, name: d.name, hex: d.hex })),
     // AK Real Colors (lacquer): as seções Standard, Civil e Military viram "linhas" na interface
     ak: ak.map((d) => ({ code: d.code, name: d.name, hex: d.hex, line: d.series, ...(d.degrade ? { degrade: true } : {}) })),
+    // AMMO by Mig: linhas Acrylic Colors (A.MIG) e ATOM. A referência RAL/FS vai junto do nome, se ainda não estiver nele.
+    ammo: am.map((d) => ({
+      code: d.code,
+      name: d.ref && !d.name.replace(/\s/g, '').toLowerCase().includes(d.ref.replace(/\s/g, '').toLowerCase()) ? `${d.name} (${d.ref})` : d.name,
+      hex: d.hex,
+      line: d.line,
+      ...(d.equiv ? { equiv: d.equiv } : {}),
+      ...(d.degrade ? { degrade: true } : {}),
+    })),
   };
 }
 
@@ -155,7 +167,7 @@ export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak }) {
  * @returns {Promise<Object<string, CatalogPaint[]>>} catálogos por chave (ver {@link buildCatalogs}).
  */
 export async function loadCatalogs() {
-  const [ac, tm, rv, fs, vl, mr, hb, ral, ak] = await Promise.all([
+  const [ac, tm, rv, fs, vl, mr, hb, ral, ak, am] = await Promise.all([
     loadJson('acrilex-cores-oficial.json'),
     loadJson('tamiya-cores-oficial.json'),
     loadJson('revell-cores-oficial.json'),
@@ -165,8 +177,9 @@ export async function loadCatalogs() {
     loadJson('humbrol-cores.json'),
     loadJson('ral-cores.json'),
     loadJson('ak-cores.json'),
+    loadJson('ammo-cores.json'),
   ]);
-  return buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak });
+  return buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak, am });
 }
 
 /**

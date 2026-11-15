@@ -51,6 +51,7 @@ test('buildCatalogs: catálogos antigos inalterados e Tamiya dividido sem perda'
     hb: [],
     ral: [],
     ak: [],
+    am: [],
   });
   assert.deepEqual(cat.acrilex, golden.acrilex);
   assert.deepEqual(cat.revellA, golden.revellA);
@@ -106,6 +107,7 @@ test('buildCatalogs inclui Vallejo e catalogLines lista as linhas', async () => 
     hb: ler('humbrol-cores.json'),
     ral: ler('ral-cores.json'),
     ak: ler('ak-cores.json'),
+    am: ler('ammo-cores.json'),
   });
   assert.equal(cat.vallejo.length, ler('vallejo-cores.json').length);
   assert.deepEqual(catalogLines(cat.vallejo).slice(0, 2), ['Model Color', 'Liquid Metal']);
@@ -187,4 +189,24 @@ test('AK Real Colors: registros completos, seções e cores conhecidas', () => {
   const por = Object.fromEntries(cores.map((c) => [c.code, c]));
   assert.equal(por.RC806.hex, '#ffffff'); // Flat White
   assert.match(por.RC810.name, /RAL 3000/);
+});
+
+test('AMMO: registros completos, linhas esperadas e equivalências', () => {
+  const cores = ler('ammo-cores.json');
+  const codigos = cores.map((c) => c.code);
+  assert.equal(new Set(codigos).size, codigos.length, 'códigos repetidos');
+  const porLinha = {};
+  for (const c of cores) {
+    assert.match(c.hex, HEX, `hex de ${c.code}`);
+    assert.ok(c.name, `nome de ${c.code}`);
+    assert.ok(!Object.keys(c).some((k) => k.startsWith('_')), 'campos de depuração no JSON');
+    porLinha[c.line] = (porLinha[c.line] || 0) + 1;
+  }
+  assert.deepEqual(porLinha, { 'Acrylic Colors': 236, ATOM: 181 });
+  const por = Object.fromEntries(cores.map((c) => [c.code, c]));
+  assert.equal(por['A.MIG-0047'].hex, '#ffffff'); // Satin White
+  assert.equal(por['A.MIG-0046'].hex, '#231f20'); // Matt Black
+  assert.equal(por['A.MIG-0046'].equiv.tamiya, 'XF-1');
+  assert.equal(por['A.MIG-0046'].equiv.mrColor, 'C-33');
+  assert.equal(por['A.MIG-0001'].equiv.atom, 'ATOM-20067');
 });

@@ -1,0 +1,4568 @@
+[
+ {
+  "code": "A.MIG-0001",
+  "name": "OLIVGRÜN OPT.1",
+  "line": "Acrylic Colors",
+  "ref": "RAL 6003",
+  "hex": "#31382d",
+  "equiv": {
+   "tamiya": "XF-61",
+   "modelColor": "70.888",
+   "atom": "ATOM-20067"
+  }
+ },
+ {
+  "code": "A.MIG-0002",
+  "name": "OLIVGRÜN OPT.2",
+  "line": "Acrylic Colors",
+  "ref": "FS34082-RAL 6003",
+  "hex": "#455a35",
+  "equiv": {
+   "hobbyColor": "H-48",
+   "mrColor": "C-52",
+   "tamiya": "XF-65",
+   "modelColor": "70.890",
+   "modelAir": "71.092",
+   "atom": "ATOM-20079"
+  }
+ },
+ {
+  "code": "A.MIG-0003",
+  "name": "RESEDAGRÜN",
+  "line": "Acrylic Colors",
+  "ref": "FS34227-RAL 6011",
+  "hex": "#597b4b",
+  "equiv": {
+   "hobbyColor": "H-312",
+   "mrColor": "C-312",
+   "modelColor": "70.891",
+   "modelAir": "71.126"
+  }
+ },
+ {
+  "code": "A.MIG-0004",
+  "name": "RESEDAGRÜN B",
+  "line": "Acrylic Colors",
+  "ref": "RAL 6011",
+  "hex": "#455a35",
+  "equiv": {
+   "hobbyColor": "H-340",
+   "mrColor": "C-340",
+   "atom": "ATOM-20074"
+  }
+ },
+ {
+  "code": "A.MIG-0005",
+  "name": "GRAUGRÜN",
+  "line": "Acrylic Colors",
+  "ref": "RAL 7008",
+  "hex": "#58513c",
+  "equiv": {
+   "modelAir": "71.116"
+  }
+ },
+ {
+  "code": "A.MIG-0006",
+  "name": "GRAUGRÜN OPT.2",
+  "line": "Acrylic Colors",
+  "ref": "RAL 7008",
+  "hex": "#778049"
+ },
+ {
+  "code": "A.MIG-0007",
+  "name": "DUNKELBRAUN",
+  "line": "Acrylic Colors",
+  "ref": "RAL 7017",
+  "hex": "#493a34",
+  "equiv": {
+   "modelColor": "70.347",
+   "modelAir": "71.248"
+  }
+ },
+ {
+  "code": "A.MIG-0008",
+  "name": "DUNKELGRAU",
+  "line": "Acrylic Colors",
+  "ref": "RAL 7021",
+  "hex": "#2a2b38",
+  "equiv": {
+   "hobbyColor": "H-401",
+   "modelColor": "70.862",
+   "modelAir": "71.056",
+   "atom": "ATOM-20160"
+  }
+ },
+ {
+  "code": "A.MIG-0009",
+  "name": "SANDGRAU",
+  "line": "Acrylic Colors",
+  "ref": "RAL 7027",
+  "hex": "#b3a386",
+  "equiv": {
+   "hobbyColor": "H-321",
+   "mrColor": "C-321"
+  }
+ },
+ {
+  "code": "A.MIG-0010",
+  "name": "DUNKELGELB (MID WAR)",
+  "line": "Acrylic Colors",
+  "ref": "RAL 7028",
+  "hex": "#928c3c",
+  "equiv": {
+   "hobbyColor": "H-403",
+   "tamiya": "XF-60",
+   "modelAir": "71.025",
+   "atom": "ATOM-20012"
+  }
+ },
+ {
+  "code": "A.MIG-0011",
+  "name": "DUNKELGELB AUS ’44 DG I",
+  "line": "Acrylic Colors",
+  "ref": "FS33440-RAL 7028",
+  "hex": "#b8b472",
+  "equiv": {
+   "modelColor": "70.978",
+   "atom": "ATOM-20010"
+  }
+ },
+ {
+  "code": "A.MIG-0012",
+  "name": "DUNKELGELB AUS ’44 DG III",
+  "line": "Acrylic Colors",
+  "ref": "RAL 7028",
+  "hex": "#cbc391",
+  "equiv": {
+   "atom": "ATOM-20005"
+  }
+ },
+ {
+  "code": "A.MIG-0013",
+  "name": "GELBBRAUN",
+  "line": "Acrylic Colors",
+  "ref": "RAL 8000",
+  "hex": "#9f8a6b",
+  "equiv": {
+   "hobbyColor": "H-27",
+   "mrColor": "C-44",
+   "tamiya": "XF-57",
+   "modelColor": "70.879",
+   "modelAir": "71.272"
+  }
+ },
+ {
+  "code": "A.MIG-0014",
+  "name": "ROTBRAUN",
+  "line": "Acrylic Colors",
+  "ref": "RAL 8012",
+  "hex": "#7d2b23",
+  "equiv": {
+   "hobbyColor": "H-47 / H-460",
+   "mrColor": "C-41",
+   "tamiya": "XF-64",
+   "modelColor": "70.814",
+   "modelAir": "71.271",
+   "atom": "ATOM-20046"
+  }
+ },
+ {
+  "code": "A.MIG-0015",
+  "name": "SCHOKOBRAUN",
+  "line": "Acrylic Colors",
+  "ref": "FS30059-RAL 8017",
+  "hex": "#482b2f",
+  "equiv": {
+   "hobbyColor": "H-406",
+   "tamiya": "XF-10",
+   "modelColor": "70.985",
+   "modelAir": "71.041",
+   "atom": "ATOM-20062"
+  }
+ },
+ {
+  "code": "A.MIG-0016",
+  "name": "GELBBRAUN",
+  "line": "Acrylic Colors",
+  "ref": "RAL 8020",
+  "hex": "#d7ba62",
+  "equiv": {
+   "atom": "ATOM-20015"
+  }
+ },
+ {
+  "code": "A.MIG-0017",
+  "name": "CREMEWEISS",
+  "line": "Acrylic Colors",
+  "ref": "RAL 9001",
+  "hex": "#e7e8ab",
+  "equiv": {
+   "modelColor": "70.918",
+   "modelAir": "71.270",
+   "atom": "ATOM-20002"
+  }
+ },
+ {
+  "code": "A.MIG-0018",
+  "name": "WAFFEN SS - POLIZEI GRÜN",
+  "line": "Acrylic Colors",
+  "hex": "#3c645c",
+  "equiv": {
+   "atom": "ATOM-20100"
+  }
+ },
+ {
+  "code": "A.MIG-0019",
+  "name": "RUSSIAN GREEN",
+  "line": "Acrylic Colors",
+  "ref": "4BO",
+  "hex": "#464c30",
+  "equiv": {
+   "modelColor": "70.924",
+   "modelAir": "71.017",
+   "atom": "ATOM-20071"
+  }
+ },
+ {
+  "code": "A.MIG-0020",
+  "name": "RUSSIAN BROWN",
+  "line": "Acrylic Colors",
+  "ref": "6K",
+  "hex": "#362c2d",
+  "equiv": {
+   "modelColor": "70.941",
+   "modelAir": "71.282"
+  }
+ },
+ {
+  "code": "A.MIG-0021",
+  "name": "RUSSIAN TAN",
+  "line": "Acrylic Colors",
+  "ref": "7K",
+  "hex": "#64563d",
+  "equiv": {
+   "modelColor": "70.310",
+   "modelAir": "71.283"
+  }
+ },
+ {
+  "code": "A.MIG-0022",
+  "name": "BASIC PROTECTOR ALKIDNO-URETANOVAYA",
+  "line": "Acrylic Colors",
+  "ref": "3B AU",
+  "hex": "#362e22",
+  "equiv": {
+   "modelColor": "70.337",
+   "modelAir": "71.281"
+  }
+ },
+ {
+  "code": "A.MIG-0023",
+  "name": "PROTECTIVE GREEN",
+  "line": "Acrylic Colors",
+  "ref": "FS34227",
+  "hex": "#53897c",
+  "equiv": {
+   "hobbyColor": "H-312",
+   "mrColor": "C-312",
+   "tamiya": "XF-71",
+   "atom": "ATOM-20081"
+  }
+ },
+ {
+  "code": "A.MIG-0024",
+  "name": "WASHABLE WHITE CAMO",
+  "line": "Acrylic Colors",
+  "hex": "#ffffff",
+  "equiv": {
+   "atom": "ATOM-20177"
+  }
+ },
+ {
+  "code": "A.MIG-0025",
+  "name": "US MODERN VEHICLES",
+  "line": "Acrylic Colors",
+  "ref": "FS 33446",
+  "hex": "#ba9a6f",
+  "equiv": {
+   "modelColor": "70.819",
+   "modelAir": "71.140",
+   "atom": "ATOM-20009"
+  }
+ },
+ {
+  "code": "A.MIG-0026",
+  "name": "SAND BROWN",
+  "line": "Acrylic Colors",
+  "ref": "RAL 8031 F9",
+  "hex": "#bf927f",
+  "equiv": {
+   "hobbyColor": "H-44",
+   "mrColor": "C-51",
+   "modelColor": "70.977",
+   "modelAir": "71.117"
+  }
+ },
+ {
+  "code": "A.MIG-0027",
+  "name": "GERMAN SAND BEIGE",
+  "line": "Acrylic Colors",
+  "ref": "RAL1039 F9",
+  "hex": "#b6a563",
+  "equiv": {
+   "modelColor": "70.917",
+   "modelAir": "71.244",
+   "atom": "ATOM-20006"
+  }
+ },
+ {
+  "code": "A.MIG-0028",
+  "name": "GERMAN GREY BEIGE",
+  "line": "Acrylic Colors",
+  "ref": "RAL 1039 F7",
+  "hex": "#736f60",
+  "equiv": {
+   "modelColor": "70.821",
+   "modelAir": "71.131"
+  }
+ },
+ {
+  "code": "A.MIG-0029",
+  "name": "DESERT SAND",
+  "line": "Acrylic Colors",
+  "hex": "#b8a464",
+  "equiv": {
+   "atom": "ATOM-20007"
+  }
+ },
+ {
+  "code": "A.MIG-0030",
+  "name": "SAND YELLOW",
+  "line": "Acrylic Colors",
+  "ref": "BS 381c 361",
+  "hex": "#c89540",
+  "equiv": {
+   "hobbyColor": "H-459",
+   "modelAir": "71.143",
+   "atom": "ATOM-20021"
+  }
+ },
+ {
+  "code": "A.MIG-0031",
+  "name": "SPANISH GREEN-KHAKI",
+  "line": "Acrylic Colors",
+  "hex": "#47402d",
+  "equiv": {
+   "modelColor": "70.314",
+   "modelAir": "71.247"
+  }
+ },
+ {
+  "code": "A.MIG-0032",
+  "name": "SATIN BLACK",
+  "line": "Acrylic Colors",
+  "hex": "#191413",
+  "equiv": {
+   "hobbyColor": "H-2",
+   "mrColor": "C-2 / C-92",
+   "modelColor": "70.861",
+   "atom": "ATOM-20162"
+  }
+ },
+ {
+  "code": "A.MIG-0033",
+  "name": "RUBBER & TIRES",
+  "line": "Acrylic Colors",
+  "hex": "#38333e",
+  "equiv": {
+   "hobbyColor": "H-77",
+   "mrColor": "C-137",
+   "modelColor": "70.306",
+   "modelAir": "71.315",
+   "atom": "ATOM-20159"
+  }
+ },
+ {
+  "code": "A.MIG-0034",
+  "name": "RUST TRACKS",
+  "line": "Acrylic Colors",
+  "ref": "FS 30111-BS435",
+  "hex": "#312122",
+  "equiv": {
+   "modelColor": "70.343",
+   "modelAir": "71.080",
+   "atom": "ATOM-20055"
+  }
+ },
+ {
+  "code": "A.MIG-0035",
+  "name": "DARK TRACKS",
+  "line": "Acrylic Colors",
+  "hex": "#0f0b0c",
+  "equiv": {
+   "hobbyColor": "H-84",
+   "mrColor": "C-42",
+   "modelColor": "70.302",
+   "modelAir": "71.039"
+  }
+ },
+ {
+  "code": "A.MIG-0036",
+  "name": "OLD WOOD",
+  "line": "Acrylic Colors",
+  "hex": "#ad9159",
+  "equiv": {
+   "modelAir": "71.075",
+   "atom": "ATOM-20004"
+  }
+ },
+ {
+  "code": "A.MIG-0037",
+  "name": "NEW WOOD",
+  "line": "Acrylic Colors",
+  "hex": "#b1a061",
+  "equiv": {
+   "modelColor": "70.321"
+  }
+ },
+ {
+  "code": "A.MIG-0038",
+  "name": "LIGHT WOOD",
+  "line": "Acrylic Colors",
+  "hex": "#aa9f71",
+  "equiv": {
+   "hobbyColor": "H-79",
+   "mrColor": "C-39",
+   "tamiya": "XF-78",
+   "modelAir": "71.028"
+  }
+ },
+ {
+  "code": "A.MIG-0039",
+  "name": "LIGHT RUST",
+  "line": "Acrylic Colors",
+  "hex": "#d97d24",
+  "equiv": {
+   "hobbyColor": "H-24",
+   "mrColor": "C-58",
+   "modelColor": "70.911",
+   "modelAir": "71.130",
+   "atom": "ATOM-20023"
+  }
+ },
+ {
+  "code": "A.MIG-0040",
+  "name": "MEDIUM RUST",
+  "line": "Acrylic Colors",
+  "hex": "#ae4236",
+  "equiv": {
+   "hobbyColor": "H-453",
+   "modelColor": "70.981",
+   "modelAir": "71.129",
+   "atom": "ATOM-20045"
+  }
+ },
+ {
+  "code": "A.MIG-0041",
+  "name": "DARK RUST",
+  "line": "Acrylic Colors",
+  "hex": "#82312b",
+  "equiv": {
+   "modelColor": "70.818",
+   "atom": "ATOM-20047"
+  }
+ },
+ {
+  "code": "A.MIG-0042",
+  "name": "OLD RUST",
+  "line": "Acrylic Colors",
+  "hex": "#3d2226",
+  "equiv": {
+   "modelColor": "70.859",
+   "modelAir": "71.040",
+   "atom": "ATOM-20058"
+  }
+ },
+ {
+  "code": "A.MIG-0043",
+  "name": "SHADOW RUST",
+  "line": "Acrylic Colors",
+  "hex": "#2d191e",
+  "equiv": {
+   "modelColor": "70.307"
+  }
+ },
+ {
+  "code": "A.MIG-0044",
+  "name": "CHIPPING",
+  "line": "Acrylic Colors",
+  "hex": "#0f0b0c",
+  "equiv": {
+   "modelColor": "70.304",
+   "atom": "ATOM-20064"
+  }
+ },
+ {
+  "code": "A.MIG-0045",
+  "name": "GUN METAL",
+  "line": "Acrylic Colors",
+  "ref": "FS37200-RAL 9007-RLM 03",
+  "hex": "#656263",
+  "equiv": {
+   "tamiya": "X-10",
+   "modelColor": "70.863",
+   "modelAir": "71.072",
+   "atom": "ATOM-20167"
+  }
+ },
+ {
+  "code": "A.MIG-0046",
+  "name": "MATT BLACK",
+  "line": "Acrylic Colors",
+  "ref": "FS37038-RAL 9005-RLM 22-MS17",
+  "hex": "#231f20",
+  "equiv": {
+   "hobbyColor": "H-12",
+   "mrColor": "C-33",
+   "tamiya": "XF-1",
+   "modelColor": "70.950",
+   "modelAir": "71.057",
+   "atom": "ATOM-20163"
+  }
+ },
+ {
+  "code": "A.MIG-0047",
+  "name": "SATIN WHITE",
+  "line": "Acrylic Colors",
+  "hex": "#ffffff",
+  "equiv": {
+   "hobbyColor": "H-1",
+   "mrColor": "C-1",
+   "modelColor": "70.842",
+   "atom": "ATOM-20001"
+  }
+ },
+ {
+  "code": "A.MIG-0048",
+  "name": "YELLOW",
+  "line": "Acrylic Colors",
+  "ref": "RAL 1023",
+  "hex": "#d7b321",
+  "equiv": {
+   "hobbyColor": "H-4",
+   "mrColor": "C-4",
+   "tamiya": "XF-3",
+   "modelColor": "70.915",
+   "modelAir": "71.002",
+   "atom": "ATOM-20018"
+  }
+ },
+ {
+  "code": "A.MIG-0049",
+  "name": "RED",
+  "line": "Acrylic Colors",
+  "ref": "FS31302-RAL 3020-RLM 23",
+  "hex": "#b6282a",
+  "equiv": {
+   "hobbyColor": "H-3 / H-13 / H-23 / H-414",
+   "mrColor": "C-3 / C-79 / C-114",
+   "tamiya": "XF-7",
+   "modelColor": "70.909",
+   "modelAir": "71.003",
+   "atom": "ATOM-20029"
+  }
+ },
+ {
+  "code": "A.MIG-0050",
+  "name": "MATT WHITE",
+  "line": "Acrylic Colors",
+  "ref": "FS37925-RAL 9016-RLM 21",
+  "hex": "#ffffff",
+  "equiv": {
+   "hobbyColor": "H-11 / H-451",
+   "mrColor": "C-62",
+   "tamiya": "XF-2",
+   "modelColor": "70.951",
+   "modelAir": "71.001",
+   "atom": "ATOM-20000"
+  }
+ },
+ {
+  "code": "A.MIG-0051",
+  "name": "MEDIUM LIGHT GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#689b6e",
+  "equiv": {
+   "modelColor": "70.336"
+  }
+ },
+ {
+  "code": "A.MIG-0052",
+  "name": "DEEP GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#1a4130",
+  "equiv": {
+   "modelColor": "70.970",
+   "modelAir": "71.007",
+   "atom": "ATOM-20092"
+  }
+ },
+ {
+  "code": "A.MIG-0053",
+  "name": "PROTECTIVE MC 1200",
+  "line": "Acrylic Colors",
+  "hex": "#232f36",
+  "equiv": {
+   "tamiya": "XF-70",
+   "atom": "ATOM-20098"
+  }
+ },
+ {
+  "code": "A.MIG-0054",
+  "name": "SIGNAL GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#0a5429",
+  "equiv": {
+   "hobbyColor": "H-26",
+   "mrColor": "C-66",
+   "atom": "ATOM-20091"
+  }
+ },
+ {
+  "code": "A.MIG-0055",
+  "name": "OIL OCHRE",
+  "line": "Acrylic Colors",
+  "hex": "#bda041",
+  "equiv": {
+   "modelColor": "70.916",
+   "modelAir": "71.033"
+  }
+ },
+ {
+  "code": "A.MIG-0056",
+  "name": "GREEN KHAKI",
+  "line": "Acrylic Colors",
+  "ref": "KHS-5146-RLM 83",
+  "hex": "#4b4a39",
+  "equiv": {
+   "hobbyColor": "H-423",
+   "mrColor": "C-123",
+   "tamiya": "XF-51",
+   "modelColor": "70.318",
+   "modelAir": "71.011"
+  }
+ },
+ {
+  "code": "A.MIG-0057",
+  "name": "YELLOW GREY",
+  "line": "Acrylic Colors",
+  "ref": "PKHV-4",
+  "hex": "#baa87d",
+  "equiv": {
+   "modelAir": "71.326"
+  }
+ },
+ {
+  "code": "A.MIG-0058",
+  "name": "LIGHT GREEN KHAKI",
+  "line": "Acrylic Colors",
+  "ref": "PKHV-512",
+  "hex": "#6d744a"
+ },
+ {
+  "code": "A.MIG-0059",
+  "name": "GREY",
+  "line": "Acrylic Colors",
+  "ref": "FS36251-KHV-16",
+  "hex": "#747f8c",
+  "equiv": {
+   "hobbyColor": "H-22",
+   "modelAir": "71.050",
+   "atom": "ATOM-20135"
+  }
+ },
+ {
+  "code": "A.MIG-0060",
+  "name": "PALE GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#376335",
+  "equiv": {
+   "tamiya": "XF-5",
+   "modelColor": "70.967",
+   "modelAir": "71.006"
+  }
+ },
+ {
+  "code": "A.MIG-0061",
+  "name": "WARM SAND-YELLOW",
+  "line": "Acrylic Colors",
+  "hex": "#c4a846",
+  "equiv": {
+   "modelAir": "71.074"
+  }
+ },
+ {
+  "code": "A.MIG-0062",
+  "name": "FRENCH BLUE",
+  "line": "Acrylic Colors",
+  "hex": "#386273",
+  "equiv": {
+   "hobbyColor": "H-42",
+   "mrColor": "C-72",
+   "tamiya": "XF-18",
+   "modelColor": "70.900",
+   "modelAir": "71.113",
+   "atom": "ATOM-20105"
+  }
+ },
+ {
+  "code": "A.MIG-0063",
+  "name": "PALE GREY",
+  "line": "Acrylic Colors",
+  "ref": "FS36480-RLM 76",
+  "hex": "#89c1a7",
+  "equiv": {
+   "hobbyColor": "H-417",
+   "mrColor": "C-117",
+   "tamiya": "XF-23",
+   "modelColor": "70.907",
+   "modelAir": "71.257",
+   "atom": "ATOM-20130"
+  }
+ },
+ {
+  "code": "A.MIG-0064",
+  "name": "EARTH BROWN",
+  "line": "Acrylic Colors",
+  "hex": "#7a382e",
+  "equiv": {
+   "modelColor": "70.303",
+   "modelAir": "71.037",
+   "atom": "ATOM-20052"
+  }
+ },
+ {
+  "code": "A.MIG-0065",
+  "name": "FOREST GREEN",
+  "line": "Acrylic Colors",
+  "ref": "FS34102",
+  "hex": "#34402e",
+  "equiv": {
+   "hobbyColor": "H-303",
+   "mrColor": "C-303",
+   "tamiya": "XF-58",
+   "modelColor": "70.348"
+  }
+ },
+ {
+  "code": "A.MIG-0066",
+  "name": "FADED SINAI GREY",
+  "line": "Acrylic Colors",
+  "hex": "#686559",
+  "equiv": {
+   "modelAir": "71.142"
+  }
+ },
+ {
+  "code": "A.MIG-0067",
+  "name": "LIGHT SAND GREY",
+  "line": "Acrylic Colors",
+  "hex": "#a89b72",
+  "equiv": {
+   "atom": "ATOM-20008"
+  }
+ },
+ {
+  "code": "A.MIG-0068",
+  "name": "IDF GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#3a4935"
+ },
+ {
+  "code": "A.MIG-0069",
+  "name": "BLUE GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#2a382b",
+  "equiv": {
+   "hobbyColor": "H-36 / H-59",
+   "mrColor": "C-15",
+   "tamiya": "XF-11"
+  }
+ },
+ {
+  "code": "A.MIG-0070",
+  "name": "MEDIUM BROWN",
+  "line": "Acrylic Colors",
+  "hex": "#4a2e2c",
+  "equiv": {
+   "hobbyColor": "H-341",
+   "modelColor": "70.312",
+   "modelAir": "71.035",
+   "atom": "ATOM-20057"
+  }
+ },
+ {
+  "code": "A.MIG-0071",
+  "name": "KHAKI",
+  "line": "Acrylic Colors",
+  "hex": "#694935",
+  "equiv": {
+   "hobbyColor": "H-404",
+   "tamiya": "XF-49",
+   "modelColor": "70.339",
+   "modelAir": "71.136"
+  }
+ },
+ {
+  "code": "A.MIG-0072",
+  "name": "DUST",
+  "line": "Acrylic Colors",
+  "hex": "#878469",
+  "equiv": {
+   "tamiya": "XF-55",
+   "modelColor": "70.315",
+   "atom": "ATOM-20143"
+  }
+ },
+ {
+  "code": "A.MIG-0073",
+  "name": "EARTH",
+  "line": "Acrylic Colors",
+  "hex": "#6b4c3a",
+  "equiv": {
+   "hobbyColor": "H-457",
+   "tamiya": "XF-52",
+   "modelColor": "70.874",
+   "modelAir": "71.024",
+   "atom": "ATOM-20051"
+  }
+ },
+ {
+  "code": "A.MIG-0074",
+  "name": "GREEN MOSS",
+  "line": "Acrylic Colors",
+  "hex": "#5d623a",
+  "equiv": {
+   "modelColor": "70.328",
+   "modelAir": "71.010"
+  }
+ },
+ {
+  "code": "A.MIG-0075",
+  "name": "STONE GREY",
+  "line": "Acrylic Colors",
+  "hex": "#a5a9a8",
+  "equiv": {
+   "tamiya": "XF-80",
+   "atom": "ATOM-20132"
+  }
+ },
+ {
+  "code": "A.MIG-0076",
+  "name": "BROWN SOIL",
+  "line": "Acrylic Colors",
+  "hex": "#633d39",
+  "equiv": {
+   "hobbyColor": "H-456"
+  }
+ },
+ {
+  "code": "A.MIG-0077",
+  "name": "DULL GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#3a554f",
+  "equiv": {
+   "modelAir": "71.267"
+  }
+ },
+ {
+  "code": "A.MIG-0078",
+  "name": "OCHRE EARTH",
+  "line": "Acrylic Colors",
+  "hex": "#b47e50",
+  "equiv": {
+   "modelColor": "70.927"
+  }
+ },
+ {
+  "code": "A.MIG-0079",
+  "name": "CLAY BROWN",
+  "line": "Acrylic Colors",
+  "hex": "#5f3429",
+  "equiv": {
+   "hobbyColor": "H-37",
+   "mrColor": "C-43",
+   "modelAir": "71.034",
+   "atom": "ATOM-20048"
+  }
+ },
+ {
+  "code": "A.MIG-0080",
+  "name": "BRIGHT GREEN AMT-4",
+  "line": "Acrylic Colors",
+  "hex": "#507b41",
+  "equiv": {
+   "modelAir": "71.301",
+   "atom": "ATOM-20084"
+  }
+ },
+ {
+  "code": "A.MIG-0081",
+  "name": "US OLIVE DRAB VIETNAM ERA",
+  "line": "Acrylic Colors",
+  "ref": "FS 24087",
+  "hex": "#3b4437",
+  "equiv": {
+   "hobbyColor": "H-304 /H-405",
+   "mrColor": "C-304",
+   "tamiya": "XF-73",
+   "modelAir": "71.289"
+  }
+ },
+ {
+  "code": "A.MIG-0082",
+  "name": "APC INTERIOR LIGHT GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#7b9c7d",
+  "equiv": {
+   "modelColor": "70.331",
+   "atom": "ATOM-20128"
+  }
+ },
+ {
+  "code": "A.MIG-0083",
+  "name": "ZASHCHITNIY ZELENO (RUSSIAN POSTWAR GREEN)",
+  "line": "Acrylic Colors",
+  "ref": "XB 518",
+  "hex": "#444834",
+  "equiv": {
+   "hobbyColor": "H-320",
+   "mrColor": "C-320",
+   "modelColor": "70.326",
+   "modelAir": "71.285"
+  }
+ },
+ {
+  "code": "A.MIG-0084",
+  "name": "NATO GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#3c4137",
+  "equiv": {
+   "hobbyColor": "H-80",
+   "mrColor": "C-54",
+   "tamiya": "XF-67",
+   "modelAir": "71.093",
+   "atom": "ATOM-20066"
+  }
+ },
+ {
+  "code": "A.MIG-0085",
+  "name": "NATO BROWN",
+  "line": "Acrylic Colors",
+  "ref": "FS 30051-RAL 8027",
+  "hex": "#3c272b",
+  "equiv": {
+   "tamiya": "XF-68",
+   "modelColor": "70.871",
+   "modelAir": "71.249",
+   "atom": "ATOM-20061"
+  }
+ },
+ {
+  "code": "A.MIG-0086",
+  "name": "BLUE",
+  "line": "Acrylic Colors",
+  "ref": "RAL 5019",
+  "hex": "#315a8f",
+  "equiv": {
+   "hobbyColor": "H-323",
+   "mrColor": "C-323",
+   "modelColor": "70.844",
+   "modelAir": "71.089",
+   "atom": "ATOM-20110"
+  }
+ },
+ {
+  "code": "A.MIG-0087",
+  "name": "GELBOLIV",
+  "line": "Acrylic Colors",
+  "ref": "RAL 6014",
+  "hex": "#3c4035",
+  "equiv": {
+   "modelColor": "70.877",
+   "modelAir": "71.012"
+  }
+ },
+ {
+  "code": "A.MIG-0088",
+  "name": "KHAKI BROWN",
+  "line": "Acrylic Colors",
+  "hex": "#a6885e",
+  "equiv": {
+   "modelColor": "70.860",
+   "modelAir": "71.077"
+  }
+ },
+ {
+  "code": "A.MIG-0089",
+  "name": "MATT VARNISH",
+  "line": "Acrylic Colors",
+  "hex": "#ffffff",
+  "equiv": {
+   "hobbyColor": "H-20",
+   "mrColor": "C-182",
+   "modelColor": "70.520"
+  }
+ },
+ {
+  "code": "A.MIG-0090",
+  "name": "SATIN VARNISH",
+  "line": "Acrylic Colors",
+  "hex": "#ffffff",
+  "equiv": {
+   "modelColor": "70.522"
+  }
+ },
+ {
+  "code": "A.MIG-0091",
+  "name": "GLOSSY VARNISH",
+  "line": "Acrylic Colors",
+  "hex": "#ffffff",
+  "equiv": {
+   "hobbyColor": "H-30",
+   "mrColor": "C-46",
+   "modelColor": "70.510"
+  }
+ },
+ {
+  "code": "A.MIG-0092",
+  "name": "CRYSTAL GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#0d3c31",
+  "equiv": {
+   "hobbyColor": "H-94",
+   "mrColor": "C-138"
+  }
+ },
+ {
+  "code": "A.MIG-0093",
+  "name": "CRYSTAL RED",
+  "line": "Acrylic Colors",
+  "hex": "#82312b",
+  "equiv": {
+   "hobbyColor": "H-90",
+   "mrColor": "C-47",
+   "modelColor": "70.934"
+  }
+ },
+ {
+  "code": "A.MIG-0094",
+  "name": "CRYSTAL GLASS",
+  "line": "Acrylic Colors",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "A.MIG-0095",
+  "name": "CRYSTAL SMOKE",
+  "line": "Acrylic Colors",
+  "hex": "#231f20",
+  "equiv": {
+   "hobbyColor": "H-95",
+   "mrColor": "C-101"
+  }
+ },
+ {
+  "code": "A.MIG-0096",
+  "name": "CRYSTAL GREEN PERISCOPE (AND TAIL LIGHT ON)",
+  "line": "Acrylic Colors",
+  "hex": "#2b7a3e",
+  "equiv": {
+   "modelColor": "70.936"
+  }
+ },
+ {
+  "code": "A.MIG-0097",
+  "name": "CRYSTAL ORANGE",
+  "line": "Acrylic Colors",
+  "hex": "#f46e24",
+  "equiv": {
+   "hobbyColor": "H-92",
+   "mrColor": "C-49",
+   "modelColor": "70.935"
+  }
+ },
+ {
+  "code": "A.MIG-0098",
+  "name": "CRYSTAL LIGHT BLUE",
+  "line": "Acrylic Colors",
+  "hex": "#1984bb",
+  "equiv": {
+   "hobbyColor": "H-93",
+   "mrColor": "C-50"
+  }
+ },
+ {
+  "code": "A.MIG-0099",
+  "name": "CRYSTAL BLACK BLUE (AND TAIL LIGHT OFF)",
+  "line": "Acrylic Colors",
+  "hex": "#1b2234",
+  "equiv": {
+   "modelColor": "70.938"
+  }
+ },
+ {
+  "code": "A.MIG-0102",
+  "name": "OCHRE BROWN",
+  "line": "Acrylic Colors",
+  "hex": "#987d49",
+  "equiv": {
+   "modelColor": "70.856"
+  }
+ },
+ {
+  "code": "A.MIG-0103",
+  "name": "MEDIUM BLUE",
+  "line": "Acrylic Colors",
+  "hex": "#363b72",
+  "equiv": {
+   "hobbyColor": "H-15",
+   "mrColor": "C-65",
+   "modelColor": "70.839",
+   "atom": "ATOM-20108"
+  }
+ },
+ {
+  "code": "A.MIG-0104",
+  "name": "WASHABLE BLACK",
+  "line": "Acrylic Colors",
+  "hex": "#000000"
+ },
+ {
+  "code": "A.MIG-0105",
+  "name": "WASHABLE DUST",
+  "line": "Acrylic Colors",
+  "ref": "RAL 8000",
+  "hex": "#9a8f6e",
+  "equiv": {
+   "atom": "ATOM-20178"
+  }
+ },
+ {
+  "code": "A.MIG-0106",
+  "name": "WASHABLE SAND",
+  "line": "Acrylic Colors",
+  "ref": "RAL 8020",
+  "hex": "#d4a350",
+  "equiv": {
+   "atom": "ATOM-20179"
+  }
+ },
+ {
+  "code": "A.MIG-0107",
+  "name": "WASHABLE EARTH",
+  "line": "Acrylic Colors",
+  "hex": "#614534"
+ },
+ {
+  "code": "A.MIG-0108",
+  "name": "WASHABLE MUD",
+  "line": "Acrylic Colors",
+  "hex": "#472c2a"
+ },
+ {
+  "code": "A.MIG-0109",
+  "name": "WASHABLE RUST",
+  "line": "Acrylic Colors",
+  "hex": "#9a3a2f"
+ },
+ {
+  "code": "A.MIG-0110",
+  "name": "(BRITISH BROWN 1941-42)",
+  "line": "Acrylic Colors",
+  "ref": "SCC 1A",
+  "hex": "#2f1f1f",
+  "equiv": {
+   "hobbyColor": "H-462",
+   "modelAir": "71.042"
+  }
+ },
+ {
+  "code": "A.MIG-0111",
+  "name": "(BRITISH 1941-42 SERVICE DRAB)",
+  "line": "Acrylic Colors",
+  "ref": "SCC 2",
+  "hex": "#494135",
+  "equiv": {
+   "hobbyColor": "H-72",
+   "mrColor": "C-22",
+   "tamiya": "XF-72",
+   "modelColor": "70.921",
+   "modelAir": "71.290"
+  }
+ },
+ {
+  "code": "A.MIG-0112",
+  "name": "(BRITISH 1944-45 OLIVE DRAB)",
+  "line": "Acrylic Colors",
+  "ref": "SCC 15",
+  "hex": "#313624",
+  "equiv": {
+   "modelColor": "70.892",
+   "modelAir": "71.250"
+  }
+ },
+ {
+  "code": "A.MIG-0113",
+  "name": "KHAKI GREEN Nº3 (BRITISH 1939-42)",
+  "line": "Acrylic Colors",
+  "hex": "#625644",
+  "equiv": {
+   "modelColor": "70.988",
+   "modelAir": "71.023"
+  }
+ },
+ {
+  "code": "A.MIG-0114",
+  "name": "ZIMMERIT OCHRE COLOR",
+  "line": "Acrylic Colors",
+  "hex": "#897d66",
+  "equiv": {
+   "modelAir": "71.246",
+   "atom": "ATOM-20144"
+  }
+ },
+ {
+  "code": "A.MIG-0115",
+  "name": "LIGHT SKIN TONE",
+  "line": "Acrylic Colors",
+  "hex": "#eec59c",
+  "equiv": {
+   "tamiya": "XF-15",
+   "modelColor": "70.837",
+   "modelAir": "71.076"
+  }
+ },
+ {
+  "code": "A.MIG-0116",
+  "name": "BASIC SKIN TONE",
+  "line": "Acrylic Colors",
+  "ref": "FS31670",
+  "hex": "#e2aa9c",
+  "equiv": {
+   "modelColor": "70.928"
+  }
+ },
+ {
+  "code": "A.MIG-0117",
+  "name": "WARM SKIN TONE",
+  "line": "Acrylic Colors",
+  "hex": "#b37f65",
+  "equiv": {
+   "modelColor": "70.815"
+  }
+ },
+ {
+  "code": "A.MIG-0118",
+  "name": "BURNT SAND",
+  "line": "Acrylic Colors",
+  "hex": "#775132"
+ },
+ {
+  "code": "A.MIG-0119",
+  "name": "COLD GRAY",
+  "line": "Acrylic Colors",
+  "ref": "FS17865",
+  "hex": "#c9c8c6",
+  "equiv": {
+   "modelColor": "70.993",
+   "modelAir": "71.279",
+   "atom": "ATOM-20123"
+  }
+ },
+ {
+  "code": "A.MIG-0120",
+  "name": "LIGHT BROWN-GRAY",
+  "line": "Acrylic Colors",
+  "hex": "#d7d1cc"
+ },
+ {
+  "code": "A.MIG-0121",
+  "name": "BLOOD RED",
+  "line": "Acrylic Colors",
+  "ref": "FS11136-RAL 3002",
+  "hex": "#ac2324",
+  "equiv": {
+   "hobbyColor": "H-327",
+   "mrColor": "C-327",
+   "modelColor": "70.908",
+   "modelAir": "71.084",
+   "atom": "ATOM-20031"
+  }
+ },
+ {
+  "code": "A.MIG-0122",
+  "name": "BONE",
+  "line": "Acrylic Colors",
+  "hex": "#eff3d9",
+  "equiv": {
+   "modelColor": "70.847",
+   "modelAir": "71.288"
+  }
+ },
+ {
+  "code": "A.MIG-0123",
+  "name": "MARINE BLUE",
+  "line": "Acrylic Colors",
+  "hex": "#234578",
+  "equiv": {
+   "tamiya": "XF-8",
+   "modelColor": "70.930",
+   "modelAir": "71.004"
+  }
+ },
+ {
+  "code": "A.MIG-0124",
+  "name": "LIME GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#5fb333",
+  "equiv": {
+   "modelAir": "71.094"
+  }
+ },
+ {
+  "code": "A.MIG-0125",
+  "name": "GOLD YELLOW",
+  "line": "Acrylic Colors",
+  "ref": "FS33655-RAL 1003-RLM 04",
+  "hex": "#e1ae18",
+  "equiv": {
+   "hobbyColor": "H-413",
+   "mrColor": "C-113",
+   "modelColor": "70.953",
+   "modelAir": "71.078",
+   "atom": "ATOM-20022"
+  }
+ },
+ {
+  "code": "A.MIG-0126",
+  "name": "VIOLET",
+  "line": "Acrylic Colors",
+  "hex": "#4f45a4",
+  "equiv": {
+   "hobbyColor": "H-49",
+   "modelColor": "70.960",
+   "atom": "ATOM-20150"
+  }
+ },
+ {
+  "code": "A.MIG-0127",
+  "name": "PURPLE",
+  "line": "Acrylic Colors",
+  "ref": "FS37142-RAL 4008",
+  "hex": "#8548a9",
+  "equiv": {
+   "hobbyColor": "H-39",
+   "mrColor": "C-67",
+   "modelColor": "70.959",
+   "atom": "ATOM-20151"
+  }
+ },
+ {
+  "code": "A.MIG-0128",
+  "name": "CYAN",
+  "line": "Acrylic Colors",
+  "hex": "#00adef"
+ },
+ {
+  "code": "A.MIG-0129",
+  "name": "ORANGE",
+  "line": "Acrylic Colors",
+  "ref": "FS32246",
+  "hex": "#e7621a",
+  "equiv": {
+   "hobbyColor": "H-14",
+   "mrColor": "C-59",
+   "modelColor": "70.956",
+   "modelAir": "71.083",
+   "atom": "ATOM-20027"
+  }
+ },
+ {
+  "code": "A.MIG-0130",
+  "name": "FADED YELLOW",
+  "line": "Acrylic Colors",
+  "hex": "#d3cf59",
+  "equiv": {
+   "hobbyColor": "H-318",
+   "mrColor": "C-318",
+   "atom": "ATOM-20016"
+  }
+ },
+ {
+  "code": "A.MIG-0131",
+  "name": "REAL IDF SINAI GREY 82",
+  "line": "Acrylic Colors",
+  "hex": "#4b4925",
+  "equiv": {
+   "modelAir": "71.142",
+   "atom": "ATOM-20070"
+  }
+ },
+ {
+  "code": "A.MIG-0132",
+  "name": "REAL IDF SAND GREY 73",
+  "line": "Acrylic Colors",
+  "hex": "#7b7540",
+  "equiv": {
+   "hobbyColor": "H-85",
+   "mrColor": "C-45",
+   "modelAir": "71.141",
+   "atom": "ATOM-20011"
+  }
+ },
+ {
+  "code": "A.MIG-0133",
+  "name": "RED LEATHER",
+  "line": "Acrylic Colors",
+  "hex": "#5e3226",
+  "equiv": {
+   "modelColor": "70.301",
+   "modelAir": "71.105"
+  }
+ },
+ {
+  "code": "A.MIG-0134",
+  "name": "BURNT BROWN RED",
+  "line": "Acrylic Colors",
+  "hex": "#2e1e15",
+  "equiv": {
+   "modelColor": "70.984",
+   "modelAir": "71.036"
+  }
+ },
+ {
+  "code": "A.MIG-0135",
+  "name": "CINNAMON",
+  "line": "Acrylic Colors",
+  "hex": "#b58a79",
+  "equiv": {
+   "modelAir": "71.112"
+  }
+ },
+ {
+  "code": "A.MIG-0138",
+  "name": "DESERT YELLOW",
+  "line": "Acrylic Colors",
+  "ref": "FS20400",
+  "hex": "#b89657",
+  "equiv": {
+   "modelColor": "70.912",
+   "modelAir": "71.291"
+  }
+ },
+ {
+  "code": "A.MIG-0139",
+  "name": "RED EARTH",
+  "line": "Acrylic Colors",
+  "hex": "#874640",
+  "equiv": {
+   "hobbyColor": "H-463",
+   "modelAir": "71.293"
+  }
+ },
+ {
+  "code": "A.MIG-0187",
+  "name": "JET EXHAUST BURNT IRON",
+  "line": "Acrylic Colors",
+  "hex": "#5f382a",
+  "equiv": {
+   "hobbyColor": "H-76",
+   "mrColor": "C-61",
+   "tamiya": "XF-84",
+   "modelAir": "71.073",
+   "atom": "ATOM-20169"
+  }
+ },
+ {
+  "code": "A.MIG-0188",
+  "name": "METALLIC RED",
+  "line": "Acrylic Colors",
+  "hex": "#cc5556",
+  "equiv": {
+   "hobbyColor": "H-87",
+   "mrColor": "C-75",
+   "modelAir": "71.070",
+   "atom": "ATOM-20174"
+  }
+ },
+ {
+  "code": "A.MIG-0189",
+  "name": "METALLIC ORANGE",
+  "line": "Acrylic Colors",
+  "hex": "#d69048"
+ },
+ {
+  "code": "A.MIG-0190",
+  "name": "OLD BRASS",
+  "line": "Acrylic Colors",
+  "hex": "#845d33",
+  "degrade": true,
+  "equiv": {
+   "modelColor": "70.801"
+  }
+ },
+ {
+  "code": "A.MIG-0191",
+  "name": "STEEL",
+  "line": "Acrylic Colors",
+  "ref": "RAL 9006 RAL 9006",
+  "hex": "#919085",
+  "degrade": true,
+  "equiv": {
+   "hobbyColor": "H-18",
+   "mrColor": "C-28",
+   "modelColor": "70.864",
+   "modelAir": "71.065",
+   "atom": "ATOM-20166"
+  }
+ },
+ {
+  "code": "A.MIG-0192",
+  "name": "POLISHED METAL",
+  "line": "Acrylic Colors",
+  "hex": "#6b6c65",
+  "equiv": {
+   "tamiya": "XF-56",
+   "modelColor": "70.865"
+  }
+ },
+ {
+  "code": "A.MIG-0193",
+  "name": "BLUISH TITANIUM",
+  "line": "Acrylic Colors",
+  "hex": "#717b73",
+  "degrade": true
+ },
+ {
+  "code": "A.MIG-0194",
+  "name": "MATT ALUMINUM",
+  "line": "Acrylic Colors",
+  "hex": "#b4b1a9",
+  "equiv": {
+   "tamiya": "XF-16",
+   "modelAir": "71.062",
+   "atom": "ATOM-20165"
+  }
+ },
+ {
+  "code": "A.MIG-0195",
+  "name": "SILVER",
+  "line": "Acrylic Colors",
+  "ref": "FS 17178-RLM 01 FS 17178-RLM 01",
+  "hex": "#c0beb0",
+  "equiv": {
+   "hobbyColor": "H-8",
+   "mrColor": "C-8 / C-90",
+   "modelColor": "70.997",
+   "modelAir": "71.063",
+   "atom": "ATOM-20164"
+  }
+ },
+ {
+  "code": "A.MIG-0196",
+  "name": "WARHEAD METALLIC BLUE",
+  "line": "Acrylic Colors",
+  "hex": "#336ab0",
+  "equiv": {
+   "hobbyColor": "H-88",
+   "mrColor": "C-76"
+  }
+ },
+ {
+  "code": "A.MIG-0197",
+  "name": "BRASS",
+  "line": "Acrylic Colors",
+  "hex": "#b78538",
+  "equiv": {
+   "modelAir": "71.067",
+   "atom": "ATOM-20173"
+  }
+ },
+ {
+  "code": "A.MIG-0198",
+  "name": "GOLD",
+  "line": "Acrylic Colors",
+  "ref": "FS 17043 FS 17043",
+  "hex": "#ab9632",
+  "degrade": true,
+  "equiv": {
+   "hobbyColor": "H-9",
+   "mrColor": "C-9",
+   "tamiya": "X-12",
+   "modelColor": "70.996",
+   "modelAir": "71.066",
+   "atom": "ATOM-20172"
+  }
+ },
+ {
+  "code": "A.MIG-0199",
+  "name": "COPPER",
+  "line": "Acrylic Colors",
+  "hex": "#b34548",
+  "equiv": {
+   "hobbyColor": "H-10",
+   "mrColor": "C-10",
+   "tamiya": "XF-6",
+   "modelColor": "70.999",
+   "modelAir": "71.068",
+   "atom": "ATOM-20170"
+  }
+ },
+ {
+  "code": "A.MIG-0200",
+  "name": "MIDDLESTONE",
+  "line": "Acrylic Colors",
+  "ref": "FS 33531",
+  "hex": "#cbb9a3",
+  "equiv": {
+   "hobbyColor": "H-313",
+   "mrColor": "C-313",
+   "modelAir": ""
+  }
+ },
+ {
+  "code": "A.MIG-0201",
+  "name": "LIGHT GRAY GREEN",
+  "line": "Acrylic Colors",
+  "ref": "FS 34424",
+  "hex": "#9fc49a",
+  "equiv": {
+   "hobbyColor": "H-31",
+   "modelColor": "70.885"
+  }
+ },
+ {
+  "code": "A.MIG-0202",
+  "name": "TAN",
+  "line": "Acrylic Colors",
+  "ref": "FS 30219",
+  "hex": "#75553d",
+  "equiv": {
+   "hobbyColor": "H-310",
+   "mrColor": "C-310",
+   "tamiya": "XF-59",
+   "modelColor": "70.843",
+   "modelAir": "71.125"
+  }
+ },
+ {
+  "code": "A.MIG-0203",
+  "name": "LIGHT COMPASS GHOST GRAY",
+  "line": "Acrylic Colors",
+  "ref": "FS 36375-RAL7001",
+  "hex": "#9bb6b4",
+  "equiv": {
+   "hobbyColor": "H-308",
+   "mrColor": "C-308",
+   "modelColor": "70.990",
+   "atom": "ATOM-20129"
+  }
+ },
+ {
+  "code": "A.MIG-0204",
+  "name": "MEDIUM GUNSHIP GRAY",
+  "line": "Acrylic Colors",
+  "ref": "FS 36118",
+  "hex": "#3c4053",
+  "equiv": {
+   "hobbyColor": "H-305",
+   "mrColor": "C-305",
+   "tamiya": "XF-77",
+   "modelColor": "70.868",
+   "modelAir": "71.047",
+   "atom": "ATOM-20148"
+  }
+ },
+ {
+  "code": "A.MIG-0205",
+  "name": "(BS 638)",
+  "line": "Acrylic Colors",
+  "ref": "FS 26231",
+  "hex": "#617882",
+  "equiv": {
+   "hobbyColor": "H-317 / H-331",
+   "mrColor": "C-317 / C-331",
+   "modelColor": "70.991",
+   "modelAir": "71.051"
+  }
+ },
+ {
+  "code": "A.MIG-0206",
+  "name": "(BS 641)",
+  "line": "Acrylic Colors",
+  "ref": "FS 34079 RLM 81",
+  "hex": "#3f4c32",
+  "equiv": {
+   "hobbyColor": "H-309 / H-330",
+   "mrColor": "C-309 / C-330",
+   "modelColor": "70.893",
+   "modelAir": "71.294",
+   "atom": "ATOM-20077"
+  }
+ },
+ {
+  "code": "A.MIG-0207",
+  "name": "(BS 626)",
+  "line": "Acrylic Colors",
+  "ref": "FS 36314",
+  "hex": "#879292",
+  "equiv": {
+   "hobbyColor": "H-334",
+   "mrColor": "C-334",
+   "tamiya": "XF-19",
+   "modelColor": "70.989",
+   "modelAir": "71.046",
+   "atom": "ATOM-20131"
+  }
+ },
+ {
+  "code": "A.MIG-0208",
+  "name": "DARK COMPASS GHOST GRAY",
+  "line": "Acrylic Colors",
+  "ref": "FS 36320",
+  "hex": "#6a7476",
+  "equiv": {
+   "hobbyColor": "H-307",
+   "mrColor": "C-307",
+   "modelAir": "71.120",
+   "atom": "ATOM-20133"
+  }
+ },
+ {
+  "code": "A.MIG-0209",
+  "name": "LIGHT GRAY",
+  "line": "Acrylic Colors",
+  "ref": "FS 36495",
+  "hex": "#bfbdba",
+  "equiv": {
+   "hobbyColor": "H-51 / H-338",
+   "mrColor": "C-11 / C-338",
+   "modelAir": "71.276",
+   "atom": "ATOM-20124"
+  }
+ },
+ {
+  "code": "A.MIG-0210",
+  "name": "BLUE GRAY AMT-11",
+  "line": "Acrylic Colors",
+  "ref": "FS 35237",
+  "hex": "#617889",
+  "equiv": {
+   "hobbyColor": "H-337",
+   "mrColor": "C-337",
+   "modelColor": "70.905",
+   "modelAir": "71.304",
+   "atom": "ATOM-20134"
+  }
+ },
+ {
+  "code": "A.MIG-0211",
+  "name": "MEDIUM GRAY",
+  "line": "Acrylic Colors",
+  "ref": "FS 36270",
+  "hex": "#8c9395",
+  "equiv": {
+   "hobbyColor": "H-306",
+   "mrColor": "C-306",
+   "modelAir": "71.275"
+  }
+ },
+ {
+  "code": "A.MIG-0212",
+  "name": "SILVER GREY",
+  "line": "Acrylic Colors",
+  "ref": "FS 26373-BS 627",
+  "hex": "#959a9b",
+  "equiv": {
+   "hobbyColor": "H-332",
+   "mrColor": "C-332",
+   "modelAir": "71.119"
+  }
+ },
+ {
+  "code": "A.MIG-0213",
+  "name": "GREEN",
+  "line": "Acrylic Colors",
+  "ref": "FS 24277",
+  "hex": "#5d8574",
+  "equiv": {
+   "modelAir": "71.305"
+  }
+ },
+ {
+  "code": "A.MIG-0217",
+  "name": "GREEN SLATE",
+  "line": "Acrylic Colors",
+  "ref": "RAL 7002-RLM 02",
+  "hex": "#383f3b",
+  "equiv": {
+   "hobbyColor": "H-70",
+   "mrColor": "C-60",
+   "tamiya": "XF-22",
+   "modelColor": "70.886",
+   "modelAir": "71.044",
+   "atom": "ATOM-20078"
+  }
+ },
+ {
+  "code": "A.MIG-0218",
+  "name": "SCHWARTZGRAU",
+  "line": "Acrylic Colors",
+  "ref": "RLM66",
+  "hex": "#2a2931",
+  "equiv": {
+   "hobbyColor": "H-416",
+   "mrColor": "C-116",
+   "tamiya": "XF-63",
+   "modelColor": "70.866",
+   "modelAir": "71.055",
+   "atom": "ATOM-20158"
+  }
+ },
+ {
+  "code": "A.MIG-0219",
+  "name": "INTERIOR GREEN",
+  "line": "Acrylic Colors",
+  "ref": "FS 34226 - BS283",
+  "hex": "#658e7d"
+ },
+ {
+  "code": "A.MIG-0220",
+  "name": "ZINC CHROMATE GREEN (INTERIOR GREEN)",
+  "line": "Acrylic Colors",
+  "ref": "FS 34151",
+  "hex": "#596b47",
+  "equiv": {
+   "hobbyColor": "H-464",
+   "modelColor": "70.850",
+   "modelAir": "71.137"
+  }
+ },
+ {
+  "code": "A.MIG-0221",
+  "name": "ZINC CHROMATE YELLOW",
+  "line": "Acrylic Colors",
+  "ref": "FS 33481",
+  "hex": "#aec341",
+  "equiv": {
+   "hobbyColor": "H-58",
+   "mrColor": "C-27",
+   "tamiya": "XF-4",
+   "modelAir": "71.107",
+   "atom": "ATOM-20013"
+  }
+ },
+ {
+  "code": "A.MIG-0222",
+  "name": "SANDGELB",
+  "line": "Acrylic Colors",
+  "ref": "RLM 79",
+  "hex": "#ba8f36",
+  "equiv": {
+   "hobbyColor": "H-66",
+   "mrColor": "C-119",
+   "modelColor": "70.876",
+   "modelAir": "71.278",
+   "atom": "ATOM-20024"
+  }
+ },
+ {
+  "code": "A.MIG-0223",
+  "name": "INTERIOR TURQUOISE GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#328467",
+  "equiv": {
+   "hobbyColor": "H-46",
+   "modelColor": "70.838",
+   "atom": "ATOM-20114"
+  }
+ },
+ {
+  "code": "A.MIG-0224",
+  "name": "SKY LINE BLUE A II",
+  "line": "Acrylic Colors",
+  "ref": "FS 35260",
+  "hex": "#40c1f3",
+  "equiv": {
+   "hobbyColor": "H-45",
+   "modelColor": "70.961",
+   "modelAir": "71.317",
+   "atom": "ATOM-20112"
+  }
+ },
+ {
+  "code": "A.MIG-0226",
+  "name": "GRAY",
+  "line": "Acrylic Colors",
+  "ref": "FS 36622",
+  "hex": "#c6c7b0",
+  "equiv": {
+   "hobbyColor": "H-311",
+   "mrColor": "C-311",
+   "modelColor": "70.883",
+   "modelAir": "71.296"
+  }
+ },
+ {
+  "code": "A.MIG-0227",
+  "name": "SEA BLUE",
+  "line": "Acrylic Colors",
+  "ref": "FS 25042 - ANA 606",
+  "hex": "#25242e",
+  "equiv": {
+   "hobbyColor": "H-54",
+   "mrColor": "C-14",
+   "tamiya": "XF-50",
+   "modelColor": "70.898",
+   "modelAir": "71.005",
+   "atom": "ATOM-20102"
+  }
+ },
+ {
+  "code": "A.MIG-0228",
+  "name": "INTERMEDIATE BLUE",
+  "line": "Acrylic Colors",
+  "ref": "FS 35164-RAL 7031-ANA 608",
+  "hex": "#525a6b",
+  "equiv": {
+   "hobbyColor": "H-56",
+   "tamiya": "XF-66",
+   "modelColor": "70.903",
+   "modelAir": "71.299",
+   "atom": "ATOM-20136"
+  }
+ },
+ {
+  "code": "A.MIG-0229",
+  "name": "DARK GRAY BLUE",
+  "line": "Acrylic Colors",
+  "ref": "FS 15102",
+  "hex": "#2f3869"
+ },
+ {
+  "code": "A.MIG-0230",
+  "name": "CAMO GREEN",
+  "line": "Acrylic Colors",
+  "ref": "FS34095-RAL 6020-RLM 82",
+  "hex": "#3a502a",
+  "equiv": {
+   "hobbyColor": "H-422",
+   "mrColor": "C-122",
+   "modelColor": "70.823",
+   "modelAir": "71.022",
+   "atom": "ATOM-20075"
+  }
+ },
+ {
+  "code": "A.MIG-0231",
+  "name": "HELLBLAU",
+  "line": "Acrylic Colors",
+  "ref": "FS35352-RLM 65",
+  "hex": "#bddadc",
+  "equiv": {
+   "hobbyColor": "H-67",
+   "mrColor": "C-115",
+   "tamiya": "XF-25",
+   "modelColor": "70.906",
+   "modelAir": "71.255",
+   "atom": "ATOM-20127"
+  }
+ },
+ {
+  "code": "A.MIG-0232",
+  "name": "SCHWARTZGRÜN",
+  "line": "Acrylic Colors",
+  "ref": "FS34052-RAL 7022-RLM 70",
+  "hex": "#495039",
+  "equiv": {
+   "hobbyColor": "H-65",
+   "mrColor": "C-18",
+   "tamiya": "XF-27",
+   "modelColor": "70.897",
+   "modelAir": "71.021",
+   "atom": "ATOM-20101"
+  }
+ },
+ {
+  "code": "A.MIG-0233",
+  "name": "DUNKELGRÜN",
+  "line": "Acrylic Colors",
+  "ref": "RLM 71",
+  "hex": "#2f3627",
+  "equiv": {
+   "hobbyColor": "H-64",
+   "mrColor": "C-17",
+   "modelAir": "71.015"
+  }
+ },
+ {
+  "code": "A.MIG-0235",
+  "name": "DARK GREY AMT-12",
+  "line": "Acrylic Colors",
+  "ref": "FS 36152-RAL 7012",
+  "hex": "#50565f",
+  "equiv": {
+   "hobbyColor": "H-83",
+   "mrColor": "C-32",
+   "tamiya": "XF-75",
+   "modelAir": "71.308",
+   "atom": "ATOM-20146"
+  }
+ },
+ {
+  "code": "A.MIG-0236",
+  "name": "FS 36293",
+  "line": "Acrylic Colors",
+  "hex": "#6d7b7b",
+  "equiv": {
+   "hobbyColor": "H-82",
+   "mrColor": "C-31"
+  }
+ },
+ {
+  "code": "A.MIG-0237",
+  "name": "DARK OLIVE DRAB",
+  "line": "Acrylic Colors",
+  "ref": "FS 23070",
+  "hex": "#575a38",
+  "equiv": {
+   "hobbyColor": "H-52",
+   "mrColor": "C-12",
+   "tamiya": "XF-62",
+   "modelAir": "71.016"
+  }
+ },
+ {
+  "code": "A.MIG-0238",
+  "name": "MEDIUM GREEN",
+  "line": "Acrylic Colors",
+  "ref": "FS 34092-ANA 612",
+  "hex": "#304a36",
+  "equiv": {
+   "hobbyColor": "H-302",
+   "mrColor": "c-302",
+   "tamiya": "XF-26",
+   "modelColor": "70.895",
+   "modelAir": "71.124"
+  }
+ },
+ {
+  "code": "A.MIG-0239",
+  "name": "NEUTRAL GRAY",
+  "line": "Acrylic Colors",
+  "ref": "FS 36122",
+  "hex": "#585c63",
+  "equiv": {
+   "hobbyColor": "H-53",
+   "mrColor": "C-13",
+   "modelAir": "71.274",
+   "atom": "ATOM-20145"
+  }
+ },
+ {
+  "code": "A.MIG-0240",
+  "name": "FS 34086 (ANA 613)",
+  "line": "Acrylic Colors",
+  "ref": "FS 34086-RAL 7009",
+  "hex": "#25271b",
+  "equiv": {
+   "modelColor": "70.830",
+   "modelAir": "71.325"
+  }
+ },
+ {
+  "code": "A.MIG-0241",
+  "name": "FS 36440",
+  "line": "Acrylic Colors",
+  "ref": "FS 36440- RAL 7038",
+  "hex": "#8f938a",
+  "equiv": {
+   "hobbyColor": "H-315 / H-325",
+   "mrColor": "C-315 / C-325",
+   "modelColor": "70.986",
+   "modelAir": "71.121",
+   "atom": "ATOM-20142"
+  }
+ },
+ {
+  "code": "A.MIG-0242",
+  "name": "FS 37886",
+  "line": "Acrylic Colors",
+  "hex": "#eff2d3"
+ },
+ {
+  "code": "A.MIG-0243",
+  "name": "SKY TYPE S",
+  "line": "Acrylic Colors",
+  "ref": "BS 210",
+  "hex": "#95b390",
+  "equiv": {
+   "tamiya": "XF-21",
+   "modelAir": "71.302",
+   "atom": "ATOM-20140"
+  }
+ },
+ {
+  "code": "A.MIG-0244",
+  "name": "DUCK EGG GREEN",
+  "line": "Acrylic Colors",
+  "ref": "BS 216",
+  "hex": "#8ba965",
+  "equiv": {
+   "hobbyColor": "H-74",
+   "mrColor": "C-26",
+   "modelAir": "71.009",
+   "atom": "ATOM-20086"
+  }
+ },
+ {
+  "code": "A.MIG-0245",
+  "name": "OCEAN GREY",
+  "line": "Acrylic Colors",
+  "ref": "BS 629",
+  "hex": "#5b6770",
+  "equiv": {
+   "tamiya": "XF-82",
+   "modelAir": "71.273",
+   "atom": "ATOM-20137"
+  }
+ },
+ {
+  "code": "A.MIG-0246",
+  "name": "MEDIUM SEA GREY",
+  "line": "Acrylic Colors",
+  "ref": "BS 637",
+  "hex": "#829092",
+  "equiv": {
+   "hobbyColor": "H-335",
+   "mrColor": "C-335",
+   "tamiya": "XF-83",
+   "modelColor": "70.870",
+   "modelAir": "71.307"
+  }
+ },
+ {
+  "code": "A.MIG-0247",
+  "name": "HELLBLAU",
+  "line": "Acrylic Colors",
+  "ref": "RLM 78",
+  "hex": "#749594",
+  "equiv": {
+   "hobbyColor": "H-418",
+   "mrColor": "C-118",
+   "modelColor": "70.972",
+   "modelAir": "71.101",
+   "atom": "ATOM-20126"
+  }
+ },
+ {
+  "code": "A.MIG-0248",
+  "name": "OLIVGRÜN",
+  "line": "Acrylic Colors",
+  "ref": "FS34083-RLM 80",
+  "hex": "#30402c",
+  "equiv": {
+   "hobbyColor": "H-420",
+   "mrColor": "C-120",
+   "modelColor": "70.894",
+   "modelAir": "71.265"
+  }
+ },
+ {
+  "code": "A.MIG-0249",
+  "name": "LIGHT BLUE",
+  "line": "Acrylic Colors",
+  "ref": "FS35550",
+  "hex": "#abcdd7",
+  "equiv": {
+   "modelAir": "71.306",
+   "atom": "ATOM-20122"
+  }
+ },
+ {
+  "code": "A.MIG-0250",
+  "name": "NIGHT BLUE GREY",
+  "line": "Acrylic Colors",
+  "hex": "#454b5a",
+  "equiv": {
+   "modelColor": "70.964",
+   "atom": "ATOM-20104"
+  }
+ },
+ {
+  "code": "A.MIG-0251",
+  "name": "RUSSIAN BLUE AMT-7",
+  "line": "Acrylic Colors",
+  "hex": "#386f79",
+  "equiv": {
+   "modelAir": "71.318",
+   "atom": "ATOM-20120"
+  }
+ },
+ {
+  "code": "A.MIG-0252",
+  "name": "GREY BROWN AMT-1",
+  "line": "Acrylic Colors",
+  "hex": "#716d64",
+  "equiv": {
+   "modelAir": "71.320"
+  }
+ },
+ {
+  "code": "A.MIG-0253",
+  "name": "GRAUGRÜN",
+  "line": "Acrylic Colors",
+  "ref": "RLM 74",
+  "hex": "#37433f",
+  "equiv": {
+   "hobbyColor": "H-68",
+   "mrColor": "C-36",
+   "modelColor": "70.867",
+   "modelAir": "71.258",
+   "atom": "ATOM-20157"
+  }
+ },
+ {
+  "code": "A.MIG-0254",
+  "name": "GRAUVIOLETT",
+  "line": "Acrylic Colors",
+  "ref": "RLM 75",
+  "hex": "#6c7371",
+  "equiv": {
+   "hobbyColor": "H-69",
+   "mrColor": "C-37",
+   "modelColor": "70.869",
+   "modelAir": "71.259",
+   "atom": "ATOM-20147"
+  }
+ },
+ {
+  "code": "A.MIG-0255",
+  "name": "BRAUNVIOLETT",
+  "line": "Acrylic Colors",
+  "ref": "RLM 81",
+  "hex": "#452d2d",
+  "equiv": {
+   "hobbyColor": "H-421",
+   "mrColor": "C-121",
+   "modelAir": "71.264",
+   "atom": "ATOM-20059"
+  }
+ },
+ {
+  "code": "A.MIG-0256",
+  "name": "GRAUBLAU",
+  "line": "Acrylic Colors",
+  "ref": "RLM 84",
+  "hex": "#a8b56b",
+  "equiv": {
+   "modelAir": "71.103"
+  }
+ },
+ {
+  "code": "A.MIG-0900",
+  "name": "DUNKELGELB SHADOW",
+  "line": "Acrylic Colors",
+  "hex": "#231c22",
+  "equiv": {
+   "modelColor": ""
+  }
+ },
+ {
+  "code": "A.MIG-0901",
+  "name": "DUNKELGELB DARK BASE",
+  "line": "Acrylic Colors",
+  "hex": "#6d6239",
+  "equiv": {
+   "modelAir": "71.030"
+  }
+ },
+ {
+  "code": "A.MIG-0902",
+  "name": "DUNKELGELB BASE",
+  "line": "Acrylic Colors",
+  "hex": "#7f7c47",
+  "equiv": {
+   "hobbyColor": "H-71",
+   "mrColor": "C-21",
+   "modelColor": "70.882"
+  }
+ },
+ {
+  "code": "A.MIG-0903",
+  "name": "DUNKELGELB LIGHT BASE",
+  "line": "Acrylic Colors",
+  "hex": "#9a934e",
+  "equiv": {
+   "modelColor": "70.976"
+  }
+ },
+ {
+  "code": "A.MIG-0904",
+  "name": "DUNKELGELB HIGH LIGHT",
+  "line": "Acrylic Colors",
+  "hex": "#bfc47e"
+ },
+ {
+  "code": "A.MIG-0905",
+  "name": "DUNKELGELB SHINE",
+  "line": "Acrylic Colors",
+  "hex": "#d5d6b1",
+  "equiv": {
+   "modelColor": "70.344",
+   "modelAir": "71.132"
+  }
+ },
+ {
+  "code": "A.MIG-0906",
+  "name": "GREY SHADOW",
+  "line": "Acrylic Colors",
+  "ref": "BS 640",
+  "hex": "#2f2f37",
+  "equiv": {
+   "hobbyColor": "H-333",
+   "mrColor": "C-333"
+  }
+ },
+ {
+  "code": "A.MIG-0907",
+  "name": "GREY DARK BASE",
+  "line": "Acrylic Colors",
+  "hex": "#333043",
+  "equiv": {
+   "tamiya": "XF-69",
+   "modelColor": "70.333",
+   "modelAir": "71.049"
+  }
+ },
+ {
+  "code": "A.MIG-0908",
+  "name": "GREY BASE",
+  "line": "Acrylic Colors",
+  "ref": "FS 26081",
+  "hex": "#424358",
+  "equiv": {
+   "hobbyColor": "H-301 / H-339",
+   "mrColor": "C-301 / C-339",
+   "modelColor": "70.995"
+  }
+ },
+ {
+  "code": "A.MIG-0909",
+  "name": "GREY LIGHT BASE",
+  "line": "Acrylic Colors",
+  "hex": "#5e6575",
+  "equiv": {
+   "hobbyColor": "H-458",
+   "tamiya": "XF-24"
+  }
+ },
+ {
+  "code": "A.MIG-0910",
+  "name": "GREY HIGH LIGHT",
+  "line": "Acrylic Colors",
+  "hex": "#717886",
+  "equiv": {
+   "hobbyColor": "H-75",
+   "mrColor": "C-25",
+   "tamiya": "XF-54",
+   "modelColor": "70.836",
+   "modelAir": "71.277"
+  }
+ },
+ {
+  "code": "A.MIG-0911",
+  "name": "GREY SHINE",
+  "line": "Acrylic Colors",
+  "hex": "#959ca7"
+ },
+ {
+  "code": "A.MIG-0912",
+  "name": "RED BROWN SHADOW",
+  "line": "Acrylic Colors",
+  "hex": "#391c1d",
+  "equiv": {
+   "hobbyColor": "H-17",
+   "mrColor": "C-29",
+   "tamiya": "XF-9",
+   "modelAir": "71.038"
+  }
+ },
+ {
+  "code": "A.MIG-0913",
+  "name": "RED BROWN BASE",
+  "line": "Acrylic Colors",
+  "hex": "#632926",
+  "equiv": {
+   "hobbyColor": "H-7",
+   "mrColor": "C-7",
+   "tamiya": "XF-79"
+  }
+ },
+ {
+  "code": "A.MIG-0914",
+  "name": "RED BROWN LIGHT",
+  "line": "Acrylic Colors",
+  "hex": "#92413f"
+ },
+ {
+  "code": "A.MIG-0915",
+  "name": "DARK GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#282d21",
+  "equiv": {
+   "tamiya": "XF-81"
+  }
+ },
+ {
+  "code": "A.MIG-0916",
+  "name": "GREEN BASE",
+  "line": "Acrylic Colors",
+  "hex": "#455f3e",
+  "equiv": {
+   "modelColor": "70.827",
+   "atom": "ATOM-20083"
+  }
+ },
+ {
+  "code": "A.MIG-0917",
+  "name": "LIGHT GREEN",
+  "line": "Acrylic Colors",
+  "hex": "#7fbe6c"
+ },
+ {
+  "code": "A.MIG-0918",
+  "name": "RED PRIMER SHADOW",
+  "line": "Acrylic Colors",
+  "hex": "#2b191f",
+  "equiv": {
+   "modelColor": "70.822"
+  }
+ },
+ {
+  "code": "A.MIG-0919",
+  "name": "RED PRIMER DARK BASE",
+  "line": "Acrylic Colors",
+  "hex": "#2b1316"
+ },
+ {
+  "code": "A.MIG-0920",
+  "name": "RED PRIMER BASE",
+  "line": "Acrylic Colors",
+  "hex": "#341417"
+ },
+ {
+  "code": "A.MIG-0921",
+  "name": "RED PRIMER LIGHT BASE",
+  "line": "Acrylic Colors",
+  "hex": "#5c211c"
+ },
+ {
+  "code": "A.MIG-0922",
+  "name": "RED PRIMER HIGH LIGHTS",
+  "line": "Acrylic Colors",
+  "hex": "#783325",
+  "equiv": {
+   "atom": "ATOM-20053"
+  }
+ },
+ {
+  "code": "A.MIG-0923",
+  "name": "RED PRIMER SHINE",
+  "line": "Acrylic Colors",
+  "hex": "#944a2c",
+  "equiv": {
+   "modelColor": "70.341",
+   "modelAir": "71.026"
+  }
+ },
+ {
+  "code": "A.MIG-0924",
+  "name": "OLIVE DRAB SHADOW",
+  "line": "Acrylic Colors",
+  "hex": "#25221c"
+ },
+ {
+  "code": "A.MIG-0925",
+  "name": "OLIVE DRAB DARK BASE",
+  "line": "Acrylic Colors",
+  "ref": "RLM 83",
+  "hex": "#383627",
+  "equiv": {
+   "hobbyColor": "H-78",
+   "mrColor": "C-38",
+   "modelColor": "70.889",
+   "modelAir": "71.043",
+   "atom": "ATOM-20065"
+  }
+ },
+ {
+  "code": "A.MIG-0926",
+  "name": "OLIVE DRAB BASE",
+  "line": "Acrylic Colors",
+  "hex": "#474832",
+  "equiv": {
+   "hobbyColor": "H-304",
+   "mrColor": "C-304",
+   "modelAir": "71.286",
+   "atom": "ATOM-20069"
+  }
+ },
+ {
+  "code": "A.MIG-0927",
+  "name": "OLIVE DRAB LIGHT BASE",
+  "line": "Acrylic Colors",
+  "hex": "#5d5f43"
+ },
+ {
+  "code": "A.MIG-0928",
+  "name": "OLIVE DRAB HIGH LIGHTS",
+  "line": "Acrylic Colors",
+  "hex": "#636b52",
+  "equiv": {
+   "modelAir": "71.139"
+  }
+ },
+ {
+  "code": "A.MIG-0929",
+  "name": "OLIVE DRAB SHINE",
+  "line": "Acrylic Colors",
+  "hex": "#78825c",
+  "equiv": {
+   "modelColor": "70.332",
+   "modelAir": "71.138"
+  }
+ },
+ {
+  "code": "A.MIG-0930",
+  "name": "RUSSIAN SHADOW",
+  "line": "Acrylic Colors",
+  "hex": "#2d2b1e",
+  "equiv": {
+   "atom": ""
+  }
+ },
+ {
+  "code": "A.MIG-0931",
+  "name": "RUSSIAN DARK BASE",
+  "line": "Acrylic Colors",
+  "hex": "#424425",
+  "equiv": {
+   "tamiya": "XF-74",
+   "modelAir": "71.020"
+  }
+ },
+ {
+  "code": "A.MIG-0932",
+  "name": "RUSSIAN BASE",
+  "line": "Acrylic Colors",
+  "hex": "#53592b",
+  "equiv": {
+   "modelAir": "71.303",
+   "atom": "ATOM-20072"
+  }
+ },
+ {
+  "code": "A.MIG-0933",
+  "name": "RUSSIAN LIGHT BASE",
+  "line": "Acrylic Colors",
+  "hex": "#6e6d44"
+ },
+ {
+  "code": "A.MIG-0934",
+  "name": "RUSSIAN HIGH LIGHT",
+  "line": "Acrylic Colors",
+  "hex": "#7d8053"
+ },
+ {
+  "code": "A.MIG-0935",
+  "name": "RUSSIAN SHINE",
+  "line": "Acrylic Colors",
+  "hex": "#8d8f62",
+  "equiv": {
+   "hobbyColor": "H-62",
+   "mrColor": "C-56",
+   "tamiya": "XF-14",
+   "modelAir": "71.321"
+  }
+ },
+ {
+  "code": "ATOM-20000",
+  "name": "MATT WHITE",
+  "line": "ATOM",
+  "ref": "FS37925-RAL 9016-RLM 21",
+  "hex": "#ffffff",
+  "equiv": {
+   "ammo": "A.MIG-0050",
+   "hobbyColor": "H-11 / H-451",
+   "mrColor": "C-62",
+   "tamiya": "XF-2",
+   "modelColor": "70.951",
+   "modelAir": "71.001"
+  }
+ },
+ {
+  "code": "ATOM-20001",
+  "name": "SATIN WHITE",
+  "line": "ATOM",
+  "hex": "#ffffff",
+  "equiv": {
+   "ammo": "A.MIG-0047",
+   "hobbyColor": "H-1",
+   "mrColor": "C-1",
+   "modelColor": "70.842"
+  }
+ },
+ {
+  "code": "ATOM-20002",
+  "name": "CREMEWEISS RAL 9001",
+  "line": "ATOM",
+  "ref": "RAL 9001",
+  "hex": "#eff1b9",
+  "equiv": {
+   "ammo": "A.MIG-0017",
+   "modelColor": "70.918",
+   "modelAir": "71.270"
+  }
+ },
+ {
+  "code": "ATOM-20003",
+  "name": "MIDGREY",
+  "line": "ATOM",
+  "hex": "#9d9995",
+  "equiv": {
+   "ammo": "AMMO.F-515"
+  }
+ },
+ {
+  "code": "ATOM-20004",
+  "name": "WOOD",
+  "line": "ATOM",
+  "hex": "#b2a07b",
+  "equiv": {
+   "ammo": "A.MIG-0036",
+   "modelAir": "71.075"
+  }
+ },
+ {
+  "code": "ATOM-20005",
+  "name": "DUNKELGELB DG III",
+  "line": "ATOM",
+  "ref": "RAL 7028",
+  "hex": "#cecb97",
+  "equiv": {
+   "ammo": "A.MIG-0012"
+  }
+ },
+ {
+  "code": "ATOM-20006",
+  "name": "GERMAN SAND BEIGE RAL8031",
+  "line": "ATOM",
+  "hex": "#baa562",
+  "equiv": {
+   "ammo": "A.MIG-0027"
+  }
+ },
+ {
+  "code": "ATOM-20007",
+  "name": "DESERT SAND",
+  "line": "ATOM",
+  "hex": "#bea868",
+  "equiv": {
+   "ammo": "A.MIG-0029"
+  }
+ },
+ {
+  "code": "ATOM-20008",
+  "name": "IDF SAND GREY ´73",
+  "line": "ATOM",
+  "hex": "#aea178",
+  "equiv": {
+   "ammo": "A.MIG-0067"
+  }
+ },
+ {
+  "code": "ATOM-20009",
+  "name": "US DESERT TAN",
+  "line": "ATOM",
+  "ref": "FS 33446",
+  "hex": "#bc9a6f",
+  "equiv": {
+   "ammo": "A.MIG-0025",
+   "modelColor": "70.819",
+   "modelAir": "71.140"
+  }
+ },
+ {
+  "code": "ATOM-20010",
+  "name": "DUNKELGELB DG I",
+  "line": "ATOM",
+  "ref": "FS33440-RAL 7028",
+  "hex": "#bfbb78",
+  "equiv": {
+   "ammo": "A.MIG-0011",
+   "modelColor": "70.978"
+  }
+ },
+ {
+  "code": "ATOM-20011",
+  "name": "SAND GREY",
+  "line": "ATOM",
+  "ref": "FS30277",
+  "hex": "#736f42",
+  "equiv": {
+   "ammo": "A.MIG-0132",
+   "hobbyColor": "H-85",
+   "mrColor": "C-45",
+   "modelAir": "71.141"
+  }
+ },
+ {
+  "code": "ATOM-20012",
+  "name": "DUNKELGELB",
+  "line": "ATOM",
+  "ref": "RAL 7028",
+  "hex": "#8a7e5d",
+  "equiv": {
+   "ammo": "A.MIG-0010",
+   "hobbyColor": "H-403",
+   "tamiya": "XF-60",
+   "modelAir": "71.025"
+  }
+ },
+ {
+  "code": "ATOM-20013",
+  "name": "ZINC CHROMATE YELLOW",
+  "line": "ATOM",
+  "ref": "FS 33481",
+  "hex": "#a08b3b",
+  "equiv": {
+   "ammo": "A.MIG-0221",
+   "hobbyColor": "H-58",
+   "mrColor": "C-27",
+   "tamiya": "XF-4",
+   "modelAir": "71.107"
+  }
+ },
+ {
+  "code": "ATOM-20014",
+  "name": "OCHRE",
+  "line": "ATOM",
+  "hex": "#adae82",
+  "equiv": {
+   "ammo": "AMMO.F-562"
+  }
+ },
+ {
+  "code": "ATOM-20015",
+  "name": "GELBBRAUN 8020",
+  "line": "ATOM",
+  "ref": "RAL 8020",
+  "hex": "#dfc669",
+  "equiv": {
+   "ammo": "A.MIG-0016"
+  }
+ },
+ {
+  "code": "ATOM-20016",
+  "name": "FADED YELLOW",
+  "line": "ATOM",
+  "hex": "#d1d16c",
+  "equiv": {
+   "ammo": "A.MIG-0130",
+   "hobbyColor": "H-318",
+   "mrColor": "C-318"
+  }
+ },
+ {
+  "code": "ATOM-20017",
+  "name": "LEMON YELLOW ",
+  "line": "ATOM",
+  "hex": "#e8c339"
+ },
+ {
+  "code": "ATOM-20018",
+  "name": "YELLOW",
+  "line": "ATOM",
+  "ref": "RAL 1023",
+  "hex": "#f9d519",
+  "equiv": {
+   "ammo": "A.MIG-0048",
+   "hobbyColor": "H-4",
+   "mrColor": "C-4",
+   "tamiya": "XF-3",
+   "modelColor": "70.915",
+   "modelAir": "71.002"
+  }
+ },
+ {
+  "code": "ATOM-20019",
+  "name": "SUNNY YELLOW",
+  "line": "ATOM",
+  "hex": "#f9d737",
+  "equiv": {
+   "ammo": "AMMO.R-0012"
+  }
+ },
+ {
+  "code": "ATOM-20020",
+  "name": "GOLD YELLOW ",
+  "line": "ATOM",
+  "hex": "#fab61b"
+ },
+ {
+  "code": "ATOM-20021",
+  "name": "SAND YELLOW",
+  "line": "ATOM",
+  "ref": "BS 381c 361",
+  "hex": "#d2a246",
+  "equiv": {
+   "ammo": "A.MIG-0030",
+   "hobbyColor": "H-459",
+   "modelAir": "71.143"
+  }
+ },
+ {
+  "code": "ATOM-20022",
+  "name": "MUSTARD",
+  "line": "ATOM",
+  "ref": "FS33538-RAL 1003-RLM 04",
+  "hex": "#d1a145",
+  "equiv": {
+   "ammo": "A.MIG-0125",
+   "hobbyColor": "H-413",
+   "mrColor": "C-113",
+   "modelColor": "70.953",
+   "modelAir": "71.078"
+  }
+ },
+ {
+  "code": "ATOM-20023",
+  "name": "LIGHT RUST",
+  "line": "ATOM",
+  "hex": "#ee941d",
+  "equiv": {
+   "ammo": "A.MIG-0039",
+   "hobbyColor": "H-24",
+   "mrColor": "C-58",
+   "modelColor": "70.911",
+   "modelAir": "71.130"
+  }
+ },
+ {
+  "code": "ATOM-20024",
+  "name": "SANDGELB RLM79",
+  "line": "ATOM",
+  "ref": "RLM 79-Nr.17",
+  "hex": "#bc9238",
+  "equiv": {
+   "ammo": "A.MIG-0222",
+   "hobbyColor": "H-66",
+   "mrColor": "C-119",
+   "modelColor": "70.876",
+   "modelAir": "71.278"
+  }
+ },
+ {
+  "code": "ATOM-20025",
+  "name": "KHAKI GREEN",
+  "line": "ATOM",
+  "hex": "#b2bd63",
+  "equiv": {
+   "ammo": "AMMO.F-554"
+  }
+ },
+ {
+  "code": "ATOM-20026",
+  "name": "BRIGHT ORANGE",
+  "line": "ATOM",
+  "hex": "#f68c34",
+  "equiv": {
+   "ammo": "AMMO.R-0010"
+  }
+ },
+ {
+  "code": "ATOM-20027",
+  "name": "ORANGE",
+  "line": "ATOM",
+  "ref": "FS32246",
+  "hex": "#ea6420",
+  "equiv": {
+   "ammo": "A.MIG-0129",
+   "hobbyColor": "H-14",
+   "mrColor": "C-59",
+   "modelColor": "70.956",
+   "modelAir": "71.083"
+  }
+ },
+ {
+  "code": "ATOM-20028",
+  "name": "SCARLET RED",
+  "line": "ATOM",
+  "hex": "#c42923",
+  "equiv": {
+   "ammo": "AMMO.R-0037"
+  }
+ },
+ {
+  "code": "ATOM-20029",
+  "name": "RED",
+  "line": "ATOM",
+  "ref": "FS31302-RAL 3020-RLM 23",
+  "hex": "#de2524",
+  "equiv": {
+   "ammo": "A.MIG-0049",
+   "hobbyColor": "H-3 / H-13 / H-23 / H-414 C-3 / C-79 / C-114",
+   "tamiya": "XF-7",
+   "modelColor": "70.909",
+   "modelAir": "71.003"
+  }
+ },
+ {
+  "code": "ATOM-20030",
+  "name": "IMPERIAL RED",
+  "line": "ATOM",
+  "hex": "#ca474e",
+  "equiv": {
+   "ammo": "AMMO.R-0007"
+  }
+ },
+ {
+  "code": "ATOM-20031",
+  "name": "BLOOD RED",
+  "line": "ATOM",
+  "ref": "FS11136-RAL 3002",
+  "hex": "#a7242a",
+  "equiv": {
+   "ammo": "A.MIG-0121",
+   "hobbyColor": "H-327",
+   "mrColor": "C-327",
+   "modelColor": "70.908",
+   "modelAir": "71.084"
+  }
+ },
+ {
+  "code": "ATOM-20032",
+  "name": "CARMINE",
+  "line": "ATOM",
+  "hex": "#8d2120"
+ },
+ {
+  "code": "ATOM-20033",
+  "name": "MAGENTA",
+  "line": "ATOM",
+  "hex": "#e037a4",
+  "equiv": {
+   "ammo": "AMMO.F-540"
+  }
+ },
+ {
+  "code": "ATOM-20034",
+  "name": "FUCSIA",
+  "line": "ATOM",
+  "hex": "#c31b8f"
+ },
+ {
+  "code": "ATOM-20035",
+  "name": "CORAL PINK",
+  "line": "ATOM",
+  "hex": "#a61b1f"
+ },
+ {
+  "code": "ATOM-20036",
+  "name": "VINTAGE PINK",
+  "line": "ATOM",
+  "hex": "#a8485e"
+ },
+ {
+  "code": "ATOM-20037",
+  "name": "DARK NUDE PINK",
+  "line": "ATOM",
+  "hex": "#9c727a"
+ },
+ {
+  "code": "ATOM-20038",
+  "name": "GLACIER PINK",
+  "line": "ATOM",
+  "hex": "#d6b0ac"
+ },
+ {
+  "code": "ATOM-20039",
+  "name": "PINK FLESH",
+  "line": "ATOM",
+  "hex": "#f9b3ba"
+ },
+ {
+  "code": "ATOM-20040",
+  "name": "LIGHT PINK FLESH",
+  "line": "ATOM",
+  "hex": "#f6d5c7"
+ },
+ {
+  "code": "ATOM-20041",
+  "name": "BASIC SKIN ",
+  "line": "ATOM",
+  "hex": "#ecb3a4",
+  "equiv": {
+   "ammo": "AMMO.F-549"
+  }
+ },
+ {
+  "code": "ATOM-20042",
+  "name": "LIGHT SKIN ",
+  "line": "ATOM",
+  "hex": "#dfbf9b",
+  "equiv": {
+   "ammo": "AMMO.F-548"
+  }
+ },
+ {
+  "code": "ATOM-20043",
+  "name": "WARM SKIN",
+  "line": "ATOM",
+  "hex": "#b68d6e",
+  "equiv": {
+   "ammo": "AMMO.F-550"
+  }
+ },
+ {
+  "code": "ATOM-20044",
+  "name": "BEIGE PINK",
+  "line": "ATOM",
+  "hex": "#f8a06a",
+  "equiv": {
+   "ammo": "AMMO.F-558"
+  }
+ },
+ {
+  "code": "ATOM-20045",
+  "name": "RUST",
+  "line": "ATOM",
+  "hex": "#bc5134",
+  "equiv": {
+   "ammo": "A.MIG-0040",
+   "hobbyColor": "H-453",
+   "modelColor": "70.98 1",
+   "modelAir": "71.129"
+  }
+ },
+ {
+  "code": "ATOM-20046",
+  "name": "ROTBRAUN RAL 8012",
+  "line": "ATOM",
+  "ref": "RAL 8012",
+  "hex": "#862e1a",
+  "equiv": {
+   "ammo": "A.MIG-0014",
+   "hobbyColor": "H-47 / H-460",
+   "mrColor": "C-41",
+   "tamiya": "XF-64",
+   "modelColor": "70.814",
+   "modelAir": "71.271"
+  }
+ },
+ {
+  "code": "ATOM-20047",
+  "name": "DARK RUST",
+  "line": "ATOM",
+  "ref": "FS30109",
+  "hex": "#762519",
+  "equiv": {
+   "ammo": "A.MIG-0041",
+   "hobbyColor": "H-7",
+   "mrColor": "C-7",
+   "tamiya": "XF-79",
+   "modelColor": "70.818"
+  }
+ },
+ {
+  "code": "ATOM-20048",
+  "name": "CLAY BROWN",
+  "line": "ATOM",
+  "ref": "FS30215",
+  "hex": "#60311b",
+  "equiv": {
+   "ammo": "A.MIG-0079",
+   "hobbyColor": "H-37",
+   "mrColor": "C-43",
+   "modelAir": "71.034"
+  }
+ },
+ {
+  "code": "ATOM-20049",
+  "name": "BRITISH UNIFORM",
+  "line": "ATOM",
+  "hex": "#87731e",
+  "equiv": {
+   "ammo": "AMMO.F-545"
+  }
+ },
+ {
+  "code": "ATOM-20050",
+  "name": "DARK WOOD",
+  "line": "ATOM",
+  "hex": "#5f4f36",
+  "equiv": {
+   "ammo": "AMMO.R-0001"
+  }
+ },
+ {
+  "code": "ATOM-20051",
+  "name": "EARTH",
+  "line": "ATOM",
+  "hex": "#755437",
+  "equiv": {
+   "ammo": "A.MIG-0073",
+   "hobbyColor": "H-457",
+   "tamiya": "XF-52",
+   "modelColor": "70.874",
+   "modelAir": "71.024"
+  }
+ },
+ {
+  "code": "ATOM-20052",
+  "name": "EARTH BROWN",
+  "line": "ATOM",
+  "hex": "#82402b",
+  "equiv": {
+   "ammo": "A.MIG-0064",
+   "modelColor": "70.303",
+   "modelAir": "71.037"
+  }
+ },
+ {
+  "code": "ATOM-20053",
+  "name": "RED BRICK",
+  "line": "ATOM",
+  "hex": "#833a1f",
+  "equiv": {
+   "ammo": "A.MIG-0922"
+  }
+ },
+ {
+  "code": "ATOM-20054",
+  "name": "OLD RUST",
+  "line": "ATOM",
+  "hex": "#6d4231",
+  "equiv": {
+   "ammo": "AMMO.F-532"
+  }
+ },
+ {
+  "code": "ATOM-20055",
+  "name": "UMBER BROWN",
+  "line": "ATOM",
+  "ref": "FS 30111-BS435",
+  "hex": "#6c3e3b",
+  "equiv": {
+   "ammo": "A.MIG-0034",
+   "mrColor": "C-131",
+   "modelColor": "70.343",
+   "modelAir": "71.080"
+  }
+ },
+ {
+  "code": "ATOM-20056",
+  "name": "BURNT BROWN",
+  "line": "ATOM",
+  "hex": "#332413",
+  "equiv": {
+   "ammo": "AMMO.F-553"
+  }
+ },
+ {
+  "code": "ATOM-20057",
+  "name": "BROWN",
+  "line": "ATOM",
+  "ref": "FS30140-BS 450",
+  "hex": "#4a2d24",
+  "equiv": {
+   "ammo": "A.MIG-0070",
+   "hobbyColor": "H-341",
+   "modelColor": "70.312",
+   "modelAir": "71.035"
+  }
+ },
+ {
+  "code": "ATOM-20058",
+  "name": "LEATHER",
+  "line": "ATOM",
+  "hex": "#3e241e",
+  "equiv": {
+   "ammo": "A.MIG-0042",
+   "hobbyColor": "H-17",
+   "mrColor": "C-29",
+   "tamiya": "XF-9",
+   "modelColor": "70.859",
+   "modelAir": "71.040"
+  }
+ },
+ {
+  "code": "ATOM-20059",
+  "name": "BRAUNVIOLETT RLM81",
+  "line": "ATOM",
+  "ref": "RLM 81",
+  "hex": "#4d3232",
+  "equiv": {
+   "ammo": "A.MIG-0255",
+   "hobbyColor": "H-421",
+   "mrColor": "C-121",
+   "modelAir": "71.264"
+  }
+ },
+ {
+  "code": "ATOM-20060",
+  "name": "COFFEE BROWN",
+  "line": "ATOM",
+  "hex": "#6b3e42",
+  "equiv": {
+   "ammo": "AMMO.R-0009"
+  }
+ },
+ {
+  "code": "ATOM-20061",
+  "name": "NATO BROWN",
+  "line": "ATOM",
+  "ref": "FS 30051-RAL 8027",
+  "hex": "#3a2422",
+  "equiv": {
+   "ammo": "A.MIG-0085",
+   "tamiya": "XF-68",
+   "modelColor": "70.871",
+   "modelAir": "71.249"
+  }
+ },
+ {
+  "code": "ATOM-20062",
+  "name": "SCHOKOBRAUN RAL8017",
+  "line": "ATOM",
+  "ref": "FS30059-RAL 8017",
+  "hex": "#4a2928",
+  "equiv": {
+   "ammo": "A.MIG-0015",
+   "hobbyColor": "H-406",
+   "tamiya": "XF-10",
+   "modelColor": "70.985",
+   "modelAir": "71.041"
+  }
+ },
+ {
+  "code": "ATOM-20063",
+  "name": "BLACK BROWN",
+  "line": "ATOM",
+  "hex": "#2a1916",
+  "equiv": {
+   "ammo": "AMMO.F-533"
+  }
+ },
+ {
+  "code": "ATOM-20064",
+  "name": "CHIPPING",
+  "line": "ATOM",
+  "hex": "#200d10",
+  "equiv": {
+   "ammo": "A.MIG-0044",
+   "hobbyColor": "H-84",
+   "mrColor": "C-42",
+   "modelColor": "70.304",
+   "modelAir": "71.039"
+  }
+ },
+ {
+  "code": "ATOM-20065",
+  "name": "DARK OLIVE DRAB",
+  "line": "ATOM",
+  "ref": "RLM 83",
+  "hex": "#38381f",
+  "equiv": {
+   "ammo": "A.MIG-0925",
+   "hobbyColor": "H-78",
+   "mrColor": "C-38",
+   "modelColor": "70.889",
+   "modelAir": "71.043"
+  }
+ },
+ {
+  "code": "ATOM-20066",
+  "name": "NATO GREEN",
+  "line": "ATOM",
+  "ref": "FS 34094",
+  "hex": "#3b4532",
+  "equiv": {
+   "ammo": "A.MIG-0084",
+   "hobbyColor": "H-80",
+   "mrColor": "C-54",
+   "tamiya": "XF-67",
+   "modelAir": "71.093"
+  }
+ },
+ {
+  "code": "ATOM-20067",
+  "name": "OLIVGRÜN DARK",
+  "line": "ATOM",
+  "ref": "FS34096-RAL 6003",
+  "hex": "#2d3926",
+  "equiv": {
+   "ammo": "A.MIG-0001",
+   "tamiya": "XF-61",
+   "modelColor": "70.888"
+  }
+ },
+ {
+  "code": "ATOM-20068",
+  "name": "IJA KAWASAKI GREEN",
+  "line": "ATOM",
+  "hex": "#35432d",
+  "equiv": {
+   "ammo": "A.MIG-0260",
+   "hobbyColor": "H-60",
+   "mrColor": "C-130",
+   "modelAir": "71.287"
+  }
+ },
+ {
+  "code": "ATOM-20069",
+  "name": "OLIVE DRAB ",
+  "line": "ATOM",
+  "ref": "FS34087",
+  "hex": "#4b4e2e",
+  "equiv": {
+   "ammo": "A.MIG-0926",
+   "hobbyColor": "H-304",
+   "mrColor": "C-304",
+   "tamiya": "XF-62",
+   "modelAir": "71.286"
+  }
+ },
+ {
+  "code": "ATOM-20070",
+  "name": "SINAI GREY",
+  "line": "ATOM",
+  "hex": "#616535",
+  "equiv": {
+   "ammo": "A.MIG-0131",
+   "modelAir": "71.142"
+  }
+ },
+ {
+  "code": "ATOM-20071",
+  "name": "RUSSIAN GREEN 4BO",
+  "line": "ATOM",
+  "ref": "4BO, XB 518",
+  "hex": "#475029",
+  "equiv": {
+   "ammo": "A.MIG-0019",
+   "hobbyColor": "H-320",
+   "mrColor": "C-136",
+   "modelColor": "70.924",
+   "modelAir": "71.017"
+  }
+ },
+ {
+  "code": "ATOM-20072",
+  "name": "DARK OLIVE GREEN",
+  "line": "ATOM",
+  "hex": "#58611f",
+  "equiv": {
+   "ammo": "A.MIG-0932",
+   "modelAir": "71.303"
+  }
+ },
+ {
+  "code": "ATOM-20073",
+  "name": "YELLOW GREEN",
+  "line": "ATOM",
+  "hex": "#7b9030"
+ },
+ {
+  "code": "ATOM-20074",
+  "name": "ZINC CHROMATE GREEN",
+  "line": "ATOM",
+  "ref": "RAL 6011-FS 34151",
+  "hex": "#3c552f",
+  "equiv": {
+   "ammo": "A.MIG-0004",
+   "hobbyColor": "H-340",
+   "mrColor": "C-340",
+   "modelColor": "70.850",
+   "modelAir": "71.137"
+  }
+ },
+ {
+  "code": "ATOM-20075",
+  "name": "HELLGRÜN / CHROMATE GREEN",
+  "line": "ATOM",
+  "ref": "FS34095-RAL 6020-RLM 82",
+  "hex": "#3c552f",
+  "equiv": {
+   "ammo": "A.MIG-0230",
+   "hobbyColor": "H-422",
+   "mrColor": "C-122",
+   "modelColor": "70.823",
+   "modelAir": "71.022"
+  }
+ },
+ {
+  "code": "ATOM-20076",
+  "name": "IJA NAKAJIMA GREEN",
+  "line": "ATOM",
+  "ref": "FS34102-RLM 62",
+  "hex": "#4e6b58",
+  "equiv": {
+   "ammo": "A.MIG-0261",
+   "hobbyColor": "H-303",
+   "mrColor": "C-129",
+   "tamiya": "XF-81",
+   "modelColor": "70.348",
+   "modelAir": "71.285"
+  }
+ },
+ {
+  "code": "ATOM-20077",
+  "name": "DUNKELGRÜN RLM81",
+  "line": "ATOM",
+  "ref": "FS 34079-RLM 81",
+  "hex": "#3e512c",
+  "equiv": {
+   "ammo": "A.MIG-0206",
+   "hobbyColor": "H-309 / H-330",
+   "mrColor": "C-309 / C-330",
+   "modelColor": "70.893",
+   "modelAir": "71.294"
+  }
+ },
+ {
+  "code": "ATOM-20078",
+  "name": "GRAU RLM02",
+  "line": "ATOM",
+  "ref": "RAL 7002-RLM 02",
+  "hex": "#71736a",
+  "equiv": {
+   "ammo": "A.MIG-0217",
+   "hobbyColor": "H-70",
+   "mrColor": "C-60",
+   "tamiya": "XF-22",
+   "modelColor": "70.886",
+   "modelAir": "71.044"
+  }
+ },
+ {
+  "code": "ATOM-20079",
+  "name": "OLIVGRÜN",
+  "line": "ATOM",
+  "ref": "FS34082-RAL 6003",
+  "hex": "#4a5838",
+  "equiv": {
+   "ammo": "A.MIG-0002",
+   "hobbyColor": "H-48",
+   "mrColor": "C-52",
+   "tamiya": "XF-65",
+   "modelColor": "70.890",
+   "modelAir": "71.092"
+  }
+ },
+ {
+  "code": "ATOM-20080",
+  "name": "FIELD GREY",
+  "line": "ATOM",
+  "hex": "#5a715c",
+  "equiv": {
+   "ammo": "AMMO.F-512"
+  }
+ },
+ {
+  "code": "ATOM-20081",
+  "name": "RESEDAGRÜN (RAL 6011)",
+  "line": "ATOM",
+  "ref": "FS34227, RAL 6011",
+  "hex": "#59803f",
+  "equiv": {
+   "ammo": "A.MIG-0023",
+   "hobbyColor": "H-312",
+   "mrColor": "C-312",
+   "modelColor": "70.891",
+   "modelAir": "71.126"
+  }
+ },
+ {
+  "code": "ATOM-20082",
+  "name": "PACIFIC GREEN",
+  "line": "ATOM",
+  "hex": "#8ebd5d",
+  "equiv": {
+   "ammo": "AMMO.F-544"
+  }
+ },
+ {
+  "code": "ATOM-20083",
+  "name": "GREEN BASE",
+  "line": "ATOM",
+  "hex": "#4b6d3e",
+  "equiv": {
+   "ammo": "A.MIG-0916",
+   "modelColor": "70.827"
+  }
+ },
+ {
+  "code": "ATOM-20084",
+  "name": "BRIGHT GREEN",
+  "line": "ATOM",
+  "hex": "#5c8f40",
+  "equiv": {
+   "ammo": "A.MIG-0080",
+   "modelAir": "71.301"
+  }
+ },
+ {
+  "code": "ATOM-20085",
+  "name": "FADED GREEN",
+  "line": "ATOM",
+  "hex": "#a5cf77"
+ },
+ {
+  "code": "ATOM-20086",
+  "name": "DUCK EGG GREEN",
+  "line": "ATOM",
+  "ref": "BS 216-FS 34524",
+  "hex": "#adc48a",
+  "equiv": {
+   "ammo": "A.MIG-0244",
+   "hobbyColor": "H-74",
+   "mrColor": "C-26",
+   "modelAir": "71.009"
+  }
+ },
+ {
+  "code": "ATOM-20087",
+  "name": "BILE GREEN",
+  "line": "ATOM",
+  "hex": "#c6d55c"
+ },
+ {
+  "code": "ATOM-20088",
+  "name": "PISTACHIO",
+  "line": "ATOM",
+  "hex": "#b7cc1e"
+ },
+ {
+  "code": "ATOM-20089",
+  "name": "LIME GREEN",
+  "line": "ATOM",
+  "hex": "#c1e246",
+  "equiv": {
+   "ammo": "AMMO.F-555"
+  }
+ },
+ {
+  "code": "ATOM-20090",
+  "name": "TROLL GREEN",
+  "line": "ATOM",
+  "hex": "#3b9a4c"
+ },
+ {
+  "code": "ATOM-20091",
+  "name": "FERN GREEN",
+  "line": "ATOM",
+  "hex": "#1b5f2e",
+  "equiv": {
+   "ammo": "A.MIG-0054",
+   "hobbyColor": "H-26",
+   "mrColor": "C-66"
+  }
+ },
+ {
+  "code": "ATOM-20092",
+  "name": "DARK GREEN",
+  "line": "ATOM",
+  "hex": "#17422f",
+  "equiv": {
+   "ammo": "A.MIG-0052",
+   "modelColor": "70.970",
+   "modelAir": "71.007"
+  }
+ },
+ {
+  "code": "ATOM-20093",
+  "name": "FOREST GREEN",
+  "line": "ATOM",
+  "hex": "#1a5639"
+ },
+ {
+  "code": "ATOM-20094",
+  "name": "PHTALO GREEN",
+  "line": "ATOM",
+  "hex": "#36503f",
+  "equiv": {
+   "ammo": "AMMO.F-542"
+  }
+ },
+ {
+  "code": "ATOM-20095",
+  "name": "IJN MITSUBISHI GREEN",
+  "line": "ATOM",
+  "hex": "#517839",
+  "equiv": {
+   "ammo": "A.MIG-0265",
+   "mrColor": "C-124",
+   "tamiya": "XF-70",
+   "modelAir": "71.310"
+  }
+ },
+ {
+  "code": "ATOM-20096",
+  "name": "IJN NAKAJIMA DARK GREEN",
+  "line": "ATOM",
+  "hex": "#305d43",
+  "equiv": {
+   "ammo": "A.MIG-0264"
+  }
+ },
+ {
+  "code": "ATOM-20097",
+  "name": "ATLANTIC GREEN",
+  "line": "ATOM",
+  "hex": "#5b6b5d",
+  "equiv": {
+   "ammo": "AMMO.R-0013"
+  }
+ },
+ {
+  "code": "ATOM-20098",
+  "name": "DEEP GREEN",
+  "line": "ATOM",
+  "hex": "#1c2b27",
+  "equiv": {
+   "ammo": "A.MIG-0053"
+  }
+ },
+ {
+  "code": "ATOM-20099",
+  "name": "RUSSIAN GREEN UNIFORM",
+  "line": "ATOM",
+  "hex": "#2e4b40",
+  "equiv": {
+   "ammo": "AMMO.F-506"
+  }
+ },
+ {
+  "code": "ATOM-20100",
+  "name": "GREEN GREY",
+  "line": "ATOM",
+  "hex": "#47625a",
+  "equiv": {
+   "ammo": "A.MIG-0018"
+  }
+ },
+ {
+  "code": "ATOM-20101",
+  "name": "SCHWARTZGRÜN RLM70",
+  "line": "ATOM",
+  "ref": "FS34052-RAL 7022-RLM 70",
+  "hex": "#50583b",
+  "equiv": {
+   "ammo": "A.MIG-0232",
+   "hobbyColor": "H-65",
+   "mrColor": "C-18",
+   "tamiya": "XF-27",
+   "modelColor": "70.897",
+   "modelAir": "71.021"
+  }
+ },
+ {
+  "code": "ATOM-20102",
+  "name": "OCEAN BLUE",
+  "line": "ATOM",
+  "ref": "FS 25042 - ANA 606",
+  "hex": "#1e243b",
+  "equiv": {
+   "ammo": "A.MIG-0227",
+   "hobbyColor": "H-54",
+   "mrColor": "C-14",
+   "tamiya": "XF-50",
+   "modelColor": "70.898",
+   "modelAir": "71.005"
+  }
+ },
+ {
+  "code": "ATOM-20103",
+  "name": "MARINE BLUE",
+  "line": "ATOM",
+  "hex": "#193a5b",
+  "equiv": {
+   "ammo": "AMMO.F-518"
+  }
+ },
+ {
+  "code": "ATOM-20104",
+  "name": "BLUISH GREY",
+  "line": "ATOM",
+  "hex": "#404965",
+  "equiv": {
+   "ammo": "A.MIG-0250",
+   "modelColor": "70.964"
+  }
+ },
+ {
+  "code": "ATOM-20105",
+  "name": "FRENCH BLUE",
+  "line": "ATOM",
+  "ref": "FS35109",
+  "hex": "#396574",
+  "equiv": {
+   "ammo": "A.MIG-0062",
+   "hobbyColor": "H-42",
+   "mrColor": "C-72",
+   "tamiya": "XF-18",
+   "modelColor": "70.900",
+   "modelAir": "71.113"
+  }
+ },
+ {
+  "code": "ATOM-20106",
+  "name": "NAVY BLUE",
+  "line": "ATOM",
+  "hex": "#5f78a2",
+  "equiv": {
+   "ammo": "AMMO.F-525"
+  }
+ },
+ {
+  "code": "ATOM-20107",
+  "name": "UNIFORM BLUE",
+  "line": "ATOM",
+  "hex": "#466ca1",
+  "equiv": {
+   "ammo": "AMMO.F-523"
+  }
+ },
+ {
+  "code": "ATOM-20108",
+  "name": "PRUSSIAN BLUE",
+  "line": "ATOM",
+  "hex": "#364779",
+  "equiv": {
+   "ammo": "A.MIG-0103",
+   "hobbyColor": "H-15",
+   "mrColor": "C-65",
+   "modelColor": "70.839"
+  }
+ },
+ {
+  "code": "ATOM-20109",
+  "name": "DEEP CYAN",
+  "line": "ATOM",
+  "hex": "#44a0de",
+  "equiv": {
+   "ammo": "AMMO.F-526"
+  }
+ },
+ {
+  "code": "ATOM-20110",
+  "name": "BLUE",
+  "line": "ATOM",
+  "ref": "RAL 5019",
+  "hex": "#427ec9",
+  "equiv": {
+   "ammo": "A.MIG-0086",
+   "hobbyColor": "H-323",
+   "mrColor": "C-323",
+   "modelColor": "70.844",
+   "modelAir": "71.089"
+  }
+ },
+ {
+  "code": "ATOM-20111",
+  "name": "CYAN",
+  "line": "ATOM",
+  "hex": "#87c6e0",
+  "equiv": {
+   "ammo": "AMMO.F-524"
+  }
+ },
+ {
+  "code": "ATOM-20112",
+  "name": "BRIGHT BLUE",
+  "line": "ATOM",
+  "ref": "FS 35260",
+  "hex": "#4fc6f1",
+  "equiv": {
+   "ammo": "A.MIG-0224",
+   "hobbyColor": "H-45",
+   "modelColor": "70.961",
+   "modelAir": "71.317"
+  }
+ },
+ {
+  "code": "ATOM-20113",
+  "name": "GREEN BLUE",
+  "line": "ATOM",
+  "hex": "#4e9dab",
+  "equiv": {
+   "ammo": "AMMO.F-543"
+  }
+ },
+ {
+  "code": "ATOM-20114",
+  "name": "TURQUOISE GREEN",
+  "line": "ATOM",
+  "hex": "#3ba787",
+  "equiv": {
+   "ammo": "A.MIG-0223"
+  }
+ },
+ {
+  "code": "ATOM-20115",
+  "name": "JADE GREEN",
+  "line": "ATOM",
+  "hex": "#46c0a9",
+  "equiv": {
+   "ammo": "AMMO.R-0018"
+  }
+ },
+ {
+  "code": "ATOM-20116",
+  "name": "AQUAMARINE",
+  "line": "ATOM",
+  "hex": "#69ccbb"
+ },
+ {
+  "code": "ATOM-20117",
+  "name": "DUCK BLUE",
+  "line": "ATOM",
+  "hex": "#337c9a"
+ },
+ {
+  "code": "ATOM-20118",
+  "name": "SAPPHIRE BLUE",
+  "line": "ATOM",
+  "hex": "#b4c4e6",
+  "equiv": {
+   "ammo": "AMMO.F-519"
+  }
+ },
+ {
+  "code": "ATOM-20119",
+  "name": "AZURE BLUE",
+  "line": "ATOM",
+  "hex": "#6b85b6",
+  "equiv": {
+   "ammo": "A.MIG-0257",
+   "mrColor": "C-370",
+   "modelColor": "70.902",
+   "modelAir": "71.108"
+  }
+ },
+ {
+  "code": "ATOM-20120",
+  "name": "BABY BLUE",
+  "line": "ATOM",
+  "hex": "#419dab",
+  "equiv": {
+   "ammo": "A.MIG-0251",
+   "modelAir": "71.318"
+  }
+ },
+ {
+  "code": "ATOM-20121",
+  "name": "AIR SUPERIORITY BLUE",
+  "line": "ATOM",
+  "ref": "FS35450",
+  "hex": "#a1cbd5",
+  "equiv": {
+   "ammo": "A.MIG-0271",
+   "modelAir": "71.332"
+  }
+ },
+ {
+  "code": "ATOM-20122",
+  "name": "LIGHT BLUE",
+  "line": "ATOM",
+  "ref": "FS35550",
+  "hex": "#c1dde4",
+  "equiv": {
+   "ammo": "A.MIG-0249",
+   "modelAir": "71.306"
+  }
+ },
+ {
+  "code": "ATOM-20123",
+  "name": "COLD GRAY",
+  "line": "ATOM",
+  "ref": "FS36628",
+  "hex": "#d7d8d5",
+  "equiv": {
+   "ammo": "A.MIG-0119"
+  }
+ },
+ {
+  "code": "ATOM-20124",
+  "name": "LIGHT GRAY",
+  "line": "ATOM",
+  "ref": "FS 36495",
+  "hex": "#c4c6c4",
+  "equiv": {
+   "ammo": "A.MIG-0209",
+   "hobbyColor": "H-51 / H-338",
+   "mrColor": "C-11 / C-338",
+   "modelAir": "71.276"
+  }
+ },
+ {
+  "code": "ATOM-20125",
+  "name": "LIGHT GRAY GREEN",
+  "line": "ATOM",
+  "ref": "FS 34424",
+  "hex": "#a8cca2",
+  "equiv": {
+   "ammo": "A.MIG-0201",
+   "hobbyColor": "H-31",
+   "modelColor": "70.885"
+  }
+ },
+ {
+  "code": "ATOM-20126",
+  "name": "HELLBLAU RLM78",
+  "line": "ATOM",
+  "ref": "FS 35414-RLM 78",
+  "hex": "#85a5a3",
+  "equiv": {
+   "ammo": "A.MIG-0247",
+   "hobbyColor": "H-418",
+   "mrColor": "C-118",
+   "modelColor": "70.972",
+   "modelAir": "71.101"
+  }
+ },
+ {
+  "code": "ATOM-20127",
+  "name": "HELLBLAU RLM65",
+  "line": "ATOM",
+  "ref": "FS35352-RLM 65",
+  "hex": "#c3dfe1",
+  "equiv": {
+   "ammo": "A.MIG-0231",
+   "hobbyColor": "H-67",
+   "mrColor": "C-115",
+   "tamiya": "XF-25",
+   "modelColor": "70.906",
+   "modelAir": "71.255"
+  }
+ },
+ {
+  "code": "ATOM-20128",
+  "name": "INTERIOR LIGHT GREEN",
+  "line": "ATOM",
+  "ref": "FS 34226 - BS283",
+  "hex": "#8aa98a",
+  "equiv": {
+   "ammo": "A.MIG-0082",
+   "modelColor": "70.331"
+  }
+ },
+ {
+  "code": "ATOM-20129",
+  "name": "LIGHT GHOST GRAY",
+  "line": "ATOM",
+  "ref": "FS 36375-RAL7001",
+  "hex": "#a1bcba",
+  "equiv": {
+   "ammo": "A.MIG-0203",
+   "hobbyColor": "H-308",
+   "mrColor": "C-308",
+   "modelColor": "70.990"
+  }
+ },
+ {
+  "code": "ATOM-20130",
+  "name": "PALE GREY",
+  "line": "ATOM",
+  "ref": "FS36480-RLM 76",
+  "hex": "#abc9bb",
+  "equiv": {
+   "ammo": "A.MIG-0063",
+   "hobbyColor": "H-417",
+   "mrColor": "C-117",
+   "tamiya": "XF-23",
+   "modelAir": "71.257"
+  }
+ },
+ {
+  "code": "ATOM-20131",
+  "name": "SEAL GREY",
+  "line": "ATOM",
+  "ref": "FS 36314",
+  "hex": "#929a99",
+  "equiv": {
+   "ammo": "A.MIG-0207",
+   "hobbyColor": "H-334",
+   "mrColor": "C-334",
+   "tamiya": "XF-19",
+   "modelColor": "70.989",
+   "modelAir": "71.046"
+  }
+ },
+ {
+  "code": "ATOM-20132",
+  "name": "STONE GREY",
+  "line": "ATOM",
+  "hex": "#adb0b1",
+  "equiv": {
+   "ammo": "A.MIG-0075",
+   "tamiya": "XF-80"
+  }
+ },
+ {
+  "code": "ATOM-20133",
+  "name": "DARK GHOST GRAY",
+  "line": "ATOM",
+  "ref": "FS 36320",
+  "hex": "#707a7c",
+  "equiv": {
+   "ammo": "A.MIG-0208",
+   "hobbyColor": "H-307",
+   "mrColor": "C-307",
+   "modelAir": "71.120"
+  }
+ },
+ {
+  "code": "ATOM-20134",
+  "name": "BLUE GRAY",
+  "line": "ATOM",
+  "ref": "FS 35237",
+  "hex": "#66808f",
+  "equiv": {
+   "ammo": "A.MIG-0210",
+   "hobbyColor": "H-337",
+   "mrColor": "C-337",
+   "modelColor": "70.905",
+   "modelAir": "71.304"
+  }
+ },
+ {
+  "code": "ATOM-20135",
+  "name": "GREY",
+  "line": "ATOM",
+  "ref": "FS36251-KHV-16",
+  "hex": "#80878e",
+  "equiv": {
+   "ammo": "A.MIG-0059",
+   "hobbyColor": "H-22",
+   "modelAir": "71.050"
+  }
+ },
+ {
+  "code": "ATOM-20136",
+  "name": "INTERMEDIATE BLUE",
+  "line": "ATOM",
+  "ref": "FS 35164-RAL 7031-ANA 608",
+  "hex": "#505973",
+  "equiv": {
+   "ammo": "A.MIG-0228",
+   "hobbyColor": "H-56",
+   "tamiya": "XF-66",
+   "modelColor": "70.903",
+   "modelAir": "71.299"
+  }
+ },
+ {
+  "code": "ATOM-20137",
+  "name": "OCEAN GREY",
+  "line": "ATOM",
+  "ref": "BS 629",
+  "hex": "#687984",
+  "equiv": {
+   "ammo": "A.MIG-0245",
+   "tamiya": "XF-82",
+   "modelAir": "71.273"
+  }
+ },
+ {
+  "code": "ATOM-20138",
+  "name": "IJA LIGHT GREY GREEN",
+  "line": "ATOM",
+  "ref": "FS 36622",
+  "hex": "#6e9392",
+  "equiv": {
+   "ammo": "A.MIG-0259",
+   "hobbyColor": "H-311",
+   "mrColor": "C-127",
+   "tamiya": "XF-71",
+   "modelColor": "70.883",
+   "modelAir": "71.296"
+  }
+ },
+ {
+  "code": "ATOM-20139",
+  "name": "NAKAJIMA INTERIOR GREEN",
+  "line": "ATOM",
+  "hex": "#989881",
+  "equiv": {
+   "ammo": "A.MIG-0269"
+  }
+ },
+ {
+  "code": "ATOM-20140",
+  "name": "SKY GREEN",
+  "line": "ATOM",
+  "ref": "BS 210",
+  "hex": "#9cb997",
+  "equiv": {
+   "ammo": "A.MIG-0243",
+   "tamiya": "XF-21",
+   "modelAir": "71.302"
+  }
+ },
+ {
+  "code": "ATOM-20141",
+  "name": "IJN ASH GREY",
+  "line": "ATOM",
+  "ref": "RLM 84",
+  "hex": "#afb382",
+  "equiv": {
+   "ammo": "A.MIG-0262",
+   "tamiya": "XF-12",
+   "modelAir": "71.311"
+  }
+ },
+ {
+  "code": "ATOM-20142",
+  "name": "IJA GREY GREEN",
+  "line": "ATOM",
+  "ref": "FS 36440-RAL 7038",
+  "hex": "#96998f",
+  "equiv": {
+   "ammo": "A.MIG-0241",
+   "hobbyColor": "H-315 / H-325",
+   "mrColor": "C-315 / C-325",
+   "modelColor": "70.986",
+   "modelAir": "71.121"
+  }
+ },
+ {
+  "code": "ATOM-20143",
+  "name": "DUST",
+  "line": "ATOM",
+  "hex": "#8c8868",
+  "equiv": {
+   "ammo": "A.MIG-0072",
+   "tamiya": "XF-55",
+   "modelColor": "70.315"
+  }
+ },
+ {
+  "code": "ATOM-20144",
+  "name": "ZIMMERIT",
+  "line": "ATOM",
+  "hex": "#918470",
+  "equiv": {
+   "ammo": "A.MIG-0114"
+  }
+ },
+ {
+  "code": "ATOM-20145",
+  "name": "NEUTRAL GRAY",
+  "line": "ATOM",
+  "ref": "FS 36122",
+  "hex": "#676d70",
+  "equiv": {
+   "ammo": "A.MIG-0239",
+   "hobbyColor": "H-53",
+   "mrColor": "C-13",
+   "modelAir": "71.274"
+  }
+ },
+ {
+  "code": "ATOM-20146",
+  "name": "DARK GREY",
+  "line": "ATOM",
+  "ref": "FS 36152-RAL 7012",
+  "hex": "#585f6b",
+  "equiv": {
+   "ammo": "A.MIG-0235",
+   "hobbyColor": "H-83",
+   "mrColor": "C-32",
+   "tamiya": "XF-75",
+   "modelAir": "71.308"
+  }
+ },
+ {
+  "code": "ATOM-20147",
+  "name": "GRAUVIOLETT RLM75",
+  "line": "ATOM",
+  "ref": "RLM 75",
+  "hex": "#7f7f86",
+  "equiv": {
+   "ammo": "A.MIG-0254",
+   "hobbyColor": "H-69",
+   "mrColor": "C-37",
+   "modelColor": "70.869",
+   "modelAir": "71.259"
+  }
+ },
+ {
+  "code": "ATOM-20148",
+  "name": "SHADOW GREY",
+  "line": "ATOM",
+  "ref": "FS 36118",
+  "hex": "#3b3f50",
+  "equiv": {
+   "ammo": "A.MIG-0204",
+   "hobbyColor": "H-305",
+   "mrColor": "C-305",
+   "tamiya": "XF-77",
+   "modelColor": "70.868",
+   "modelAir": "71.047"
+  }
+ },
+ {
+  "code": "ATOM-20149",
+  "name": "GREY BROWN",
+  "line": "ATOM",
+  "hex": "#897f86",
+  "equiv": {
+   "ammo": "AMMO.F-521"
+  }
+ },
+ {
+  "code": "ATOM-20150",
+  "name": "VIOLET",
+  "line": "ATOM",
+  "hex": "#493a9c",
+  "equiv": {
+   "ammo": "A.MIG-0126",
+   "hobbyColor": "H-49",
+   "modelColor": "70.960"
+  }
+ },
+ {
+  "code": "ATOM-20151",
+  "name": "PURPLE",
+  "line": "ATOM",
+  "ref": "FS37142-RAL 4008",
+  "hex": "#8c4baa",
+  "equiv": {
+   "ammo": "A.MIG-0127",
+   "hobbyColor": "H-39",
+   "mrColor": "C-67",
+   "modelColor": "70.959"
+  }
+ },
+ {
+  "code": "ATOM-20152",
+  "name": "AMETHYST",
+  "line": "ATOM",
+  "hex": "#8a46a6"
+ },
+ {
+  "code": "ATOM-20153",
+  "name": "ORCHID",
+  "line": "ATOM",
+  "hex": "#984c9a"
+ },
+ {
+  "code": "ATOM-20154",
+  "name": "LIGHT PLUM",
+  "line": "ATOM",
+  "hex": "#a96db9"
+ },
+ {
+  "code": "ATOM-20155",
+  "name": "MAUVE",
+  "line": "ATOM",
+  "hex": "#837aab"
+ },
+ {
+  "code": "ATOM-20156",
+  "name": "PUTRID FLESH",
+  "line": "ATOM",
+  "hex": "#80767d"
+ },
+ {
+  "code": "ATOM-20157",
+  "name": "GRAUGRÜN RLM74",
+  "line": "ATOM",
+  "ref": "RLM 74",
+  "hex": "#3d4746",
+  "equiv": {
+   "ammo": "A.MIG-0253",
+   "hobbyColor": "H-68",
+   "mrColor": "C-36",
+   "modelColor": "70.867",
+   "modelAir": "71.258"
+  }
+ },
+ {
+  "code": "ATOM-20158",
+  "name": "SCHWARTZGRAU RLM66",
+  "line": "ATOM",
+  "ref": "RLM66",
+  "hex": "#2b272f",
+  "equiv": {
+   "ammo": "A.MIG-0218",
+   "hobbyColor": "H-416",
+   "mrColor": "C-116",
+   "tamiya": "XF-63",
+   "modelColor": "70.866",
+   "modelAir": "71.055"
+  }
+ },
+ {
+  "code": "ATOM-20159",
+  "name": "RUBBER & TIRES",
+  "line": "ATOM",
+  "hex": "#372e39",
+  "equiv": {
+   "ammo": "A.MIG-0033",
+   "hobbyColor": "H-77",
+   "mrColor": "C-137",
+   "modelColor": "70.306",
+   "modelAir": "71.315"
+  }
+ },
+ {
+  "code": "ATOM-20160",
+  "name": "DUNKELGRAU RAL7021",
+  "line": "ATOM",
+  "ref": "RAL 7021-FS 26081",
+  "hex": "#282832",
+  "equiv": {
+   "ammo": "A.MIG-0008",
+   "hobbyColor": "H-401",
+   "mrColor": "C-301 / C-339",
+   "modelColor": "70.862",
+   "modelAir": "71.056"
+  }
+ },
+ {
+  "code": "ATOM-20161",
+  "name": "NATO BLACK",
+  "line": "ATOM",
+  "hex": "#242326",
+  "equiv": {
+   "ammo": "A.MIG-0278"
+  }
+ },
+ {
+  "code": "ATOM-20162",
+  "name": "SATIN BLACK",
+  "line": "ATOM",
+  "hex": "#151516",
+  "equiv": {
+   "ammo": "A.MIG-0032",
+   "hobbyColor": "H-2",
+   "mrColor": "C-2 / C-92",
+   "modelColor": "70.861"
+  }
+ },
+ {
+  "code": "ATOM-20163",
+  "name": "MATT BLACK",
+  "line": "ATOM",
+  "ref": "FS37038-RAL 9005-RLM 22-MS17",
+  "hex": "#141415",
+  "equiv": {
+   "ammo": "A.MIG-0046",
+   "hobbyColor": "H-12",
+   "mrColor": "C-33",
+   "tamiya": "XF-1",
+   "modelColor": "70.950",
+   "modelAir": "71.057"
+  }
+ },
+ {
+  "code": "ATOM-20164",
+  "name": "SILVER",
+  "line": "ATOM",
+  "hex": "#e7e7e7",
+  "equiv": {
+   "ammo": "A.MIG-0195",
+   "tamiya": "XF-16",
+   "modelAir": "71062"
+  }
+ },
+ {
+  "code": "ATOM-20165",
+  "name": "ALUMINUM",
+  "line": "ATOM",
+  "hex": "#e7e9e6",
+  "equiv": {
+   "ammo": "A.MIG-0194"
+  }
+ },
+ {
+  "code": "ATOM-20166",
+  "name": "STEEL",
+  "line": "ATOM",
+  "hex": "#c5c8c7",
+  "equiv": {
+   "ammo": "A.MIG-0191",
+   "hobbyColor": "H-8",
+   "mrColor": "C-8 / C-90",
+   "modelColor": "70997",
+   "modelAir": "71063"
+  }
+ },
+ {
+  "code": "ATOM-20167",
+  "name": "GUN METAL",
+  "line": "ATOM",
+  "hex": "#888c8e",
+  "equiv": {
+   "ammo": "A.MIG-0045",
+   "hobbyColor": "H-18",
+   "mrColor": "C-28",
+   "modelColor": "70864",
+   "modelAir": "71065"
+  }
+ },
+ {
+  "code": "ATOM-20168",
+  "name": "METALLIC BLACK",
+  "line": "ATOM",
+  "hex": "#3b3833",
+  "equiv": {
+   "modelColor": "70863",
+   "modelAir": "71072"
+  }
+ },
+ {
+  "code": "ATOM-20169",
+  "name": "BURNT IRON",
+  "line": "ATOM",
+  "hex": "#826a58",
+  "equiv": {
+   "ammo": "A.MIG-0187",
+   "hobbyColor": "H-76",
+   "mrColor": "C-61",
+   "tamiya": "XF-84",
+   "modelAir": "71073"
+  }
+ },
+ {
+  "code": "ATOM-20170",
+  "name": "COPPER",
+  "line": "ATOM",
+  "hex": "#de966d",
+  "equiv": {
+   "ammo": "A.MIG-0199",
+   "hobbyColor": "H-10",
+   "mrColor": "C-10",
+   "tamiya": "XF-6",
+   "modelColor": "70999",
+   "modelAir": "71068"
+  }
+ },
+ {
+  "code": "ATOM-20171",
+  "name": "GOLD PINK",
+  "line": "ATOM",
+  "hex": "#f5da94",
+  "equiv": {
+   "hobbyColor": "H-9",
+   "mrColor": "C-9",
+   "modelColor": "70996",
+   "modelAir": "71066"
+  }
+ },
+ {
+  "code": "ATOM-20172",
+  "name": "GOLD",
+  "line": "ATOM",
+  "hex": "#d5c798",
+  "equiv": {
+   "ammo": "A.MIG-0198",
+   "modelColor": "70801"
+  }
+ },
+ {
+  "code": "ATOM-20173",
+  "name": "BRASS",
+  "line": "ATOM",
+  "hex": "#dea087",
+  "equiv": {
+   "ammo": "A.MIG-0197",
+   "hobbyColor": "H-87",
+   "mrColor": "C-75",
+   "modelAir": "71070"
+  }
+ },
+ {
+  "code": "ATOM-20174",
+  "name": "METALLIC RED",
+  "line": "ATOM",
+  "hex": "#cd9585",
+  "equiv": {
+   "ammo": "A.MIG-0188",
+   "mrColor": "C-57",
+   "modelAir": "71417"
+  }
+ },
+ {
+  "code": "ATOM-20175",
+  "name": "AOTAKE GREEN",
+  "line": "ATOM",
+  "hex": "#a0bec1",
+  "equiv": {
+   "ammo": "A.MIG-0267",
+   "hobbyColor": "H-63",
+   "modelAir": "71419"
+  }
+ },
+ {
+  "code": "ATOM-20176",
+  "name": "AOTAKE BLUE",
+  "line": "ATOM",
+  "hex": "#c0d0ed",
+  "equiv": {
+   "ammo": "A.MIG-0268",
+   "hobbyColor": "H-88",
+   "mrColor": "C-76"
+  }
+ },
+ {
+  "code": "ATOM-20177",
+  "name": "WASHABLE WHITE ",
+  "line": "ATOM",
+  "hex": "#ffffff",
+  "equiv": {
+   "ammo": "A.MIG-0024"
+  }
+ },
+ {
+  "code": "ATOM-20178",
+  "name": "WASHABLE DUST",
+  "line": "ATOM",
+  "ref": "RAL 8000",
+  "hex": "#9c864f",
+  "degrade": true,
+  "equiv": {
+   "ammo": "A.MIG-0105"
+  }
+ },
+ {
+  "code": "ATOM-20179",
+  "name": "WASHABLE SAND ",
+  "line": "ATOM",
+  "ref": "RAL 8020",
+  "hex": "#d1ad66",
+  "equiv": {
+   "ammo": "A.MIG-0106"
+  }
+ },
+ {
+  "code": "ATOM-20500",
+  "name": "THINNER AND CLEANER",
+  "line": "ATOM",
+  "hex": "#ffffff"
+ }
+]

@@ -68,6 +68,12 @@ ferramentas/, originais/ material histórico da extração das cores (scripts Py
   `node ferramentas/extrair-ak.mjs "Catalogo.pdf"` (requer poppler). 177 cores em 3 seções (Standard, Civil, Military);
   os vernizes RC801–803 ficam de fora. Tintas transparentes e metálicas têm `degrade: true`. As páginas 16–22 do PDF
   trazem uma tabela de equivalências com Tamiya, Vallejo, Mr. Hobby etc., ainda não aproveitada.
+- **AMMO by Mig:** *AMMO Catalogue 2024*: as tabelas de conversão do fim do PDF (págs. 97–105) têm uma linha por cor, com
+  amostra colorida, nome, referência RAL/RLM/FS e equivalências em Hobby Color, Mr. Color, Tamiya, Model Color e Model Air.
+  `node ferramentas/extrair-ammo.mjs "Catalogo.pdf"` (requer poppler) lê as duas tabelas: Acrylic Colors (A.MIG, 236 cores,
+  amostras chapadas) e ATOM (181 cores, amostras com sombreado suave: vale a cor do meio). A cor vem de faixas da célula
+  sem o texto escrito por cima. As equivalências ficam em `equiv` (ainda não usadas na interface). Fora do app: filtros,
+  washes, oilbrushers, Rail Center e demais produtos que não são tintas de cor sólida.
 - São aproximações; metálicos e translúcidos são os que mais se afastam.
 
 ## Modelo de mistura
