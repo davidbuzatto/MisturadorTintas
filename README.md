@@ -64,6 +64,10 @@ ferramentas/, originais/ material histórico da extração das cores (scripts Py
   hex no próprio HTML: `node ferramentas/extrair-ral.mjs`. 216 cores; o script confere a contagem de cada página com a
   que o site informa. São as cores exibidas pelo site (aproximações de tela), não os valores colorimétricos oficiais.
   Só o RAL Classic: RAL Design e RAL Effect não aparecem em manuais de modelismo.
+- **AK (Real Colors):** cartela "RC RANGE" (págs. 9–11) do catálogo da AK Interactive, mesmo método da Vallejo:
+  `node ferramentas/extrair-ak.mjs "Catalogo.pdf"` (requer poppler). 177 cores em 3 seções (Standard, Civil, Military);
+  os vernizes RC801–803 ficam de fora. Tintas transparentes e metálicas têm `degrade: true`. As páginas 16–22 do PDF
+  trazem uma tabela de equivalências com Tamiya, Vallejo, Mr. Hobby etc., ainda não aproveitada.
 - São aproximações; metálicos e translúcidos são os que mais se afastam.
 
 ## Modelo de mistura

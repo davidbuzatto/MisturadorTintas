@@ -1,0 +1,1074 @@
+[
+ {
+  "code": "RC804",
+  "name": "Flat Black RAL 9005",
+  "series": "Standard",
+  "hex": "#010202"
+ },
+ {
+  "code": "RC805",
+  "name": "Rubber Black",
+  "series": "Standard",
+  "hex": "#1e1e1d"
+ },
+ {
+  "code": "RC806",
+  "name": "Flat White RAL 9003",
+  "series": "Standard",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "RC807",
+  "name": "Cream White RAL 9001",
+  "series": "Standard",
+  "hex": "#efeee0"
+ },
+ {
+  "code": "RC808",
+  "name": "Off White",
+  "series": "Standard",
+  "hex": "#d8d3b6"
+ },
+ {
+  "code": "RC809",
+  "name": "White Grey RAL 9002",
+  "series": "Standard",
+  "hex": "#e6e6e6"
+ },
+ {
+  "code": "RC810",
+  "name": "Red RAL 3000",
+  "series": "Standard",
+  "hex": "#aa2d21"
+ },
+ {
+  "code": "RC811",
+  "name": "Signal Red RAL 3020",
+  "series": "Standard",
+  "hex": "#b61e18"
+ },
+ {
+  "code": "RC812",
+  "name": "Orange RAL 2004",
+  "series": "Standard",
+  "hex": "#de5412"
+ },
+ {
+  "code": "RC813",
+  "name": "Maize Yellow RAL 1006",
+  "series": "Standard",
+  "hex": "#db9106"
+ },
+ {
+  "code": "RC814",
+  "name": "Yellow RAL 1003",
+  "series": "Standard",
+  "hex": "#f3aa05"
+ },
+ {
+  "code": "RC815",
+  "name": "Buff",
+  "series": "Standard",
+  "hex": "#ab937b"
+ },
+ {
+  "code": "RC816",
+  "name": "Pale Blue",
+  "series": "Standard",
+  "hex": "#5f8497"
+ },
+ {
+  "code": "RC817",
+  "name": "Blue RAL 5001",
+  "series": "Standard",
+  "hex": "#1d4d65"
+ },
+ {
+  "code": "RC818",
+  "name": "Pure Blue RAL 5005",
+  "series": "Standard",
+  "hex": "#005289"
+ },
+ {
+  "code": "RC819",
+  "name": "Gun Metal",
+  "series": "Standard",
+  "hex": "#464443"
+ },
+ {
+  "code": "RC820",
+  "name": "Aluminium",
+  "series": "Standard",
+  "hex": "#afaca8"
+ },
+ {
+  "code": "RC821",
+  "name": "Clear Red",
+  "series": "Standard",
+  "hex": "#ed7865",
+  "degrade": true
+ },
+ {
+  "code": "RC822",
+  "name": "Clear Blue",
+  "series": "Standard",
+  "hex": "#5b84c2",
+  "degrade": true
+ },
+ {
+  "code": "RC823",
+  "name": "Clear Green",
+  "series": "Standard",
+  "hex": "#679159",
+  "degrade": true
+ },
+ {
+  "code": "RC824",
+  "name": "Clear Orange",
+  "series": "Standard",
+  "hex": "#df9f65",
+  "degrade": true
+ },
+ {
+  "code": "RC825",
+  "name": "Clear Yellow",
+  "series": "Standard",
+  "hex": "#f4e077",
+  "degrade": true
+ },
+ {
+  "code": "RC826",
+  "name": "Clear Smoke",
+  "series": "Standard",
+  "hex": "#a4a09d",
+  "degrade": true
+ },
+ {
+  "code": "RC827",
+  "name": "Solid White",
+  "series": "Civil",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "RC828",
+  "name": "British F1 Black 1972-1986",
+  "series": "Civil",
+  "hex": "#2a2a28",
+  "degrade": true
+ },
+ {
+  "code": "RC829",
+  "name": "Carbon Fibre Grey",
+  "series": "Civil",
+  "hex": "#292926"
+ },
+ {
+  "code": "RC830",
+  "name": "Wheel Rim Gold",
+  "series": "Civil",
+  "hex": "#cdc74e",
+  "degrade": true
+ },
+ {
+  "code": "RC831",
+  "name": "Fork Gold",
+  "series": "Civil",
+  "hex": "#fbc861",
+  "degrade": true
+ },
+ {
+  "code": "RC832",
+  "name": "Alfa BT Red",
+  "series": "Civil",
+  "hex": "#d0171a"
+ },
+ {
+  "code": "RC833",
+  "name": "Maranello F1 Red 1970s-1980s",
+  "series": "Civil",
+  "hex": "#e52a23"
+ },
+ {
+  "code": "RC834",
+  "name": "Maranello Red 300",
+  "series": "Civil",
+  "hex": "#a21c18"
+ },
+ {
+  "code": "RC835",
+  "name": "Italian Red",
+  "series": "Civil",
+  "hex": "#cd2529"
+ },
+ {
+  "code": "RC836",
+  "name": "Panigale Red",
+  "series": "Civil",
+  "hex": "#be181b"
+ },
+ {
+  "code": "RC837",
+  "name": "Fluorescent Red RAL 3026",
+  "series": "Civil",
+  "hex": "#e7342c"
+ },
+ {
+  "code": "RC838",
+  "name": "Fluorescent Orange",
+  "series": "Civil",
+  "hex": "#ef7d1e"
+ },
+ {
+  "code": "RC839",
+  "name": "Gulf Orange",
+  "series": "Civil",
+  "hex": "#ec6223"
+ },
+ {
+  "code": "RC840",
+  "name": "Jäger Orange",
+  "series": "Civil",
+  "hex": "#ed6e27"
+ },
+ {
+  "code": "RC841",
+  "name": "French F1 Yellow 1970s-1980s",
+  "series": "Civil",
+  "hex": "#f3e600"
+ },
+ {
+  "code": "RC842",
+  "name": "Light Blue",
+  "series": "Civil",
+  "hex": "#24a1ce"
+ },
+ {
+  "code": "RC843",
+  "name": "Tyrrell Blue",
+  "series": "Civil",
+  "hex": "#20335a"
+ },
+ {
+  "code": "RC844",
+  "name": "Gulf Blue",
+  "series": "Civil",
+  "hex": "#afd3e2"
+ },
+ {
+  "code": "RC845",
+  "name": "Rally Blue 74F 1997-2002",
+  "series": "Civil",
+  "hex": "#203c87"
+ },
+ {
+  "code": "RC846",
+  "name": "Rally Blue 02C 2001-2006",
+  "series": "Civil",
+  "hex": "#26377a"
+ },
+ {
+  "code": "RC847",
+  "name": "British Racing Green",
+  "series": "Civil",
+  "hex": "#024226"
+ },
+ {
+  "code": "RC848",
+  "name": "Vaillant Green",
+  "series": "Civil",
+  "hex": "#055c41"
+ },
+ {
+  "code": "RC849",
+  "name": "Ninja Green",
+  "series": "Civil",
+  "hex": "#3b8a35"
+ },
+ {
+  "code": "RC850",
+  "name": "Holographic Pearl",
+  "series": "Civil",
+  "hex": "#cac7d1",
+  "degrade": true
+ },
+ {
+  "code": "RC851",
+  "name": "Elfenbein-Ivory RAL 1001 (Interior Color)",
+  "series": "Military",
+  "hex": "#ddc98d"
+ },
+ {
+  "code": "RC852",
+  "name": "Olivgrün-Olive Green RAL 6003",
+  "series": "Military",
+  "hex": "#5c604e"
+ },
+ {
+  "code": "RC853",
+  "name": "Graugrün-Grey Green RAL 7008",
+  "series": "Military",
+  "hex": "#7c735a"
+ },
+ {
+  "code": "RC854",
+  "name": "Hellgrau-Light Grey RAL 7009 (Interior Color)",
+  "series": "Military",
+  "hex": "#696e62"
+ },
+ {
+  "code": "RC855",
+  "name": "Dunkelbraun-Dark Brown RAL 7017",
+  "series": "Military",
+  "hex": "#4f4c48"
+ },
+ {
+  "code": "RC856",
+  "name": "Dunkelgrau-Dark Grey RAL 7021",
+  "series": "Military",
+  "hex": "#4c4e4d"
+ },
+ {
+  "code": "RC857",
+  "name": "Grau-Grey RAL 7027",
+  "series": "Military",
+  "hex": "#9b9584"
+ },
+ {
+  "code": "RC858",
+  "name": "Dunkelgelb nach Muster-Dark Yellow acc. to Sample",
+  "series": "Military",
+  "hex": "#a58759"
+ },
+ {
+  "code": "RC859",
+  "name": "Dunkelgelb-Dark Yellow RAL 7028",
+  "series": "Military",
+  "hex": "#9c8768"
+ },
+ {
+  "code": "RC860",
+  "name": "Dunkelgelb Ausgabe 44-Dark Yellow 1944 RAL 7028",
+  "series": "Military",
+  "hex": "#88745d"
+ },
+ {
+  "code": "RC861",
+  "name": "Gelbbraun-Yellow Brown RAL 8000",
+  "series": "Military",
+  "hex": "#8c6d47"
+ },
+ {
+  "code": "RC862",
+  "name": "Rot (Rotbraun)-Red (Red Brown) RAL 8012",
+  "series": "Military",
+  "hex": "#6b4742"
+ },
+ {
+  "code": "RC863",
+  "name": "Rot (Rotbraun)-Red (Red Brown) RAL 8013",
+  "series": "Military",
+  "hex": "#6f493f"
+ },
+ {
+  "code": "RC864",
+  "name": "Rotbraun-Red Brown RAL 8017",
+  "series": "Military",
+  "hex": "#564742"
+ },
+ {
+  "code": "RC865",
+  "name": "Braun-Brown RAL 8020",
+  "series": "Military",
+  "hex": "#b38e6d"
+ },
+ {
+  "code": "RC866",
+  "name": "Silver Grey No.28 (BS381)",
+  "series": "Military",
+  "hex": "#b7c095"
+ },
+ {
+  "code": "RC867",
+  "name": "Slate No.34 (BS381)",
+  "series": "Military",
+  "hex": "#565b3f"
+ },
+ {
+  "code": "RC868",
+  "name": "Light Stone No.61 (BS381)",
+  "series": "Military",
+  "hex": "#c7a76b"
+ },
+ {
+  "code": "RC869",
+  "name": "Portland Stone No.64 (BS381)",
+  "series": "Military",
+  "hex": "#cdbc8f"
+ },
+ {
+  "code": "RC870",
+  "name": "British Dark Olive Green PFI",
+  "series": "Military",
+  "hex": "#414433"
+ },
+ {
+  "code": "RC871",
+  "name": "British Desert Pink ZI",
+  "series": "Military",
+  "hex": "#a58d7c"
+ },
+ {
+  "code": "RC872",
+  "name": "British Light Mud",
+  "series": "Military",
+  "hex": "#a9a687"
+ },
+ {
+  "code": "RC873",
+  "name": "S.C.C. No.1A Very Dark Brown",
+  "series": "Military",
+  "hex": "#4b3e38"
+ },
+ {
+  "code": "RC874",
+  "name": "S.C.C. No.2 Brown",
+  "series": "Military",
+  "hex": "#674f3f"
+ },
+ {
+  "code": "RC875",
+  "name": "S.C.C. No.15 Olive Drab",
+  "series": "Military",
+  "hex": "#545240"
+ },
+ {
+  "code": "RC876",
+  "name": "Russian Green Protective 4BO",
+  "series": "Military",
+  "hex": "#4e5231"
+ },
+ {
+  "code": "RC877",
+  "name": "Russian Modern Green",
+  "series": "Military",
+  "hex": "#4f5c47"
+ },
+ {
+  "code": "RC878",
+  "name": "Russian Greyish Yellow",
+  "series": "Military",
+  "hex": "#c9b186"
+ },
+ {
+  "code": "RC879",
+  "name": "Russian Grey Green",
+  "series": "Military",
+  "hex": "#767465"
+ },
+ {
+  "code": "RC880",
+  "name": "IDF Early Sand Yellow",
+  "series": "Military",
+  "hex": "#a08c6d"
+ },
+ {
+  "code": "RC881",
+  "name": "IDF Sand Grey 1970s-1980s",
+  "series": "Military",
+  "hex": "#998465"
+ },
+ {
+  "code": "RC882",
+  "name": "IDF Modern Grey",
+  "series": "Military",
+  "hex": "#9a9282"
+ },
+ {
+  "code": "RC883",
+  "name": "No.9/No.22 Olive Drab (WWII)",
+  "series": "Military",
+  "hex": "#605642"
+ },
+ {
+  "code": "RC884",
+  "name": "Olive Drab Faded",
+  "series": "Military",
+  "hex": "#695f49"
+ },
+ {
+  "code": "RC885",
+  "name": "CARC Tan 686A FS 33446",
+  "series": "Military",
+  "hex": "#b59e81"
+ },
+ {
+  "code": "RC886",
+  "name": "NATO Green",
+  "series": "Military",
+  "hex": "#4f5444"
+ },
+ {
+  "code": "RC887",
+  "name": "NATO Brown",
+  "series": "Military",
+  "hex": "#5b453c"
+ },
+ {
+  "code": "RC888",
+  "name": "NATO Black",
+  "series": "Military",
+  "hex": "#393b3a"
+ },
+ {
+  "code": "RC889",
+  "name": "Light Gull Grey FS 16440",
+  "series": "Military",
+  "hex": "#b8b7ae"
+ },
+ {
+  "code": "RC890",
+  "name": "ADC Grey FS 16473",
+  "series": "Military",
+  "hex": "#9faaa6"
+ },
+ {
+  "code": "RC891",
+  "name": "Insignia White FS 17875",
+  "series": "Military",
+  "hex": "#e7e9db"
+ },
+ {
+  "code": "RC892",
+  "name": "Earth Brown FS 30099",
+  "series": "Military",
+  "hex": "#665749"
+ },
+ {
+  "code": "RC893",
+  "name": "Earth Red FS 30117",
+  "series": "Military",
+  "hex": "#7e5f50"
+ },
+ {
+  "code": "RC894",
+  "name": "Field Drab FS 30118",
+  "series": "Military",
+  "hex": "#705d44"
+ },
+ {
+  "code": "RC895",
+  "name": "Dark Tan FS 30219",
+  "series": "Military",
+  "hex": "#8f7463"
+ },
+ {
+  "code": "RC896",
+  "name": "Sand FS 30277",
+  "series": "Military",
+  "hex": "#9a8b72"
+ },
+ {
+  "code": "RC897",
+  "name": "Desert Sand FS 30279",
+  "series": "Military",
+  "hex": "#ac9381"
+ },
+ {
+  "code": "RC898",
+  "name": "Sand FS 33531",
+  "series": "Military",
+  "hex": "#cab5a3"
+ },
+ {
+  "code": "RC899",
+  "name": "US Army Helo Drab FS 34031",
+  "series": "Military",
+  "hex": "#474743"
+ },
+ {
+  "code": "RC900",
+  "name": "Forest Green FS 34079",
+  "series": "Military",
+  "hex": "#55584b"
+ },
+ {
+  "code": "RC901",
+  "name": "Olive Drab FS 34087",
+  "series": "Military",
+  "hex": "#545244"
+ },
+ {
+  "code": "RC902",
+  "name": "Dull Dark Green FS 34092",
+  "series": "Military",
+  "hex": "#4b5952"
+ },
+ {
+  "code": "RC903",
+  "name": "USMC Green FS 34095",
+  "series": "Military",
+  "hex": "#47492f"
+ },
+ {
+  "code": "RC904",
+  "name": "Field Green FS 34097",
+  "series": "Military",
+  "hex": "#5b6249"
+ },
+ {
+  "code": "RC905",
+  "name": "Green FS 34102",
+  "series": "Military",
+  "hex": "#595b4a"
+ },
+ {
+  "code": "RC906",
+  "name": "Interior Green FS 34151",
+  "series": "Military",
+  "hex": "#66633c"
+ },
+ {
+  "code": "RC907",
+  "name": "Pale Green FS 34227",
+  "series": "Military",
+  "hex": "#7b8b6e"
+ },
+ {
+  "code": "RC908",
+  "name": "Intermediate Blue FS 35164",
+  "series": "Military",
+  "hex": "#657581"
+ },
+ {
+  "code": "RC909",
+  "name": "Medium Blue Grey FS 35237",
+  "series": "Military",
+  "hex": "#7a878d"
+ },
+ {
+  "code": "RC910",
+  "name": "Air Superiority Blue FS 35450",
+  "series": "Military",
+  "hex": "#8bb2c5"
+ },
+ {
+  "code": "RC911",
+  "name": "Duck Egg Blue FS 35622",
+  "series": "Military",
+  "hex": "#c4d0c7"
+ },
+ {
+  "code": "RC912",
+  "name": "Grey FS 36081",
+  "series": "Military",
+  "hex": "#5a5c5e"
+ },
+ {
+  "code": "RC913",
+  "name": "Medium Gunship Grey FS 36118",
+  "series": "Military",
+  "hex": "#5f636d"
+ },
+ {
+  "code": "RC914",
+  "name": "Have Glass Grey FS 36170",
+  "series": "Military",
+  "hex": "#706e6b"
+ },
+ {
+  "code": "RC915",
+  "name": "F-15 Dark Grey (Mod Eagle) FS 36176",
+  "series": "Military",
+  "hex": "#6e7982"
+ },
+ {
+  "code": "RC916",
+  "name": "Dark Gull Grey FS 36231",
+  "series": "Military",
+  "hex": "#808486"
+ },
+ {
+  "code": "RC917",
+  "name": "Aggressor Grey FS 36251",
+  "series": "Military",
+  "hex": "#747476"
+ },
+ {
+  "code": "RC918",
+  "name": "Medium Grey FS 36270",
+  "series": "Military",
+  "hex": "#848a8b"
+ },
+ {
+  "code": "RC919",
+  "name": "Dark Ghost Grey FS 36320",
+  "series": "Military",
+  "hex": "#8a959b"
+ },
+ {
+  "code": "RC920",
+  "name": "Light Ghost Grey FS 36375",
+  "series": "Military",
+  "hex": "#9ca6ac"
+ },
+ {
+  "code": "RC921",
+  "name": "Light Grey FS 36495",
+  "series": "Military",
+  "hex": "#c4c8c7"
+ },
+ {
+  "code": "RC922",
+  "name": "Camouflage Grey FS 36622",
+  "series": "Military",
+  "hex": "#c2c0b3"
+ },
+ {
+  "code": "RC923",
+  "name": "M-485 Blue Grey",
+  "series": "Military",
+  "hex": "#70858c"
+ },
+ {
+  "code": "RC924",
+  "name": "Sea Blue",
+  "series": "Military",
+  "hex": "#3e4649"
+ },
+ {
+  "code": "RC925",
+  "name": "Dark Sea Blue",
+  "series": "Military",
+  "hex": "#37454d"
+ },
+ {
+  "code": "RC926",
+  "name": "Dark Olive Drab 41",
+  "series": "Military",
+  "hex": "#555142"
+ },
+ {
+  "code": "RC927",
+  "name": "Medium Green 42",
+  "series": "Military",
+  "hex": "#495543"
+ },
+ {
+  "code": "RC928",
+  "name": "Neutral Grey 43",
+  "series": "Military",
+  "hex": "#6f7171"
+ },
+ {
+  "code": "RC929",
+  "name": "US Interior Yellow Green",
+  "series": "Military",
+  "hex": "#858359"
+ },
+ {
+  "code": "RC930",
+  "name": "Zinc Chromate Yellow",
+  "series": "Military",
+  "hex": "#eac447"
+ },
+ {
+  "code": "RC931",
+  "name": "Bronze Green",
+  "series": "Military",
+  "hex": "#3d4b48"
+ },
+ {
+  "code": "RC932",
+  "name": "RLM 02 RLM-Grau (1938)",
+  "series": "Military",
+  "hex": "#979685"
+ },
+ {
+  "code": "RC933",
+  "name": "RLM 02 RLM-Grau (1941)",
+  "series": "Military",
+  "hex": "#81815f"
+ },
+ {
+  "code": "RC934",
+  "name": "RLM 04",
+  "series": "Military",
+  "hex": "#f4a811"
+ },
+ {
+  "code": "RC935",
+  "name": "RLM 65 (1938)",
+  "series": "Military",
+  "hex": "#88a3a8"
+ },
+ {
+  "code": "RC936",
+  "name": "RLM 65 (1941)",
+  "series": "Military",
+  "hex": "#93a19a"
+ },
+ {
+  "code": "RC937",
+  "name": "RLM 66 (1938)",
+  "series": "Military",
+  "hex": "#4e5055"
+ },
+ {
+  "code": "RC938",
+  "name": "RLM 66 (1941)",
+  "series": "Military",
+  "hex": "#55544e"
+ },
+ {
+  "code": "RC939",
+  "name": "RLM 70",
+  "series": "Military",
+  "hex": "#474a41"
+ },
+ {
+  "code": "RC940",
+  "name": "RLM 71",
+  "series": "Military",
+  "hex": "#535144"
+ },
+ {
+  "code": "RC941",
+  "name": "RLM 74",
+  "series": "Military",
+  "hex": "#5b5b52"
+ },
+ {
+  "code": "RC942",
+  "name": "RLM 75",
+  "series": "Military",
+  "hex": "#716e6d"
+ },
+ {
+  "code": "RC943",
+  "name": "RLM 76 Version 1",
+  "series": "Military",
+  "hex": "#a9b6a5"
+ },
+ {
+  "code": "RC944",
+  "name": "RLM 76 Version 2",
+  "series": "Military",
+  "hex": "#acbebc"
+ },
+ {
+  "code": "RC945",
+  "name": "RLM 76 Late War Variation",
+  "series": "Military",
+  "hex": "#bfbf9b"
+ },
+ {
+  "code": "RC946",
+  "name": "RLM 78",
+  "series": "Military",
+  "hex": "#819aa0"
+ },
+ {
+  "code": "RC947",
+  "name": "RLM 79",
+  "series": "Military",
+  "hex": "#e9a35a"
+ },
+ {
+  "code": "RC948",
+  "name": "RLM 80",
+  "series": "Military",
+  "hex": "#585847"
+ },
+ {
+  "code": "RC949",
+  "name": "RLM 81 Ver.2 (incorrectly called RLM 83)",
+  "series": "Military",
+  "hex": "#484d3f"
+ },
+ {
+  "code": "RC950",
+  "name": "RLM 81 Version 3",
+  "series": "Military",
+  "hex": "#5c5347"
+ },
+ {
+  "code": "RC951",
+  "name": "RLM 82",
+  "series": "Military",
+  "hex": "#515d4c"
+ },
+ {
+  "code": "RC952",
+  "name": "IJN J3 Hai-Iro (Grey)",
+  "series": "Military",
+  "hex": "#909188"
+ },
+ {
+  "code": "RC953",
+  "name": "IJN J3 SP (Amber Grey)",
+  "series": "Military",
+  "hex": "#b3ba96"
+ },
+ {
+  "code": "RC954",
+  "name": "IJN D1 Deep Green Black",
+  "series": "Military",
+  "hex": "#404845"
+ },
+ {
+  "code": "RC955",
+  "name": "IJN D2 Green Black",
+  "series": "Military",
+  "hex": "#414f47"
+ },
+ {
+  "code": "RC956",
+  "name": "IJN M3(M) Mitsubishi Interior Green",
+  "series": "Military",
+  "hex": "#707c3f"
+ },
+ {
+  "code": "RC957",
+  "name": "IJN M3(N) Nakajima Interior Green",
+  "series": "Military",
+  "hex": "#575c44"
+ },
+ {
+  "code": "RC958",
+  "name": "IJN / IJA Aotake",
+  "series": "Military",
+  "hex": "#0a5e72"
+ },
+ {
+  "code": "RC959",
+  "name": "RAF Sky Grey",
+  "series": "Military",
+  "hex": "#a3a7a6"
+ },
+ {
+  "code": "RC960",
+  "name": "RAF Dark Green",
+  "series": "Military",
+  "hex": "#515444"
+ },
+ {
+  "code": "RC961",
+  "name": "RAF Dark Earth",
+  "series": "Military",
+  "hex": "#5f4c2b"
+ },
+ {
+  "code": "RC962",
+  "name": "RAF Ocean Grey",
+  "series": "Military",
+  "hex": "#656f70"
+ },
+ {
+  "code": "RC963",
+  "name": "RAF Medium Sea Grey BS381C/637",
+  "series": "Military",
+  "hex": "#7f8c92"
+ },
+ {
+  "code": "RC964",
+  "name": "RAF Sky / FS 34424",
+  "series": "Military",
+  "hex": "#b2bb8e"
+ },
+ {
+  "code": "RC965",
+  "name": "RAF Azure Blue",
+  "series": "Military",
+  "hex": "#7b9ec6"
+ },
+ {
+  "code": "RC966",
+  "name": "RAF Middle Stone",
+  "series": "Military",
+  "hex": "#a47d38"
+ },
+ {
+  "code": "RC967",
+  "name": "RAF Cockpit Grey-Green",
+  "series": "Military",
+  "hex": "#899787"
+ },
+ {
+  "code": "RC968",
+  "name": "RAF Dark Slate Grey",
+  "series": "Military",
+  "hex": "#606255"
+ },
+ {
+  "code": "RC969",
+  "name": "RAF Extra Dark Sea Grey BS381C/640",
+  "series": "Military",
+  "hex": "#4d5961"
+ },
+ {
+  "code": "RC970",
+  "name": "RAF Dark Sea Grey BS381C/638",
+  "series": "Military",
+  "hex": "#676e76"
+ },
+ {
+  "code": "RC971",
+  "name": "RAF PRU Blue BS381C/636",
+  "series": "Military",
+  "hex": "#536b77"
+ },
+ {
+  "code": "RC972",
+  "name": "RAF Light Aircraft Grey BS381C/627",
+  "series": "Military",
+  "hex": "#c4c4b9"
+ },
+ {
+  "code": "RC973",
+  "name": "RAF Barley Grey BS381C/626",
+  "series": "Military",
+  "hex": "#949e9d"
+ },
+ {
+  "code": "RC974",
+  "name": "AMT-1 Light Brown",
+  "series": "Military",
+  "hex": "#78756a"
+ },
+ {
+  "code": "RC975",
+  "name": "AMT-4 / A-24m Green",
+  "series": "Military",
+  "hex": "#5f5e45"
+ },
+ {
+  "code": "RC976",
+  "name": "AMT-7 Light Blue",
+  "series": "Military",
+  "hex": "#658da4"
+ },
+ {
+  "code": "RC977",
+  "name": "AMT-11 Blue Grey",
+  "series": "Military",
+  "hex": "#516268"
+ },
+ {
+  "code": "RC978",
+  "name": "AMT-12 Dark Grey",
+  "series": "Military",
+  "hex": "#293737"
+ },
+ {
+  "code": "RC979",
+  "name": "A-14 Interior Steel Grey",
+  "series": "Military",
+  "hex": "#757673"
+ },
+ {
+  "code": "RC980",
+  "name": "Russian Cockpit Turquoise",
+  "series": "Military",
+  "hex": "#00a69d"
+ }
+]

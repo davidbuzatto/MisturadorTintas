@@ -50,6 +50,7 @@ test('buildCatalogs: catálogos antigos inalterados e Tamiya dividido sem perda'
     mr: [],
     hb: [],
     ral: [],
+    ak: [],
   });
   assert.deepEqual(cat.acrilex, golden.acrilex);
   assert.deepEqual(cat.revellA, golden.revellA);
@@ -104,6 +105,7 @@ test('buildCatalogs inclui Vallejo e catalogLines lista as linhas', async () => 
     mr: ler('mrcolor-cores.json'),
     hb: ler('humbrol-cores.json'),
     ral: ler('ral-cores.json'),
+    ak: ler('ak-cores.json'),
   });
   assert.equal(cat.vallejo.length, ler('vallejo-cores.json').length);
   assert.deepEqual(catalogLines(cat.vallejo).slice(0, 2), ['Model Color', 'Liquid Metal']);
@@ -166,4 +168,23 @@ test('RAL Classic: registros completos, códigos únicos e cores conhecidas', ()
   assert.equal(por['9005'].name, 'Jet black');
   assert.equal(por['7016'].name, 'Anthracite grey');
   assert.equal(por['6005'].name, 'Moss green');
+});
+
+test('AK Real Colors: registros completos, seções e cores conhecidas', () => {
+  const cores = ler('ak-cores.json');
+  const codigos = cores.map((c) => c.code);
+  assert.equal(new Set(codigos).size, codigos.length, 'códigos repetidos');
+  const porSerie = {};
+  for (const c of cores) {
+    assert.match(c.code, /^RC\d{3}$/, c.code);
+    assert.match(c.hex, HEX, `hex de ${c.code}`);
+    assert.ok(c.name, `nome de ${c.code}`);
+    assert.doesNotMatch(c.name, /varnish/i, `verniz não é cor: ${c.code}`);
+    porSerie[c.series] = (porSerie[c.series] || 0) + 1;
+  }
+  // catálogo: Standard RC801-826 (menos 3 vernizes), Civil RC827-850, Military RC851-980
+  assert.deepEqual(porSerie, { Standard: 23, Civil: 24, Military: 130 });
+  const por = Object.fromEntries(cores.map((c) => [c.code, c]));
+  assert.equal(por.RC806.hex, '#ffffff'); // Flat White
+  assert.match(por.RC810.name, /RAL 3000/);
 });
