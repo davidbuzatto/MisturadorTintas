@@ -14,6 +14,10 @@ import { fitHex } from '../color/spectral.js';
  * @property {string} code  código/SKU da tinta.
  * @property {string} name  nome de exibição.
  * @property {string} hex   cor aproximada "#rrggbb".
+ * @property {string} [line]    linha de produtos (ex.: "Model Color"); só em catálogos com várias linhas.
+ * @property {string} [series]  série dentro da linha (ex.: "Wash"); vazio na série principal.
+ * @property {string} [finish]  acabamento (ex.: "Gloss", "Matte"), quando o catálogo informa.
+ * @property {boolean} [degrade]  amostra em degradê/metálica: a cor é só uma aproximação.
  * @property {import('../color/spectral.js').PaintFit} [fit]  ajuste espectral
  *           (presente apenas nas tintas do catálogo de ingredientes).
  */
@@ -22,7 +26,7 @@ import { fitHex } from '../color/spectral.js';
  * Catálogos disponíveis como cor-alvo, na ordem em que as abas aparecem.
  * `free` não é um catálogo: é a aba de cor livre (seletor de cor).
  */
-export const TARGET_TABS = ['tamiyaA', 'tamiyaL', 'revellA', 'revellE', 'fs595', 'acrilex', 'free'];
+export const TARGET_TABS = ['tamiyaA', 'tamiyaL', 'revellA', 'revellE', 'fs595', 'vallejo', 'mrhobby', 'humbrol', 'acrilex', 'free'];
 
 /**
  * Abas de versões anteriores → aba equivalente atual. Usado para restaurar a
@@ -48,6 +52,9 @@ export const CATALOG_NAMES = {
   revellA: 'Revell Aqua',
   revellE: 'Revell Email',
   fs595: 'FS 595',
+  vallejo: 'Vallejo',
+  mrhobby: 'Mr. Hobby',
+  humbrol: 'Humbrol',
   acrilex: 'Acrilex',
   free: 'Livre',
 };
@@ -89,12 +96,13 @@ function revellLabel(d) {
 
 /**
  * Monta os catálogos normalizados a partir dos JSONs brutos (função pura, sem rede).
- * @param {{ac: object[], tm: object[], rv: object[], fs: object[]}} raw conteúdo de
- *        `acrilex-cores-oficial`, `tamiya-cores-oficial`, `revell-cores-oficial` e `fs595-cores`.
+ * @param {{ac: object[], tm: object[], rv: object[], fs: object[], vl: object[], mr: object[], hb: object[]}} raw conteúdo de
+ *        `acrilex-cores-oficial`, `tamiya-cores-oficial`, `revell-cores-oficial`,
+ *        `fs595-cores`, `vallejo-cores`, `mrcolor-cores` e `humbrol-cores`.
  * @returns {Object<string, CatalogPaint[]>} catálogos por chave
- *          (`acrilex`, `tamiyaA`, `tamiyaL`, `revellA`, `revellE`, `fs595`).
+ *          (`acrilex`, `tamiyaA`, `tamiyaL`, `revellA`, `revellE`, `fs595`, `vallejo`, `mrhobby`, `humbrol`).
  */
-export function buildCatalogs({ ac, tm, rv, fs }) {
+export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb }) {
   // Tamiya: aditivos (sem cor) ficam de fora; separado por base química
   const tamiya = (base) =>
     tm.filter((d) => d.hex && !d.aditivo && d.base === base).map((d) => ({ code: d.code, name: d.name, hex: d.hex }));
@@ -106,6 +114,33 @@ export function buildCatalogs({ ac, tm, rv, fs }) {
     revellE: rv.filter((d) => d.linha === 'Email Color').map((d) => ({ code: d.sku, name: revellLabel(d), hex: d.hex })),
     // FS 595: o 1º dígito do código já indica o acabamento (1 gloss, 2 semi-gloss, 3 flat)
     fs595: fs.map((d) => ({ code: d.code, name: d.name || 'Sem nome', hex: d.hex })),
+    // Vallejo: várias linhas num só catálogo (a interface oferece um seletor de linha)
+    vallejo: vl.map((d) => ({
+      code: d.code,
+      name: d.name,
+      hex: d.hex,
+      line: d.line,
+      series: d.series,
+      ...(d.degrade ? { degrade: true } : {}),
+    })),
+    // Mr. Hobby (Gunze): linhas Mr. Color, Aqueous Hobby Color e Acrysion num só catálogo
+    mrhobby: mr.map((d) => ({
+      code: d.code,
+      name: d.name,
+      hex: d.hex,
+      line: d.line,
+      series: d.series,
+      ...(d.finish ? { finish: d.finish } : {}),
+      ...(d.degrade ? { degrade: true } : {}),
+    })),
+    // Humbrol: tintas acrílicas (o código é o número do catálogo Humbrol)
+    humbrol: hb.map((d) => ({
+      code: d.code,
+      name: d.name,
+      hex: d.hex,
+      ...(d.finish ? { finish: d.finish } : {}),
+      ...(d.degrade ? { degrade: true } : {}),
+    })),
   };
 }
 
@@ -114,13 +149,26 @@ export function buildCatalogs({ ac, tm, rv, fs }) {
  * @returns {Promise<Object<string, CatalogPaint[]>>} catálogos por chave (ver {@link buildCatalogs}).
  */
 export async function loadCatalogs() {
-  const [ac, tm, rv, fs] = await Promise.all([
+  const [ac, tm, rv, fs, vl, mr, hb] = await Promise.all([
     loadJson('acrilex-cores-oficial.json'),
     loadJson('tamiya-cores-oficial.json'),
     loadJson('revell-cores-oficial.json'),
     loadJson('fs595-cores.json'),
+    loadJson('vallejo-cores.json'),
+    loadJson('mrcolor-cores.json'),
+    loadJson('humbrol-cores.json'),
   ]);
-  return buildCatalogs({ ac, tm, rv, fs });
+  return buildCatalogs({ ac, tm, rv, fs, vl, mr, hb });
+}
+
+/**
+ * Linhas de produtos de um catálogo, na ordem em que aparecem (vazio se o
+ * catálogo não se divide em linhas).
+ * @param {CatalogPaint[]} paints tintas do catálogo.
+ * @returns {string[]} nomes das linhas.
+ */
+export function catalogLines(paints) {
+  return [...new Set(paints.map((p) => p.line).filter(Boolean))];
 }
 
 /**

@@ -1,0 +1,1031 @@
+[
+ {
+  "code": "1",
+  "name": "Grey",
+  "finish": "Matt",
+  "sku": "DB0001",
+  "hex": "#575b5a"
+ },
+ {
+  "code": "2",
+  "name": "Emerald Green",
+  "finish": "Gloss",
+  "sku": "DB0002",
+  "hex": "#027c35"
+ },
+ {
+  "code": "3",
+  "name": "Brunswick Green",
+  "finish": "Gloss",
+  "sku": "DB0003",
+  "hex": "#203a1c"
+ },
+ {
+  "code": "9",
+  "name": "Tan",
+  "finish": "Gloss",
+  "sku": "DB0009",
+  "hex": "#af5218"
+ },
+ {
+  "code": "10",
+  "name": "Service Brown",
+  "finish": "Gloss",
+  "sku": "DB0010",
+  "hex": "#423222"
+ },
+ {
+  "code": "11",
+  "name": "Silver",
+  "finish": "Metallic",
+  "sku": "DB0011",
+  "hex": "#dadada"
+ },
+ {
+  "code": "12",
+  "name": "Copper",
+  "finish": "Metallic",
+  "sku": "DB0012",
+  "hex": "#a34e17"
+ },
+ {
+  "code": "14",
+  "name": "French Blue",
+  "finish": "Gloss",
+  "sku": "DB0014",
+  "hex": "#0e4594"
+ },
+ {
+  "code": "15",
+  "name": "Midnight Blue",
+  "finish": "Gloss",
+  "sku": "DB0015",
+  "hex": "#202e5e"
+ },
+ {
+  "code": "16",
+  "name": "Gold",
+  "finish": "Metallic",
+  "sku": "DB0016",
+  "hex": "#e2ae00"
+ },
+ {
+  "code": "18",
+  "name": "Orange",
+  "finish": "Gloss",
+  "sku": "DB0018",
+  "hex": "#e6640d"
+ },
+ {
+  "code": "19",
+  "name": "Bright Red",
+  "finish": "Gloss",
+  "sku": "DB0019",
+  "hex": "#d80c1f"
+ },
+ {
+  "code": "20",
+  "name": "Crimson",
+  "finish": "Gloss",
+  "sku": "DB0020",
+  "hex": "#92141d"
+ },
+ {
+  "code": "21",
+  "name": "Black",
+  "finish": "Gloss",
+  "sku": "DB0021",
+  "hex": "#000000"
+ },
+ {
+  "code": "22",
+  "name": "White",
+  "finish": "Gloss",
+  "sku": "DB0022",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "23",
+  "name": "Duck Egg Blue",
+  "finish": "Matt",
+  "sku": "DB0023",
+  "hex": "#d4ebe4"
+ },
+ {
+  "code": "24",
+  "name": "Trainer Yellow",
+  "finish": "Matt",
+  "sku": "DB0024",
+  "hex": "#f8c029"
+ },
+ {
+  "code": "25",
+  "name": "Blue",
+  "finish": "Matt",
+  "sku": "DB0025",
+  "hex": "#223880"
+ },
+ {
+  "code": "26",
+  "name": "Khaki",
+  "finish": "Matt",
+  "sku": "DB0026",
+  "hex": "#9a6717"
+ },
+ {
+  "code": "27",
+  "name": "Sea Grey",
+  "finish": "Matt",
+  "sku": "DB0027",
+  "hex": "#585854"
+ },
+ {
+  "code": "28",
+  "name": "Camouflage Grey",
+  "finish": "Matt",
+  "sku": "DB0028",
+  "hex": "#cbc8c1"
+ },
+ {
+  "code": "29",
+  "name": "Dark Earth",
+  "finish": "Matt",
+  "sku": "DB0029",
+  "hex": "#83644d"
+ },
+ {
+  "code": "30",
+  "name": "Dark Green",
+  "finish": "Matt",
+  "sku": "DB0030",
+  "hex": "#1e6746"
+ },
+ {
+  "code": "31",
+  "name": "Slate Grey",
+  "finish": "Matt",
+  "sku": "DB0031",
+  "hex": "#615f5c"
+ },
+ {
+  "code": "32",
+  "name": "Dark Grey",
+  "finish": "Matt",
+  "sku": "DB0032",
+  "hex": "#41434b"
+ },
+ {
+  "code": "33",
+  "name": "Black",
+  "finish": "Matt",
+  "sku": "DB0033",
+  "hex": "#000000"
+ },
+ {
+  "code": "34",
+  "name": "White",
+  "finish": "Matt",
+  "sku": "DB0034",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "36",
+  "name": "Pastel Green",
+  "finish": "Matt",
+  "sku": "DB0036",
+  "hex": "#d4e4a9"
+ },
+ {
+  "code": "37",
+  "name": "Bright Green",
+  "finish": "Matt",
+  "sku": "DB0037",
+  "hex": "#59a930"
+ },
+ {
+  "code": "38",
+  "name": "Lime",
+  "finish": "Gloss",
+  "sku": "DB0038",
+  "hex": "#7dac2a"
+ },
+ {
+  "code": "40",
+  "name": "Pale Grey",
+  "finish": "Gloss",
+  "sku": "DB0040",
+  "hex": "#a9a6ab"
+ },
+ {
+  "code": "41",
+  "name": "Ivory",
+  "finish": "Gloss",
+  "sku": "DB0041",
+  "hex": "#f8f2c7"
+ },
+ {
+  "code": "42",
+  "name": "Violet",
+  "finish": "Matt",
+  "sku": "DB0042",
+  "hex": "#cda8cf"
+ },
+ {
+  "code": "44",
+  "name": "Pastel Blue",
+  "finish": "Matt",
+  "sku": "DB0044",
+  "hex": "#c1d7f2"
+ },
+ {
+  "code": "52",
+  "name": "Baltic Blue",
+  "finish": "Metallic",
+  "sku": "DB0052",
+  "hex": "#1060a7"
+ },
+ {
+  "code": "53",
+  "name": "Gunmetal",
+  "finish": "Metallic",
+  "sku": "DB0053",
+  "hex": "#2a2a2a"
+ },
+ {
+  "code": "54",
+  "name": "Brass",
+  "finish": "Metallic",
+  "sku": "DB0054",
+  "hex": "#e19106"
+ },
+ {
+  "code": "55",
+  "name": "Bronze",
+  "finish": "Metallic",
+  "sku": "DB0055",
+  "hex": "#b35715"
+ },
+ {
+  "code": "56",
+  "name": "Aluminium",
+  "finish": "Metallic",
+  "sku": "DB0056",
+  "hex": "#cad0d7"
+ },
+ {
+  "code": "57",
+  "name": "Pastel Pink",
+  "finish": "Matt",
+  "sku": "DB0057",
+  "hex": "#eeadb3"
+ },
+ {
+  "code": "58",
+  "name": "Magenta",
+  "finish": "Matt",
+  "sku": "DB0058",
+  "hex": "#bb4895"
+ },
+ {
+  "code": "60",
+  "name": "Scarlet",
+  "finish": "Matt",
+  "sku": "DB0060",
+  "hex": "#b91716"
+ },
+ {
+  "code": "61",
+  "name": "Flesh",
+  "finish": "Matt",
+  "sku": "DB0061",
+  "hex": "#eb8e54"
+ },
+ {
+  "code": "62",
+  "name": "Leather",
+  "finish": "Matt",
+  "sku": "DB0062",
+  "hex": "#ac5128"
+ },
+ {
+  "code": "63",
+  "name": "Sand",
+  "finish": "Matt",
+  "sku": "DB0063",
+  "hex": "#d69b49"
+ },
+ {
+  "code": "64",
+  "name": "Light Grey",
+  "finish": "Matt",
+  "sku": "DB0064",
+  "hex": "#cecfd1"
+ },
+ {
+  "code": "65",
+  "name": "Aircraft Blue",
+  "finish": "Matt",
+  "sku": "DB0065",
+  "hex": "#c3d9d4"
+ },
+ {
+  "code": "66",
+  "name": "Olive Drab",
+  "finish": "Matt",
+  "sku": "DB0066",
+  "hex": "#3f4245"
+ },
+ {
+  "code": "67",
+  "name": "Tank Grey",
+  "finish": "Matt",
+  "sku": "DB0067",
+  "hex": "#2a393d"
+ },
+ {
+  "code": "68",
+  "name": "Purple",
+  "finish": "Gloss",
+  "sku": "DB0068",
+  "hex": "#2a1643"
+ },
+ {
+  "code": "69",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "sku": "DB0069",
+  "hex": "#fbda00"
+ },
+ {
+  "code": "70",
+  "name": "Brick Red",
+  "finish": "Matt",
+  "sku": "DB0070",
+  "hex": "#965235"
+ },
+ {
+  "code": "71",
+  "name": "Oak",
+  "finish": "Satin",
+  "sku": "DB0071",
+  "hex": "#f2ddb7"
+ },
+ {
+  "code": "72",
+  "name": "Khaki Drill",
+  "finish": "Matt",
+  "sku": "DB0072",
+  "hex": "#ad9279"
+ },
+ {
+  "code": "73",
+  "name": "Wine",
+  "finish": "Matt",
+  "sku": "DB0073",
+  "hex": "#9b474b"
+ },
+ {
+  "code": "74",
+  "name": "Linen",
+  "finish": "Matt",
+  "sku": "DB0074",
+  "hex": "#ffd53c"
+ },
+ {
+  "code": "75",
+  "name": "Bronze Green",
+  "finish": "Matt",
+  "sku": "DB0075",
+  "hex": "#5e584c"
+ },
+ {
+  "code": "78",
+  "name": "Cockpit Green",
+  "finish": "Matt",
+  "sku": "DB0078",
+  "hex": "#3a533b"
+ },
+ {
+  "code": "79",
+  "name": "Blue Grey",
+  "finish": "Matt",
+  "sku": "DB0079",
+  "hex": "#6e6069"
+ },
+ {
+  "code": "80",
+  "name": "Grass Green",
+  "finish": "Matt",
+  "sku": "DB0080",
+  "hex": "#6a7144"
+ },
+ {
+  "code": "81",
+  "name": "Pale Yellow",
+  "finish": "Matt",
+  "sku": "DB0081",
+  "hex": "#ddbd0c"
+ },
+ {
+  "code": "83",
+  "name": "Ochre",
+  "finish": "Matt",
+  "sku": "DB0083",
+  "hex": "#b8981d"
+ },
+ {
+  "code": "85",
+  "name": "Black",
+  "finish": "Satin",
+  "sku": "DB0085",
+  "hex": "#161210"
+ },
+ {
+  "code": "86",
+  "name": "Olive Green",
+  "finish": "Matt",
+  "sku": "DB0086",
+  "hex": "#6f5e3e"
+ },
+ {
+  "code": "87",
+  "name": "Steel Grey",
+  "finish": "Matt",
+  "sku": "DB0087",
+  "hex": "#8a959b"
+ },
+ {
+  "code": "88",
+  "name": "Deck Green",
+  "finish": "Matt",
+  "sku": "DB0088",
+  "hex": "#596a27"
+ },
+ {
+  "code": "89",
+  "name": "Middle Blue",
+  "finish": "Matt",
+  "sku": "DB0089",
+  "hex": "#4498c0"
+ },
+ {
+  "code": "90",
+  "name": "Beige Green",
+  "finish": "Matt",
+  "sku": "DB0090",
+  "hex": "#e2e9c5"
+ },
+ {
+  "code": "91",
+  "name": "Black Green",
+  "finish": "Matt",
+  "sku": "DB0091",
+  "hex": "#161d1b"
+ },
+ {
+  "code": "93",
+  "name": "Desert Yellow",
+  "finish": "Matt",
+  "sku": "DB0093",
+  "hex": "#c69648"
+ },
+ {
+  "code": "94",
+  "name": "Brown Yellow",
+  "finish": "Matt",
+  "sku": "DB0094",
+  "hex": "#cda069"
+ },
+ {
+  "code": "96",
+  "name": "RAF Blue",
+  "finish": "Matt",
+  "sku": "DB0096",
+  "hex": "#667190"
+ },
+ {
+  "code": "98",
+  "name": "Chocolate",
+  "finish": "Matt",
+  "sku": "DB0098",
+  "hex": "#77503b"
+ },
+ {
+  "code": "99",
+  "name": "Lemon",
+  "finish": "Matt",
+  "sku": "DB0099",
+  "hex": "#f8df00"
+ },
+ {
+  "code": "100",
+  "name": "Red Brown",
+  "finish": "Matt",
+  "sku": "DB0100",
+  "hex": "#c14327"
+ },
+ {
+  "code": "101",
+  "name": "Mid Green",
+  "finish": "Matt",
+  "sku": "DB0101",
+  "hex": "#4c7755"
+ },
+ {
+  "code": "102",
+  "name": "Army Green",
+  "finish": "Matt",
+  "sku": "DB0102",
+  "hex": "#697251"
+ },
+ {
+  "code": "103",
+  "name": "Cream",
+  "finish": "Matt",
+  "sku": "DB0103",
+  "hex": "#ebd589"
+ },
+ {
+  "code": "104",
+  "name": "Oxford Blue",
+  "finish": "Matt",
+  "sku": "DB0104",
+  "hex": "#1e3c5d"
+ },
+ {
+  "code": "105",
+  "name": "Marine Green",
+  "finish": "Matt",
+  "sku": "DB0105",
+  "hex": "#6d7252"
+ },
+ {
+  "code": "106",
+  "name": "Ocean Grey",
+  "finish": "Matt",
+  "sku": "DB0106",
+  "hex": "#6e7353"
+ },
+ {
+  "code": "109",
+  "name": "WW1 Blue",
+  "finish": "Matt",
+  "sku": "DB0109",
+  "hex": "#5c7daf"
+ },
+ {
+  "code": "110",
+  "name": "Natural Wood",
+  "finish": "Matt",
+  "sku": "DB0110",
+  "hex": "#996645"
+ },
+ {
+  "code": "113",
+  "name": "Rust",
+  "finish": "Matt",
+  "sku": "DB0113",
+  "hex": "#ae6956"
+ },
+ {
+  "code": "116",
+  "name": "US Dark Green",
+  "finish": "Matt",
+  "sku": "DB0116",
+  "hex": "#3c5645"
+ },
+ {
+  "code": "117",
+  "name": "US Light Green",
+  "finish": "Matt",
+  "sku": "DB0117",
+  "hex": "#566341"
+ },
+ {
+  "code": "118",
+  "name": "US Tan",
+  "finish": "Matt",
+  "sku": "DB0118",
+  "hex": "#b47d58"
+ },
+ {
+  "code": "119",
+  "name": "Light Earth",
+  "finish": "Matt",
+  "sku": "DB0119",
+  "hex": "#b1704e"
+ },
+ {
+  "code": "120",
+  "name": "Light Green",
+  "finish": "Matt",
+  "sku": "DB0120",
+  "hex": "#095e30"
+ },
+ {
+  "code": "121",
+  "name": "Pale Stone",
+  "finish": "Matt",
+  "sku": "DB0121",
+  "hex": "#e3cf9e"
+ },
+ {
+  "code": "123",
+  "name": "Extra Dark Sea Grey",
+  "finish": "Satin",
+  "sku": "DB0123",
+  "hex": "#6e6c75"
+ },
+ {
+  "code": "125",
+  "name": "US Dark Grey",
+  "finish": "Matt",
+  "sku": "DB0125",
+  "hex": "#575a5d"
+ },
+ {
+  "code": "126",
+  "name": "US Medium Grey",
+  "finish": "Matt",
+  "sku": "DB0126",
+  "hex": "#94928f"
+ },
+ {
+  "code": "127",
+  "name": "US Ghost Grey",
+  "finish": "Satin",
+  "sku": "DB0127",
+  "hex": "#acbfc9"
+ },
+ {
+  "code": "128",
+  "name": "US Compass Grey",
+  "finish": "Matt",
+  "sku": "DB0128",
+  "hex": "#99b1c4"
+ },
+ {
+  "code": "129",
+  "name": "US Gull Grey",
+  "finish": "Satin",
+  "sku": "DB0129",
+  "hex": "#a5a7a7"
+ },
+ {
+  "code": "130",
+  "name": "White",
+  "finish": "Satin",
+  "sku": "DB0130",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "132",
+  "name": "Red",
+  "finish": "Satin",
+  "sku": "DB0132",
+  "hex": "#d04123"
+ },
+ {
+  "code": "133",
+  "name": "Brown",
+  "finish": "Satin",
+  "sku": "DB0133",
+  "hex": "#83161d"
+ },
+ {
+  "code": "140",
+  "name": "Gull Grey",
+  "finish": "Matt",
+  "sku": "DB0140",
+  "hex": "#959aa1"
+ },
+ {
+  "code": "145",
+  "name": "Medium Grey",
+  "finish": "Matt",
+  "sku": "DB0145",
+  "hex": "#6e7078"
+ },
+ {
+  "code": "147",
+  "name": "Light Grey",
+  "finish": "Matt",
+  "sku": "DB0147",
+  "hex": "#d7d6d8"
+ },
+ {
+  "code": "148",
+  "name": "Radome Tan",
+  "finish": "Matt",
+  "sku": "DB0148",
+  "hex": "#fddd9e"
+ },
+ {
+  "code": "149",
+  "name": "Dark Green",
+  "finish": "Matt",
+  "sku": "DB0149",
+  "hex": "#0d4c39"
+ },
+ {
+  "code": "150",
+  "name": "Forest Green",
+  "finish": "Matt",
+  "sku": "DB0150",
+  "hex": "#5e5d21"
+ },
+ {
+  "code": "153",
+  "name": "Insignia Red",
+  "finish": "Matt",
+  "sku": "DB0153",
+  "hex": "#b21e25"
+ },
+ {
+  "code": "154",
+  "name": "Insignia Yellow",
+  "finish": "Matt",
+  "sku": "DB0154",
+  "hex": "#f8b400"
+ },
+ {
+  "code": "155",
+  "name": "Olive Drab",
+  "finish": "Matt",
+  "sku": "DB0155",
+  "hex": "#515023"
+ },
+ {
+  "code": "156",
+  "name": "Dark Camouflage Grey",
+  "finish": "Satin",
+  "sku": "DB0156",
+  "hex": "#827672"
+ },
+ {
+  "code": "157",
+  "name": "Azure Blue",
+  "finish": "Matt",
+  "sku": "DB0157",
+  "hex": "#627c96"
+ },
+ {
+  "code": "159",
+  "name": "Khaki Drab",
+  "finish": "Matt",
+  "sku": "DB0159",
+  "hex": "#555125"
+ },
+ {
+  "code": "160",
+  "name": "German Camouflage Red",
+  "finish": "Matt",
+  "sku": "DB0160",
+  "hex": "#623218"
+ },
+ {
+  "code": "163",
+  "name": "Dark Green",
+  "finish": "Satin",
+  "sku": "DB0163",
+  "hex": "#232a12"
+ },
+ {
+  "code": "164",
+  "name": "Dark Sea Grey",
+  "finish": "Matt",
+  "sku": "DB0164",
+  "hex": "#74767e"
+ },
+ {
+  "code": "165",
+  "name": "Medium Sea Grey",
+  "finish": "Matt",
+  "sku": "DB0165",
+  "hex": "#a5a5ac"
+ },
+ {
+  "code": "166",
+  "name": "Light Aircraft Grey",
+  "finish": "Matt",
+  "sku": "DB0166",
+  "hex": "#aba9b0"
+ },
+ {
+  "code": "167",
+  "name": "Barley/Camouflage Grey",
+  "finish": "Matt",
+  "sku": "DB0167",
+  "hex": "#949b9d"
+ },
+ {
+  "code": "168",
+  "name": "Hemp/Camouflage Beige",
+  "finish": "Matt",
+  "sku": "DB0168",
+  "hex": "#a19883"
+ },
+ {
+  "code": "171",
+  "name": "Antique Bronze",
+  "finish": "Metallic",
+  "sku": "DB0171",
+  "hex": "#a06642"
+ },
+ {
+  "code": "173",
+  "name": "Track",
+  "finish": "Matt",
+  "sku": "DB0173",
+  "hex": "#4c3a38"
+ },
+ {
+  "code": "174",
+  "name": "Signal Red",
+  "finish": "Satin",
+  "sku": "DB0174",
+  "hex": "#d32c18"
+ },
+ {
+  "code": "186",
+  "name": "Brown",
+  "finish": "Matt",
+  "sku": "DB0186",
+  "hex": "#87533a"
+ },
+ {
+  "code": "191",
+  "name": "Chrome Silver",
+  "finish": "Metallic",
+  "sku": "DB0191",
+  "hex": "#e5e8eb"
+ },
+ {
+  "code": "196",
+  "name": "Light Grey",
+  "finish": "Satin",
+  "sku": "DB0196",
+  "hex": "#e1e2e4"
+ },
+ {
+  "code": "201",
+  "name": "Black",
+  "finish": "Metallic",
+  "sku": "DB0201",
+  "hex": "#1a1312"
+ },
+ {
+  "code": "208",
+  "name": "Fluorescent Signal Green",
+  "finish": "Gloss",
+  "sku": "DB0208",
+  "hex": "#59a930"
+ },
+ {
+  "code": "209",
+  "name": "Fluorescent Fire Orange",
+  "finish": "Gloss",
+  "sku": "DB0209",
+  "hex": "#e0171b"
+ },
+ {
+  "code": "220",
+  "name": "Italian Red",
+  "finish": "Gloss",
+  "sku": "DB0220",
+  "hex": "#c11618"
+ },
+ {
+  "code": "224",
+  "name": "Dark Slate Grey",
+  "finish": "Matt",
+  "sku": "DB0224",
+  "hex": "#77766d"
+ },
+ {
+  "code": "225",
+  "name": "Middle Stone",
+  "finish": "Matt",
+  "sku": "DB0225",
+  "hex": "#c18b54"
+ },
+ {
+  "code": "226",
+  "name": "Interior Green",
+  "finish": "Matt",
+  "sku": "DB0226",
+  "hex": "#7d7349"
+ },
+ {
+  "code": "230",
+  "name": "PRU Blue",
+  "finish": "Matt",
+  "sku": "DB0230",
+  "hex": "#103d4c"
+ },
+ {
+  "code": "238",
+  "name": "Arrow Red",
+  "finish": "Gloss",
+  "sku": "DB0238",
+  "hex": "#db042b"
+ },
+ {
+  "code": "239",
+  "name": "Racing Green",
+  "finish": "Gloss",
+  "sku": "DB0239",
+  "hex": "#003e3f"
+ },
+ {
+  "code": "240",
+  "name": "Grau (RLM 02)",
+  "finish": "Matt",
+  "sku": "DB0240",
+  "hex": "#86836c"
+ },
+ {
+  "code": "241",
+  "name": "Schwartzgrun (RLM 70)",
+  "finish": "Matt",
+  "sku": "DB0241",
+  "hex": "#5f5d4e"
+ },
+ {
+  "code": "242",
+  "name": "Dunkelgrun (RLM 71)",
+  "finish": "Matt",
+  "sku": "DB0242",
+  "hex": "#3e4f26"
+ },
+ {
+  "code": "243",
+  "name": "Grun (RLM 72)",
+  "finish": "Matt",
+  "sku": "DB0243",
+  "hex": "#45484b"
+ },
+ {
+  "code": "244",
+  "name": "Grun (RLM 73)",
+  "finish": "Matt",
+  "sku": "DB0244",
+  "hex": "#4e554f"
+ },
+ {
+  "code": "245",
+  "name": "Graugrun (RLM 74)",
+  "finish": "Matt",
+  "sku": "DB0245",
+  "hex": "#394656"
+ },
+ {
+  "code": "246",
+  "name": "Grauviolett (RLM 75)",
+  "finish": "Matt",
+  "sku": "DB0246",
+  "hex": "#6e6e6c"
+ },
+ {
+  "code": "247",
+  "name": "Lichtblau (RLM 76)",
+  "finish": "Matt",
+  "sku": "DB0247",
+  "hex": "#c6c8c4"
+ },
+ {
+  "code": "248",
+  "name": "Himmelblau (RLM 78)",
+  "finish": "Matt",
+  "sku": "DB0248",
+  "hex": "#95aaac"
+ },
+ {
+  "code": "249",
+  "name": "Sandgelb (RLM 79)",
+  "finish": "Matt",
+  "sku": "DB0249",
+  "hex": "#a79344"
+ },
+ {
+  "code": "251",
+  "name": "Dunkelbraun (RLM 81)",
+  "finish": "Matt",
+  "sku": "DB0251",
+  "hex": "#524449"
+ },
+ {
+  "code": "252",
+  "name": "Olivgrun (RLM 82)",
+  "finish": "Matt",
+  "sku": "DB0252",
+  "hex": "#516549"
+ },
+ {
+  "code": "253",
+  "name": "Dunkel-Grun (RLM 83)",
+  "finish": "Matt",
+  "sku": "DB0253",
+  "hex": "#525041"
+ }
+]

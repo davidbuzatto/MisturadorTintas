@@ -1,0 +1,3551 @@
+[
+ {
+  "code": "C1",
+  "name": "WHITE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C2",
+  "name": "BLACK",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#231f20"
+ },
+ {
+  "code": "C3",
+  "name": "RED",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "C4",
+  "name": "YELLOW",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#fddd04"
+ },
+ {
+  "code": "C5",
+  "name": "BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#1e5cb3"
+ },
+ {
+  "code": "C6",
+  "name": "GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#0e612e"
+ },
+ {
+  "code": "C8",
+  "name": "SILVER",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#d3d2d2"
+ },
+ {
+  "code": "C9",
+  "name": "GOLD",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#d7ab1e"
+ },
+ {
+  "code": "C11",
+  "name": "LIGHT GULL GRAY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#b3babc"
+ },
+ {
+  "code": "C12",
+  "name": "OLIVE DRAB 1",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#635934"
+ },
+ {
+  "code": "C13",
+  "name": "NEUTRAL GRAY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#65747a"
+ },
+ {
+  "code": "C14",
+  "name": "NAVY BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#294c5c"
+ },
+ {
+  "code": "C15",
+  "name": "IJN GREEN NAKAJIMA A",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#3f4c3a"
+ },
+ {
+  "code": "C16",
+  "name": "IJA GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#29523f"
+ },
+ {
+  "code": "C28",
+  "name": "STEEL",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#231f20"
+ },
+ {
+  "code": "C29",
+  "name": "HULL RED",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#5a3039"
+ },
+ {
+  "code": "C30",
+  "name": "FLAT CLEAR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C31",
+  "name": "DARK GRAY 1",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#467363"
+ },
+ {
+  "code": "C32",
+  "name": "DARK GRAY 2",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#435763"
+ },
+ {
+  "code": "C33",
+  "name": "FLAT BLACK",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#231f20"
+ },
+ {
+  "code": "C34",
+  "name": "SKY BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#0994dc"
+ },
+ {
+  "code": "C35",
+  "name": "IJN GRAY MITSUBISHI",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#97afba"
+ },
+ {
+  "code": "C38",
+  "name": "OLIVE DRAB 2",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#3f4c3a"
+ },
+ {
+  "code": "C39",
+  "name": "DARK YELLOW SANDY YELLOW T",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#b49154"
+ },
+ {
+  "code": "C40",
+  "name": "GERMAN GRAY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#30414a"
+ },
+ {
+  "code": "C41",
+  "name": "RED BROWN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#513236"
+ },
+ {
+  "code": "C42",
+  "name": "MAHOGANY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#483337"
+ },
+ {
+  "code": "C43",
+  "name": "WOOD BROWN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#664b34"
+ },
+ {
+  "code": "C44",
+  "name": "TAN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#bf9d5c"
+ },
+ {
+  "code": "C46",
+  "name": "CLEAR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C47",
+  "name": "CLEAR RED",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "C48",
+  "name": "CLEAR YELLOW",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#fcd205"
+ },
+ {
+  "code": "C49",
+  "name": "CLEAR ORANGE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f1511b"
+ },
+ {
+  "code": "C50",
+  "name": "CLEAR BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00adef"
+ },
+ {
+  "code": "C58",
+  "name": "ORANGE YELLOW",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f36717"
+ },
+ {
+  "code": "C59",
+  "name": "ORANGE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f1511b"
+ },
+ {
+  "code": "C61",
+  "name": "BURNT IRON",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#4f3230"
+ },
+ {
+  "code": "C62",
+  "name": "FLAT WHITE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C63",
+  "name": "PINK",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f24f98"
+ },
+ {
+  "code": "C64",
+  "name": "YELLOW GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#35af3f"
+ },
+ {
+  "code": "C65",
+  "name": "BRIGHT BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#254aa5"
+ },
+ {
+  "code": "C66",
+  "name": "BRIGHT GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00a650"
+ },
+ {
+  "code": "C67",
+  "name": "PURPLE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#422d88"
+ },
+ {
+  "code": "C68",
+  "name": "MADDER RED",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#db1f26"
+ },
+ {
+  "code": "C69",
+  "name": "OFF WHITE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f7f4ef"
+ },
+ {
+  "code": "C70",
+  "name": "DARK GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#374640"
+ },
+ {
+  "code": "C72",
+  "name": "INTERMEDIATE BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#3e859d"
+ },
+ {
+  "code": "C75",
+  "name": "METALLIC RED",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#ad252b"
+ },
+ {
+  "code": "C76",
+  "name": "METALLIC BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#2056ae"
+ },
+ {
+  "code": "C77",
+  "name": "METALLIC GREEN P C",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#0b905a"
+ },
+ {
+  "code": "C78",
+  "name": "METAL BLACK",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#231f20"
+ },
+ {
+  "code": "C79",
+  "name": "SHINE RED",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "C80",
+  "name": "COBALT BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#2e3192"
+ },
+ {
+  "code": "C81",
+  "name": "RUSSET",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#762c36"
+ },
+ {
+  "code": "C90",
+  "name": "SHINE SILVER",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#c8c7c7"
+ },
+ {
+  "code": "C92",
+  "name": "SEMI GLOSS BLACK P",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#231f20"
+ },
+ {
+  "code": "C97",
+  "name": "LIGHT GRAY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#a7b7a9"
+ },
+ {
+  "code": "C101",
+  "name": "SMOKE GRAY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#352a21"
+ },
+ {
+  "code": "C107",
+  "name": "CHARACTER WHITE P 151",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f2f3ee"
+ },
+ {
+  "code": "C108",
+  "name": "CHARACTER RED",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#c82128"
+ },
+ {
+  "code": "C109",
+  "name": "CHARACTER YELLOW P",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f47216"
+ },
+ {
+  "code": "C110",
+  "name": "CHARACTER BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#254aa5"
+ },
+ {
+  "code": "C111",
+  "name": "CHARACTER FLESH 1",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#fcd8cb"
+ },
+ {
+  "code": "C112",
+  "name": "CHARACTER FLESH 2",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f8a6ae"
+ },
+ {
+  "code": "C115",
+  "name": "RLM65 LIGHT BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#6c909c"
+ },
+ {
+  "code": "C117",
+  "name": "RLM76 LIGHT BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#b2cec6"
+ },
+ {
+  "code": "C124",
+  "name": "DARK GREEN MITSUBISHI",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#264541"
+ },
+ {
+  "code": "C129",
+  "name": "DARK GREEN NAKAJIMA",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4a6553"
+ },
+ {
+  "code": "C172",
+  "name": "FLUORESCENT YELLOW",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#fff200"
+ },
+ {
+  "code": "C173",
+  "name": "FLUORESCENT ORANGE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#ee2722"
+ },
+ {
+  "code": "C174",
+  "name": "FLUORESCENT PINK",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#ec0772"
+ },
+ {
+  "code": "C175",
+  "name": "FLUORESCENT GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#00a650"
+ },
+ {
+  "code": "C181",
+  "name": "SEMI-GLOSS SUPER CLEAR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C182",
+  "name": "FLAT CLEAR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C183",
+  "name": "SUPER CLEAR GRAY TONE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f2f3f3"
+ },
+ {
+  "code": "C188",
+  "name": "FLAT BASE ROUGH",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C189",
+  "name": "FLAT BASE SMOOTH",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C301",
+  "name": "GRAY FS36081",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#393f4d"
+ },
+ {
+  "code": "C302",
+  "name": "GREEN FS34092",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#395759"
+ },
+ {
+  "code": "C303",
+  "name": "GREEN FS34102",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4c5e57"
+ },
+ {
+  "code": "C304",
+  "name": "OLIVE DRAB FS34087",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#444039"
+ },
+ {
+  "code": "C305",
+  "name": "GRAY FS36118",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#476c6e"
+ },
+ {
+  "code": "C306",
+  "name": "GRAY FS36270",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#648687"
+ },
+ {
+  "code": "C307",
+  "name": "GRAY FS36320",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#63868f"
+ },
+ {
+  "code": "C308",
+  "name": "GRAY FS36375",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#789a9c"
+ },
+ {
+  "code": "C309",
+  "name": "GREEN FS34079",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#395759"
+ },
+ {
+  "code": "C310",
+  "name": "BROWN FS30219",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#6b5f53"
+ },
+ {
+  "code": "C311",
+  "name": "GRAY FS36622",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#e5e9c8"
+ },
+ {
+  "code": "C312",
+  "name": "GREEN FS34227",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#408761"
+ },
+ {
+  "code": "C313",
+  "name": "YELLOW FS33531",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#e3b978"
+ },
+ {
+  "code": "C314",
+  "name": "BLUE FS35622",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#e6f6e5"
+ },
+ {
+  "code": "C315",
+  "name": "GRAY FS16440",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#8fa89d"
+ },
+ {
+  "code": "C316",
+  "name": "WHITE FS17875",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "C317",
+  "name": "GRAY FS36231",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#67766c"
+ },
+ {
+  "code": "C318",
+  "name": "RADOME",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#fbca78"
+ },
+ {
+  "code": "C319",
+  "name": "LIGHT GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#307160"
+ },
+ {
+  "code": "C320",
+  "name": "DARK GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#44584b"
+ },
+ {
+  "code": "C321",
+  "name": "LIGHT BROWN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#a88665"
+ },
+ {
+  "code": "C322",
+  "name": "PHTHALO CYANNE BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#313a5b"
+ },
+ {
+  "code": "C323",
+  "name": "LIGHT BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#33bdf2"
+ },
+ {
+  "code": "C324",
+  "name": "LIGHT GRAY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#83a59e"
+ },
+ {
+  "code": "C325",
+  "name": "GRAY FS26440",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#9baa9d"
+ },
+ {
+  "code": "C326",
+  "name": "BLUE FS15044",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#34354f"
+ },
+ {
+  "code": "C327",
+  "name": "RED FS11136",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#9b282d"
+ },
+ {
+  "code": "C328",
+  "name": "BLUE FS15050",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#313a5b"
+ },
+ {
+  "code": "C329",
+  "name": "YELLOW FS13538",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f79210"
+ },
+ {
+  "code": "C330",
+  "name": "DARK GREEN BS381C/641",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#3e4b50"
+ },
+ {
+  "code": "C331",
+  "name": "DARK SEAGRAY BS381C 638",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4d5761"
+ },
+ {
+  "code": "C332",
+  "name": "LIGHT AIRCRAFT GRAY BS381C 627",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#8c9484"
+ },
+ {
+  "code": "C333",
+  "name": "EXTRA DARK SEAGRAY BS381C 640",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#334b5b"
+ },
+ {
+  "code": "C334",
+  "name": "BARLEY GRAY BS4800/18B21",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#799190"
+ },
+ {
+  "code": "C335",
+  "name": "MEDIUM SEAGRAY BS381C 637",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#5b757c"
+ },
+ {
+  "code": "C336",
+  "name": "HEMP BS4800/10B21",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#638d6b"
+ },
+ {
+  "code": "C337",
+  "name": "GRAYISH BLUE FS35237",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#45737e"
+ },
+ {
+  "code": "C338",
+  "name": "LIGHT GRAY FS36495",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#b3babc"
+ },
+ {
+  "code": "C339",
+  "name": "ENGINE GRAY FS16081",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#334b5b"
+ },
+ {
+  "code": "C340",
+  "name": "FIELD GREEN FS34097",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#3a5842"
+ },
+ {
+  "code": "C351",
+  "name": "ZINC-CHROMATE TYPE I FS34151",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#6d7446"
+ },
+ {
+  "code": "C352",
+  "name": "CHROMATE YELLOW PRIMER FS33481",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#ad9c20"
+ },
+ {
+  "code": "C361",
+  "name": "DARK GREEN BS641",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#353932"
+ },
+ {
+  "code": "C362",
+  "name": "OCEAN GRAY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#546169"
+ },
+ {
+  "code": "C363",
+  "name": "MEDIUM SEAGRAY BS637",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#72868c"
+ },
+ {
+  "code": "C364",
+  "name": "AIRCRAFT GRAY GREEN BS283",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#62815e"
+ },
+ {
+  "code": "C365",
+  "name": "GLOSS SEABLUE FS151042",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#040a15"
+ },
+ {
+  "code": "C366",
+  "name": "INTERMEDIATE BLUE FS35164",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#536a7d"
+ },
+ {
+  "code": "C367",
+  "name": "BLUE GRAY FS35189",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#64858a"
+ },
+ {
+  "code": "C368",
+  "name": "SKY BS381C/210",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#9db78c"
+ },
+ {
+  "code": "C369",
+  "name": "DARK EARTH BS381C/450",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#524630"
+ },
+ {
+  "code": "C370",
+  "name": "AZURE BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#577faf"
+ },
+ {
+  "code": "C374",
+  "name": "JASDF SHALLOW OCEAN BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#517ba7"
+ },
+ {
+  "code": "C375",
+  "name": "JASDF DEEP OCEAN BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#25283b"
+ },
+ {
+  "code": "C376",
+  "name": "JASDF RADOME GRAY",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#b3bfb8"
+ },
+ {
+  "code": "C383",
+  "name": "DARK GREEN KAWANISHI",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#2b4c43"
+ },
+ {
+  "code": "C384",
+  "name": "COCKPIT COLOR KAWANISHI",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#727c3f"
+ },
+ {
+  "code": "C385",
+  "name": "RED IJN AIRCRAFT MARKING",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#17b091"
+ },
+ {
+  "code": "C391",
+  "name": "INTERIOR TURQUOISE GREEN SOVIET",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#17b091"
+ },
+ {
+  "code": "C392",
+  "name": "INTERIOR BLUE SOVIET",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#41a0be"
+ },
+ {
+  "code": "C393",
+  "name": "RUSSIAN AIRCRAFT BLUE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#0f040b"
+ },
+ {
+  "code": "C511",
+  "name": "RUSSIAN GREEN \"4BO\"",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#445a30"
+ },
+ {
+  "code": "C512",
+  "name": "RUSSIAN GREEN \"4BO\" 1947-",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#535e30"
+ },
+ {
+  "code": "C513",
+  "name": "DARK GRAY \"DUNKEL GRAU\"",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#384553"
+ },
+ {
+  "code": "C514",
+  "name": "GRAY \"GRAU\"",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#486774"
+ },
+ {
+  "code": "C515",
+  "name": "FADED GRAY \"BLASSGRAU\"",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#527179"
+ },
+ {
+  "code": "C516",
+  "name": "DARK GREEN 3414",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#353b2d"
+ },
+ {
+  "code": "C517",
+  "name": "BROWN 3606",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#413026"
+ },
+ {
+  "code": "C518",
+  "name": "OLIVE DRAB 2314",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#312e1e"
+ },
+ {
+  "code": "C519",
+  "name": "BRONZEGRUN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#394837"
+ },
+ {
+  "code": "C520",
+  "name": "LEDERBRAUN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#493525"
+ },
+ {
+  "code": "C521",
+  "name": "TEER SCHWARZ",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#232627"
+ },
+ {
+  "code": "C522",
+  "name": "GROUND COLOR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#50494d"
+ },
+ {
+  "code": "C523",
+  "name": "GRASS COLOR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#4f5d4c"
+ },
+ {
+  "code": "C524",
+  "name": "HAY COLOR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#7c763d"
+ },
+ {
+  "code": "C525",
+  "name": "GREEN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#354d3d"
+ },
+ {
+  "code": "C526",
+  "name": "BROWN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#7c5d4d"
+ },
+ {
+  "code": "C527",
+  "name": "KHAKI",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#96764e"
+ },
+ {
+  "code": "C528",
+  "name": "IDF GRAY1 -1981 SINAI",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#bfa778"
+ },
+ {
+  "code": "C529",
+  "name": "IDF GRAY2 -1981 GOLAN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#7d7869"
+ },
+ {
+  "code": "C530",
+  "name": "IDF GRAY3 MODERN",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#736f5b"
+ },
+ {
+  "code": "C601",
+  "name": "IJN HULL COLOR/KURE",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#818690"
+ },
+ {
+  "code": "C602",
+  "name": "IJN HULL COLOR/SASEBO",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#666c6e"
+ },
+ {
+  "code": "C603",
+  "name": "IJN HULL COLOR/MAIZURU",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#959aa8"
+ },
+ {
+  "code": "C604",
+  "name": "IJN TYPE21 CAMOFLAGE COLOR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#487439"
+ },
+ {
+  "code": "C605",
+  "name": "IJN TYPE22 CAMOFLAGE COLOR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#76ad63"
+ },
+ {
+  "code": "C606",
+  "name": "IJN LINOLEUM DECK COLOR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#60413d"
+ },
+ {
+  "code": "C607",
+  "name": "JMSDF 2704 GRAY N5",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#6b6e71"
+ },
+ {
+  "code": "C608",
+  "name": "JMSDF 2705 DARK GRAY N4",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte 75%",
+  "hex": "#4d4e50"
+ },
+ {
+  "code": "C609",
+  "name": "JMSDF CLEATED DECK COLOR",
+  "line": "Mr. Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#39393b"
+ },
+ {
+  "code": "GX1",
+  "name": "COOL WHITE",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "GX2",
+  "name": "UENO BLACK",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Gloss",
+  "hex": "#231f20"
+ },
+ {
+  "code": "GX3",
+  "name": "HARMANN RED",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "GX4",
+  "name": "CHIARA YELLOW",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Gloss",
+  "hex": "#fddd04"
+ },
+ {
+  "code": "GX5",
+  "name": "SUSIE BLUE",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Gloss",
+  "hex": "#2056ae"
+ },
+ {
+  "code": "GX6",
+  "name": "MORRIE GREEN",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Gloss",
+  "hex": "#0e612e"
+ },
+ {
+  "code": "GX100",
+  "name": "SUPER CLEAR",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "GX112",
+  "name": "SUPER CLEAR UV CUT GLOSS",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Gloss",
+  "hex": "#d3d2d2"
+ },
+ {
+  "code": "GX113",
+  "name": "SUPER CLEAR UV CUT MATT",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Matte",
+  "hex": "#d3d2d2"
+ },
+ {
+  "code": "GX114",
+  "name": "SUPER SMOOTH CLEAR MATT",
+  "line": "Mr. Color",
+  "series": "GX",
+  "finish": "Matte",
+  "hex": "#d3d2d2"
+ },
+ {
+  "code": "CRE01",
+  "name": "CRANBERRY RED PEARL",
+  "line": "Mr. Color",
+  "series": "Revival",
+  "finish": "Pearl",
+  "hex": "#69272f"
+ },
+ {
+  "code": "CRE02",
+  "name": "CERULEAN BLUE",
+  "line": "Mr. Color",
+  "series": "Revival",
+  "finish": "Gloss",
+  "hex": "#4dc3bb"
+ },
+ {
+  "code": "CRE03",
+  "name": "BRITISH GREEN",
+  "line": "Mr. Color",
+  "series": "Revival",
+  "finish": "Gloss",
+  "hex": "#32453b"
+ },
+ {
+  "code": "SM201",
+  "name": "SUPER FINE SILVER 2",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#d4d3d3"
+ },
+ {
+  "code": "SM202",
+  "name": "SUPER GOLD 2",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#ccaf6b"
+ },
+ {
+  "code": "SM203",
+  "name": "SUPER IRON 2",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#c0bfbf",
+  "degrade": true
+ },
+ {
+  "code": "SM204",
+  "name": "SUPER STAINLESS 2",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#c8c7c7"
+ },
+ {
+  "code": "SM205",
+  "name": "SUPER TITANIUM 2",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#dcd7da"
+ },
+ {
+  "code": "SM206",
+  "name": "SUPER CHROME SILVER 2",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#d4d3d3"
+ },
+ {
+  "code": "SM207",
+  "name": "SUPER RICH GOLD",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#dfba1d"
+ },
+ {
+  "code": "SM208",
+  "name": "SUPER DURALUMIN",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#dddcdc"
+ },
+ {
+  "code": "SM209",
+  "name": "SUPER COPPER",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#cf6256"
+ },
+ {
+  "code": "SM210",
+  "name": "SUPER PINK GOLD",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#dd9ca6",
+  "degrade": true
+ },
+ {
+  "code": "SM211",
+  "name": "SUPER RED GOLD",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#de9f20"
+ },
+ {
+  "code": "SM212",
+  "name": "SUPER MATT ALUMINUM",
+  "line": "Mr. Color",
+  "series": "Super Metallic 2",
+  "finish": "Metallic",
+  "hex": "#dddcdc"
+ },
+ {
+  "code": "UM01",
+  "name": "ULTRA SILVER",
+  "line": "Mr. Color",
+  "series": "Ultra Metallic",
+  "finish": "",
+  "hex": "#959394"
+ },
+ {
+  "code": "UM02",
+  "name": "ULTRA GOLD",
+  "line": "Mr. Color",
+  "series": "Ultra Metallic",
+  "finish": "",
+  "hex": "#cfa417"
+ },
+ {
+  "code": "CV01",
+  "name": "VELVET RED",
+  "line": "Mr. Color",
+  "series": "Velvet",
+  "finish": "",
+  "hex": "#b0403c",
+  "degrade": true
+ },
+ {
+  "code": "CV02",
+  "name": "VELVET BLUE",
+  "line": "Mr. Color",
+  "series": "Velvet",
+  "finish": "",
+  "hex": "#2f5392",
+  "degrade": true
+ },
+ {
+  "code": "CV03",
+  "name": "VELVET GREEN",
+  "line": "Mr. Color",
+  "series": "Velvet",
+  "finish": "",
+  "hex": "#3a826b",
+  "degrade": true
+ },
+ {
+  "code": "H1",
+  "name": "WHITE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "H2",
+  "name": "BLACK",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#231f20"
+ },
+ {
+  "code": "H3",
+  "name": "RED",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "H4",
+  "name": "YELLOW",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#fddd04"
+ },
+ {
+  "code": "H5",
+  "name": "BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#2056ae"
+ },
+ {
+  "code": "H6",
+  "name": "GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#158f48"
+ },
+ {
+  "code": "H7",
+  "name": "BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#c93331"
+ },
+ {
+  "code": "H8",
+  "name": "SILVER",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#d3d2d2"
+ },
+ {
+  "code": "H9",
+  "name": "GOLD",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#d7ab1e"
+ },
+ {
+  "code": "H10",
+  "name": "COPPER",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#ca642f"
+ },
+ {
+  "code": "H11",
+  "name": "FLAT WHITE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "H12",
+  "name": "FLAT BLACK",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#231f20"
+ },
+ {
+  "code": "H13",
+  "name": "FLAT RED",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#db1f26"
+ },
+ {
+  "code": "H14",
+  "name": "ORANGE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ef3120"
+ },
+ {
+  "code": "H15",
+  "name": "BRIGHT BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#254aa5"
+ },
+ {
+  "code": "H16",
+  "name": "YELLOW GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#37a83f"
+ },
+ {
+  "code": "H17",
+  "name": "COCOA BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#5b3135"
+ },
+ {
+  "code": "H18",
+  "name": "STEEL",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#231f20"
+ },
+ {
+  "code": "H19",
+  "name": "PINK",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f24f98"
+ },
+ {
+  "code": "H20",
+  "name": "FLAT CLEAR",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "H21",
+  "name": "OFF WHITE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f7f4ef"
+ },
+ {
+  "code": "H22",
+  "name": "GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#536577"
+ },
+ {
+  "code": "H23",
+  "name": "SHINE RED",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "H24",
+  "name": "ORANGE YELLOW",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f36717"
+ },
+ {
+  "code": "H25",
+  "name": "SKY BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#0994dc"
+ },
+ {
+  "code": "H26",
+  "name": "BRIGHT GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00a650"
+ },
+ {
+  "code": "H27",
+  "name": "TAN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#bf9d5c"
+ },
+ {
+  "code": "H28",
+  "name": "METAL BLACK",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#231f20"
+ },
+ {
+  "code": "H29",
+  "name": "SALMON PINK",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f04145"
+ },
+ {
+  "code": "H30",
+  "name": "CLEAR",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "H31",
+  "name": "WHITE GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#e6f6e5"
+ },
+ {
+  "code": "H32",
+  "name": "FIELD GRAY 1",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#30414a"
+ },
+ {
+  "code": "H33",
+  "name": "RUSSET",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#7f2c31"
+ },
+ {
+  "code": "H34",
+  "name": "CREAM YELLOW",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#e19914"
+ },
+ {
+  "code": "H35",
+  "name": "COBALT BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#2e3192"
+ },
+ {
+  "code": "H36",
+  "name": "DARK GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#3f4c3a"
+ },
+ {
+  "code": "H37",
+  "name": "WOOD BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#664b34"
+ },
+ {
+  "code": "H38",
+  "name": "STEEL RED",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#483340"
+ },
+ {
+  "code": "H39",
+  "name": "PURPLE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#422d88"
+ },
+ {
+  "code": "H40",
+  "name": "FLAT BASE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "H41",
+  "name": "PALE GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#99dbb8"
+ },
+ {
+  "code": "H42",
+  "name": "BLUE GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#3e688b"
+ },
+ {
+  "code": "H43",
+  "name": "WINE RED",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#c82128"
+ },
+ {
+  "code": "H44",
+  "name": "FLESH",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#e1a36a"
+ },
+ {
+  "code": "H45",
+  "name": "LIGHT BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#4dc6f4"
+ },
+ {
+  "code": "H46",
+  "name": "EMERALD G REEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#1aae59"
+ },
+ {
+  "code": "H47",
+  "name": "RED BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#6d2e33"
+ },
+ {
+  "code": "H48",
+  "name": "FIELD GRAY 2",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#3c5151"
+ },
+ {
+  "code": "H49",
+  "name": "VIOLET",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#6f7ec8"
+ },
+ {
+  "code": "H50",
+  "name": "LIME GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#7eb162"
+ },
+ {
+  "code": "H51",
+  "name": "LIGHT G ULL GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#b3babc"
+ },
+ {
+  "code": "H52",
+  "name": "OLIVE DRAB 1",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#584e25"
+ },
+ {
+  "code": "H53",
+  "name": "NEUTRAL GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#536577"
+ },
+ {
+  "code": "H54",
+  "name": "NAVY BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#294c5c"
+ },
+ {
+  "code": "H55",
+  "name": "MIDNIGHT BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#231f20"
+ },
+ {
+  "code": "H56",
+  "name": "INTERMEDIATE BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#315163"
+ },
+ {
+  "code": "H57",
+  "name": "AIRCRAFT GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#6d9894"
+ },
+ {
+  "code": "H58",
+  "name": "INTERIOR GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#a8a221"
+ },
+ {
+  "code": "H59",
+  "name": "IJN GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#103521"
+ },
+ {
+  "code": "H60",
+  "name": "IJA GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#265840"
+ },
+ {
+  "code": "H61",
+  "name": "IJN GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#658087"
+ },
+ {
+  "code": "H62",
+  "name": "IJA GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#74937e"
+ },
+ {
+  "code": "H63",
+  "name": "METALLIC BLUE GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#1f6365"
+ },
+ {
+  "code": "H64",
+  "name": "RLM71 DARK GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#353a30"
+ },
+ {
+  "code": "H65",
+  "name": "RLM70 BLACK GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#363639"
+ },
+ {
+  "code": "H66",
+  "name": "RLM79 SANDY BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#9e7c46"
+ },
+ {
+  "code": "H67",
+  "name": "RLM65 LIGHT BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#76b0b4"
+ },
+ {
+  "code": "H68",
+  "name": "RLM74 DARK GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#444141"
+ },
+ {
+  "code": "H69",
+  "name": "RLM75 GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#5a5758"
+ },
+ {
+  "code": "H70",
+  "name": "RLM02 GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#7a7655"
+ },
+ {
+  "code": "H71",
+  "name": "MIDDLE STONE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#a4843c"
+ },
+ {
+  "code": "H72",
+  "name": "DARK EARTH",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#7c6f43"
+ },
+ {
+  "code": "H73",
+  "name": "DARK GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#435c4b"
+ },
+ {
+  "code": "H74",
+  "name": "SKY DUCK EGG GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#ccdf9b"
+ },
+ {
+  "code": "H75",
+  "name": "DARK SEAGRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#657b65"
+ },
+ {
+  "code": "H76",
+  "name": "BURNT IRON",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#7a6d73"
+ },
+ {
+  "code": "H77",
+  "name": "TIRE BLACK",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#231f20"
+ },
+ {
+  "code": "H78",
+  "name": "OLIVE DRAB 2",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#3f4c3a"
+ },
+ {
+  "code": "H79",
+  "name": "SANDY YELLOW DARK YELLOW",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#b49154"
+ },
+ {
+  "code": "H80",
+  "name": "KHAKI GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#2b4c3e"
+ },
+ {
+  "code": "H81",
+  "name": "KHAKI",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#635934"
+ },
+ {
+  "code": "H82",
+  "name": "DARK GRAY 1",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#918f88"
+ },
+ {
+  "code": "H83",
+  "name": "DARK GRAY 2",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#65625e"
+ },
+ {
+  "code": "H84",
+  "name": "MAHOGANY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#483337"
+ },
+ {
+  "code": "H85",
+  "name": "SAIL COLOR",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#b3af74"
+ },
+ {
+  "code": "H86",
+  "name": "RED MADDER",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#db1f26"
+ },
+ {
+  "code": "H87",
+  "name": "METALLIC RED",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#a23252"
+ },
+ {
+  "code": "H88",
+  "name": "METALLIC BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#2156a3"
+ },
+ {
+  "code": "H89",
+  "name": "METALLIC GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#0a9168"
+ },
+ {
+  "code": "H90",
+  "name": "CLEAR RED",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "H91",
+  "name": "CLEAR YELLOW",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#fcd205"
+ },
+ {
+  "code": "H92",
+  "name": "CLEAR ORANGE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f1511b"
+ },
+ {
+  "code": "H93",
+  "name": "CLEAR BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00adef"
+ },
+ {
+  "code": "H94",
+  "name": "GLEAR GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00a650"
+ },
+ {
+  "code": "H95",
+  "name": "SMOKE GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#6b5f59"
+ },
+ {
+  "code": "H96",
+  "name": "SMOKE BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#cceffc"
+ },
+ {
+  "code": "H301",
+  "name": "GRAY FS36081",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#393f4d"
+ },
+ {
+  "code": "H302",
+  "name": "GREEN FS34092",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#395759"
+ },
+ {
+  "code": "H303",
+  "name": "GREEN FS34102",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4c5e57"
+ },
+ {
+  "code": "H304",
+  "name": "OLIVE DRAB FS34087",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#444039"
+ },
+ {
+  "code": "H305",
+  "name": "GRAY FS36118",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#476c6e"
+ },
+ {
+  "code": "H306",
+  "name": "GRAY FS36270",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#648687"
+ },
+ {
+  "code": "H307",
+  "name": "GRAY FS36320",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#63868f"
+ },
+ {
+  "code": "H308",
+  "name": "GRAY FS36375",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#789a9c"
+ },
+ {
+  "code": "H309",
+  "name": "GREEN FS34079",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#304947"
+ },
+ {
+  "code": "H310",
+  "name": "BROWN F S30219",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4d4e42"
+ },
+ {
+  "code": "H311",
+  "name": "GRAY FS36622",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f5fae5"
+ },
+ {
+  "code": "H312",
+  "name": "GREEN FS34227",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#268553"
+ },
+ {
+  "code": "H313",
+  "name": "YELLOW FS33531 I",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#e3bf44"
+ },
+ {
+  "code": "H314",
+  "name": "BLUE FS35622",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#e0f4ee"
+ },
+ {
+  "code": "H315",
+  "name": "GRAY FS16440",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#a2bea4"
+ },
+ {
+  "code": "H316",
+  "name": "WHITE FS17875",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "H317",
+  "name": "GRAY FS36231",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#455e5c"
+ },
+ {
+  "code": "H318",
+  "name": "RADOME",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#fdd95e"
+ },
+ {
+  "code": "H319",
+  "name": "LIGHT GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#2c5249"
+ },
+ {
+  "code": "H320",
+  "name": "DARK GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#2e463e"
+ },
+ {
+  "code": "H321",
+  "name": "LIGHT BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#678152"
+ },
+ {
+  "code": "H322",
+  "name": "PHTHALO CYANINE BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#33345f"
+ },
+ {
+  "code": "H323",
+  "name": "LIGHT BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#1cb6f1"
+ },
+ {
+  "code": "H324",
+  "name": "LIGHT GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#83ae9c"
+ },
+ {
+  "code": "H325",
+  "name": "GRAY FS26440",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#9db69a"
+ },
+ {
+  "code": "H326",
+  "name": "BLUE FS15044",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#363639"
+ },
+ {
+  "code": "H327",
+  "name": "RED FS11136",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#9e272d"
+ },
+ {
+  "code": "H328",
+  "name": "BLUE FS15050",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#34354b"
+ },
+ {
+  "code": "H329",
+  "name": "YELLOW F S13538",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f7980f"
+ },
+ {
+  "code": "H330",
+  "name": "DARK GREEN BS381C/641",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#323d3e"
+ },
+ {
+  "code": "H331",
+  "name": "DARK SEAGRAY BS381C/638",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#2e444c"
+ },
+ {
+  "code": "H332",
+  "name": "LIGHT AIRCRAFT GRAY BS381C/627",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#5b918b"
+ },
+ {
+  "code": "H333",
+  "name": "EXTRA DARK SEAGRAY BS381C/640",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#2e434e"
+ },
+ {
+  "code": "H334",
+  "name": "BARLEY GRAY BS4800/18B21",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#53929a"
+ },
+ {
+  "code": "H335",
+  "name": "MEDIUM SEAGRAY BS381C/637",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#415f5d"
+ },
+ {
+  "code": "H336",
+  "name": "HEMP BS4800/10B21",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4f8755"
+ },
+ {
+  "code": "H337",
+  "name": "GRAYISH BLUE F S35237",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#327262"
+ },
+ {
+  "code": "H338",
+  "name": "LIGHT GRAY FS36495",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#b3cbbb"
+ },
+ {
+  "code": "H339",
+  "name": "ENGINE GRAY FS16081",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#323c42"
+ },
+ {
+  "code": "H340",
+  "name": "FIELD GREEN FS34097",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#2e473f"
+ },
+ {
+  "code": "H401",
+  "name": "DARK GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#30414a"
+ },
+ {
+  "code": "H402",
+  "name": "GREEN BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#b49154"
+ },
+ {
+  "code": "H403",
+  "name": "DARK YELLOW",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#bfa741"
+ },
+ {
+  "code": "H404",
+  "name": "KHAKI BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#937b38"
+ },
+ {
+  "code": "H405",
+  "name": "OLIVE GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#435c4b"
+ },
+ {
+  "code": "H406",
+  "name": "CHOCOLATE BROWN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#513236"
+ },
+ {
+  "code": "H413",
+  "name": "RLM04 YELLOW",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f89c0e"
+ },
+ {
+  "code": "H414",
+  "name": "RLM23 RED",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#c81a46"
+ },
+ {
+  "code": "H416",
+  "name": "RLM66 BLACK GRAY",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#2e2a2b"
+ },
+ {
+  "code": "H417",
+  "name": "RLM76 LIGHT BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#bad9db"
+ },
+ {
+  "code": "H418",
+  "name": "RLM78 LIGHT BLUE",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#70a8bd"
+ },
+ {
+  "code": "H420",
+  "name": "RLM80 OLIVE GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4f5938"
+ },
+ {
+  "code": "H421",
+  "name": "RLM81 BROWN VIOLET",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4e5850"
+ },
+ {
+  "code": "H422",
+  "name": "RLM82 LIGHT GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#47733a"
+ },
+ {
+  "code": "H423",
+  "name": "RLM83 DARK GREEN",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#356456"
+ },
+ {
+  "code": "H511",
+  "name": "RUSSIAN GREEN \"4BO\"",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#445a30"
+ },
+ {
+  "code": "H512",
+  "name": "RUSSIAN GREEN \"4BO\" 1947-",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#535e30"
+ },
+ {
+  "code": "H513",
+  "name": "DARK GRAY \"DUNKEL GRAU\"",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#384553"
+ },
+ {
+  "code": "H514",
+  "name": "GRAY \"GRAU\"",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#486774"
+ },
+ {
+  "code": "H515",
+  "name": "FADED GRAY \"BLASSGRAU\"",
+  "line": "Aqueous Hobby Color",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#527179"
+ },
+ {
+  "code": "N1",
+  "name": "WHITE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "N2",
+  "name": "BLACK",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#231f20"
+ },
+ {
+  "code": "N3",
+  "name": "RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "N4",
+  "name": "YELLOW",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#fddd04"
+ },
+ {
+  "code": "N5",
+  "name": "BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#2056ae"
+ },
+ {
+  "code": "N6",
+  "name": "GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#158f48"
+ },
+ {
+  "code": "N7",
+  "name": "BROWN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#c93331"
+ },
+ {
+  "code": "N8",
+  "name": "SILVER",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#d3d2d2"
+ },
+ {
+  "code": "N9",
+  "name": "GOLD",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#d7ab1e"
+ },
+ {
+  "code": "N10",
+  "name": "COPPER",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#ca642f"
+ },
+ {
+  "code": "N11",
+  "name": "MATT WHITE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "N12",
+  "name": "MATT BLACK",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#231f20"
+ },
+ {
+  "code": "N13",
+  "name": "MATT RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#db1f26"
+ },
+ {
+  "code": "N14",
+  "name": "ORANGE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ef3120"
+ },
+ {
+  "code": "N15",
+  "name": "BRIGHT BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#254aa5"
+ },
+ {
+  "code": "N16",
+  "name": "YELLOW GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#37a83f"
+ },
+ {
+  "code": "N17",
+  "name": "HULL RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#5a3039"
+ },
+ {
+  "code": "N18",
+  "name": "STEEL",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#231f20"
+ },
+ {
+  "code": "N19",
+  "name": "PINK",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f24f98"
+ },
+ {
+  "code": "N20",
+  "name": "FLAT CLEAR",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "N21",
+  "name": "OFF WHITE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f7f4ef"
+ },
+ {
+  "code": "N22",
+  "name": "NEUTRAL GRAY",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#536577"
+ },
+ {
+  "code": "N23",
+  "name": "SHINE RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "N24",
+  "name": "ORANGE YELLOW",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#f36717"
+ },
+ {
+  "code": "N25",
+  "name": "SKY BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#0994dc"
+ },
+ {
+  "code": "N26",
+  "name": "BRIGHT GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00a650"
+ },
+ {
+  "code": "N27",
+  "name": "TAN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#bf9d5c"
+ },
+ {
+  "code": "N28",
+  "name": "METAL BLACK",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#231f20"
+ },
+ {
+  "code": "N30",
+  "name": "CLEAR",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "N32",
+  "name": "3/4 M GERMAN GRAY",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "",
+  "hex": "#30414a"
+ },
+ {
+  "code": "N33",
+  "name": "RUSSET",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#7f2b35"
+ },
+ {
+  "code": "N34",
+  "name": "CREAM YELLOW",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#e19914"
+ },
+ {
+  "code": "N35",
+  "name": "COBALT BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#2e3192"
+ },
+ {
+  "code": "N36",
+  "name": "IJN GREEN NAKAJIMA",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#103521"
+ },
+ {
+  "code": "N37",
+  "name": "WOOD BROWN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#664b34"
+ },
+ {
+  "code": "N38",
+  "name": "STEEL RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#483340"
+ },
+ {
+  "code": "N39",
+  "name": "PURPLE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#422d88"
+ },
+ {
+  "code": "N40",
+  "name": "FLAT BASE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "N43",
+  "name": "WINE RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ac223a"
+ },
+ {
+  "code": "N44",
+  "name": "FLESH",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#e1a36a"
+ },
+ {
+  "code": "N45",
+  "name": "LIGHT BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#4dc6f4"
+ },
+ {
+  "code": "N46",
+  "name": "EMERALD GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#1aae59"
+ },
+ {
+  "code": "N47",
+  "name": "RED BROWN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Flat",
+  "hex": "#6d2e33"
+ },
+ {
+  "code": "N49",
+  "name": "VIOLET",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#6f7ec8"
+ },
+ {
+  "code": "N50",
+  "name": "LIME GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#7eb162"
+ },
+ {
+  "code": "N51",
+  "name": "LIGHT GULL GRAY",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#b3babc"
+ },
+ {
+  "code": "N52",
+  "name": "OLIVE DRAB 1",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#584e25"
+ },
+ {
+  "code": "N54",
+  "name": "NAVY BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#294c5c"
+ },
+ {
+  "code": "N55",
+  "name": "MIDNIGHT BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#36454f"
+ },
+ {
+  "code": "N56",
+  "name": "INTERMEDIATE BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#315163"
+ },
+ {
+  "code": "N57",
+  "name": "AIRCRAFT GRAY",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#6d9894"
+ },
+ {
+  "code": "N58",
+  "name": "INTERIOR GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#a8a221"
+ },
+ {
+  "code": "N60",
+  "name": "IJA GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#29523f"
+ },
+ {
+  "code": "N61",
+  "name": "IJN GRAY MITSUBISHI",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#97afba"
+ },
+ {
+  "code": "N62",
+  "name": "IJN GRAY GREEN NAKAJIMA",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#6ca097"
+ },
+ {
+  "code": "N63",
+  "name": "METALLIC BLUE GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#147a75"
+ },
+ {
+  "code": "N66",
+  "name": "RLM79 SAND YELLOW",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#937b38"
+ },
+ {
+  "code": "N67",
+  "name": "RLM65 LIGHT BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#6c909c"
+ },
+ {
+  "code": "N68",
+  "name": "RLM74 GRAY GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#284044"
+ },
+ {
+  "code": "N69",
+  "name": "RLM75 GRAY VIOLET",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#4b5e5d"
+ },
+ {
+  "code": "N70",
+  "name": "RLM02GRAY",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#908d73"
+ },
+ {
+  "code": "N71",
+  "name": "MIDDLE STONE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#a4843c"
+ },
+ {
+  "code": "N72",
+  "name": "DARK EARTH",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#524b42"
+ },
+ {
+  "code": "N73",
+  "name": "DARK GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#374640"
+ },
+ {
+  "code": "N76",
+  "name": "BURNT IRON",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#4f505a"
+ },
+ {
+  "code": "N77",
+  "name": "TIRE BLACK",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#231f20"
+ },
+ {
+  "code": "N78",
+  "name": "OLIVE DRAB 2",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#3f4c3a"
+ },
+ {
+  "code": "N79",
+  "name": "3/4 M DARK YELLOW",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "",
+  "hex": "#b49154"
+ },
+ {
+  "code": "N80",
+  "name": "KHAKI GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#374640"
+ },
+ {
+  "code": "N81",
+  "name": "KHAKI",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#515238"
+ },
+ {
+  "code": "N82",
+  "name": "DARKGRAY 1",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#808786"
+ },
+ {
+  "code": "N83",
+  "name": "DARKGRAY 2",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#435763"
+ },
+ {
+  "code": "N84",
+  "name": "MAHOGANY",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#483337"
+ },
+ {
+  "code": "N85",
+  "name": "SAIL COLOR",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Matte",
+  "hex": "#b3af74"
+ },
+ {
+  "code": "N86",
+  "name": "RED MADDER",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#db1f26"
+ },
+ {
+  "code": "N87",
+  "name": "METALLIC RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#ad252b"
+ },
+ {
+  "code": "N88",
+  "name": "METALLIC BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#2056ae"
+ },
+ {
+  "code": "N89",
+  "name": "METALLIC GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Metallic",
+  "hex": "#0b905a"
+ },
+ {
+  "code": "N90",
+  "name": "CLEAR RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "N91",
+  "name": "CLEAR YELLOW",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#fcd205"
+ },
+ {
+  "code": "N92",
+  "name": "CLEAR ORANGE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#f1511b"
+ },
+ {
+  "code": "N93",
+  "name": "CLEAR BLUE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00adef"
+ },
+ {
+  "code": "N94",
+  "name": "CLEAR GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00a650"
+ },
+ {
+  "code": "N95",
+  "name": "SMOKE GRAY",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#352a21"
+ },
+ {
+  "code": "N97",
+  "name": "FLUORESCENT YELLOW",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#fff200"
+ },
+ {
+  "code": "N98",
+  "name": "FLUORESCENT ORANGE",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ee2722"
+ },
+ {
+  "code": "N99",
+  "name": "FLUORESCENT PINK",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ec0772"
+ },
+ {
+  "code": "N100",
+  "name": "FLUORESCENT GREEN",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#00a650"
+ },
+ {
+  "code": "N101",
+  "name": "FLUORESCENT RED",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Gloss",
+  "hex": "#ed1c24"
+ },
+ {
+  "code": "N127",
+  "name": "COCKPIT COLOR NAKAJIMA",
+  "line": "Acrysion",
+  "series": "",
+  "finish": "Semi-gloss",
+  "hex": "#9bb370"
+ }
+]

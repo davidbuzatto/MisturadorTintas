@@ -40,6 +40,7 @@ export const DEFAULT_INGREDIENTS = [
  * @property {Object<string,boolean>} own  tintas marcadas como "tenho".
  * @property {Recipe[]} hist           receitas salvas.
  * @property {string} tab              aba de alvo selecionada.
+ * @property {Object<string,string>} lines  linha escolhida por aba ("*" = todas), nos catálogos com linhas.
  * @property {string} free             última cor livre escolhida.
  */
 
@@ -53,6 +54,7 @@ function defaultState() {
     own: {},
     hist: [],
     tab: 'tamiyaA',
+    lines: {},
     free: '#808080',
   };
 }

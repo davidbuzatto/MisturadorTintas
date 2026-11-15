@@ -1,0 +1,7350 @@
+[
+ {
+  "code": "70.951",
+  "name": "White",
+  "nombre": "Blanco",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "70.919",
+  "name": "Cold White",
+  "nombre": "Blanco Frío",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#f6f5f9"
+ },
+ {
+  "code": "70.820",
+  "name": "Off-White",
+  "nombre": "Blanco Pergamino",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#f4ede7"
+ },
+ {
+  "code": "70.918",
+  "name": "Ivory",
+  "nombre": "Hueso",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#eae2d2"
+ },
+ {
+  "code": "70.928",
+  "name": "Light Flesh",
+  "nombre": "Carne Clara",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#f3d4b8"
+ },
+ {
+  "code": "70.815",
+  "name": "Basic Skin Tone",
+  "nombre": "Carne Base",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#e9ac8d"
+ },
+ {
+  "code": "70.835",
+  "name": "Salmon Rose",
+  "nombre": "Rosa Salmón",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#e18e7c"
+ },
+ {
+  "code": "70.805",
+  "name": "German Orange",
+  "nombre": "Naranja Alemán",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#bc6255"
+ },
+ {
+  "code": "70.944",
+  "name": "Old Rose",
+  "nombre": "Rosa Antiguo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#bc6e6f"
+ },
+ {
+  "code": "70.803",
+  "name": "Brown Rose",
+  "nombre": "Rosa Marrón",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#9c6660"
+ },
+ {
+  "code": "70.745",
+  "name": "Dark Rose",
+  "nombre": "Rosa Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#805251"
+ },
+ {
+  "code": "70.845",
+  "name": "Sunny Skin Tone",
+  "nombre": "Carne Dorada",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#ec9745"
+ },
+ {
+  "code": "70.804",
+  "name": "Beige Red",
+  "nombre": "Rojo Beige",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#b16e4a"
+ },
+ {
+  "code": "70.843",
+  "name": "Cork Brown",
+  "nombre": "Marrón Corcho",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#a0704e"
+ },
+ {
+  "code": "70.876",
+  "name": "Brown Sand",
+  "nombre": "Arena Marrón",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#916144"
+ },
+ {
+  "code": "70.746",
+  "name": "Chestnut Brown",
+  "nombre": "Marrón Castaño",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#613f39"
+ },
+ {
+  "code": "70.955",
+  "name": "Flat Flesh",
+  "nombre": "Carne Mate",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#df9a59"
+ },
+ {
+  "code": "70.927",
+  "name": "Dark Flesh",
+  "nombre": "Carne Oscura",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#d2933a"
+ },
+ {
+  "code": "70.860",
+  "name": "Med. Flesh Tone",
+  "nombre": "Carne Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#b0793f"
+ },
+ {
+  "code": "70.929",
+  "name": "Light Brown",
+  "nombre": "Marrón Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#a15b31"
+ },
+ {
+  "code": "70.766",
+  "name": "Cream White",
+  "nombre": "Blanco Crema",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#e1d2c3"
+ },
+ {
+  "code": "70.837",
+  "name": "Pale Sand",
+  "nombre": "Arena Clara",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#e3c28d"
+ },
+ {
+  "code": "70.858",
+  "name": "Ice Yellow",
+  "nombre": "Amarillo Hielo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#eccf70"
+ },
+ {
+  "code": "70.949",
+  "name": "Light Yellow",
+  "nombre": "Amarillo Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#f7d346"
+ },
+ {
+  "code": "70.952",
+  "name": "Lemon Yellow",
+  "nombre": "Amarillo Limón",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#e5d203"
+ },
+ {
+  "code": "70.915",
+  "name": "Deep Yellow",
+  "nombre": "Amarillo Intenso",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#f0c700"
+ },
+ {
+  "code": "70.953",
+  "name": "Flat Yellow",
+  "nombre": "Amarillo Mate",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#f6ba35"
+ },
+ {
+  "code": "70.948",
+  "name": "Golden Yellow",
+  "nombre": "Amarillo Dorado",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#f7a833"
+ },
+ {
+  "code": "70.911",
+  "name": "Light Orange",
+  "nombre": "Naranja Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#ee7326"
+ },
+ {
+  "code": "70.851",
+  "name": "Bright Orange",
+  "nombre": "Naranja Intenso",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#de5a21"
+ },
+ {
+  "code": "70.956",
+  "name": "Clear Orange",
+  "nombre": "Naranja",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#cc4625"
+ },
+ {
+  "code": "70.909",
+  "name": "Vermilion",
+  "nombre": "Bermellón",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#c42a28"
+ },
+ {
+  "code": "70.908",
+  "name": "Carmine Red",
+  "nombre": "Rojo Carmín",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#96211e"
+ },
+ {
+  "code": "70.926",
+  "name": "Red",
+  "nombre": "Rojo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#7a2826"
+ },
+ {
+  "code": "70.747",
+  "name": "Faded Red",
+  "nombre": "Rojo Desgastado",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#ba584f"
+ },
+ {
+  "code": "70.829",
+  "name": "Amaranth Red",
+  "nombre": "Rojo Amaranth",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#d24e31"
+ },
+ {
+  "code": "70.817",
+  "name": "Scarlet",
+  "nombre": "Escarlata",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#c13d2e"
+ },
+ {
+  "code": "70.947",
+  "name": "Dark Vermilion",
+  "nombre": "Bermellón Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#b52a27"
+ },
+ {
+  "code": "70.957",
+  "name": "Flat Red",
+  "nombre": "Rojo Mate",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#a12b28"
+ },
+ {
+  "code": "70.946",
+  "name": "Dark Red",
+  "nombre": "Rojo Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#692f25"
+ },
+ {
+  "code": "70.859",
+  "name": "Black Red",
+  "nombre": "Rojo Negro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#552f2b"
+ },
+ {
+  "code": "70.748",
+  "name": "Light Pink",
+  "nombre": "Rosa Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#e18da3"
+ },
+ {
+  "code": "70.958",
+  "name": "Pink",
+  "nombre": "Rosa",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#b14e7c"
+ },
+ {
+  "code": "70.945",
+  "name": "Magenta",
+  "nombre": "Magenta",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#903055"
+ },
+ {
+  "code": "70.802",
+  "name": "Sunset Red",
+  "nombre": "Rojo Sunset",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#be2b4a"
+ },
+ {
+  "code": "70.812",
+  "name": "Violet Red",
+  "nombre": "Rojo Violeta",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#63353e"
+ },
+ {
+  "code": "70.959",
+  "name": "Purple",
+  "nombre": "Púrpura",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#533153"
+ },
+ {
+  "code": "70.810",
+  "name": "Royal Purple",
+  "nombre": "Púrpura Real",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#4b2740"
+ },
+ {
+  "code": "70.749",
+  "name": "Dark Purple",
+  "nombre": "Púrpura Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#452734"
+ },
+ {
+  "code": "70.750",
+  "name": "Light Violet",
+  "nombre": "Violeta Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#a893bb"
+ },
+ {
+  "code": "70.811",
+  "name": "Blue Violet",
+  "nombre": "Violeta Azul",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#5e3876"
+ },
+ {
+  "code": "70.807",
+  "name": "Oxford Blue",
+  "nombre": "Azul Oxford",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#3e3954"
+ },
+ {
+  "code": "70.960",
+  "name": "Violet",
+  "nombre": "Violeta",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#3c2c4b"
+ },
+ {
+  "code": "70.751",
+  "name": "Black Violet",
+  "nombre": "Violeta Negro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#392a31"
+ },
+ {
+  "code": "70.902",
+  "name": "Azure",
+  "nombre": "Azul Azur",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#5b6b9e"
+ },
+ {
+  "code": "70.965",
+  "name": "Prussian Blue",
+  "nombre": "Azul de Prusia",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#39415d"
+ },
+ {
+  "code": "70.899",
+  "name": "Dark Prussian Blue",
+  "nombre": "Azul de Prusia Osc.",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#262539"
+ },
+ {
+  "code": "70.901",
+  "name": "Pastel Blue",
+  "nombre": "Azul Pastel",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#607a91"
+ },
+ {
+  "code": "70.962",
+  "name": "Flat Blue",
+  "nombre": "Azul Mate",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#3f4874"
+ },
+ {
+  "code": "70.809",
+  "name": "Royal Blue",
+  "nombre": "Azul Real",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#1a437e"
+ },
+ {
+  "code": "70.930",
+  "name": "Dark Blue",
+  "nombre": "Azul Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#273462"
+ },
+ {
+  "code": "70.925",
+  "name": "Blue",
+  "nombre": "Azul Intenso",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#372c4b"
+ },
+ {
+  "code": "70.752",
+  "name": "Infantry Blue",
+  "nombre": "Azul Infantería",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#25202c"
+ },
+ {
+  "code": "70.961",
+  "name": "Sky Blue",
+  "nombre": "Azul Cielo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#75b7d0"
+ },
+ {
+  "code": "70.844",
+  "name": "Deep Sky Blue",
+  "nombre": "Azul Profundo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#4d95c4"
+ },
+ {
+  "code": "70.841",
+  "name": "Andrea Blue",
+  "nombre": "Azul Andrea",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#0071ad"
+ },
+ {
+  "code": "70.963",
+  "name": "Medium Blue",
+  "nombre": "Azul Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#16416d"
+ },
+ {
+  "code": "70.753",
+  "name": "Light Blue Green",
+  "nombre": "Azul Verde Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#0097a5"
+ },
+ {
+  "code": "70.808",
+  "name": "Blue Green",
+  "nombre": "Azul Verde",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#007987"
+ },
+ {
+  "code": "70.840",
+  "name": "Light Turquoise",
+  "nombre": "Turquesa Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#00688b"
+ },
+ {
+  "code": "70.966",
+  "name": "Turquoise",
+  "nombre": "Turquesa",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#0e425b"
+ },
+ {
+  "code": "70.898",
+  "name": "Dark Sea Blue",
+  "nombre": "Azul Marina Osc.",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#272d38"
+ },
+ {
+  "code": "70.754",
+  "name": "Continental Blue",
+  "nombre": "Azul Continental",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#25242b"
+ },
+ {
+  "code": "70.755",
+  "name": "Light Emerald",
+  "nombre": "Esmeralda Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#007c73"
+ },
+ {
+  "code": "70.838",
+  "name": "Emerald",
+  "nombre": "Esmeralda",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#006249"
+ },
+ {
+  "code": "70.974",
+  "name": "Green Sky",
+  "nombre": "Verde Azul",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#799165"
+ },
+ {
+  "code": "70.756",
+  "name": "Splinter Green",
+  "nombre": "Verde Splinter",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#446441"
+ },
+ {
+  "code": "70.969",
+  "name": "Park Green Flat",
+  "nombre": "Verde",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#1f634a"
+ },
+ {
+  "code": "70.970",
+  "name": "Deep Green",
+  "nombre": "Verde Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#1c4c2f"
+ },
+ {
+  "code": "70.980",
+  "name": "Black Green",
+  "nombre": "Verde Negro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#28352a"
+ },
+ {
+  "code": "70.757",
+  "name": "Pacifi c Green",
+  "nombre": "Verde Pacífi co",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#587064"
+ },
+ {
+  "code": "70.895",
+  "name": "Gunship Green",
+  "nombre": "Verde Acorazado",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#4c5841"
+ },
+ {
+  "code": "70.920",
+  "name": "German Uniform",
+  "nombre": "Uniforme Alemán",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#434f42"
+ },
+ {
+  "code": "70.897",
+  "name": "Bronze Green",
+  "nombre": "Verde Bronce",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#313a28"
+ },
+ {
+  "code": "70.758",
+  "name": "Bright Green",
+  "nombre": "Verde Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#6f8349"
+ },
+ {
+  "code": "70.891",
+  "name": "Intermediate Green",
+  "nombre": "Verde Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#506642"
+ },
+ {
+  "code": "70.833",
+  "name": "Fern Green",
+  "nombre": "Verde Helecho",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#445634"
+ },
+ {
+  "code": "70.968",
+  "name": "Flat Green",
+  "nombre": "Verde Oliva Osc.",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#364b2d"
+ },
+ {
+  "code": "70.979",
+  "name": "Cam. Dark Green",
+  "nombre": "Cam. Verde Osc.",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#263122"
+ },
+ {
+  "code": "70.954",
+  "name": "Yellow Green",
+  "nombre": "Amarillo Verde",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#dedd26"
+ },
+ {
+  "code": "70.827",
+  "name": "Lime Green",
+  "nombre": "Verde Lima",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#7d9334"
+ },
+ {
+  "code": "70.967",
+  "name": "Olive Green",
+  "nombre": "Verde Oliva",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#506237"
+ },
+ {
+  "code": "70.922",
+  "name": "Uniform Green",
+  "nombre": "Verde Uniforme",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#48542f"
+ },
+ {
+  "code": "70.850",
+  "name": "Medium Olive",
+  "nombre": "Oliva Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#404e31"
+ },
+ {
+  "code": "70.823",
+  "name": "Luftwaffe Green",
+  "nombre": "Verde Luftwaffe",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#373f25"
+ },
+ {
+  "code": "70.975",
+  "name": "Military Green",
+  "nombre": "Verde Militar",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#434234"
+ },
+ {
+  "code": "70.885",
+  "name": "Pastel Green",
+  "nombre": "Verde Pastel",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#94976f"
+ },
+ {
+  "code": "70.886",
+  "name": "Green Grey",
+  "nombre": "Gris Verdoso",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#65634f"
+ },
+ {
+  "code": "70.830",
+  "name": "Ger. Fieldgrey WWII",
+  "nombre": "Verde Alemán WWII",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#565239"
+ },
+ {
+  "code": "70.759",
+  "name": "German Tank Crew",
+  "nombre": "Carrista Alemán",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#534b3e"
+ },
+ {
+  "code": "70.892",
+  "name": "Yellow Olive",
+  "nombre": "Oliva Amarillo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#383b30"
+ },
+ {
+  "code": "70.896",
+  "name": "Extra Dark Green",
+  "nombre": "Verde Extra Osc.",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#2a2a14"
+ },
+ {
+  "code": "70.760",
+  "name": "Light Mud",
+  "nombre": "Lodo Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#7a765a"
+ },
+ {
+  "code": "70.924",
+  "name": "Russian Unif. WWII",
+  "nombre": "Unifor. Ruso WWII",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#545235"
+ },
+ {
+  "code": "70.893",
+  "name": "US Dark Green",
+  "nombre": "Verde Americano",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#4a4938"
+ },
+ {
+  "code": "70.890",
+  "name": "Refractive Green",
+  "nombre": "Verde Refractario",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#464834"
+ },
+ {
+  "code": "70.888",
+  "name": "Olive Grey",
+  "nombre": "Gris Oliva",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#42412d"
+ },
+ {
+  "code": "70.894",
+  "name": "Cam. Olive Green",
+  "nombre": "Cam. Verde Oliva",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#3d3b2e"
+ },
+ {
+  "code": "70.741",
+  "name": "Cam. Black Green",
+  "nombre": "Cam. Verde Negro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#313028"
+ },
+ {
+  "code": "70.986",
+  "name": "Deck Tan",
+  "nombre": "Marrón Cubierta",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#aaa390"
+ },
+ {
+  "code": "70.884",
+  "name": "Stone Grey",
+  "nombre": "Gris Piedra",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#8a7d64"
+ },
+ {
+  "code": "70.987",
+  "name": "Medium Grey",
+  "nombre": "Gris Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#867259"
+ },
+ {
+  "code": "70.821",
+  "name": "Germ. Beige WWII",
+  "nombre": "Beige Alem. WWII",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#786a51"
+ },
+ {
+  "code": "70.988",
+  "name": "Khaki",
+  "nombre": "Marrón Caqui",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#786538"
+ },
+ {
+  "code": "70.762",
+  "name": "Grey Brown",
+  "nombre": "Marrón Grisáceo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#5c4922"
+ },
+ {
+  "code": "70.763",
+  "name": "Canvas",
+  "nombre": "Lona",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#4b3e1f"
+ },
+ {
+  "code": "70.740",
+  "name": "Cam. Middle Brown",
+  "nombre": "Cam. Marrón Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#513e21"
+ },
+ {
+  "code": "70.941",
+  "name": "Burnt Umber",
+  "nombre": "Sombra Tostada",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#513b30"
+ },
+ {
+  "code": "70.806",
+  "name": "German Yellow",
+  "nombre": "Amarillo Lasur",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#cdb65e"
+ },
+ {
+  "code": "70.978",
+  "name": "Dark Yellow",
+  "nombre": "Amarillo Camuﬂ aje",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#918739"
+ },
+ {
+  "code": "70.881",
+  "name": "Green Yellow",
+  "nombre": "Verde Amarillo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#6f653c"
+ },
+ {
+  "code": "70.887",
+  "name": "US Olive Drab",
+  "nombre": "US Verde Oliva",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#58523c"
+ },
+ {
+  "code": "70.976",
+  "name": "Buff",
+  "nombre": "Amarillo Caqui",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#d6b04e"
+ },
+ {
+  "code": "70.882",
+  "name": "Middle Stone",
+  "nombre": "Amarillo Piedra",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#937f40"
+ },
+ {
+  "code": "70.764",
+  "name": "Military Yellow",
+  "nombre": "Amarillo Militar",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#937726"
+ },
+ {
+  "code": "70.923",
+  "name": "Japan. Unif. WWII",
+  "nombre": "Unif. Japonés WWII",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#9f802a"
+ },
+ {
+  "code": "70.879",
+  "name": "Green Brown",
+  "nombre": "Marrón Verde",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#816c31"
+ },
+ {
+  "code": "70.921",
+  "name": "English Uniform",
+  "nombre": "Uniforme Inglés",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#6f532b"
+ },
+ {
+  "code": "70.826",
+  "name": "Medium Brown",
+  "nombre": "Pardo Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#5b473b"
+ },
+ {
+  "code": "70.889",
+  "name": "Olive Brown",
+  "nombre": "Pardo Oliva",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#3f3127"
+ },
+ {
+  "code": "70.917",
+  "name": "Beige",
+  "nombre": "Beige",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#e0be6d"
+ },
+ {
+  "code": "70.914",
+  "name": "Green Ochre",
+  "nombre": "Ocre Verde",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#a07f37"
+ },
+ {
+  "code": "70.824",
+  "name": "Orange Ochre",
+  "nombre": "Ocre Naranja",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#ab8136"
+ },
+ {
+  "code": "70.880",
+  "name": "Khaki Grey",
+  "nombre": "Gris Caqui",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#7c6338"
+ },
+ {
+  "code": "70.872",
+  "name": "Chocolate Brown",
+  "nombre": "Marrón Chocolate",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#604e45"
+ },
+ {
+  "code": "70.847",
+  "name": "Dark Sand",
+  "nombre": "Arena Oscura",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#cba665"
+ },
+ {
+  "code": "70.819",
+  "name": "Iraqi Sand",
+  "nombre": "Arena Iraquí",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#b5925e"
+ },
+ {
+  "code": "70.767",
+  "name": "Desert Brown",
+  "nombre": "Marrón Desierto",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#ac8455"
+ },
+ {
+  "code": "70.761",
+  "name": "Old Wood",
+  "nombre": "Madera Vieja",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#816d53"
+ },
+ {
+  "code": "70.765",
+  "name": "Desert Tan",
+  "nombre": "Arena Tostada",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#b5a286"
+ },
+ {
+  "code": "70.874",
+  "name": "Tan Earth",
+  "nombre": "Tierra Oscura",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#987558"
+ },
+ {
+  "code": "70.873",
+  "name": "US Field Drab",
+  "nombre": "Tierra",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#816645"
+ },
+ {
+  "code": "70.768",
+  "name": "BC Dark Brown",
+  "nombre": "BC Marrón Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#76573d"
+ },
+ {
+  "code": "70.871",
+  "name": "Leather Brown",
+  "nombre": "Cuero Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#594435"
+ },
+ {
+  "code": "70.822",
+  "name": "Cam. Black Brown",
+  "nombre": "Cam. Pardo Negro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#413435"
+ },
+ {
+  "code": "70.916",
+  "name": "Sand Yellow",
+  "nombre": "Amarillo Arena",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#eac054"
+ },
+ {
+  "code": "70.977",
+  "name": "Desert Yellow",
+  "nombre": "Amarillo Desierto",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#b58547"
+ },
+ {
+  "code": "70.769",
+  "name": "Mustard Brown",
+  "nombre": "Marrón Mostaza",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#9e7249"
+ },
+ {
+  "code": "70.770",
+  "name": "New Wood",
+  "nombre": "Madera Nueva",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#89613b"
+ },
+ {
+  "code": "70.875",
+  "name": "Beige Brown",
+  "nombre": "Marrón Beige",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#815f43"
+ },
+ {
+  "code": "70.983",
+  "name": "Flat Earth",
+  "nombre": "Tierra Mate",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#684429"
+ },
+ {
+  "code": "70.825",
+  "name": "Pale Brown",
+  "nombre": "Pardo Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#9f8374"
+ },
+ {
+  "code": "70.940",
+  "name": "Saddle Brown",
+  "nombre": "Marrón Cuero",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#8b655b"
+ },
+ {
+  "code": "70.846",
+  "name": "Mahogany Brown",
+  "nombre": "Marrón Caoba",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#784d47"
+ },
+ {
+  "code": "70.984",
+  "name": "Flat Brown",
+  "nombre": "Marrón Mate",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#6f4037"
+ },
+ {
+  "code": "70.771",
+  "name": "Dark Rust",
+  "nombre": "Óxido Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#3c2525"
+ },
+ {
+  "code": "70.913",
+  "name": "Yellow Ochre",
+  "nombre": "Ocre Amarillo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#deaa46"
+ },
+ {
+  "code": "70.877",
+  "name": "Gold Brown",
+  "nombre": "Marrón Dorado",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#bf873c"
+ },
+ {
+  "code": "70.856",
+  "name": "Ochre Brown",
+  "nombre": "Ocre Marrón",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#aa793e"
+ },
+ {
+  "code": "70.981",
+  "name": "Orange Brown",
+  "nombre": "Marrón Naranja",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#ac633a"
+ },
+ {
+  "code": "70.818",
+  "name": "Red Leather",
+  "nombre": "Cuero Rojo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#955439"
+ },
+ {
+  "code": "70.982",
+  "name": "Cavalry Brown",
+  "nombre": "Marrón Rojo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#854438"
+ },
+ {
+  "code": "70.814",
+  "name": "Burnt Red",
+  "nombre": "Rojo Tostado",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#753c3a"
+ },
+ {
+  "code": "70.985",
+  "name": "Hull Red",
+  "nombre": "Marrón Rojizo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#5e3838"
+ },
+ {
+  "code": "70.993",
+  "name": "White Grey",
+  "nombre": "Gris Blanco",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#e4e0de"
+ },
+ {
+  "code": "70.883",
+  "name": "Silver Grey",
+  "nombre": "Gris Plateado",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#d7cfc6"
+ },
+ {
+  "code": "70.971",
+  "name": "Light Green Grey",
+  "nombre": "Verde Gris Pálido",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#b4b5ab"
+ },
+ {
+  "code": "70.907",
+  "name": "Pale Grey Blue",
+  "nombre": "Azul Gris Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#a8b5b5"
+ },
+ {
+  "code": "70.906",
+  "name": "Pale Blue",
+  "nombre": "Azul Pálido",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#90a3a7"
+ },
+ {
+  "code": "70.972",
+  "name": "Light Green Blue",
+  "nombre": "Verde Azul Pálido",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#86968e"
+ },
+ {
+  "code": "70.772",
+  "name": "Medium Grey Blue",
+  "nombre": "Azul Gris Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#769c94"
+ },
+ {
+  "code": "70.943",
+  "name": "Grey Blue",
+  "nombre": "Azul Gris",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#596e84"
+ },
+ {
+  "code": "70.964",
+  "name": "Field Blue",
+  "nombre": "Azul Militar",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#4d5257"
+ },
+ {
+  "code": "70.816",
+  "name": "Luftwaffe Uniform",
+  "nombre": "Uniforme Luftwaffe",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#45414c"
+ },
+ {
+  "code": "70.994",
+  "name": "Dark Grey",
+  "nombre": "Gris Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#322e34"
+ },
+ {
+  "code": "70.989",
+  "name": "Sky Grey",
+  "nombre": "Gris Cielo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#a9aaab"
+ },
+ {
+  "code": "70.990",
+  "name": "Light Grey",
+  "nombre": "Gris Pálido",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#8f9293"
+ },
+ {
+  "code": "70.905",
+  "name": "Blue Grey Pale",
+  "nombre": "Gris Azul Claro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#818586"
+ },
+ {
+  "code": "70.992",
+  "name": "Neutral Grey",
+  "nombre": "Gris Neutral",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#61605f"
+ },
+ {
+  "code": "70.867",
+  "name": "Dark Blue Grey",
+  "nombre": "Azul Gris Oscuro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#424346"
+ },
+ {
+  "code": "70.870",
+  "name": "Medium Sea Grey",
+  "nombre": "Gris Marina Medio",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#7d7b7b"
+ },
+ {
+  "code": "70.991",
+  "name": "Dark Sea Grey",
+  "nombre": "Gris Marina",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#6c6b6a"
+ },
+ {
+  "code": "70.773",
+  "name": "Violet Grey",
+  "nombre": "Gris Violeta",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#5a5a58"
+ },
+ {
+  "code": "70.866",
+  "name": "Grey Green",
+  "nombre": "Gris Verde",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#423f3d"
+ },
+ {
+  "code": "70.862",
+  "name": "Black Grey",
+  "nombre": "Gris Negro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#2f2722"
+ },
+ {
+  "code": "70.836",
+  "name": "London Grey",
+  "nombre": "Gris Londres",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#696362"
+ },
+ {
+  "code": "70.869",
+  "name": "Basalt Grey",
+  "nombre": "Gris Basalto",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#5c595d"
+ },
+ {
+  "code": "70.868",
+  "name": "Dark Sea Green",
+  "nombre": "Verde Marina Osc.",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#4b4546"
+ },
+ {
+  "code": "70.995",
+  "name": "German Grey",
+  "nombre": "Gris Alemán",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#2d2e2b"
+ },
+ {
+  "code": "70.774",
+  "name": "Lavender Grey",
+  "nombre": "Gris Lavanda",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#7f6f6e"
+ },
+ {
+  "code": "70.950",
+  "name": "Black",
+  "nombre": "Negro",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#231c1d"
+ },
+ {
+  "code": "70.861",
+  "name": "Gloss Black",
+  "nombre": "Negro Brillante",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#241e1f"
+ },
+ {
+  "code": "70.828",
+  "name": "Mahogany Ink",
+  "nombre": "Tinta Caoba",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#674540"
+ },
+ {
+  "code": "70.939",
+  "name": "Smoke Ink",
+  "nombre": "Tinta Humo",
+  "line": "Model Color",
+  "series": "",
+  "hex": "#5d4944"
+ },
+ {
+  "code": "70.997",
+  "name": "Silver",
+  "nombre": "Plata",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#d7d5d4",
+  "degrade": true
+ },
+ {
+  "code": "70.865",
+  "name": "Oily Steel",
+  "nombre": "Acero Engrasado",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#b4abac",
+  "degrade": true
+ },
+ {
+  "code": "70.864",
+  "name": "Natural Steel",
+  "nombre": "Acero Natural",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#bcb6b8",
+  "degrade": true
+ },
+ {
+  "code": "70.863",
+  "name": "Gunmetal",
+  "nombre": "Gris Metalizado",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#a69c9d",
+  "degrade": true
+ },
+ {
+  "code": "70.996",
+  "name": "Gold",
+  "nombre": "Oro",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#d9c5a9",
+  "degrade": true
+ },
+ {
+  "code": "70.878",
+  "name": "Old Gold",
+  "nombre": "Oro Viejo",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#b6a391",
+  "degrade": true
+ },
+ {
+  "code": "70.998",
+  "name": "Bronze",
+  "nombre": "Bronce",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#b6a593",
+  "degrade": true
+ },
+ {
+  "code": "70.801",
+  "name": "Brass",
+  "nombre": "Latón",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#bea894",
+  "degrade": true
+ },
+ {
+  "code": "70.999",
+  "name": "Copper",
+  "nombre": "Cobre",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#cbac9f",
+  "degrade": true
+ },
+ {
+  "code": "70.800",
+  "name": "Gunmetal Blue",
+  "nombre": "Metal Azul",
+  "line": "Model Color",
+  "series": "Metallic",
+  "hex": "#a099a0",
+  "degrade": true
+ },
+ {
+  "code": "70.790",
+  "name": "Silver",
+  "nombre": "Plata",
+  "line": "Liquid Metal",
+  "series": "",
+  "hex": "#eff1f3",
+  "degrade": true
+ },
+ {
+  "code": "70.791",
+  "name": "Gold",
+  "nombre": "Oro",
+  "line": "Liquid Metal",
+  "series": "",
+  "hex": "#d4c8ba",
+  "degrade": true
+ },
+ {
+  "code": "70.792",
+  "name": "Old Gold",
+  "nombre": "Oro Viejo",
+  "line": "Liquid Metal",
+  "series": "",
+  "hex": "#dfd289",
+  "degrade": true
+ },
+ {
+  "code": "70.793",
+  "name": "Rich Gold",
+  "nombre": "Oro Rico",
+  "line": "Liquid Metal",
+  "series": "",
+  "hex": "#d0b682",
+  "degrade": true
+ },
+ {
+  "code": "70.794",
+  "name": "Red Gold",
+  "nombre": "Oro Rojo",
+  "line": "Liquid Metal",
+  "series": "",
+  "hex": "#e2bd7b",
+  "degrade": true
+ },
+ {
+  "code": "70.795",
+  "name": "Green Gold",
+  "nombre": "Oro Verde",
+  "line": "Liquid Metal",
+  "series": "",
+  "hex": "#bcaa7a",
+  "degrade": true
+ },
+ {
+  "code": "70.796",
+  "name": "White Gold",
+  "nombre": "Oro Blanco",
+  "line": "Liquid Metal",
+  "series": "",
+  "hex": "#ededef",
+  "degrade": true
+ },
+ {
+  "code": "70.797",
+  "name": "Copper",
+  "nombre": "Cobre",
+  "line": "Liquid Metal",
+  "series": "",
+  "hex": "#c59073",
+  "degrade": true
+ },
+ {
+  "code": "71.001",
+  "name": "White",
+  "nombre": "Blanco",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#f9faf9"
+ },
+ {
+  "code": "71.002",
+  "name": "Medium Yellow",
+  "nombre": "Amarillo Medio",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#f9b000"
+ },
+ {
+  "code": "71.003",
+  "name": "Red RLM23",
+  "nombre": "RLM23 Rot",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c82517"
+ },
+ {
+  "code": "71.004",
+  "name": "Blue",
+  "nombre": "Azul",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#354168"
+ },
+ {
+  "code": "71.005",
+  "name": "Grey Blue",
+  "nombre": "Azul Gris",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#474b59"
+ },
+ {
+  "code": "71.006",
+  "name": "Light Green Chrom.",
+  "nombre": "Verde Claro Cromo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#606845"
+ },
+ {
+  "code": "71.007",
+  "name": "Olive Green",
+  "nombre": "Verde Oliva",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#373b3a"
+ },
+ {
+  "code": "71.008",
+  "name": "Pale Blue",
+  "nombre": "Azul Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#759499"
+ },
+ {
+  "code": "71.009",
+  "name": "Eau de Nil “D.E.Green”",
+  "nombre": "Verde Huevo Pato",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#aab981"
+ },
+ {
+  "code": "71.010",
+  "name": "Interior Green",
+  "nombre": "Verde Interior",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#675f41"
+ },
+ {
+  "code": "71.011",
+  "name": "Dark Green RLM83",
+  "nombre": "RLM83 Dunkelgrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#525047"
+ },
+ {
+  "code": "71.012",
+  "name": "Dark Green",
+  "nombre": "Verde Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#575643"
+ },
+ {
+  "code": "71.013",
+  "name": "Yellow Olive",
+  "nombre": "Oliva Amarillo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#474844"
+ },
+ {
+  "code": "71.014",
+  "name": "Gunship Green",
+  "nombre": "Verde Acorazado",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4d5846"
+ },
+ {
+  "code": "71.015",
+  "name": "Dark Green RLM71",
+  "nombre": "RLM71 Dunkelgrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#514a30"
+ },
+ {
+  "code": "71.016",
+  "name": "USAF Olive Drab",
+  "nombre": "USAF Verde Oliva",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#655d49"
+ },
+ {
+  "code": "71.017",
+  "name": "Russian Green 4BO",
+  "nombre": "Verde Ruso 4BO",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#575545"
+ },
+ {
+  "code": "71.018",
+  "name": "Black Green",
+  "nombre": "Verde Negro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#484f50"
+ },
+ {
+  "code": "71.019",
+  "name": "Camouf. Dark Green",
+  "nombre": "RAL6007 Grün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4f514b"
+ },
+ {
+  "code": "71.020",
+  "name": "Green Brown",
+  "nombre": "Verde Pardo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4e4d42"
+ },
+ {
+  "code": "71.021",
+  "name": "Black Green RLM70",
+  "nombre": "RLM70 Schwarzgrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#454b48"
+ },
+ {
+  "code": "71.022",
+  "name": "Light Green RLM82",
+  "nombre": "RLM82 Hellgrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4d5240"
+ },
+ {
+  "code": "71.023",
+  "name": "Hemp",
+  "nombre": "Tan Green",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#857a5d"
+ },
+ {
+  "code": "71.024",
+  "name": "Khaki Brown",
+  "nombre": "Marrón Caqui",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#92795c"
+ },
+ {
+  "code": "71.025",
+  "name": "Dark Yellow",
+  "nombre": "RAL7028 Dunkelgelb",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#967a49"
+ },
+ {
+  "code": "71.026",
+  "name": "USA Flat Brown",
+  "nombre": "Marrón USA",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#896847"
+ },
+ {
+  "code": "71.027",
+  "name": "Light Brown",
+  "nombre": "Marrón Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#b19268"
+ },
+ {
+  "code": "71.028",
+  "name": "Sand Yellow",
+  "nombre": "Amarillo Arena",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a38d72"
+ },
+ {
+  "code": "71.029",
+  "name": "Dark Earth",
+  "nombre": "Tierra Oscura",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#625644"
+ },
+ {
+  "code": "71.030",
+  "name": "Brown Green",
+  "nombre": "Marrón Verdoso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#917049"
+ },
+ {
+  "code": "71.031",
+  "name": "Middle Stone",
+  "nombre": "Piedra Medio",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#997e50"
+ },
+ {
+  "code": "71.032",
+  "name": "Golden Brown",
+  "nombre": "Marrón Dorado",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#876441"
+ },
+ {
+  "code": "71.033",
+  "name": "Yellow Ochre",
+  "nombre": "RAL1006 Gelb",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#d9922e"
+ },
+ {
+  "code": "71.034",
+  "name": "Sand Brown",
+  "nombre": "Marrón Arena",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#976b54"
+ },
+ {
+  "code": "71.035",
+  "name": "Camouf. Pale Brown",
+  "nombre": "Camuf. Pardo Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#705947"
+ },
+ {
+  "code": "71.036",
+  "name": "Mahogany",
+  "nombre": "Caoba",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4d3d36"
+ },
+ {
+  "code": "71.037",
+  "name": "Mud Brown",
+  "nombre": "Marrón Lodo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#8e664c"
+ },
+ {
+  "code": "71.038",
+  "name": "Cam. Medium Brown",
+  "nombre": "Camuf. Pardo Medio",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#625142"
+ },
+ {
+  "code": "71.039",
+  "name": "Hull Red",
+  "nombre": "Marrón Rojizo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#483732"
+ },
+ {
+  "code": "71.040",
+  "name": "Burnt Umber",
+  "nombre": "Sombra Tostada",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#40332c"
+ },
+ {
+  "code": "71.041",
+  "name": "Armour Brown",
+  "nombre": "RAL8017 Rotbraun",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#453b38"
+ },
+ {
+  "code": "71.042",
+  "name": "Dark Brown RLM61",
+  "nombre": "RLM61 Dunkelbraun",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4a3f3a"
+ },
+ {
+  "code": "71.043",
+  "name": "US Olive Drab",
+  "nombre": "US Verde Oliva",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#5c5347"
+ },
+ {
+  "code": "71.044",
+  "name": "Grey RLM02",
+  "nombre": "RLM02 Grau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#767463"
+ },
+ {
+  "code": "71.045",
+  "name": "Cement Grey",
+  "nombre": "Gris Cemento",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#909482"
+ },
+ {
+  "code": "71.046",
+  "name": "Pale Blue Grey",
+  "nombre": "Azul Gris Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#969ca0"
+ },
+ {
+  "code": "71.047",
+  "name": "Grey",
+  "nombre": "Gris",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#575b62"
+ },
+ {
+  "code": "71.048",
+  "name": "Engine Gray",
+  "nombre": "Gris Motor",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#535b67"
+ },
+ {
+  "code": "71.049",
+  "name": "Sea Grey",
+  "nombre": "Gris Mar",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#666971"
+ },
+ {
+  "code": "71.050",
+  "name": "Light Gray",
+  "nombre": "Gris Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#8e9397"
+ },
+ {
+  "code": "71.051",
+  "name": "Neutral Gray",
+  "nombre": "Gris Neutral",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#72787d"
+ },
+ {
+  "code": "71.052",
+  "name": "Anthracite Grey",
+  "nombre": "Gris Antracita",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#505255"
+ },
+ {
+  "code": "71.053",
+  "name": "Dark Sea Gray",
+  "nombre": "Gris Mar Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#51565b"
+ },
+ {
+  "code": "71.054",
+  "name": "Dark Grey Blue",
+  "nombre": "Gris Azul Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4b4e55"
+ },
+ {
+  "code": "71.055",
+  "name": "Black Grey RLM66",
+  "nombre": "RLM66 Schwarzgrau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#515557"
+ },
+ {
+  "code": "71.056",
+  "name": "Panzer Dark Grey",
+  "nombre": "RAL7021 Dunkelgrau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#474749"
+ },
+ {
+  "code": "71.057",
+  "name": "Black",
+  "nombre": "Negro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#323132"
+ },
+ {
+  "code": "71.062",
+  "name": "Aluminium (Metallic)",
+  "nombre": "Aluminio (Metaliz.)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e0e0e5",
+  "degrade": true
+ },
+ {
+  "code": "71.063",
+  "name": "Silver RLM01 (Metal.)",
+  "nombre": "RLM01 Silber (Metal.)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e1e0e6",
+  "degrade": true
+ },
+ {
+  "code": "71.064",
+  "name": "Chrome (Metallic)",
+  "nombre": "Cromo (Metalizado)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e0dfe4",
+  "degrade": true
+ },
+ {
+  "code": "71.065",
+  "name": "Steel (Metallic)",
+  "nombre": "Acero (Metalizado)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e6e6ec",
+  "degrade": true
+ },
+ {
+  "code": "71.066",
+  "name": "Gold (Metallic)",
+  "nombre": "Oro (Metalizado)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#dacebe",
+  "degrade": true
+ },
+ {
+  "code": "71.067",
+  "name": "Bright Brass (Metal.)",
+  "nombre": "Latón (Metalizado)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#dcd3c1",
+  "degrade": true
+ },
+ {
+  "code": "71.068",
+  "name": "Copper (Metallic)",
+  "nombre": "Cobre (Metalizado)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#d2bfb5",
+  "degrade": true
+ },
+ {
+  "code": "71.069",
+  "name": "Rust (Metallic)",
+  "nombre": "Óxido (Metalizado)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c9bab2",
+  "degrade": true
+ },
+ {
+  "code": "71.070",
+  "name": "Signal Red (Metallic)",
+  "nombre": "Rojo Señal (Metaliz.)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#ecc5ca",
+  "degrade": true
+ },
+ {
+  "code": "71.071",
+  "name": "Arctic Blue (Metallic)",
+  "nombre": "Azul Ártico (Metaliz.)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#aca8b1",
+  "degrade": true
+ },
+ {
+  "code": "71.072",
+  "name": "Gunmetal (Metallic)",
+  "nombre": "Fusil (Metalizado)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#cecbcf",
+  "degrade": true
+ },
+ {
+  "code": "71.073",
+  "name": "Black (Metallic)",
+  "nombre": "Negro (Metalizado)",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c3bec4",
+  "degrade": true
+ },
+ {
+  "code": "71.074",
+  "name": "Beige",
+  "nombre": "Beige",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e6c580"
+ },
+ {
+  "code": "71.075",
+  "name": "Ivory",
+  "nombre": "RAL1001 Elfenbein",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c1ae89"
+ },
+ {
+  "code": "71.076",
+  "name": "Skin Tone",
+  "nombre": "Color Piel",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#f9c391"
+ },
+ {
+  "code": "71.077",
+  "name": "Wood",
+  "nombre": "Madera",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a9743b"
+ },
+ {
+  "code": "71.078",
+  "name": "Yellow RLM04",
+  "nombre": "RLM04 Gelb",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e89f22"
+ },
+ {
+  "code": "71.079",
+  "name": "Tan Earth",
+  "nombre": "Tierra",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a8816c"
+ },
+ {
+  "code": "71.080",
+  "name": "Rust",
+  "nombre": "Óxido",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#765750"
+ },
+ {
+  "code": "71.081",
+  "name": "Ochre",
+  "nombre": "Ocre",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7a6a3c"
+ },
+ {
+  "code": "71.082",
+  "name": "Fluorescent Red",
+  "nombre": "Rojo Fluorescente",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#ec604d"
+ },
+ {
+  "code": "71.083",
+  "name": "Orange",
+  "nombre": "Naranja",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e4481f"
+ },
+ {
+  "code": "71.084",
+  "name": "Fire Red",
+  "nombre": "Rojo Fuego",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#873e31"
+ },
+ {
+  "code": "71.085",
+  "name": "Ferrari Red",
+  "nombre": "Rojo Ferrari",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#af362b"
+ },
+ {
+  "code": "71.086",
+  "name": "Light Red",
+  "nombre": "Rojo Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e1431e"
+ },
+ {
+  "code": "71.087",
+  "name": "Steel Blue",
+  "nombre": "Azul Acero",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#1c3f55"
+ },
+ {
+  "code": "71.088",
+  "name": "French Blue",
+  "nombre": "Azul Francés",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#2a4570"
+ },
+ {
+  "code": "71.089",
+  "name": "Light Sea Blue",
+  "nombre": "Azul Mar Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#00a4d8"
+ },
+ {
+  "code": "71.090",
+  "name": "Deep Sky",
+  "nombre": "Azul Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#273956"
+ },
+ {
+  "code": "71.091",
+  "name": "Signal Blue",
+  "nombre": "Azul Señal",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#2a3340"
+ },
+ {
+  "code": "71.092",
+  "name": "Medium Olive",
+  "nombre": "Ral6003 Olivgrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#535545"
+ },
+ {
+  "code": "71.093",
+  "name": "NATO Green",
+  "nombre": "Verde OTAN",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#555b50"
+ },
+ {
+  "code": "71.094",
+  "name": "Green Zinc Chromate",
+  "nombre": "Verde Zinc",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#58613c"
+ },
+ {
+  "code": "71.095",
+  "name": "Pale Green",
+  "nombre": "Verde Pálido",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#728354"
+ },
+ {
+  "code": "71.096",
+  "name": "Olive Grey",
+  "nombre": "Verde Oliva Grisáceo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#616758"
+ },
+ {
+  "code": "71.097",
+  "name": "Medium Gunship Gray",
+  "nombre": "Gris Medio USAF",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#5c6067"
+ },
+ {
+  "code": "71.101",
+  "name": "Light Blue RLM78",
+  "nombre": "RLM78 Hellblau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#819596"
+ },
+ {
+  "code": "71.102",
+  "name": "Red",
+  "nombre": "Rojo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#b32c32"
+ },
+ {
+  "code": "71.103",
+  "name": "Grey Blue RLM84",
+  "nombre": "RLM84 Graublau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a1a49a"
+ },
+ {
+  "code": "71.104",
+  "name": "Green RLM62",
+  "nombre": "RLM62 Grün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#5d5f46"
+ },
+ {
+  "code": "71.105",
+  "name": "Brown RLM26",
+  "nombre": "RLM26 Braun",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#874237"
+ },
+ {
+  "code": "71.106",
+  "name": "Ivory RLM05",
+  "nombre": "RLM05 Elfenbein",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c6b36b"
+ },
+ {
+  "code": "71.107",
+  "name": "US Interior Yellow",
+  "nombre": "US Amarillo Interior",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#cca553"
+ },
+ {
+  "code": "71.108",
+  "name": "UK Azure Blue",
+  "nombre": "UK Azul Azure",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#718caf"
+ },
+ {
+  "code": "71.109",
+  "name": "Faded P.R.U. Blue",
+  "nombre": "M-485 Blue Gray",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#546e77"
+ },
+ {
+  "code": "71.110",
+  "name": "Dark Gray",
+  "nombre": "Gris Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#565a5d"
+ },
+ {
+  "code": "71.111",
+  "name": "USAF Light Blue",
+  "nombre": "USAF Azul Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#556978"
+ },
+ {
+  "code": "71.112",
+  "name": "Sand",
+  "nombre": "Arena",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#9f867c"
+ },
+ {
+  "code": "71.113",
+  "name": "IDF Blue",
+  "nombre": "Azul IDF",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#537588"
+ },
+ {
+  "code": "71.114",
+  "name": "Medium Gray",
+  "nombre": "Gris Medio",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#6b7f83"
+ },
+ {
+  "code": "71.115",
+  "name": "Blue Grey",
+  "nombre": "RAL7016 Blaugrau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#484c53"
+ },
+ {
+  "code": "71.116",
+  "name": "Camouf. Grey Green",
+  "nombre": "RAL7008 Graugrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7d6b4f"
+ },
+ {
+  "code": "71.117",
+  "name": "Camouﬂ age Brown",
+  "nombre": "RAL8020 Braun",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#b0906f"
+ },
+ {
+  "code": "71.118",
+  "name": "Camouﬂ age Grey",
+  "nombre": "RAL7027 Grau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#88765a"
+ },
+ {
+  "code": "71.119",
+  "name": "White Grey",
+  "nombre": "RAL9002 Grauweiss",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#d9d7cc"
+ },
+ {
+  "code": "71.120",
+  "name": "Dark Ghost Gray",
+  "nombre": "Gris Oscuro USAF",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#8c979f"
+ },
+ {
+  "code": "71.121",
+  "name": "Light Gull Gray",
+  "nombre": "Gris Gaviota USN",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a9aba5"
+ },
+ {
+  "code": "71.122",
+  "name": "US Desert Armour 686",
+  "nombre": "US Cam. Moderno 686",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#ae9a81"
+ },
+ {
+  "code": "71.123",
+  "name": "Dark Grey RLM42",
+  "nombre": "RLM42 Dunkelgrau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#555557"
+ },
+ {
+  "code": "71.124",
+  "name": "USAF Green",
+  "nombre": "Verde USAF",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#505c5c"
+ },
+ {
+  "code": "71.125",
+  "name": "USAF Brown",
+  "nombre": "Marrón USAF",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#8c7260"
+ },
+ {
+  "code": "71.126",
+  "name": "IDF/IAF Green",
+  "nombre": "Verde IDF/IAF",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#788870"
+ },
+ {
+  "code": "71.128",
+  "name": "Gray Violet",
+  "nombre": "Gris Violeta",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#686561"
+ },
+ {
+  "code": "71.129",
+  "name": "Light Rust",
+  "nombre": "Óxido Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#916045"
+ },
+ {
+  "code": "71.130",
+  "name": "Orange Rust",
+  "nombre": "Óxido Anaranjado",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c76632"
+ },
+ {
+  "code": "71.131",
+  "name": "Concrete",
+  "nombre": "Cemento",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#797064"
+ },
+ {
+  "code": "71.132",
+  "name": "Aged White",
+  "nombre": "Blanco Envejecido",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e4d3b2"
+ },
+ {
+  "code": "71.133",
+  "name": "Dirt",
+  "nombre": "Suciedad",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7b6342"
+ },
+ {
+  "code": "71.134",
+  "name": "IJA Midouri Green",
+  "nombre": "IJA Verde Midouri",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#424c3e"
+ },
+ {
+  "code": "71.135",
+  "name": "IJA Chrome Yellow",
+  "nombre": "IJA Amarillo Cromado",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#f4a700"
+ },
+ {
+  "code": "71.136",
+  "name": "IJA Earth Brown",
+  "nombre": "IJA Marrón Tierra",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7b654f"
+ },
+ {
+  "code": "71.137",
+  "name": "US Light Green",
+  "nombre": "US Verde Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#696643"
+ },
+ {
+  "code": "71.138",
+  "name": "US Sand",
+  "nombre": "US Arena",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#96866a"
+ },
+ {
+  "code": "71.139",
+  "name": "US Field Drab",
+  "nombre": "US Marrón Verdoso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#6d5c44"
+ },
+ {
+  "code": "71.140",
+  "name": "US Desert Sand",
+  "nombre": "US Arena Desierto",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a98e7c"
+ },
+ {
+  "code": "71.141",
+  "name": "IDF Sand Grey 73",
+  "nombre": "IDF Gris Arena 73",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#ab9f87"
+ },
+ {
+  "code": "71.142",
+  "name": "IDF Sinai Grey 82",
+  "nombre": "IDF Gris Sinai 82",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7b7467"
+ },
+ {
+  "code": "71.143",
+  "name": "UK Light Stone",
+  "nombre": "UK Piedra Clara",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#b39b6a"
+ },
+ {
+  "code": "71.244",
+  "name": "Sand Beige",
+  "nombre": "Sandbeige",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#b79f7e"
+ },
+ {
+  "code": "71.245",
+  "name": "Loam Beige",
+  "nombre": "Lehmbeige",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#988865"
+ },
+ {
+  "code": "71.246",
+  "name": "Yellow Brown",
+  "nombre": "Sandbraun",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#98866a"
+ },
+ {
+  "code": "71.247",
+  "name": "Light Olive",
+  "nombre": "Helloliv",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#69624a"
+ },
+ {
+  "code": "71.248",
+  "name": "Brown Grey",
+  "nombre": "Gris Marrón",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#676259"
+ },
+ {
+  "code": "71.249",
+  "name": "NATO Brown",
+  "nombre": "Lederbraun",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#5f4f47"
+ },
+ {
+  "code": "71.250",
+  "name": "Bronze Green",
+  "nombre": "Bronzegrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#57584c"
+ },
+ {
+  "code": "71.251",
+  "name": "NATO Black",
+  "nombre": "Teerschwarz",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#333233"
+ },
+ {
+  "code": "71.255",
+  "name": "Light Blue RLM65",
+  "nombre": "RLM65 Hellblau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#8a9f9b"
+ },
+ {
+  "code": "71.256",
+  "name": "Green RLM73",
+  "nombre": "RLM73 Grün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#474e48"
+ },
+ {
+  "code": "71.257",
+  "name": "Light Blue RLM76",
+  "nombre": "RLM76 Lichtblau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#98aaa7"
+ },
+ {
+  "code": "71.258",
+  "name": "Grey Green RLM74",
+  "nombre": "RLM74 Graugrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#545651"
+ },
+ {
+  "code": "71.259",
+  "name": "Grey Violet RLM75",
+  "nombre": "RLM75 Grauviolett",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#646567"
+ },
+ {
+  "code": "71.260",
+  "name": "Light Grey RLM63",
+  "nombre": "RLM63 Hellgrau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#6d7064"
+ },
+ {
+  "code": "71.263",
+  "name": "Green RLM72",
+  "nombre": "RLM72 Grün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#474741"
+ },
+ {
+  "code": "71.264",
+  "name": "Brown Violet RLM81",
+  "nombre": "RLM81 Braunviolett",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#675d4c"
+ },
+ {
+  "code": "71.265",
+  "name": "Olive Green RLM80",
+  "nombre": "RLM80 Olivgrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4b5041"
+ },
+ {
+  "code": "71.266",
+  "name": "Dark Blue RLM24",
+  "nombre": "RLM24 Dunkelblau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#374962"
+ },
+ {
+  "code": "71.267",
+  "name": "Light Green RLM25",
+  "nombre": "RLM25 Hellgrün",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4a796d"
+ },
+ {
+  "code": "71.268",
+  "name": "German Grey",
+  "nombre": "RAL6006 Feldgrau",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#494b44"
+ },
+ {
+  "code": "71.269",
+  "name": "Red",
+  "nombre": "RAL3000 Rot",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#9f3d34"
+ },
+ {
+  "code": "71.270",
+  "name": "Off-White",
+  "nombre": "RAL9001 Weiss",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e6d9be"
+ },
+ {
+  "code": "71.271",
+  "name": "German Red Brown",
+  "nombre": "RAL8012 Rotbraun",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#684339"
+ },
+ {
+  "code": "71.272",
+  "name": "German Yellow Brown",
+  "nombre": "RAL8000 Gelbbraun",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#856f4c"
+ },
+ {
+  "code": "71.273",
+  "name": "Ocean Gray",
+  "nombre": "Gris Oceano",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#6d7682"
+ },
+ {
+  "code": "71.274",
+  "name": "Aggressor Gray",
+  "nombre": "Gris Aggressor",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7c7d82"
+ },
+ {
+  "code": "71.275",
+  "name": "USAF Medium Gray",
+  "nombre": "USAF Gris Medio",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#83848b"
+ },
+ {
+  "code": "71.276",
+  "name": "USAF Light Gray",
+  "nombre": "Gris Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c2c5c0"
+ },
+ {
+  "code": "71.277",
+  "name": "Dark Gull Gray",
+  "nombre": "Gris Gaviota Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#828383"
+ },
+ {
+  "code": "71.278",
+  "name": "Sand Yellow RLM79",
+  "nombre": "RLM79 Sandgelb",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#967651"
+ },
+ {
+  "code": "71.279",
+  "name": "Insignia White",
+  "nombre": "Blanco Insignia",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#e2e3d5"
+ },
+ {
+  "code": "71.280",
+  "name": "Camouﬂ age Gray",
+  "nombre": "Gris Camuﬂ aje",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#6c6d6b"
+ },
+ {
+  "code": "71.281",
+  "name": "3B Russian Green",
+  "nombre": "3B Verde Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#484845"
+ },
+ {
+  "code": "71.282",
+  "name": "6K Russian Brown",
+  "nombre": "6K Marrón Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4d4541"
+ },
+ {
+  "code": "71.283",
+  "name": "7K Russian Tan",
+  "nombre": "7K Tierra Rusa",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7c725c"
+ },
+ {
+  "code": "71.284",
+  "name": "UK Light Mud",
+  "nombre": "UK Marrón Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#857f70"
+ },
+ {
+  "code": "71.285",
+  "name": "IJA Dark Green",
+  "nombre": "IJA Verde Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#575545"
+ },
+ {
+  "code": "71.286",
+  "name": "IJA Olive Green",
+  "nombre": "IJA Verde Oliva",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#514a30"
+ },
+ {
+  "code": "71.287",
+  "name": "IJA Khaki Brown",
+  "nombre": "IJA Marrón Caqui",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#6d5c44"
+ },
+ {
+  "code": "71.288",
+  "name": "UK BSC 64 Portl. Stone",
+  "nombre": "UK BSC 64 Piedra Portl.",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#ccbd94"
+ },
+ {
+  "code": "71.289",
+  "name": "US Dark Green",
+  "nombre": "US Verde Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#595a48"
+ },
+ {
+  "code": "71.290",
+  "name": "US Earth Brown",
+  "nombre": "US Tierra Marrón",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#60544a"
+ },
+ {
+  "code": "71.291",
+  "name": "US Earth Yellow",
+  "nombre": "US Tierra Amarilla",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#b98e5f"
+ },
+ {
+  "code": "71.292",
+  "name": "US Loam",
+  "nombre": "US Marrón Barro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#53554c"
+ },
+ {
+  "code": "71.293",
+  "name": "US Earth Red",
+  "nombre": "US Tierra Roja",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7d6150"
+ },
+ {
+  "code": "71.294",
+  "name": "US Forest Green",
+  "nombre": "US Verde Bosque",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#555548"
+ },
+ {
+  "code": "71.295",
+  "name": "USN Sea Blue",
+  "nombre": "USN Azul Marino",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#44474d"
+ },
+ {
+  "code": "71.296",
+  "name": "USAAF Light Gray",
+  "nombre": "Curtiss Grey",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#bdbbad"
+ },
+ {
+  "code": "71.297",
+  "name": "JGSD Brown 3606",
+  "nombre": "JGSD Marrón 3606",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#6b6158"
+ },
+ {
+  "code": "71.298",
+  "name": "M495 Light Gray",
+  "nombre": "M495 Gris Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#9d9988"
+ },
+ {
+  "code": "71.299",
+  "name": "Intermediate Blue",
+  "nombre": "Azul Intermedio",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#5d6a76"
+ },
+ {
+  "code": "71.300",
+  "name": "Glossy Sea Blue",
+  "nombre": "Azul Mar Brillante",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#272d35"
+ },
+ {
+  "code": "71.301",
+  "name": "AMT-4 Cam. Green",
+  "nombre": "AMT-4 Camuf. Verde",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#675f41"
+ },
+ {
+  "code": "71.302",
+  "name": "Sky Type S",
+  "nombre": "Verde Cielo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a2a48f"
+ },
+ {
+  "code": "71.303",
+  "name": "A-24M Cam. Green",
+  "nombre": "A-24M Verde Camuﬂ aje",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#595a48"
+ },
+ {
+  "code": "71.304",
+  "name": "AMT-11 Blue Grey",
+  "nombre": "AMT-11 Azul Grisáceo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#5c6067"
+ },
+ {
+  "code": "71.305",
+  "name": "Interior Grey Green",
+  "nombre": "Interior Gris Verde",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#96a28e"
+ },
+ {
+  "code": "71.306",
+  "name": "Sky Blue",
+  "nombre": "Azul Cielo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#cbd9db"
+ },
+ {
+  "code": "71.307",
+  "name": "BS Medium Sea Grey",
+  "nombre": "BS Gris Mar Medio",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#838b8c"
+ },
+ {
+  "code": "71.308",
+  "name": "AMT-12 Dark Grey",
+  "nombre": "AMT-12 Gris Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#474950"
+ },
+ {
+  "code": "71.309",
+  "name": "Dark Slate Grey",
+  "nombre": "Gris Pizarra Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#575643"
+ },
+ {
+  "code": "71.310",
+  "name": "IJN Deep Dark Green",
+  "nombre": "IJN Verde Osc. Intenso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#384f4e"
+ },
+ {
+  "code": "71.311",
+  "name": "IJN Ash Grey",
+  "nombre": "IJN Gris Ceniza",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#8a826e"
+ },
+ {
+  "code": "71.312",
+  "name": "IJN Medium Grey",
+  "nombre": "IJN Gris Medio",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#9c998d"
+ },
+ {
+  "code": "71.313",
+  "name": "Dark Mediterr. Blue",
+  "nombre": "Azul Mediterraneo Osc.",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#29384f"
+ },
+ {
+  "code": "71.314",
+  "name": "Seaplane Gray",
+  "nombre": "Gris Hidroavión",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#585857"
+ },
+ {
+  "code": "71.315",
+  "name": "Tire Black",
+  "nombre": "Negro Caucho",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#464845"
+ },
+ {
+  "code": "71.316",
+  "name": "N. 41 Dark Olive Drab",
+  "nombre": "N. 41 Verde Oliva Osc.",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#514a30"
+ },
+ {
+  "code": "71.317",
+  "name": "AII SV. Gol Light Blue",
+  "nombre": "AII SV. Gol Azul Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#7ac6da"
+ },
+ {
+  "code": "71.318",
+  "name": "AMT-7 Greyish Blue",
+  "nombre": "AMT-7 Azul Grisáceo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#628b9c"
+ },
+ {
+  "code": "71.319",
+  "name": "A-28M Greyish Blue",
+  "nombre": "A-28M Azul Grisáceo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#70a098"
+ },
+ {
+  "code": "71.320",
+  "name": "AMT-1 Light Grey. Brown",
+  "nombre": "AMT-1 Marrón Gr. Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#958b7e"
+ },
+ {
+  "code": "71.321",
+  "name": "IJA Light Grey Green",
+  "nombre": "Sky Green",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a5ab96"
+ },
+ {
+  "code": "71.322",
+  "name": "IJN Black Green",
+  "nombre": "IJN Verde Negro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#424c3e"
+ },
+ {
+  "code": "71.323",
+  "name": "BS Dark Earth",
+  "nombre": "BS Tierra Oscura",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#705d43"
+ },
+ {
+  "code": "71.324",
+  "name": "BS Dark Green",
+  "nombre": "BS Verde Oscuro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#484735"
+ },
+ {
+  "code": "71.325",
+  "name": "IJN Dark Black Green",
+  "nombre": "IJN Verde Negro Osc.",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#474844"
+ },
+ {
+  "code": "71.326",
+  "name": "IJA Grey Green",
+  "nombre": "IJA Gris Verdoso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#bcb49c"
+ },
+ {
+  "code": "71.327",
+  "name": "IAF Sand",
+  "nombre": "Arena IAF",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#bcad97"
+ },
+ {
+  "code": "71.328",
+  "name": "Light Blue",
+  "nombre": "Azul Claro",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c4cbbe"
+ },
+ {
+  "code": "71.329",
+  "name": "Green",
+  "nombre": "Verde",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#656c62"
+ },
+ {
+  "code": "71.330",
+  "name": "Khaki Green N. 3",
+  "nombre": "Verde Caqui N. 3",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#594e43"
+ },
+ {
+  "code": "71.331",
+  "name": "Cockpit Emer. G.“Faded”",
+  "nombre": "Verde Interior Cabina",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#449886"
+ },
+ {
+  "code": "71.332",
+  "name": "Underside Blue “Faded”",
+  "nombre": "Azul Desgastado",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#89b0c5"
+ },
+ {
+  "code": "71.333",
+  "name": "Russian AF Blue",
+  "nombre": "Azul AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#008fb9"
+ },
+ {
+  "code": "71.334",
+  "name": "Flanker Light Blue",
+  "nombre": "Azul Claro Flanker",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#b1c9c3"
+ },
+ {
+  "code": "71.335",
+  "name": "Flanker Light Gray",
+  "nombre": "Gris Claro Flanker",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#9ba6a1"
+ },
+ {
+  "code": "71.336",
+  "name": "A-14 Steel Grey",
+  "nombre": "A-14 Gris Acero",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#69706f"
+ },
+ {
+  "code": "71.337",
+  "name": "Flanker Blue",
+  "nombre": "Azul Flanker",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#90aeb8"
+ },
+ {
+  "code": "71.338",
+  "name": "Russian AF Grey Blue",
+  "nombre": "Gris Azul AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a0acaa"
+ },
+ {
+  "code": "71.339",
+  "name": "Russian AF Grey N.3",
+  "nombre": "Gris N.3 AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#888e8d"
+ },
+ {
+  "code": "71.340",
+  "name": "Grey Green",
+  "nombre": "Gris Verdoso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#797e78"
+ },
+ {
+  "code": "71.341",
+  "name": "Green Grey",
+  "nombre": "Verde Grisáceo",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#5b6558"
+ },
+ {
+  "code": "71.342",
+  "name": "Russian AF Light Blue",
+  "nombre": "Azul Claro AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a9c9c4"
+ },
+ {
+  "code": "71.343",
+  "name": "Russian AF Grey N.7",
+  "nombre": "Gris N.7 AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#6f98af"
+ },
+ {
+  "code": "71.344",
+  "name": "R. AF Grey Protec. Coat",
+  "nombre": "Gris AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#b4ced5"
+ },
+ {
+  "code": "71.345",
+  "name": "Russian AF Grey N.8",
+  "nombre": "Gris N.8 AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#a0b4c2"
+ },
+ {
+  "code": "71.346",
+  "name": "Russian AF Grey N.4",
+  "nombre": "Gris N.4 AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#aca894"
+ },
+ {
+  "code": "71.347",
+  "name": "Russian AF Dark Green",
+  "nombre": "Verde Oscuro AF Ruso",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#4e4939"
+ },
+ {
+  "code": "71.348",
+  "name": "USAF Tan",
+  "nombre": "USAF Marrón Arena",
+  "line": "Model Air",
+  "series": "",
+  "hex": "#c1976b"
+ },
+ {
+  "code": "72.001",
+  "name": "Dead White",
+  "nombre": "Blanco Calavera",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "72.101",
+  "name": "Off-White",
+  "nombre": "Blanco Sucio",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#ffefb8"
+ },
+ {
+  "code": "72.098",
+  "name": "Elfi c Flesh",
+  "nombre": "Carne Élfi ca",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#f1d5a3"
+ },
+ {
+  "code": "72.034",
+  "name": "Bone White",
+  "nombre": "Blanco Hueso",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#b49b6d"
+ },
+ {
+  "code": "72.003",
+  "name": "Pale Flesh",
+  "nombre": "Carne Pálida",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#ce9a7a"
+ },
+ {
+  "code": "72.100",
+  "name": "Rosy Flesh",
+  "nombre": "Carne Rosa",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#e17262"
+ },
+ {
+  "code": "72.107",
+  "name": "Athena Skin",
+  "nombre": "Piel de Atenea",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#b46354"
+ },
+ {
+  "code": "72.108",
+  "name": "Succubus Skin",
+  "nombre": "Piel de Súcubo",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#73423b"
+ },
+ {
+  "code": "72.099",
+  "name": "Skin Tone",
+  "nombre": "Piel",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#e4ac84"
+ },
+ {
+  "code": "72.004",
+  "name": "Elf Skin Tone",
+  "nombre": "Piel de Elfos",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#c47e52"
+ },
+ {
+  "code": "72.071",
+  "name": "Barbarian Skin",
+  "nombre": "Piel de Bárbaro",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#785a3f"
+ },
+ {
+  "code": "72.109",
+  "name": "Toxic Yellow",
+  "nombre": "Amarillo Tóxico",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#e2c33a"
+ },
+ {
+  "code": "72.005",
+  "name": "Moon Yellow",
+  "nombre": "Amarillo Lunar",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#efb800"
+ },
+ {
+  "code": "72.006",
+  "name": "Sun Yellow",
+  "nombre": "Amarillo Soleado",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#f49405"
+ },
+ {
+  "code": "72.007",
+  "name": "Gold Yellow",
+  "nombre": "Amarillo Dorado",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#e77712"
+ },
+ {
+  "code": "72.038",
+  "name": "Scrofulous Brown",
+  "nombre": "Marrón Escrofuloso",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#a85e17"
+ },
+ {
+  "code": "72.110",
+  "name": "Sunset Orange",
+  "nombre": "Naranja Atardecer",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#f08331"
+ },
+ {
+  "code": "72.008",
+  "name": "Orange Fire",
+  "nombre": "Naranja Fuego",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#e9531d"
+ },
+ {
+  "code": "72.009",
+  "name": "Hot Orange",
+  "nombre": "Naranja Tostado",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#d8311d"
+ },
+ {
+  "code": "72.106",
+  "name": "Scarlet Blood",
+  "nombre": "Sangre Escarlata",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#ac1f1d"
+ },
+ {
+  "code": "72.010",
+  "name": "Bloody Red",
+  "nombre": "Rojo Sanguina",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#d41d1b"
+ },
+ {
+  "code": "72.012",
+  "name": "Scarlet Red",
+  "nombre": "Rojo Escarlata",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#581a22"
+ },
+ {
+  "code": "72.011",
+  "name": "Gory Red",
+  "nombre": "Rojo Visceral",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#611715"
+ },
+ {
+  "code": "72.111",
+  "name": "Nocturnal Red",
+  "nombre": "Rojo Nocturno",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#551d22"
+ },
+ {
+  "code": "72.112",
+  "name": "Evil Red",
+  "nombre": "Rojo Maligno",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#451f25"
+ },
+ {
+  "code": "72.013",
+  "name": "Squid Pink",
+  "nombre": "Rosa Pulpo",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#cb6f9e"
+ },
+ {
+  "code": "72.014",
+  "name": "Warlord Purple",
+  "nombre": "Púrpura",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#7e223e"
+ },
+ {
+  "code": "72.113",
+  "name": "Deep Magenta",
+  "nombre": "Magenta Profundo",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#4a1b2f"
+ },
+ {
+  "code": "72.114",
+  "name": "Lustful Purple",
+  "nombre": "Púrpura Lujurioso",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#7d6092"
+ },
+ {
+  "code": "72.076",
+  "name": "Alien Purple",
+  "nombre": "Púrpura Alienígena",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#53417c"
+ },
+ {
+  "code": "72.015",
+  "name": "Hexed Lichen",
+  "nombre": "Púrpura Hechicero",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#351939"
+ },
+ {
+  "code": "72.016",
+  "name": "Royal Purple",
+  "nombre": "Púrpura Real",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#251930"
+ },
+ {
+  "code": "72.116",
+  "name": "Midnight Purple",
+  "nombre": "Púrpura Medianoche",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#251531"
+ },
+ {
+  "code": "72.117",
+  "name": "Elfi c Blue",
+  "nombre": "Azul Élfi co",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#3d5474"
+ },
+ {
+  "code": "72.022",
+  "name": "Ultramarine Blue",
+  "nombre": "Azul Ultramar",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#1b224b"
+ },
+ {
+  "code": "72.019",
+  "name": "Night Blue",
+  "nombre": "Azul Negro",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#0f0f1c"
+ },
+ {
+  "code": "72.118",
+  "name": "Sunrise Blue",
+  "nombre": "Azul Amanecer",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#60b8e0"
+ },
+ {
+  "code": "72.023",
+  "name": "Electric Blue",
+  "nombre": "Azul Eléctrico",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#006c88"
+ },
+ {
+  "code": "72.021",
+  "name": "Magic Blue",
+  "nombre": "Azul Mágico",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#133d7d"
+ },
+ {
+  "code": "72.020",
+  "name": "Imperial Blue",
+  "nombre": "Azul Imperial",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#132032"
+ },
+ {
+  "code": "72.096",
+  "name": "Verdigris",
+  "nombre": "Verdín",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#86c7aa"
+ },
+ {
+  "code": "72.119",
+  "name": "Aquamarine",
+  "nombre": "Aguamarina",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#007c74"
+ },
+ {
+  "code": "72.024",
+  "name": "Turquoise",
+  "nombre": "Halcón Milenario",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#004145"
+ },
+ {
+  "code": "72.120",
+  "name": "Abyssal Turquoise",
+  "nombre": "Turquesa Abisal",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#132332"
+ },
+ {
+  "code": "72.121",
+  "name": "Ghost Green",
+  "nombre": "Verde Espectral",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#5bb889"
+ },
+ {
+  "code": "72.025",
+  "name": "Foul Green",
+  "nombre": "Verde Malicioso",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#156d53"
+ },
+ {
+  "code": "72.026",
+  "name": "Jade Green",
+  "nombre": "Verde Jade",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#004938"
+ },
+ {
+  "code": "72.027",
+  "name": "Scurvy Green",
+  "nombre": "Verde Casposo",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#003426"
+ },
+ {
+  "code": "72.122",
+  "name": "Bile Green",
+  "nombre": "Verde Bilioso",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#d5d900"
+ },
+ {
+  "code": "72.032",
+  "name": "Scorpy Green",
+  "nombre": "Verde Escorpena",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#427a33"
+ },
+ {
+  "code": "72.030",
+  "name": "Goblin Green",
+  "nombre": "Verde Goblin",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#43502a"
+ },
+ {
+  "code": "72.029",
+  "name": "Sick Green",
+  "nombre": "Verde Asqueroso",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#3b5b33"
+ },
+ {
+  "code": "72.123",
+  "name": "Angel Green",
+  "nombre": "Verde Angelical",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#233822"
+ },
+ {
+  "code": "72.028",
+  "name": "Dark Green",
+  "nombre": "Verde Oscuro",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#122418"
+ },
+ {
+  "code": "72.035",
+  "name": "Dead Flesh",
+  "nombre": "Carne Muerta",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#937f3a"
+ },
+ {
+  "code": "72.031",
+  "name": "Camouﬂ age Green",
+  "nombre": "Verde Camuﬂ aje",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#6e6128"
+ },
+ {
+  "code": "72.145",
+  "name": "Dirty Grey",
+  "nombre": "Gris Sucio",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#493d20"
+ },
+ {
+  "code": "72.067",
+  "name": "Cayman Green",
+  "nombre": "Verde Caimán",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#41391a"
+ },
+ {
+  "code": "72.061",
+  "name": "Khaki",
+  "nombre": "Caqui",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#776247"
+ },
+ {
+  "code": "72.063",
+  "name": "Desert Yellow",
+  "nombre": "Desierto",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#7b5b2c"
+ },
+ {
+  "code": "72.062",
+  "name": "Earth",
+  "nombre": "Tierra",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#563d25"
+ },
+ {
+  "code": "72.036",
+  "name": "Bronze Brown",
+  "nombre": "Marrón Bronceado",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#985b1b"
+ },
+ {
+  "code": "72.039",
+  "name": "Plague Brown",
+  "nombre": "Marrón Peste",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#8f5e24"
+ },
+ {
+  "code": "72.040",
+  "name": "Leather Brown",
+  "nombre": "Marrón Cuero",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#4f3413"
+ },
+ {
+  "code": "72.043",
+  "name": "Beasty Brown",
+  "nombre": "Marrón Bichos",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#55381d"
+ },
+ {
+  "code": "72.042",
+  "name": "Parasite Brown",
+  "nombre": "Piel de Parásitos",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#6f3c1a"
+ },
+ {
+  "code": "72.115",
+  "name": "Grunge Brown",
+  "nombre": "Marrón Mugre",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#69361c"
+ },
+ {
+  "code": "72.124",
+  "name": "Gorgon Brown",
+  "nombre": "Marrón Gorgona",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#3e2317"
+ },
+ {
+  "code": "72.066",
+  "name": "Tan",
+  "nombre": "Carne Marrón",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#7d4c3e"
+ },
+ {
+  "code": "72.044",
+  "name": "Dark Flesh Tone",
+  "nombre": "Carne Oscura",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#411f15"
+ },
+ {
+  "code": "72.045",
+  "name": "Charred Brown",
+  "nombre": "Marrón Carbonizado",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#281a14"
+ },
+ {
+  "code": "72.047",
+  "name": "Wolf Grey",
+  "nombre": "Gris Lobo",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#95b4bb"
+ },
+ {
+  "code": "72.095",
+  "name": "Glacier Blue",
+  "nombre": "Azul Glaciar",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#b7d0ec"
+ },
+ {
+  "code": "72.102",
+  "name": "Steel Grey",
+  "nombre": "Gris Acero",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#4a5a62"
+ },
+ {
+  "code": "72.048",
+  "name": "Sombre Grey",
+  "nombre": "Gris Sombra",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#373e45"
+ },
+ {
+  "code": "72.148",
+  "name": "Warm Grey",
+  "nombre": "Gris Cálido",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#80655e"
+ },
+ {
+  "code": "72.049",
+  "name": "Stonewall Grey",
+  "nombre": "Gris Muralla",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#615e5b"
+ },
+ {
+  "code": "72.050",
+  "name": "Neutral Grey",
+  "nombre": "Gris Neutral",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#484744"
+ },
+ {
+  "code": "72.155",
+  "name": "Charcoal",
+  "nombre": "Gris Carbón",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#18170f"
+ },
+ {
+  "code": "72.051",
+  "name": "Black",
+  "nombre": "Negro",
+  "line": "Game Color",
+  "series": "",
+  "hex": "#000000"
+ },
+ {
+  "code": "73.208",
+  "name": "Yellow",
+  "nombre": "Amarillo",
+  "line": "Game Color",
+  "series": "Wash",
+  "hex": "#f8ef59",
+  "degrade": true
+ },
+ {
+  "code": "73.204",
+  "name": "Flesh",
+  "nombre": "Carne",
+  "line": "Game Color",
+  "series": "Wash",
+  "hex": "#bd998c",
+  "degrade": true
+ },
+ {
+  "code": "73.206",
+  "name": "Red",
+  "nombre": "Rojo",
+  "line": "Game Color",
+  "series": "Wash",
+  "hex": "#d56c6a",
+  "degrade": true
+ },
+ {
+  "code": "73.209",
+  "name": "Violet",
+  "nombre": "Violeta",
+  "line": "Game Color",
+  "series": "Wash",
+  "hex": "#9f73ac",
+  "degrade": true
+ },
+ {
+  "code": "73.207",
+  "name": "Blue",
+  "nombre": "Azul",
+  "line": "Game Color",
+  "series": "Wash",
+  "hex": "#65a0cf",
+  "degrade": true
+ },
+ {
+  "code": "73.203",
+  "name": "Umber",
+  "nombre": "Sombra",
+  "line": "Game Color",
+  "series": "Wash",
+  "hex": "#9c8c80",
+  "degrade": true
+ },
+ {
+  "code": "73.200",
+  "name": "Sepia",
+  "nombre": "Sepia",
+  "line": "Game Color",
+  "series": "Wash",
+  "hex": "#9b876b",
+  "degrade": true
+ },
+ {
+  "code": "73.201",
+  "name": "Black",
+  "nombre": "Negro",
+  "line": "Game Color",
+  "series": "Wash",
+  "hex": "#7a787c",
+  "degrade": true
+ },
+ {
+  "code": "72.600",
+  "name": "Vomit",
+  "nombre": "Vómito",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#f4ab2c",
+  "degrade": true
+ },
+ {
+  "code": "72.601",
+  "name": "Fresh Blood",
+  "nombre": "Sangre Fresca",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#ec665c",
+  "degrade": true
+ },
+ {
+  "code": "72.602",
+  "name": "Thick Blood",
+  "nombre": "Sangre Espesa",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#99483a",
+  "degrade": true
+ },
+ {
+  "code": "72.603",
+  "name": "Demon Blood",
+  "nombre": "Sangre Demoníaca",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#795286",
+  "degrade": true
+ },
+ {
+  "code": "72.604",
+  "name": "Frost",
+  "nombre": "Escarcha",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#6fb6e2",
+  "degrade": true
+ },
+ {
+  "code": "72.605",
+  "name": "Green Rust",
+  "nombre": "Óxido Verde",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#97c6b3",
+  "degrade": true
+ },
+ {
+  "code": "72.606",
+  "name": "Bile",
+  "nombre": "Bilis",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#b9cc10",
+  "degrade": true
+ },
+ {
+  "code": "72.607",
+  "name": "Acid",
+  "nombre": "Ácido",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#6aa260",
+  "degrade": true
+ },
+ {
+  "code": "72.608",
+  "name": "Corrosion",
+  "nombre": "Corrosión",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#633329",
+  "degrade": true
+ },
+ {
+  "code": "72.609",
+  "name": "Rust",
+  "nombre": "Óxido",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#70574f",
+  "degrade": true
+ },
+ {
+  "code": "72.610",
+  "name": "Galvanic Corrosion",
+  "nombre": "Corrosión Galvánica",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#d8843c",
+  "degrade": true
+ },
+ {
+  "code": "72.611",
+  "name": "Moss and Lichen",
+  "nombre": "Musgo y Líquen",
+  "line": "Game Color",
+  "series": "Special FX",
+  "hex": "#d2cb5c",
+  "degrade": true
+ },
+ {
+  "code": "72.103",
+  "name": "Fluorescent Yellow",
+  "nombre": "Amarillo Fluorescente",
+  "line": "Game Color",
+  "series": "Fluo",
+  "hex": "#faeb3d"
+ },
+ {
+  "code": "72.156",
+  "name": "Fluorescent Orange",
+  "nombre": "Naranja Fluorescente",
+  "line": "Game Color",
+  "series": "Fluo",
+  "hex": "#e63b11"
+ },
+ {
+  "code": "72.157",
+  "name": "Fluorescent Red",
+  "nombre": "Rojo Fluorescente",
+  "line": "Game Color",
+  "series": "Fluo",
+  "hex": "#e42e3e"
+ },
+ {
+  "code": "72.158",
+  "name": "Fluorescent Magenta",
+  "nombre": "Magenta Fluorescente",
+  "line": "Game Color",
+  "series": "Fluo",
+  "hex": "#e8348b"
+ },
+ {
+  "code": "72.159",
+  "name": "Fluorescent Violet",
+  "nombre": "Violeta Fluorescente",
+  "line": "Game Color",
+  "series": "Fluo",
+  "hex": "#6e257a"
+ },
+ {
+  "code": "72.160",
+  "name": "Fluorescent Blue",
+  "nombre": "Azul Fluorescente",
+  "line": "Game Color",
+  "series": "Fluo",
+  "hex": "#007ab9"
+ },
+ {
+  "code": "72.104",
+  "name": "Fluorescent Green",
+  "nombre": "Verde Fluorescente",
+  "line": "Game Color",
+  "series": "Fluo",
+  "hex": "#5ab031"
+ },
+ {
+  "code": "72.161",
+  "name": "Fluorescent Cold Green",
+  "nombre": "Verde Frío Fluorescente",
+  "line": "Game Color",
+  "series": "Fluo",
+  "hex": "#00604d"
+ },
+ {
+  "code": "72.082",
+  "name": "White",
+  "nombre": "Blanco",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "72.093",
+  "name": "Skin",
+  "nombre": "Piel",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#452118"
+ },
+ {
+  "code": "72.085",
+  "name": "Yellow",
+  "nombre": "Amarillo",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#e99c12"
+ },
+ {
+  "code": "72.086",
+  "name": "Red",
+  "nombre": "Rojo",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#a71521"
+ },
+ {
+  "code": "72.083",
+  "name": "Magenta",
+  "nombre": "Magenta",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#9b2242"
+ },
+ {
+  "code": "72.087",
+  "name": "Violet",
+  "nombre": "Violeta",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#49315e"
+ },
+ {
+  "code": "72.088",
+  "name": "Blue",
+  "nombre": "Azul",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#153768"
+ },
+ {
+  "code": "72.084",
+  "name": "Dark Turquoise",
+  "nombre": "Turquesa Oscuro",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#043e3d"
+ },
+ {
+  "code": "72.089",
+  "name": "Green",
+  "nombre": "Verde",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#007033"
+ },
+ {
+  "code": "72.090",
+  "name": "Black Green",
+  "nombre": "Verde Negro",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#253b2b"
+ },
+ {
+  "code": "72.091",
+  "name": "Sepia",
+  "nombre": "Sepia",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#342613"
+ },
+ {
+  "code": "72.094",
+  "name": "Black",
+  "nombre": "Negro",
+  "line": "Game Color",
+  "series": "Ink",
+  "hex": "#000000"
+ },
+ {
+  "code": "72.052",
+  "name": "Silver",
+  "nombre": "Plata",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#d2d6d6",
+  "degrade": true
+ },
+ {
+  "code": "72.053",
+  "name": "Chainmail",
+  "nombre": "Malla de Acero",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#c1c4c8",
+  "degrade": true
+ },
+ {
+  "code": "72.054",
+  "name": "Dark Gunmetal",
+  "nombre": "Gris Metalizado Osc.",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#aaaaad",
+  "degrade": true
+ },
+ {
+  "code": "72.055",
+  "name": "Polished Gold",
+  "nombre": "Dorado Pulido",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#f1d57c",
+  "degrade": true
+ },
+ {
+  "code": "72.056",
+  "name": "Glorious Gold",
+  "nombre": "Oro Glorioso",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#e6b880",
+  "degrade": true
+ },
+ {
+  "code": "72.057",
+  "name": "Bright Bronze",
+  "nombre": "Bronce",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#ca9e6f",
+  "degrade": true
+ },
+ {
+  "code": "72.058",
+  "name": "Brassy Brass",
+  "nombre": "Bronce Pulido",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#cea48a",
+  "degrade": true
+ },
+ {
+  "code": "72.059",
+  "name": "Hammered Copper",
+  "nombre": "Cobre Bruñido",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#ae9586",
+  "degrade": true
+ },
+ {
+  "code": "72.060",
+  "name": "Tinny Tin",
+  "nombre": "Hojalata",
+  "line": "Game Color",
+  "series": "Metallic",
+  "hex": "#9a8477",
+  "degrade": true
+ },
+ {
+  "code": "72.401",
+  "name": "Templar White",
+  "nombre": "Blanco Templario",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#d4d7d7",
+  "degrade": true
+ },
+ {
+  "code": "72.402",
+  "name": "Dwarf Skin",
+  "nombre": "Piel de Enano",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#75392c",
+  "degrade": true
+ },
+ {
+  "code": "72.403",
+  "name": "Imperial Yellow",
+  "nombre": "Amarillo Imperial",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#f39c28"
+ },
+ {
+  "code": "72.404",
+  "name": "Nuclear Yellow",
+  "nombre": "Amarillo Nuclear",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#da8619",
+  "degrade": true
+ },
+ {
+  "code": "72.405",
+  "name": "Martian Orange",
+  "nombre": "Naranja Marte",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#c7411a"
+ },
+ {
+  "code": "72.406",
+  "name": "Plasma Red",
+  "nombre": "Rojo Plasma",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#a02823"
+ },
+ {
+  "code": "72.407",
+  "name": "Velvet Red",
+  "nombre": "Rojo Terciopelo",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#752729"
+ },
+ {
+  "code": "72.408",
+  "name": "Cardinal Purple",
+  "nombre": "Púrpura Cardenal",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#c11b28"
+ },
+ {
+  "code": "72.409",
+  "name": "Deep Purple",
+  "nombre": "Púrpura Oscuro",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#68293d"
+ },
+ {
+  "code": "72.410",
+  "name": "Gloomy Violet",
+  "nombre": "Violeta Tenebroso",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#452f59",
+  "degrade": true
+ },
+ {
+  "code": "72.411",
+  "name": "Mystic Blue",
+  "nombre": "Azul Místico",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#154278",
+  "degrade": true
+ },
+ {
+  "code": "72.412",
+  "name": "Storm Blue",
+  "nombre": "Azul Tormenta",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#323875"
+ },
+ {
+  "code": "72.413",
+  "name": "Omega Blue",
+  "nombre": "Azul Omega",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#373253"
+ },
+ {
+  "code": "72.414",
+  "name": "Caribbean Turquoise",
+  "nombre": "Turquesa Caribe",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#004f5a",
+  "degrade": true
+ },
+ {
+  "code": "72.415",
+  "name": "Orc Skin",
+  "nombre": "Piel de Orco",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#566e30"
+ },
+ {
+  "code": "72.416",
+  "name": "Troll Green",
+  "nombre": "Verde Trol",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#005a30"
+ },
+ {
+  "code": "72.417",
+  "name": "Snake Green",
+  "nombre": "Verde Serpiente",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#005540"
+ },
+ {
+  "code": "72.418",
+  "name": "Lizard Green",
+  "nombre": "Verde Lagarto",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#223629"
+ },
+ {
+  "code": "72.419",
+  "name": "Plague Green",
+  "nombre": "Verde Plaga",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#46472b"
+ },
+ {
+  "code": "72.420",
+  "name": "Wasteland Brown",
+  "nombre": "Marrón Yermo",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#5c3d24",
+  "degrade": true
+ },
+ {
+  "code": "72.421",
+  "name": "Copper Brown",
+  "nombre": "Marrón Cobrizo",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#4c2922"
+ },
+ {
+  "code": "72.422",
+  "name": "Space Grey",
+  "nombre": "Gris Espacial",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#2f575b"
+ },
+ {
+  "code": "72.423",
+  "name": "Black Lotus",
+  "nombre": "Magnolia Negra",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#282120",
+  "degrade": true
+ },
+ {
+  "code": "72.448",
+  "name": "Xpress Medium",
+  "nombre": "Medium Xpress",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "72.449",
+  "name": "Mummy White",
+  "nombre": "Blanco Momia",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#bba082",
+  "degrade": true
+ },
+ {
+  "code": "72.450",
+  "name": "Bag of Bones",
+  "nombre": "Saco de Huesos",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#b1905e",
+  "degrade": true
+ },
+ {
+  "code": "72.451",
+  "name": "Khaki Drill",
+  "nombre": "Uniforme Caqui",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#b7864f",
+  "degrade": true
+ },
+ {
+  "code": "72.452",
+  "name": "Rotten Flesh",
+  "nombre": "Carne Putrefacta",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#786533",
+  "degrade": true
+ },
+ {
+  "code": "72.453",
+  "name": "Military Yellow",
+  "nombre": "Amarillo Militar",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#745128",
+  "degrade": true
+ },
+ {
+  "code": "72.454",
+  "name": "Desert Ochre",
+  "nombre": "Ocre Desierto",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#8b5423",
+  "degrade": true
+ },
+ {
+  "code": "72.455",
+  "name": "Chameleon Orange",
+  "nombre": "Naranja Camaleón",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#c05229",
+  "degrade": true
+ },
+ {
+  "code": "72.456",
+  "name": "Wicked Purple",
+  "nombre": "Violeta Perverso",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#67575b",
+  "degrade": true
+ },
+ {
+  "code": "72.457",
+  "name": "Fairy Skin",
+  "nombre": "Piel de Hada",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#bb7666",
+  "degrade": true
+ },
+ {
+  "code": "72.458",
+  "name": "Demonic Skin",
+  "nombre": "Piel Demoníaca",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#874c4b",
+  "degrade": true
+ },
+ {
+  "code": "72.459",
+  "name": "Fluid Pink",
+  "nombre": "Rosa Fluido",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#ac5185",
+  "degrade": true
+ },
+ {
+  "code": "72.460",
+  "name": "Twilight Rose",
+  "nombre": "Rosa Crepuscular",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#663b4c",
+  "degrade": true
+ },
+ {
+  "code": "72.461",
+  "name": "Vampiric Purple",
+  "nombre": "Púrpura Vampírico",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#452754"
+ },
+ {
+  "code": "72.462",
+  "name": "Starship Steel",
+  "nombre": "Acero Estelar",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#46666c",
+  "degrade": true
+ },
+ {
+  "code": "72.463",
+  "name": "Iceberg Grey",
+  "nombre": "Gris Iceberg",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#414f62",
+  "degrade": true
+ },
+ {
+  "code": "72.464",
+  "name": "Wagram Blue",
+  "nombre": "Azul Wagram",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#0a3e58",
+  "degrade": true
+ },
+ {
+  "code": "72.465",
+  "name": "Forest Green",
+  "nombre": "Verde Bosque",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#16582e",
+  "degrade": true
+ },
+ {
+  "code": "72.466",
+  "name": "Armor Green",
+  "nombre": "Verde Blindaje",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#1f3c2c",
+  "degrade": true
+ },
+ {
+  "code": "72.467",
+  "name": "Camouﬂ age Green",
+  "nombre": "Verde Camuﬂ aje",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#524d30",
+  "degrade": true
+ },
+ {
+  "code": "72.468",
+  "name": "Commando Green",
+  "nombre": "Verde Comando",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#34433c",
+  "degrade": true
+ },
+ {
+  "code": "72.469",
+  "name": "Landser Grey",
+  "nombre": "Gris Infantería",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#49443f",
+  "degrade": true
+ },
+ {
+  "code": "72.470",
+  "name": "Zombie Flesh",
+  "nombre": "Piel de Zombi",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#775e52",
+  "degrade": true
+ },
+ {
+  "code": "72.471",
+  "name": "Tanned Skin",
+  "nombre": "Piel Bronceada",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#703a2b",
+  "degrade": true
+ },
+ {
+  "code": "72.472",
+  "name": "Mahogany",
+  "nombre": "Piel Caoba",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#50342e",
+  "degrade": true
+ },
+ {
+  "code": "72.473",
+  "name": "Battledress Brown",
+  "nombre": "Marrón Uniforme",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#534231",
+  "degrade": true
+ },
+ {
+  "code": "72.474",
+  "name": "Willow Bark",
+  "nombre": "Corteza de Sauce",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#413028",
+  "degrade": true
+ },
+ {
+  "code": "72.475",
+  "name": "Muddy Ground",
+  "nombre": "Terreno Embarrado",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#3d2923",
+  "degrade": true
+ },
+ {
+  "code": "72.476",
+  "name": "Greasy Black",
+  "nombre": "Negro Grasiento",
+  "line": "Xpress Color",
+  "series": "",
+  "hex": "#3b3130",
+  "degrade": true
+ },
+ {
+  "code": "72.477",
+  "name": "Dreadnought Yellow",
+  "nombre": "Amarillo Acorazado",
+  "line": "Xpress Color",
+  "series": "Intense",
+  "hex": "#d48803",
+  "degrade": true
+ },
+ {
+  "code": "72.478",
+  "name": "Phoenix Orange",
+  "nombre": "Naranja Fénix",
+  "line": "Xpress Color",
+  "series": "Intense",
+  "hex": "#b03911",
+  "degrade": true
+ },
+ {
+  "code": "72.479",
+  "name": "Seraph Red",
+  "nombre": "Rojo Serafín",
+  "line": "Xpress Color",
+  "series": "Intense",
+  "hex": "#721e12",
+  "degrade": true
+ },
+ {
+  "code": "72.480",
+  "name": "Legacy Blue",
+  "nombre": "Azul Legado",
+  "line": "Xpress Color",
+  "series": "Intense",
+  "hex": "#2e295b",
+  "degrade": true
+ },
+ {
+  "code": "72.481",
+  "name": "Heretic Turquoise",
+  "nombre": "Turquesa Herético",
+  "line": "Xpress Color",
+  "series": "Intense",
+  "hex": "#07514b",
+  "degrade": true
+ },
+ {
+  "code": "72.482",
+  "name": "Monastic Green",
+  "nombre": "Verde Monástico",
+  "line": "Xpress Color",
+  "series": "Intense",
+  "hex": "#004a36"
+ },
+ {
+  "code": "72.483",
+  "name": "Viking Grey",
+  "nombre": "Gris Vikingo",
+  "line": "Xpress Color",
+  "series": "Intense",
+  "hex": "#3c4855",
+  "degrade": true
+ },
+ {
+  "code": "72.484",
+  "name": "Hospitallier Black",
+  "nombre": "Negro Hospitalario",
+  "line": "Xpress Color",
+  "series": "Intense",
+  "hex": "#242021",
+  "degrade": true
+ },
+ {
+  "code": "76.001",
+  "name": "Dead White",
+  "nombre": "Blanco Calavera",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "76.034",
+  "name": "Bone White",
+  "nombre": "Blanco Hueso",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#af976b"
+ },
+ {
+  "code": "76.003",
+  "name": "Pale Flesh",
+  "nombre": "Carne Pálida",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#e1a17b"
+ },
+ {
+  "code": "76.100",
+  "name": "Rosy Flesh",
+  "nombre": "Carne Rosa",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#e16f59"
+ },
+ {
+  "code": "76.107",
+  "name": "Athena Skin",
+  "nombre": "Piel de Atenea",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#af5444"
+ },
+ {
+  "code": "76.004",
+  "name": "Elf Skin Tone",
+  "nombre": "Piel de Elfos",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#d68849"
+ },
+ {
+  "code": "76.071",
+  "name": "Barbarian Skin",
+  "nombre": "Piel de Bárbaro",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#7b5c38"
+ },
+ {
+  "code": "76.109",
+  "name": "Toxic Yellow",
+  "nombre": "Amarillo Tóxico",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#edc434"
+ },
+ {
+  "code": "76.005",
+  "name": "Moon Yellow",
+  "nombre": "Amarillo lunar",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#eea200"
+ },
+ {
+  "code": "76.006",
+  "name": "Sun Yellow",
+  "nombre": "Amarillo Soleado",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#f49600"
+ },
+ {
+  "code": "76.007",
+  "name": "Gold Yellow",
+  "nombre": "Amarillo Dorado",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#ed7004"
+ },
+ {
+  "code": "76.008",
+  "name": "Orange Fire",
+  "nombre": "Naranja Fuego",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#e84b0f"
+ },
+ {
+  "code": "76.010",
+  "name": "Bloody Red",
+  "nombre": "Rojo Sanguina",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#9e1e14"
+ },
+ {
+  "code": "76.012",
+  "name": "Scarlet Red",
+  "nombre": "Rojo Escarlata",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#3f120f"
+ },
+ {
+  "code": "76.111",
+  "name": "Nocturnal Red",
+  "nombre": "Rojo Nocturno",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#2d1211"
+ },
+ {
+  "code": "76.013",
+  "name": "Squid Pink",
+  "nombre": "Rosa Pulpo",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#b75f99"
+ },
+ {
+  "code": "76.014",
+  "name": "Warlord Purple",
+  "nombre": "Púrpura",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#5d1738"
+ },
+ {
+  "code": "76.114",
+  "name": "Lustful Purple",
+  "nombre": "Púrpura Lujurioso",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#8966a8"
+ },
+ {
+  "code": "76.076",
+  "name": "Alien Purple",
+  "nombre": "Púrpura Alienígena",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#55417c"
+ },
+ {
+  "code": "76.016",
+  "name": "Royal Purple",
+  "nombre": "Púrpura Real",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#291d34"
+ },
+ {
+  "code": "76.116",
+  "name": "Midnight Purple",
+  "nombre": "Púrpura Medianoche",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#170b18"
+ },
+ {
+  "code": "76.022",
+  "name": "Ultramarine Blue",
+  "nombre": "Azul Ultramar",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#232341"
+ },
+ {
+  "code": "76.019",
+  "name": "Night Blue",
+  "nombre": "Azul Negro",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#1d1a24"
+ },
+ {
+  "code": "76.118",
+  "name": "Sunrise Blue",
+  "nombre": "Azul Amanecer",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#52b0d4"
+ },
+ {
+  "code": "76.023",
+  "name": "Electric Blue",
+  "nombre": "Azul Eléctrico",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#337ca4"
+ },
+ {
+  "code": "76.021",
+  "name": "Magic Blue",
+  "nombre": "Azul Mágico",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#1c3f88"
+ },
+ {
+  "code": "76.020",
+  "name": "Imperial Blue",
+  "nombre": "Azul Imperial",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#191b30"
+ },
+ {
+  "code": "76.024",
+  "name": "Turquoise",
+  "nombre": "Halcón Milenario",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#004a52"
+ },
+ {
+  "code": "76.120",
+  "name": "Abyssal Turquoise",
+  "nombre": "Turquesa Abisal",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#162731"
+ },
+ {
+  "code": "76.121",
+  "name": "Ghost Green",
+  "nombre": "Verde Espectral",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#55b484"
+ },
+ {
+  "code": "76.026",
+  "name": "Jade Green",
+  "nombre": "Verde Jade",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#00654d"
+ },
+ {
+  "code": "76.027",
+  "name": "Scurvy Green",
+  "nombre": "Verde Casposo",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#183b33"
+ },
+ {
+  "code": "76.122",
+  "name": "Bile Green",
+  "nombre": "Verde Bilioso",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#d5d900"
+ },
+ {
+  "code": "76.032",
+  "name": "Scorpy Green",
+  "nombre": "Verde Escorpena",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#537b35"
+ },
+ {
+  "code": "76.123",
+  "name": "Angel Green",
+  "nombre": "Verde Angelical",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#222c1b"
+ },
+ {
+  "code": "76.028",
+  "name": "Dark Green",
+  "nombre": "Verde Oscuro",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#252d22"
+ },
+ {
+  "code": "76.035",
+  "name": "Dead Flesh",
+  "nombre": "Carne Muerta",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#a58d46"
+ },
+ {
+  "code": "76.031",
+  "name": "Camouﬂ age Green",
+  "nombre": "Verde Camuﬂ aje",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#796a2d"
+ },
+ {
+  "code": "76.063",
+  "name": "Desert Yellow",
+  "nombre": "Desierto",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#7d5d2a"
+ },
+ {
+  "code": "76.062",
+  "name": "Earth",
+  "nombre": "Tierra",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#423118"
+ },
+ {
+  "code": "76.036",
+  "name": "Bronze Brown",
+  "nombre": "Marrón Bronceado",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#b16821"
+ },
+ {
+  "code": "76.040",
+  "name": "Leather Brown",
+  "nombre": "Marrón Cuero",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#5f3d19"
+ },
+ {
+  "code": "76.043",
+  "name": "Beasty Brown",
+  "nombre": "Marrón Bichos",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#492e0c"
+ },
+ {
+  "code": "76.042",
+  "name": "Parasite Brown",
+  "nombre": "Piel de Parásitos",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#67370d"
+ },
+ {
+  "code": "76.115",
+  "name": "Grunge Brown",
+  "nombre": "Marrón Mugre",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#633625"
+ },
+ {
+  "code": "76.045",
+  "name": "Charred Brown",
+  "nombre": "Marrón Carbonizado",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#2e1c10"
+ },
+ {
+  "code": "76.047",
+  "name": "Wolf Grey",
+  "nombre": "Gris Lobo",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#a7babe"
+ },
+ {
+  "code": "76.048",
+  "name": "Sombre Grey",
+  "nombre": "Gris Sombra",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#363d43"
+ },
+ {
+  "code": "76.049",
+  "name": "Stonewall Grey",
+  "nombre": "Gris Muralla",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#726d65"
+ },
+ {
+  "code": "76.050",
+  "name": "Neutral Grey",
+  "nombre": "Gris Neutral",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#474747"
+ },
+ {
+  "code": "76.051",
+  "name": "Black",
+  "nombre": "Negro",
+  "line": "Game Air",
+  "series": "",
+  "hex": "#000000"
+ },
+ {
+  "code": "77.101",
+  "name": "Sterling Silver",
+  "nombre": "Plata de Ley",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#ebeceb"
+ },
+ {
+  "code": "77.102",
+  "name": "Radiant Yellow",
+  "nombre": "Amarillo Radiante",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#e8d33d",
+  "degrade": true
+ },
+ {
+  "code": "77.103",
+  "name": "Imperial Gold",
+  "nombre": "Oro Imperial",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#d3aa67",
+  "degrade": true
+ },
+ {
+  "code": "77.104",
+  "name": "Ancient Copper",
+  "nombre": "Cobre Antiguo",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#e49f78",
+  "degrade": true
+ },
+ {
+  "code": "77.105",
+  "name": "Forged Red",
+  "nombre": "Rojo Forjado",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#e97a2d",
+  "degrade": true
+ },
+ {
+  "code": "77.106",
+  "name": "Ruby Red",
+  "nombre": "Rojo Rubí",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#ee9c88",
+  "degrade": true
+ },
+ {
+  "code": "77.107",
+  "name": "Crimson Magenta",
+  "nombre": "Magenta Carmesí",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#e598bd",
+  "degrade": true
+ },
+ {
+  "code": "77.108",
+  "name": "Amethyst Purple",
+  "nombre": "Púrpura Amatista",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#c79ac6",
+  "degrade": true
+ },
+ {
+  "code": "77.109",
+  "name": "Celestial Violet",
+  "nombre": "Violeta Celestial",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#b8a5cf",
+  "degrade": true
+ },
+ {
+  "code": "77.110",
+  "name": "Ultramarine Blue",
+  "nombre": "Azul Ultramar",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#7eb1cc",
+  "degrade": true
+ },
+ {
+  "code": "77.111",
+  "name": "Sapphire Blue",
+  "nombre": "Azul Zafi ro",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#55b0e3",
+  "degrade": true
+ },
+ {
+  "code": "77.112",
+  "name": "Hydra Turquoise",
+  "nombre": "Turquesa Hidra",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#83ccdd",
+  "degrade": true
+ },
+ {
+  "code": "77.113",
+  "name": "Beetle Green",
+  "nombre": "Verde Escarabajo",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#92cbb0",
+  "degrade": true
+ },
+ {
+  "code": "77.114",
+  "name": "Dusken Green",
+  "nombre": "Verde Sombrío",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#7bb380",
+  "degrade": true
+ },
+ {
+  "code": "77.115",
+  "name": "Amber Green",
+  "nombre": "Verde Ámbar",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#a6b06c",
+  "degrade": true
+ },
+ {
+  "code": "77.116",
+  "name": "Greenish Gold",
+  "nombre": "Oro Verde",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#eed36f",
+  "degrade": true
+ },
+ {
+  "code": "77.117",
+  "name": "Arcane Gold",
+  "nombre": "Oro Arcano",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#e1b96c",
+  "degrade": true
+ },
+ {
+  "code": "77.118",
+  "name": "Rusty Metal",
+  "nombre": "Metal Oxidado",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#c69e88",
+  "degrade": true
+ },
+ {
+  "code": "77.119",
+  "name": "Aged Metal",
+  "nombre": "Metal Envejecido",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#b7a771",
+  "degrade": true
+ },
+ {
+  "code": "77.120",
+  "name": "Obsidian Black",
+  "nombre": "Negro Obsidiana",
+  "line": "True Metallic Metal",
+  "series": "Light",
+  "hex": "#9e9f9e",
+  "degrade": true
+ },
+ {
+  "code": "77.121",
+  "name": "Sterling Silver",
+  "nombre": "Plata de Ley",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#bbc5ca",
+  "degrade": true
+ },
+ {
+  "code": "77.122",
+  "name": "Radiant Yellow",
+  "nombre": "Amarillo Radiante",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#ebbd1e",
+  "degrade": true
+ },
+ {
+  "code": "77.123",
+  "name": "Imperial Gold",
+  "nombre": "Oro Imperial",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#cd8e53",
+  "degrade": true
+ },
+ {
+  "code": "77.124",
+  "name": "Ancient Copper",
+  "nombre": "Cobre Antiguo",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#da7939",
+  "degrade": true
+ },
+ {
+  "code": "77.125",
+  "name": "Forged Red",
+  "nombre": "Rojo Forjado",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#d05c3d",
+  "degrade": true
+ },
+ {
+  "code": "77.126",
+  "name": "Ruby Red",
+  "nombre": "Rojo Rubí",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#c03342",
+  "degrade": true
+ },
+ {
+  "code": "77.127",
+  "name": "Crimson Magenta",
+  "nombre": "Magenta Carmesí",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#ba4e86",
+  "degrade": true
+ },
+ {
+  "code": "77.128",
+  "name": "Amethyst Purple",
+  "nombre": "Púrpura Amatista",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#9d5b9f",
+  "degrade": true
+ },
+ {
+  "code": "77.129",
+  "name": "Celestial Violet",
+  "nombre": "Violeta Celestial",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#7f529b",
+  "degrade": true
+ },
+ {
+  "code": "77.130",
+  "name": "Ultramarine Blue",
+  "nombre": "Azul Ultramar",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#365885",
+  "degrade": true
+ },
+ {
+  "code": "77.131",
+  "name": "Sapphire Blue",
+  "nombre": "Azul Zafi ro",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#0077a8",
+  "degrade": true
+ },
+ {
+  "code": "77.132",
+  "name": "Hydra Turquoise",
+  "nombre": "Turquesa Hidra",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#0085a3",
+  "degrade": true
+ },
+ {
+  "code": "77.133",
+  "name": "Beetle Green",
+  "nombre": "Verde Escarabajo",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#0c9279",
+  "degrade": true
+ },
+ {
+  "code": "77.134",
+  "name": "Dusken Green",
+  "nombre": "Verde Sombrío",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#3c6643",
+  "degrade": true
+ },
+ {
+  "code": "77.135",
+  "name": "Amber Green",
+  "nombre": "Verde Ámbar",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#637d3b",
+  "degrade": true
+ },
+ {
+  "code": "77.136",
+  "name": "Greenish Gold",
+  "nombre": "Oro Verde",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#8a7c38",
+  "degrade": true
+ },
+ {
+  "code": "77.137",
+  "name": "Arcane Gold",
+  "nombre": "Oro Arcano",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#a16f2d",
+  "degrade": true
+ },
+ {
+  "code": "77.138",
+  "name": "Rusty Metal",
+  "nombre": "Metal Oxidado",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#896449",
+  "degrade": true
+ },
+ {
+  "code": "77.139",
+  "name": "Aged Metal",
+  "nombre": "Metal Envejecido",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#605730",
+  "degrade": true
+ },
+ {
+  "code": "77.140",
+  "name": "Obsidian Black",
+  "nombre": "Negro Obsidiana",
+  "line": "True Metallic Metal",
+  "series": "Base",
+  "hex": "#444847",
+  "degrade": true
+ },
+ {
+  "code": "77.141",
+  "name": "Sterling Silver",
+  "nombre": "Plata de Ley",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#3b3a3a",
+  "degrade": true
+ },
+ {
+  "code": "77.142",
+  "name": "Radiant Yellow",
+  "nombre": "Amarillo Radiante",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#72541e",
+  "degrade": true
+ },
+ {
+  "code": "77.143",
+  "name": "Imperial Gold",
+  "nombre": "Oro Imperial",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#5c3a1c",
+  "degrade": true
+ },
+ {
+  "code": "77.144",
+  "name": "Ancient Copper",
+  "nombre": "Cobre Antiguo",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#8d3d0a",
+  "degrade": true
+ },
+ {
+  "code": "77.145",
+  "name": "Forged Red",
+  "nombre": "Rojo Forjado",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#801418",
+  "degrade": true
+ },
+ {
+  "code": "77.146",
+  "name": "Ruby Red",
+  "nombre": "Rojo Rubí",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#7d1f35",
+  "degrade": true
+ },
+ {
+  "code": "77.147",
+  "name": "Crimson Magenta",
+  "nombre": "Magenta Carmesí",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#91015b",
+  "degrade": true
+ },
+ {
+  "code": "77.148",
+  "name": "Amethyst Purple",
+  "nombre": "Púrpura Amatista",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#46134f",
+  "degrade": true
+ },
+ {
+  "code": "77.149",
+  "name": "Celestial Violet",
+  "nombre": "Violeta Celestial",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#311842"
+ },
+ {
+  "code": "77.150",
+  "name": "Ultramarine Blue",
+  "nombre": "Azul Ultramar",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#003361",
+  "degrade": true
+ },
+ {
+  "code": "77.151",
+  "name": "Sapphire Blue",
+  "nombre": "Azul Zafi ro",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#003d6c",
+  "degrade": true
+ },
+ {
+  "code": "77.152",
+  "name": "Hydra Turquoise",
+  "nombre": "Turquesa Hidra",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#006277",
+  "degrade": true
+ },
+ {
+  "code": "77.153",
+  "name": "Beetle Green",
+  "nombre": "Verde Escarabajo",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#005e54",
+  "degrade": true
+ },
+ {
+  "code": "77.154",
+  "name": "Dusken Green",
+  "nombre": "Verde Sombrío",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#003317",
+  "degrade": true
+ },
+ {
+  "code": "77.155",
+  "name": "Amber Green",
+  "nombre": "Verde Ámbar",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#2f482e",
+  "degrade": true
+ },
+ {
+  "code": "77.156",
+  "name": "Greenish Gold",
+  "nombre": "Oro Verde",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#2b3310",
+  "degrade": true
+ },
+ {
+  "code": "77.157",
+  "name": "Arcane Gold",
+  "nombre": "Oro Arcano",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#4a3319",
+  "degrade": true
+ },
+ {
+  "code": "77.158",
+  "name": "Rusty Metal",
+  "nombre": "Metal Oxidado",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#463832",
+  "degrade": true
+ },
+ {
+  "code": "77.159",
+  "name": "Aged Metal",
+  "nombre": "Metal Envejecido",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#3c3908",
+  "degrade": true
+ },
+ {
+  "code": "77.160",
+  "name": "Obsidian Black",
+  "nombre": "Negro Obsidiana",
+  "line": "True Metallic Metal",
+  "series": "Shade",
+  "hex": "#272726",
+  "degrade": true
+ },
+ {
+  "code": "77.161",
+  "name": "Sterling Silver",
+  "nombre": "Plata de Ley",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#bfc9cd",
+  "degrade": true
+ },
+ {
+  "code": "77.162",
+  "name": "Radiant Yellow",
+  "nombre": "Amarillo Radiante",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#edc22b",
+  "degrade": true
+ },
+ {
+  "code": "77.163",
+  "name": "Imperial Gold",
+  "nombre": "Oro Imperial",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#d09459",
+  "degrade": true
+ },
+ {
+  "code": "77.164",
+  "name": "Ancient Copper",
+  "nombre": "Cobre Antiguo",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#dc8144",
+  "degrade": true
+ },
+ {
+  "code": "77.165",
+  "name": "Forged Red",
+  "nombre": "Rojo Forjado",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#d46645",
+  "degrade": true
+ },
+ {
+  "code": "77.166",
+  "name": "Ruby Red",
+  "nombre": "Rojo Rubí",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#c34048",
+  "degrade": true
+ },
+ {
+  "code": "77.167",
+  "name": "Crimson Magenta",
+  "nombre": "Magenta Carmesí",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#be548a",
+  "degrade": true
+ },
+ {
+  "code": "77.168",
+  "name": "Amethyst Purple",
+  "nombre": "Púrpura Amatista",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#9f61a2",
+  "degrade": true
+ },
+ {
+  "code": "77.169",
+  "name": "Celestial Violet",
+  "nombre": "Violeta Celestial",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#845ca1",
+  "degrade": true
+ },
+ {
+  "code": "77.170",
+  "name": "Ultramarine Blue",
+  "nombre": "Azul Ultramar",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#3d5b87",
+  "degrade": true
+ },
+ {
+  "code": "77.171",
+  "name": "Sapphire Blue",
+  "nombre": "Azul Zafi ro",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#007aa8",
+  "degrade": true
+ },
+ {
+  "code": "77.172",
+  "name": "Hydra Turquoise",
+  "nombre": "Turquesa Hidra",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#0088a7",
+  "degrade": true
+ },
+ {
+  "code": "77.173",
+  "name": "Beetle Green",
+  "nombre": "Verde Escarabajo",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#2a967f",
+  "degrade": true
+ },
+ {
+  "code": "77.174",
+  "name": "Dusken Green",
+  "nombre": "Verde Sombrío",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#426a48",
+  "degrade": true
+ },
+ {
+  "code": "77.175",
+  "name": "Amber Green",
+  "nombre": "Verde Ámbar",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#688140",
+  "degrade": true
+ },
+ {
+  "code": "77.176",
+  "name": "Greenish Gold",
+  "nombre": "Oro Verde",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#8f833d",
+  "degrade": true
+ },
+ {
+  "code": "77.177",
+  "name": "Arcane Gold",
+  "nombre": "Oro Arcano",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#a57435",
+  "degrade": true
+ },
+ {
+  "code": "77.178",
+  "name": "Rusty Metal",
+  "nombre": "Metal Oxidado",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#8c684d",
+  "degrade": true
+ },
+ {
+  "code": "77.179",
+  "name": "Aged Metal",
+  "nombre": "Metal Envejecido",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#645a35",
+  "degrade": true
+ },
+ {
+  "code": "77.180",
+  "name": "Obsidian Black",
+  "nombre": "Negro Obsidiana",
+  "line": "True Metallic Metal",
+  "series": "Airbrush",
+  "hex": "#4a4c4c",
+  "degrade": true
+ },
+ {
+  "code": "69.001",
+  "name": "Pure White",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "69.002",
+  "name": "White Grey",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#bdbaa9"
+ },
+ {
+  "code": "69.003",
+  "name": "Off-White",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#ebe3c9"
+ },
+ {
+  "code": "69.004",
+  "name": "Yellow",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#e59800"
+ },
+ {
+  "code": "69.005",
+  "name": "Light Flesh",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#fbc991"
+ },
+ {
+  "code": "69.006",
+  "name": "Pink",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#d5745f"
+ },
+ {
+  "code": "69.007",
+  "name": "Orange",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#e84b19"
+ },
+ {
+  "code": "69.008",
+  "name": "Red",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#a8201b"
+ },
+ {
+  "code": "69.009",
+  "name": "SZ Red",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#912322"
+ },
+ {
+  "code": "69.010",
+  "name": "Magenta",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#8b2a5f"
+ },
+ {
+  "code": "69.011",
+  "name": "Dark Red",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#601320"
+ },
+ {
+  "code": "69.012",
+  "name": "Purple",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#8f6aa5"
+ },
+ {
+  "code": "69.013",
+  "name": "Titan Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#121e2d"
+ },
+ {
+  "code": "69.014",
+  "name": "Grey Green",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#465759"
+ },
+ {
+  "code": "69.015",
+  "name": "Blue Grey",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#46656f"
+ },
+ {
+  "code": "69.016",
+  "name": "Light Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#435f7a"
+ },
+ {
+  "code": "69.017",
+  "name": "Sky Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#08abce"
+ },
+ {
+  "code": "69.018",
+  "name": "Deep Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#005f92"
+ },
+ {
+  "code": "69.019",
+  "name": "Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#1c2347"
+ },
+ {
+  "code": "69.020",
+  "name": "Electric Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#1b245c"
+ },
+ {
+  "code": "69.021",
+  "name": "Dark Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#20313f"
+ },
+ {
+  "code": "69.022",
+  "name": "Titan Dark Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#121c1c"
+ },
+ {
+  "code": "69.023",
+  "name": "Turquoise",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#00777b"
+ },
+ {
+  "code": "69.024",
+  "name": "Stone Grey",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#768c89"
+ },
+ {
+  "code": "69.025",
+  "name": "Light Green",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#b8b8a7"
+ },
+ {
+  "code": "69.026",
+  "name": "Green",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#76826a"
+ },
+ {
+  "code": "69.027",
+  "name": "Green Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#618662"
+ },
+ {
+  "code": "69.028",
+  "name": "Olive Green",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#50623c"
+ },
+ {
+  "code": "69.029",
+  "name": "Deep Green",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#646d57"
+ },
+ {
+  "code": "69.030",
+  "name": "Dark Green",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#353525"
+ },
+ {
+  "code": "69.031",
+  "name": "Grey Sand",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#908472"
+ },
+ {
+  "code": "69.032",
+  "name": "Yellow Ochre",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#ae7020"
+ },
+ {
+  "code": "69.033",
+  "name": "Sand Yellow",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#f5bf57"
+ },
+ {
+  "code": "69.034",
+  "name": "Brown",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#6a4b31"
+ },
+ {
+  "code": "69.035",
+  "name": "Chipping Brown",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#2b1e17"
+ },
+ {
+  "code": "69.036",
+  "name": "Light Grey",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#77817e"
+ },
+ {
+  "code": "69.037",
+  "name": "Grey",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#5c6760"
+ },
+ {
+  "code": "69.038",
+  "name": "Medium Grey",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#5a5b5b"
+ },
+ {
+  "code": "69.039",
+  "name": "Grey Z",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#50524e"
+ },
+ {
+  "code": "69.040",
+  "name": "Phantom Grey",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#222c2e"
+ },
+ {
+  "code": "69.041",
+  "name": "Dark Grey Green",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#34312f"
+ },
+ {
+  "code": "69.042",
+  "name": "Pure Black",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "",
+  "hex": "#000000"
+ },
+ {
+  "code": "69.054",
+  "name": "Yellow Fluorescent",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#e0de12"
+ },
+ {
+  "code": "69.055",
+  "name": "Orange Fluorescent",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#e84610"
+ },
+ {
+  "code": "69.056",
+  "name": "Magenta Fluorescent",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#e40074"
+ },
+ {
+  "code": "69.057",
+  "name": "Green Fluorescent",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#27a737"
+ },
+ {
+  "code": "70.640",
+  "name": "White",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#ffffff"
+ },
+ {
+  "code": "70.641",
+  "name": "Grey",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#c1c2c2"
+ },
+ {
+  "code": "70.642",
+  "name": "Black",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#020203"
+ },
+ {
+  "code": "70.643",
+  "name": "Ivory",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#f0ebcb"
+ },
+ {
+  "code": "70.644",
+  "name": "Sand",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Fluorescent",
+  "hex": "#c0a478"
+ },
+ {
+  "code": "69.058",
+  "name": "Gunmetal",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#b1b0b0",
+  "degrade": true
+ },
+ {
+  "code": "69.059",
+  "name": "Gold",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#e7d4ad",
+  "degrade": true
+ },
+ {
+  "code": "69.060",
+  "name": "Old Gold",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#d9cbb0",
+  "degrade": true
+ },
+ {
+  "code": "69.061",
+  "name": "Copper",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#d8bba8",
+  "degrade": true
+ },
+ {
+  "code": "69.062",
+  "name": "Bronze",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#d0c1a4",
+  "degrade": true
+ },
+ {
+  "code": "69.063",
+  "name": "Steel",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#ccc8c6",
+  "degrade": true
+ },
+ {
+  "code": "69.064",
+  "name": "Light Steel",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#dedee0",
+  "degrade": true
+ },
+ {
+  "code": "69.065",
+  "name": "Dark Steel",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#bdbbbc",
+  "degrade": true
+ },
+ {
+  "code": "69.066",
+  "name": "Metallic Red",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#e4bcb5",
+  "degrade": true
+ },
+ {
+  "code": "69.067",
+  "name": "Metallic Blue",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#a9adbb",
+  "degrade": true
+ },
+ {
+  "code": "69.068",
+  "name": "Metallic Green",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Metallic",
+  "hex": "#b8d5c3",
+  "degrade": true
+ },
+ {
+  "code": "69.505",
+  "name": "Light Rust Wash",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#eb7717"
+ },
+ {
+  "code": "69.507",
+  "name": "Dark Rust Wash",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#e1580a"
+ },
+ {
+  "code": "69.515",
+  "name": "Light Grey Wash",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#c8c8c6"
+ },
+ {
+  "code": "69.518",
+  "name": "Black Wash",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#000000"
+ },
+ {
+  "code": "69.521",
+  "name": "Oiled Earth Wash",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#6d5b4f"
+ },
+ {
+  "code": "69.522",
+  "name": "Desert Dust Wash",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#d8bd80"
+ },
+ {
+  "code": "69.813",
+  "name": "Oil Stains (Gloss)",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#755419"
+ },
+ {
+  "code": "69.814",
+  "name": "Fuel Stains (Gloss)",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#a06314"
+ },
+ {
+  "code": "69.817",
+  "name": "Petrol Spills (Gloss)",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#1a1d1f"
+ },
+ {
+  "code": "69.818",
+  "name": "Brown Eng. Soot (Matt)",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#60361d"
+ },
+ {
+  "code": "69.821",
+  "name": "Rust Texture (Matt)",
+  "nombre": "",
+  "line": "Mecha Color",
+  "series": "Weathering",
+  "hex": "#6a3329"
+ },
+ {
+  "code": "62.001",
+  "name": "White",
+  "nombre": "Blanco",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#f9faf9"
+ },
+ {
+  "code": "62.002",
+  "name": "Orange Pink",
+  "nombre": "Naranja Rosado",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#f7ab64"
+ },
+ {
+  "code": "62.003",
+  "name": "Basic Yellow",
+  "nombre": "Amarillo Básico",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#fab400"
+ },
+ {
+  "code": "62.004",
+  "name": "Orange",
+  "nombre": "Naranja",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#e84b0f"
+ },
+ {
+  "code": "62.005",
+  "name": "Bright Red",
+  "nombre": "Rojo Vivo",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#911e1a"
+ },
+ {
+  "code": "62.006",
+  "name": "Carmine",
+  "nombre": "Carmín",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#691312"
+ },
+ {
+  "code": "62.007",
+  "name": "Magenta",
+  "nombre": "Magenta",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#7e234b"
+ },
+ {
+  "code": "62.008",
+  "name": "Violet",
+  "nombre": "Violeta",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#2f2143"
+ },
+ {
+  "code": "62.009",
+  "name": "Cobalt Blue",
+  "nombre": "Azul Cobalto",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#1d2c5c"
+ },
+ {
+  "code": "62.010",
+  "name": "Basic Blue",
+  "nombre": "Azul Básico",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#0075a4"
+ },
+ {
+  "code": "62.011",
+  "name": "Dark Blue",
+  "nombre": "Azul Oscuro",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#101229"
+ },
+ {
+  "code": "62.012",
+  "name": "Blue Green",
+  "nombre": "Verde Azul",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#00554e"
+ },
+ {
+  "code": "62.013",
+  "name": "Basic Green",
+  "nombre": "Verde Básico",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#004929"
+ },
+ {
+  "code": "62.014",
+  "name": "Dark Green",
+  "nombre": "Verde Oscuro",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#072217"
+ },
+ {
+  "code": "62.015",
+  "name": "Yellow Ochre",
+  "nombre": "Ocre Amarillo",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#b1792c"
+ },
+ {
+  "code": "62.016",
+  "name": "Dark Ochre",
+  "nombre": "Ocre Oscuro",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#6c3e27"
+ },
+ {
+  "code": "62.017",
+  "name": "Raw Sienna",
+  "nombre": "Siena Natural",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#522c21"
+ },
+ {
+  "code": "62.018",
+  "name": "Sepia",
+  "nombre": "Sepia",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#211000"
+ },
+ {
+  "code": "62.019",
+  "name": "Grey",
+  "nombre": "Gris",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#6b6d74"
+ },
+ {
+  "code": "62.020",
+  "name": "Black",
+  "nombre": "Negro",
+  "line": "Premium Color",
+  "series": "",
+  "hex": "#000000"
+ },
+ {
+  "code": "62.031",
+  "name": "Fluorescent Yellow",
+  "nombre": "Amarillo Fluorescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#e0dd00"
+ },
+ {
+  "code": "62.032",
+  "name": "Fluo. Golden Yellow",
+  "nombre": "Amarillo Dorado Fluo.",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#f7a600"
+ },
+ {
+  "code": "62.033",
+  "name": "Fluorescent Orange",
+  "nombre": "Naranja Fluorescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#e74317"
+ },
+ {
+  "code": "62.034",
+  "name": "Fluorescent Scarlet",
+  "nombre": "Escarlata Fluorescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#d31326"
+ },
+ {
+  "code": "62.035",
+  "name": "Fluorescent Rose",
+  "nombre": "Rosa Fluorescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#e93e8e"
+ },
+ {
+  "code": "62.036",
+  "name": "Fluorescent Magenta",
+  "nombre": "Magenta Fluorescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#cf0a65"
+ },
+ {
+  "code": "62.037",
+  "name": "Fluorescent Violet",
+  "nombre": "Violeta Fluorescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#4d215c"
+ },
+ {
+  "code": "62.038",
+  "name": "Fluorescent Blue",
+  "nombre": "Azul Fluorescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#0092d4"
+ },
+ {
+  "code": "62.039",
+  "name": "Fluorescent Green",
+  "nombre": "Verde Fluorescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#52ae32"
+ },
+ {
+  "code": "62.040",
+  "name": "Phosphorescent",
+  "nombre": "Fosforescente",
+  "line": "Premium Color",
+  "series": "Fluorescent",
+  "hex": "#e9ebe2"
+ },
+ {
+  "code": "62.041",
+  "name": "Metallic Medium",
+  "nombre": "Medium Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#edebe6",
+  "degrade": true
+ },
+ {
+  "code": "62.042",
+  "name": "Metallic Yellow",
+  "nombre": "Amarillo Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#f7deb8",
+  "degrade": true
+ },
+ {
+  "code": "62.043",
+  "name": "Metallic Orange",
+  "nombre": "Naranja Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#facfc1",
+  "degrade": true
+ },
+ {
+  "code": "62.044",
+  "name": "Metallic Red",
+  "nombre": "Rojo Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#e7c0c0",
+  "degrade": true
+ },
+ {
+  "code": "62.045",
+  "name": "Metallic Violet",
+  "nombre": "Violeta Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#c3b8d2",
+  "degrade": true
+ },
+ {
+  "code": "62.046",
+  "name": "Metallic Blue",
+  "nombre": "Azul Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#b4c0dc",
+  "degrade": true
+ },
+ {
+  "code": "62.047",
+  "name": "Metallic Green",
+  "nombre": "Verde Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#c0d4c2",
+  "degrade": true
+ },
+ {
+  "code": "62.048",
+  "name": "Silver",
+  "nombre": "Plata",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#e5e3e3",
+  "degrade": true
+ },
+ {
+  "code": "62.049",
+  "name": "Gold",
+  "nombre": "Oro",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#f5dab8",
+  "degrade": true
+ },
+ {
+  "code": "62.050",
+  "name": "Copper",
+  "nombre": "Cobre",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#e2c2ac",
+  "degrade": true
+ },
+ {
+  "code": "62.051",
+  "name": "Steel",
+  "nombre": "Acero",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#d3d2d7",
+  "degrade": true
+ },
+ {
+  "code": "62.052",
+  "name": "Gunmetal",
+  "nombre": "Gris Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#b0adb0",
+  "degrade": true
+ },
+ {
+  "code": "62.053",
+  "name": "Metallic Black",
+  "nombre": "Negro Metálico",
+  "line": "Premium Color",
+  "series": "Pearl and metallic",
+  "hex": "#9d9896",
+  "degrade": true
+ },
+ {
+  "code": "62.071",
+  "name": "Candy Yellow",
+  "nombre": "Amarillo Transparente",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#fbe59b",
+  "degrade": true
+ },
+ {
+  "code": "62.072",
+  "name": "Candy Dark Yellow",
+  "nombre": "Amarillo Osc. Transp.",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#fdd394",
+  "degrade": true
+ },
+ {
+  "code": "62.073",
+  "name": "Candy Orange",
+  "nombre": "Naranja Transparente",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#f8bb8c",
+  "degrade": true
+ },
+ {
+  "code": "62.074",
+  "name": "Candy Red",
+  "nombre": "Rojo Transparente",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#f29e8a",
+  "degrade": true
+ },
+ {
+  "code": "62.075",
+  "name": "Candy Magenta",
+  "nombre": "Magenta Transparente",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#e5a5c4",
+  "degrade": true
+ },
+ {
+  "code": "62.076",
+  "name": "Candy Racing Blue",
+  "nombre": "Azul Racing Transp.",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#94a9d4",
+  "degrade": true
+ },
+ {
+  "code": "62.077",
+  "name": "Candy Racing Green",
+  "nombre": "Verde Racing Transp.",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#8aac9b",
+  "degrade": true
+ },
+ {
+  "code": "62.078",
+  "name": "Candy Brown",
+  "nombre": "Marrón Transparente",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#a28a7d",
+  "degrade": true
+ },
+ {
+  "code": "62.079",
+  "name": "Candy Black",
+  "nombre": "Negro Transparente",
+  "line": "Premium Color",
+  "series": "Candy",
+  "hex": "#6a6160",
+  "degrade": true
+ }
+]

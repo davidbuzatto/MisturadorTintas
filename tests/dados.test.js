@@ -46,6 +46,9 @@ test('buildCatalogs: catálogos antigos inalterados e Tamiya dividido sem perda'
     tm: ler('tamiya-cores-oficial.json'),
     rv: ler('revell-cores-oficial.json'),
     fs: ler('fs595-cores.json'),
+    vl: [],
+    mr: [],
+    hb: [],
   });
   assert.deepEqual(cat.acrilex, golden.acrilex);
   assert.deepEqual(cat.revellA, golden.revellA);
@@ -63,4 +66,86 @@ test('buildCatalogs: catálogos antigos inalterados e Tamiya dividido sem perda'
   assert.equal(normalizeTab('tamiya'), 'tamiyaA');
   assert.equal(normalizeTab('revellE'), 'revellE');
   assert.equal(normalizeTab('inexistente'), 'tamiyaA');
+});
+
+test('Vallejo: registros completos, códigos únicos e linhas esperadas', () => {
+  const cores = ler('vallejo-cores.json');
+  const codigos = cores.map((c) => c.code);
+  assert.equal(new Set(codigos).size, codigos.length, 'códigos repetidos');
+  for (const c of cores) {
+    assert.match(c.code, /^\d{2}\.\d{3}$/, c.code);
+    assert.match(c.hex, HEX, `hex de ${c.code}`);
+    assert.ok(c.name, `nome de ${c.code}`);
+    assert.ok(c.line, `linha de ${c.code}`);
+  }
+  const porLinha = {};
+  cores.forEach((c) => { porLinha[c.line] = (porLinha[c.line] || 0) + 1; });
+  // Model Color tem 204 cores numeradas no catálogo impresso (1 a 204)
+  assert.equal(porLinha['Model Color'], 204);
+  for (const l of ['Model Air', 'Game Color', 'Xpress Color', 'Game Air', 'True Metallic Metal', 'Mecha Color', 'Premium Color']) {
+    assert.ok(porLinha[l] > 0, `linha ${l} vazia`);
+  }
+  // amostras chapadas (sem degradê) como White e Black são exatas
+  const white = cores.find((c) => c.code === '70.951');
+  assert.equal(white.hex, '#ffffff');
+  assert.ok(!white.degrade);
+  assert.ok(cores.find((c) => c.code === '70.997').degrade, 'Silver (metálico) deve ser degradê');
+});
+
+test('buildCatalogs inclui Vallejo e catalogLines lista as linhas', async () => {
+  const { buildCatalogs, catalogLines } = await import('../js/data/catalogs.js');
+  const cat = buildCatalogs({
+    ac: ler('acrilex-cores-oficial.json'),
+    tm: ler('tamiya-cores-oficial.json'),
+    rv: ler('revell-cores-oficial.json'),
+    fs: ler('fs595-cores.json'),
+    vl: ler('vallejo-cores.json'),
+    mr: ler('mrcolor-cores.json'),
+    hb: ler('humbrol-cores.json'),
+  });
+  assert.equal(cat.vallejo.length, ler('vallejo-cores.json').length);
+  assert.deepEqual(catalogLines(cat.vallejo).slice(0, 2), ['Model Color', 'Liquid Metal']);
+  assert.deepEqual(catalogLines(cat.fs595), []); // catálogos sem linhas
+});
+
+test('Mr. Hobby: registros completos, códigos únicos e contagens por linha', () => {
+  const cores = ler('mrcolor-cores.json');
+  const codigos = cores.map((c) => c.code);
+  assert.equal(new Set(codigos).size, codigos.length, 'códigos repetidos');
+  const porLinha = {};
+  for (const c of cores) {
+    assert.match(c.hex, HEX, `hex de ${c.code}`);
+    assert.ok(c.name && c.name !== c.code, `nome de ${c.code}`);
+    assert.doesNotMatch(c.name, /&#|&amp;/, `entidade HTML em ${c.code}`);
+    porLinha[c.line] = (porLinha[c.line] || 0) + 1;
+    // o prefixo do código acompanha a linha
+    if (c.line === 'Aqueous Hobby Color') assert.match(c.code, /^H\d+$/);
+    if (c.line === 'Acrysion') assert.match(c.code, /^N\d+$/);
+  }
+  assert.equal(porLinha['Aqueous Hobby Color'], 156);
+  assert.equal(porLinha['Acrysion'], 90);
+  assert.ok(porLinha['Mr. Color'] > 150);
+  // cores básicas iguais nas três linhas (H1/N1/C1 = branco; H2/N2/C2 = preto)
+  const por = Object.fromEntries(cores.map((c) => [c.code, c]));
+  for (const p of ['C', 'H', 'N']) {
+    assert.equal(por[p + '1'].hex, '#ffffff', p + '1');
+    assert.equal(por[p + '2'].hex, '#231f20', p + '2');
+  }
+});
+
+test('Humbrol: registros completos, códigos únicos e cores conhecidas', () => {
+  const cores = ler('humbrol-cores.json');
+  assert.ok(cores.length >= 140, `esperava ~147 cores, veio ${cores.length}`);
+  const codigos = cores.map((c) => c.code);
+  assert.equal(new Set(codigos).size, codigos.length, 'códigos repetidos');
+  for (const c of cores) {
+    assert.match(c.code, /^[0-9]+$/, c.code);
+    assert.match(c.hex, HEX, `hex de ${c.code}`);
+    assert.ok(c.name, `nome de ${c.code}`);
+    assert.ok(!/varnish/i.test(c.name), `verniz não é cor: ${c.code}`);
+  }
+  const por = Object.fromEntries(cores.map((c) => [c.code, c]));
+  assert.equal(por['33'].hex, '#000000'); // Black Matt
+  assert.equal(por['34'].hex, '#ffffff'); // White Matt
+  assert.equal(por['22'].hex, '#ffffff'); // White Gloss
 });

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Misturador de tintas</title>
+<title>Misturador de Tintas</title>
 <!-- Ícone: paleta de cores (SVG embutido em base64, sem arquivo externo) -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHBhdGggZmlsbD0iI2YzZTNjMyIgc3Ryb2tlPSIjOGE1YTJiIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMyIDZDMTYgNiA1IDE3IDUgMzFjMCAxMyAxMCAyNCAyMiAyNCA1IDAgNi0zIDUtNi0xLTMgMS02IDUtNmg4YzggMCAxNC01IDE0LTEyQzU5IDE2IDQ3IDYgMzIgNnpNMjEgMzguNWE0LjUgNC41IDAgMSAwIDAgOSA0LjUgNC41IDAgMSAwIDAtOXoiLz48Y2lyY2xlIGN4PSIxOSIgY3k9IjIzIiByPSI1LjUiIGZpbGw9IiNlMDMxMzEiLz48Y2lyY2xlIGN4PSIzMiIgY3k9IjE2IiByPSI1LjUiIGZpbGw9IiNmNWM1MTgiLz48Y2lyY2xlIGN4PSI0NSIgY3k9IjIyIiByPSI1LjUiIGZpbGw9IiMxYzdlZDYiLz48Y2lyY2xlIGN4PSI0OSIgY3k9IjM1IiByPSI1LjUiIGZpbGw9IiMyZjllNDQiLz48L3N2Zz4=">
 <link rel="stylesheet" href="css/styles.css">
@@ -11,8 +11,8 @@
 </head>
 <body>
 <header>
-  <h1>Misturador de tintas</h1>
-  <p class="sub">Tintas Acrilex Fosca como ingredientes; cor-alvo de qualquer catálogo (Tamiya, Revell, FS 595, Acrilex). A mistura é calculada como <b>pigmentos</b> (espectral, Kubelka-Munk), não como média de RGB.</p>
+  <h1>Misturador de Tintas</h1>
+  <p class="sub">Tintas Acrilex Fosca como ingredientes; cor-alvo de qualquer catálogo (Tamiya, Revell, FS 595, Vallejo, Mr. Hobby, Humbrol, Acrilex). A mistura é calculada como <b>pigmentos</b> (espectral, Kubelka-Munk), não como média de RGB.</p>
   <p class="warn" id="erro" hidden></p>
 </header>
 <main>
@@ -45,6 +45,7 @@
   <section class="card">
     <h2>2 · Cor-alvo</h2>
     <div class="tabs" id="tgtTabs"></div>
+    <div class="tabs sub" id="tgtLines" style="display:none"></div>
     <div class="row" style="margin-bottom:8px"><input type="text" id="tgtSearch" placeholder="buscar código ou nome…" style="flex:1;min-width:140px"><span id="freeBox" style="display:none"><input type="color" id="freeColor" value="#808080"> <input type="text" id="freeHex" value="#808080" style="width:90px"></span></div>
     <div class="grid" id="tgtGrid"></div>
   </section>

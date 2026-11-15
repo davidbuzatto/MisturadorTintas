@@ -44,6 +44,22 @@ ferramentas/, originais/ material histórico da extração das cores (scripts Py
 - **FS 595 (AMS-STD-595):** cores das amostras exibidas em <https://ams-std-595-color.com/> (revendedor de leques
   de cores, sem vínculo com GSA/SAE), extraídas por `node ferramentas/extrair-fs595.mjs` para `dados/fs595-cores.json`
   (653 cores). Acabamento derivado do 1º dígito do número (1 gloss, 2 semi-gloss, 3 flat). São aproximações de tela.
+- **Vallejo:** cartelas do *Catalogue 2026* (PDF): posição de cada código (`pdftohtml`) + mediana dos pixels da amostra
+  impressa logo acima (`pdftoppm`), via `node ferramentas/extrair-vallejo.mjs "Catalogo.pdf"` (requer poppler).
+  892 cores em 9 linhas (Model Color, Liquid Metal, Model Air, Game Color, Xpress Color, Game Air, True Metallic Metal,
+  Mecha Color, Premium Color). Fora: Metal Color, Primers, Hobby Paint e "Auxiliary Products" (sem cor). Amostras em
+  degradê/metálicas têm `degrade: true` (borda tracejada na grade): a cor é só uma aproximação.
+- **Mr. Hobby (Gunze):** *Mr.Hobby Catalogue 2024-2025* (PDF), com o mesmo método da Vallejo (etiqueta de código em
+  texto branco + mediana da amostra ao lado): `node ferramentas/extrair-mrcolor.mjs "Catalogo.pdf"` (requer poppler).
+  443 cores em 3 linhas: Mr. Color (lacquer, códigos C…, com GX, Super Metallic 2, Ultra Metallic, Revival e Velvet),
+  Aqueous Hobby Color (H…) e Acrysion (N…). O catálogo mostra os mesmos números de cor nas três linhas (C1 = H1 = N1).
+  Ficam de fora aditivos, kits, marcadores, Lascivus (pele), Clear GX e Metallic GX (amostras sem nome).
+- **Humbrol (acrílicas):** site <https://uk.humbrol.com/catalogue> (filtro "Acrylic paint", 150 produtos em 13 páginas).
+  A lista é carregada por JavaScript, então foi coletada no navegador e guardada em `ferramentas/humbrol-lista.json`
+  (SKU, rótulo e imagem). Cada imagem mostra um respingo da tinta e o frasco: `node ferramentas/extrair-humbrol.mjs`
+  baixa as imagens (uma por vez, com pausa) e usa a mediana de uma caixa dentro do respingo (requer `ffmpeg`).
+  147 cores (os 3 vernizes ficam de fora). Fluorescentes e metálicos são só aproximações (o site usa a mesma tinta
+  de tela para o 37 Bright Green e o 208 Fluorescent Signal Green).
 - São aproximações; metálicos e translúcidos são os que mais se afastam.
 
 ## Modelo de mistura
