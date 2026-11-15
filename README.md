@@ -1,4 +1,4 @@
-# Misturador de tintas — plastimodelismo
+# Misturador de Tintas — plastimodelismo
 
 Calcula misturas de tintas **Acrilex Fosca** (ingredientes) para chegar a uma cor-alvo de qualquer catálogo
 (Tamiya, Revell, Acrilex ou cor livre). A mistura é calculada como **pigmentos** (modelo espectral
@@ -41,6 +41,9 @@ ferramentas/, originais/ material histórico da extração das cores (scripts Py
 - **Tamiya:** cor dominante (não branca) da região central da imagem de cada tinta no site oficial; XF-94 incluída; aditivos sem cor.
 - **Revell:** mediana da esfera de cor no site (descartando os 25% mais claros, por causa do reflexo nos acabamentos gloss).
 - **Acrilex:** mediana dos pixels da cartela impressa no PDF (págs. 36–37). Branco fixado em #ffffff.
+- **FS 595 (AMS-STD-595):** cores das amostras exibidas em <https://ams-std-595-color.com/> (revendedor de leques
+  de cores, sem vínculo com GSA/SAE), extraídas por `node ferramentas/extrair-fs595.mjs` para `dados/fs595-cores.json`
+  (653 cores). Acabamento derivado do 1º dígito do número (1 gloss, 2 semi-gloss, 3 flat). São aproximações de tela.
 - São aproximações; metálicos e translúcidos são os que mais se afastam.
 
 ## Modelo de mistura

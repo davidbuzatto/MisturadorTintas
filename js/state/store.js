@@ -47,12 +47,12 @@ export const DEFAULT_INGREDIENTS = [
 function defaultState() {
   return {
     ing: [],
-    target: { hex: '#4f5457', label: 'Tamiya X-10 Gun Metal' },
+    target: { hex: '#4f5457', label: 'Tamiya Acrílica X-10 Gun Metal' },
     model: 'km',
     total: 10,
     own: {},
     hist: [],
-    tab: 'tamiya',
+    tab: 'tamiyaA',
     free: '#808080',
   };
 }

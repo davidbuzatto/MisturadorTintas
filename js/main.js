@@ -7,7 +7,7 @@
  * `ctx.update()` (ou o `render()` do módulo) para redesenhar.
  */
 
-import { INGREDIENT_CATALOG, indexIngredients, loadCatalogs } from './data/catalogs.js';
+import { INGREDIENT_CATALOG, indexIngredients, loadCatalogs, normalizeTab } from './data/catalogs.js';
 import { createStore } from './state/store.js';
 import { $ } from './ui/dom.js';
 import { createIngredients } from './ui/ingredients.js';
@@ -33,6 +33,7 @@ async function init() {
   const catalogs = await loadCatalogs();
   const paintByCode = indexIngredients(catalogs[INGREDIENT_CATALOG]);
   const { state, save } = createStore();
+  state.tab = normalizeTab(state.tab); // restaura abas salvas por versões anteriores
 
   /** @type {AppContext} */
   const ctx = { state, save, catalogs, paintByCode, ui: {}, update: () => {} };

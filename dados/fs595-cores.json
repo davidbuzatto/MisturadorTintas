@@ -1,0 +1,3920 @@
+[
+ {
+  "code": "10032",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#372726"
+ },
+ {
+  "code": "10045",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#5f4f4a"
+ },
+ {
+  "code": "10049",
+  "name": "Maroon 81352, ANA 510",
+  "finish": "Gloss",
+  "hex": "#4f2a25"
+ },
+ {
+  "code": "10055",
+  "name": "DoT Highway Brown",
+  "finish": "Gloss",
+  "hex": "#6f4625"
+ },
+ {
+  "code": "10059",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#47362c"
+ },
+ {
+  "code": "10070",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#654037"
+ },
+ {
+  "code": "10075",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#654037"
+ },
+ {
+  "code": "10076",
+  "name": "Coast Guard Deck Red, Metallic Red - Brown",
+  "finish": "Gloss",
+  "hex": "#7c3925"
+ },
+ {
+  "code": "10080",
+  "name": "Seal Brown, NASA Safety Brown",
+  "finish": "Gloss",
+  "hex": "#614a36"
+ },
+ {
+  "code": "10091",
+  "name": "Dark Oak",
+  "finish": "Gloss",
+  "hex": "#824725"
+ },
+ {
+  "code": "10115",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#a66e44"
+ },
+ {
+  "code": "10219",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#9a7e67"
+ },
+ {
+  "code": "10233",
+  "name": "Cocoa Brown, National Parks Service",
+  "finish": "Gloss",
+  "hex": "#ac7d6d"
+ },
+ {
+  "code": "10260",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#d0b072"
+ },
+ {
+  "code": "10266",
+  "name": "Middlestone",
+  "finish": "Gloss",
+  "hex": "#b18f58"
+ },
+ {
+  "code": "10324",
+  "name": "Brown",
+  "finish": "Gloss",
+  "hex": "#b59b88"
+ },
+ {
+  "code": "10371",
+  "name": "Buff, TT-E-489",
+  "finish": "Gloss",
+  "hex": "#cc9a63"
+ },
+ {
+  "code": "11086",
+  "name": "DoT Highway Red",
+  "finish": "Gloss",
+  "hex": "#ad2328"
+ },
+ {
+  "code": "11105",
+  "name": "OSHA Safety Red, DoT Highway red",
+  "finish": "Gloss",
+  "hex": "#ae2825"
+ },
+ {
+  "code": "11120",
+  "name": "OSHA Safety Red",
+  "finish": "Gloss",
+  "hex": "#c23b31"
+ },
+ {
+  "code": "11136",
+  "name": "Insignia Red, Carmine Red",
+  "finish": "Gloss",
+  "hex": "#a32b25"
+ },
+ {
+  "code": "11140",
+  "name": "OSHA Safety Red",
+  "finish": "Gloss",
+  "hex": "#ae2b29"
+ },
+ {
+  "code": "11302",
+  "name": "Red",
+  "finish": "Gloss",
+  "hex": "#cd4f3a"
+ },
+ {
+  "code": "11310",
+  "name": "Post Office Red",
+  "finish": "Gloss",
+  "hex": "#b74441"
+ },
+ {
+  "code": "11328",
+  "name": "Red",
+  "finish": "Gloss",
+  "hex": "#be4a52"
+ },
+ {
+  "code": "11330",
+  "name": "RCAF Snowbird Red I-4147",
+  "finish": "Gloss",
+  "hex": "#ac4044"
+ },
+ {
+  "code": "11350",
+  "name": "Coast Guard Buoy Red",
+  "finish": "Gloss",
+  "hex": "#c95246"
+ },
+ {
+  "code": "11400",
+  "name": "Red",
+  "finish": "Gloss",
+  "hex": "#d65030"
+ },
+ {
+  "code": "11630",
+  "name": "Pink",
+  "finish": "Gloss",
+  "hex": "#e7c1bb"
+ },
+ {
+  "code": "11670",
+  "name": "Peach",
+  "finish": "Gloss",
+  "hex": "#f8d4bb"
+ },
+ {
+  "code": "12160",
+  "name": "Orange - Brown",
+  "finish": "Gloss",
+  "hex": "#b36647"
+ },
+ {
+  "code": "12197",
+  "name": "International Orange, ANA 508",
+  "finish": "Gloss",
+  "hex": "#d24e00"
+ },
+ {
+  "code": "12199",
+  "name": "Coast Guard Red #40",
+  "finish": "Gloss",
+  "hex": "#ec4300"
+ },
+ {
+  "code": "12215",
+  "name": "Orange",
+  "finish": "Gloss",
+  "hex": "#d76117"
+ },
+ {
+  "code": "12243",
+  "name": "DoT Highway Orange",
+  "finish": "Gloss",
+  "hex": "#e37300"
+ },
+ {
+  "code": "12246",
+  "name": "OSHA Safety Orange",
+  "finish": "Gloss",
+  "hex": "#df6100"
+ },
+ {
+  "code": "12250",
+  "name": "Coast Guard Orange",
+  "finish": "Gloss",
+  "hex": "#d24f39"
+ },
+ {
+  "code": "12300",
+  "name": "OSHA Safety Orange",
+  "finish": "Gloss",
+  "hex": "#ea7800"
+ },
+ {
+  "code": "12473",
+  "name": "Orange",
+  "finish": "Gloss",
+  "hex": "#c06300"
+ },
+ {
+  "code": "12648",
+  "name": "Orange",
+  "finish": "Gloss",
+  "hex": "#eec9a2"
+ },
+ {
+  "code": "13275",
+  "name": "Post Office Yellow",
+  "finish": "Gloss",
+  "hex": "#ab8000"
+ },
+ {
+  "code": "13415",
+  "name": "School Bus Yellow",
+  "finish": "Gloss",
+  "hex": "#efa400"
+ },
+ {
+  "code": "13432",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "hex": "#f5a400"
+ },
+ {
+  "code": "13507",
+  "name": "DoT Highway Yellow",
+  "finish": "Gloss",
+  "hex": "#ffb700"
+ },
+ {
+  "code": "13522",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "hex": "#d2c1a4"
+ },
+ {
+  "code": "13523",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "hex": "#d3b886"
+ },
+ {
+  "code": "13531",
+  "name": "Beige",
+  "finish": "Gloss",
+  "hex": "#d7c1a8"
+ },
+ {
+  "code": "13538",
+  "name": "Orange Yellow, DoT highway yellow, ANA 506",
+  "finish": "Gloss",
+  "hex": "#f9b000"
+ },
+ {
+  "code": "13578",
+  "name": "Warm Gray",
+  "finish": "Gloss",
+  "hex": "#dfcca7"
+ },
+ {
+  "code": "13591",
+  "name": "OSHA Safety Yellow",
+  "finish": "Gloss",
+  "hex": "#f7d100"
+ },
+ {
+  "code": "13594",
+  "name": "Aircraft Cream, ANA 507",
+  "finish": "Gloss",
+  "hex": "#f2cd88"
+ },
+ {
+  "code": "13596",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "hex": "#e7c686"
+ },
+ {
+  "code": "13613",
+  "name": "Buff",
+  "finish": "Gloss",
+  "hex": "#f1d2aa"
+ },
+ {
+  "code": "13618",
+  "name": "Postal Service Cream",
+  "finish": "Gloss",
+  "hex": "#f6d26d"
+ },
+ {
+  "code": "13637",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "hex": "#e2b41e"
+ },
+ {
+  "code": "13655",
+  "name": "Blue Angels Yellow, OSHA Safety Yellow, ANA 505",
+  "finish": "Gloss",
+  "hex": "#ffc700"
+ },
+ {
+  "code": "13670",
+  "name": "Lime Yellow, Yellow - green",
+  "finish": "Gloss",
+  "hex": "#d2cd65"
+ },
+ {
+  "code": "13690",
+  "name": "Park Service Cream",
+  "finish": "Gloss",
+  "hex": "#ecdab7"
+ },
+ {
+  "code": "13695",
+  "name": "Ivory, Forest Service",
+  "finish": "Gloss",
+  "hex": "#f6d488"
+ },
+ {
+  "code": "13711",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "hex": "#efd7b1"
+ },
+ {
+  "code": "13740",
+  "name": "DLA Orphean Sand",
+  "finish": "Gloss",
+  "hex": "#e6d7c3"
+ },
+ {
+  "code": "13814",
+  "name": "Yellow",
+  "finish": "Gloss",
+  "hex": "#dbdc9c"
+ },
+ {
+  "code": "14036",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#263d37"
+ },
+ {
+  "code": "14050",
+  "name": "Army Green, NATO Green",
+  "finish": "Gloss",
+  "hex": "#42463c"
+ },
+ {
+  "code": "14052",
+  "name": "Marine Green #23",
+  "finish": "Gloss",
+  "hex": "#434438"
+ },
+ {
+  "code": "14056",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#2b332b"
+ },
+ {
+  "code": "14062",
+  "name": "Dark Green, Deep Green",
+  "finish": "Gloss",
+  "hex": "#1f563b"
+ },
+ {
+  "code": "14064",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#4c4b3c"
+ },
+ {
+  "code": "14066",
+  "name": "DoT Highway Green",
+  "finish": "Gloss",
+  "hex": "#005b40"
+ },
+ {
+  "code": "14077",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#464e44"
+ },
+ {
+  "code": "14079",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#515240"
+ },
+ {
+  "code": "14081",
+  "name": "Sikorsky Green",
+  "finish": "Gloss",
+  "hex": "#3c3727"
+ },
+ {
+  "code": "14084",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#3c3728"
+ },
+ {
+  "code": "14090",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#007145"
+ },
+ {
+  "code": "14097",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#60684a"
+ },
+ {
+  "code": "14109",
+  "name": "DoT Highway Green",
+  "finish": "Gloss",
+  "hex": "#005f45"
+ },
+ {
+  "code": "14110",
+  "name": "NASA Safety Medium Green",
+  "finish": "Gloss",
+  "hex": "#276f3a"
+ },
+ {
+  "code": "14115",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#007a59"
+ },
+ {
+  "code": "14120",
+  "name": "OSHA Safety Green",
+  "finish": "Gloss",
+  "hex": "#007e60"
+ },
+ {
+  "code": "14151",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#646342"
+ },
+ {
+  "code": "14158",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#6b7976"
+ },
+ {
+  "code": "14159",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#747b6e"
+ },
+ {
+  "code": "14187",
+  "name": "Oxygen Tank Green, ANA 503",
+  "finish": "Gloss",
+  "hex": "#528431"
+ },
+ {
+  "code": "14193",
+  "name": "Coast Guard Green",
+  "finish": "Gloss",
+  "hex": "#2e9155"
+ },
+ {
+  "code": "14223",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#5f8c6a"
+ },
+ {
+  "code": "14241",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#87a298"
+ },
+ {
+  "code": "14255",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#988e60"
+ },
+ {
+  "code": "14257",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#949166"
+ },
+ {
+  "code": "14260",
+  "name": "OSHA Safety Green",
+  "finish": "Gloss",
+  "hex": "#639e7e"
+ },
+ {
+  "code": "14272",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#7a9f81"
+ },
+ {
+  "code": "14277",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#8b9e96"
+ },
+ {
+  "code": "14325",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#84ac9b"
+ },
+ {
+  "code": "14449",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#aabd9c"
+ },
+ {
+  "code": "14491",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#aec2ad"
+ },
+ {
+  "code": "14516",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#b8c8b7"
+ },
+ {
+  "code": "14533",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#b2bf98"
+ },
+ {
+  "code": "14664",
+  "name": "Green",
+  "finish": "Gloss",
+  "hex": "#bbd1b8"
+ },
+ {
+  "code": "14672",
+  "name": "Army Admin Vehicles",
+  "finish": "Gloss",
+  "hex": "#d5dbc0"
+ },
+ {
+  "code": "15042",
+  "name": "Sea Blue, Teal blue, ANA 623",
+  "finish": "Gloss",
+  "hex": "#2d373d"
+ },
+ {
+  "code": "15044",
+  "name": "Insignia Blue, Dark Blue, ANA 502",
+  "finish": "Gloss",
+  "hex": "#263042"
+ },
+ {
+  "code": "15045",
+  "name": "Strata Blue, Air Force Blue, ANA 516",
+  "finish": "Gloss",
+  "hex": "#213b4a"
+ },
+ {
+  "code": "15048",
+  "name": "Post Office Dark Blue",
+  "finish": "Gloss",
+  "hex": "#3d495c"
+ },
+ {
+  "code": "15050",
+  "name": "\"Blue Angels\" Blue, Post Office Box",
+  "finish": "Gloss",
+  "hex": "#214061"
+ },
+ {
+  "code": "15051",
+  "name": "RCAF Snowbird Blue I-6256",
+  "finish": "Gloss",
+  "hex": "#3b5375"
+ },
+ {
+  "code": "15052",
+  "name": "Post Office Medium Blue",
+  "finish": "Gloss",
+  "hex": "#1f2f60"
+ },
+ {
+  "code": "15055",
+  "name": "Blue",
+  "finish": "Gloss",
+  "hex": "#263b56"
+ },
+ {
+  "code": "15056",
+  "name": "Blue",
+  "finish": "Gloss",
+  "hex": "#253273"
+ },
+ {
+  "code": "15065",
+  "name": "DoT Highway Blue",
+  "finish": "Gloss",
+  "hex": "#005686"
+ },
+ {
+  "code": "15080",
+  "name": "Handicap Blue",
+  "finish": "Gloss",
+  "hex": "#1e5270"
+ },
+ {
+  "code": "15090",
+  "name": "DoT Highway Blue",
+  "finish": "Gloss",
+  "hex": "#00537b"
+ },
+ {
+  "code": "15092",
+  "name": "OSHA Safety Blue",
+  "finish": "Gloss",
+  "hex": "#0075aa"
+ },
+ {
+  "code": "15095",
+  "name": "OSHA Safety Blue",
+  "finish": "Gloss",
+  "hex": "#3c6ba6"
+ },
+ {
+  "code": "15102",
+  "name": "Dark Blue, OSHA Safety Blue, ANA 501",
+  "finish": "Gloss",
+  "hex": "#186493"
+ },
+ {
+  "code": "15107",
+  "name": "Blue",
+  "finish": "Gloss",
+  "hex": "#628498"
+ },
+ {
+  "code": "15109",
+  "name": "Blue",
+  "finish": "Gloss",
+  "hex": "#547181"
+ },
+ {
+  "code": "15123",
+  "name": "Bright Blue",
+  "finish": "Gloss",
+  "hex": "#3a6ca7"
+ },
+ {
+  "code": "15125",
+  "name": "Blue",
+  "finish": "Gloss",
+  "hex": "#006e8e"
+ },
+ {
+  "code": "15177",
+  "name": "Clear Blue",
+  "finish": "Gloss",
+  "hex": "#61819a"
+ },
+ {
+  "code": "15180",
+  "name": "Blue",
+  "finish": "Gloss",
+  "hex": "#0073b4"
+ },
+ {
+  "code": "15182",
+  "name": "Coast Guard Blue",
+  "finish": "Gloss",
+  "hex": "#0080b0"
+ },
+ {
+  "code": "15187",
+  "name": "Blue",
+  "finish": "Gloss",
+  "hex": "#009cc8"
+ },
+ {
+  "code": "15193",
+  "name": "Light Blue",
+  "finish": "Gloss",
+  "hex": "#588c95"
+ },
+ {
+  "code": "15200",
+  "name": "Sky Blue, Blue",
+  "finish": "Gloss",
+  "hex": "#54b7d4"
+ },
+ {
+  "code": "15450",
+  "name": "Air Superiority Blue, Blue",
+  "finish": "Gloss",
+  "hex": "#97bcd5"
+ },
+ {
+  "code": "15526",
+  "name": "Blue",
+  "finish": "Gloss",
+  "hex": "#b4c5cc"
+ },
+ {
+  "code": "16076",
+  "name": "Coast Guard Deck Gray",
+  "finish": "Gloss",
+  "hex": "#5c6067"
+ },
+ {
+  "code": "16081",
+  "name": "Engine Gray Dark gray ANA 513",
+  "finish": "Gloss",
+  "hex": "#555856"
+ },
+ {
+  "code": "16099",
+  "name": "Coast Guard Blue Gray",
+  "finish": "Gloss",
+  "hex": "#565e62"
+ },
+ {
+  "code": "16160",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#8a7752"
+ },
+ {
+  "code": "16165",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#7b7867"
+ },
+ {
+  "code": "16187",
+  "name": "Mechanic Gray Navy Standard",
+  "finish": "Gloss",
+  "hex": "#70818f"
+ },
+ {
+  "code": "16250",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#767b7f"
+ },
+ {
+  "code": "16251",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#8e8f8e"
+ },
+ {
+  "code": "16293",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#8f9596"
+ },
+ {
+  "code": "16307",
+  "name": "Machinery Gray",
+  "finish": "Gloss",
+  "hex": "#9d9d95"
+ },
+ {
+  "code": "16314",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#9b9f9b"
+ },
+ {
+  "code": "16329",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#8f9f9f"
+ },
+ {
+  "code": "16350",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#938c7a"
+ },
+ {
+  "code": "16357",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#afaa97"
+ },
+ {
+  "code": "16360",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#b6af9b"
+ },
+ {
+  "code": "16376",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#a9a99e"
+ },
+ {
+  "code": "16405",
+  "name": "Parchment",
+  "finish": "Gloss",
+  "hex": "#c8bea8"
+ },
+ {
+  "code": "16440",
+  "name": "Light Gull Gray Light Gray",
+  "finish": "Gloss",
+  "hex": "#bcbab2"
+ },
+ {
+  "code": "16473",
+  "name": "Aircraft Gray NASA, ANA 512",
+  "finish": "Gloss",
+  "hex": "#aab2b0"
+ },
+ {
+  "code": "16480",
+  "name": "Canada 501-109 Gloss",
+  "finish": "Gloss",
+  "hex": "#adbab4"
+ },
+ {
+  "code": "16492",
+  "name": "Dawn Gray",
+  "finish": "Gloss",
+  "hex": "#c5c3bc"
+ },
+ {
+  "code": "16515",
+  "name": "Canadian Voodoo Gray, Boeing Gray 707",
+  "finish": "Gloss",
+  "hex": "#c7c9c7"
+ },
+ {
+  "code": "16555",
+  "name": "Gray",
+  "finish": "Gloss",
+  "hex": "#d2c6a9"
+ },
+ {
+  "code": "17038",
+  "name": "Black OSHA Black, ANA 515, ANA 622",
+  "finish": "Gloss",
+  "hex": "#2c2926"
+ },
+ {
+  "code": "17043",
+  "name": "Gold",
+  "finish": "Gloss",
+  "hex": "#978449"
+ },
+ {
+  "code": "17100",
+  "name": "Purple",
+  "finish": "Gloss",
+  "hex": "#744e7a"
+ },
+ {
+  "code": "17142",
+  "name": "OSHA Aafety Purple",
+  "finish": "Gloss",
+  "hex": "#a15987"
+ },
+ {
+  "code": "17155",
+  "name": "OSHA Safety Purple",
+  "finish": "Gloss",
+  "hex": "#9e6294"
+ },
+ {
+  "code": "17178",
+  "name": "Aluminum, Silver",
+  "finish": "Gloss",
+  "hex": "#9b9d9f"
+ },
+ {
+  "code": "17773",
+  "name": "Blue White",
+  "finish": "Gloss",
+  "hex": "#e6eae1"
+ },
+ {
+  "code": "17778",
+  "name": "",
+  "finish": "Gloss",
+  "hex": "#f1e9d2"
+ },
+ {
+  "code": "17855",
+  "name": "",
+  "finish": "Gloss",
+  "hex": "#f5e7c5"
+ },
+ {
+  "code": "17860",
+  "name": "Coast Guard White",
+  "finish": "Gloss",
+  "hex": "#e7e8df"
+ },
+ {
+  "code": "17865",
+  "name": "Hawker Beechcraft White 17865",
+  "finish": "Gloss",
+  "hex": "#e2e5e3"
+ },
+ {
+  "code": "17875",
+  "name": "Insignia White, ANA 511",
+  "finish": "Gloss",
+  "hex": "#f1f0ea"
+ },
+ {
+  "code": "17877",
+  "name": "Coast Guard White",
+  "finish": "Gloss",
+  "hex": "#e5efe7"
+ },
+ {
+  "code": "17886",
+  "name": "Bone White",
+  "finish": "Gloss",
+  "hex": "#f7f1e3"
+ },
+ {
+  "code": "17925",
+  "name": "Insignia White, Untinted White",
+  "finish": "Gloss",
+  "hex": "#faf7f1"
+ },
+ {
+  "code": "17930",
+  "name": "RCAF Snowbird White I-1310",
+  "finish": "Gloss",
+  "hex": "#f6f8f3"
+ },
+ {
+  "code": "20040",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#504337"
+ },
+ {
+  "code": "20045",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#61504c"
+ },
+ {
+  "code": "20059",
+  "name": "Forest Service Sign Standard",
+  "finish": "Semi-gloss",
+  "hex": "#5d483e"
+ },
+ {
+  "code": "20061",
+  "name": "Maroon, Brown",
+  "finish": "Semi-gloss",
+  "hex": "#6c4444"
+ },
+ {
+  "code": "20062",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#564944"
+ },
+ {
+  "code": "20065",
+  "name": "Brown 356",
+  "finish": "Semi-gloss",
+  "hex": "#786f67"
+ },
+ {
+  "code": "20068",
+  "name": "Madeira 1957",
+  "finish": "Semi-gloss",
+  "hex": "#61594c"
+ },
+ {
+  "code": "20090",
+  "name": "Highland 480",
+  "finish": "Semi-gloss",
+  "hex": "#675446"
+ },
+ {
+  "code": "20095",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#7c6a56"
+ },
+ {
+  "code": "20100",
+  "name": "Brown Yellow, Brown",
+  "finish": "Semi-gloss",
+  "hex": "#8f5938"
+ },
+ {
+  "code": "20109",
+  "name": "Red Brown, F.S. Seminal Brown",
+  "finish": "Semi-gloss",
+  "hex": "#8c503f"
+ },
+ {
+  "code": "20117",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#866046"
+ },
+ {
+  "code": "20122",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#76573c"
+ },
+ {
+  "code": "20140",
+  "name": "Brown Special, Brown",
+  "finish": "Semi-gloss",
+  "hex": "#876e5b"
+ },
+ {
+  "code": "20150",
+  "name": "Coyote 476 / 498",
+  "finish": "Semi-gloss",
+  "hex": "#7a6852"
+ },
+ {
+  "code": "20152",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#954a3b"
+ },
+ {
+  "code": "20155",
+  "name": "Light brown 493",
+  "finish": "Semi-gloss",
+  "hex": "#7f604e"
+ },
+ {
+  "code": "20170",
+  "name": "Olive Mohave",
+  "finish": "Semi-gloss",
+  "hex": "#83735f"
+ },
+ {
+  "code": "20180",
+  "name": "Tan 499",
+  "finish": "Semi-gloss",
+  "hex": "#847a66"
+ },
+ {
+  "code": "20206",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#9f7f79"
+ },
+ {
+  "code": "20219",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#9b7f66"
+ },
+ {
+  "code": "20220",
+  "name": "Light Coyote 481",
+  "finish": "Semi-gloss",
+  "hex": "#917f6b"
+ },
+ {
+  "code": "20227",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#a38b78"
+ },
+ {
+  "code": "20233",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#ac7f71"
+ },
+ {
+  "code": "20252",
+  "name": "Tan, Rose",
+  "finish": "Semi-gloss",
+  "hex": "#ba816a"
+ },
+ {
+  "code": "20260",
+  "name": "Tan, Brown",
+  "finish": "Semi-gloss",
+  "hex": "#d1af6f"
+ },
+ {
+  "code": "20266",
+  "name": "Yellow Sand, Brown",
+  "finish": "Semi-gloss",
+  "hex": "#af9157"
+ },
+ {
+  "code": "20270",
+  "name": "Urban Tan 478",
+  "finish": "Semi-gloss",
+  "hex": "#a19285"
+ },
+ {
+  "code": "20313",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#b39b8a"
+ },
+ {
+  "code": "20318",
+  "name": "Brown",
+  "finish": "Semi-gloss",
+  "hex": "#b09f85"
+ },
+ {
+  "code": "20372",
+  "name": "Tan",
+  "finish": "Semi-gloss",
+  "hex": "#b8a791"
+ },
+ {
+  "code": "20400",
+  "name": "Tan, Brown",
+  "finish": "Semi-gloss",
+  "hex": "#d1a779"
+ },
+ {
+  "code": "20450",
+  "name": "Night Tan, Brown",
+  "finish": "Semi-gloss",
+  "hex": "#ccb19a"
+ },
+ {
+  "code": "20460",
+  "name": "Mushroom",
+  "finish": "Semi-gloss",
+  "hex": "#c1b6a3"
+ },
+ {
+  "code": "20475",
+  "name": "Saudi Color #11 (SANG)",
+  "finish": "Semi-gloss",
+  "hex": "#cdb090"
+ },
+ {
+  "code": "21105",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#b90f21"
+ },
+ {
+  "code": "21136",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#a3302a"
+ },
+ {
+  "code": "21158",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#c25b64"
+ },
+ {
+  "code": "21302",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#ca4e3f"
+ },
+ {
+  "code": "21310",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#c32502"
+ },
+ {
+  "code": "21400",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#d74d2c"
+ },
+ {
+  "code": "21433",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#d2a08b"
+ },
+ {
+  "code": "21575",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#e8c0aa"
+ },
+ {
+  "code": "21643",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#efd5bb"
+ },
+ {
+  "code": "21667",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#f1d4b4"
+ },
+ {
+  "code": "21668",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#f0d3ca"
+ },
+ {
+  "code": "21670",
+  "name": "Red",
+  "finish": "Semi-gloss",
+  "hex": "#f4d2ba"
+ },
+ {
+  "code": "22144",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#af583a"
+ },
+ {
+  "code": "22190",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#db4612"
+ },
+ {
+  "code": "22203",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#c3663e"
+ },
+ {
+  "code": "22246",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#e10d28"
+ },
+ {
+  "code": "22276",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#cd7d60"
+ },
+ {
+  "code": "22356",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#de8970"
+ },
+ {
+  "code": "22473",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#dc6d3a"
+ },
+ {
+  "code": "22510",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#ff7b00"
+ },
+ {
+  "code": "22516",
+  "name": "Light Orange Brown",
+  "finish": "Semi-gloss",
+  "hex": "#e1a279"
+ },
+ {
+  "code": "22519",
+  "name": "Rosewood",
+  "finish": "Semi-gloss",
+  "hex": "#dfba9e"
+ },
+ {
+  "code": "22544",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#f9a24d"
+ },
+ {
+  "code": "22563",
+  "name": "Beachwood",
+  "finish": "Semi-gloss",
+  "hex": "#e0c2a2"
+ },
+ {
+  "code": "22630",
+  "name": "Buff",
+  "finish": "Semi-gloss",
+  "hex": "#ecc9ab"
+ },
+ {
+  "code": "22648",
+  "name": "Buff",
+  "finish": "Semi-gloss",
+  "hex": "#f2ceab"
+ },
+ {
+  "code": "23275",
+  "name": "Orange",
+  "finish": "Semi-gloss",
+  "hex": "#ba853e"
+ },
+ {
+  "code": "23420",
+  "name": "Khaki 475",
+  "finish": "Semi-gloss",
+  "hex": "#837e6e"
+ },
+ {
+  "code": "23430",
+  "name": "Khaki P1",
+  "finish": "Semi-gloss",
+  "hex": "#9d9279"
+ },
+ {
+  "code": "23435",
+  "name": "Buff, Ligh Khaki 494",
+  "finish": "Semi-gloss",
+  "hex": "#9c937b"
+ },
+ {
+  "code": "23448",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#c1aa81"
+ },
+ {
+  "code": "23522",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#d2c0a4"
+ },
+ {
+  "code": "23525",
+  "name": "Desert Sand 500/503",
+  "finish": "Semi-gloss",
+  "hex": "#bfb4a5"
+ },
+ {
+  "code": "23530",
+  "name": "Light Tan 479",
+  "finish": "Semi-gloss",
+  "hex": "#b3a798"
+ },
+ {
+  "code": "23531",
+  "name": "Light Mushroom",
+  "finish": "Semi-gloss",
+  "hex": "#d7c3a9"
+ },
+ {
+  "code": "23538",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#feb500"
+ },
+ {
+  "code": "23540",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#dca24b"
+ },
+ {
+  "code": "23564",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#e1cfa4"
+ },
+ {
+  "code": "23578",
+  "name": "Cream, Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#ddcdaa"
+ },
+ {
+  "code": "23594",
+  "name": "Beige, Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#f2cd8c"
+ },
+ {
+  "code": "23613",
+  "name": "Buff",
+  "finish": "Semi-gloss",
+  "hex": "#efd0a7"
+ },
+ {
+  "code": "23617",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#e9d0a6"
+ },
+ {
+  "code": "23619",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#e9d0a6"
+ },
+ {
+  "code": "23640",
+  "name": "Yellow 13655",
+  "finish": "Semi-gloss",
+  "hex": "#f6b524"
+ },
+ {
+  "code": "23655",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#ffcc00"
+ },
+ {
+  "code": "23685",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#ece3aa"
+ },
+ {
+  "code": "23690",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#ead8b6"
+ },
+ {
+  "code": "23695",
+  "name": "Forest Service Sign Standard",
+  "finish": "Semi-gloss",
+  "hex": "#f8d58b"
+ },
+ {
+  "code": "23697",
+  "name": "Yellow Sand, Sunglow",
+  "finish": "Semi-gloss",
+  "hex": "#f5d78e"
+ },
+ {
+  "code": "23711",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#f4dbb4"
+ },
+ {
+  "code": "23717",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#efddba"
+ },
+ {
+  "code": "23722",
+  "name": "Sand, Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#eedbaf"
+ },
+ {
+  "code": "23727",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#f2e1ae"
+ },
+ {
+  "code": "23785",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#f4d64f"
+ },
+ {
+  "code": "23793",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#f8e994"
+ },
+ {
+  "code": "23814",
+  "name": "Yellow",
+  "finish": "Semi-gloss",
+  "hex": "#e8e7a4"
+ },
+ {
+  "code": "24052",
+  "name": "Green, Marine Green #23",
+  "finish": "Semi-gloss",
+  "hex": "#494a3f"
+ },
+ {
+  "code": "24064",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#504d40"
+ },
+ {
+  "code": "24070",
+  "name": "Army Green 491",
+  "finish": "Semi-gloss",
+  "hex": "#4c524f"
+ },
+ {
+  "code": "24079",
+  "name": "Forest Green",
+  "finish": "Semi-gloss",
+  "hex": "#575849"
+ },
+ {
+  "code": "24084",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#464132"
+ },
+ {
+  "code": "24091",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#645e5a"
+ },
+ {
+  "code": "24097",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#61694e"
+ },
+ {
+  "code": "24098",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#686541"
+ },
+ {
+  "code": "24108",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#426953"
+ },
+ {
+  "code": "24111",
+  "name": "Dark Green 455",
+  "finish": "Semi-gloss",
+  "hex": "#536151"
+ },
+ {
+  "code": "24112",
+  "name": "Green 474",
+  "finish": "Semi-gloss",
+  "hex": "#556258"
+ },
+ {
+  "code": "24119",
+  "name": "Marine OG Green",
+  "finish": "Semi-gloss",
+  "hex": "#626555"
+ },
+ {
+  "code": "24148",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#617876"
+ },
+ {
+  "code": "24158",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#6c7976"
+ },
+ {
+  "code": "24159",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#777d70"
+ },
+ {
+  "code": "24165",
+  "name": "Foliage Green 502/504",
+  "finish": "Semi-gloss",
+  "hex": "#6e716b"
+ },
+ {
+  "code": "24172",
+  "name": "Mil-P-24441 Primer",
+  "finish": "Semi-gloss",
+  "hex": "#6d7e68"
+ },
+ {
+  "code": "24190",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#4a9d56"
+ },
+ {
+  "code": "24201",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#8d856b"
+ },
+ {
+  "code": "24210",
+  "name": "Light Green 354",
+  "finish": "Semi-gloss",
+  "hex": "#80765f"
+ },
+ {
+  "code": "24226",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#848f7f"
+ },
+ {
+  "code": "24227",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#7f9271"
+ },
+ {
+  "code": "24233",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#839693"
+ },
+ {
+  "code": "24241",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#89a499"
+ },
+ {
+  "code": "24260",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#6d9f83"
+ },
+ {
+  "code": "24272",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#759c7e"
+ },
+ {
+  "code": "24277",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#8b9d95"
+ },
+ {
+  "code": "24300",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#8ca494"
+ },
+ {
+  "code": "24325",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#82ab9a"
+ },
+ {
+  "code": "24373",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#a1b095"
+ },
+ {
+  "code": "24410",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#a7b8a8"
+ },
+ {
+  "code": "24417",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#b1b9a4"
+ },
+ {
+  "code": "24424",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#b3b69e"
+ },
+ {
+  "code": "24432",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#b2b8a6"
+ },
+ {
+  "code": "24441",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#b1bca1"
+ },
+ {
+  "code": "24449",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#a8bb9a"
+ },
+ {
+  "code": "24466",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#a7bda4"
+ },
+ {
+  "code": "24491",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#adc3b0"
+ },
+ {
+  "code": "24504",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#b2c1a8"
+ },
+ {
+  "code": "24516",
+  "name": "Clipper Blue",
+  "finish": "Semi-gloss",
+  "hex": "#b7c5b5"
+ },
+ {
+  "code": "24518",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#b2c1af"
+ },
+ {
+  "code": "24525",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#b9c6ac"
+ },
+ {
+  "code": "24533",
+  "name": "Seafoam Green",
+  "finish": "Semi-gloss",
+  "hex": "#b3c098"
+ },
+ {
+  "code": "24552",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#d1ce8c"
+ },
+ {
+  "code": "24554",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#d7d7ba"
+ },
+ {
+  "code": "24558",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#c1d1b2"
+ },
+ {
+  "code": "24583",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#cbdcb8"
+ },
+ {
+  "code": "24585",
+  "name": "Postal Green",
+  "finish": "Semi-gloss",
+  "hex": "#cee2c7"
+ },
+ {
+  "code": "24664",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#c5d9c0"
+ },
+ {
+  "code": "24670",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#d4ddcb"
+ },
+ {
+  "code": "24672",
+  "name": "Green",
+  "finish": "Semi-gloss",
+  "hex": "#d7ddc1"
+ },
+ {
+  "code": "25042",
+  "name": "Blue Sea, ANA 606",
+  "finish": "Semi-gloss",
+  "hex": "#353f45"
+ },
+ {
+  "code": "25044",
+  "name": "RCAF Blue 25044",
+  "finish": "Semi-gloss",
+  "hex": "#40444d"
+ },
+ {
+  "code": "25045",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#2c3f4f"
+ },
+ {
+  "code": "25048",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#3d4a5e"
+ },
+ {
+  "code": "25049",
+  "name": "Army Blue 450",
+  "finish": "Semi-gloss",
+  "hex": "#444649"
+ },
+ {
+  "code": "25051",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#464e63"
+ },
+ {
+  "code": "25052",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#03265e"
+ },
+ {
+  "code": "25053",
+  "name": "Royal Blue",
+  "finish": "Semi-gloss",
+  "hex": "#344a65"
+ },
+ {
+  "code": "25056",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#253475"
+ },
+ {
+  "code": "25060",
+  "name": "Army Blue 451",
+  "finish": "Semi-gloss",
+  "hex": "#444e5f"
+ },
+ {
+  "code": "25095",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#3d6ca6"
+ },
+ {
+  "code": "25102",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#2f628c"
+ },
+ {
+  "code": "25109",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#517287"
+ },
+ {
+  "code": "25177",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#647d99"
+ },
+ {
+  "code": "25183",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#2b7eb1"
+ },
+ {
+  "code": "25184",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#52869d"
+ },
+ {
+  "code": "25185",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#3d87a0"
+ },
+ {
+  "code": "25189",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#748a93"
+ },
+ {
+  "code": "25190",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#6490a7"
+ },
+ {
+  "code": "25193",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#5d8e96"
+ },
+ {
+  "code": "25200",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#5bb7cc"
+ },
+ {
+  "code": "25230",
+  "name": "Electrical Blue",
+  "finish": "Semi-gloss",
+  "hex": "#5490c5"
+ },
+ {
+  "code": "25237",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#849095"
+ },
+ {
+  "code": "25240",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#7f99bb"
+ },
+ {
+  "code": "25299",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#7aa7a1"
+ },
+ {
+  "code": "25352",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#92a7a1"
+ },
+ {
+  "code": "25414",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#98b2b0"
+ },
+ {
+  "code": "25440",
+  "name": "Admiral Blue",
+  "finish": "Semi-gloss",
+  "hex": "#86afc7"
+ },
+ {
+  "code": "25488",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#a2bfd9"
+ },
+ {
+  "code": "25526",
+  "name": "Pastel Blue",
+  "finish": "Semi-gloss",
+  "hex": "#b7c6cd"
+ },
+ {
+  "code": "25530",
+  "name": "Blue, Carl Vinson Blue",
+  "finish": "Semi-gloss",
+  "hex": "#b6c4c4"
+ },
+ {
+  "code": "25550",
+  "name": "Light Blue",
+  "finish": "Semi-gloss",
+  "hex": "#d1dfe6"
+ },
+ {
+  "code": "25622",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#d4dad2"
+ },
+ {
+  "code": "25630",
+  "name": "Blue",
+  "finish": "Semi-gloss",
+  "hex": "#dddcd6"
+ },
+ {
+  "code": "26008",
+  "name": "Dark Gray, Exterior Deck Gray",
+  "finish": "Semi-gloss",
+  "hex": "#54575b"
+ },
+ {
+  "code": "26044",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#3e444b"
+ },
+ {
+  "code": "26081",
+  "name": "Sea Plane Gray, ANA 625",
+  "finish": "Semi-gloss",
+  "hex": "#585b5b"
+ },
+ {
+  "code": "26099",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#5b6267"
+ },
+ {
+  "code": "26118",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#5e646b"
+ },
+ {
+  "code": "26120",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#60534a"
+ },
+ {
+  "code": "26122",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#6d6a69"
+ },
+ {
+  "code": "26132",
+  "name": "Slate Gray",
+  "finish": "Semi-gloss",
+  "hex": "#6f7172"
+ },
+ {
+  "code": "26134",
+  "name": "Gray, Filing Cabinet",
+  "finish": "Semi-gloss",
+  "hex": "#74746f"
+ },
+ {
+  "code": "26152",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#727779"
+ },
+ {
+  "code": "26173",
+  "name": "Ocean Gray, NAVSEA",
+  "finish": "Semi-gloss",
+  "hex": "#7f848b"
+ },
+ {
+  "code": "26176",
+  "name": "Ocean Gray",
+  "finish": "Semi-gloss",
+  "hex": "#76808a"
+ },
+ {
+  "code": "26187",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#7b8284"
+ },
+ {
+  "code": "26231",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#898d8f"
+ },
+ {
+  "code": "26250",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#8c9290"
+ },
+ {
+  "code": "26251",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#929392"
+ },
+ {
+  "code": "26255",
+  "name": "Dark Gray 509",
+  "finish": "Semi-gloss",
+  "hex": "#919597"
+ },
+ {
+  "code": "26260",
+  "name": "Urban Gray 501/505",
+  "finish": "Semi-gloss",
+  "hex": "#969896"
+ },
+ {
+  "code": "26270",
+  "name": "Interior Haze Gray",
+  "finish": "Semi-gloss",
+  "hex": "#898f91"
+ },
+ {
+  "code": "26280",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#8f938f"
+ },
+ {
+  "code": "26290",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#8e9292"
+ },
+ {
+  "code": "26293",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#999b9c"
+ },
+ {
+  "code": "26295",
+  "name": "Gray 510",
+  "finish": "Semi-gloss",
+  "hex": "#a2a3a7"
+ },
+ {
+  "code": "26306",
+  "name": "Sand Gray",
+  "finish": "Semi-gloss",
+  "hex": "#a49a8f"
+ },
+ {
+  "code": "26307",
+  "name": "Bulkhead Machinery Gray #30",
+  "finish": "Semi-gloss",
+  "hex": "#9d9d93"
+ },
+ {
+  "code": "26314",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#9a9f9c"
+ },
+ {
+  "code": "26329",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#98a6a7"
+ },
+ {
+  "code": "26357",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#aca89b"
+ },
+ {
+  "code": "26360",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#b5af9b"
+ },
+ {
+  "code": "26373",
+  "name": "Light Gray #37",
+  "finish": "Semi-gloss",
+  "hex": "#acafb0"
+ },
+ {
+  "code": "26380",
+  "name": "Medium Gray 508",
+  "finish": "Semi-gloss",
+  "hex": "#a3a9ac"
+ },
+ {
+  "code": "26400",
+  "name": "Yellow Gray",
+  "finish": "Semi-gloss",
+  "hex": "#d4cab0"
+ },
+ {
+  "code": "26405",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#c3baa5"
+ },
+ {
+  "code": "26408",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#c3c1b4"
+ },
+ {
+  "code": "26420",
+  "name": "DLA Light Blue/Gray",
+  "finish": "Semi-gloss",
+  "hex": "#b4b1ae"
+ },
+ {
+  "code": "26424",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#c7bdb2"
+ },
+ {
+  "code": "26440",
+  "name": "Gray, Light Gull Gray",
+  "finish": "Semi-gloss",
+  "hex": "#b9b7b1"
+ },
+ {
+  "code": "26480",
+  "name": "Canada 501-109",
+  "finish": "Semi-gloss",
+  "hex": "#afbbb5"
+ },
+ {
+  "code": "26492",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#c5c4be"
+ },
+ {
+  "code": "26493",
+  "name": "Pearl Gray",
+  "finish": "Semi-gloss",
+  "hex": "#c1c2c1"
+ },
+ {
+  "code": "26496",
+  "name": "Green Gray",
+  "finish": "Semi-gloss",
+  "hex": "#bbbbaf"
+ },
+ {
+  "code": "26521",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#cfc1b2"
+ },
+ {
+  "code": "26555",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#d5c9ac"
+ },
+ {
+  "code": "26559",
+  "name": "Parchment",
+  "finish": "Semi-gloss",
+  "hex": "#ccc8b9"
+ },
+ {
+  "code": "26586",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#d5ccb2"
+ },
+ {
+  "code": "26595",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#cbcabd"
+ },
+ {
+  "code": "26622",
+  "name": "Gray",
+  "finish": "Semi-gloss",
+  "hex": "#d0ccc2"
+ },
+ {
+  "code": "26630",
+  "name": "Light Gray 507",
+  "finish": "Semi-gloss",
+  "hex": "#ced0cc"
+ },
+ {
+  "code": "27038",
+  "name": "ANA 514",
+  "finish": "Semi-gloss",
+  "hex": "#2b2d30"
+ },
+ {
+  "code": "27040",
+  "name": "Filing Cabinet Black",
+  "finish": "Semi-gloss",
+  "hex": "#313235"
+ },
+ {
+  "code": "27041",
+  "name": "Black",
+  "finish": "Semi-gloss",
+  "hex": "#000000"
+ },
+ {
+  "code": "27043",
+  "name": "Gold",
+  "finish": "Semi-gloss",
+  "hex": "#9f8b51"
+ },
+ {
+  "code": "27142",
+  "name": "Misc - Purple",
+  "finish": "Semi-gloss",
+  "hex": "#a25b85"
+ },
+ {
+  "code": "27144",
+  "name": "Misc - Purple",
+  "finish": "Semi-gloss",
+  "hex": "#8a6a8f"
+ },
+ {
+  "code": "27160",
+  "name": "Misc - Purple",
+  "finish": "Semi-gloss",
+  "hex": "#9382b9"
+ },
+ {
+  "code": "27722",
+  "name": "Misc - White",
+  "finish": "Semi-gloss",
+  "hex": "#e7e1d3"
+ },
+ {
+  "code": "27769",
+  "name": "Parchment",
+  "finish": "Semi-gloss",
+  "hex": "#e1d3b9"
+ },
+ {
+  "code": "27778",
+  "name": "Parchment",
+  "finish": "Semi-gloss",
+  "hex": "#f0e9d3"
+ },
+ {
+  "code": "27780",
+  "name": "Misc - White",
+  "finish": "Semi-gloss",
+  "hex": "#f3ecdd"
+ },
+ {
+  "code": "27855",
+  "name": "Misc -Yellow White",
+  "finish": "Semi-gloss",
+  "hex": "#f2e6c4"
+ },
+ {
+  "code": "27875",
+  "name": "Insignia White, ANA 626",
+  "finish": "Semi-gloss",
+  "hex": "#f3f2ec"
+ },
+ {
+  "code": "27880",
+  "name": "Misc - White",
+  "finish": "Semi-gloss",
+  "hex": "#fbf5e8"
+ },
+ {
+  "code": "27886",
+  "name": "White 506",
+  "finish": "Semi-gloss",
+  "hex": "#faf3e4"
+ },
+ {
+  "code": "27925",
+  "name": "Misc - White",
+  "finish": "Semi-gloss",
+  "hex": "#faf7f2"
+ },
+ {
+  "code": "28913",
+  "name": "Fluorescent - Red",
+  "finish": "Semi-gloss",
+  "hex": "#f64336"
+ },
+ {
+  "code": "28915",
+  "name": "Fluorescent - Orange",
+  "finish": "Semi-gloss",
+  "hex": "#ff5e2d"
+ },
+ {
+  "code": "30040",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#5f554d"
+ },
+ {
+  "code": "30045",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#655551"
+ },
+ {
+  "code": "30051",
+  "name": "Leather Brown, Brown 383 Camouflage",
+  "finish": "Flat",
+  "hex": "#4f4239"
+ },
+ {
+  "code": "30059",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#533f38"
+ },
+ {
+  "code": "30097",
+  "name": "Brown, Earth Brown Camo",
+  "finish": "Flat",
+  "hex": "#6a5c4f"
+ },
+ {
+  "code": "30099",
+  "name": "Brown Earth Brown",
+  "finish": "Flat",
+  "hex": "#746252"
+ },
+ {
+  "code": "30108",
+  "name": "Red Brown, Walnut Brown",
+  "finish": "Flat",
+  "hex": "#6c5447"
+ },
+ {
+  "code": "30109",
+  "name": "Dull Red, ANA 618",
+  "finish": "Flat",
+  "hex": "#905a4c"
+ },
+ {
+  "code": "30111",
+  "name": "Maroon Olympic Russet, Park Service Brown",
+  "finish": "Flat",
+  "hex": "#7d5b52"
+ },
+ {
+  "code": "30117",
+  "name": "Earth Red, Brown International",
+  "finish": "Flat",
+  "hex": "#896750"
+ },
+ {
+  "code": "30118",
+  "name": "Field Drab, Field Drab Camo, ANA 617",
+  "finish": "Flat",
+  "hex": "#7b694e"
+ },
+ {
+  "code": "30140",
+  "name": "Brown Special, Brown International",
+  "finish": "Flat",
+  "hex": "#886b58"
+ },
+ {
+  "code": "30145",
+  "name": "Butternut Stain",
+  "finish": "Flat",
+  "hex": "#8b7258"
+ },
+ {
+  "code": "30160",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#87535a"
+ },
+ {
+  "code": "30166",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#8f5c51"
+ },
+ {
+  "code": "30206",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#9f7e77"
+ },
+ {
+  "code": "30215",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#9e7655"
+ },
+ {
+  "code": "30219",
+  "name": "Tan, Sierra Tan, ANA 628",
+  "finish": "Flat",
+  "hex": "#a1836c"
+ },
+ {
+  "code": "30227",
+  "name": "Tan, Brown",
+  "finish": "Flat",
+  "hex": "#a38b7a"
+ },
+ {
+  "code": "30233",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#ab7e70"
+ },
+ {
+  "code": "30252",
+  "name": "Rust Red",
+  "finish": "Flat",
+  "hex": "#bb8369"
+ },
+ {
+  "code": "30257",
+  "name": "Tan, Earth Yellow",
+  "finish": "Flat",
+  "hex": "#c39b69"
+ },
+ {
+  "code": "30266",
+  "name": "Yellow Sand, Tan, ANA 615",
+  "finish": "Flat",
+  "hex": "#b0935c"
+ },
+ {
+  "code": "30277",
+  "name": "Sand Brown, Sand",
+  "finish": "Flat",
+  "hex": "#a6977d"
+ },
+ {
+  "code": "30279",
+  "name": "Sand, Desert Sand, ANA 616",
+  "finish": "Flat",
+  "hex": "#b79d8a"
+ },
+ {
+  "code": "30313",
+  "name": "Desert Sand",
+  "finish": "Flat",
+  "hex": "#b79c8b"
+ },
+ {
+  "code": "30315",
+  "name": "Desert Sand Camo",
+  "finish": "Flat",
+  "hex": "#b59c8a"
+ },
+ {
+  "code": "30318",
+  "name": "Brown",
+  "finish": "Flat",
+  "hex": "#b2a186"
+ },
+ {
+  "code": "30324",
+  "name": "Desert Sand",
+  "finish": "Flat",
+  "hex": "#b79f8b"
+ },
+ {
+  "code": "30340",
+  "name": "Tan 380",
+  "finish": "Flat",
+  "hex": "#a6927f"
+ },
+ {
+  "code": "30372",
+  "name": "Sand, Brown",
+  "finish": "Flat",
+  "hex": "#b6a690"
+ },
+ {
+  "code": "30450",
+  "name": "Beige",
+  "finish": "Flat",
+  "hex": "#cfb49d"
+ },
+ {
+  "code": "30475",
+  "name": "Saudi Color #11 (SANG)",
+  "finish": "Flat",
+  "hex": "#c6a887"
+ },
+ {
+  "code": "30480",
+  "name": "Tan 459",
+  "finish": "Flat",
+  "hex": "#caab8a"
+ },
+ {
+  "code": "31090",
+  "name": "Brown, Earth Red Camo",
+  "finish": "Flat",
+  "hex": "#846349"
+ },
+ {
+  "code": "31136",
+  "name": "Insignia Red, Red International, CARC aircraft red, ANA 619",
+  "finish": "Flat",
+  "hex": "#a84946"
+ },
+ {
+  "code": "31158",
+  "name": "Light Red International",
+  "finish": "Flat",
+  "hex": "#c2575f"
+ },
+ {
+  "code": "31302",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#ce4b40"
+ },
+ {
+  "code": "31310",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#b94437"
+ },
+ {
+  "code": "31350",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#ba1c00"
+ },
+ {
+  "code": "31400",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#d4583e"
+ },
+ {
+  "code": "31433",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#d0a18b"
+ },
+ {
+  "code": "31575",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#e7bea7"
+ },
+ {
+  "code": "31638",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#f2b9b9"
+ },
+ {
+  "code": "31643",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#edd3ba"
+ },
+ {
+  "code": "31667",
+  "name": "Tan",
+  "finish": "Flat",
+  "hex": "#f2d5b4"
+ },
+ {
+  "code": "31668",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#edd2c9"
+ },
+ {
+  "code": "31669",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#f6d4d1"
+ },
+ {
+  "code": "31670",
+  "name": "Red",
+  "finish": "Flat",
+  "hex": "#f3d3bd"
+ },
+ {
+  "code": "32169",
+  "name": "Orange",
+  "finish": "Flat",
+  "hex": "#b66644"
+ },
+ {
+  "code": "32246",
+  "name": "Navy Torpedo",
+  "finish": "Flat",
+  "hex": "#ea723d"
+ },
+ {
+  "code": "32276",
+  "name": "Orange",
+  "finish": "Flat",
+  "hex": "#d28164"
+ },
+ {
+  "code": "32356",
+  "name": "Orange",
+  "finish": "Flat",
+  "hex": "#de8971"
+ },
+ {
+  "code": "32473",
+  "name": "Orange",
+  "finish": "Flat",
+  "hex": "#e9864e"
+ },
+ {
+  "code": "32516",
+  "name": "Orange",
+  "finish": "Flat",
+  "hex": "#dfa277"
+ },
+ {
+  "code": "32540",
+  "name": "Naviar Flat Orange #1",
+  "finish": "Flat",
+  "hex": "#f68e44"
+ },
+ {
+  "code": "32544",
+  "name": "Orange",
+  "finish": "Flat",
+  "hex": "#fca65f"
+ },
+ {
+  "code": "32555",
+  "name": "Orange",
+  "finish": "Flat",
+  "hex": "#fdb666"
+ },
+ {
+  "code": "32630",
+  "name": "Orange",
+  "finish": "Flat",
+  "hex": "#eac8a8"
+ },
+ {
+  "code": "32648",
+  "name": "Sand, Orange",
+  "finish": "Flat",
+  "hex": "#f2cea9"
+ },
+ {
+  "code": "33070",
+  "name": "Olive Drab Camo",
+  "finish": "Flat",
+  "hex": "#65604d"
+ },
+ {
+  "code": "33105",
+  "name": "Brown, Field Drab Camouflage",
+  "finish": "Flat",
+  "hex": "#7f6c52"
+ },
+ {
+  "code": "33245",
+  "name": "Tan, Earth Yellow Camouflage",
+  "finish": "Flat",
+  "hex": "#b38c5e"
+ },
+ {
+  "code": "33275",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#a98100"
+ },
+ {
+  "code": "33303",
+  "name": "Sand, Sand Camouflage",
+  "finish": "Flat",
+  "hex": "#b0a183"
+ },
+ {
+  "code": "33434",
+  "name": "Ochre, Yellow",
+  "finish": "Flat",
+  "hex": "#d9a95a"
+ },
+ {
+  "code": "33440",
+  "name": "Tan",
+  "finish": "Flat",
+  "hex": "#a79065"
+ },
+ {
+  "code": "33446",
+  "name": "Dessert Tan, Tan 686A Camouflage",
+  "finish": "Flat",
+  "hex": "#b19f7b"
+ },
+ {
+  "code": "33448",
+  "name": "Dark Yellow",
+  "finish": "Flat",
+  "hex": "#c3ac84"
+ },
+ {
+  "code": "33481",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#d5ba57"
+ },
+ {
+  "code": "33510",
+  "name": "Dark Sandstone Camouflage",
+  "finish": "Flat",
+  "hex": "#bdab90"
+ },
+ {
+  "code": "33522",
+  "name": "Tan",
+  "finish": "Flat",
+  "hex": "#d3c1a3"
+ },
+ {
+  "code": "33531",
+  "name": "Middlestone, Sand",
+  "finish": "Flat",
+  "hex": "#d6c1aa"
+ },
+ {
+  "code": "33538",
+  "name": "Orange Yellow, Yellow International, Traffic Yellow, ANA 614",
+  "finish": "Flat",
+  "hex": "#ffb700"
+ },
+ {
+  "code": "33564",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#ddcda1"
+ },
+ {
+  "code": "33578",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#dcccaa"
+ },
+ {
+  "code": "33613",
+  "name": "Radome Tan, Yellow",
+  "finish": "Flat",
+  "hex": "#efd0a8"
+ },
+ {
+  "code": "33617",
+  "name": "Sand, TT-P-47",
+  "finish": "Flat",
+  "hex": "#e3d1b9"
+ },
+ {
+  "code": "33637",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#efc259"
+ },
+ {
+  "code": "33655",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#ffca00"
+ },
+ {
+  "code": "33685",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#eae1a9"
+ },
+ {
+  "code": "33690",
+  "name": "Sand, Very Light Sand",
+  "finish": "Flat",
+  "hex": "#efdbb6"
+ },
+ {
+  "code": "33695",
+  "name": "Yellow Sand, Yellow",
+  "finish": "Flat",
+  "hex": "#eac67c"
+ },
+ {
+  "code": "33696",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#ffd872"
+ },
+ {
+  "code": "33711",
+  "name": "Sand, Tan",
+  "finish": "Flat",
+  "hex": "#f0d8b0"
+ },
+ {
+  "code": "33717",
+  "name": "Sand. Yellow",
+  "finish": "Flat",
+  "hex": "#efdcbb"
+ },
+ {
+  "code": "33722",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#eddab1"
+ },
+ {
+  "code": "33727",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#f2e0af"
+ },
+ {
+  "code": "33793",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#f9ed91"
+ },
+ {
+  "code": "33798",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#fae6a7"
+ },
+ {
+  "code": "33814",
+  "name": "Yellow",
+  "finish": "Flat",
+  "hex": "#e9eaa4"
+ },
+ {
+  "code": "34031",
+  "name": "Dark Green, Aircraft Green Camouflage",
+  "finish": "Flat",
+  "hex": "#575450"
+ },
+ {
+  "code": "34052",
+  "name": "USMC Green, Marine Green #23",
+  "finish": "Flat",
+  "hex": "#55564f"
+ },
+ {
+  "code": "34058",
+  "name": "Sea Blue, Dark Blue Green",
+  "finish": "Flat",
+  "hex": "#3d5e5d"
+ },
+ {
+  "code": "34064",
+  "name": "Dark Green, Olive Drab 85285",
+  "finish": "Flat",
+  "hex": "#5e5c56"
+ },
+ {
+  "code": "34079",
+  "name": "Forest Green. Army Forest Green, ANA 631",
+  "finish": "Flat",
+  "hex": "#595c4e"
+ },
+ {
+  "code": "34082",
+  "name": "Green, Dark Green Camouflage",
+  "finish": "Flat",
+  "hex": "#60644c"
+ },
+ {
+  "code": "34083",
+  "name": "Green, Air Force Forest Green",
+  "finish": "Flat",
+  "hex": "#5d5d50"
+ },
+ {
+  "code": "34084",
+  "name": "Green, Dark Green Camo",
+  "finish": "Flat",
+  "hex": "#565248"
+ },
+ {
+  "code": "34086",
+  "name": "I R. Dark Green, Army Forest Green Camo",
+  "finish": "Flat",
+  "hex": "#615f56"
+ },
+ {
+  "code": "34088",
+  "name": "Olive Drab",
+  "finish": "Flat",
+  "hex": "#554f44"
+ },
+ {
+  "code": "34089",
+  "name": "Light Green Camo",
+  "finish": "Flat",
+  "hex": "#6f6f4a"
+ },
+ {
+  "code": "34090",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#1b6b48"
+ },
+ {
+  "code": "34092",
+  "name": "Dark Green, Gunship Green, ANA 612",
+  "finish": "Flat",
+  "hex": "#53645a"
+ },
+ {
+  "code": "34094",
+  "name": "Green, Green 383 Camouflage",
+  "finish": "Flat",
+  "hex": "#3e4b39"
+ },
+ {
+  "code": "34095",
+  "name": "Field Green",
+  "finish": "Flat",
+  "hex": "#595f43"
+ },
+ {
+  "code": "34096",
+  "name": "Dark Green, Green",
+  "finish": "Flat",
+  "hex": "#616352"
+ },
+ {
+  "code": "34097",
+  "name": "Field Green, ANA 627",
+  "finish": "Flat",
+  "hex": "#636a51"
+ },
+ {
+  "code": "34098",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#6f6c4c"
+ },
+ {
+  "code": "34102",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#636750"
+ },
+ {
+  "code": "34108",
+  "name": "Medium Green",
+  "finish": "Flat",
+  "hex": "#476e56"
+ },
+ {
+  "code": "34127",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#6f6d4b"
+ },
+ {
+  "code": "34128",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#65735e"
+ },
+ {
+  "code": "34129",
+  "name": "Navair Flat Green #2",
+  "finish": "Flat",
+  "hex": "#5c5c4b"
+ },
+ {
+  "code": "34130",
+  "name": "Munsell Color 10Y3/3",
+  "finish": "Flat",
+  "hex": "#696748"
+ },
+ {
+  "code": "34138",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#5e8450"
+ },
+ {
+  "code": "34148",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#657a77"
+ },
+ {
+  "code": "34151",
+  "name": "Interior Green TT-P-1757, ANA 611",
+  "finish": "Flat",
+  "hex": "#717048"
+ },
+ {
+  "code": "34158",
+  "name": "Blue Drab",
+  "finish": "Flat",
+  "hex": "#6c7977"
+ },
+ {
+  "code": "34159",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#737a6c"
+ },
+ {
+  "code": "34160",
+  "name": "Foliage Green",
+  "finish": "Flat",
+  "hex": "#676962"
+ },
+ {
+  "code": "34170",
+  "name": "Navair Flat Green #1",
+  "finish": "Flat",
+  "hex": "#606154"
+ },
+ {
+  "code": "34201",
+  "name": "Tan Green, Green",
+  "finish": "Flat",
+  "hex": "#8c846a"
+ },
+ {
+  "code": "34226",
+  "name": "NASA Primer",
+  "finish": "Flat",
+  "hex": "#848e7d"
+ },
+ {
+  "code": "34227",
+  "name": "Medium Gray Green",
+  "finish": "Flat",
+  "hex": "#7f9170"
+ },
+ {
+  "code": "34230",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#599d5a"
+ },
+ {
+  "code": "34233",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#829795"
+ },
+ {
+  "code": "34241",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#81a698"
+ },
+ {
+  "code": "34258",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#909468"
+ },
+ {
+  "code": "34259",
+  "name": "Yellow Green, Green",
+  "finish": "Flat",
+  "hex": "#8e8342"
+ },
+ {
+  "code": "34272",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#779d80"
+ },
+ {
+  "code": "34277",
+  "name": "Sea Mist Green",
+  "finish": "Flat",
+  "hex": "#889d95"
+ },
+ {
+  "code": "34300",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#8ba395"
+ },
+ {
+  "code": "34325",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#80a998"
+ },
+ {
+  "code": "34373",
+  "name": "Sagebrush",
+  "finish": "Flat",
+  "hex": "#a0b4a5"
+ },
+ {
+  "code": "34375",
+  "name": "0 Forest Service Green",
+  "finish": "Flat",
+  "hex": "#6dc8af"
+ },
+ {
+  "code": "34410",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#a2b4a5"
+ },
+ {
+  "code": "34414",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#b8c4ad"
+ },
+ {
+  "code": "34424",
+  "name": "Light Gray Green, ANA 610",
+  "finish": "Flat",
+  "hex": "#b3b69f"
+ },
+ {
+  "code": "34432",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#b1b7a4"
+ },
+ {
+  "code": "34441",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#afbb9f"
+ },
+ {
+  "code": "34449",
+  "name": "Light Green International",
+  "finish": "Flat",
+  "hex": "#a7bd9b"
+ },
+ {
+  "code": "34491",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#b1c4ae"
+ },
+ {
+  "code": "34504",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#b6c4ab"
+ },
+ {
+  "code": "34516",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#b6c6b4"
+ },
+ {
+  "code": "34518",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#b2c2b3"
+ },
+ {
+  "code": "34524",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#bbc69c"
+ },
+ {
+  "code": "34533",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#b5c49e"
+ },
+ {
+  "code": "34540",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#a1d28b"
+ },
+ {
+  "code": "34552",
+  "name": "Light Green, Green",
+  "finish": "Flat",
+  "hex": "#d4cf90"
+ },
+ {
+  "code": "34554",
+  "name": "Sky, Public Building Standard",
+  "finish": "Flat",
+  "hex": "#d2d5b9"
+ },
+ {
+  "code": "34558",
+  "name": "Light Green International",
+  "finish": "Flat",
+  "hex": "#c0d0b0"
+ },
+ {
+  "code": "34583",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#c2c3a4"
+ },
+ {
+  "code": "34666",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#dbe7ab"
+ },
+ {
+  "code": "34670",
+  "name": "Green",
+  "finish": "Flat",
+  "hex": "#d0dac9"
+ },
+ {
+  "code": "34672",
+  "name": "Pastel Blue",
+  "finish": "Flat",
+  "hex": "#d5dbbf"
+ },
+ {
+  "code": "35042",
+  "name": "Sea Blue, ANA 607",
+  "finish": "Flat",
+  "hex": "#454a4e"
+ },
+ {
+  "code": "35044",
+  "name": "Insignia Blue, Aircraft Insignia Blue, ANA 605",
+  "finish": "Flat",
+  "hex": "#444854"
+ },
+ {
+  "code": "35045",
+  "name": "Dark Blue, Blue",
+  "finish": "Flat",
+  "hex": "#41505d"
+ },
+ {
+  "code": "35048",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#18324d"
+ },
+ {
+  "code": "35052",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#00285c"
+ },
+ {
+  "code": "35056",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#3d456c"
+ },
+ {
+  "code": "35095",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#38639c"
+ },
+ {
+  "code": "35109",
+  "name": "Dark Blue, Light Blue International",
+  "finish": "Flat",
+  "hex": "#457285"
+ },
+ {
+  "code": "35164",
+  "name": "Intermediate Blue, Navy Blue 212, ANA 608",
+  "finish": "Flat",
+  "hex": "#6f7c8a"
+ },
+ {
+  "code": "35177",
+  "name": "Medium Blue, Blue",
+  "finish": "Flat",
+  "hex": "#65829a"
+ },
+ {
+  "code": "35180",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#137abb"
+ },
+ {
+  "code": "35183",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#2280b2"
+ },
+ {
+  "code": "35189",
+  "name": "Blue Gray, Blue",
+  "finish": "Flat",
+  "hex": "#6f8a91"
+ },
+ {
+  "code": "35190",
+  "name": "Dark Blue, Blue",
+  "finish": "Flat",
+  "hex": "#6390a9"
+ },
+ {
+  "code": "35193",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#598f98"
+ },
+ {
+  "code": "35231",
+  "name": "Azure Blue, ANA 609",
+  "finish": "Flat",
+  "hex": "#7d91b9"
+ },
+ {
+  "code": "35237",
+  "name": "Gray Blue, Blue Gray",
+  "finish": "Flat",
+  "hex": "#879297"
+ },
+ {
+  "code": "35240",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#7f9cbf"
+ },
+ {
+  "code": "35250",
+  "name": "Blue, UN Flag Blue",
+  "finish": "Flat",
+  "hex": "#5ba6d6"
+ },
+ {
+  "code": "35260",
+  "name": "Forest Service Blue",
+  "finish": "Flat",
+  "hex": "#44abc9"
+ },
+ {
+  "code": "35275",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#35a49e"
+ },
+ {
+  "code": "35299",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#77a59e"
+ },
+ {
+  "code": "35352",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#94a8a4"
+ },
+ {
+  "code": "35414",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#9db3ae"
+ },
+ {
+  "code": "35450",
+  "name": "Air Superiority Blue",
+  "finish": "Flat",
+  "hex": "#92b6d1"
+ },
+ {
+  "code": "35466",
+  "name": "",
+  "finish": "Flat",
+  "hex": "#86cbe4"
+ },
+ {
+  "code": "35488",
+  "name": "",
+  "finish": "Flat",
+  "hex": "#a1bbd1"
+ },
+ {
+  "code": "35526",
+  "name": "Light Sky Blue",
+  "finish": "Flat",
+  "hex": "#b6c4cc"
+ },
+ {
+  "code": "35550",
+  "name": "",
+  "finish": "Flat",
+  "hex": "#cedbe2"
+ },
+ {
+  "code": "35622",
+  "name": "Light Blue",
+  "finish": "Flat",
+  "hex": "#cdd8cd"
+ },
+ {
+  "code": "35630",
+  "name": "Blue",
+  "finish": "Flat",
+  "hex": "#dbdbd5"
+ },
+ {
+  "code": "36076",
+  "name": "Gray, Navy Gray #2, Dark Gray",
+  "finish": "Flat",
+  "hex": "#575b62"
+ },
+ {
+  "code": "36081",
+  "name": "Dark Gunship Gray, Deep Gray, F-4 Aircraft",
+  "finish": "Flat",
+  "hex": "#5b5e5f"
+ },
+ {
+  "code": "36099",
+  "name": "Dark Gray, Dark Blue Gray",
+  "finish": "Flat",
+  "hex": "#5f656a"
+ },
+ {
+  "code": "36118",
+  "name": "Medium Gunship Gray, Gunship Gray, ANA 603",
+  "finish": "Flat",
+  "hex": "#676c73"
+ },
+ {
+  "code": "36134",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#565654"
+ },
+ {
+  "code": "36152",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#74797b"
+ },
+ {
+  "code": "36170",
+  "name": "Camouflage Gray",
+  "finish": "Flat",
+  "hex": "#6c6c6b"
+ },
+ {
+  "code": "36173",
+  "name": "Neutral Gray, Ocean Gray, NAVSEA",
+  "finish": "Flat",
+  "hex": "#7f848a"
+ },
+ {
+  "code": "36176",
+  "name": "Dark Gull Gray, Ocean Gray",
+  "finish": "Flat",
+  "hex": "#778089"
+ },
+ {
+  "code": "36231",
+  "name": "Dark Gull Gray, Gray International, Aircraft Gray, ANA 621",
+  "finish": "Flat",
+  "hex": "#888b8d"
+ },
+ {
+  "code": "36251",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#8e908f"
+ },
+ {
+  "code": "36270",
+  "name": "Medium Gray, Haze Gray",
+  "finish": "Flat",
+  "hex": "#8f9396"
+ },
+ {
+  "code": "36280",
+  "name": "Dark Gray, Gray",
+  "finish": "Flat",
+  "hex": "#8f9396"
+ },
+ {
+  "code": "36293",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#989a9b"
+ },
+ {
+  "code": "36300",
+  "name": "Aircraft Exterior Gray, Aircraft Gray Camouflage",
+  "finish": "Flat",
+  "hex": "#9da2a8"
+ },
+ {
+  "code": "36306",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#a99e93"
+ },
+ {
+  "code": "36307",
+  "name": "Gray, Bulkhead Gray",
+  "finish": "Flat",
+  "hex": "#9fa097"
+ },
+ {
+  "code": "36314",
+  "name": "Flint Gray, Gray",
+  "finish": "Flat",
+  "hex": "#9b9f9b"
+ },
+ {
+  "code": "36320",
+  "name": "Dark Compass Ghost Gray, Gray",
+  "finish": "Flat",
+  "hex": "#98a1a9"
+ },
+ {
+  "code": "36357",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#aca99c"
+ },
+ {
+  "code": "36373",
+  "name": "Light Gray, Gray",
+  "finish": "Flat",
+  "hex": "#aeb1b2"
+ },
+ {
+  "code": "36375",
+  "name": "Light Compass Ghost Gray, Medium Gray",
+  "finish": "Flat",
+  "hex": "#a6adb4"
+ },
+ {
+  "code": "36405",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#c6bea8"
+ },
+ {
+  "code": "36415",
+  "name": "Beige Gray Stain",
+  "finish": "Flat",
+  "hex": "#c6b69c"
+ },
+ {
+  "code": "36424",
+  "name": "Medium Gray, Gray",
+  "finish": "Flat",
+  "hex": "#c4baaf"
+ },
+ {
+  "code": "36440",
+  "name": "Light Gull Gray, Light Gray 81352, ANA 602, ANA 620",
+  "finish": "Flat",
+  "hex": "#b6b5b0"
+ },
+ {
+  "code": "36463",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#b1b3b2"
+ },
+ {
+  "code": "36473",
+  "name": "Sky Gray, Gary",
+  "finish": "Flat",
+  "hex": "#adb5b3"
+ },
+ {
+  "code": "36480",
+  "name": "Canada 501-109",
+  "finish": "Flat",
+  "hex": "#aab7b1"
+ },
+ {
+  "code": "36492",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#c2c0bf"
+ },
+ {
+  "code": "36495",
+  "name": "Light Gray, Gary",
+  "finish": "Flat",
+  "hex": "#cfd1d2"
+ },
+ {
+  "code": "36521",
+  "name": "Tan",
+  "finish": "Flat",
+  "hex": "#d2c5b4"
+ },
+ {
+  "code": "36555",
+  "name": "Tan, Beige",
+  "finish": "Flat",
+  "hex": "#d4c6a8"
+ },
+ {
+  "code": "36559",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#c9c4b3"
+ },
+ {
+  "code": "36586",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#d3ccb7"
+ },
+ {
+  "code": "36595",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#cdcabe"
+ },
+ {
+  "code": "36622",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#d4d0c7"
+ },
+ {
+  "code": "36628",
+  "name": "Flat Aluminum, Gray",
+  "finish": "Flat",
+  "hex": "#d8d8d4"
+ },
+ {
+  "code": "36642",
+  "name": "Gray",
+  "finish": "Flat",
+  "hex": "#e9d7c3"
+ },
+ {
+  "code": "36650",
+  "name": "DLA Light Blue, Gray",
+  "finish": "Flat",
+  "hex": "#e2dfd8"
+ },
+ {
+  "code": "37030",
+  "name": "Black Camouflage",
+  "finish": "Flat",
+  "hex": "#454445"
+ },
+ {
+  "code": "37031",
+  "name": "Black Gray, Interior Aircraft Black, Camouflage",
+  "finish": "Flat",
+  "hex": "#434244"
+ },
+ {
+  "code": "37038",
+  "name": "Black, Black International, Navy #3 black, ANA 604",
+  "finish": "Flat",
+  "hex": "#424243"
+ },
+ {
+  "code": "37056",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#564e4a"
+ },
+ {
+  "code": "37100",
+  "name": "Purple, Violet",
+  "finish": "Flat",
+  "hex": "#79537f"
+ },
+ {
+  "code": "37142",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#9f5d87"
+ },
+ {
+  "code": "37144",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#8b6c8f"
+ },
+ {
+  "code": "37150",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#ded3c4"
+ },
+ {
+  "code": "37200",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#a09f9f"
+ },
+ {
+  "code": "37722",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#ebe3d4"
+ },
+ {
+  "code": "37769",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#e2d6c0"
+ },
+ {
+  "code": "37778",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#f1e7cf"
+ },
+ {
+  "code": "37855",
+  "name": "White, Eggshell, Ivory",
+  "finish": "Flat",
+  "hex": "#f6ebc8"
+ },
+ {
+  "code": "37875",
+  "name": "Insignia White, White international, ACFT Insignia White, ANA 601",
+  "finish": "Flat",
+  "hex": "#f2f1ea"
+ },
+ {
+  "code": "37886",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#f8f1e1"
+ },
+ {
+  "code": "37925",
+  "name": "Misc",
+  "finish": "Flat",
+  "hex": "#fbf8f6"
+ },
+ {
+  "code": "38901",
+  "name": "Fluorescent - Green",
+  "finish": "Flat",
+  "hex": "#00a240"
+ },
+ {
+  "code": "38903",
+  "name": "Fluorescent - Orange",
+  "finish": "Flat",
+  "hex": "#ff5500"
+ },
+ {
+  "code": "38905",
+  "name": "Fluorescent - Red",
+  "finish": "Flat",
+  "hex": "#ff2d00"
+ },
+ {
+  "code": "38907",
+  "name": "Fluorescent - Yellow",
+  "finish": "Flat",
+  "hex": "#ffac00"
+ }
+]
