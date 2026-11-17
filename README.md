@@ -30,7 +30,7 @@ No topo da página há o guia **"Como usar, passo a passo"**, com um exemplo com
 4. Em **4 · Equivalentes**, veja as tintas mais parecidas em outras marcas.
 5. Salve a receita e, depois de misturar de verdade, registre a "cor obtida".
 
-Os dados ficam só no seu navegador (nada é enviado a servidor algum). Atalhos: nos seletores de cor, **Enter** escolhe;
+Na primeira visita o app abre limpo (sem mistura nem receitas, com a Tamiya X-2 White como cor-alvo) e o guia começa fechado. Os dados ficam só no seu navegador (nada é enviado a servidor algum); o botão **"Restaurar configurações"**, no topo, apaga receitas, "tenho" e preferências e volta ao estado inicial. Atalhos: nos seletores de cor, **Enter** escolhe;
 na janela de tintas, a tecla **T** marca "tenho esta tinta" (também botão direito ou toque longo) e **Esc** fecha.
 
 ## Como executar

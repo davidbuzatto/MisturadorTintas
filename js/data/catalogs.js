@@ -213,6 +213,20 @@ export function targetOf(tab, paint) {
   return { hex: paint.hex, label: `${origem} ${paint.code} ${displayName(paint)}`, ref: { tab, code: paint.code } };
 }
 
+/** Cor-alvo da primeira execução: Tamiya X-2 White (branco). */
+export const ALVO_PADRAO = { tab: 'tamiya', code: 'X-2' };
+
+/**
+ * Cor-alvo inicial do app (primeira execução ou estado restaurado).
+ * @param {Object<string, CatalogPaint[]>} catalogs catálogos por aba.
+ * @returns {{hex: string, label: string, ref?: {tab: string, code: string}}}
+ */
+export function alvoPadrao(catalogs) {
+  const paint = (catalogs[ALVO_PADRAO.tab] || []).find((p) => p.code === ALVO_PADRAO.code);
+  // se a tinta um dia sair dos dados, cai num branco livre em vez de quebrar a abertura
+  return paint ? targetOf(ALVO_PADRAO.tab, paint) : { hex: '#ffffff', label: t('target.free.label') };
+}
+
 /**
  * Linhas de produtos de um catálogo, na ordem em que aparecem (vazio se o
  * catálogo não se divide em linhas).

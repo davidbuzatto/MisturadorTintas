@@ -7,7 +7,7 @@
  * `ctx.update()` (ou o `render()` do módulo) para redesenhar.
  */
 
-import { loadCatalogs, normalizeTab } from './data/catalogs.js';
+import { alvoPadrao, loadCatalogs, normalizeTab } from './data/catalogs.js';
 import { buildSets } from './data/sets.js';
 import { IDIOMAS, applyStatic, idiomaDoNavegador, setLang, t } from './i18n/index.js';
 import { createStore } from './state/store.js';
@@ -15,6 +15,7 @@ import { createAbout } from './ui/about.js';
 import { $ } from './ui/dom.js';
 import { createEquivalents } from './ui/equivalents.js';
 import { createHelp } from './ui/help.js';
+import { createSettings } from './ui/settings.js';
 import { createIngredients } from './ui/ingredients.js';
 import { createPicker } from './ui/picker.js';
 import { createRecipes } from './ui/recipes.js';
@@ -45,6 +46,8 @@ async function init() {
   applyStatic();
   const catalogs = await loadCatalogs();
   const sets = buildSets(catalogs);
+  // primeira execução (nada salvo): sem mistura e com a Tamiya X-2 White como cor-alvo
+  if (!state.target) state.target = alvoPadrao(catalogs);
   // restaura abas salvas por versões anteriores (inclusive na origem do alvo)
   state.tab = normalizeTab(state.tab);
   if (state.target.ref) state.target.ref.tab = normalizeTab(state.target.ref.tab);
@@ -75,6 +78,7 @@ async function init() {
   ctx.ui.equivalents = createEquivalents(ctx);
   ctx.ui.about = createAbout(ctx);
   ctx.ui.help = createHelp(ctx);
+  ctx.ui.settings = createSettings(ctx);
   ctx.update = () => {
     ctx.ui.ingredients.render();
     ctx.ui.result.render();

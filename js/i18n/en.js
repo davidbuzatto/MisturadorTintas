@@ -13,6 +13,9 @@ export default {
     'The app could not start: {erro}. If you opened the file straight from disk (file://), serve the folder over HTTP (see the README).',
   'a11y.skip': 'Skip to content',
   'lang.label': 'Language',
+  'reset.button': 'Reset settings',
+  'reset.title': 'Deletes the saved recipes, the paints marked as owned and the preferences stored in this browser, and returns to the initial state',
+  'reset.confirm': 'This deletes the saved recipes, the paints marked as owned and the preferences stored in this browser, and the app returns to its initial state. To keep your recipes first, use “export JSON”. Continue?',
   'common.all': 'All',
   'common.noName': 'No name',
   'common.close': 'close',
@@ -33,7 +36,7 @@ export default {
   'help.try.confirm': 'The example replaces the current target color and mix (saved recipes are not affected). Continue?',
   'help.try.done': 'Done: the target color is now Tamiya XF-18. See the suggested recipes in card 3 and click “use” on one of them (step 4).',
   'help.local':
-    'Everything runs in your browser and nothing is sent to any server. Recipes and preferences stay in the browser’s local storage: use “export JSON” to take them elsewhere.',
+    'Everything runs in your browser and nothing is sent to any server. Recipes and preferences stay in the browser’s local storage: use “export JSON” to take them elsewhere or “Reset settings” (at the top of the page) to delete them.',
   'help.limits':
     'Catalog colors are on-screen approximations, and metallic, translucent or fluorescent paints are not well represented. Treat the result as a starting point and always test before painting.',
 

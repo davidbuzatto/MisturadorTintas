@@ -32,7 +32,7 @@ At the top of the page there is a **"How to use it, step by step"** guide, with 
 4. In **4 · Equivalents**, see the closest paints in other brands.
 5. Save the recipe and, after really mixing, record the "color obtained".
 
-Data stays in your browser (nothing is sent to any server). Shortcuts: in the color pickers, **Enter** chooses; in the
+On the first visit the app opens clean (no mix or recipes, with Tamiya X-2 White as the target color) and the guide starts closed. Data stays in your browser (nothing is sent to any server); the **"Reset settings"** button at the top deletes recipes, "owned" paints and preferences and returns to the initial state. Shortcuts: in the color pickers, **Enter** chooses; in the
 paint dialog, the **T** key marks "I own this paint" (also right-click or long press) and **Esc** closes.
 
 ## Running it

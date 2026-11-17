@@ -131,3 +131,45 @@ test('ordenarSugestoes: abaixo de ΔE 1 vence a mais simples; acima, o menor ΔE
   assert.equal(JSON.stringify(entrada), copia);
   assert.deepEqual(ordenarSugestoes([]), []);
 });
+
+test('primeira execução: sem mistura, sem receitas e com a Tamiya X-2 White como alvo', async () => {
+  const { readFileSync } = await import('node:fs');
+  const { fileURLToPath } = await import('node:url');
+  const { ALVO_PADRAO, alvoPadrao, buildCatalogs } = await import('../js/data/catalogs.js');
+  const { createStore, STORAGE_KEY } = await import('../js/state/store.js');
+  const ler = (f) => JSON.parse(readFileSync(fileURLToPath(new URL(`../dados/${f}`, import.meta.url)), 'utf8'));
+
+  // no Node não há localStorage: o estado vem do padrão (o mesmo que o navegador usa com o armazenamento limpo)
+  const { state, save } = createStore();
+  assert.deepEqual(state.ing, [], 'a primeira execução não traz mistura pronta');
+  assert.deepEqual(state.hist, [], 'nem receitas');
+  assert.deepEqual(state.own, {});
+  assert.equal(state.ingSet, 'acrilex');
+  assert.equal(state.target, null, 'o alvo padrão é definido pelo main.js, com os catálogos já carregados');
+  assert.ok(!('helpOpen' in state), 'o guia não guarda estado: abre sempre fechado');
+  assert.doesNotThrow(() => save());
+  assert.equal(typeof STORAGE_KEY, 'string');
+
+  // alvo padrão: a X-2 é o branco da Tamiya (a X-1 é o preto)
+  assert.deepEqual(ALVO_PADRAO, { tab: 'tamiya', code: 'X-2' });
+  const cat = buildCatalogs({
+    ac: ler('acrilex-cores-oficial.json'), tm: ler('tamiya-cores-oficial.json'), rv: ler('revell-cores-oficial.json'),
+    fs: ler('fs595-cores.json'), vl: [], mr: [], hb: [], ral: [], ak: [], am: [],
+  });
+  const alvo = alvoPadrao(cat);
+  assert.equal(alvo.hex, '#ffffff');
+  assert.deepEqual(alvo.ref, { tab: 'tamiya', code: 'X-2' });
+  assert.match(alvo.label, /X-2 White/);
+  // se a tinta sumir dos dados, cai num branco livre (sem quebrar a abertura)
+  assert.equal(alvoPadrao({ tamiya: [] }).hex, '#ffffff');
+});
+
+test('resetStorage: remove só a chave do app e não explode se o armazenamento falhar', async () => {
+  const { resetStorage, STORAGE_KEY } = await import('../js/state/store.js');
+  const removidas = [];
+  assert.equal(resetStorage({ removeItem: (k) => removidas.push(k) }), true);
+  assert.deepEqual(removidas, [STORAGE_KEY]);
+  const quebrado = { removeItem() { throw new Error('bloqueado'); } };
+  assert.equal(resetStorage(quebrado), false);
+  assert.equal(resetStorage(undefined), false); // sem localStorage (Node): só devolve false
+});

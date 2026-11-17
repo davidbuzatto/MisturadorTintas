@@ -1,6 +1,6 @@
 /**
  * @module ui/help
- * Guia "Como usar, passo a passo": bloco recolhível no topo da página (lembra se foi fechado) e o botão
+ * Guia "Como usar, passo a passo": bloco recolhível no topo da página (sempre fechado ao abrir o app) e o botão
  * "Fazer o exemplo para mim", que executa na tela os primeiros passos do exemplo (escolher a cor-alvo
  * Tamiya XF-18 e pedir as receitas sugeridas), para quem prefere ver a ferramenta em ação.
  */
@@ -43,14 +43,9 @@ export function createHelp(ctx) {
     $('exMsg').textContent = t('help.try.done');
   }
 
-  /** Liga o botão e o bloco recolhível. */
+  /** Liga o botão. O guia começa sempre fechado (e nada sobre ele é guardado): quem quiser, abre. */
   function bind() {
-    const bloco = $('how');
-    bloco.open = state.helpOpen !== false;
-    bloco.addEventListener('toggle', () => {
-      state.helpOpen = bloco.open;
-      save();
-    });
+    $('how').open = false;
     // sem a tinta do exemplo nos dados, o botão não faz sentido
     $('btnExample').hidden = !tintaDoExemplo();
     $('btnExample').onclick = runExample;

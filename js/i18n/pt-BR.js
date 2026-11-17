@@ -14,6 +14,9 @@ export default {
     'Não foi possível iniciar o aplicativo: {erro}. Se você abriu o arquivo direto do disco (file://), sirva a pasta por HTTP (veja o README).',
   'a11y.skip': 'Ir para o conteúdo',
   'lang.label': 'Idioma',
+  'reset.button': 'Restaurar configurações',
+  'reset.title': 'Apaga as receitas salvas, as tintas marcadas como “tenho” e as preferências guardadas neste navegador, e volta ao estado inicial',
+  'reset.confirm': 'Isso apaga as receitas salvas, as tintas marcadas como “tenho” e as preferências guardadas neste navegador, e o app volta ao estado inicial. Para guardar suas receitas antes, use “exportar JSON”. Continuar?',
   'common.all': 'Todas',
   'common.noName': 'Sem nome',
   'common.close': 'fechar',
@@ -34,7 +37,7 @@ export default {
   'help.try.confirm': 'O exemplo substitui a cor-alvo e a mistura atuais (as receitas salvas não são afetadas). Continuar?',
   'help.try.done': 'Pronto: a cor-alvo agora é a Tamiya XF-18. Veja as receitas sugeridas no card 3 e clique em “usar” numa delas (passo 4).',
   'help.local':
-    'Tudo roda no seu navegador e nada é enviado a servidor algum. Receitas e preferências ficam no armazenamento local do navegador: use “exportar JSON” para levá-las para outro lugar.',
+    'Tudo roda no seu navegador e nada é enviado a servidor algum. Receitas e preferências ficam no armazenamento local do navegador: use “exportar JSON” para levá-las para outro lugar ou “Restaurar configurações” (no topo da página) para apagá-las.',
   'help.limits':
     'As cores dos catálogos são aproximações para tela, e tinta metálica, translúcida ou fluorescente não é bem representada. Trate o resultado como ponto de partida e teste sempre antes de pintar.',
 

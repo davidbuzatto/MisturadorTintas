@@ -8,12 +8,6 @@ import { DEFAULT_SET } from '../data/sets.js';
 /** Chave do `localStorage` (mantida para preservar receitas já salvas). */
 export const STORAGE_KEY = 'misturador-tintas-v1';
 
-/** Mistura inicial da linha padrão (Acrilex), usada quando não há ingredientes salvos. */
-export const DEFAULT_INGREDIENTS = [
-  { code: '530', v: 80, s: 1 },
-  { code: '559', v: 20, s: 1 },
-];
-
 /**
  * @typedef {Object} Ingredient
  * @property {string} code  código da tinta (na linha de ingredientes da receita).
@@ -38,7 +32,8 @@ export const DEFAULT_INGREDIENTS = [
  * @typedef {Object} AppState
  * @property {string} ingSet           linha de tintas dos ingredientes (id em `data/sets.js`).
  * @property {Ingredient[]} ing        ingredientes da mistura atual.
- * @property {{hex:string,label:string}} target  cor-alvo atual.
+ * @property {{hex:string,label:string,ref?:{tab:string,code:string}}|null} target  cor-alvo atual (`null` na primeira execução:
+ *                                     o `main.js` define o alvo padrão quando os catálogos estão carregados).
  * @property {string} model            modelo de mistura selecionado.
  * @property {number} total            volume total, em ml.
  * @property {Object<string,Object<string,boolean>>} own  tintas marcadas como "tenho", por linha de ingredientes.
@@ -47,7 +42,6 @@ export const DEFAULT_INGREDIENTS = [
  * @property {'target'|'mix'} eqFrom   cor de partida das equivalências: alvo ou mistura calculada.
  * @property {Object<string,string>} lines  linha escolhida por aba ("*" = todas), nos catálogos com linhas.
  * @property {string} free             última cor livre escolhida.
- * @property {boolean} helpOpen        se o bloco "Como usar" está aberto.
  * @property {string} lang             idioma da interface ("pt-BR" ou "en"; vazio = o do navegador).
  */
 
@@ -56,7 +50,7 @@ function defaultState() {
   return {
     ingSet: DEFAULT_SET,
     ing: [],
-    target: { hex: '#4f5457', label: 'Tamiya Acrylic X-10 Gun Metal', ref: { tab: 'tamiya', code: 'X-10' } },
+    target: null,
     model: 'km',
     total: 10,
     own: {},
@@ -66,8 +60,22 @@ function defaultState() {
     eqFrom: 'target',
     free: '#808080',
     lang: '',
-    helpOpen: true,
   };
+}
+
+/**
+ * Apaga tudo o que o app guardou no navegador (receitas, "tenho", preferências). Na próxima abertura o app volta
+ * ao estado inicial. Falhas de armazenamento (modo privado, bloqueio) são ignoradas.
+ * @param {Pick<Storage, 'removeItem'>} [armazenamento] padrão: `localStorage`.
+ * @returns {boolean} `true` se o item foi removido sem erro.
+ */
+export function resetStorage(armazenamento = globalThis.localStorage) {
+  try {
+    armazenamento.removeItem(STORAGE_KEY);
+    return true;
+  } catch (e) {
+    return false;
+  }
 }
 
 /**
@@ -85,8 +93,6 @@ export function createStore() {
   }
   // "tenho" antes era um mapa código → booleano (só da Acrilex); agora é por linha de ingredientes
   if (Object.values(state.own).some((v) => typeof v === 'boolean')) state.own = { [DEFAULT_SET]: state.own };
-  // a mistura inicial só existe para a linha padrão (os códigos são dela)
-  if (!state.ing.length && state.ingSet === DEFAULT_SET) state.ing = DEFAULT_INGREDIENTS.map((i) => ({ ...i }));
 
   /** Grava o estado atual. */
   function save() {
