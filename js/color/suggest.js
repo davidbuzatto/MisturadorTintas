@@ -141,3 +141,33 @@ export function suggest(paints, targetHex, maxN) {
   }
   return results;
 }
+
+/** ΔE00 abaixo do qual a diferença é imperceptível (o mesmo limite do rótulo "imperceptível" da tela). */
+export const LIMITE_IMPERCEPTIVEL = 1;
+
+/**
+ * Ordena as sugestões para exibição.
+ *
+ *  1. Receitas com ΔE00 abaixo de {@link LIMITE_IMPERCEPTIVEL} (diferença imperceptível) vêm primeiro e são
+ *     tratadas como equivalentes: entre elas, vence a que usa **menos tintas** e, com o mesmo número de
+ *     tintas, a de menor ΔE. Assim, "100% Tinta A" com ΔE 0,65 passa na frente de uma receita de 4 tintas
+ *     com ΔE 0,07, que ninguém consegue distinguir na bancada.
+ *  2. As demais seguem pelo **menor ΔE**; no empate (na precisão mostrada na tela, duas casas decimais), vence
+ *     a que usa menos tintas. Como o ΔE é decimal e quase nunca empata de verdade, o empate vale nas duas casas.
+ *
+ * Não altera a lista recebida.
+ *
+ * @param {Suggestion[]} sugestoes resultados de `suggest()`.
+ * @returns {Suggestion[]} nova lista, ordenada.
+ */
+export function ordenarSugestoes(sugestoes) {
+  const centesimos = (s) => Math.round(s.de * 100);
+  const imperceptivel = (s) => s.de < LIMITE_IMPERCEPTIVEL;
+  return [...sugestoes].sort((a, b) => {
+    const ia = imperceptivel(a);
+    const ib = imperceptivel(b);
+    if (ia !== ib) return ia ? -1 : 1; // as imperceptíveis vêm antes (e têm ΔE menor, de qualquer modo)
+    if (ia) return a.idx.length - b.idx.length || a.de - b.de;
+    return centesimos(a) - centesimos(b) || a.idx.length - b.idx.length;
+  });
+}

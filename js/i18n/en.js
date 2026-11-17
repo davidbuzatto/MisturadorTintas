@@ -23,7 +23,7 @@ export default {
   'help.intro': 'As an example, let’s reproduce the color <b>Tamiya XF-18 (Medium Blue)</b> by mixing paints. Follow the steps, or use the button at the end of the list to watch it all happen.',
   'help.step1': '<b>Pick the paint line you own</b> in card 1 (for example, <b>Acrilex Matte</b>, which is already selected). Each recipe uses a single line.',
   'help.step2': 'In card 2, open the <b>Tamiya</b> tab, keep the <b>Acrylic</b> line and type <b>XF-18</b> in the search box. Click the <i>Medium Blue</i> color: it becomes the target and shows up as “target” in card 3.',
-  'help.step3': 'In card 3, click <b>suggest an automatic mix</b>. The app lists recipes of 1 to 3 paints; the lower the ΔE, the closer to the target (below 2 you can only notice the difference with the colors side by side).',
+  'help.step3': 'In card 3, click <b>suggest an automatic mix</b>. The app lists recipes of 1 to 3 paints, from the closest to the target (lowest ΔE) to the farthest. Recipes with ΔE below 1 (imperceptible difference) count as equivalent, and among them the one using fewer paints comes first. Below ΔE 2 you can only notice the difference with the colors side by side.',
   'help.step4': 'Click <b>use</b> on the recipe you prefer: the paints and proportions go into card 1, and the “mix” swatch shows the computed color next to the target.',
   'help.step5': 'If you like, adjust it: drag the amount controls, change a paint’s <b>strength</b> or set the <b>total</b> in ml to know how much of each paint to use.',
   'help.step6': 'Don’t own the right paints? In card 4, see the <b>ready-made paints closest</b> to it in other brands (an AMMO or AK badge means the manufacturer declares the equivalence).',

@@ -4,7 +4,7 @@
  */
 
 import { mixHex } from '../color/mixing.js';
-import { suggest } from '../color/suggest.js';
+import { ordenarSugestoes, suggest } from '../color/suggest.js';
 import { t, tn } from '../i18n/index.js';
 import { $, deText, esc } from './dom.js';
 
@@ -29,7 +29,8 @@ export function createSuggestions(ctx) {
         return;
       }
       const P = list.map((p) => ({ code: p.code, fit: p.fit, anchor: set.anchors.has(p.code) }));
-      const results = suggest(P, state.target.hex, +$('maxN').value);
+      // da mais próxima do alvo (menor ΔE) para a mais distante; no empate, a que usa menos tintas
+      const results = ordenarSugestoes(suggest(P, state.target.hex, +$('maxN').value));
       out.innerHTML = '';
       results.forEach((r) => {
         const d = document.createElement('div');

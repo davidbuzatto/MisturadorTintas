@@ -101,3 +101,33 @@ test('guia passo a passo: o exemplo (Tamiya XF-18) existe nos dados e rende uma 
   assert.ok(receitas.length >= 2, 'o passo 3 promete receitas de várias tintas');
   assert.ok(receitas.some((r) => r.idx.length >= 2 && r.de < 2), 'esperava uma receita de 2+ tintas com ΔE < 2');
 });
+
+test('ordenarSugestoes: abaixo de ΔE 1 vence a mais simples; acima, o menor ΔE (empate: menos tintas)', async () => {
+  const { ordenarSugestoes, LIMITE_IMPERCEPTIVEL } = await import('../js/color/suggest.js');
+  const s = (de, ...idx) => ({ idx, ws: idx.map(() => 1 / idx.length), de });
+  const rotulo = (lista) => ordenarSugestoes(lista).map((r) => `${r.idx.length}@${r.de}`);
+  assert.equal(LIMITE_IMPERCEPTIVEL, 1);
+
+  // caso do exemplo da XF-18 (Acrilex): 1 tinta ΔE 7,44; 2 tintas ΔE 0,44; 3 tintas ΔE 0,15
+  assert.deepEqual(rotulo([s(7.44, 0), s(0.44, 0, 1), s(0.15, 0, 1, 2)]), ['2@0.44', '3@0.15', '1@7.44']);
+
+  // abaixo de 1: menos tintas primeiro, mesmo com ΔE maior (0,65 de 2 tintas antes de 0,07 de 4)
+  assert.deepEqual(rotulo([s(0.07, 0, 1, 2, 3), s(0.65, 0, 1), s(0.17, 0, 1, 2), s(6.13, 0)]), ['2@0.65', '3@0.17', '4@0.07', '1@6.13']);
+  // mesmo número de tintas e ambas imperceptíveis: menor ΔE
+  assert.deepEqual(rotulo([s(0.6, 0, 1), s(0.2, 0, 1)]), ['2@0.2', '2@0.6']);
+  // uma imperceptível de muitas tintas ainda vence qualquer uma com ΔE a partir de 1
+  assert.deepEqual(rotulo([s(1, 0), s(0.99, 0, 1, 2, 3)]), ['4@0.99', '1@1']);
+
+  // a partir de 1: menor ΔE primeiro, mesmo com mais tintas
+  assert.deepEqual(rotulo([s(2.51, 0), s(2.4, 0, 1, 2)]), ['3@2.4', '1@2.51']);
+  // empate nas duas casas (2,50 e 2,50): menos tintas primeiro, em qualquer ordem de entrada
+  assert.deepEqual(rotulo([s(2.496, 0, 1, 2), s(2.504, 0, 1)]), ['2@2.504', '3@2.496']);
+  assert.deepEqual(rotulo([s(2.504, 0, 1), s(2.496, 0, 1, 2)]), ['2@2.504', '3@2.496']);
+
+  // não altera a lista recebida; lista vazia
+  const entrada = [s(7.44, 0), s(0.44, 0, 1)];
+  const copia = JSON.stringify(entrada);
+  ordenarSugestoes(entrada);
+  assert.equal(JSON.stringify(entrada), copia);
+  assert.deepEqual(ordenarSugestoes([]), []);
+});
