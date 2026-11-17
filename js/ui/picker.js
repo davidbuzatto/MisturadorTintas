@@ -5,10 +5,13 @@
  */
 
 import { t } from '../i18n/index.js';
+import { contarMarcadas, marcarEmLote } from '../state/tenho.js';
 import { $, ativavel, esc, setNome } from './dom.js';
 
 /** Duração do toque longo para marcar "tenho", em ms. */
 const LONG_PRESS_MS = 600;
+/** Acima desta quantidade de tintas visíveis, desmarcar em lote pede confirmação. */
+const LIMITE_CONFIRMAR = 10;
 
 /**
  * @param {import('../main.js').AppContext} ctx contexto da aplicação.
@@ -17,6 +20,8 @@ export function createPicker(ctx) {
   const { save } = ctx;
   const modal = $('modal');
   let anterior = null;
+  /** Tintas exibidas na grade neste momento (depois da busca e do filtro). */
+  let visiveis = [];
 
   /** Alterna a marca "tenho" de uma tinta e redesenha a grade. */
   function toggleOwn(code) {
@@ -33,9 +38,11 @@ export function createPicker(ctx) {
     const q = $('pSearch').value.trim().toLowerCase();
     const onlyOwn = $('pOwn').checked;
     const tenho = ctx.owned();
+    visiveis = [];
     ctx.ingSet().paints.forEach((p) => {
       if (q && (p.code + ' ' + p.name).toLowerCase().indexOf(q) < 0) return;
       if (onlyOwn && !tenho[p.code]) return;
+      visiveis.push(p);
       const c = document.createElement('div');
       c.className = 'cell' + (tenho[p.code] ? ' own' : '');
       c.innerHTML =
@@ -57,6 +64,29 @@ export function createPicker(ctx) {
       c.ontouchend = c.ontouchmove = () => clearTimeout(timer);
       g.appendChild(c);
     });
+    renderLote();
+  }
+
+  /** Atualiza os botões de marcação em lote e o contador de tintas marcadas. */
+  function renderLote() {
+    const total = ctx.ingSet().paints;
+    const n = visiveis.length;
+    $('pMarkAll').textContent = t('picker.markAll', { n });
+    $('pUnmarkAll').textContent = t('picker.unmarkAll', { n });
+    $('pMarkAll').disabled = $('pUnmarkAll').disabled = n === 0;
+    $('pOwnCount').textContent = t('picker.ownCount', { n: contarMarcadas(ctx.owned(), total), total: total.length });
+  }
+
+  /**
+   * Marca ou desmarca todas as tintas visíveis (as que passam pela busca e pelo filtro).
+   * @param {boolean} marcar
+   */
+  function marcarVisiveis(marcar) {
+    if (!visiveis.length) return;
+    if (!marcar && visiveis.length > LIMITE_CONFIRMAR && !confirm(t('picker.unmarkConfirm', { n: visiveis.length }))) return;
+    marcarEmLote(ctx.owned(), visiveis.map((p) => p.code), marcar);
+    save();
+    render();
   }
 
   /** Abre a janela. */
@@ -81,6 +111,8 @@ export function createPicker(ctx) {
     modal.onclick = (e) => { if (e.target === modal) close(); };
     $('pSearch').oninput = render;
     $('pOwn').onchange = render;
+    $('pMarkAll').onclick = () => marcarVisiveis(true);
+    $('pUnmarkAll').onclick = () => marcarVisiveis(false);
     // Esc fecha a janela
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && modal.classList.contains('on')) close();

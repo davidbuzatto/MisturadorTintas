@@ -15,7 +15,7 @@ export default {
   'lang.label': 'Language',
   'reset.button': 'Reset settings',
   'reset.title': 'Deletes the saved recipes, the paints marked as owned and the preferences stored in this browser, and returns to the initial state',
-  'reset.confirm': 'This deletes the saved recipes, the paints marked as owned and the preferences stored in this browser, and the app returns to its initial state. To keep your recipes first, use “export JSON”. Continue?',
+  'reset.confirm': 'This deletes the saved recipes, the paints marked as owned and the preferences stored in this browser, and the app returns to its initial state. To keep your recipes and paints first, use “export backup”. Continue?',
   'common.all': 'All',
   'common.noName': 'No name',
   'common.close': 'close',
@@ -31,12 +31,12 @@ export default {
   'help.step5': 'If you like, adjust it: drag the amount controls, change a paint’s <b>strength</b> or set the <b>total</b> in ml to know how much of each paint to use.',
   'help.step6': 'Don’t own the right paints? In card 4, see the <b>ready-made paints closest</b> to it in other brands (an AMMO or AK badge means the manufacturer declares the equivalence).',
   'help.step7': 'Mix it for real, click <b>save recipe</b> and, in card 5, record the <b>color obtained</b>: the app shows the real model error and helps you calibrate.',
-  'help.tip': 'Tip: in the paint dialog, mark the ones you own (right-click, long press or the T key) and turn on “only the ones I own” so the suggestion uses only those.',
+  'help.tip': 'Tip: in the paint dialog, mark the ones you own (right-click, long press or the T key; or filter with the search box and use “mark the visible”) and turn on “only the ones I own” so the suggestion uses only those.',
   'help.try': 'Do the example for me',
   'help.try.confirm': 'The example replaces the current target color and mix (saved recipes are not affected). Continue?',
   'help.try.done': 'Done: the target color is now Tamiya XF-18. See the suggested recipes in card 3 and click “use” on one of them (step 4).',
   'help.local':
-    'Everything runs in your browser and nothing is sent to any server. Recipes and preferences stay in the browser’s local storage: use “export JSON” to take them elsewhere or “Reset settings” (at the top of the page) to delete them.',
+    'Everything runs in your browser and nothing is sent to any server. Recipes and preferences stay in the browser’s local storage: use “export backup” (recipes and owned paints) to take them elsewhere or “Reset settings” (at the top of the page) to delete them.',
   'help.limits':
     'Catalog colors are on-screen approximations, and metallic, translucent or fluorescent paints are not well represented. Treat the result as a starting point and always test before painting.',
 
@@ -142,7 +142,7 @@ export default {
 
   // ---- 5 · Recipes ----
   'rec.help':
-    'After really mixing, record the “color obtained”: the app shows the real model error, which helps calibrate each paint’s “strength”.',
+    'After really mixing, record the “color obtained”: the app shows the real model error, which helps calibrate each paint’s “strength”. The backup also keeps the paints you marked as owned.',
   'rec.empty':
     'No saved recipes. Build a mix and click “save recipe”. After really mixing, record the color you got to see the real model error.',
   'rec.default': 'Recipe',
@@ -159,14 +159,24 @@ export default {
   'rec.prompt': 'Recipe name:',
   'rec.needMix': 'Add paints to the mix first.',
   'rec.badFile': 'Invalid file.',
-  'rec.export': 'export JSON',
-  'rec.import': 'import JSON',
+  'rec.export': 'export backup',
+  'rec.import': 'import backup',
+  'rec.export.title': 'Downloads a JSON file with your recipes and the paints marked as owned',
+  'rec.import.title': 'Reads a backup file and adds its content to what you already have, without replacing or duplicating. It also accepts old files with recipes only',
+  'bk.exported': 'Backup downloaded — recipes: {receitas}; owned paints: {tintas}.',
+  'bk.done': 'Imported — new recipes: {receitas}; new owned paints: {tintas}; paint lines: {linhas}.',
+  'bk.nothing': 'Nothing new in this file: everything was already here.',
+  'bk.ignored': '({n} items ignored: unrecognized format or paints.)',
 
   // ---- paint picker (dialog) ----
   'picker.title': 'Pick a paint from {linha}',
   'picker.search': 'search…',
+  'picker.markAll': 'mark the {n} visible',
+  'picker.unmarkAll': 'unmark the {n} visible',
+  'picker.unmarkConfirm': 'Unmark {n} paints as owned?',
+  'picker.ownCount': '{n} of {total} marked as owned',
   'picker.help':
-    'Click (or Enter) to add. Right-click, long press or the T key marks “I own this paint” (green border).',
+    'Click (or Enter) to add. Right-click, long press or the T key marks “I own this paint” (green border). To mark many at once, filter with the search box and use “mark the visible”.',
 
   // ---- about ----
   'about.title': 'About',

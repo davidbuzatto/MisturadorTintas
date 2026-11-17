@@ -120,7 +120,7 @@
     <h2 id="h-rec" data-i18n="card.recipes">5 · Receitas salvas</h2>
     <p class="muted help" data-i18n="rec.help"></p>
     <div id="hist"></div>
-    <div class="row" style="margin-top:8px"><button id="btnExp" data-i18n="rec.export">exportar JSON</button><button id="btnImp" data-i18n="rec.import">importar JSON</button><input type="file" id="fileImp" accept=".json" style="display:none"></div>
+    <div class="row" style="margin-top:8px"><button id="btnExp" data-i18n="rec.export" data-i18n-title="rec.export.title">exportar backup</button><button id="btnImp" data-i18n="rec.import" data-i18n-title="rec.import.title">importar backup</button><input type="file" id="fileImp" accept=".json" style="display:none" data-i18n-aria-label="rec.import"><span class="muted" id="bkMsg" aria-live="polite"></span></div>
   </section>
 
   <section class="card full about" id="about" aria-labelledby="h-about">
@@ -139,6 +139,7 @@
   <div class="row"><b style="flex:1" id="mTitle"></b><button id="mClose" data-i18n="common.close">fechar</button></div>
   <div class="row" style="margin:8px 0"><input type="text" id="pSearch" data-i18n-placeholder="picker.search" data-i18n-aria-label="picker.search" style="flex:1"><label class="muted"><input type="checkbox" id="pOwn"> <span data-i18n="result.onlyOwn">só as que tenho</span></label></div>
   <p class="muted" style="margin:0 0 6px" data-i18n="picker.help"></p>
+  <div class="row" style="margin:0 0 8px"><button class="sm" id="pMarkAll"></button><button class="sm" id="pUnmarkAll"></button><span class="muted" id="pOwnCount" aria-live="polite"></span></div>
   <div class="grid" id="pGrid" style="max-height:60vh"></div>
 </div></div>
 </body>

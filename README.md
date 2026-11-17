@@ -16,7 +16,7 @@ faz a previsão chegar perto do que acontece na bancada. JavaScript puro, módul
 - **Cor-alvo de qualquer catálogo:** mais de 3.300 cores em 10 catálogos, ou uma cor livre.
 - **Equivalentes em outras marcas:** para o alvo (ou para a mistura calculada), as tintas mais parecidas em cada marca
   (por ΔE00) e, quando o fabricante declara a equivalência, um selo **AMMO** ou **AK**.
-- **Receitas salvas:** guarde receitas, registre a cor realmente obtida para medir o erro do modelo, exporte/importe JSON.
+- **Receitas salvas:** guarde receitas, registre a cor realmente obtida para medir o erro do modelo. O **backup** (JSON) guarda receitas e as tintas que você tem, e a importação soma ao que já existe, sem duplicar.
 - **Português e inglês**, tema claro/escuro automático, uso por teclado e em tela de celular.
 
 ## Como usar
@@ -31,7 +31,7 @@ No topo da página há o guia **"Como usar, passo a passo"**, com um exemplo com
 5. Salve a receita e, depois de misturar de verdade, registre a "cor obtida".
 
 Na primeira visita o app abre limpo (sem mistura nem receitas, com a Tamiya X-2 White como cor-alvo) e o guia começa fechado. Os dados ficam só no seu navegador (nada é enviado a servidor algum); o botão **"Restaurar configurações"**, no topo, apaga receitas, "tenho" e preferências e volta ao estado inicial. Atalhos: nos seletores de cor, **Enter** escolhe;
-na janela de tintas, a tecla **T** marca "tenho esta tinta" (também botão direito ou toque longo) e **Esc** fecha.
+na janela de tintas, a tecla **T** marca "tenho esta tinta" (também botão direito ou toque longo), **marcar as visíveis** marca de uma vez as tintas filtradas pela busca e **Esc** fecha.
 
 ## Como executar
 
@@ -117,7 +117,7 @@ js/
     catalogs.js       carrega e normaliza os JSONs; abas, linhas, nomes
     sets.js           linhas de tintas que podem ser ingredientes (filtros e âncoras)
     equivalences.js   equivalências declaradas pelos fabricantes
-  state/store.js      estado e persistência (localStorage)
+  state/              store.js (estado e localStorage), backup.js (exportar/importar), tenho.js (marcação em lote)
   ui/                 um módulo por seção da tela (help.js: guia passo a passo e exemplo)
 tests/                testes (node --test)
 tools/servidor.mjs    servidor estático para desenvolvimento

@@ -16,7 +16,7 @@ export default {
   'lang.label': 'Idioma',
   'reset.button': 'Restaurar configurações',
   'reset.title': 'Apaga as receitas salvas, as tintas marcadas como “tenho” e as preferências guardadas neste navegador, e volta ao estado inicial',
-  'reset.confirm': 'Isso apaga as receitas salvas, as tintas marcadas como “tenho” e as preferências guardadas neste navegador, e o app volta ao estado inicial. Para guardar suas receitas antes, use “exportar JSON”. Continuar?',
+  'reset.confirm': 'Isso apaga as receitas salvas, as tintas marcadas como “tenho” e as preferências guardadas neste navegador, e o app volta ao estado inicial. Para guardar suas receitas e tintas antes, use “exportar backup”. Continuar?',
   'common.all': 'Todas',
   'common.noName': 'Sem nome',
   'common.close': 'fechar',
@@ -32,12 +32,12 @@ export default {
   'help.step5': 'Se quiser, ajuste: arraste os controles de quantidade, mude a <b>força</b> de uma tinta ou defina o <b>total</b> em ml para saber quanto usar de cada tinta.',
   'help.step6': 'Não tem as tintas certas? No card 4, veja as <b>tintas prontas mais parecidas</b> em outras marcas (o selo AMMO ou AK indica equivalência declarada pelo fabricante).',
   'help.step7': 'Misture de verdade, clique em <b>salvar receita</b> e, no card 5, registre a <b>cor obtida</b>: o app mostra o erro real do modelo e ajuda a calibrar.',
-  'help.tip': 'Dica: na janela de tintas, marque as que você tem (botão direito, toque longo ou tecla T) e ative “só as que tenho” para a sugestão usar apenas elas.',
+  'help.tip': 'Dica: na janela de tintas, marque as que você tem (botão direito, toque longo ou tecla T; ou filtre pela busca e use “marcar as visíveis”) e ative “só as que tenho” para a sugestão usar apenas elas.',
   'help.try': 'Fazer o exemplo para mim',
   'help.try.confirm': 'O exemplo substitui a cor-alvo e a mistura atuais (as receitas salvas não são afetadas). Continuar?',
   'help.try.done': 'Pronto: a cor-alvo agora é a Tamiya XF-18. Veja as receitas sugeridas no card 3 e clique em “usar” numa delas (passo 4).',
   'help.local':
-    'Tudo roda no seu navegador e nada é enviado a servidor algum. Receitas e preferências ficam no armazenamento local do navegador: use “exportar JSON” para levá-las para outro lugar ou “Restaurar configurações” (no topo da página) para apagá-las.',
+    'Tudo roda no seu navegador e nada é enviado a servidor algum. Receitas e preferências ficam no armazenamento local do navegador: use “exportar backup” (receitas e tintas “tenho”) para levá-las para outro lugar ou “Restaurar configurações” (no topo da página) para apagá-las.',
   'help.limits':
     'As cores dos catálogos são aproximações para tela, e tinta metálica, translúcida ou fluorescente não é bem representada. Trate o resultado como ponto de partida e teste sempre antes de pintar.',
 
@@ -143,7 +143,7 @@ export default {
 
   // ---- 5 · Receitas ----
   'rec.help':
-    'Depois de misturar de verdade, registre a “cor obtida”: o app mostra o erro real do modelo, que ajuda a calibrar a “força” das tintas.',
+    'Depois de misturar de verdade, registre a “cor obtida”: o app mostra o erro real do modelo, que ajuda a calibrar a “força” das tintas. O backup guarda também as tintas que você marcou como “tenho”.',
   'rec.empty':
     'Nenhuma receita salva. Monte uma mistura e clique em “salvar receita”. Depois de misturar de verdade, registre a cor obtida para ver o erro real do modelo.',
   'rec.default': 'Receita',
@@ -160,14 +160,24 @@ export default {
   'rec.prompt': 'Nome da receita:',
   'rec.needMix': 'Adicione tintas à mistura primeiro.',
   'rec.badFile': 'Arquivo inválido.',
-  'rec.export': 'exportar JSON',
-  'rec.import': 'importar JSON',
+  'rec.export': 'exportar backup',
+  'rec.import': 'importar backup',
+  'rec.export.title': 'Baixa um arquivo JSON com as suas receitas e as tintas marcadas como “tenho”',
+  'rec.import.title': 'Lê um arquivo de backup e soma o conteúdo ao que você já tem, sem substituir nem duplicar. Também aceita arquivos antigos, só com receitas',
+  'bk.exported': 'Backup baixado — receitas: {receitas}; tintas marcadas: {tintas}.',
+  'bk.done': 'Importado — receitas novas: {receitas}; tintas marcadas novas: {tintas}; linhas de tintas: {linhas}.',
+  'bk.nothing': 'Nada novo neste arquivo: tudo já estava aqui.',
+  'bk.ignored': '({n} itens ignorados: formato ou tintas não reconhecidos.)',
 
   // ---- seletor de tintas (janela) ----
   'picker.title': 'Escolha uma tinta {linha}',
   'picker.search': 'buscar…',
+  'picker.markAll': 'marcar as {n} visíveis',
+  'picker.unmarkAll': 'desmarcar as {n} visíveis',
+  'picker.unmarkConfirm': 'Desmarcar {n} tintas como “tenho”?',
+  'picker.ownCount': '{n} de {total} marcadas como “tenho”',
   'picker.help':
-    'Clique (ou Enter) para adicionar. Botão direito, toque longo ou a tecla T marcam “tenho esta tinta” (borda verde).',
+    'Clique (ou Enter) para adicionar. Botão direito, toque longo ou a tecla T marcam “tenho esta tinta” (borda verde). Para marcar várias de uma vez, filtre com a busca e use “marcar as visíveis”.',
 
   // ---- sobre ----
   'about.title': 'Sobre',

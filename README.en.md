@@ -18,7 +18,7 @@ The interface is available in Brazilian Portuguese and English (switch it at the
 - **Target color from any catalog:** more than 3,300 colors in 10 catalogs, or a free color.
 - **Equivalents in other brands:** for the target (or for the computed mix), the closest paints in each brand (by ΔE00)
   and, when the manufacturer declares the equivalence, an **AMMO** or **AK** badge.
-- **Saved recipes:** keep recipes, record the color you actually got to measure the model error, export/import JSON.
+- **Saved recipes:** keep recipes, record the color you actually got to measure the model error. The **backup** (JSON) keeps recipes and the paints you own, and importing adds to what you already have, without duplicating.
 - Light/dark theme, keyboard use and phone-sized screens.
 
 ## How to use
@@ -33,7 +33,7 @@ At the top of the page there is a **"How to use it, step by step"** guide, with 
 5. Save the recipe and, after really mixing, record the "color obtained".
 
 On the first visit the app opens clean (no mix or recipes, with Tamiya X-2 White as the target color) and the guide starts closed. Data stays in your browser (nothing is sent to any server); the **"Reset settings"** button at the top deletes recipes, "owned" paints and preferences and returns to the initial state. Shortcuts: in the color pickers, **Enter** chooses; in the
-paint dialog, the **T** key marks "I own this paint" (also right-click or long press) and **Esc** closes.
+paint dialog, the **T** key marks "I own this paint" (also right-click or long press), **mark the visible** marks every paint filtered by the search box at once, and **Esc** closes.
 
 ## Running it
 
@@ -119,7 +119,7 @@ js/
     catalogs.js       loads and normalizes the JSONs; tabs, lines, names
     sets.js           paint lines that can be ingredients (filters and anchors)
     equivalences.js   equivalences declared by manufacturers
-  state/store.js      state and persistence (localStorage)
+  state/              store.js (state and localStorage), backup.js (export/import), tenho.js (bulk marking)
   ui/                 one module per screen section (help.js: step-by-step guide and example)
 tests/                tests (node --test)
 tools/servidor.mjs    static server for development

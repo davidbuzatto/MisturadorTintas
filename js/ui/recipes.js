@@ -5,6 +5,7 @@
  */
 
 import { DEFAULT_SET } from '../data/sets.js';
+import { criarBackup, lerBackup, mesclarBackup } from '../state/backup.js';
 import { t } from '../i18n/index.js';
 import { $, deHex, esc, setNome } from './dom.js';
 
@@ -86,29 +87,40 @@ export function createRecipes(ctx) {
     render();
   }
 
-  /** Baixa as receitas como `receitas-misturador.json`. */
-  function exportJson() {
+  /** Baixa o backup (receitas + tintas "tenho") como `misturador-tintas-backup.json`. */
+  function exportBackup() {
+    const b = criarBackup(state);
     const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob([JSON.stringify(state.hist, null, 1)], { type: 'application/json' }));
-    a.download = 'receitas-misturador.json';
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(b, null, 1)], { type: 'application/json' }));
+    a.download = 'misturador-tintas-backup.json';
     a.click();
+    $('bkMsg').textContent = t('bk.exported', { receitas: b.receitas.length, tintas: Object.values(b.tenho).reduce((n, m) => n + Object.keys(m).length, 0) });
   }
 
-  /** Importa receitas de um arquivo JSON, somando-as às existentes. */
-  function importJson(file) {
+  /**
+   * Importa um backup (ou uma lista antiga de receitas), somando ao que já existe, e mostra o resumo.
+   * @param {File} [file] arquivo escolhido.
+   */
+  function importBackup(file) {
     if (!file) return;
     const reader = new FileReader();
     reader.onload = () => {
+      let dados;
       try {
-        const a = JSON.parse(reader.result);
-        if (Array.isArray(a)) {
-          state.hist = a.concat(state.hist);
-          save();
-          render();
-        }
+        dados = lerBackup(reader.result);
       } catch (e) {
         alert(t('rec.badFile'));
+        return;
       }
+      const existe = (linha, codigo) => ctx.sets.byId.has(linha) && ctx.sets.byId.get(linha).porCodigo.has(codigo);
+      const r = mesclarBackup(state, dados, existe);
+      save();
+      render();
+      $('bkMsg').textContent =
+        r.receitasNovas || r.tintasNovas
+          ? t('bk.done', { receitas: r.receitasNovas, tintas: r.tintasNovas, linhas: r.linhas })
+          : t('bk.nothing');
+      if (dados.ignoradas || r.tintasIgnoradas) $('bkMsg').textContent += ' ' + t('bk.ignored', { n: dados.ignoradas + r.tintasIgnoradas });
     };
     reader.readAsText(file);
   }
@@ -116,10 +128,19 @@ export function createRecipes(ctx) {
   /** Liga os botões da seção. */
   function bind() {
     $('btnSave').onclick = saveCurrent;
-    $('btnExp').onclick = exportJson;
+    $('btnExp').onclick = exportBackup;
     $('btnImp').onclick = () => $('fileImp').click();
-    $('fileImp').onchange = function () { importJson(this.files[0]); };
+    $('fileImp').onchange = function () {
+      importBackup(this.files[0]);
+      this.value = ''; // permite importar o mesmo arquivo de novo
+    };
   }
 
-  return { render, bind, refresh: render };
+  /** Redesenha com os textos do idioma atual (a mensagem do backup é limpa). */
+  function refresh() {
+    $('bkMsg').textContent = '';
+    render();
+  }
+
+  return { render, bind, refresh };
 }
