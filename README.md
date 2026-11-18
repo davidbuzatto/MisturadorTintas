@@ -13,7 +13,7 @@ faz a previsão chegar perto do que acontece na bancada. JavaScript puro, módul
   (diferença de cor percebida) até o alvo e quatro modelos de mistura lado a lado (pigmento × RGB).
 - **Sugere receitas:** a busca automática encontra misturas de 1 a 4 tintas que se aproximam do alvo, opcionalmente só com
   as tintas que você tem.
-- **Cor-alvo de qualquer catálogo:** mais de 3.300 cores em 10 catálogos, ou uma cor livre.
+- **Cor-alvo de qualquer catálogo:** mais de 3.300 cores em 10 catálogos, ou uma cor livre (a opção "mostrar acabamento" exibe fosca, brilhante, metálica etc. nas amostras).
 - **Equivalentes em outras marcas:** para o alvo (ou para a mistura calculada), as tintas mais parecidas em cada marca
   (por ΔE00) e, quando o fabricante declara a equivalência, um selo **AMMO** ou **AK**.
 - **Catálogo completo (só consulta):** botão no topo da página que abre todas as tintas de cada marca, inclusive as metálicas,

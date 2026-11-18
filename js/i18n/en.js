@@ -115,6 +115,7 @@ export default {
   'target.help':
     'Pick the color you want to reproduce, from any catalog; “Free” lets you choose any color. Type to filter by code or name. With the keyboard, use Tab to move around and Enter to choose.',
   'target.search': 'search code or name…',
+  'target.showFinish': 'show finish',
   'tab.free': 'Free',
   'target.free.color': 'free color',
   'target.free.hex': 'free color in hexadecimal',

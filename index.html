@@ -80,7 +80,7 @@
     <p class="muted help" data-i18n="target.help"></p>
     <div class="tabs" id="tgtTabs"></div>
     <div class="tabs sub" id="tgtLines" style="display:none"></div>
-    <div class="row" style="margin-bottom:8px"><input type="text" id="tgtSearch" data-i18n-placeholder="target.search" data-i18n-aria-label="target.search" style="flex:1;min-width:140px"><span id="freeBox" style="display:none"><input type="color" id="freeColor" value="#808080" data-i18n-aria-label="target.free.color"> <input type="text" id="freeHex" value="#808080" style="width:90px" data-i18n-aria-label="target.free.hex"></span></div>
+    <div class="row" style="margin-bottom:8px"><input type="text" id="tgtSearch" data-i18n-placeholder="target.search" data-i18n-aria-label="target.search" style="flex:1;min-width:140px"><label class="muted"><input type="checkbox" id="tgtFinish"> <span data-i18n="target.showFinish">mostrar acabamento</span></label><span id="freeBox" style="display:none"><input type="color" id="freeColor" value="#808080" data-i18n-aria-label="target.free.color"> <input type="text" id="freeHex" value="#808080" style="width:90px" data-i18n-aria-label="target.free.hex"></span></div>
     <div class="grid" id="tgtGrid"></div>
   </section>
 
@@ -147,9 +147,9 @@
 <div class="modal" id="catModal" role="dialog" aria-modal="true" aria-labelledby="catTitle"><div class="box wide">
   <div class="row"><b style="flex:1" id="catTitle" data-i18n="cat.title">Catálogo completo</b><button id="catClose" data-i18n="common.close">fechar</button></div>
   <p class="muted" style="margin:6px 0" data-i18n="cat.help"></p>
-  <div class="row" id="catTabs" role="group" data-i18n-aria-label="cat.tabs" style="margin:6px 0"></div>
-  <div class="row" id="catLines" role="group" data-i18n-aria-label="cat.lines" style="margin:6px 0"></div>
-  <div class="row" id="catFinish" role="group" data-i18n-aria-label="cat.finish" style="margin:6px 0"></div>
+  <div class="tabs" id="catTabs" role="group" data-i18n-aria-label="cat.tabs"></div>
+  <div class="tabs sub" id="catLines" role="group" data-i18n-aria-label="cat.lines"></div>
+  <div class="tabs sub" id="catFinish" role="group" data-i18n-aria-label="cat.finish"></div>
   <div class="row" style="margin:6px 0"><input type="text" id="catSearch" data-i18n-placeholder="cat.search" data-i18n-aria-label="cat.search" style="flex:1"><span class="muted" id="catCount" aria-live="polite"></span></div>
   <div class="catdet" id="catDet" aria-live="polite"></div>
   <div class="grid" id="catGrid" style="max-height:42vh"></div>

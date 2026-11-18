@@ -15,7 +15,7 @@ The interface is available in Brazilian Portuguese and English (switch it at the
   (perceived color difference) to the target, and four mixing models side by side (pigment vs. RGB).
 - **Suggests recipes:** the automatic search finds mixes of 1 to 4 paints that approach the target, optionally using only
   the paints you own.
-- **Target color from any catalog:** more than 3,300 colors in 10 catalogs, or a free color.
+- **Target color from any catalog:** more than 3,300 colors in 10 catalogs, or a free color (the "show finish" option labels swatches as matte, gloss, metallic, etc.).
 - **Equivalents in other brands:** for the target (or for the computed mix), the closest paints in each brand (by ΔE00)
   and, when the manufacturer declares the equivalence, an **AMMO** or **AK** badge.
 - **Full catalog (browse only):** a button at the top of the page opens every paint of each brand, including the metallic,

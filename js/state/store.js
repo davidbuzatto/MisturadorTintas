@@ -42,6 +42,7 @@ export const STORAGE_KEY = 'misturador-tintas-v1';
  * @property {'target'|'mix'} eqFrom   cor de partida das equivalências: alvo ou mistura calculada.
  * @property {Object<string,string>} lines  linha escolhida por aba ("*" = todas), nos catálogos com linhas.
  * @property {string} free             última cor livre escolhida.
+ * @property {boolean} showFinish      mostra o acabamento nas amostras da seção "2 · Cor-alvo".
  * @property {string} lang             idioma da interface ("pt-BR" ou "en"; vazio = o do navegador).
  */
 
@@ -59,6 +60,7 @@ function defaultState() {
     lines: {},
     eqFrom: 'target',
     free: '#808080',
+    showFinish: false,
     lang: '',
   };
 }

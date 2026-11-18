@@ -116,6 +116,7 @@ export default {
   'target.help':
     'Escolha a cor que você quer reproduzir, em qualquer catálogo; “Livre” permite escolher qualquer cor. Digite para filtrar por código ou nome. Pelo teclado, use Tab para navegar e Enter para escolher.',
   'target.search': 'buscar código ou nome…',
+  'target.showFinish': 'mostrar acabamento',
   'tab.free': 'Livre',
   'target.free.color': 'cor livre',
   'target.free.hex': 'cor livre em hexadecimal',

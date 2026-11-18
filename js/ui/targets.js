@@ -5,6 +5,7 @@
  */
 
 import { TARGET_TABS, catalogLines, catalogName, displayName, targetOf } from '../data/catalogs.js';
+import { acabamentoDe } from '../data/acabamento.js';
 import { lineName, t } from '../i18n/index.js';
 import { $, ativavel, esc } from './dom.js';
 
@@ -89,17 +90,20 @@ export function createTargets(ctx) {
       if (q && (p.code + ' ' + displayName(p)).toLowerCase().indexOf(q) < 0) return;
       const c = document.createElement('div');
       const escolhida = !!state.target.ref && state.target.ref.tab === state.tab && state.target.ref.code === p.code;
+      const { tipo, inferido } = state.showFinish ? acabamentoDe(state.tab, p) : { tipo: null, inferido: false };
       c.className = 'cell' + (p.degrade ? ' deg' : '') + (escolhida ? ' sel' : '');
       c.setAttribute('aria-pressed', escolhida);
       c.title =
         `${p.code} ${displayName(p)} ${p.hex}` +
         (p.line ? ` · ${lineName(p.line)}${p.series ? ' / ' + p.series : ''}` : '') +
         (p.finish ? ` · ${p.finish}` : '') +
+        (tipo ? ` · ${t(`fin.${tipo}`)}${inferido ? ' ' + t('cat.estimated') : ''}` : '') +
         (p.degrade ? ` · ${t('common.approx')}` : '');
       // "Todas as linhas": mostra a linha junto do código para distinguir
       const sub = p.code + (line === ALL_LINES && p.line ? ` · ${lineName(p.line)}` : '') + (p.series ? ` · ${p.series}` : '');
       c.innerHTML =
-        `<span class="sw" style="background:${p.hex}"></span><span>${esc(displayName(p))}<b>${esc(sub)}</b></span>`;
+        `<span class="sw${tipo === 'metallic' ? ' met' : ''}" style="background-color:${p.hex}"></span>` +
+        `<span>${esc(displayName(p))}<b>${esc(sub)}</b>${tipo ? `<i class="tag">${esc(t(`fin.${tipo}`))}</i>` : ''}</span>`;
       ativavel(c, () => {
         state.target = targetOf(state.tab, p);
         save();
@@ -130,6 +134,12 @@ export function createTargets(ctx) {
     $('freeColor').oninput = function () { setFree(this.value); };
     $('freeHex').onchange = function () { setFree(this.value.trim()); };
     $('tgtSearch').oninput = renderGrid;
+    $('tgtFinish').checked = !!state.showFinish;
+    $('tgtFinish').onchange = function () {
+      state.showFinish = this.checked;
+      save();
+      renderGrid();
+    };
     renderTabs();
     renderLines();
     renderGrid();
