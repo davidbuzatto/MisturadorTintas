@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Miniatura do vídeo — Misturador de Tintas</title>
+<style>
+/* Identidade do app (tema escuro): mesmas cores, contornos e tipografia de css/styles.css */
+:root{--bg:#161513;--card:#201f1c;--ink:#ece8e1;--dim:#9b958b;--line:#35322d;--acc:#fb923c;--acc2:#2b2118;--ok:#4ade80;--on-acc:#1b1008}
+*{box-sizing:border-box}
+html,body{margin:0;background:#000}
+.thumb{position:relative;width:1280px;height:720px;overflow:hidden;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+
+/* amostras de tinta ao fundo (cores reais dos catálogos), discretas */
+.bg{position:absolute;inset:0}
+.bg i{position:absolute;width:150px;height:150px;border-radius:26px;border:2px solid rgba(255,255,255,.07);opacity:.85;transform:rotate(var(--r))}
+
+.vinheta{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(22,21,19,.45) 0,rgba(22,21,19,.78) 75%)}
+
+/* texto */
+.txt{position:absolute;left:64px;top:0;bottom:0;width:640px;display:flex;flex-direction:column;justify-content:center}
+.tag{align-self:flex-start;font-size:26px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);background:var(--acc2);border:2px solid var(--acc);border-radius:12px;padding:8px 18px;margin-bottom:26px}
+h1{margin:0;font-size:150px;line-height:.9;font-weight:900;letter-spacing:-.04em;text-transform:uppercase}
+h1 span{display:block}
+h1 .a{color:var(--acc)}
+.sub{margin-top:30px;font-size:38px;color:var(--dim);font-weight:600}
+.sub b{color:var(--ink)}
+
+/* cartão com a comparação */
+.card{position:absolute;right:48px;top:110px;width:450px;background:var(--card);border:2px solid var(--line);border-radius:22px;padding:26px 26px 22px;box-shadow:0 20px 60px rgba(0,0,0,.55)}
+.card h2{margin:0 0 16px;font-size:22px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);font-weight:700}
+.par{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.amostra{border-radius:16px;border:2px solid rgba(255,255,255,.16);height:190px;position:relative}
+.rot{margin-top:10px;font-size:22px;font-weight:700;color:var(--ink);text-align:center;line-height:1.15}
+.rot small{display:block;font-size:19px;font-weight:500;color:var(--dim)}
+.de{margin-top:20px;display:flex;align-items:center;justify-content:center;gap:14px;font-size:30px;font-weight:700}
+.de .n{font-size:64px;line-height:1;font-variant-numeric:tabular-nums}
+.de .ok{color:var(--ok)}
+.de .t{font-size:24px;color:var(--ok);border:2px solid var(--ok);border-radius:10px;padding:4px 12px}
+.rec{margin-top:18px;border-top:2px solid var(--line);padding-top:16px;display:flex;align-items:center;gap:12px;font-size:23px;font-weight:600}
+.rec .c{width:34px;height:34px;border-radius:9px;border:2px solid rgba(255,255,255,.2);flex:none}
+.rec .p{color:var(--dim);font-weight:500}
+</style>
+</head>
+<body>
+<div class="thumb" id="thumb">
+  <div class="bg" id="bg"></div>
+  <div class="vinheta"></div>
+
+  <div class="txt">
+    <div class="tag">Misturador de tintas</div>
+    <h1><span>Acertei</span><span class="a">a cor?</span></h1>
+    <div class="sub">Plastimodelismo + <b>JavaScript</b></div>
+  </div>
+
+  <div class="card">
+    <h2>Alvo × mistura calculada</h2>
+    <div class="par">
+      <div><div class="amostra" style="background:#475a61"></div><div class="rot">Tamiya XF-18<small>#475a61</small></div></div>
+      <div><div class="amostra" style="background:#485b62"></div><div class="rot">Mistura<small>#485b62</small></div></div>
+    </div>
+    <div class="de"><span>ΔE</span><span class="n ok">0,4</span><span class="t">imperceptível</span></div>
+    <div class="rec">
+      <span class="c" style="background:#4d5877"></span><span>91%</span>
+      <span class="p">+</span>
+      <span class="c" style="background:#41652f"></span><span>9%</span>
+    </div>
+  </div>
+</div>
+
+<script>
+// amostras de fundo: cores reais de catálogos Tamiya (XF/X) e Acrilex, em posições fixas
+const cores = ['#08347d','#fe8101','#00441d','#fe0002','#1e99c3','#fee600','#294b79','#b4c30e','#90b5ad','#345f18','#ffcc01','#323232','#3d4749','#1c3c13','#4d5877','#41652f'];
+const pos = [[-30,-20,-8],[150,40,6],[330,-40,-4],[520,10,9],[720,-30,-7],[930,30,5],[1130,-20,-6],
+             [-50,210,5],[1100,200,-9],[-20,430,-6],[1150,420,7],
+             [90,600,8],[310,640,-5],[560,610,6],[800,650,-8],[1010,600,4]];
+document.getElementById('bg').innerHTML = pos.map(([x,y,r],i)=>`<i style="left:${x}px;top:${y}px;--r:${r}deg;background:${cores[i%cores.length]}"></i>`).join('');
+</script>
+</body>
+</html>
