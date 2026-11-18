@@ -18,6 +18,9 @@ The interface is available in Brazilian Portuguese and English (switch it at the
 - **Target color from any catalog:** more than 3,300 colors in 10 catalogs, or a free color.
 - **Equivalents in other brands:** for the target (or for the computed mix), the closest paints in each brand (by ΔE00)
   and, when the manufacturer declares the equivalence, an **AMMO** or **AK** badge.
+- **Full catalog (browse only):** a button at the top of the page opens every paint of each brand, including the metallic,
+  clear and effect paints that are left out of mixes. Filters by brand, line, finish and search; clicking a paint shows
+  its details and the closest ones in other brands (for a metallic, only metallics are compared). It changes nothing in the app.
 - **Saved recipes:** keep recipes, record the color you actually got to measure the model error. The **backup** (JSON) keeps recipes and the paints you own, and importing adds to what you already have, without duplicating.
 - Light/dark theme, keyboard use and phone-sized screens.
 
@@ -119,6 +122,7 @@ js/
     catalogs.js       loads and normalizes the JSONs; tabs, lines, names
     sets.js           paint lines that can be ingredients (filters and anchors)
     equivalences.js   equivalences declared by manufacturers
+  data/acabamento.js  normalized finish (matte, satin, gloss, metallic, clear, effect) and filters
   state/              store.js (state and localStorage), backup.js (export/import), tenho.js (bulk marking)
   ui/                 one module per screen section (help.js: step-by-step guide and example)
 tests/                tests (node --test)

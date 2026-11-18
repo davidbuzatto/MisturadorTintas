@@ -16,6 +16,9 @@ faz a previsão chegar perto do que acontece na bancada. JavaScript puro, módul
 - **Cor-alvo de qualquer catálogo:** mais de 3.300 cores em 10 catálogos, ou uma cor livre.
 - **Equivalentes em outras marcas:** para o alvo (ou para a mistura calculada), as tintas mais parecidas em cada marca
   (por ΔE00) e, quando o fabricante declara a equivalência, um selo **AMMO** ou **AK**.
+- **Catálogo completo (só consulta):** botão no topo da página que abre todas as tintas de cada marca, inclusive as metálicas,
+  transparentes e de efeito que não entram nas misturas. Filtros por marca, linha, acabamento e busca; ao clicar numa tinta,
+  detalhes e as parecidas em outras marcas (para uma metálica, comparam-se só metálicas). Não altera nada no app.
 - **Receitas salvas:** guarde receitas, registre a cor realmente obtida para medir o erro do modelo. O **backup** (JSON) guarda receitas e as tintas que você tem, e a importação soma ao que já existe, sem duplicar.
 - **Português e inglês**, tema claro/escuro automático, uso por teclado e em tela de celular.
 
@@ -117,6 +120,7 @@ js/
     catalogs.js       carrega e normaliza os JSONs; abas, linhas, nomes
     sets.js           linhas de tintas que podem ser ingredientes (filtros e âncoras)
     equivalences.js   equivalências declaradas pelos fabricantes
+  data/acabamento.js  acabamento normalizado (fosca, acetinada, brilhante, metálica, transparente, efeito) e filtros
   state/              store.js (estado e localStorage), backup.js (exportar/importar), tenho.js (marcação em lote)
   ui/                 um módulo por seção da tela (help.js: guia passo a passo e exemplo)
 tests/                testes (node --test)

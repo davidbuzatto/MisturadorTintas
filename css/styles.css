@@ -61,6 +61,14 @@ tr.sel td{background:var(--acc2)}
 .muted{color:var(--dim);font-size:12.5px}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;z-index:10;padding:16px}
 .modal.on{display:flex}
+.modal .box.wide{max-width:1000px}
+.sw.met{background-image:linear-gradient(135deg,rgba(255,255,255,.65) 0,rgba(255,255,255,0) 45%,rgba(0,0,0,.25) 100%)}
+.sw.big{width:56px;height:56px;border-radius:10px}
+.cell .tag{display:block;font-style:normal;font-size:10px;color:var(--acc)}
+.catdet{border:1px solid var(--line);border-radius:10px;padding:8px;margin:6px 0;background:var(--card)}
+.catdet .detop{display:flex;gap:10px;align-items:center}
+.catsim{max-height:26vh;overflow:auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+#catTabs button,#catLines button,#catFinish button{font-size:12px;padding:3px 8px}
 .modal .box{background:var(--card);border-radius:14px;max-width:760px;width:100%;max-height:90vh;overflow:auto;padding:16px}
 .sug{border:1px solid var(--line);border-radius:10px;padding:8px 10px;margin-top:8px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .hist{border-top:1px solid var(--line);padding:10px 0;display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center}

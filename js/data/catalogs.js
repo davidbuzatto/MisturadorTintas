@@ -110,7 +110,7 @@ export function buildCatalogs({ ac, tm, rv, fs, vl, mr, hb, ral, ak, am }) {
     tamiya: [...tamiya('acrilica_mini', 'Acrylic') /* X- (brilhante) e XF- (fosco) */, ...tamiya('lacquer', 'Lacquer') /* LP- */],
     revell: [...revell('Aqua Color'), ...revell('Email Color')],
     // FS 595: o 1º dígito do código já indica o acabamento (1 gloss, 2 semi-gloss, 3 flat)
-    fs595: fs.map((d) => ({ code: d.code, name: d.name || '', hex: d.hex })),
+    fs595: fs.map((d) => ({ code: d.code, name: d.name || '', hex: d.hex, ...(d.finish ? { finish: d.finish } : {}) })),
     // Vallejo: várias linhas num só catálogo (a interface oferece um seletor de linha)
     vallejo: vl.map((d) => ({
       code: d.code,

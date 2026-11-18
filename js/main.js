@@ -12,6 +12,7 @@ import { buildSets } from './data/sets.js';
 import { IDIOMAS, applyStatic, idiomaDoNavegador, setLang, t } from './i18n/index.js';
 import { createStore } from './state/store.js';
 import { createAbout } from './ui/about.js';
+import { createCatalogo } from './ui/catalogo.js';
 import { $ } from './ui/dom.js';
 import { createEquivalents } from './ui/equivalents.js';
 import { createHelp } from './ui/help.js';
@@ -79,6 +80,7 @@ async function init() {
   ctx.ui.about = createAbout(ctx);
   ctx.ui.help = createHelp(ctx);
   ctx.ui.settings = createSettings(ctx);
+  ctx.ui.catalogo = createCatalogo(ctx);
   ctx.update = () => {
     ctx.ui.ingredients.render();
     ctx.ui.result.render();

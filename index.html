@@ -15,6 +15,7 @@
   <div class="hrow">
     <h1 data-i18n="app.title">Misturador de Tintas</h1>
     <div class="hctl">
+      <button class="sm" id="btnCatalog" data-i18n="cat.button" data-i18n-title="cat.button.title">Catálogo completo</button>
       <button class="sm" id="btnReset" data-i18n="reset.button" data-i18n-title="reset.title">Restaurar configurações</button>
       <label class="muted lang"><span data-i18n="lang.label">Idioma</span> <select id="lang"></select></label>
     </div>
@@ -141,6 +142,17 @@
   <p class="muted" style="margin:0 0 6px" data-i18n="picker.help"></p>
   <div class="row" style="margin:0 0 8px"><button class="sm" id="pMarkAll"></button><button class="sm" id="pUnmarkAll"></button><span class="muted" id="pOwnCount" aria-live="polite"></span></div>
   <div class="grid" id="pGrid" style="max-height:60vh"></div>
+</div></div>
+
+<div class="modal" id="catModal" role="dialog" aria-modal="true" aria-labelledby="catTitle"><div class="box wide">
+  <div class="row"><b style="flex:1" id="catTitle" data-i18n="cat.title">Catálogo completo</b><button id="catClose" data-i18n="common.close">fechar</button></div>
+  <p class="muted" style="margin:6px 0" data-i18n="cat.help"></p>
+  <div class="row" id="catTabs" role="group" data-i18n-aria-label="cat.tabs" style="margin:6px 0"></div>
+  <div class="row" id="catLines" role="group" data-i18n-aria-label="cat.lines" style="margin:6px 0"></div>
+  <div class="row" id="catFinish" role="group" data-i18n-aria-label="cat.finish" style="margin:6px 0"></div>
+  <div class="row" style="margin:6px 0"><input type="text" id="catSearch" data-i18n-placeholder="cat.search" data-i18n-aria-label="cat.search" style="flex:1"><span class="muted" id="catCount" aria-live="polite"></span></div>
+  <div class="catdet" id="catDet" aria-live="polite"></div>
+  <div class="grid" id="catGrid" style="max-height:42vh"></div>
 </div></div>
 </body>
 </html>
