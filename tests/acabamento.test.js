@@ -8,7 +8,7 @@ const r = (f) => JSON.parse(fs.readFileSync(new URL(`../dados/${f}`, import.meta
 const c = buildCatalogs({
   ac: r('acrilex-cores-oficial.json'), tm: r('tamiya-cores-oficial.json'), rv: r('revell-cores-oficial.json'),
   fs: r('fs595-cores.json'), vl: r('vallejo-cores.json'), mr: r('mrcolor-cores.json'), hb: r('humbrol-cores.json'),
-  ral: r('ral-cores.json'), ak: r('ak-cores.json'), am: r('ammo-cores.json'),
+  ral: r('ral-cores.json'), ak: r('ak-cores.json'), am: r('ammo-cores.json'), sc: r('scale75-cores.json'),
 });
 const tipo = (aba, code) => acabamentoDe(aba, c[aba].find((p) => p.code === code)).tipo;
 
@@ -26,6 +26,15 @@ test('cores comuns com palavra de metal não viram metálicas', () => {
   assert.equal(tipo('ak', 'RC820'), 'metallic'); // Aluminium
   assert.equal(tipo('humbrol', '56'), 'metallic');
   assert.equal(tipo('humbrol', '75'), 'matte'); // Bronze Green
+});
+
+test('Scale75: séries de efeito, iridescentes e fluorescentes', () => {
+  assert.equal(tipo('scale75', 'SC-00'), 'matte');
+  assert.equal(tipo('scale75', 'SC-67'), 'metallic'); // White Alchemy (o site diz "Matt")
+  assert.equal(tipo('scale75', 'SC-75'), 'metallic'); // Citrine Alchemy (iridescente)
+  assert.equal(tipo('scale75', 'SC-80'), 'special'); // Inktense Wood
+  assert.equal(tipo('scale75', 'SFX-01'), 'special'); // Orange Neon
+  assert.equal(tipo('scale75', 'SART-03'), 'matte');
 });
 
 test('FS 595 e RAL usam só o acabamento informado, nunca o nome', () => {

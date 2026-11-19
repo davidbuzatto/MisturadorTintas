@@ -26,6 +26,7 @@ const catalogos = buildCatalogs({
   ral: ler('ral-cores.json'),
   ak: ler('ak-cores.json'),
   am: ler('ammo-cores.json'),
+  sc: ler('scale75-cores.json'),
 });
 
 test('nearest: a própria cor é a mais próxima (ΔE 0) e a lista vem ordenada', () => {

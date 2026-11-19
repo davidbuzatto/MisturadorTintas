@@ -6,7 +6,7 @@
  * `matte`, `satin`, `gloss`, `metallic` (inclui perolados), `clear` (transparentes) e `special`
  * (fluorescentes, candy, washes, tintas e efeitos). Quando nada permite saber, o resultado é `null`.
  *
- * Ordem de decisão: (1) o nome diz "metálica"/"transparente"/"fluorescente"; (2) linha/série da Vallejo;
+ * Ordem de decisão: (1) o nome diz "metálica"/"transparente"/"fluorescente"; (2) linha/série da Vallejo ou da Scale75;
  * (3) o acabamento informado pelo catálogo; (4) o prefixo do código Tamiya (X- brilhante, XF- fosco).
  * As etapas 1, 2 e 4 são **inferências**: `inferido` fica `true` para que a interface avise.
  * Função pura, sem DOM.
@@ -36,12 +36,14 @@ const DECLARADO = {
   flat: 'matte',
   metallic: 'metallic',
   pearl: 'metallic',
+  iridescent: 'metallic',
+  fluo: 'special',
   clear: 'clear',
 };
 
-/** Séries da Vallejo → categoria (as linhas Liquid Metal e True Metallic são tratadas à parte). */
-const SERIE_VALLEJO = [
-  [/metallic/i, 'metallic'],
+/** Séries da Vallejo e da Scale75 → categoria (as linhas Liquid Metal e True Metallic são tratadas à parte). */
+const SERIE_EFEITO = [
+  [/metallic|alchemy/i, 'metallic'],
   [/fluo|intense/i, 'special'],
   [/candy|wash|ink|shade|special fx|weathering/i, 'special'],
 ];
@@ -76,9 +78,9 @@ function calcular(aba, p) {
   if (NOME_TRANSPARENTE.test(nome)) return { tipo: 'clear', inferido: declarado !== 'clear' };
   if (NOME_ESPECIAL.test(nome)) return { tipo: 'special', inferido: true };
 
-  if (aba === 'vallejo') {
+  if (aba === 'vallejo' || aba === 'scale75') {
     if (/^(liquid metal|true metallic)/i.test(p.line || '')) return { tipo: 'metallic', inferido: true };
-    for (const [re, tipo] of SERIE_VALLEJO) if (re.test(p.series || '')) return { tipo, inferido: true };
+    for (const [re, tipo] of SERIE_EFEITO) if (re.test(p.series || '')) return { tipo, inferido: true };
   }
 
   if (declarado) return { tipo: declarado, inferido: false };

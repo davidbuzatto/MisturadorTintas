@@ -12,6 +12,7 @@ necessários para usar o aplicativo**: os JSONs já estão no repositório. Serv
 | `extrair-ak.mjs "arquivo.pdf"` | catálogo AK Real Colors (PDF) | poppler | `dados/ak-cores.json` |
 | `extrair-ammo.mjs "arquivo.pdf"` | *AMMO Catalogue 2024* (PDF) | poppler | `dados/ammo-cores.json` |
 | `extrair-humbrol.mjs` | imagens do site <https://uk.humbrol.com/catalogue> | rede, ffmpeg | `dados/humbrol-cores.json` |
+| `extrair-scale75.mjs` | `scale75-lista.json`, coletada no [Scalemates](https://www.scalemates.com/colors/scale75--683) com `coletar-scale75.js` | navegador | `dados/scale75-cores.json` |
 
 "poppler" são os programas `pdftohtml` e `pdftoppm`; `ffmpeg` decodifica as imagens da Humbrol. Todos precisam estar no `PATH`.
 
@@ -26,6 +27,13 @@ necessários para usar o aplicativo**: os JSONs já estão no repositório. Serv
 - **Humbrol:** a lista de produtos é carregada por JavaScript e foi coletada no navegador (150 produtos, 13 páginas);
   está em `humbrol-lista.json` (SKU, rótulo e caminho da imagem). O script baixa cada imagem (uma por vez, com pausa) e
   tira a mediana de uma caixa dentro do respingo de tinta.
+- **Scale75:** o Scalemates recusa acesso fora do navegador (HTTP 403), então a coleta é feita pelo console:
+  `coletar-scale75.js`, aberto na página de cada linha (`scale75--683` e `scalecolor-artist--888`), copia código,
+  nome, acabamento e a cor da amostra de cada cartão (a mesma do "Color viewer" da página da tinta). O resultado vai
+  para `scale75-lista.json`, uma chave por página, e `extrair-scale75.mjs` separa as linhas pelo prefixo do código
+  e marca as séries Metal n' Alchemy, Inktense e Primer. Ficam de fora estojos, diluentes, washes a óleo, pigmentos e
+  as tintas sem amostra no site (15 das 16 Prism Effect, 6 primers). Os "similar color chips" (FS/RAL) do Scalemates
+  não são gravados: são calculados pelo site, não declarados pelo fabricante.
 - **Equivalências:** os scripts da AK (págs. 16–22) e da AMMO (págs. 97–105) também leem as tabelas de conversão e
   gravam `ref` (referência de norma) e `equiv` (equivalências em outras marcas).
 

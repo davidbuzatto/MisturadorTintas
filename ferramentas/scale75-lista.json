@@ -1,0 +1,1938 @@
+{
+ "scale75--683": [
+  {
+   "code": "SC-00",
+   "name": "Black",
+   "finish": "Matt",
+   "hex": "#000000"
+  },
+  {
+   "code": "SC-01",
+   "name": "White",
+   "finish": "Matt",
+   "hex": "#ffffff"
+  },
+  {
+   "code": "SC-02",
+   "name": "Nacar",
+   "finish": "Matt",
+   "hex": "#cdcbbe"
+  },
+  {
+   "code": "SC-03",
+   "name": "Graphite",
+   "finish": "Matt",
+   "hex": "#a0a29f"
+  },
+  {
+   "code": "SC-04",
+   "name": "Anthracite Gray",
+   "finish": "Matt",
+   "hex": "#747e87"
+  },
+  {
+   "code": "SC-05",
+   "name": "Artic Blue",
+   "finish": "Matt",
+   "hex": "#c5ccd4"
+  },
+  {
+   "code": "SC-06",
+   "name": "Bering Blue",
+   "finish": "Matt",
+   "hex": "#8ca8b4"
+  },
+  {
+   "code": "SC-07",
+   "name": "Caspian Blue",
+   "finish": "Matt",
+   "hex": "#4f8198"
+  },
+  {
+   "code": "SC-08",
+   "name": "Abyssal Blue",
+   "finish": "Matt",
+   "hex": "#485a66"
+  },
+  {
+   "code": "SC-09",
+   "name": "White sands",
+   "finish": "Matt",
+   "hex": "#e6dfcd"
+  },
+  {
+   "code": "SC-10",
+   "name": "Tenere yellow",
+   "finish": "Matt",
+   "hex": "#e2cf73"
+  },
+  {
+   "code": "SC-11",
+   "name": "Sahara yellow",
+   "finish": "Matt",
+   "hex": "#af8b36"
+  },
+  {
+   "code": "SC-12",
+   "name": "Gobi brown",
+   "finish": "Matt",
+   "hex": "#635037"
+  },
+  {
+   "code": "SC-13",
+   "name": "Dubai brown",
+   "finish": "Matt",
+   "hex": "#513928"
+  },
+  {
+   "code": "SC-14",
+   "name": "Kalahari orange",
+   "finish": "Matt",
+   "hex": "#9b3b2f"
+  },
+  {
+   "code": "SC-15",
+   "name": "Adriatic blue",
+   "finish": "Matt",
+   "hex": "#0982ab"
+  },
+  {
+   "code": "SC-16",
+   "name": "Eclipse grey",
+   "finish": "Matt",
+   "hex": "#34333c"
+  },
+  {
+   "code": "SC-17",
+   "name": "Pale skin",
+   "finish": "Matt",
+   "hex": "#e0d8d6"
+  },
+  {
+   "code": "SC-18",
+   "name": "Light skin",
+   "finish": "Matt",
+   "hex": "#efe0bf"
+  },
+  {
+   "code": "SC-19",
+   "name": "Golden skin",
+   "finish": "Matt",
+   "hex": "#e7c5a2"
+  },
+  {
+   "code": "SC-20",
+   "name": "Basic flesh",
+   "finish": "Matt",
+   "hex": "#ceb08a"
+  },
+  {
+   "code": "SC-21",
+   "name": "Pink flesh",
+   "finish": "Matt",
+   "hex": "#c1877b"
+  },
+  {
+   "code": "SC-22",
+   "name": "Arabic shadow",
+   "finish": "Matt",
+   "hex": "#8d7e5d"
+  },
+  {
+   "code": "SC-23",
+   "name": "Indian shadow",
+   "finish": "Matt",
+   "hex": "#7d454e"
+  },
+  {
+   "code": "SC-24",
+   "name": "African shadow",
+   "finish": "Matt",
+   "hex": "#58394b"
+  },
+  {
+   "code": "SC-25",
+   "name": "Birch",
+   "finish": "Matt",
+   "hex": "#d6be92"
+  },
+  {
+   "code": "SC-26",
+   "name": "Sandal wood",
+   "finish": "Matt",
+   "hex": "#b2815b"
+  },
+  {
+   "code": "SC-27",
+   "name": "Iroko",
+   "finish": "Matt",
+   "hex": "#b28037"
+  },
+  {
+   "code": "SC-28",
+   "name": "Orange leather",
+   "finish": "Matt",
+   "hex": "#9c5d2e"
+  },
+  {
+   "code": "SC-29",
+   "name": "Walnut",
+   "finish": "Matt",
+   "hex": "#815f44"
+  },
+  {
+   "code": "SC-30",
+   "name": "red leather",
+   "finish": "Matt",
+   "hex": "#6e5338"
+  },
+  {
+   "code": "SC-31",
+   "name": "Brown leather",
+   "finish": "Matt",
+   "hex": "#603136"
+  },
+  {
+   "code": "SC-32",
+   "name": "Black leather",
+   "finish": "Matt",
+   "hex": "#3f2d33"
+  },
+  {
+   "code": "SC-33",
+   "name": "Sunset purple",
+   "finish": "Matt",
+   "hex": "#3b1931"
+  },
+  {
+   "code": "SC-34",
+   "name": "Fushsia",
+   "finish": "Matt",
+   "hex": "#871b21"
+  },
+  {
+   "code": "SC-35",
+   "name": "Deep red",
+   "finish": "Matt",
+   "hex": "#5a1618"
+  },
+  {
+   "code": "SC-36",
+   "name": "Blood red",
+   "finish": "Matt",
+   "hex": "#7d1411"
+  },
+  {
+   "code": "SC-37",
+   "name": "Antares red",
+   "finish": "Matt",
+   "hex": "#b11810"
+  },
+  {
+   "code": "SC-38",
+   "name": "Aldebaran red",
+   "finish": "Matt",
+   "hex": "#a41411"
+  },
+  {
+   "code": "SC-39",
+   "name": "Mars orange",
+   "finish": "Matt",
+   "hex": "#b94c28"
+  },
+  {
+   "code": "SC-40",
+   "name": "Sol yellow",
+   "finish": "Matt",
+   "hex": "#d6c336"
+  },
+  {
+   "code": "SC-41",
+   "name": "Black forest green",
+   "finish": "Matt",
+   "hex": "#1a3d1c"
+  },
+  {
+   "code": "SC-42",
+   "name": "Boreal green",
+   "finish": "Matt",
+   "hex": "#386055"
+  },
+  {
+   "code": "SC-43",
+   "name": "Irati green",
+   "finish": "Matt",
+   "hex": "#1f6e2c"
+  },
+  {
+   "code": "SC-44",
+   "name": "Sherwood green",
+   "finish": "Matt",
+   "hex": "#56732b"
+  },
+  {
+   "code": "SC-45",
+   "name": "Ardennes green",
+   "finish": "Matt",
+   "hex": "#586156"
+  },
+  {
+   "code": "SC-46",
+   "name": "Field gray",
+   "finish": "Matt",
+   "hex": "#7c8681"
+  },
+  {
+   "code": "SC-47",
+   "name": "Spring green",
+   "finish": "Matt",
+   "hex": "#84b855"
+  },
+  {
+   "code": "SC-48",
+   "name": "Fall green",
+   "finish": "Matt",
+   "hex": "#c1d36b"
+  },
+  {
+   "code": "SC-49",
+   "name": "Caribbean blue",
+   "finish": "Matt",
+   "hex": "#419c95"
+  },
+  {
+   "code": "SC-50",
+   "name": "Sky blue",
+   "finish": "Matt",
+   "hex": "#3590b8"
+  },
+  {
+   "code": "SC-51",
+   "name": "Mediterranean blue",
+   "finish": "Matt",
+   "hex": "#2f6194"
+  },
+  {
+   "code": "SC-52",
+   "name": "Tesla blue",
+   "finish": "Matt",
+   "hex": "#292f89"
+  },
+  {
+   "code": "SC-53",
+   "name": "Cantabric blue",
+   "finish": "Matt",
+   "hex": "#2a5178"
+  },
+  {
+   "code": "SC-54",
+   "name": "Navy blue",
+   "finish": "Matt",
+   "hex": "#39476e"
+  },
+  {
+   "code": "SC-55",
+   "name": "Deep blue",
+   "finish": "Matt",
+   "hex": "#2e3742"
+  },
+  {
+   "code": "SC-56",
+   "name": "Violet",
+   "finish": "Matt",
+   "hex": "#5f4d72"
+  },
+  {
+   "code": "SC-57",
+   "name": "Petroleum Gray",
+   "finish": "Matt",
+   "hex": "#67625e"
+  },
+  {
+   "code": "SC-58",
+   "name": "Graphene gray",
+   "finish": "Matt",
+   "hex": "#5d5e62"
+  },
+  {
+   "code": "SC-59",
+   "name": "Brown gray",
+   "finish": "Matt",
+   "hex": "#726e6d"
+  },
+  {
+   "code": "SC-60",
+   "name": "Rainy gray",
+   "finish": "Matt",
+   "hex": "#96918e"
+  },
+  {
+   "code": "SC-61",
+   "name": "Thar brown",
+   "finish": "Matt",
+   "hex": "#aea78b"
+  },
+  {
+   "code": "SC-62",
+   "name": "Mojave white",
+   "finish": "Matt",
+   "hex": "#cfcba7"
+  },
+  {
+   "code": "SC-63",
+   "name": "Black metal",
+   "finish": "Metallic",
+   "hex": "#25282c"
+  },
+  {
+   "code": "SC-64",
+   "name": "Trash metal",
+   "finish": "Metallic",
+   "hex": "#635b4c"
+  },
+  {
+   "code": "SC-65",
+   "name": "Heavy metal",
+   "finish": "Metallic",
+   "hex": "#777777"
+  },
+  {
+   "code": "SC-66",
+   "name": "Speed metal",
+   "finish": "Metallic",
+   "hex": "#ababab"
+  },
+  {
+   "code": "SC-67",
+   "name": "White alchemy",
+   "finish": "Matt",
+   "hex": "#cccbc8"
+  },
+  {
+   "code": "SC-68",
+   "name": "Cobalt alchemy",
+   "finish": "Matt",
+   "hex": "#6198ab"
+  },
+  {
+   "code": "SC-69",
+   "name": "Emerald alchemy",
+   "finish": "Matt",
+   "hex": "#6198ab"
+  },
+  {
+   "code": "SC-70",
+   "name": "Amethyst alchemy",
+   "finish": "Matt",
+   "hex": "#857790"
+  },
+  {
+   "code": "SC-71",
+   "name": "Necro gold",
+   "finish": "Metallic",
+   "hex": "#7a6938"
+  },
+  {
+   "code": "SC-72",
+   "name": "Viking gold",
+   "finish": "Metallic",
+   "hex": "#947642"
+  },
+  {
+   "code": "SC-73",
+   "name": "Dwarven gold",
+   "finish": "Metallic",
+   "hex": "#c69d49"
+  },
+  {
+   "code": "SC-74",
+   "name": "Elven gold",
+   "finish": "Metallic",
+   "hex": "#c8b15a"
+  },
+  {
+   "code": "SC-75",
+   "name": "Citrine alchemy",
+   "finish": "Iridescent",
+   "hex": "#e3d4b7"
+  },
+  {
+   "code": "SC-76",
+   "name": "Tourmaline alchemy",
+   "finish": "Iridescent",
+   "hex": "#df9e9f"
+  },
+  {
+   "code": "SC-77",
+   "name": "Kunzite alchemy",
+   "finish": "Iridescent",
+   "hex": "#9e7d8e"
+  },
+  {
+   "code": "SC-78",
+   "name": "Peridot alchemy",
+   "finish": "Iridescent",
+   "hex": "#969576"
+  },
+  {
+   "code": "SC-79",
+   "name": "Inktense Black",
+   "finish": "Inks",
+   "hex": "#424242"
+  },
+  {
+   "code": "SC-80",
+   "name": "inktense Wood",
+   "finish": "Inks",
+   "hex": "#5f3b1b"
+  },
+  {
+   "code": "SC-81",
+   "name": "Inktense Chesnut",
+   "finish": "Inks",
+   "hex": "#904f17"
+  },
+  {
+   "code": "SC-82",
+   "name": "Inktense violet",
+   "finish": "Inks",
+   "hex": "#7841b8"
+  },
+  {
+   "code": "SC-83",
+   "name": "Inktense Blue",
+   "finish": "Inks",
+   "hex": "#3541bb"
+  },
+  {
+   "code": "SC-84",
+   "name": "Inktense Green",
+   "finish": "Inks",
+   "hex": "#1c907b"
+  },
+  {
+   "code": "SC-85",
+   "name": "Inktense Red",
+   "finish": "Inks",
+   "hex": "#b12b2c"
+  },
+  {
+   "code": "SC-86",
+   "name": "Inktense Yellow",
+   "finish": "Inks",
+   "hex": "#d0b240"
+  },
+  {
+   "code": "SC-87",
+   "name": "Decayed Metal",
+   "finish": "Metallic",
+   "hex": "#3a2c23"
+  },
+  {
+   "code": "SC-88",
+   "name": "Old Copper",
+   "finish": "Metallic",
+   "hex": "#774113"
+  },
+  {
+   "code": "SC-89",
+   "name": "Garnet Alchemy",
+   "finish": "Iridescent",
+   "hex": "#863345"
+  },
+  {
+   "code": "SC-90",
+   "name": "Ruby Alchemy",
+   "finish": "Iridescent",
+   "hex": "#db5d68"
+  },
+  {
+   "code": "SC-91",
+   "name": "Pure Copper",
+   "finish": "Metallic",
+   "hex": "#e1836a"
+  },
+  {
+   "code": "SC-92",
+   "name": "Victorian Brass",
+   "finish": "Metallic",
+   "hex": "#a26338"
+  },
+  {
+   "code": "SC-93",
+   "name": "Amber Alchemy",
+   "finish": "Iridescent",
+   "hex": "#c79f6c"
+  },
+  {
+   "code": "SC-94",
+   "name": "Moonstone Alchemy",
+   "finish": "Iridescent",
+   "hex": "#cca48a"
+  },
+  {
+   "code": "SC-95",
+   "name": "Inktense Brown",
+   "finish": "Satin",
+   "hex": "#2d221f"
+  },
+  {
+   "code": "SC-96",
+   "name": "Inktense Crimson",
+   "finish": "Satin",
+   "hex": "#bc010c"
+  },
+  {
+   "code": "SC-97",
+   "name": "Inktense Oxide",
+   "finish": "Satin",
+   "hex": "#ab290c"
+  },
+  {
+   "code": "SC-98",
+   "name": "Inktense Ochre",
+   "finish": "Satin",
+   "hex": "#f4a32c"
+  },
+  {
+   "code": "SC-99",
+   "name": "Inktense Cyan",
+   "finish": "Satin",
+   "hex": "#27219e"
+  },
+  {
+   "code": "SC-100",
+   "name": "Inktense Lime",
+   "finish": "Satin",
+   "hex": "#00e72e"
+  },
+  {
+   "code": "SC-101",
+   "name": "Inktense Olive",
+   "finish": "Satin",
+   "hex": "#4a6348"
+  },
+  {
+   "code": "SC-102",
+   "name": "Inktense White",
+   "finish": "Satin",
+   "hex": "#ffffff"
+  },
+  {
+   "code": "SFG-00",
+   "name": "Decay Black",
+   "finish": "Matt",
+   "hex": "#31312f"
+  },
+  {
+   "code": "SFG-01",
+   "name": "Purity White",
+   "finish": "Matt",
+   "hex": "#d1d1d1"
+  },
+  {
+   "code": "SFG-02",
+   "name": "Hastur Purple",
+   "finish": "Matt",
+   "hex": "#b5034d"
+  },
+  {
+   "code": "SFG-03",
+   "name": "Mayhem Red",
+   "finish": "Matt",
+   "hex": "#db1632"
+  },
+  {
+   "code": "SFG-04",
+   "name": "Baal Crimson",
+   "finish": "Matt",
+   "hex": "#ff1a39"
+  },
+  {
+   "code": "SFG-05",
+   "name": "Beherit red",
+   "finish": "Matt",
+   "hex": "#ff753a"
+  },
+  {
+   "code": "SFG-06",
+   "name": "Tiamat Orange",
+   "finish": "Matt",
+   "hex": "#f9ae6a"
+  },
+  {
+   "code": "SFG-07",
+   "name": "Ishtar Pink",
+   "finish": "Matt",
+   "hex": "#ff9164"
+  },
+  {
+   "code": "SFG-08",
+   "name": "Marduck Yellow",
+   "finish": "Matt",
+   "hex": "#feee05"
+  },
+  {
+   "code": "SFG-09",
+   "name": "Lilith Yellow",
+   "finish": "Matt",
+   "hex": "#fdeb7d"
+  },
+  {
+   "code": "SFG-10",
+   "name": "Misfits Green",
+   "finish": "Matt",
+   "hex": "#004b31"
+  },
+  {
+   "code": "SFG-11",
+   "name": "Bloodfest Crimson",
+   "finish": "Matt",
+   "hex": "#6a033b"
+  },
+  {
+   "code": "SFG-12",
+   "name": "Braineater Azure",
+   "finish": "Matt",
+   "hex": "#676aaf"
+  },
+  {
+   "code": "SFG-13",
+   "name": "Undead Flesh",
+   "finish": "Matt",
+   "hex": "#a8b170"
+  },
+  {
+   "code": "SFG-14",
+   "name": "Resurrection Flesh",
+   "finish": "Matt",
+   "hex": "#bb8b65"
+  },
+  {
+   "code": "SFG-15",
+   "name": "Harvester Flesh",
+   "finish": "Matt",
+   "hex": "#d0a791"
+  },
+  {
+   "code": "SFG-16",
+   "name": "Hellbound Flesh",
+   "finish": "Matt",
+   "hex": "#9cb1ac"
+  },
+  {
+   "code": "SFG-17",
+   "name": "Moonray Flesh",
+   "finish": "Matt",
+   "hex": "#f0d7a1"
+  },
+  {
+   "code": "SFG-18",
+   "name": "Riff Green",
+   "finish": "Matt",
+   "hex": "#1a2d29"
+  },
+  {
+   "code": "SFG-19",
+   "name": "Orcish Dermis",
+   "finish": "Matt",
+   "hex": "#db7d73"
+  },
+  {
+   "code": "SFG-20",
+   "name": "Merm Green",
+   "finish": "Matt",
+   "hex": "#455236"
+  },
+  {
+   "code": "SFG-21",
+   "name": "Greenskin Flesh",
+   "finish": "Matt",
+   "hex": "#006f34"
+  },
+  {
+   "code": "SFG-22",
+   "name": "Surfer Orc Flesh",
+   "finish": "Matt",
+   "hex": "#00a58b"
+  },
+  {
+   "code": "SFG-23",
+   "name": "Slimer Green",
+   "finish": "Matt",
+   "hex": "#5a9032"
+  },
+  {
+   "code": "SFG-24",
+   "name": "Goblin Flesh",
+   "finish": "Matt",
+   "hex": "#77b840"
+  },
+  {
+   "code": "SFG-25",
+   "name": "Toxic Waste Green",
+   "finish": "Matt",
+   "hex": "#c7d538"
+  },
+  {
+   "code": "SFG-26",
+   "name": "Huldra Blue",
+   "finish": "Matt",
+   "hex": "#234256"
+  },
+  {
+   "code": "SFG-27",
+   "name": "Eldandil Violet",
+   "finish": "Matt",
+   "hex": "#2b1a3c"
+  },
+  {
+   "code": "SFG-28",
+   "name": "Arphen Jade",
+   "finish": "Matt",
+   "hex": "#035d53"
+  },
+  {
+   "code": "SFG-29",
+   "name": "Arianrhod Blue",
+   "finish": "Matt",
+   "hex": "#39398f"
+  },
+  {
+   "code": "SFG-30",
+   "name": "Amarth Blue",
+   "finish": "Matt",
+   "hex": "#0582c5"
+  },
+  {
+   "code": "SFG-31",
+   "name": "Jorildyn Turquoise",
+   "finish": "Matt",
+   "hex": "#067da7"
+  },
+  {
+   "code": "SFG-32",
+   "name": "Lendanis Grey",
+   "finish": "Matt",
+   "hex": "#8b8da4"
+  },
+  {
+   "code": "SFG-33",
+   "name": "Hiril Blue",
+   "finish": "Matt",
+   "hex": "#4aa9bf"
+  },
+  {
+   "code": "SFG-34",
+   "name": "Arbuckles Brown",
+   "finish": "Matt",
+   "hex": "#3c2922"
+  },
+  {
+   "code": "SFG-35",
+   "name": "Bosh Chestnut",
+   "finish": "Matt",
+   "hex": "#69452f"
+  },
+  {
+   "code": "SFG-36",
+   "name": "Sharpnel Red",
+   "finish": "Matt",
+   "hex": "#6e290a"
+  },
+  {
+   "code": "SFG-37",
+   "name": "Chink Orange",
+   "finish": "Matt",
+   "hex": "#b2621b"
+  },
+  {
+   "code": "SFG-38",
+   "name": "Cokum Copper",
+   "finish": "Matt",
+   "hex": "#a37021"
+  },
+  {
+   "code": "SFG-39",
+   "name": "Peanut Butter",
+   "finish": "Matt",
+   "hex": "#bb8103"
+  },
+  {
+   "code": "SFG-40",
+   "name": "Blackert Brown",
+   "finish": "Matt",
+   "hex": "#b8825c"
+  },
+  {
+   "code": "SFG-41",
+   "name": "Hykey Yellow",
+   "finish": "Matt",
+   "hex": "#efd491"
+  },
+  {
+   "code": "SFG-42",
+   "name": "Necro Grey",
+   "finish": "Matt",
+   "hex": "#303038"
+  },
+  {
+   "code": "SFG-43",
+   "name": "Despair Green",
+   "finish": "Matt",
+   "hex": "#17383d"
+  },
+  {
+   "code": "SFG-44",
+   "name": "Tindalos Red",
+   "finish": "Matt",
+   "hex": "#5b2922"
+  },
+  {
+   "code": "SFG-45",
+   "name": "Rlyeh Grey",
+   "finish": "Matt",
+   "hex": "#464b4e"
+  },
+  {
+   "code": "SFG-46",
+   "name": "Innsmouth Blue",
+   "finish": "Matt",
+   "hex": "#00596b"
+  },
+  {
+   "code": "SFG-47",
+   "name": "Miskatonic Grey",
+   "finish": "Matt",
+   "hex": "#bbb7b4"
+  },
+  {
+   "code": "SFX-00",
+   "name": "Brilli White",
+   "finish": "Fluo",
+   "hex": "#fefefe"
+  },
+  {
+   "code": "SFX-01",
+   "name": "Orange Neon",
+   "finish": "Fluo",
+   "hex": "#f96401"
+  },
+  {
+   "code": "SFX-02",
+   "name": "Acid Pink",
+   "finish": "Fluo",
+   "hex": "#f81dfe"
+  },
+  {
+   "code": "SFX-03",
+   "name": "Psychedelic Purple",
+   "finish": "Fluo",
+   "hex": "#bb1cff"
+  },
+  {
+   "code": "SFX-04",
+   "name": "Electric Blue",
+   "finish": "Fluo",
+   "hex": "#021afe"
+  },
+  {
+   "code": "SFX-05",
+   "name": "Techno Green",
+   "finish": "Fluo",
+   "hex": "#44fa05"
+  },
+  {
+   "code": "SFX-06",
+   "name": "Speed Yellow",
+   "finish": "Fluo",
+   "hex": "#fffe00"
+  },
+  {
+   "code": "SFX-07",
+   "name": "Red Ecstacy",
+   "finish": "Fluo",
+   "hex": "#f81803"
+  },
+  {
+   "code": "SIN-00",
+   "name": "Shadow Black",
+   "finish": "Matt",
+   "hex": "#1d1f1c"
+  },
+  {
+   "code": "SIN-01",
+   "name": "Werewolf Brown",
+   "finish": "Matt",
+   "hex": "#553c35"
+  },
+  {
+   "code": "SIN-02",
+   "name": "Dragon Blood",
+   "finish": "Matt",
+   "hex": "#810622"
+  },
+  {
+   "code": "SIN-03",
+   "name": "Health Red",
+   "finish": "Matt",
+   "hex": "#c31610"
+  },
+  {
+   "code": "SIN-04",
+   "name": "Love Affair",
+   "finish": "Matt",
+   "hex": "#e92b37"
+  },
+  {
+   "code": "SIN-05",
+   "name": "Life Red",
+   "finish": "Matt",
+   "hex": "#e63217"
+  },
+  {
+   "code": "SIN-06",
+   "name": "Ragweed Orange",
+   "finish": "Matt",
+   "hex": "#df6a27"
+  },
+  {
+   "code": "SIN-07",
+   "name": "Drain Life",
+   "finish": "Matt",
+   "hex": "#e69464"
+  },
+  {
+   "code": "SIN-08",
+   "name": "Full Healing",
+   "finish": "Matt",
+   "hex": "#feef00"
+  },
+  {
+   "code": "SIN-09",
+   "name": "Estus Yellow",
+   "finish": "Matt",
+   "hex": "#fee459"
+  },
+  {
+   "code": "SIN-10",
+   "name": "Zucchini Skin",
+   "finish": "Matt",
+   "hex": "#405b32"
+  },
+  {
+   "code": "SIN-11",
+   "name": "Dead Flesh",
+   "finish": "Matt",
+   "hex": "#7f6662"
+  },
+  {
+   "code": "SIN-12",
+   "name": "Fairy Blood",
+   "finish": "Matt",
+   "hex": "#414874"
+  },
+  {
+   "code": "SIN-13",
+   "name": "Zombie Skin",
+   "finish": "Matt",
+   "hex": "#a6a869"
+  },
+  {
+   "code": "SIN-14",
+   "name": "Phoenix Feather",
+   "finish": "Matt",
+   "hex": "#d18a5c"
+  },
+  {
+   "code": "SIN-15",
+   "name": "Human Flesh",
+   "finish": "Matt",
+   "hex": "#daab97"
+  },
+  {
+   "code": "SIN-16",
+   "name": "Undead Dragon",
+   "finish": "Matt",
+   "hex": "#b6c8bc"
+  },
+  {
+   "code": "SIN-17",
+   "name": "Phoenix Egg",
+   "finish": "Matt",
+   "hex": "#e5d0a3"
+  },
+  {
+   "code": "SIN-18",
+   "name": "Paralyze Blue",
+   "finish": "Matt",
+   "hex": "#3579c0"
+  },
+  {
+   "code": "SIN-19",
+   "name": "Evil Root",
+   "finish": "Matt",
+   "hex": "#f07e4a"
+  },
+  {
+   "code": "SIN-20",
+   "name": "Toad Green",
+   "finish": "Matt",
+   "hex": "#475139"
+  },
+  {
+   "code": "SIN-21",
+   "name": "Sulfur Yellow",
+   "finish": "Matt",
+   "hex": "#fed500"
+  },
+  {
+   "code": "SIN-22",
+   "name": "Belladonna Green",
+   "finish": "Matt",
+   "hex": "#4ca579"
+  },
+  {
+   "code": "SIN-23",
+   "name": "Corrupted Stamina",
+   "finish": "Matt",
+   "hex": "#699d0c"
+  },
+  {
+   "code": "SIN-24",
+   "name": "Rotten Pus",
+   "finish": "Matt",
+   "hex": "#fbb400"
+  },
+  {
+   "code": "SIN-25",
+   "name": "Acid Green",
+   "finish": "Matt",
+   "hex": "#c4d964"
+  },
+  {
+   "code": "SIN-26",
+   "name": "Remove Mana",
+   "finish": "Matt",
+   "hex": "#0d2736"
+  },
+  {
+   "code": "SIN-27",
+   "name": "Arcane Purple",
+   "finish": "Matt",
+   "hex": "#350d4c"
+  },
+  {
+   "code": "SIN-28",
+   "name": "Elixir Green",
+   "finish": "Matt",
+   "hex": "#005c4d"
+  },
+  {
+   "code": "SIN-29",
+   "name": "Replenish Blue",
+   "finish": "Matt",
+   "hex": "#01479c"
+  },
+  {
+   "code": "SIN-30",
+   "name": "Mana Regeneration",
+   "finish": "Matt",
+   "hex": "#0184d2"
+  },
+  {
+   "code": "SIN-31",
+   "name": "Magic Blue",
+   "finish": "Matt",
+   "hex": "#147797"
+  },
+  {
+   "code": "SIN-32",
+   "name": "Grey Spell",
+   "finish": "Matt",
+   "hex": "#808fb0"
+  },
+  {
+   "code": "SIN-33",
+   "name": "Ancestral Blue",
+   "finish": "Matt",
+   "hex": "#61abc4"
+  },
+  {
+   "code": "SIN-34",
+   "name": "Grizzly Brown",
+   "finish": "Matt",
+   "hex": "#50181b"
+  },
+  {
+   "code": "SIN-35",
+   "name": "Endurance Brown",
+   "finish": "Matt",
+   "hex": "#773f1c"
+  },
+  {
+   "code": "SIN-36",
+   "name": "Rage Brown",
+   "finish": "Matt",
+   "hex": "#7c2b16"
+  },
+  {
+   "code": "SIN-37",
+   "name": "Frenzy Orange",
+   "finish": "Matt",
+   "hex": "#ec6001"
+  },
+  {
+   "code": "SIN-38",
+   "name": "Ogre Brown",
+   "finish": "Matt",
+   "hex": "#c07704"
+  },
+  {
+   "code": "SIN-39",
+   "name": "Salmon Fury",
+   "finish": "Matt",
+   "hex": "#eb5650"
+  },
+  {
+   "code": "SIN-40",
+   "name": "Wild Beast",
+   "finish": "Matt",
+   "hex": "#ca854e"
+  },
+  {
+   "code": "SIN-41",
+   "name": "Savage Beige",
+   "finish": "Matt",
+   "hex": "#f3d783"
+  },
+  {
+   "code": "SIN-42",
+   "name": "Golem Grey",
+   "finish": "Matt",
+   "hex": "#2c3031"
+  },
+  {
+   "code": "SIN-43",
+   "name": "Basilisk Green",
+   "finish": "Matt",
+   "hex": "#3d5152"
+  },
+  {
+   "code": "SIN-44",
+   "name": "Demon Brown",
+   "finish": "Matt",
+   "hex": "#66271e"
+  },
+  {
+   "code": "SIN-45",
+   "name": "Dark Kraken",
+   "finish": "Matt",
+   "hex": "#194a5b"
+  },
+  {
+   "code": "SIN-46",
+   "name": "Leviathan Blue",
+   "finish": "Matt",
+   "hex": "#005e70"
+  },
+  {
+   "code": "SIN-47",
+   "name": "Spectral Wolf",
+   "finish": "Matt",
+   "hex": "#ab9fa1"
+  },
+  {
+   "code": "SW-00",
+   "name": "Dunkelgelb Yellow",
+   "finish": "Matt",
+   "hex": "#cbb550"
+  },
+  {
+   "code": "SW-01",
+   "name": "Olivegrun Green",
+   "finish": "Matt",
+   "hex": "#5a6432"
+  },
+  {
+   "code": "SW-02",
+   "name": "Rotbraun Red",
+   "finish": "Matt",
+   "hex": "#52341a"
+  },
+  {
+   "code": "SW-03",
+   "name": "Rotbraun Primer Red",
+   "finish": "Matt",
+   "hex": "#925447"
+  },
+  {
+   "code": "SW-04",
+   "name": "Dunkelgrau Gray",
+   "finish": "Matt",
+   "hex": "#57585a"
+  },
+  {
+   "code": "SW-05",
+   "name": "Dunkelbraun Brown",
+   "finish": "Matt",
+   "hex": "#413028"
+  },
+  {
+   "code": "SW-06",
+   "name": "Gelbraun Brown",
+   "finish": "Matt",
+   "hex": "#d5ac74"
+  },
+  {
+   "code": "SW-07",
+   "name": "Graugrun Gray",
+   "finish": "Matt",
+   "hex": "#a08848"
+  },
+  {
+   "code": "SW-08",
+   "name": "SS Camo Medium Brown",
+   "finish": "Matt",
+   "hex": "#825d31"
+  },
+  {
+   "code": "SW-09",
+   "name": "SS Camo Dark Green",
+   "finish": "Matt",
+   "hex": "#2a331e"
+  },
+  {
+   "code": "SW-10",
+   "name": "SS Camo Medium Green",
+   "finish": "Matt",
+   "hex": "#4d5025"
+  },
+  {
+   "code": "SW-11",
+   "name": "SS Camo Light Green",
+   "finish": "Matt",
+   "hex": "#7e8126"
+  },
+  {
+   "code": "SW-12",
+   "name": "SS Camo Ochre Brown",
+   "finish": "Matt",
+   "hex": "#cfae5f"
+  },
+  {
+   "code": "SW-13",
+   "name": "SS Camo Gray Brown",
+   "finish": "Matt",
+   "hex": "#6f4f36"
+  },
+  {
+   "code": "SW-14",
+   "name": "SS Camo Highlights",
+   "finish": "Matt",
+   "hex": "#fab861"
+  },
+  {
+   "code": "SW-15",
+   "name": "Flat Black",
+   "finish": "Matt",
+   "hex": "#1c1c1c"
+  },
+  {
+   "code": "SW-16",
+   "name": "SS Camo Grey",
+   "finish": "Matt",
+   "hex": "#8f8063"
+  },
+  {
+   "code": "SW-17",
+   "name": "SS Camo Red Brown",
+   "finish": "Matt",
+   "hex": "#593a1b"
+  },
+  {
+   "code": "SW-18",
+   "name": "SS Camo Dark Brown",
+   "finish": "Matt",
+   "hex": "#220b05"
+  },
+  {
+   "code": "SW-19",
+   "name": "SS Camo Golden Brown",
+   "finish": "Matt",
+   "hex": "#f0a001"
+  },
+  {
+   "code": "SW-20",
+   "name": "SS Camo Italian Green",
+   "finish": "Matt",
+   "hex": "#3f5232"
+  },
+  {
+   "code": "SW-21",
+   "name": "SS Camo Yellow Sand",
+   "finish": "Matt",
+   "hex": "#c0a56e"
+  },
+  {
+   "code": "SW-22",
+   "name": "SS Camo Top Lights",
+   "finish": "Matt",
+   "hex": "#fbc77e"
+  },
+  {
+   "code": "SW-23",
+   "name": "SS Camo Top Shadows",
+   "finish": "Matt",
+   "hex": "#343428"
+  },
+  {
+   "code": "SW-24",
+   "name": "Dunkelgelb 44",
+   "finish": "Matt",
+   "hex": "#ded1b1"
+  },
+  {
+   "code": "SW-25",
+   "name": "Rotbraun 44",
+   "finish": "Matt",
+   "hex": "#905024"
+  },
+  {
+   "code": "SW-26",
+   "name": "Olivegrun 44",
+   "finish": "Matt",
+   "hex": "#93a45d"
+  },
+  {
+   "code": "SW-27",
+   "name": "Cremeweiss",
+   "finish": "Matt",
+   "hex": "#fcfce0"
+  },
+  {
+   "code": "SW-28",
+   "name": "Braun",
+   "finish": "Matt",
+   "hex": "#e5c89e"
+  },
+  {
+   "code": "SW-29",
+   "name": "Grau",
+   "finish": "Matt",
+   "hex": "#e8d5c4"
+  },
+  {
+   "code": "SW-30",
+   "name": "Green Ochre",
+   "finish": "Matt",
+   "hex": "#948123"
+  },
+  {
+   "code": "SW-31",
+   "name": "Desert Yellow",
+   "finish": "Matt",
+   "hex": "#d9af75"
+  },
+  {
+   "code": "SW-32",
+   "name": "Sand Yellow",
+   "finish": "Matt",
+   "hex": "#eac581"
+  },
+  {
+   "code": "SW-33",
+   "name": "Dark Earth",
+   "finish": "Matt",
+   "hex": "#643722"
+  },
+  {
+   "code": "SW-34",
+   "name": "Pale Earth",
+   "finish": "Matt",
+   "hex": "#5f4125"
+  },
+  {
+   "code": "SW-35",
+   "name": "Olive Brown",
+   "finish": "Matt",
+   "hex": "#434631"
+  },
+  {
+   "code": "SW-36",
+   "name": "Sahara Sand",
+   "finish": "Matt",
+   "hex": "#efd066"
+  },
+  {
+   "code": "SW-37",
+   "name": "Leaden Sky",
+   "finish": "Matt",
+   "hex": "#404f70"
+  },
+  {
+   "code": "SW-38",
+   "name": "Field Grey 1",
+   "finish": "Matt",
+   "hex": "#39553c"
+  },
+  {
+   "code": "SW-39",
+   "name": "Field Grey 2",
+   "finish": "Matt",
+   "hex": "#3f4c45"
+  },
+  {
+   "code": "SW-40",
+   "name": "Titanium Gray",
+   "finish": "Matt",
+   "hex": "#41342b"
+  },
+  {
+   "code": "SW-41",
+   "name": "Smoke Gray",
+   "finish": "Matt",
+   "hex": "#886859"
+  },
+  {
+   "code": "SW-42",
+   "name": "Slate Gray",
+   "finish": "Matt",
+   "hex": "#372b15"
+  },
+  {
+   "code": "SW-43",
+   "name": "Russian Green",
+   "finish": "Matt",
+   "hex": "#584f26"
+  },
+  {
+   "code": "SW-44",
+   "name": "Russian Light Green",
+   "finish": "Matt",
+   "hex": "#635111"
+  },
+  {
+   "code": "SW-45",
+   "name": "Russian Uniform",
+   "finish": "Matt",
+   "hex": "#695928"
+  },
+  {
+   "code": "SW-46",
+   "name": "Panzer Grey",
+   "finish": "Matt",
+   "hex": "#30383b"
+  },
+  {
+   "code": "SW-47",
+   "name": "Panzer Yellow",
+   "finish": "Matt",
+   "hex": "#d6c78c"
+  },
+  {
+   "code": "SW-48",
+   "name": "American Olive",
+   "finish": "Matt",
+   "hex": "#736737"
+  },
+  {
+   "code": "SW-49",
+   "name": "Ocean Gray",
+   "finish": "Matt",
+   "hex": "#556477"
+  },
+  {
+   "code": "SW-50",
+   "name": "US Medium Brown",
+   "finish": "Matt",
+   "hex": "#d4ad84"
+  },
+  {
+   "code": "SW-51",
+   "name": "US Dark Brown",
+   "finish": "Matt",
+   "hex": "#ae8a72"
+  },
+  {
+   "code": "SW-52",
+   "name": "US Green",
+   "finish": "Matt",
+   "hex": "#474632"
+  },
+  {
+   "code": "SW-53",
+   "name": "Red Label",
+   "finish": "Matt",
+   "hex": "#df0617"
+  },
+  {
+   "code": "SW-54",
+   "name": "Yellow Code",
+   "finish": "Matt",
+   "hex": "#ffcb06"
+  },
+  {
+   "code": "SW-55",
+   "name": "Flight Blue",
+   "finish": "Matt",
+   "hex": "#01688b"
+  },
+  {
+   "code": "SW-56",
+   "name": "Light Sky",
+   "finish": "Matt",
+   "hex": "#7090b4"
+  },
+  {
+   "code": "SW-57",
+   "name": "Shadow Blue",
+   "finish": "Matt",
+   "hex": "#2a3245"
+  },
+  {
+   "code": "SW-58",
+   "name": "White",
+   "finish": "Matt",
+   "hex": "#ffffff"
+  },
+  {
+   "code": "SW-59",
+   "name": "Orange",
+   "finish": "Matt",
+   "hex": "#e9670f"
+  },
+  {
+   "code": "SW-60",
+   "name": "Ocean Blue",
+   "finish": "Matt",
+   "hex": "#0c2140"
+  },
+  {
+   "code": "SW-61",
+   "name": "Deep Ocean",
+   "finish": "Matt",
+   "hex": "#000b2b"
+  },
+  {
+   "code": "SW-62",
+   "name": "Winter Shadow",
+   "finish": "Matt",
+   "hex": "#3a3c39"
+  },
+  {
+   "code": "SW-63",
+   "name": "Winter Grey",
+   "finish": "Matt",
+   "hex": "#6e6e70"
+  },
+  {
+   "code": "SCPR-001",
+   "name": "Primer Surface White",
+   "finish": "Matt",
+   "hex": "#c9cfd5"
+  },
+  {
+   "code": "SCPR-002",
+   "name": "Primer Surface Black",
+   "finish": "Matt",
+   "hex": "#101318"
+  },
+  {
+   "code": "SCPR-003",
+   "name": "Primer Surface Grey",
+   "finish": "Matt",
+   "hex": "#646464"
+  }
+ ],
+ "scalecolor-artist--888": [
+  {
+   "code": "SART-01",
+   "name": "ART WHITE",
+   "finish": "Matt",
+   "hex": "#ffffff"
+  },
+  {
+   "code": "SART-02",
+   "name": "ART BLACK",
+   "finish": "Matt",
+   "hex": "#111111"
+  },
+  {
+   "code": "SART-03",
+   "name": "PRIMARY BLUE",
+   "finish": "Matt",
+   "hex": "#1c77b6"
+  },
+  {
+   "code": "SART-04",
+   "name": "PRIMARY YELLOW",
+   "finish": "Matt",
+   "hex": "#f4e918"
+  },
+  {
+   "code": "SART-05",
+   "name": "PRIMARY RED",
+   "finish": "Matt",
+   "hex": "#d53136"
+  },
+  {
+   "code": "SART-06",
+   "name": "BURNT SIENNA UMBER",
+   "finish": "Matt",
+   "hex": "#4d2b21"
+  },
+  {
+   "code": "SART-07",
+   "name": "PINK FLESH",
+   "finish": "Matt",
+   "hex": "#bd7066"
+  },
+  {
+   "code": "SART-08",
+   "name": "GOLDEN FLESH",
+   "finish": "Matt",
+   "hex": "#e3a86e"
+  },
+  {
+   "code": "SART-09",
+   "name": "LIGHT SKIN",
+   "finish": "Matt",
+   "hex": "#d4b6af"
+  },
+  {
+   "code": "SART-10",
+   "name": "CRIMSON",
+   "finish": "Matt",
+   "hex": "#c22335"
+  },
+  {
+   "code": "SART-11",
+   "name": "MOSS GREEN",
+   "finish": "Matt",
+   "hex": "#444a30"
+  },
+  {
+   "code": "SART-12",
+   "name": "BURNT SKIN",
+   "finish": "Matt",
+   "hex": "#664023"
+  },
+  {
+   "code": "SART-13",
+   "name": "BUFF",
+   "finish": "Matt",
+   "hex": "#b49e83"
+  },
+  {
+   "code": "SART-14",
+   "name": "PEARL GREY",
+   "finish": "Matt",
+   "hex": "#877a81"
+  },
+  {
+   "code": "SART-15",
+   "name": "VIOLET GREY",
+   "finish": "Matt",
+   "hex": "#73737d"
+  },
+  {
+   "code": "SART-16",
+   "name": "GREEN GREY",
+   "finish": "Matt",
+   "hex": "#2c3033"
+  },
+  {
+   "code": "SART-17",
+   "name": "VANILLA YELLOW",
+   "finish": "Matt",
+   "hex": "#d9cd69"
+  },
+  {
+   "code": "SART-18",
+   "name": "YELLOW NAPLES",
+   "finish": "Matt",
+   "hex": "#dbad23"
+  },
+  {
+   "code": "SART-19",
+   "name": "INTENSE YELLOW",
+   "finish": "Matt",
+   "hex": "#f3cc02"
+  },
+  {
+   "code": "SART-20",
+   "name": "YELLOW OCHRE",
+   "finish": "Matt",
+   "hex": "#a1712f"
+  },
+  {
+   "code": "SART-21",
+   "name": "RAW SIENNA",
+   "finish": "Matt",
+   "hex": "#654326"
+  },
+  {
+   "code": "SART-22",
+   "name": "ORANGE",
+   "finish": "Matt",
+   "hex": "#d55c16"
+  },
+  {
+   "code": "SART-23",
+   "name": "MAGENTA",
+   "finish": "Matt",
+   "hex": "#c70885"
+  },
+  {
+   "code": "SART-24",
+   "name": "PURPLE",
+   "finish": "Matt",
+   "hex": "#912260"
+  },
+  {
+   "code": "SART-25",
+   "name": "DARK VIOLET",
+   "finish": "Matt",
+   "hex": "#491b40"
+  },
+  {
+   "code": "SART-26",
+   "name": "TURQUOISE BLUE",
+   "finish": "Matt",
+   "hex": "#15998e"
+  },
+  {
+   "code": "SART-27",
+   "name": "COBALT BLUE",
+   "finish": "Matt",
+   "hex": "#015f91"
+  },
+  {
+   "code": "SART-28",
+   "name": "LIGHT ULTRAMARINE",
+   "finish": "Matt",
+   "hex": "#263e88"
+  },
+  {
+   "code": "SART-29",
+   "name": "DARK ULTRAMARINE",
+   "finish": "Matt",
+   "hex": "#342a7b"
+  },
+  {
+   "code": "SART-30",
+   "name": "PRUSIAN BLUE",
+   "finish": "Matt",
+   "hex": "#07293d"
+  },
+  {
+   "code": "SART-31",
+   "name": "LIGHT MOSS GREEN",
+   "finish": "Matt",
+   "hex": "#62711b"
+  },
+  {
+   "code": "SART-32",
+   "name": "SPRING GREEN",
+   "finish": "Matt",
+   "hex": "#5e9f35"
+  },
+  {
+   "code": "SART-33",
+   "name": "EMERALD GREEN",
+   "finish": "Matt",
+   "hex": "#185442"
+  },
+  {
+   "code": "SART-34",
+   "name": "SAP GREEN",
+   "finish": "Matt",
+   "hex": "#053518"
+  },
+  {
+   "code": "SART-35",
+   "name": "OLIVE GREEN",
+   "finish": "Matt",
+   "hex": "#585135"
+  },
+  {
+   "code": "SART-36",
+   "name": "EARTH GREEN",
+   "finish": "Matt",
+   "hex": "#4b3d30"
+  },
+  {
+   "code": "SART-37",
+   "name": "RED OCHRE",
+   "finish": "Matt",
+   "hex": "#81372f"
+  },
+  {
+   "code": "SART-38",
+   "name": "BURNT UMBER",
+   "finish": "Matt",
+   "hex": "#51402c"
+  },
+  {
+   "code": "SART-39",
+   "name": "WOOD",
+   "finish": "Matt",
+   "hex": "#60483f"
+  },
+  {
+   "code": "SART-40",
+   "name": "RAW UMBER",
+   "finish": "Matt",
+   "hex": "#776033"
+  },
+  {
+   "code": "SART-41",
+   "name": "DARK BROWN OCHRE",
+   "finish": "Matt",
+   "hex": "#1e1317"
+  },
+  {
+   "code": "SART-42",
+   "name": "BURNT SIENNA",
+   "finish": "Matt",
+   "hex": "#7d2e07"
+  },
+  {
+   "code": "SART-43",
+   "name": "VANILLA WHITE",
+   "finish": "Matt",
+   "hex": "#ede8d4"
+  },
+  {
+   "code": "SART-44",
+   "name": "ARTIC BLUE",
+   "finish": "Matt",
+   "hex": "#8990a2"
+  },
+  {
+   "code": "SART-45",
+   "name": "PASTEL VIOLET",
+   "finish": "Matt",
+   "hex": "#814b96"
+  },
+  {
+   "code": "SART-46",
+   "name": "PASTEL GREEN",
+   "finish": "Matt",
+   "hex": "#939e98"
+  },
+  {
+   "code": "SART-47",
+   "name": "OFF WHITE",
+   "finish": "Matt",
+   "hex": "#e0d4ba"
+  },
+  {
+   "code": "SART-48",
+   "name": "PASTEL BLUE",
+   "finish": "Matt",
+   "hex": "#43636e"
+  }
+ ]
+}

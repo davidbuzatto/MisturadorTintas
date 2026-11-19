@@ -40,6 +40,10 @@ export const INGREDIENT_SETS = [
   { id: 'ak', marca: 'AK', rotulo: 'Real Colors', quimica: 'lacquer', tab: 'ak' },
   { id: 'ammo-acrylic', marca: 'AMMO', rotulo: 'Acrylic Colors', quimica: 'acrilica', tab: 'ammo', line: 'Acrylic Colors' },
   { id: 'ammo-atom', marca: 'AMMO', rotulo: 'ATOM', quimica: 'acrilica', tab: 'ammo', line: 'ATOM' },
+  { id: 'scale75-scalecolor', marca: 'Scale75', rotulo: 'Scalecolor', quimica: 'acrilica', tab: 'scale75', line: 'Scalecolor' },
+  { id: 'scale75-fantasy', marca: 'Scale75', rotulo: 'Fantasy & Games', quimica: 'acrilica', tab: 'scale75', line: 'Fantasy & Games' },
+  { id: 'scale75-warfront', marca: 'Scale75', rotulo: 'Warfront', quimica: 'acrilica', tab: 'scale75', line: 'Warfront' },
+  { id: 'scale75-artist', marca: 'Scale75', rotulo: 'Scalecolor Artist', quimica: 'acrilica', tab: 'scale75', line: 'Scalecolor Artist' },
 ];
 
 /** Séries (campo `series`) cujas tintas o modelo de mistura não representa. */

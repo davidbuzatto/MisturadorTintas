@@ -116,6 +116,7 @@ test('buildCatalogs inclui Vallejo e catalogLines lista as linhas', async () => 
     ral: ler('ral-cores.json'),
     ak: ler('ak-cores.json'),
     am: ler('ammo-cores.json'),
+    sc: ler('scale75-cores.json'),
   });
   assert.equal(cat.vallejo.length, ler('vallejo-cores.json').length);
   assert.deepEqual(catalogLines(cat.vallejo).slice(0, 2), ['Model Color', 'Liquid Metal']);
@@ -162,6 +163,39 @@ test('Humbrol: registros completos, códigos únicos e cores conhecidas', () => 
   assert.equal(por['33'].hex, '#000000'); // Black Matt
   assert.equal(por['34'].hex, '#ffffff'); // White Matt
   assert.equal(por['22'].hex, '#ffffff'); // White Gloss
+});
+
+test('Scale75: registros completos, códigos únicos, linhas e cores conhecidas', () => {
+  const cores = ler('scale75-cores.json');
+  const codigos = cores.map((c) => c.code);
+  assert.equal(new Set(codigos).size, codigos.length, 'códigos repetidos');
+  const porLinha = {};
+  for (const c of cores) {
+    assert.match(c.hex, HEX, `hex de ${c.code}`);
+    assert.ok(c.name, `nome de ${c.code}`);
+    assert.ok(c.finish, `acabamento de ${c.code}`);
+    porLinha[c.line] = (porLinha[c.line] || 0) + 1;
+  }
+  assert.deepEqual(porLinha, {
+    Scalecolor: 106,
+    'Fantasy & Games': 48,
+    Warfront: 64,
+    'Instant Colors': 48,
+    'FX Fluor': 8,
+    'Scalecolor Artist': 48,
+  });
+  // a linha Scalecolor Artist tem 48 cores numeradas (SART-01 a SART-48)
+  assert.deepEqual(
+    cores.filter((c) => c.line === 'Scalecolor Artist').map((c) => c.code),
+    Array.from({ length: 48 }, (_, i) => `SART-${String(i + 1).padStart(2, '0')}`)
+  );
+  const por = Object.fromEntries(cores.map((c) => [c.code, c]));
+  assert.equal(por['SART-01'].hex, '#ffffff'); // Art White
+  assert.equal(por['SC-00'].hex, '#000000'); // Black
+  assert.equal(por['SC-30'].name, 'Red Leather'); // nome normalizado ("red leather" no site)
+  assert.equal(por['SW-08'].name, 'SS Camo Medium Brown'); // siglas preservadas
+  assert.equal(por['SC-73'].series, "Metal n' Alchemy"); // Dwarven Gold
+  assert.equal(por['SC-80'].series, 'Inktense');
 });
 
 test('RAL Classic: registros completos, códigos únicos e cores conhecidas', () => {

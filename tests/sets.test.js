@@ -27,6 +27,7 @@ const catalogos = buildCatalogs({
   ral: ler('ral-cores.json'),
   ak: ler('ak-cores.json'),
   am: ler('ammo-cores.json'),
+  sc: ler('scale75-cores.json'),
 });
 const sets = buildSets(catalogos);
 
@@ -60,6 +61,11 @@ test('tintas metálicas, translúcidas e em degradê ficam de fora', () => {
   assert.ok(!mc.paints.some((p) => p.degrade));
   // Humbrol: "Metallic" no acabamento
   assert.ok(!sets.get('humbrol').paints.some((p) => p.finish === 'Metallic'));
+  // Scale75 Scalecolor: Metal n' Alchemy, Inktense e primers ficam de fora (106 tintas, 63 na série principal)
+  const sc = sets.get('scale75-scalecolor');
+  assert.equal(sc.paints.length, 63);
+  assert.equal(sc.excluidas, 43);
+  assert.ok(sc.paints.every((p) => !p.series));
   // casos diretos
   assert.equal(misturavel({ name: 'Clear Red', hex: '#ff0000' }), false);
   assert.equal(misturavel({ name: 'Silver (Metallic)', hex: '#cccccc' }), false);
