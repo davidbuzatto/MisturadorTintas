@@ -13,7 +13,7 @@ import { ACABAMENTOS, acabamentoDe, contarPorTipo, filtrarCatalogo } from '../da
 import { buildLinks } from '../data/equivalences.js';
 import { deToPaint, nearest } from '../color/nearest.js';
 import { lineName, t } from '../i18n/index.js';
-import { $, ativavel, deText, esc } from './dom.js';
+import { $, ativavel, deText, dicaAprox, eAprox, esc } from './dom.js';
 
 /** Marcas consultáveis (todas as abas de alvo, exceto a de cor livre). */
 const ABAS = TARGET_TABS.filter((k) => k !== 'free');
@@ -139,10 +139,10 @@ export function createCatalogo(ctx) {
     c.className = 'cell' + (sel ? ' sel' : '');
     c.setAttribute('aria-pressed', sel);
     const sub = p.code + (linha === TODOS && p.line ? ` · ${lineName(p.line)}` : '') + (p.series ? ` · ${p.series}` : '');
-    c.title = `${p.code} ${displayName(p)} ${p.hex} · ${rotuloTipo(k)}`;
+    c.title = `${p.code} ${displayName(p)} ${p.hex} · ${rotuloTipo(k)}${eAprox(p) ? ' · ' + dicaAprox(p) : ''}`;
     c.innerHTML =
-      `<span class="sw${k === 'metallic' ? ' met' : ''}${p.degrade ? ' deg' : ''}" style="background-color:${p.hex}"></span>` +
-      `<span>${esc(displayName(p))}<b>${esc(sub)}</b>${k ? `<i class="tag">${esc(rotuloTipo(k))}</i>` : ''}</span>`;
+      `<span class="sw${k === 'metallic' ? ' met' : ''}${eAprox(p) ? ' deg' : ''}" style="background-color:${p.hex}"></span>` +
+      `<span>${esc(displayName(p))}<b>${esc(sub)}</b>${k ? `<i class="tag">${esc(rotuloTipo(k))}</i>` : ''}${eAprox(p) ? `<i class="tag">${esc(t('approx.tag'))}</i>` : ''}</span>`;
     ativavel(c, () => mostrar(aba, p));
     return c;
   }
@@ -172,9 +172,9 @@ export function createCatalogo(ctx) {
     const origem = catalogName(a) + (p.line ? ` · ${lineName(p.line)}${p.series ? ' / ' + p.series : ''}` : '');
     const acab = rotuloTipo(k) + (k && inferido ? ` ${t('cat.estimated')}` : '');
     let html =
-      `<div class="detop"><span class="sw big${k === 'metallic' ? ' met' : ''}${p.degrade ? ' deg' : ''}" style="background-color:${p.hex}"></span>` +
+      `<div class="detop"><span class="sw big${k === 'metallic' ? ' met' : ''}${eAprox(p) ? ' deg' : ''}" style="background-color:${p.hex}"></span>` +
       `<div><b>${esc(displayName(p))}</b><div class="muted">${esc(p.code)} · ${esc(origem)}</div>` +
-      `<div class="muted">${esc(p.hex)} · ${esc(t('cat.det.finish'))}: ${esc(acab)}${p.degrade ? ' · ' + esc(t('common.approx')) : ''}</div></div></div>`;
+      `<div class="muted">${esc(p.hex)} · ${esc(t('cat.det.finish'))}: ${esc(acab)}${eAprox(p) ? ' · ' + esc(dicaAprox(p)) : ''}</div></div></div>`;
 
     const itens = [];
     const declaradas = links.declaradasPara(a, p.code);
@@ -201,10 +201,11 @@ export function createCatalogo(ctx) {
         const el = document.createElement('div');
         el.className = 'eqrow';
         const sub = paint.code + (paint.line ? ` · ${lineName(paint.line)}` : '') + (paint.series ? ` · ${paint.series}` : '');
-        el.title = `${paint.code} ${displayName(paint)} ${paint.hex} · ΔE00 ${de.toFixed(1)} (${deText(de)})`;
+        el.title = `${paint.code} ${displayName(paint)} ${paint.hex} · ΔE00 ${de.toFixed(1)} (${deText(de)})${eAprox(paint) ? ' · ' + dicaAprox(paint) : ''}`;
         el.innerHTML =
-          `<span class="sw${kk === 'metallic' ? ' met' : ''}${paint.degrade ? ' deg' : ''}" style="background-color:${paint.hex}"></span>` +
+          `<span class="sw${kk === 'metallic' ? ' met' : ''}${eAprox(paint) ? ' deg' : ''}" style="background-color:${paint.hex}"></span>` +
           `<span class="eqtxt">${esc(displayName(paint))}<b>${esc(sub)}</b></span>` +
+          (eAprox(paint) ? `<span class="aprox" title="${esc(dicaAprox(paint))}">≈</span>` : '') +
           (fontes.length ? `<span class="badge">${esc(fontes.join(' · '))}</span>` : '') +
           `<span class="eqde ${classeDe(de)}">${de.toFixed(1)}</span>`;
         // clicar leva à tinta no catálogo (consulta encadeada)

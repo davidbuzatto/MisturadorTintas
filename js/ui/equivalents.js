@@ -9,7 +9,7 @@ import { TARGET_TABS, catalogName, displayName, targetOf } from '../data/catalog
 import { lineName, t } from '../i18n/index.js';
 import { buildLinks } from '../data/equivalences.js';
 import { deToPaint, nearest } from '../color/nearest.js';
-import { $, ativavel, deText, esc } from './dom.js';
+import { $, ativavel, deText, dicaAprox, eAprox, esc } from './dom.js';
 
 /** Quantas tintas parecidas mostrar por catálogo. */
 const POR_CATALOGO = 3;
@@ -58,12 +58,13 @@ export function createEquivalents(ctx) {
     el.className = 'eqrow';
     const sub = paint.code + (paint.line ? ` · ${lineName(paint.line)}` : '') + (paint.series ? ` · ${paint.series}` : '');
     el.title = t('eq.tip', { code: paint.code, nome: displayName(paint), hex: paint.hex, de: de.toFixed(1), texto: deText(de) }) +
-      (paint.degrade ? ` · ${t('common.approx')}` : '') +
+      (eAprox(paint) ? ` · ${dicaAprox(paint)}` : '') +
       (oficial ? ` · ${t('eq.tip.official', { fontes: fontes.join(t('eq.and')) })}` : '') +
       ` — ${t('eq.tip.click')}`;
     el.innerHTML =
-      `<span class="sw${paint.degrade ? ' deg' : ''}" style="background:${paint.hex}"></span>` +
+      `<span class="sw${eAprox(paint) ? ' deg' : ''}" style="background:${paint.hex}"></span>` +
       `<span class="eqtxt">${esc(displayName(paint))}<b>${esc(sub)}</b></span>` +
+      (eAprox(paint) ? `<span class="aprox" title="${esc(dicaAprox(paint))}">≈</span>` : '') +
       (oficial ? `<span class="badge">${esc(selo)}</span>` : '') +
       `<span class="eqde ${classeDe(de)}">${de.toFixed(1)}</span>`;
     ativavel(el, () => {

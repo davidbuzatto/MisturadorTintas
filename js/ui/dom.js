@@ -44,6 +44,23 @@ export function deText(d) {
 }
 
 /**
+ * A cor da tinta é aproximada? (amostra em degradê/metálica, lida do frasco ou diluída)
+ * @param {{degrade?: boolean, aprox?: string}} p tinta de catálogo.
+ * @returns {boolean}
+ */
+export const eAprox = (p) => !!(p.degrade || p.aprox);
+
+/**
+ * Texto que explica por que a cor de uma tinta é aproximada, no idioma atual (vazio se não for).
+ * @param {{degrade?: boolean, aprox?: string}} p tinta de catálogo.
+ * @returns {string}
+ */
+export function dicaAprox(p) {
+  if (p.aprox) return t(`approx.${p.aprox}`);
+  return p.degrade ? t('common.approx') : '';
+}
+
+/**
  * Cor de texto (preto/branco) legível sobre um fundo hex.
  * @param {string} hex cor de fundo.
  * @returns {'#000'|'#fff'}

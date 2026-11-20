@@ -80,6 +80,10 @@ export default {
   'chem.acrilica': 'acrílica',
   'chem.lacquer': 'lacquer',
   'chem.esmalte': 'esmalte',
+  'chem.oleo': 'óleo',
+  'approx.tag': '≈ aprox.',
+  'approx.frasco': 'cor aproximada: a marca não publica amostra desta tinta, e a cor foi lida do líquido na foto do frasco',
+  'approx.diluida': 'cor aproximada: a amostra da marca é diluída (semitransparente) e pode estar mais clara que a tinta real',
   'set.acrilex': 'Fosca',
   'set.tamiya-acrilica': 'Acrílica',
   'set.humbrol': 'Acrílica',
@@ -206,7 +210,9 @@ export default {
   'about.title': 'Sobre',
   'about.credits':
     'Ideia e direção: <a href="https://davidbuzatto.com.br/" target="_blank" rel="noopener">Prof. Dr. David Buzatto</a>. ' +
-    'Desenvolvimento: <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude</a> (Anthropic), assistente de IA, sob a direção do autor.',
+    'Desenvolvimento: <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude</a> (Anthropic), assistente de IA, sob a direção do autor. ' +
+    'Catálogo Scale75: proposto por <a href="https://github.com/mardden" target="_blank" rel="noopener">Marden</a>, que reuniu a primeira versão dos dados a partir do Scalemates; ' +
+    'os dados atuais foram refeitos a partir do site oficial da Scale75 e ajustados pelo autor.',
   'about.license':
     'O código é distribuído sob a <a href="https://github.com/davidbuzatto/misturador-tintas/blob/HEAD/LICENSE" target="_blank" rel="noopener">licença MIT</a> ' +
     '(<a href="https://github.com/davidbuzatto/misturador-tintas" target="_blank" rel="noopener">repositório</a>).',

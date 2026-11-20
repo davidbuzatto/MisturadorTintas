@@ -79,6 +79,10 @@ export default {
   'chem.acrilica': 'acrylic',
   'chem.lacquer': 'lacquer',
   'chem.esmalte': 'enamel',
+  'chem.oleo': 'oil',
+  'approx.tag': '≈ approx.',
+  'approx.frasco': 'approximate color: the brand publishes no swatch for this paint, so the color was read from the liquid in the bottle photo',
+  'approx.diluida': 'approximate color: the brand’s swatch is thin (semi-transparent) and may be lighter than the real paint',
   'set.acrilex': 'Matte',
   'set.tamiya-acrilica': 'Acrylic',
   'set.humbrol': 'Acrylic',
@@ -205,7 +209,9 @@ export default {
   'about.title': 'About',
   'about.credits':
     'Idea and direction: <a href="https://davidbuzatto.com.br/" target="_blank" rel="noopener">Prof. Dr. David Buzatto</a>. ' +
-    'Development: <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude</a> (Anthropic), an AI assistant, under the author’s direction.',
+    'Development: <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude</a> (Anthropic), an AI assistant, under the author’s direction. ' +
+    'Scale75 catalog: proposed by <a href="https://github.com/mardden" target="_blank" rel="noopener">Marden</a>, who put together the first version of the data from Scalemates; ' +
+    'the current data were rebuilt from Scale75’s official website and adjusted by the author.',
   'about.license':
     'The code is released under the <a href="https://github.com/davidbuzatto/misturador-tintas/blob/HEAD/LICENSE" target="_blank" rel="noopener">MIT license</a> ' +
     '(<a href="https://github.com/davidbuzatto/misturador-tintas" target="_blank" rel="noopener">repository</a>).',

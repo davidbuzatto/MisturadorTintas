@@ -3,7 +3,7 @@
 [Português](README.md) · **English**
 
 A web app for **scale modeling**: pick the paint line you own (Acrilex, Tamiya, Vallejo, Mr. Hobby, Humbrol, AK,
-AMMO…), the color you want to match (from any of 10 catalogs, including FS 595 and RAL) and the app computes the mix.
+AMMO, Scale75…), the color you want to match (from any of 11 catalogs, including FS 595 and RAL) and the app computes the mix.
 Paint is treated as **pigment** (Kubelka-Munk spectral model), not as an RGB average, which is what makes the prediction
 land close to what happens on the bench. Plain JavaScript, ES modules, **no build step and no dependencies**.
 
@@ -15,7 +15,7 @@ The interface is available in Brazilian Portuguese and English (switch it at the
   (perceived color difference) to the target, and four mixing models side by side (pigment vs. RGB).
 - **Suggests recipes:** the automatic search finds mixes of 1 to 4 paints that approach the target, optionally using only
   the paints you own.
-- **Target color from any catalog:** more than 3,300 colors in 10 catalogs, or a free color (the "show finish" option labels swatches as matte, gloss, metallic, etc.).
+- **Target color from any catalog:** more than 3,900 colors in 11 catalogs, or a free color (the "show finish" option labels swatches as matte, gloss, metallic, etc.).
 - **Equivalents in other brands:** for the target (or for the computed mix), the closest paints in each brand (by ΔE00)
   and, when the manufacturer declares the equivalence, an **AMMO** or **AK** badge.
 - **Full catalog (browse only):** a button at the top of the page opens every paint of each brand, including the metallic,
@@ -53,7 +53,8 @@ dependencies). The site is published with GitHub Pages by `.github/workflows/pag
 
 All colors are **on-screen approximations**, extracted from PDF catalogs, manufacturer websites or product images.
 Metallic, translucent and fluorescent paints are the ones that stray the most; swatches that are gradients in the
-original show a dashed border.
+original show a dashed border. Paints marked **≈ approx.** have an approximate color (gradient, read from the bottle
+photo or from a thin swatch): they are fine for browsing but are not used as mixing ingredients.
 
 | Catalog | Colors | Lines | Source |
 |---|---:|---|---|
@@ -66,6 +67,7 @@ original show a dashed border.
 | RAL Classic | 216 | — | <https://www.ralcolorchart.com/ral-classic/> |
 | AK | 177 | Standard, Civil, Military | Real Colors catalog (PDF) |
 | AMMO by Mig | 417 | Acrylic Colors, ATOM | *Catalogue 2024* (PDF) |
+| Scale75 | 549 | Scalecolor (with Metal n' Alchemy and Inktense), Fantasy & Games, Warfront, Instant Colors, FX Fluor, Scalecolor Artist, Flow (oil), Drop & Paint, Scalecolor Games | official site <https://scale75.com> (brush swatches; Drop & Paint and Scalecolor Games only have the bottle photo, so their color is approximate) |
 | Acrilex | 95 | Matte ("Fosca") | 2025 catalog (PDF, swatches on pp. 36–37) |
 
 Each source has its own method, described in [`ferramentas/README.md`](ferramentas/README.md) (scripts to redo the
@@ -146,6 +148,8 @@ catalogos/            old static HTML pages (Tamiya, Revell, Acrilex)
 
 - **Idea and direction:** [Prof. Dr. David Buzatto](https://davidbuzatto.com.br/).
 - **Development:** [Claude](https://claude.com/claude-code) (Anthropic), an AI assistant, under the author's direction.
+- **Scale75 catalog:** proposed by [Marden](https://github.com/mardden), who put together the first version of the data from
+  Scalemates; the current data were rebuilt from Scale75's official website and adjusted by the author.
 - **License:** code under the [MIT license](LICENSE). The color data are approximations derived from third-party catalogs
   and websites, provided for informational use, without warranty and **without affiliation, sponsorship or endorsement**
   by the manufacturers; names and trademarks belong to their owners.

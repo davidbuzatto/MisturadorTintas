@@ -19,7 +19,7 @@ export const DEFAULT_SET = 'acrilex';
 
 /**
  * Definição dos conjuntos. `marca`/`rotulo` aparecem no seletor; `quimica` é uma chave de texto
- * ("acrilica", "lacquer", "esmalte"); `tab`/`line` apontam para o catálogo (e a linha dentro dele).
+ * ("acrilica", "lacquer", "esmalte", "oleo"); `tab`/`line` apontam para o catálogo (e a linha dentro dele).
  * `anchors` fixa as âncoras (códigos); sem ela, são escolhidas automaticamente.
  */
 export const INGREDIENT_SETS = [
@@ -40,6 +40,11 @@ export const INGREDIENT_SETS = [
   { id: 'ak', marca: 'AK', rotulo: 'Real Colors', quimica: 'lacquer', tab: 'ak' },
   { id: 'ammo-acrylic', marca: 'AMMO', rotulo: 'Acrylic Colors', quimica: 'acrilica', tab: 'ammo', line: 'Acrylic Colors' },
   { id: 'ammo-atom', marca: 'AMMO', rotulo: 'ATOM', quimica: 'acrilica', tab: 'ammo', line: 'ATOM' },
+  { id: 'scale75-scalecolor', marca: 'Scale75', rotulo: 'Scalecolor', quimica: 'acrilica', tab: 'scale75', line: 'Scalecolor' },
+  { id: 'scale75-fantasy', marca: 'Scale75', rotulo: 'Fantasy & Games', quimica: 'acrilica', tab: 'scale75', line: 'Fantasy & Games' },
+  { id: 'scale75-warfront', marca: 'Scale75', rotulo: 'Warfront', quimica: 'acrilica', tab: 'scale75', line: 'Warfront' },
+  { id: 'scale75-artist', marca: 'Scale75', rotulo: 'Scalecolor Artist', quimica: 'acrilica', tab: 'scale75', line: 'Scalecolor Artist' },
+  { id: 'scale75-flow', marca: 'Scale75', rotulo: 'Flow', quimica: 'oleo', tab: 'scale75', line: 'Flow' },
 ];
 
 /** Séries (campo `series`) cujas tintas o modelo de mistura não representa. */
@@ -55,6 +60,7 @@ const NOME_NAO_MISTURAVEL = /\bmetall?ic\b|metaliz|^clear\b|\btransparent|\bfluo
  */
 export function misturavel(p) {
   if (p.degrade) return false;
+  if (p.aprox) return false; // cor aproximada (frasco ou amostra diluída): não serve de base para calcular misturas
   if (p.finish === 'Metallic' || p.finish === 'Pearl') return false;
   if (p.series && SERIE_NAO_MISTURAVEL.test(p.series)) return false;
   return !NOME_NAO_MISTURAVEL.test(p.name);

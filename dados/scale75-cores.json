@@ -1,0 +1,4568 @@
+[
+ {
+  "code": "SC-00",
+  "name": "Black",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#0c0b0c"
+ },
+ {
+  "code": "SC-01",
+  "name": "White",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#ebe9ed"
+ },
+ {
+  "code": "SC-02",
+  "name": "Nacre",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#ada486"
+ },
+ {
+  "code": "SC-03",
+  "name": "Graphite",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#5f5f62"
+ },
+ {
+  "code": "SC-04",
+  "name": "Anthracite Grey",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#232f3f"
+ },
+ {
+  "code": "SC-05",
+  "name": "Arctic Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a8b2c9"
+ },
+ {
+  "code": "SC-06",
+  "name": "Bering Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2a5964"
+ },
+ {
+  "code": "SC-07",
+  "name": "Caspian Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2a3f4b"
+ },
+ {
+  "code": "SC-08",
+  "name": "Abyssal Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2c2c30"
+ },
+ {
+  "code": "SC-09",
+  "name": "White Sands",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#fff8d9"
+ },
+ {
+  "code": "SC-10",
+  "name": "Tenere Yellow",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#d9c851"
+ },
+ {
+  "code": "SC-11",
+  "name": "Sahara Yellow",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a97c0f"
+ },
+ {
+  "code": "SC-12",
+  "name": "Gobi Brown",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#56432b"
+ },
+ {
+  "code": "SC-13",
+  "name": "Dubai Brown",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4a3126"
+ },
+ {
+  "code": "SC-14",
+  "name": "Kalahari Orange",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#8e341b"
+ },
+ {
+  "code": "SC-15",
+  "name": "Adriatic Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#087880"
+ },
+ {
+  "code": "SC-16",
+  "name": "Eclipse Grey",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#0f0e12"
+ },
+ {
+  "code": "SC-17",
+  "name": "Pale Skin",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#ebd0bc"
+ },
+ {
+  "code": "SC-18",
+  "name": "Light Skin",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#e0a657"
+ },
+ {
+  "code": "SC-19",
+  "name": "Golden Skin",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#f0b371"
+ },
+ {
+  "code": "SC-20",
+  "name": "Basic Flesh",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#b07a5f"
+ },
+ {
+  "code": "SC-21",
+  "name": "Pink Flesh",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a66b5a"
+ },
+ {
+  "code": "SC-22",
+  "name": "Arabic Shadow",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#684c27"
+ },
+ {
+  "code": "SC-23",
+  "name": "Indian Shadow",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4c2f32"
+ },
+ {
+  "code": "SC-24",
+  "name": "African Shadow",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#231a1d"
+ },
+ {
+  "code": "SC-25",
+  "name": "Birch",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#cacab0"
+ },
+ {
+  "code": "SC-26",
+  "name": "Sandalwood",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#856d63"
+ },
+ {
+  "code": "SC-27",
+  "name": "Iroko",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a18046"
+ },
+ {
+  "code": "SC-28",
+  "name": "Orange Leather",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#835034"
+ },
+ {
+  "code": "SC-29",
+  "name": "Walnut",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#574a40"
+ },
+ {
+  "code": "SC-30",
+  "name": "Red Leather",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#43363a"
+ },
+ {
+  "code": "SC-31",
+  "name": "Brown Leather",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#44342f"
+ },
+ {
+  "code": "SC-32",
+  "name": "Black Leather",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#221b20"
+ },
+ {
+  "code": "SC-33",
+  "name": "Sunset Purple",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4e3543"
+ },
+ {
+  "code": "SC-34",
+  "name": "Fuchsia",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a81c2c"
+ },
+ {
+  "code": "SC-35",
+  "name": "Deep Red",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#633036"
+ },
+ {
+  "code": "SC-36",
+  "name": "Blood Red",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#7f2a2a"
+ },
+ {
+  "code": "SC-37",
+  "name": "Antares Red",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a7221a"
+ },
+ {
+  "code": "SC-38",
+  "name": "Aldebaran Network",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a92b21"
+ },
+ {
+  "code": "SC-39",
+  "name": "Mars Orange",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#b0542a"
+ },
+ {
+  "code": "SC-40",
+  "name": "Sol Yellow",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#ffdf51"
+ },
+ {
+  "code": "SC-41",
+  "name": "Black Forest Green",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#304d3f"
+ },
+ {
+  "code": "SC-42",
+  "name": "Boreal Green",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#25463b"
+ },
+ {
+  "code": "SC-43",
+  "name": "Irati Green",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#338335"
+ },
+ {
+  "code": "SC-44",
+  "name": "Sherwood Green",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#788b2d"
+ },
+ {
+  "code": "SC-45",
+  "name": "Ardenes Green",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#434e3d"
+ },
+ {
+  "code": "SC-46",
+  "name": "Field Grey",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#525b51"
+ },
+ {
+  "code": "SC-47",
+  "name": "Spring Green",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#75b441"
+ },
+ {
+  "code": "SC-48",
+  "name": "Fall Green",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a6b235"
+ },
+ {
+  "code": "SC-49",
+  "name": "Caribbean Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#348d79"
+ },
+ {
+  "code": "SC-50",
+  "name": "Sky Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#216dae"
+ },
+ {
+  "code": "SC-51",
+  "name": "Mediterranean Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#20578c"
+ },
+ {
+  "code": "SC-52",
+  "name": "Tesla Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3138a2"
+ },
+ {
+  "code": "SC-53",
+  "name": "Cantabric Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2c4151"
+ },
+ {
+  "code": "SC-54",
+  "name": "Navy Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1e3255"
+ },
+ {
+  "code": "SC-55",
+  "name": "Deep Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2c3432"
+ },
+ {
+  "code": "SC-56",
+  "name": "Violet Blue",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#30254d"
+ },
+ {
+  "code": "SC-57",
+  "name": "Petroleum Grey",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3b3735"
+ },
+ {
+  "code": "SC-58",
+  "name": "Graphene Grey",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#404347"
+ },
+ {
+  "code": "SC-59",
+  "name": "Brown Grey",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#564b4c"
+ },
+ {
+  "code": "SC-60",
+  "name": "Rainy Grey",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#736968"
+ },
+ {
+  "code": "SC-61",
+  "name": "Thar Brown",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#af9d7a"
+ },
+ {
+  "code": "SC-62",
+  "name": "Mojave White",
+  "line": "Scalecolor",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#c9c0a2"
+ },
+ {
+  "code": "SC-63",
+  "name": "Black Metal",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#4a4949"
+ },
+ {
+  "code": "SC-64",
+  "name": "Trash Metal",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#6f6657"
+ },
+ {
+  "code": "SC-65",
+  "name": "Heavy Metal",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#aaacab"
+ },
+ {
+  "code": "SC-66",
+  "name": "Speed Metal",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#d4d1ca"
+ },
+ {
+  "code": "SC-67",
+  "name": "White Metal",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#f9f9f8"
+ },
+ {
+  "code": "SC-68",
+  "name": "Cobalt Metal",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#3b5356"
+ },
+ {
+  "code": "SC-69",
+  "name": "Emerald Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#90b3a3"
+ },
+ {
+  "code": "SC-70",
+  "name": "Amethyst Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#8778aa"
+ },
+ {
+  "code": "SC-71",
+  "name": "Necro Gold",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#533f0d"
+ },
+ {
+  "code": "SC-72",
+  "name": "Viking Gold",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#614b2b"
+ },
+ {
+  "code": "SC-73",
+  "name": "Dwarven Gold",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#ae7a25"
+ },
+ {
+  "code": "SC-74",
+  "name": "Elven Gold",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#b88510"
+ },
+ {
+  "code": "SC-75",
+  "name": "Citrine Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#f1e3bc"
+ },
+ {
+  "code": "SC-76",
+  "name": "Tourmaline Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#e48888"
+ },
+ {
+  "code": "SC-77",
+  "name": "Kunzite Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#ca88ae"
+ },
+ {
+  "code": "SC-78",
+  "name": "Peridot Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#978e5c"
+ },
+ {
+  "code": "SC-79",
+  "name": "Inktense Black",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#292421"
+ },
+ {
+  "code": "SC-80",
+  "name": "Inktense Wood",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#501d12"
+ },
+ {
+  "code": "SC-81",
+  "name": "Inktense Chestnut",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#311a13"
+ },
+ {
+  "code": "SC-82",
+  "name": "Inktense Violet",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#271a39"
+ },
+ {
+  "code": "SC-83",
+  "name": "Inktense Blue",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#171e6b"
+ },
+ {
+  "code": "SC-84",
+  "name": "Inktense Green",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#05362b"
+ },
+ {
+  "code": "SC-85",
+  "name": "Inktense Red",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#c03526"
+ },
+ {
+  "code": "SC-86",
+  "name": "Inktense Yellow",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#f9f020"
+ },
+ {
+  "code": "SC-87",
+  "name": "Decayed Metal",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#8e6247"
+ },
+ {
+  "code": "SC-88",
+  "name": "Old Copper",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#8a6449"
+ },
+ {
+  "code": "SC-89",
+  "name": "Garnet Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#ac5f6c"
+ },
+ {
+  "code": "SC-90",
+  "name": "Ruby Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#d96570"
+ },
+ {
+  "code": "SC-91",
+  "name": "Pure Copper",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#c17c5a"
+ },
+ {
+  "code": "SC-92",
+  "name": "Victorian Brass",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#9b6e40"
+ },
+ {
+  "code": "SC-93",
+  "name": "Amber Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#e2c097"
+ },
+ {
+  "code": "SC-94",
+  "name": "Moonstone Alchemy",
+  "line": "Scalecolor",
+  "series": "Metal n' Alchemy",
+  "finish": "Metallic",
+  "hex": "#b38f70"
+ },
+ {
+  "code": "SC-95",
+  "name": "Inktense Brown",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#2f2e28"
+ },
+ {
+  "code": "SC-96",
+  "name": "Inktense Crimson",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#af2331"
+ },
+ {
+  "code": "SC-97",
+  "name": "Inktense Oxide",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#b03732"
+ },
+ {
+  "code": "SC-98",
+  "name": "Inktense Ochre",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#aa6624"
+ },
+ {
+  "code": "SC-99",
+  "name": "Inktense Cyan",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Satin",
+  "hex": "#0a2586"
+ },
+ {
+  "code": "SC-100",
+  "name": "Inktense Lime",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Matt",
+  "hex": "#18890e"
+ },
+ {
+  "code": "SC-101",
+  "name": "Inktense Olive",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Matt",
+  "hex": "#293c20"
+ },
+ {
+  "code": "SC-102",
+  "name": "Inktense White",
+  "line": "Scalecolor",
+  "series": "Inktense",
+  "finish": "Matt",
+  "hex": "#ececec"
+ },
+ {
+  "code": "SFG-00",
+  "name": "Decay Black",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#121111"
+ },
+ {
+  "code": "SFG-01",
+  "name": "Purity White",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#f1f0f1"
+ },
+ {
+  "code": "SFG-02",
+  "name": "Hastur Purple",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#6b0018"
+ },
+ {
+  "code": "SFG-03",
+  "name": "Mayhem Red",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#8d0015"
+ },
+ {
+  "code": "SFG-04",
+  "name": "Baal Crimson",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#c1002d"
+ },
+ {
+  "code": "SFG-05",
+  "name": "Beherit Red",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#d42719"
+ },
+ {
+  "code": "SFG-06",
+  "name": "Tiamat Orange",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#e77624"
+ },
+ {
+  "code": "SFG-07",
+  "name": "Ishtar Pink",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#e19a71"
+ },
+ {
+  "code": "SFG-08",
+  "name": "Marduk Yellow",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#f3e400"
+ },
+ {
+  "code": "SFG-09",
+  "name": "Lilith Yellow",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#faf58f"
+ },
+ {
+  "code": "SFG-10",
+  "name": "Misfits Green",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#2e3b30"
+ },
+ {
+  "code": "SFG-11",
+  "name": "Bloodfest Crimson",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#772f3f"
+ },
+ {
+  "code": "SFG-12",
+  "name": "Braineater Azure",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#4c477a"
+ },
+ {
+  "code": "SFG-13",
+  "name": "Undead Flesh",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#9ba563"
+ },
+ {
+  "code": "SFG-14",
+  "name": "Resurrection Flesh",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#945e41"
+ },
+ {
+  "code": "SFG-15",
+  "name": "Harvester Flesh",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#d6ab94"
+ },
+ {
+  "code": "SFG-16",
+  "name": "Hellbound Flesh",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#90a792"
+ },
+ {
+  "code": "SFG-17",
+  "name": "Moonray Flesh",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#dfcba6"
+ },
+ {
+  "code": "SFG-18",
+  "name": "Riff Green",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#273f2c"
+ },
+ {
+  "code": "SFG-19",
+  "name": "Orcish Dermis",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#dd6651"
+ },
+ {
+  "code": "SFG-20",
+  "name": "Merm Green",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#32471a"
+ },
+ {
+  "code": "SFG-21",
+  "name": "Greenskin Flesh",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#205520"
+ },
+ {
+  "code": "SFG-22",
+  "name": "Surfer Orc Flesh",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#288f78"
+ },
+ {
+  "code": "SFG-23",
+  "name": "Slimer Green",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#468033"
+ },
+ {
+  "code": "SFG-24",
+  "name": "Goblin Flesh",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#65a721"
+ },
+ {
+  "code": "SFG-25",
+  "name": "Toxic Waste Green",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#c9db2e"
+ },
+ {
+  "code": "SFG-26",
+  "name": "Huldra Blue",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#1b303c"
+ },
+ {
+  "code": "SFG-27",
+  "name": "Eldandil Violet",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#272130"
+ },
+ {
+  "code": "SFG-28",
+  "name": "Arphen Jade",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#004535"
+ },
+ {
+  "code": "SFG-29",
+  "name": "Arianrhod Blue",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#001a77"
+ },
+ {
+  "code": "SFG-30",
+  "name": "Amarth Blue",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#0079cc"
+ },
+ {
+  "code": "SFG-31",
+  "name": "Jorildyn Turquoise",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#086a9c"
+ },
+ {
+  "code": "SFG-32",
+  "name": "Lendanis Grey",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#747a9d"
+ },
+ {
+  "code": "SFG-33",
+  "name": "Hiril Blue",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#4789a3"
+ },
+ {
+  "code": "SFG-34",
+  "name": "Arbuckles Brown",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#362c2a"
+ },
+ {
+  "code": "SFG-35",
+  "name": "Bosh Chesnut",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#523122"
+ },
+ {
+  "code": "SFG-36",
+  "name": "Sharpnel Red",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#533127"
+ },
+ {
+  "code": "SFG-37",
+  "name": "Vulcan Orange",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#b55c39"
+ },
+ {
+  "code": "SFG-38",
+  "name": "Cokum Copper",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#9d5b12"
+ },
+ {
+  "code": "SFG-39",
+  "name": "Peanut Butter",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#cf8100"
+ },
+ {
+  "code": "SFG-40",
+  "name": "Blackert Brown",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#a46642"
+ },
+ {
+  "code": "SFG-41",
+  "name": "Hykey Yellow",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#f0e699"
+ },
+ {
+  "code": "SFG-42",
+  "name": "Necro Grey",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#1d1d1d"
+ },
+ {
+  "code": "SFG-43",
+  "name": "Despair Green",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#161c1c"
+ },
+ {
+  "code": "SFG-44",
+  "name": "Tindalos Red",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#342523"
+ },
+ {
+  "code": "SFG-45",
+  "name": "Rlyeh Grey",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#2f393b"
+ },
+ {
+  "code": "SFG-46",
+  "name": "Innsmouth Blue",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#3d5b68"
+ },
+ {
+  "code": "SFG-47",
+  "name": "Miskatonic Grey",
+  "line": "Fantasy & Games",
+  "series": "",
+  "finish": "Satin",
+  "hex": "#aeadae"
+ },
+ {
+  "code": "SW-00",
+  "name": "Dunkelgelb",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#bfb145"
+ },
+ {
+  "code": "SW-01",
+  "name": "Olivgrün",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#6f773c"
+ },
+ {
+  "code": "SW-02",
+  "name": "Rotbraun",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#967861"
+ },
+ {
+  "code": "SW-03",
+  "name": "Rotbraun Primer",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#874f3f"
+ },
+ {
+  "code": "SW-04",
+  "name": "Dunkelgrau",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#5d5f65"
+ },
+ {
+  "code": "SW-05",
+  "name": "Dunkelbraun",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#5b493d"
+ },
+ {
+  "code": "SW-06",
+  "name": "Gelbbraun",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#b18e58"
+ },
+ {
+  "code": "SW-07",
+  "name": "Graugrün",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#837344"
+ },
+ {
+  "code": "SW-08",
+  "name": "Camo Medium Brown",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#7a5430"
+ },
+ {
+  "code": "SW-09",
+  "name": "Camo Dark Green",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#45472d"
+ },
+ {
+  "code": "SW-10",
+  "name": "Camo Medium Green",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#869263"
+ },
+ {
+  "code": "SW-11",
+  "name": "Camo Light Green",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#adae3f"
+ },
+ {
+  "code": "SW-12",
+  "name": "Ochre Brown Camouflage",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#ac8d43"
+ },
+ {
+  "code": "SW-13",
+  "name": "Camo Grey Brown",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#9a7d5b"
+ },
+ {
+  "code": "SW-14",
+  "name": "Camo Highlights",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#f2b96e"
+ },
+ {
+  "code": "SW-15",
+  "name": "Flat Black",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#222121"
+ },
+ {
+  "code": "SW-16",
+  "name": "Camo Grey",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#98855f"
+ },
+ {
+  "code": "SW-17",
+  "name": "Red Brown Camo",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#764f2f"
+ },
+ {
+  "code": "SW-18",
+  "name": "Camo Dark Brown",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1f191d"
+ },
+ {
+  "code": "SW-19",
+  "name": "Golden Brown Camo",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#cd8a22"
+ },
+ {
+  "code": "SW-20",
+  "name": "Italian Green Camo",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4a5a39"
+ },
+ {
+  "code": "SW-21",
+  "name": "Camo Yellow Sand",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#bd9f58"
+ },
+ {
+  "code": "SW-22",
+  "name": "Camo Top Lights",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#f9d78a"
+ },
+ {
+  "code": "SW-23",
+  "name": "Camo Top Shadows",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1f1f1f"
+ },
+ {
+  "code": "SW-24",
+  "name": "Dunkelgelb 44",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a89b75"
+ },
+ {
+  "code": "SW-25",
+  "name": "Rotbraun 44",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#65452e"
+ },
+ {
+  "code": "SW-26",
+  "name": "Olivgrün 44",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#7c8849"
+ },
+ {
+  "code": "SW-27",
+  "name": "Creamy Weiss",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#fcfbdb"
+ },
+ {
+  "code": "SW-28",
+  "name": "Braun",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#c1a05b"
+ },
+ {
+  "code": "SW-29",
+  "name": "Grau",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a69772"
+ },
+ {
+  "code": "SW-30",
+  "name": "Green Ochre",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a48b41"
+ },
+ {
+  "code": "SW-31",
+  "name": "Desert Yellow",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#c5a876"
+ },
+ {
+  "code": "SW-32",
+  "name": "Sand Yellow",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#dfcf8e"
+ },
+ {
+  "code": "SW-33",
+  "name": "Dark Earth",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#5b4b3d"
+ },
+ {
+  "code": "SW-34",
+  "name": "Pale Earth",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#786037"
+ },
+ {
+  "code": "SW-35",
+  "name": "Olive Brown",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#79805d"
+ },
+ {
+  "code": "SW-36",
+  "name": "Sahara Sand",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a68736"
+ },
+ {
+  "code": "SW-37",
+  "name": "Leaden Sky",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2a3449"
+ },
+ {
+  "code": "SW-38",
+  "name": "Field Grey 1",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4e5a45"
+ },
+ {
+  "code": "SW-39",
+  "name": "Field Grey 2",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#363f2d"
+ },
+ {
+  "code": "SW-40",
+  "name": "Titanium Grey",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#423f3b"
+ },
+ {
+  "code": "SW-41",
+  "name": "Smoke Grey",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#5f5154"
+ },
+ {
+  "code": "SW-42",
+  "name": "Slate Grey",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2b282c"
+ },
+ {
+  "code": "SW-43",
+  "name": "Russian Green",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3b4528"
+ },
+ {
+  "code": "SW-44",
+  "name": "Russian Light Green",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#5b5f2f"
+ },
+ {
+  "code": "SW-45",
+  "name": "Russian Uniform",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#6b5635"
+ },
+ {
+  "code": "SW-46",
+  "name": "Panzer Grey",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2c282e"
+ },
+ {
+  "code": "SW-47",
+  "name": "Panzer Yellow",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a59755"
+ },
+ {
+  "code": "SW-48",
+  "name": "American Olive",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#574f31"
+ },
+ {
+  "code": "SW-49",
+  "name": "Ocean Grey",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#586871"
+ },
+ {
+  "code": "SW-50",
+  "name": "US Medium Brown",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#866a4f"
+ },
+ {
+  "code": "SW-51",
+  "name": "US Dark Brown",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#684b35"
+ },
+ {
+  "code": "SW-52",
+  "name": "US Green",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3c3c31"
+ },
+ {
+  "code": "SW-53",
+  "name": "Red Label",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#c40000"
+ },
+ {
+  "code": "SW-54",
+  "name": "Yellow Code",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#e2a60a"
+ },
+ {
+  "code": "SW-55",
+  "name": "Flight Blue",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1b5486"
+ },
+ {
+  "code": "SW-56",
+  "name": "Light Sky",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#7598c4"
+ },
+ {
+  "code": "SW-57",
+  "name": "Shadow Blue",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#48526d"
+ },
+ {
+  "code": "SW-58",
+  "name": "White",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#f6f6f6"
+ },
+ {
+  "code": "SW-59",
+  "name": "Orange",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#c9491f"
+ },
+ {
+  "code": "SW-60",
+  "name": "Ocean Blue",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1e2f3f"
+ },
+ {
+  "code": "SW-61",
+  "name": "Deep Ocean",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#191b25"
+ },
+ {
+  "code": "SW-62",
+  "name": "Winter Shadow",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#484849"
+ },
+ {
+  "code": "SW-63",
+  "name": "Winter Grey",
+  "line": "Warfront",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#72787b"
+ },
+ {
+  "code": "SIN-00",
+  "name": "Shadow Black",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#34323a"
+ },
+ {
+  "code": "SIN-02",
+  "name": "Dragon Blood",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#862422"
+ },
+ {
+  "code": "SIN-03",
+  "name": "Health Red",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#a52b23"
+ },
+ {
+  "code": "SIN-04",
+  "name": "Love Affair",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#a32423"
+ },
+ {
+  "code": "SIN-05",
+  "name": "Life Red",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#b53116"
+ },
+ {
+  "code": "SIN-06",
+  "name": "Ragweed Orange",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#d76c1b"
+ },
+ {
+  "code": "SIN-07",
+  "name": "Drain Life",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#d0725e"
+ },
+ {
+  "code": "SIN-08",
+  "name": "Full Healing",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#fac529"
+ },
+ {
+  "code": "SIN-09",
+  "name": "Estus Yellow",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#f0c562"
+ },
+ {
+  "code": "SIN-10",
+  "name": "Green Zucchini",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#4f5a34"
+ },
+ {
+  "code": "SIN-11",
+  "name": "Dead Flesh",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#504143"
+ },
+ {
+  "code": "SIN-12",
+  "name": "Fairy Blood",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#4f4681"
+ },
+ {
+  "code": "SIN-13",
+  "name": "Zombie Skin",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#aca565"
+ },
+ {
+  "code": "SIN-14",
+  "name": "Phoenix Feather",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#c5866f"
+ },
+ {
+  "code": "SIN-15",
+  "name": "Human Flesh",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#d6ab95"
+ },
+ {
+  "code": "SIN-16",
+  "name": "Undead Dragon",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#798777"
+ },
+ {
+  "code": "SIN-18",
+  "name": "Paralyze Blue",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#4d57b9"
+ },
+ {
+  "code": "SIN-19",
+  "name": "Evil Root",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#bb483a"
+ },
+ {
+  "code": "SIN-20",
+  "name": "Toad Green",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#403f2a"
+ },
+ {
+  "code": "SIN-21",
+  "name": "Sulfur Yellow",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#f6e640"
+ },
+ {
+  "code": "SIN-22",
+  "name": "Belladonna Green",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#9eab80"
+ },
+ {
+  "code": "SIN-23",
+  "name": "Corrupted Stamina",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#697821"
+ },
+ {
+  "code": "SIN-24",
+  "name": "Rotten Pus",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#d1a129"
+ },
+ {
+  "code": "SIN-25",
+  "name": "Acid Green",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#999433"
+ },
+ {
+  "code": "SIN-26",
+  "name": "Remove Mana",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#293131"
+ },
+ {
+  "code": "SIN-27",
+  "name": "Arcane Purple",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#46354a"
+ },
+ {
+  "code": "SIN-28",
+  "name": "Elixir Green",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#3c5b3e"
+ },
+ {
+  "code": "SIN-29",
+  "name": "Replenish Blue",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#2744b8"
+ },
+ {
+  "code": "SIN-30",
+  "name": "Mana Regeneration",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#627ba4"
+ },
+ {
+  "code": "SIN-31",
+  "name": "Magic Blue",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#507180"
+ },
+ {
+  "code": "SIN-32",
+  "name": "Grey Spell",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#4b425b"
+ },
+ {
+  "code": "SIN-33",
+  "name": "Ancestral Blue",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#94a99b"
+ },
+ {
+  "code": "SIN-34",
+  "name": "Grizzly Brown",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#603840"
+ },
+ {
+  "code": "SIN-35",
+  "name": "Endurance Brown",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#532f25"
+ },
+ {
+  "code": "SIN-36",
+  "name": "Rage Brown",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#502b2e"
+ },
+ {
+  "code": "SIN-37",
+  "name": "Frenzy Orange",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#c75c37"
+ },
+ {
+  "code": "SIN-38",
+  "name": "Ogre Brown",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#cb7e37"
+ },
+ {
+  "code": "SIN-39",
+  "name": "Salmon Fury",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#c64c4c"
+ },
+ {
+  "code": "SIN-40",
+  "name": "Wild Beast",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#925845"
+ },
+ {
+  "code": "SIN-41",
+  "name": "Savage Beige",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#f3e3aa"
+ },
+ {
+  "code": "SIN-42",
+  "name": "Golem Grey",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#353234"
+ },
+ {
+  "code": "SIN-43",
+  "name": "Basilisk Green",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#3e5c4e"
+ },
+ {
+  "code": "SIN-44",
+  "name": "Demon Brown",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#5b3135"
+ },
+ {
+  "code": "SIN-45",
+  "name": "Dark Kraken",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#2a2d2a"
+ },
+ {
+  "code": "SIN-46",
+  "name": "Leviathan Blue",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#88a099"
+ },
+ {
+  "code": "SIN-47",
+  "name": "Spectral Wolf",
+  "line": "Instant Colors",
+  "series": "",
+  "finish": "",
+  "hex": "#a58d82"
+ },
+ {
+  "code": "SFX-00",
+  "name": "Brilli White",
+  "line": "FX Fluor",
+  "series": "",
+  "finish": "Fluo",
+  "hex": "#e0dbe1"
+ },
+ {
+  "code": "SFX-02",
+  "name": "Acid Pink",
+  "line": "FX Fluor",
+  "series": "",
+  "finish": "Fluo",
+  "hex": "#f855a3"
+ },
+ {
+  "code": "SFX-03",
+  "name": "Psychedelic Purple",
+  "line": "FX Fluor",
+  "series": "",
+  "finish": "Fluo",
+  "hex": "#652e7c"
+ },
+ {
+  "code": "SFX-04",
+  "name": "Electric Blue",
+  "line": "FX Fluor",
+  "series": "",
+  "finish": "Fluo",
+  "hex": "#202469"
+ },
+ {
+  "code": "SFX-06",
+  "name": "Speed Yellow",
+  "line": "FX Fluor",
+  "series": "",
+  "finish": "Fluo",
+  "hex": "#e8f66e"
+ },
+ {
+  "code": "SFX-07",
+  "name": "Red Ecstasy",
+  "line": "FX Fluor",
+  "series": "",
+  "finish": "Fluo",
+  "hex": "#da250b"
+ },
+ {
+  "code": "SART-01",
+  "name": "Art White",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#e5e4e2"
+ },
+ {
+  "code": "SART-02",
+  "name": "Art Black",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#242424"
+ },
+ {
+  "code": "SART-03",
+  "name": "Primary Blue",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4476c8"
+ },
+ {
+  "code": "SART-04",
+  "name": "Primary Yellow",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#d8c937"
+ },
+ {
+  "code": "SART-05",
+  "name": "Primary Red",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#cb3237"
+ },
+ {
+  "code": "SART-06",
+  "name": "Burnt Sienna Umber",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#282422"
+ },
+ {
+  "code": "SART-07",
+  "name": "Pink Flesh",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#825554"
+ },
+ {
+  "code": "SART-08",
+  "name": "Golden Flesh",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#d5a463"
+ },
+ {
+  "code": "SART-09",
+  "name": "Light Skin",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#be9587"
+ },
+ {
+  "code": "SART-10",
+  "name": "Crimson",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#ad2339"
+ },
+ {
+  "code": "SART-11",
+  "name": "Moss Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#232a24"
+ },
+ {
+  "code": "SART-12",
+  "name": "Burnt Skin",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2b2423"
+ },
+ {
+  "code": "SART-13",
+  "name": "Buff",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#978d72"
+ },
+ {
+  "code": "SART-14",
+  "name": "Pearl Grey",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#827c83"
+ },
+ {
+  "code": "SART-15",
+  "name": "Violet Grey",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#69688b"
+ },
+ {
+  "code": "SART-16",
+  "name": "Green Grey",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#232327"
+ },
+ {
+  "code": "SART-17",
+  "name": "Vanilla Yellow",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#d5ba55"
+ },
+ {
+  "code": "SART-18",
+  "name": "Yellow Naples",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#cf883f"
+ },
+ {
+  "code": "SART-19",
+  "name": "Intense Yellow",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#dd9e11"
+ },
+ {
+  "code": "SART-20",
+  "name": "Yellow Ochre",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#835115"
+ },
+ {
+  "code": "SART-21",
+  "name": "Raw Sienna",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#5f3a16"
+ },
+ {
+  "code": "SART-22",
+  "name": "Orange",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#cf4b29"
+ },
+ {
+  "code": "SART-23",
+  "name": "Magenta",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#8c1b32"
+ },
+ {
+  "code": "SART-24",
+  "name": "Purple",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#432331"
+ },
+ {
+  "code": "SART-25",
+  "name": "Dark Violet",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#34222d"
+ },
+ {
+  "code": "SART-26",
+  "name": "Turquoise Blue",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3b8088"
+ },
+ {
+  "code": "SART-27",
+  "name": "Cobalt Blue",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#18518b"
+ },
+ {
+  "code": "SART-28",
+  "name": "Light Ultramarine",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3654b2"
+ },
+ {
+  "code": "SART-29",
+  "name": "Dark Ultramarine",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#0e298f"
+ },
+ {
+  "code": "SART-30",
+  "name": "Prussian Blue",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1f2c31"
+ },
+ {
+  "code": "SART-31",
+  "name": "Light Moss Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3f492e"
+ },
+ {
+  "code": "SART-32",
+  "name": "Spring Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3a5426"
+ },
+ {
+  "code": "SART-33",
+  "name": "Emerald Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1e372c"
+ },
+ {
+  "code": "SART-34",
+  "name": "Sap Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2a3627"
+ },
+ {
+  "code": "SART-35",
+  "name": "Olive Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#353e26"
+ },
+ {
+  "code": "SART-36",
+  "name": "Earth Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#37342a"
+ },
+ {
+  "code": "SART-37",
+  "name": "Red Ochre",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#613332"
+ },
+ {
+  "code": "SART-38",
+  "name": "Burnt Umber",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2e2c2c"
+ },
+ {
+  "code": "SART-39",
+  "name": "Wood",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4e4343"
+ },
+ {
+  "code": "SART-40",
+  "name": "Raw Umber",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#37372f"
+ },
+ {
+  "code": "SART-41",
+  "name": "Dark Brown Ochre",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2b272e"
+ },
+ {
+  "code": "SART-42",
+  "name": "Burnt Sienna",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#592720"
+ },
+ {
+  "code": "SART-43",
+  "name": "Vanilla White",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#eae8c6"
+ },
+ {
+  "code": "SART-44",
+  "name": "Arctic Blue",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a9b5c8"
+ },
+ {
+  "code": "SART-45",
+  "name": "Violet Pastel",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#8769af"
+ },
+ {
+  "code": "SART-46",
+  "name": "Green Pastel",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#7d9279"
+ },
+ {
+  "code": "SART-47",
+  "name": "Off White",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#d5cdb5"
+ },
+ {
+  "code": "SART-48",
+  "name": "Blue Cake",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#405665"
+ },
+ {
+  "code": "SART-49",
+  "name": "Cork Brown",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#7f6756"
+ },
+ {
+  "code": "SART-50",
+  "name": "Pink Cake",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#d762a5"
+ },
+ {
+  "code": "SART-51",
+  "name": "Pale Skin",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#dfb5aa"
+ },
+ {
+  "code": "SART-52",
+  "name": "Sky Blue",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#a2d6e0"
+ },
+ {
+  "code": "SART-53",
+  "name": "Cobalt Violet Grey",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#6a5a6d"
+ },
+ {
+  "code": "SART-54",
+  "name": "Burgundy Wine Red",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#9f3031"
+ },
+ {
+  "code": "SART-55",
+  "name": "Lemon Yellow",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#eae132"
+ },
+ {
+  "code": "SART-56",
+  "name": "Oxide Yellow",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#6f351e"
+ },
+ {
+  "code": "SART-57",
+  "name": "Permanent Orange",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#fe6220"
+ },
+ {
+  "code": "SART-58",
+  "name": "Coral Red",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#d82f2d"
+ },
+ {
+  "code": "SART-59",
+  "name": "Violet",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4d2866"
+ },
+ {
+  "code": "SART-60",
+  "name": "Titanium Grey",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#3f3835"
+ },
+ {
+  "code": "SART-61",
+  "name": "Lime Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#d6ef2e"
+ },
+ {
+  "code": "SART-62",
+  "name": "Alizarin Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1f9338"
+ },
+ {
+  "code": "SART-63",
+  "name": "Jade Green",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#1d8b76"
+ },
+ {
+  "code": "SART-64",
+  "name": "Turquoise",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#00737b"
+ },
+ {
+  "code": "SART-65",
+  "name": "Oxford Blue",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#4b55c3"
+ },
+ {
+  "code": "SART-66",
+  "name": "Dark Prussian Blue",
+  "line": "Scalecolor Artist",
+  "series": "",
+  "finish": "Matt",
+  "hex": "#2d2a4a"
+ },
+ {
+  "code": "SART-67",
+  "name": "Neon Orange",
+  "line": "Scalecolor Artist",
+  "series": "Fluo",
+  "finish": "Matt",
+  "hex": "#ffa912"
+ },
+ {
+  "code": "SART-68",
+  "name": "Neon Pink",
+  "line": "Scalecolor Artist",
+  "series": "Fluo",
+  "finish": "Matt",
+  "hex": "#ff86ba"
+ },
+ {
+  "code": "SART-69",
+  "name": "Neon Red",
+  "line": "Scalecolor Artist",
+  "series": "Fluo",
+  "finish": "Matt",
+  "hex": "#fe463d"
+ },
+ {
+  "code": "SART-70",
+  "name": "Neon Yellow",
+  "line": "Scalecolor Artist",
+  "series": "Fluo",
+  "finish": "Matt",
+  "hex": "#e0f383"
+ },
+ {
+  "code": "SART-71",
+  "name": "Neon Green",
+  "line": "Scalecolor Artist",
+  "series": "Fluo",
+  "finish": "Matt",
+  "hex": "#9aef8d"
+ },
+ {
+  "code": "SART-72",
+  "name": "Neon Blue",
+  "line": "Scalecolor Artist",
+  "series": "Fluo",
+  "finish": "Matt",
+  "hex": "#48ccff"
+ },
+ {
+  "code": "SART-73",
+  "name": "Yellow Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#f3ce19"
+ },
+ {
+  "code": "SART-74",
+  "name": "Red Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#ae1a17"
+ },
+ {
+  "code": "SART-75",
+  "name": "Blue Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#1e174e"
+ },
+ {
+  "code": "SART-76",
+  "name": "Green Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#1f552f"
+ },
+ {
+  "code": "SART-77",
+  "name": "Orange Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#f13906"
+ },
+ {
+  "code": "SART-78",
+  "name": "Violet Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#452751"
+ },
+ {
+  "code": "SART-79",
+  "name": "Black Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#1b1a18"
+ },
+ {
+  "code": "SART-80",
+  "name": "White Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#f8f8f8"
+ },
+ {
+  "code": "SART-81",
+  "name": "Crimson Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#9a1c2e"
+ },
+ {
+  "code": "SART-82",
+  "name": "Pistachio Green Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#c8d31c"
+ },
+ {
+  "code": "SART-83",
+  "name": "Turquoise Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#1d5a5e"
+ },
+ {
+  "code": "SART-84",
+  "name": "Chestnut Ink",
+  "line": "Scalecolor Artist",
+  "series": "Ink",
+  "finish": "Satin",
+  "hex": "#453629"
+ },
+ {
+  "code": "SDP-01",
+  "name": "Golden Flesh",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#fbdbb6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-02",
+  "name": "Medium Skin",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f4dccb",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-03",
+  "name": "Tanned Skin",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f9bfa6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-04",
+  "name": "Caucasian Skin",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f9f0cf",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-05",
+  "name": "Brown Skin",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#eb8d4d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-06",
+  "name": "Cold Skin",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f9ddea",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-07",
+  "name": "Pink Flesh",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#fad9cf",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-08",
+  "name": "Light Skin",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#fbe4db",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-09",
+  "name": "Primary Yellow",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#faf850",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-10",
+  "name": "Primary Red",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f54736",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-11",
+  "name": "Primary Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#1f4be6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-12",
+  "name": "Complementary Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#2dd14d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-13",
+  "name": "Complementary Orange",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f8af4e",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-14",
+  "name": "Complementary Violet",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#6058c6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-15",
+  "name": "White",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f9f9fb",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-16",
+  "name": "Black",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#25272a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-17",
+  "name": "Aquamarine Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#40defc",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-18",
+  "name": "Turquoise",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#1cc9e2",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-19",
+  "name": "Light Ultramarine Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#3771d9",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-20",
+  "name": "Basic Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#48b7ec",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-21",
+  "name": "Dark Prussian Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#2b3149",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-22",
+  "name": "Navy Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#324c5e",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-23",
+  "name": "Deep Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#2e49b8",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-24",
+  "name": "Ultramarine Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#3c65cd",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-25",
+  "name": "Greenish Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#2e5c78",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-26",
+  "name": "Chalk Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c5e5fa",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-27",
+  "name": "Fiji Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#6ae3f3",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-28",
+  "name": "Greyish Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#d2effa",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-29",
+  "name": "Venus Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#7391df",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-30",
+  "name": "Caribbean Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#26d1f4",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-31",
+  "name": "Violet Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#4f498f",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-32",
+  "name": "Forest Blue",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#3362ac",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-33",
+  "name": "Mcqueen Red",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e2322e",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-34",
+  "name": "Coral Red",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f56d62",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-35",
+  "name": "Imperial Red",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f57657",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-36",
+  "name": "Blood Red",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#ec3c3e",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-37",
+  "name": "Dark Mauve",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e467b4",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-38",
+  "name": "Red Anger",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e22f4c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-39",
+  "name": "Magenta",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e94287",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-40",
+  "name": "Red Wine",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#8a292e",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-41",
+  "name": "Sunset Yellow",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f5cf56",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-42",
+  "name": "Glorious Yellow",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e8c748",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-43",
+  "name": "Sand Yellow",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f6f076",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-44",
+  "name": "Lemon Yellow",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#fbf463",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-45",
+  "name": "Golden Yellow",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f8de53",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-46",
+  "name": "Lime Yellow",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f0f064",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-47",
+  "name": "Yellow Parchment",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f0ec97",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-48",
+  "name": "Nostalgia Yellow",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f7f3a3",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-49",
+  "name": "Violet",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#383299",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-50",
+  "name": "Crimson",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#d6464d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-51",
+  "name": "Cold Pink",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c74f89",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-52",
+  "name": "Dark Violet",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#b33866",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-53",
+  "name": "Cardinal Purple",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#76377c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-54",
+  "name": "Natural Purple",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#998bc3",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-55",
+  "name": "Mauve",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#bcb9e6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-56",
+  "name": "Lavender",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#cfa3dc",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-57",
+  "name": "Miami Orange",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f8dc57",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-58",
+  "name": "Burnt Orange",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f3c750",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-59",
+  "name": "Liquidambar Ochre",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#faeb5c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-60",
+  "name": "Greenish Ochre",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#ebe053",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-61",
+  "name": "Diabolic Orange",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#ef9245",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-62",
+  "name": "Orange Oxide",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e3754d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-63",
+  "name": "Leaf Ochre",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#b87a35",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-64",
+  "name": "Ochre Nostalgia",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e3cc48",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-65",
+  "name": "Lime Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e5ee58",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-66",
+  "name": "Light Olive Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#a5dc55",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-67",
+  "name": "Spring Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#afe157",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-68",
+  "name": "Jade Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#67d2bf",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-69",
+  "name": "Pine Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#364542",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-70",
+  "name": "Irati Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#6cd157",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-71",
+  "name": "Light Moss Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#4ca84d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-72",
+  "name": "Moss Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#53774a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-73",
+  "name": "Green Toad",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#40653b",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-74",
+  "name": "Black Jungle Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#3e564d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-75",
+  "name": "Pear Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e6f0b3",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-76",
+  "name": "Spearmint",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c8e8c7",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-77",
+  "name": "Emerald Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#2f7870",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-78",
+  "name": "Greyish Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c7d0b6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-79",
+  "name": "Olive Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#b9c359",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-80",
+  "name": "Caterpillar Green",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f3ee6c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-81",
+  "name": "Dark Brown",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#534750",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-82",
+  "name": "Chocolate Brown",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#6c3b38",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-83",
+  "name": "Burnt Siena Umber",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#de8455",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-84",
+  "name": "Burnt Shade",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#a35941",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-85",
+  "name": "Light Brown",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#ccb89a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-86",
+  "name": "Brown Donkey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#eae5c4",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-87",
+  "name": "Natural Shade",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#a86c47",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-88",
+  "name": "Green Earth",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#887b55",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-89",
+  "name": "Arctic Grey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#d5dbe5",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-90",
+  "name": "Graphite Grey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#454d5f",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-91",
+  "name": "Confederate Grey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c4bfb9",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-92",
+  "name": "Ufo Grey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#d0d1d2",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-93",
+  "name": "Bluish Grey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c0d2dc",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-94",
+  "name": "Greenish Grey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#d2d6d0",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-95",
+  "name": "Grey Fox",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#d5cfd1",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-96",
+  "name": "Violet Grey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#7d7890",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-97",
+  "name": "Blue Cake",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#def0fd",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-98",
+  "name": "Turquoise Cake",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#caeefd",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-99",
+  "name": "Green Pastel",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#daf2f7",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-100",
+  "name": "Pastel Grey",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#edf0eb",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-101",
+  "name": "Mummy White",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f2eecd",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-102",
+  "name": "Yellow Cake",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f3f4d6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-103",
+  "name": "Violet Pastel",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#e9d8ef",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-104",
+  "name": "Red Cake",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#f5d2e3",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-105",
+  "name": "Black Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#4d5059",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-106",
+  "name": "Burnished Steel",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#a4a2a1",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-107",
+  "name": "Steel",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#a1a4ac",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-108",
+  "name": "Aluminum",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#b8b8c2",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-109",
+  "name": "White Steel",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#b3b5b6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-110",
+  "name": "Bluish Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#83a9b7",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-111",
+  "name": "Greenish Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#8bbab8",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-112",
+  "name": "Purplish Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#afa8c6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-113",
+  "name": "Black Gold",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#8a7b4a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-114",
+  "name": "Viking Gold",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#bda975",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-115",
+  "name": "Burnt Gold",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c6aa64",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-116",
+  "name": "New Gold",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#d2c589",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-117",
+  "name": "White Gold",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#cbc9b6",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-118",
+  "name": "Pinky Gold",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#ceb5b4",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-119",
+  "name": "Kunzite Gold",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#b4b18a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-120",
+  "name": "Light Brass",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#ccabbf",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-121",
+  "name": "Old Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#6b502a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-122",
+  "name": "Old Copper",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#ae874a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-123",
+  "name": "Garnet Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#ad5552",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-124",
+  "name": "Ruby Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c8899e",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-125",
+  "name": "Pure Copper",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c58a57",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-126",
+  "name": "Dark Brass",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#b38b3d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-127",
+  "name": "Amber Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c29e6b",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SDP-128",
+  "name": "Moon Metal",
+  "line": "Drop & Paint",
+  "series": "",
+  "finish": "",
+  "hex": "#c2b197",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-01",
+  "name": "King Purple",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#5f1c2a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-02",
+  "name": "Blood &amp; Wine RED",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#d32628",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-03",
+  "name": "Anger Crimson",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#e43548",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-04",
+  "name": "Tengu Red",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#e44d24",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-05",
+  "name": "Rebel Orange",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#e78e1c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-06",
+  "name": "Milan Pink",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#debdac",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-07",
+  "name": "Marine Yellow",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#ece81c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-08",
+  "name": "Wasp Yellow",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#e6e257",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-09",
+  "name": "Baby Leaf Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#1e4a32",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-10",
+  "name": "Dark Peony Purple",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#9a293a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-11",
+  "name": "Amethyst Lillac",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#7c8bce",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-12",
+  "name": "Pale Emerald Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#bfc387",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-13",
+  "name": "Survival Skin",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#dcac80",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-14",
+  "name": "Sinner Flesh",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#dfc6bb",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-15",
+  "name": "Sexy Zombie Skin",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#cad6d2",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-16",
+  "name": "Victorian Flesh",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#e4dcc5",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-17",
+  "name": "Eryn Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#233a35",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-18",
+  "name": "Pink Of Desire",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#e79889",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-19",
+  "name": "Druid Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#37622e",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-20",
+  "name": "Cthulhu Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#1a8f45",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-21",
+  "name": "Green-Eyed Monster",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#19c8b1",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-22",
+  "name": "Jade Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#53b233",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-23",
+  "name": "Valyrian Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#65ca3b",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-24",
+  "name": "Bile Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#d0dc83",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-25",
+  "name": "Siesta Blue",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#1a293b",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-26",
+  "name": "Nightmare Violet",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#492270",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-27",
+  "name": "Ñañara Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#1a6e5d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-28",
+  "name": "Sweet Dreams Blue",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#4240b1",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-30",
+  "name": "Dull Blue",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#19a7d1",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-31",
+  "name": "Dried Lavender",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#9dadcb",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-32",
+  "name": "Lazy Blue",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#19c4d9",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-33",
+  "name": "Brown Black Pudding",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#492e2c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-34",
+  "name": "Insatiable Brown",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#8e482d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-35",
+  "name": "Milk Chocolate",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#943327",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-36",
+  "name": "Melange Brown",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#d97d26",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-37",
+  "name": "Roasted Brown",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#cd8d2a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-38",
+  "name": "Honey",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#d7a325",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-39",
+  "name": "Starving Brown",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#d8a466",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-41",
+  "name": "Modesty Black",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#191b1c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-42",
+  "name": "Egoism Grey",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#272b3c",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-43",
+  "name": "Ego Green",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#1a3f4a",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-44",
+  "name": "Dark Dahlia Brown",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#792e2d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-45",
+  "name": "Rogue Grey",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#375359",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-46",
+  "name": "Vanity Blue",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#1a6f8d",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-47",
+  "name": "Hubris Grey",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#d0cfd0",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SCG-48",
+  "name": "Arrogance White",
+  "line": "Scalecolor Games",
+  "series": "",
+  "finish": "",
+  "hex": "#ecedee",
+  "aprox": "frasco"
+ },
+ {
+  "code": "SFL-01",
+  "name": "Titanium White",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#e7e5e8"
+ },
+ {
+  "code": "SFL-02",
+  "name": "Medium Yellow",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#efca1d"
+ },
+ {
+  "code": "SFL-03",
+  "name": "Vermilion",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#d62822"
+ },
+ {
+  "code": "SFL-04",
+  "name": "Cobalt Blue Light (Hue)",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#2e4fbb"
+ },
+ {
+  "code": "SFL-05",
+  "name": "Ivory Black",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#212328"
+ },
+ {
+  "code": "SFL-06",
+  "name": "Turquoise Blue",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#199ea0"
+ },
+ {
+  "code": "SFL-07",
+  "name": "Paris Red",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#973930"
+ },
+ {
+  "code": "SFL-08",
+  "name": "Persian Yellow",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#d24528"
+ },
+ {
+  "code": "SFL-09",
+  "name": "Prussian Blue",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#1f1d27"
+ },
+ {
+  "code": "SFL-10",
+  "name": "Stencil Yellow",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#edca3f"
+ },
+ {
+  "code": "SFL-11",
+  "name": "Olive Green",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#476332"
+ },
+ {
+  "code": "SFL-12",
+  "name": "Stone Grey",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#c9bfc4"
+ },
+ {
+  "code": "SFL-13",
+  "name": "Toad Green",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#1d2725"
+ },
+ {
+  "code": "SFL-14",
+  "name": "Antique Pink",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#ef9271"
+ },
+ {
+  "code": "SFL-15",
+  "name": "Moist Soil",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#53382f"
+ },
+ {
+  "code": "SFL-16",
+  "name": "Red Mauve",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#5d2d36"
+ },
+ {
+  "code": "SFL-17",
+  "name": "Scroll White",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#f2e9bd"
+ },
+ {
+  "code": "SFL-18",
+  "name": "Bronzed Skin",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#f9c880"
+ },
+ {
+  "code": "SFL-19",
+  "name": "Rusty Brown",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#7f3e2c"
+ },
+ {
+  "code": "SFL-20",
+  "name": "Raw Umber",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#5f4535"
+ },
+ {
+  "code": "SFL-21",
+  "name": "Sand Yellow",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#dbab4f"
+ },
+ {
+  "code": "SFL-22",
+  "name": "Brown Sienna",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#6a442b"
+ },
+ {
+  "code": "SFL-23",
+  "name": "Swamp Green",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#222a30"
+ },
+ {
+  "code": "SFL-24",
+  "name": "Buff",
+  "line": "Flow",
+  "series": "",
+  "finish": "",
+  "hex": "#cebe9f"
+ }
+]

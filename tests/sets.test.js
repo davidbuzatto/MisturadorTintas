@@ -27,6 +27,7 @@ const catalogos = buildCatalogs({
   ral: ler('ral-cores.json'),
   ak: ler('ak-cores.json'),
   am: ler('ammo-cores.json'),
+  sc: ler('scale75-cores.json'),
 });
 const sets = buildSets(catalogos);
 
@@ -37,7 +38,7 @@ test('linhas de ingredientes: ids únicos, padrão existe e cada uma tem tintas'
   for (const s of sets.list) {
     assert.ok(catalogos[s.tab], `catálogo ${s.tab} não existe (${s.id})`);
     assert.ok(s.paints.length >= 20, `${s.id} tem poucas tintas: ${s.paints.length}`);
-    assert.ok(['acrilica', 'lacquer', 'esmalte'].includes(s.quimica), `${s.id}: química ${s.quimica}`);
+    assert.ok(['acrilica', 'lacquer', 'esmalte', 'oleo'].includes(s.quimica), `${s.id}: química ${s.quimica}`);
     assert.ok(s.anchors.size >= 4, `${s.id}: poucas âncoras`);
     for (const a of s.anchors) assert.ok(s.porCodigo.has(a), `${s.id}: âncora ${a} fora da linha`);
   }
